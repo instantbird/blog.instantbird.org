@@ -47,3 +47,8 @@ def publish(ctx):
     """Build with the publish config and push to the remote server."""
     preview(ctx)
     run('ghp-import -p -b master output')
+
+
+@task
+def import_wordpress(ctx):
+    run('pelican-import --wpfile -o contents -m rst --dir-page bloginstantbirdorg.wordpress.2017-04-07.xml')
