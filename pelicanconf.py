@@ -6,7 +6,10 @@ AUTHOR = u'The Instantbird Team'
 SITENAME = u"The blog of Instantbird's development"
 SITEURL = ''
 
+# Set up locations of articles, pages and theme.
 PATH = 'content'
+ARTICLE_PATHS = ['articles']
+PAGE_PATHS = ['pages']
 
 TIMEZONE = 'America/New_York'
 

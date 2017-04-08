@@ -58,7 +58,7 @@ Nightlies fixed and with upgraded libpurple
    branch merges) have landed.
 -  We have welcomed translators for two new locales: Chinese and Hebrew!
    |:)|
--  We have created an ``experiments``\ mercurial repository where
+-  We have created an ``experiments`` mercurial repository where
    contributors from our community are enthusiastically experimenting
    with projects that we look forward to integrating in the default
    Instantbird code base once they are ready:
