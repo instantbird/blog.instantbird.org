@@ -37,16 +37,16 @@ Done:
    /italics/, underline and ``|code|`` (`bug
    543 <https://bugzilla.instantbird.org/show_bug.cgi?id=543>`__).
 -  We made conversation tabs look more native on Mac, taking advantage
-   of a `suggestion <http://blog.instantbird.org/a18-tabs.html>`__\ from
-   Markus Stange:The old flat look:
-   |Cropped screenshot of the old look of the unified toolbar on
-   Mac|\ Now with a nice gradient in the title bar:
+   of a `suggestion <http://blog.instantbird.org/a18-tabs.html>`__ from
+   Markus Stange:
+
+   The old flat look:
+
+   |Cropped screenshot of the old look of the unified toolbar on Mac|
+
+   Now with a nice gradient in the title bar:
+
    |Cropped screenshot of the new look of the unified toolbar on Mac|
-
-   .. raw:: html
-
-      </p>
-      <p>
 
    If you have any other ideas how to make Instantbird more awesome,
    feel free to `contact us <irc://irc.mozilla.org/#instantbird>`__ or
@@ -76,6 +76,6 @@ Next:
 -  Setup a nonprofit organization to make money matters related to the
    project transparent and to be able to accept donations.
 
-.. |Cropped screenshot of the old look of the unified toolbar on Mac| image:: http://blog.instantbird.org/images/tabs8-macosxactiveinactive.png
-.. |Cropped screenshot of the new look of the unified toolbar on Mac| image:: http://blog.instantbird.org/images/tabs8-macosxactiveinactive-trunk.png
+.. |Cropped screenshot of the old look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive.png
+.. |Cropped screenshot of the new look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive-trunk.png
 

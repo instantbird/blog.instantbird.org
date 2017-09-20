@@ -10,7 +10,7 @@ SITEURL = ''
 PATH = 'content'
 ARTICLE_PATHS = ['articles']
 PAGE_PATHS = ['pages']
-STATIC_PATHS = ['images', 'smileys']
+STATIC_PATHS = ['images', 'smileys', 'wp-content']
 
 TIMEZONE = 'America/New_York'
 

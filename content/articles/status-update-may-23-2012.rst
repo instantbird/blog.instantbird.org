@@ -19,89 +19,44 @@ even fixed a bug (see the "top protocols" page, below)!
 Landed Changes:
 ===============
 
-[caption id="attachment\_342" align="alignright" width="300"
-caption=""Top Protocol" Page in the Account Wizard"]\ |"Top Protocol"
-Page in the Account Wizard|\ [/caption]
+.. class:: right
 
-.. raw:: html
+    |"Top Protocol" Page in the Account Wizard|
 
-   <ul>
-   <li>
+    "Top Protocol" Page in the Account Wizard"
 
-The account wizard now has a `"top protocols"
-page <https://bugzilla.instantbird.org/show_bug.cgi?id=1391>`__ to allow
-users to quickly set up accounts that are most applicable to them. This
-is localizable as different instant messaging networks are popular in
-different regions.
+* The account wizard now has a `"top protocols"
+  page <https://bugzilla.instantbird.org/show_bug.cgi?id=1391>`__ to allow
+  users to quickly set up accounts that are most applicable to them. This
+  is localizable as different instant messaging networks are popular in
+  different regions.
+* Tab Completion improvements:
 
-.. raw:: html
+  * Will `no longer complete the same name multiple
+    times <https://bugzilla.instantbird.org/show_bug.cgi?id=1393>`__.
+  * You can now `cycle
+    backwards <https://bugzilla.instantbird.org/show_bug.cgi?id=1395>`__
+    through the list of completions by holding shift while pressing tab.
+  * All matching names can be cycled through now, although they are
+    `prioritized <https://bugzilla.instantbird.org/show_bug.cgi?id=1385>`__
+    as:
 
-   </li>
-   <li>
+    #. Names of people who have pinged you (i.e. said your name in the
+       chat).
+    #. Names of active participants.
+    #. Names of inactive participants.
 
-Tab Completion improvements:
+* IRC changes
 
-.. raw:: html
-
-   </li>
-   <ul>
-   <li>
-
-Will `no longer complete the same name multiple
-times <https://bugzilla.instantbird.org/show_bug.cgi?id=1393>`__.
-
-.. raw:: html
-
-   </li>
-   <li>
-
-You can now `cycle
-backwards <https://bugzilla.instantbird.org/show_bug.cgi?id=1395>`__
-through the list of completions by holding shift while pressing tab.
-
-.. raw:: html
-
-   </li>
-   <li>
-
-All matching names can be cycled through now, although they are
-`prioritized <https://bugzilla.instantbird.org/show_bug.cgi?id=1385>`__
-as:
-
-.. raw:: html
-
-   </li>
-
-#. Names of people who have pinged you (i.e. said your name in the
-   chat).
-#. Names of active participants.
-#. Names of inactive participants.
-
-.. raw:: html
-
-   </ul>
-   <li>
-
-IRC changes
-
-.. raw:: html
-
-   </li>
-
--  IRC contacts (yes, you can add IRC nicks to your contacts list!) now
-   have `tooltips which show the results of a WHOIS
-   command <https://bugzilla.instantbird.org/show_bug.cgi?id=1123>`__.
--  Better support for `tracking if a nick is
-   online/away/offline <https://bugzilla.instantbird.org/show_bug.cgi?id=1369>`__.
--  The `topic
-   UI <https://bugzilla.instantbird.org/show_bug.cgi?id=318>`__ now
-   reflects whether you have permission to edit it.
--  Many bugs were fixed and error messages were added as fallout to the
-   landing of JavaScript-IRC. Thanks for filing bugs!
-
-.. raw:: html
-
-   </ul>
+  - IRC contacts (yes, you can add IRC nicks to your contacts list!) now
+    have `tooltips which show the results of a WHOIS
+    command <https://bugzilla.instantbird.org/show_bug.cgi?id=1123>`__.
+  - Better support for `tracking if a nick is
+    online/away/offline <https://bugzilla.instantbird.org/show_bug.cgi?id=1369>`__.
+  - The `topic UI <https://bugzilla.instantbird.org/show_bug.cgi?id=318>`__ now
+    reflects whether you have permission to edit it.
+  - Many bugs were fixed and error messages were added as fallout to the
+    landing of JavaScript-IRC. Thanks for filing bugs!
 
 Google Summer of Code Status:
 =============================
@@ -132,8 +87,8 @@ application, timeline and a series of links) that he'll be updating as
 the summer continues. (And of course you can stop by our IRC channel,
 #instantbird on irc.mozilla.org, and say "Hi!")
 
-.. |"Top Protocol" Page in the Account Wizard| image:: http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page-300x243.png
+.. |"Top Protocol" Page in the Account Wizard| image:: {filename}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
    :class: size-medium wp-image-342
    :width: 300px
    :height: 243px
-   :target: http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page.png
+   :target: {filename}/wp-content/uploads/2012/05/top-protocol-page.png

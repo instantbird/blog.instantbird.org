@@ -54,18 +54,10 @@ Done:
    (bug 768), although we're still working on getting some of the Aero
    glass effects in.
 
-   .. raw:: html
-
-      <div>
-
    |Screenshot of a work in progress|
+
    Screenshot of the ongoing work on the Windows Aero theme, but also
    showing the already finished new conversation and contacts list UI.
-
-   .. raw:: html
-
-      </div>
-
 -  Users can now set their buddy icon and the display name of their
    accounts right on the contacts list (bug 334).
 -  The Conversation UI has received a major overhaul to show the buddy
@@ -96,5 +88,6 @@ Known Issues with Nightly Builds (0.3a3pre)
 -  The user icon may not appear anymore on some protocols (ICQ/AIM/?)
    after restarting the application (bug 783).
 
-.. |Screenshot of a work in progress| image:: https://wiki.instantbird.org/images/e/e7/IbGlassBorders.png
-   :target: https://wiki.instantbird.org/images/e/e7/IbGlassBorders.png
+.. |Screenshot of a work in progress| image:: {filename}/images/IbGlassBorders.png
+   :target: {filename}/images/IbGlassBorders.png
+   :width: 100%

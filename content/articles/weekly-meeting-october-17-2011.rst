@@ -21,47 +21,26 @@ addition, some plans for Instantbird 1.2 were discussed.
 Development Issues Discussed:
 -----------------------------
 
-.. raw:: html
+* Instantbird 1.1:
 
-   <ul>
-   <li>
+  - SSL Issues with GTalk
+  - Focus issues on the buddy list
+  - Release candidates for all localization prepared
 
-Instantbird 1.1:
+* Instantbird 1.2:
 
-.. raw:: html
-
-   </li>
-
--  SSL Issues with GTalk
--  Focus issues on the buddy list
--  Release candidates for all localization prepared
-
-.. raw:: html
-
-   <li>
-
-Instantbird 1.2:
-
-.. raw:: html
-
-   </li>
-
--  Check in the backlog patches that have been reviewed
--  Update to Mozilla 8 or Mozilla 9
--  Integrate JavaScript protocols: clokep's JS-IRC and XMPP from our GSoC student
--  Strive toward making libpurple optional
-
-.. raw:: html
-
-   </ul>
+  - Check in the backlog patches that have been reviewed
+  - Update to Mozilla 8 or Mozilla 9
+  - Integrate JavaScript protocols: clokep's JS-IRC and XMPP from our GSoC student
+  - Strive toward making libpurple optional
 
 Non-Development Issues Discussed:
 ---------------------------------
 
--  Florian Quèze will be attending the `Google Summer of Code Mentor
-   Summit <http://gsoc-wiki.osuosl.org/index.php/2011>`__ this coming
-   weekend
--  Publicity for 1.1 release
+- Florian Quèze will be attending the `Google Summer of Code Mentor
+  Summit <http://gsoc-wiki.osuosl.org/index.php/2011>`__ this coming
+  weekend
+- Publicity for 1.1 release
 
 **Ways to Help Out:**
 ---------------------

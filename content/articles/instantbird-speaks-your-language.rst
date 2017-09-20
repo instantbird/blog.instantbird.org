@@ -20,13 +20,9 @@ this release. This language was in Instantbird since version 0.2, but it
 was not present in version 1.2. Thanks go out to
 our Russian localization team for making this possible!
 
-.. raw:: html
-
-   <div>
-
 Since the 0.2 release, Instantbird has been available in 5 languages
 - English, Finnish, French, Polish and Russian. The 1.0 release
-brought six more languages and now Instantbird is available in \ **13**
+brought six more languages and now Instantbird is available in **13**
 languages!
 
 The Instantbird team has a `goal <http://www.instantbird.org/>`__: "to
@@ -36,8 +32,4 @@ by as many people as possible, in every country. So
 we encourage interested people to translate it to their languages. If
 you're interested in helping us achieve this goal by creating
 new translations or improving Instantbird, you can get more
-information \ `here <http://www.instantbird.org/#getinvolved>`__.
-
-.. raw:: html
-
-   </div>
+information `here <http://www.instantbird.org/#getinvolved>`__.

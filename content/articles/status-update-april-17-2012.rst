@@ -22,57 +22,21 @@ or not this year!)
 What's New?
 ===========
 
-.. raw:: html
+* The JavaScript IRC implementation has landed! Many minor bugs were also
+  fixed. The behavior is mostly the same as the old libpurple
+  implementations, but there are differences. If you see issues, please
+  `file a bug <https://bugzilla.instantbird.org/enter_bug.cgi>`__! This
+  will allow for better IRC support in the future.
+* The tab completion algorithm has been made smarter:
 
-   <ul>
-   <li>
+  - It now prefers the last person to have pinged you if there are
+    multiple possible completions.
+  -  Addressing multiple participants is now handled gracefully.
 
-The JavaScript IRC implementation has landed! Many minor bugs were also
-fixed. The behavior is mostly the same as the old libpurple
-implementations, but there are differences. If you see issues, please
-`file a bug <https://bugzilla.instantbird.org/enter_bug.cgi>`__! This
-will allow for better IRC support in the future.
-
-.. raw:: html
-
-   </li>
-   <li>
-
-The tab completion algorithm has been made smarter:
-
-.. raw:: html
-
-   </li>
-
--  It now prefers the last person to have pinged you if there are
-   multiple possible completions.
--  Addressing multiple participants is now handled gracefully.
-
-.. raw:: html
-
-   <li>
-
-There is now a reading position marker to show which messages arrived
-since you last viewed a conversation.
-
-.. raw:: html
-
-   </li>
-   <li>
-
-Updated to Mozilla 11.
-
-.. raw:: html
-
-   </li>
-   <li>
-
-A few crashers have been fixed.
-
-.. raw:: html
-
-   </li>
-   </ul>
+* There is now a reading position marker to show which messages arrived
+  since you last viewed a conversation.
+* Updated to Mozilla 11.
+* A few crashers have been fixed.
 
 What’s Coming Soon / Being Worked On?
 =====================================

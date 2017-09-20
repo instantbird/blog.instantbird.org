@@ -28,52 +28,29 @@ Development Issues Discussed:
 -----------------------------
 
 -  [STRIKEOUT:SSL issue.] Fixed
--  [STRIKEOUT:Translations not yet 1.1 complia]\ nt. Fixed
+-  [STRIKEOUT:Translations not yet 1.1 compliant.] Fixed
 
 Non-Development Issues Discussed:
 ---------------------------------
 
-.. raw:: html
+* Establishment of the non-profit foundation to support Instantbird
 
-   <ul>
-   <li>
+  - Specifically the creation of a bank account for funds and starting
+    ideas to generate capital
+  - We are still seeking suggestions for good web-based systems to let
+    the non-profit receive donations (ideally with minimal transaction
+    charges and must be accepting of most international currencies)
+  - Thinking about ways to get more people to use Instantbird's
+    Amazon-affiliate code when making purchases
 
-Establishment of the non-profit foundation to support Instantbird
-
-.. raw:: html
-
-   </li>
-
--  Specifically the creation of a bank account for funds and starting
-   ideas to generate capital
--  We are still seeking suggestions for good web-based systems to let
-   the non-profit receive donations (ideally with minimal transaction
-   charges and must be accepting of most international currencies)
--  Thinking about ways to get more people to use Instantbird's
-   Amazon-affiliate code when making purchases
-
-.. raw:: html
-
-   <li>
-
-New WordPress-powered blog is launched, letting more Instantbird
-developers share in the blog's upkeep and helping to expand its audience
-
-.. raw:: html
-
-   </li>
-   <li>
-
-Florian Quèze will be attending the `Google Summer of Code Mentor
-Summit <http://gsoc-wiki.osuosl.org/index.php/2011>`__, so say hi if you
-are attending
-
-.. raw:: html
-
-   </li>
-   </ul>
+* New WordPress-powered blog is launched, letting more Instantbird
+  developers share in the blog's upkeep and helping to expand its audience
+* Florian Quèze will be attending the `Google Summer of Code Mentor
+  Summit <http://gsoc-wiki.osuosl.org/index.php/2011>`__, so say hi if you
+  are attending
 
 *If you read this full post, here is an extra sneak peak for you: Check
-out the `full list of new features in
-1.1 <https://etherpad.mozilla.org/9wXmFy7EBX>`__! More details on them
+out the `full list of new features in 1.1`_! More details on them
 are on the way, that's why this is just a sneak peek.*
+
+.. _full list of new features in 1.1: https://etherpad.mozilla.org/9wXmFy7EBX
