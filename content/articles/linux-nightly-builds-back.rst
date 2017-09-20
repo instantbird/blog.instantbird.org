@@ -20,7 +20,7 @@ should now be available in Instantbird (e.g. dbus and pulse audio support) and
 
 Sorry that this took so long, but `go grab your updated copy now`_!
 
-.. _building nightly builds from mozilla-central/comm-central: http://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/
+.. _building nightly builds from mozilla-central/comm-central: {filename}/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst
 .. _let us know: https://bugzilla.mozilla.org/enter_bug.cgi?product=Instantbird
 .. _even some minor bugs were fixed: https://bugzilla.mozilla.org/show_bug.cgi?id=955310
 .. _go grab your updated copy now: http://ftp.instantbird.com/instantbird/nightly/latest-trunk/

@@ -7,14 +7,10 @@ Google Summer of Code 2013
 :slug: google-summer-of-code-2013
 :status: published
 
-`Mozilla <http://blog.gerv.net/2013/02/summer-of-code-2013/%20>`__ is
-doing `Google Summer of Code
-2013 <https://wiki.mozilla.org/Community:SummerOfCode13%20>`__ and
+`Mozilla`_ is doing `Google Summer of Code 2013`_ and
 Instantbird is interested in participating again. Instantbird
 participated (through Mozilla) the last two years with
-`JS-XMPP <http://blog.instantbird.org/2011/05/status-update-april-2011-may-2011/>`__
-(by varuna in 2011) and the `Import
-Wizard <http://blog.instantbird.org/2012/04/google-summer-of-code-2012/>`__
+`JS-XMPP`_ (by varuna in 2011) and the `Import Wizard`_
 (by wnayes in 2012).  Both projects were successful: Instantbird and
 Thunderbird use our JavaScript XMPP code and we're hoping to integrate
 the Import Wizard into Instantbird soon, after which the UI could then
@@ -33,3 +29,8 @@ defined.
 Feel free to come chat with us on IRC (#instantbird on
 `irc.mozilla.org <http://irc.mozilla.org>`__) about this or any other
 topic!
+
+.. _Mozilla: http://blog.gerv.net/2013/02/summer-of-code-2013/
+.. _Google Summer of Code 2013: https://wiki.mozilla.org/Community:SummerOfCode13
+.. _JS-XMPP: {filename}/articles/status-update-april-2011-may-2011.rst
+.. _Import Wizard: {filename}/articles/google-summer-of-code-2012.rst

@@ -10,8 +10,7 @@ Status Update: May 23, 2012
 We've made quite a bit of improvements over the past few weeks. Although
 a lot of the changes are behind the scenes or fixing regressions, there
 are some exciting user facing changes, as detailed below! We've also
-been working with our `Google Summer of Code 2012
-student <http://blog.instantbird.org/2012/04/google-summer-of-code-2012/>`__,
+been working with our `Google Summer of Code 2012 student`_,
 wnayes, quite a bit to get him up to speed of how things work in
 Instantbird. He's made great progress on understanding the code and has
 even fixed a bug (see the "top protocols" page, below)!
@@ -86,6 +85,8 @@ information <http://www.tc.umn.edu/~nayes006/gsoc2012/index.php>`__ (his
 application, timeline and a series of links) that he'll be updating as
 the summer continues. (And of course you can stop by our IRC channel,
 #instantbird on irc.mozilla.org, and say "Hi!")
+
+.. _Google Summer of Code 2012 student: {filename}/articles/google-summer-of-code-2012.rst
 
 .. |"Top Protocol" Page in the Account Wizard| image:: {filename}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
    :class: size-medium wp-image-342
