@@ -80,5 +80,5 @@ base at once. We don't feel that we're only "half way through", so this
 time we won't have regrets: It's going to be released as **Instantbird
 1.0**. Tomorrow!
 
-.. |;-)| image:: http://blog.instantbird.org/smileys/clin_d%27oeil.png
+.. |;-)| image:: {filename}/smileys/clin_d'oeil.png
 

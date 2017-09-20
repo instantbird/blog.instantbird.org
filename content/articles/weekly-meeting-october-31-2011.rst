@@ -9,69 +9,36 @@ Weekly Meeting: October 31, 2011
 
 At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
 were discussed as well as a summary of what's happened since the 1.1
-release. (`Full chat
-logs <http://log.bezut.info/instantbird/111031/#m220>`__ are also
-available, as well as the `Etherpad
+release. (`Full chatlogs <http://log.bezut.info/instantbird/111031/#m220>`__
+are also available, as well as the `Etherpad
 timelime <https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031>`__.)
 
     Weekly meetings are held every Monday at 4pm UTC (that's 6pm for
     people in France, and 9am for people in San Francisco) in
-    `#instantbird on
-    irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
+    `#instantbird on irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
 
 What's Happened Since the 1.1 Release:
 --------------------------------------
 
-.. raw:: html
+*   Lots of patches have been reviewed and some new features are in (or soon
+    to be in) the `nightly builds <http://nightly.instantbird.im/>`__.
 
-   <ul>
-   <li>
+    *  Tab complete is now smart about case sensitivity.
+    *  You can now change your status from the tray icon.
+    *  You can now copy the link directly to a tweet.
 
-Lots of patches have been reviewed and some new features are in (or soon
-to be in) the `nightly builds <http://nightly.instantbird.im/>`__.
-
-.. raw:: html
-
-   </li>
-
--  Tab complete is now smart about case sensitivity.
--  You can now change your status from the tray icon.
--  You can now copy the link directly to a tweet.
-
-.. raw:: html
-
-   <li>
-
-Some major changes have been made to the repository to pave the way for
-large improvements. If you have the code checked out, you should update!
-
-.. raw:: html
-
-   </li>
-   </ul>
+*   Some major changes have been made to the repository to pave the way for
+    large improvements. If you have the code checked out, you should update!
 
 What's Being Worked On:
 -----------------------
 
-.. raw:: html
-
-   <div class="mceTemp">
-
-.. raw:: html
-
-   <dl id="attachment_259" class="wp-caption alignleft" style="width: 169px;">
-   <dt class="wp-caption-dt">
-
-|image0|\ Active participants are highlighted in color.
-
-.. raw:: html
-
-   </dt>
-   </dl>
-
-.. raw:: html
-
-   </div>
+.. class:: left
+.. image:: {filename}/images/nickcolor13.png
+    :width: 159px
+    :height: 387px
+    :target: {filename}/images/nickcolor13.png
+    :alt: Active participants are highlighted in color.
 
 -  `Only show colors of participants who have
    participated <https://bugzilla.instantbird.org/show_bug.cgi?id=1112>`__,
@@ -112,9 +79,3 @@ in `#instantbird on
 irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__!  And as always,
 please file any bugs you see in our `bug
 tracker <https://bugzilla.instantbird.org>`__.
-
-.. |image0| image:: http://blog.instantbird.org/wp-content/uploads/2011/11/nickcolor13.png
-   :class: size-full wp-image-259
-   :width: 159px
-   :height: 387px
-   :target: http://blog.instantbird.org/wp-content/uploads/2011/11/nickcolor13.png

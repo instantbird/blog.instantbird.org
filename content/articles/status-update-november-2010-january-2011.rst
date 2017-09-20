@@ -86,7 +86,7 @@ Next:
 -  Release 0.3 alpha 1.
 -  Florian is attending
    `FOSDEM <https://wiki.mozilla.org/Fosdem:2011>`__, where he'll show
-   Instantbird on `Sunday, February 6\ :sup:`th`,
+   Instantbird on `Sunday, February 6th,
    2011 <https://wiki.mozilla.org/Fosdem:2011/Schedule>`__ in a talk
    about XULRunner Applications entitled "Instantbird and Conkeror -- A
    view from the authors" (Axel Beckert will be discussing Conkeror).
@@ -94,5 +94,5 @@ Next:
 
 By the way... Happy new year! Yeah... we are late |;)|.
 
-.. |;)| image:: http://blog.instantbird.org/smileys/clin_d%27oeil.png
+.. |;)| image:: {filename}/smileys/clin_d'oeil.png
 

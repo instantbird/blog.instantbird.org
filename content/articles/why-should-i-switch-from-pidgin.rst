@@ -174,8 +174,7 @@ only by developers and `others people are discouraged from attempting to
 use
 it <http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN>`__.
 
-Learn more about our `stability
-efforts <http://blog.instantbird.org/c21-stability.html>`__.
+Learn more about our `stability efforts`_.
 
 Changing
 --------
@@ -217,10 +216,7 @@ compete against it, so such a list would be irrelevant anyway.
 On the other hand, Instantbird has some features that Pidgin doesn't
 have (message themes, automatic updates, inline search, ...) and even
 some unique features (for two examples, see my blog posts introducing
-`Time
-Bubbles <http://blog.instantbird.org/c42-introducing-time-bubbles.html>`__
-and `Magic
-copy <http://blog.instantbird.org/a44-introducing-magic-copy.html>`__).
+`Time Bubbles`_ and `Magic copy`_).
 
 Conclusion
 ----------
@@ -244,5 +240,7 @@ In any case, we are not going to try to force you to switch from Pidgin
 or whatever IM client you may be using right now to Instantbird. We
 respect your freedom, we respect your choices, we love you!
 
-.. |Instantbird crash reporter| image:: http://blog.instantbird.org/images/crash-breakpad.png
-
+.. |Instantbird crash reporter| image:: {filename}/images/crash-breakpad.png
+.. _stability efforts: {filename}/articles/stability.rst
+.. _Time Bubbles: {filename}/articles/introducing-time-bubbles.rst
+.. _Magic copy: {filename}/articles/introducing-magic-copy.rst

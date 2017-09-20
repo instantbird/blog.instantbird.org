@@ -10,6 +10,7 @@ SITEURL = ''
 PATH = 'content'
 ARTICLE_PATHS = ['articles']
 PAGE_PATHS = ['pages']
+STATIC_PATHS = ['images', 'smileys']
 
 TIMEZONE = 'America/New_York'
 
