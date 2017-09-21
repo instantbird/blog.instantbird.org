@@ -71,9 +71,10 @@ As no alarming issue has been reported in Instantbird 1.0 which is
 already widely used, we have decided to turn on major updates from
 Instantbird 0.2 to Instantbird 1.0.
 
-| Users of Instantbird 0.2 will be offered an update shortly with an
-  update prompt looking like this:
-| |Dialog offering a major update to Instantbird 1.0|
+Users of Instantbird 0.2 will be offered an update shortly with an
+update prompt looking like this:
+
+|Dialog offering a major update to Instantbird 1.0|
 
 Users of our 0.3pre nightly builds will be offered an update to a
 nightly build numbered 1.1a1pre in the next few days.

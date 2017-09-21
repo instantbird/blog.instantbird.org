@@ -21,25 +21,29 @@ Similarly, click the "Display name" place holder to edit it. This name
 will be visible in your contacts' buddy lists (unfortunately this
 currently works only for MSN).
 
-| Here you go, your friends will now easily recognize you:
-| |screenshot of the contact list with an icon and a display name|
+Here you go, your friends will now easily recognize you:
 
-| Conversation windows have also been changed to display your contacts'
-  icons and some more information (display name, status message, ...):
-| |conversation with an info bar showing the user icon|
+|screenshot of the contact list with an icon and a display name|
 
-| I can already hear some comments about how much space this new
-  information bar takes (or wastes) in all conversation windows. Yes,
-  this takes a lot of space, we know. People tend to use big or very big
-  windows for chatting (sometimes even full screen!) but if you like the
-  ability to chat in small windows, don't worry, we love you too! Just
-  resize the window and this information bar will shrink to ensure you
-  still see the actual content of the conversation:
-| |conversation with a smaller info bar|
+Conversation windows have also been changed to display your contacts'
+icons and some more information (display name, status message, ...):
 
-| And for very small conversation windows, the bar will completely
-  disappear, leaving only the strictly necessary user interface:
-| |small conversation without the info bar|
+|conversation with an info bar showing the user icon|
+
+I can already hear some comments about how much space this new
+information bar takes (or wastes) in all conversation windows. Yes,
+this takes a lot of space, we know. People tend to use big or very big
+windows for chatting (sometimes even full screen!) but if you like the
+ability to chat in small windows, don't worry, we love you too! Just
+resize the window and this information bar will shrink to ensure you
+still see the actual content of the conversation:
+
+|conversation with a smaller info bar|
+
+And for very small conversation windows, the bar will completely
+disappear, leaving only the strictly necessary user interface:
+
+|small conversation without the info bar|
 
 .. |screenshot of the contact list with a place holder icon| image:: {filename}/images/userIconPlaceholder.png
 .. |screenshot of the contact list with an icon and a display name| image:: {filename}/images/userIcon.png

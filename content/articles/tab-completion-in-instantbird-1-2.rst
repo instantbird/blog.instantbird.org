@@ -7,38 +7,43 @@ Tab completion in Instantbird 1.2
 :slug: tab-completion-in-instantbird-1-2
 :status: published
 
-| We've made some major improvements to the tab completion of nicknames
-  in IRC
-| channels (and other chatrooms). The goal, as always, is to make it
-  "just work"
-| (so you can think about more important things!).
+We've made some major improvements to the tab completion of nicknames
+in IRC channels (and other chatrooms). The goal, as always, is to make it
+"just work" (so you can think about more important things!).
 
-| Simply press TAB to complete the first couple of letters you have
-  typed:
-| |image0|
-| To undo the completion, just press Backspace as usual.
+Simply press TAB to complete the first couple of letters you have typed:
 
-| If there is no unique nick that fits the bill, Instantbird tries to
-  guess which nick you mean from the context. For example, if you have
-  recently been pinged by someone, that nick is preferred. Otherwise it
-  just completes as much as possible, and shows you a list of
-  alternative completions:
-| |image1|
+|image0|
 
-| You can then always press TAB again to cycle through these candidate
-  nicks until you get the right one:
-| |image2|
-| (Shift+TAB will cycle through the list in the opposite direction.)
+To undo the completion, just press Backspace as usual.
 
-| Notice how Instantbird automatically added a colon after the nick, as
-  we were addressing someone at the start of a message. And if you add
-  another nick, you get a comma-separated list:
-| |image3|
+If there is no unique nick that fits the bill, Instantbird tries to
+guess which nick you mean from the context. For example, if you have
+recently been pinged by someone, that nick is preferred. Otherwise it
+just completes as much as possible, and shows you a list of
+alternative completions:
 
-| Of course, sometimes that may not be what you intended. So if you
-  delete the trailing colon by pressing Backspace, the punctuation
-  adjusts accordingly:
-| |image4|
+|image1|
+
+You can then always press TAB again to cycle through these candidate
+nicks until you get the right one:
+
+|image2|
+
+(Shift+TAB will cycle through the list in the opposite direction.)
+
+
+Notice how Instantbird automatically added a colon after the nick, as
+we were addressing someone at the start of a message. And if you add
+another nick, you get a comma-separated list:
+
+|image3|
+
+Of course, sometimes that may not be what you intended. So if you
+delete the trailing colon by pressing Backspace, the punctuation
+adjusts accordingly:
+
+|image4|
 
 Don't forget you can also reply to any message by double-clicking it!
 This will add the sender's nick to the beginning of the message.

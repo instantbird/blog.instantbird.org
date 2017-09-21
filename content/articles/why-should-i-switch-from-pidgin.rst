@@ -147,8 +147,9 @@ you need to open a ticket on trac and give all the info you have. As
 this process may be a bit scary for most end-users, I'm afraid valuable
 feedback could get lost.
 
-| If the same issue happens with Instantbird, first we apologize:
-| |Instantbird crash reporter|
+If the same issue happens with Instantbird, first we apologize:
+
+|Instantbird crash reporter|
 
 Then all you have to do to send us the technical information about the
 crash is a single click in this crash reporter dialog. We collect all

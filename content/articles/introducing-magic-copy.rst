@@ -19,8 +19,9 @@ something we really didn't like: using a customized message theme could
 make copied data from the conversation really hard to read, to the point
 that it would be unsuitable for sending a quote via email.
 
-| As this may not be very clear yet, let me give an example:
-| |Copying from a conversation without the 'magic copy' feature|
+As this may not be very clear yet, let me give an example:
+
+|Copying from a conversation without the 'magic copy' feature|
 
 This is the text we get when copying the selection to the clipboard and
 pasting it. This is without our "magic copy" feature of course.
@@ -39,22 +40,26 @@ the selected HTML attempts to detect which messages are selected, and to
 "prettyprint" them based on what Instantbird knows about the message,
 rather than what is visible and selected.
 
-| This is the result:
-| |Same conversation copied with magic copy|
+This is the result:
 
-| If only a part of a single message was selected, the username and
-  timestamp won't be added to the copied strings, it will behave like a
-  normal text copy:
-| |Copying a part of a single message|
+|Same conversation copied with magic copy|
 
-| As we detect which messages are selected and even know if each message
-  was fully selected or only in part, we can nicely add an ellipsis when
-  a message was cut:
-| |Ellipsis are added where messages are cut|
+If only a part of a single message was selected, the username and
+timestamp won't be added to the copied strings, it will behave like a
+normal text copy:
 
-| This even works when using multiple-selections (press Ctrl on
-  Windows/Linux, and Command on Mac to do this):
-| |Copying parts of multiple messages|
+|Copying a part of a single message|
+
+As we detect which messages are selected and even know if each message
+was fully selected or only in part, we can nicely add an ellipsis when
+a message was cut:
+
+|Ellipsis are added where messages are cut|
+
+This even works when using multiple-selections (press Ctrl on
+Windows/Linux, and Command on Mac to do this):
+
+|Copying parts of multiple messages|
 
 A few technical details: the template used to serialize copied messages
 is both localizable and customizable from about:config, it's also
