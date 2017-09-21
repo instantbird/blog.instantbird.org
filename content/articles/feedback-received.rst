@@ -19,7 +19,7 @@ there are to communicate with us. We'd like to take some time to respond
 to some of the popular requests we've got (or at the very least, point
 you to the bug where you can follow any progress).
 
-\ **File transfer support**: something we definitely want, but we also
+**File transfer support**: something we definitely want, but we also
 want to give a good user experience. Unfortunately most protocols do not
 transfer files efficiently or quickly (and many times they break when
 behind firewalls, etc.), thus we wish to offer an alternative to using

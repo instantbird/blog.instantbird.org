@@ -18,11 +18,10 @@ Instantbird 0.2.
 Comparison of translation systems used by Mozilla and libpurple:
 ----------------------------------------------------------------
 
-| Inside libpurple, localizable strings are just marked by
-  ``_("string")``.
-| For example, you can find
-  `this <http://lxr.instantbird.org/instantbird/source/purple/libpurple/connection.c#549>`__
-  in the code:
+Inside libpurple, localizable strings are just marked by ``_("string")``.
+For example, you can find
+ `this <http://lxr.instantbird.org/instantbird/source/purple/libpurple/connection.c#549>`__
+in the code:
 
 ::
 

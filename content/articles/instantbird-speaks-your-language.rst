@@ -9,13 +9,13 @@ Instantbird speaks your language
 
 Instantbird 1.3 became available on November, 15, and it comes with new
 features (you can see them
-clicking \ `here <http://www.instantbird.com/download-all.html>`__). The
+clicking `here <http://www.instantbird.com/download-all.html>`__). The
 Instantbird team is interested in offering this IM client to everyone,
-so there's a new language in this release: \ **Brazilian
+so there's a new language in this release: **Brazilian
 Portuguese** - **Sim, nós falamos Português!**. Now Brazilians users can
 enjoy Instantbird in their language.
 
-Additionally, Instantbird brought back the \ **Russian language** in
+Additionally, Instantbird brought back the **Russian language** in
 this release. This language was in Instantbird since version 0.2, but it
 was not present in version 1.2. Thanks go out to
 our Russian localization team for making this possible!

@@ -25,8 +25,7 @@ cross-platform** (Windows, Mac OS X, Linux), we strive to present a
 
 `Get Instantbird 1.0 now! <http://www.instantbird.com/>`__
 
-`\ |Instantbird 1.0 screenshot on Windows
-7| <http://www.instantbird.com/>`__
+|Instantbird 1.0 screenshot on Windows 7|
 
 Supported networks
 ------------------
@@ -144,4 +143,5 @@ or
 .. |Instantbird logo| image:: http://www.instantbird.com/press/logos/instantbird-text-512x128.png
    :target: http://www.instantbird.com/
 .. |Instantbird 1.0 screenshot on Windows 7| image:: http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png
+   :target: http://www.instantbird.com/
 .. |:)| image:: {filename}/smileys/sourire.png
