@@ -19,6 +19,6 @@ rest of the day: thank you!
 For those of you who would have liked to be there but couldn't because
 of the time (too early, especially after the great dinner and bowling
 event Saturday evening) or location (not everybody lives in Europe!), I
-put the `slides of my
-presentation <http://blog.instantbird.org/files/fosdem11-slides/>`__
-online (and even wrote down what I said!).
+put the `slides of my presentation`_ online (and even wrote down what I said!).
+
+.. _slides of my presentation: /files/fosdem11-slides/
