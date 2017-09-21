@@ -144,5 +144,4 @@ or
 .. |Instantbird logo| image:: http://www.instantbird.com/press/logos/instantbird-text-512x128.png
    :target: http://www.instantbird.com/
 .. |Instantbird 1.0 screenshot on Windows 7| image:: http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png
-.. |:)| image:: http://blog.instantbird.org/smileys/sourire.png
-
+.. |:)| image:: {filename}/smileys/sourire.png

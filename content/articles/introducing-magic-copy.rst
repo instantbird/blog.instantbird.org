@@ -8,12 +8,10 @@ Introducing magic copy
 :status: published
 
 The surprise and enthusiasm of a few people about the "magic copy"
-feature I mentioned briefly at the end of `my previous
-post <http://blog.instantbird.org/c42-introducing-time-bubbles.html>`__
+feature I mentioned briefly at the end of `my previous post`_
 introducing time bubbles reminded me that we forgot to introduce this
 feature when it landed for Instantbird 0.2 as part of our implementation
-of `the Adium message theme
-system <http://blog.instantbird.org/c11-instantbird-0-2-feature-preview-conversations-customization.html>`__.
+of `the Adium message theme system`_.
 
 We decided to use this theme system because it seemed nice overall and
 was already used by a few other clients as well. However there was
@@ -70,9 +68,12 @@ that is barely noticed because it just works, but it is something that
 is really missed if using another IM client after using Instantbird for
 a while.
 
-.. |Copying from a conversation without the 'magic copy' feature| image:: http://blog.instantbird.org/images/copy-normal.png
-.. |Same conversation copied with magic copy| image:: http://blog.instantbird.org/images/copy-magic.png
-.. |Copying a part of a single message| image:: http://blog.instantbird.org/images/copy-part-of-one-message.png
-.. |Ellipsis are added where messages are cut| image:: http://blog.instantbird.org/images/copy-ellipsis.png
-.. |Copying parts of multiple messages| image:: http://blog.instantbird.org/images/copy-multi-select.png
+.. _my previous post: {filename}/articles/introducing-time-bubbles.rst
+.. _the Adium message theme system: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+
+.. |Copying from a conversation without the 'magic copy' feature| image:: {filename}/images/copy-normal.png
+.. |Same conversation copied with magic copy| image:: {filename}/images/copy-magic.png
+.. |Copying a part of a single message| image:: {filename}/images/copy-part-of-one-message.png
+.. |Ellipsis are added where messages are cut| image:: {filename}/images/copy-ellipsis.png
+.. |Copying parts of multiple messages| image:: {filename}/images/copy-multi-select.png
 

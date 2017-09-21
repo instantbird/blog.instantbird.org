@@ -7,8 +7,7 @@ IRC in Javascript - a contributor's work
 :slug: irc-in-javascript-a-contributors-work
 :status: published
 
-A short time after Instantbird 0.2 was released the `js-proto
-branch <http://blog.instantbird.org/a28-status-update.html>`__ was
+A short time after Instantbird 0.2 was released the `js-proto branch`_ was
 merged into the main development tree. This was the branch where the
 backend of Instantbird was prepared to support protocol plugins written
 entirely in Javascript. Not long after that, Patrick Cloke, an active
@@ -21,4 +20,6 @@ with lots of references to both Instantbird and specifications of the
 protocol. So if you're interested in the technical aspects of
 Instantbird and how to extend Instantbird with a protocol plugin written
 in JS then you definitely should go and read it at `his
-blog <http://clokep.blogspot.com/2010/12/why-rewrite-irc-into-javascript.html>`__.
+blog <http://patrick.cloke.us/posts/2010/12/08/why-rewrite-irc-into-javascript/>`__.
+
+.. _js-proto branch: {filename}/articles/status-update.rst

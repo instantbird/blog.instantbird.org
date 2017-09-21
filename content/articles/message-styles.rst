@@ -9,8 +9,7 @@ Message Styles
 
 As exchanging messages is the most important feature of an instant
 messaging client, we put a great deal of thought into the way the
-messages are displayed. As we have `already
-explained <http://blog.instantbird.org/a11-instantbird-0-2-feature-preview-conversations-customization.html>`__,
+messages are displayed. As we have `already explained`_,
 we decided to implement the `Adium <http://adium.im/>`__ message style
 system. This system offers a great flexibility to message style authors
 to display the conversation content the way they want.
@@ -92,9 +91,11 @@ for you to enjoy trying out. `Creating a new
 one <http://wiki.instantbird.org/Instantbird:Message_Styles>`__ yourself
 is also very easy.
 
-.. |chat room with people talking in colorful chat bubbles| image:: http://blog.instantbird.org/images/chatroom2.png
-.. |Conversation using the Bubbles theme, with grouped messages and collapsed system messages| image:: http://blog.instantbird.org/images/bubbles2.png
-.. |Conversation using the Dark message theme| image:: http://blog.instantbird.org/images/dark2.png
-.. |Conversation using the Paper Sheets message theme| image:: http://blog.instantbird.org/images/papersheets2.png
-.. |Conversation using the Simple theme| image:: http://blog.instantbird.org/images/simple2.png
+.. _already explained: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+
+.. |chat room with people talking in colorful chat bubbles| image:: {filename}/images/chatroom2.png
+.. |Conversation using the Bubbles theme, with grouped messages and collapsed system messages| image:: {filename}/images/bubbles2.png
+.. |Conversation using the Dark message theme| image:: {filename}/images/dark2.png
+.. |Conversation using the Paper Sheets message theme| image:: {filename}/images/papersheets2.png
+.. |Conversation using the Simple theme| image:: {filename}/images/simple2.png
 

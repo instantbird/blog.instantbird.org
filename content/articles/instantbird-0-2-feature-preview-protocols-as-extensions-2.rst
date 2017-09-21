@@ -14,8 +14,7 @@ builds <http://ftp.instantbird.com/instantbird/nightly/latest-trunk/>`__.
 
 To demonstrate this feature, I compiled the `Facebook Chat libpurple
 protocol plugin <http://code.google.com/p/pidgin-facebookchat/>`__. The
-result is an `installable xpi
-file <http://blog.instantbird.org/files/facebook.xpi>`__ of about 200kB,
+result is an `installable xpi file`_ of about 200kB,
 that people can try with nightly builds of Instantbird.
 
 This file contains a binary module compiled for Windows, Linux and Mac
@@ -24,9 +23,7 @@ OS X (universal), produced by copying the code from
 into the Instantbird source tree. This is the quickest way I found to
 build it, we will need to figure out a better (without having to
 download and build the whole Instantbird source code) way later. This is
-`the exact patch I
-used <http://blog.instantbird.org/files/add-facebook-chat-prpl.patch>`__
-to build it.
+`the exact patch I used`_ to build it.
 
 The xpi file also contains a set of icons and a locale file. I will
 explain in another post how we replaced the usage of ``gettext`` in
@@ -45,3 +42,6 @@ details later, including: localization, emoticon themes, message styles
 
 Next time: how localization works with Instantbird and how we replaced
 ``gettext``.
+
+.. _installable xpi file: {filename}/files/facebook.xpi
+.. _the exact patch I used: {filename}/files/add-facebook-chat-prpl.patch

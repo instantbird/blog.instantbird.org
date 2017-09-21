@@ -43,28 +43,28 @@ Tab completion in Instantbird 1.2
 Don't forget you can also reply to any message by double-clicking it!
 This will add the sender's nick to the beginning of the message.
 
-.. |image0| image:: http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png
+.. |image0| image:: {filename}/wp-content/uploads/2013/07/tabc4.png
    :class: alignnone size-full wp-image-395
    :width: 406px
    :height: 95px
-   :target: http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png
-.. |image1| image:: http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png
+   :target: {filename}/wp-content/uploads/2013/07/tabc4.png
+.. |image1| image:: {filename}/wp-content/uploads/2013/07/tc4-2.png
    :class: alignnone size-full wp-image-401
    :width: 597px
    :height: 150px
-   :target: http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png
-.. |image2| image:: http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png
+   :target: {filename}/wp-content/uploads/2013/07/tc4-2.png
+.. |image2| image:: {filename}/wp-content/uploads/2013/07/tc6-6.png
    :class: alignnone size-full wp-image-402
    :width: 605px
    :height: 127px
-   :target: http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png
-.. |image3| image:: http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png
+   :target: {filename}/wp-content/uploads/2013/07/tc6-6.png
+.. |image3| image:: {filename}/wp-content/uploads/2013/07/tc8-6.png
    :class: aligncenter size-full wp-image-437
    :width: 211px
    :height: 101px
-   :target: http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png
-.. |image4| image:: http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png
+   :target: {filename}/wp-content/uploads/2013/07/tc8-6.png
+.. |image4| image:: {filename}/wp-content/uploads/2013/07/tc9-4.png
    :class: aligncenter size-full wp-image-438
    :width: 211px
    :height: 101px
-   :target: http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png
+   :target: {filename}/wp-content/uploads/2013/07/tc9-4.png

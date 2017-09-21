@@ -41,9 +41,9 @@ currently works only for MSN).
   disappear, leaving only the strictly necessary user interface:
 | |small conversation without the info bar|
 
-.. |screenshot of the contact list with a place holder icon| image:: http://blog.instantbird.org/images/userIconPlaceholder.png
-.. |screenshot of the contact list with an icon and a display name| image:: http://blog.instantbird.org/images/userIcon.png
-.. |conversation with an info bar showing the user icon| image:: http://blog.instantbird.org/images/userIconConvUI.png
-.. |conversation with a smaller info bar| image:: http://blog.instantbird.org/images/userIconSmallConvUI.png
-.. |small conversation without the info bar| image:: http://blog.instantbird.org/images/userIconNoConvUI.png
+.. |screenshot of the contact list with a place holder icon| image:: {filename}/images/userIconPlaceholder.png
+.. |screenshot of the contact list with an icon and a display name| image:: {filename}/images/userIcon.png
+.. |conversation with an info bar showing the user icon| image:: {filename}/images/userIconConvUI.png
+.. |conversation with a smaller info bar| image:: {filename}/images/userIconSmallConvUI.png
+.. |small conversation without the info bar| image:: {filename}/images/userIconNoConvUI.png
 

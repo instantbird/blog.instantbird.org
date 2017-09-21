@@ -81,5 +81,5 @@ across them! You are also welcome to join us on IRC (in
 `#instantbird <irc://irc.mozilla.org/#instantbird>`__, where we have
 been more than 20 a few times this week!)
 
-.. |:)| image:: http://blog.instantbird.org/smileys/sourire.png
+.. |:)| image:: {filename}/smileys/sourire.png
 

@@ -7,11 +7,13 @@ LaTeX support brings prettier math to your messages
 :slug: latex-support-brings-prettier-math-to-your-messages
 :status: published
 
-| With our `new
-  add-on <https://addons.instantbird.org/en-US/instantbird/addon/340/>`__,
-  any mathematics contained in your conversations will be beautifully
-  rendered using `MathJax <http://www.mathjax.org>`__.
-| |image0|
+With our `new add-on <https://addons.instantbird.org/en-US/instantbird/addon/340/>`__,
+any mathematics contained in your conversations will be beautifully
+rendered using `MathJax <http://www.mathjax.org>`__.
+
+.. class:: right
+
+    |mathjax|
 
 It's rather nice to be able to discuss math using familiar
 `LaTeX <https://en.wikipedia.org/wiki/LaTeX>`__ markup, but with the
@@ -24,7 +26,7 @@ have TeX installed.
 
 You can easily obtain the LaTeX source of any equation using the context
 menu. AMSmath symbols and environments (such as
-*\\begin{align}...\\end{align}*) are supported.
+``\\begin{align}...\\end{align}``) are supported.
 
 There are a few customization options -- for example, you can choose to
 have displayed equations numbered automatically, to make them easier to
@@ -36,7 +38,7 @@ to change your favourite theme.
 `Get the add-on
 here! <https://addons.instantbird.org/en-US/instantbird/addon/340/>`__
 
-.. |image0| image:: http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png
+.. |mathjax| image:: {filename}/wp-content/uploads/2013/04/math21.png
    :class: alignright size-full wp-image-503
    :width: 445px
    :height: 377px

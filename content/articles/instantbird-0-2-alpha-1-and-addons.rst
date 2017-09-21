@@ -22,12 +22,10 @@ you to try it! There's a lot of new interesting stuff in this one. Here
 are some of them, read the `release
 notes <http://www.instantbird.com/download-0.2a1.html>`__ for more:
 
--  It is `ready to be
-   localized <http://blog.instantbird.org/a10-instantbird-0-2-feature-preview-localizability.html>`__
+-  It is `ready to be localized`_
    (and you can try an `experimental French language
    pack <https://addons.instantbird.org/en-US/instantbird/addon/207>`__),
--  `Improved
-   conversations <http://blog.instantbird.org/a11-instantbird-0-2-feature-preview-conversations-customization.html>`__:
+-  `Improved conversations`_:
    you can change conversation styles, smiley themes are now handled.
 -  We implemented a 'magic' copy/paste feature that will allow you to
    have pretty quotes out of messages copied from Instantbird. Some bugs
@@ -38,3 +36,6 @@ notes <http://www.instantbird.com/download-0.2a1.html>`__ for more:
 
 You can download the alpha and read the release notes from
 `here <http://www.instantbird.com/download-0.2a1.html>`__.
+
+.. _ready to be localized: {filename}/articles/instantbird-0-2-feature-preview-localizability.rst
+.. _Improved conversations: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst

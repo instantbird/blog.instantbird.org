@@ -43,8 +43,7 @@ and a "School Friends" tag for all your AIM friends, in this example).
 When asking people why they want this, the response usually is "that's
 what <another IM client> does". Well, ok but we wish that you take more
 of a 'contact level view' of people: `Combine your contacts that are the
-same
-person <http://blog.instantbird.org/a45-better-contact-list.html>`__ and
+same person`_ and
 group them according to how you know them. (You can even put them in
 multiple tags, if someone is your online gaming buddy AND from school!)
 
@@ -175,3 +174,5 @@ tentative
 it. We definitely plan to release faster than we used to do before
 Instantbird 1.0. Our current target date for the next release is the end
 of September!
+
+.. _Combine your contacts that are the same person: {filename}/articles/better-contact-list.rst

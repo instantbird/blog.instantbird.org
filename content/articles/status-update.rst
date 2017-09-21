@@ -7,15 +7,13 @@ Status update
 :slug: status-update
 :status: published
 
-We've been a bit quiet since the `0.2
-release <http://blog.instantbird.org/a25-instantbird-0-2-released.html>`__,
+We've been a bit quiet since the `0.2 release`_,
 but we haven't slept all of this time, so let's do another status
 update!
 
 After some time spent polishing the `new
 website <http://www.instantbird.com/>`__ and dealing with post-release
-work (like testing and enabling `major
-updates <http://blog.instantbird.org/a27-major-update-to-instantbird-0-2.html>`__),
+work (like testing and enabling `major updates`_),
 we have started working toward Instantbird 0.3:
 
 -  Some major refactoring work to allow protocol plugins to be written
@@ -43,3 +41,6 @@ team, including myself, are taking some time away from the Internet.
 In the relatively near future, we will finish the work to switch to
 Mozilla 2.0, and upgrade libpurple to the latest released version
 (2.7.\*).
+
+.. _0.2 release: {filename}/articles/instantbird-0-2-released.rst
+.. _major updates: {filename}/articles/major-update-to-instantbird-0-2.rst

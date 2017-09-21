@@ -65,8 +65,7 @@ split the translation of an application into several packages, the
 feature is just unused by libpurple. With a little bit of build system
 tweaking, I finally got a translation file for the core of libpurple,
 and a separate translation file for each protocol plugin. This was
-needed so that `libpurple protocol plugins packaged as
-extensions <http://blog.instantbird.org/a9-instantbird-0-2-feature-preview-protocols-as-extensions.html>`__
+needed so that `libpurple protocol plugins packaged as extensions`_
 can be localized.
 
 Creating a unique identifier for each localizable string was a bit more
@@ -119,3 +118,5 @@ An alpha build of Instantbird 0.2 will be available soon. We will
 provide an experimental French translation of this build (most people in
 our team are French, so French was the logical choice for testing all of
 this ourselves).
+
+.. _libpurple protocol plugins packaged as extensions: {filename}/articles/instantbird-0-2-feature-preview-protocols-as-extensions-2.rst

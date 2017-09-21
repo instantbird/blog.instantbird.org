@@ -28,8 +28,11 @@ using the common shortcut of *Ctrl+T* for *New Tab* (from both the contact list
 or a conversation window) or by clicking the likewise familiar *New Tab*-button
 in the tab bar.
 
-http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png
-New conversation tab, list filtered for contacts starting with letter f
+.. class:: right
+
+    |Awesometab|
+
+    New conversation tab, list filtered for contacts starting with letter f
 
 It features a search bar at top of the tab content which allows to refine the
 results. It currently matches the entered name against each part of the
@@ -72,3 +75,8 @@ Thanks, Nihanth, it’s really great work that you’re doing here!
 .. _Google Summer of Code 2013: http://www.google-melange.com/gsoc/homepage/google/gsoc2013
 .. _Mozilla: http://blog.gerv.net/2013/06/gsoc-2013-project-list/
 .. _nightly build: http://nightly.instantbird.im/
+
+.. |Awesometab| image:: {filename}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png
+    :width: 300px
+    :height: 232px
+    :target: {filename}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png

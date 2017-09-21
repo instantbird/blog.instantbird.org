@@ -46,9 +46,7 @@ We especially try to avoid exposing the user to new popup dialogs that
 interrupt the user but don't seem absolutely necessary.
 
 Once something is implemented, we do our best to take advantage of the
-early feedback we get from our
-`nightly <http://blog.instantbird.org/a6-nightly-builds-available.html>`__
-testers.
+early feedback we get from our `nightly`_ testers.
 
 So why are we doing this? Copying the interface of an existing
 application as quickly as possible would be easier, and would lead to a
@@ -89,3 +87,5 @@ you haven't used Instantbird before, then the 0.2 release is a great
 time to start! In the next few days, we will detail a few of the
 features that already make Instantbird 0.2 a very usable instant
 messaging application, despite its low version number.
+
+.. _nightly: {filename}/articles/nightly-builds-available.rst

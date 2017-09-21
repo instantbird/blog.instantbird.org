@@ -7,8 +7,7 @@ Status update
 :slug: status-update-3
 :status: published
 
-It's been three weeks now since the `last status
-update <http://blog.instantbird.org/c31-status-update.html>`__ and
+It's been three weeks now since the `last status update`_ and
 here's a short summary of things that have been done in the meantime.
 
 Some contributors are getting more closely involved with the project
@@ -37,8 +36,7 @@ Done:
    /italics/, underline and ``|code|`` (`bug
    543 <https://bugzilla.instantbird.org/show_bug.cgi?id=543>`__).
 -  We made conversation tabs look more native on Mac, taking advantage
-   of a `suggestion <http://blog.instantbird.org/a18-tabs.html>`__ from
-   Markus Stange:
+   of a `suggestion`_ from Markus Stange:
 
    The old flat look:
 
@@ -75,6 +73,9 @@ Next:
    Mac build from PPC/i386 to i386/x64.
 -  Setup a nonprofit organization to make money matters related to the
    project transparent and to be able to accept donations.
+
+.. _last status update: {filename}/articles/status-update-2.rst
+.. _suggestion: {filename}/articles/tabs.rst
 
 .. |Cropped screenshot of the old look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive.png
 .. |Cropped screenshot of the new look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive-trunk.png

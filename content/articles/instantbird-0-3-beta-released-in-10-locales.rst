@@ -16,8 +16,7 @@ Russian, Slovak and Ukrainian)!
 In addition to the cool features already introduced in the previous two
 alpha releases (among which the Twitter support, tags, contacts merging,
 ...), this beta brings significant appearance changes with user icons,
-an updated tab style, the `improved default message
-theme <http://blog.instantbird.org/c42-introducing-time-bubbles.html>`__,
+an updated tab style, the `improved default message theme`_,
 Aero glass effects on Windows and
 `more <http://www.instantbird.com/download-0.3b1.html>`__ awesome new
 features!
@@ -35,3 +34,5 @@ now <http://www.instantbird.com/download-0.3b1.html>`__!
 We look forward to receiving your feedback to help us make the final
 Instantbird 0.3 release (planned for this month!) a piece of software
 you will want to share with all your friends!
+
+.. _improved default message theme: {filename}/articles/introducing-time-bubbles.rst

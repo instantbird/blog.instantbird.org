@@ -8,8 +8,7 @@ Major update to Instantbird 0.2
 :status: published
 
 As no critical issues have been reported in the `recently released
-Instantbird
-0.2 <http://blog.instantbird.org/a25-instantbird-0-2-released.html>`__,
+Instantbird 0.2`_,
 we have turned on major updates for users of Instantbird 0.1.2 and
 0.1.3. If you are still using one of these old versions, you will
 receive a major update offer to get the newer Instantbird 0.2. It will
@@ -23,5 +22,6 @@ users, who should `download the full
 installer <http://www.instantbird.com/>`__ themselves. We are sorry for
 the inconvenience.
 
-.. |Major update offer dialog| image:: http://blog.instantbird.org/images/major-update-to-0.2.png
+.. _recently released Instantbird 0.2: {filename}/articles/instantbird-0-2-released.rst
 
+.. |Major update offer dialog| image:: {filename}/images/major-update-to-0.2.png

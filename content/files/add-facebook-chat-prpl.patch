@@ -1,0 +1,4330 @@
+diff -r 478b0dfd9325 purple/libpurple/protocols/Makefile.in
+--- a/purple/libpurple/protocols/Makefile.in	Sat Apr 18 15:26:18 2009 +0200
++++ b/purple/libpurple/protocols/Makefile.in	Sat Apr 18 22:36:37 2009 +0200
+@@ -43,6 +43,7 @@
+ 
+ PARALLEL_DIRS	= \
+ 		irc \
++		facebook \
+ 		jabber \
+ 		gg \
+ 		oscar \
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/COPYING
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/COPYING	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,674 @@
++                    GNU GENERAL PUBLIC LICENSE
++                       Version 3, 29 June 2007
++
++ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
++ Everyone is permitted to copy and distribute verbatim copies
++ of this license document, but changing it is not allowed.
++
++                            Preamble
++
++  The GNU General Public License is a free, copyleft license for
++software and other kinds of works.
++
++  The licenses for most software and other practical works are designed
++to take away your freedom to share and change the works.  By contrast,
++the GNU General Public License is intended to guarantee your freedom to
++share and change all versions of a program--to make sure it remains free
++software for all its users.  We, the Free Software Foundation, use the
++GNU General Public License for most of our software; it applies also to
++any other work released this way by its authors.  You can apply it to
++your programs, too.
++
++  When we speak of free software, we are referring to freedom, not
++price.  Our General Public Licenses are designed to make sure that you
++have the freedom to distribute copies of free software (and charge for
++them if you wish), that you receive source code or can get it if you
++want it, that you can change the software or use pieces of it in new
++free programs, and that you know you can do these things.
++
++  To protect your rights, we need to prevent others from denying you
++these rights or asking you to surrender the rights.  Therefore, you have
++certain responsibilities if you distribute copies of the software, or if
++you modify it: responsibilities to respect the freedom of others.
++
++  For example, if you distribute copies of such a program, whether
++gratis or for a fee, you must pass on to the recipients the same
++freedoms that you received.  You must make sure that they, too, receive
++or can get the source code.  And you must show them these terms so they
++know their rights.
++
++  Developers that use the GNU GPL protect your rights with two steps:
++(1) assert copyright on the software, and (2) offer you this License
++giving you legal permission to copy, distribute and/or modify it.
++
++  For the developers' and authors' protection, the GPL clearly explains
++that there is no warranty for this free software.  For both users' and
++authors' sake, the GPL requires that modified versions be marked as
++changed, so that their problems will not be attributed erroneously to
++authors of previous versions.
++
++  Some devices are designed to deny users access to install or run
++modified versions of the software inside them, although the manufacturer
++can do so.  This is fundamentally incompatible with the aim of
++protecting users' freedom to change the software.  The systematic
++pattern of such abuse occurs in the area of products for individuals to
++use, which is precisely where it is most unacceptable.  Therefore, we
++have designed this version of the GPL to prohibit the practice for those
++products.  If such problems arise substantially in other domains, we
++stand ready to extend this provision to those domains in future versions
++of the GPL, as needed to protect the freedom of users.
++
++  Finally, every program is threatened constantly by software patents.
++States should not allow patents to restrict development and use of
++software on general-purpose computers, but in those that do, we wish to
++avoid the special danger that patents applied to a free program could
++make it effectively proprietary.  To prevent this, the GPL assures that
++patents cannot be used to render the program non-free.
++
++  The precise terms and conditions for copying, distribution and
++modification follow.
++
++                       TERMS AND CONDITIONS
++
++  0. Definitions.
++
++  "This License" refers to version 3 of the GNU General Public License.
++
++  "Copyright" also means copyright-like laws that apply to other kinds of
++works, such as semiconductor masks.
++
++  "The Program" refers to any copyrightable work licensed under this
++License.  Each licensee is addressed as "you".  "Licensees" and
++"recipients" may be individuals or organizations.
++
++  To "modify" a work means to copy from or adapt all or part of the work
++in a fashion requiring copyright permission, other than the making of an
++exact copy.  The resulting work is called a "modified version" of the
++earlier work or a work "based on" the earlier work.
++
++  A "covered work" means either the unmodified Program or a work based
++on the Program.
++
++  To "propagate" a work means to do anything with it that, without
++permission, would make you directly or secondarily liable for
++infringement under applicable copyright law, except executing it on a
++computer or modifying a private copy.  Propagation includes copying,
++distribution (with or without modification), making available to the
++public, and in some countries other activities as well.
++
++  To "convey" a work means any kind of propagation that enables other
++parties to make or receive copies.  Mere interaction with a user through
++a computer network, with no transfer of a copy, is not conveying.
++
++  An interactive user interface displays "Appropriate Legal Notices"
++to the extent that it includes a convenient and prominently visible
++feature that (1) displays an appropriate copyright notice, and (2)
++tells the user that there is no warranty for the work (except to the
++extent that warranties are provided), that licensees may convey the
++work under this License, and how to view a copy of this License.  If
++the interface presents a list of user commands or options, such as a
++menu, a prominent item in the list meets this criterion.
++
++  1. Source Code.
++
++  The "source code" for a work means the preferred form of the work
++for making modifications to it.  "Object code" means any non-source
++form of a work.
++
++  A "Standard Interface" means an interface that either is an official
++standard defined by a recognized standards body, or, in the case of
++interfaces specified for a particular programming language, one that
++is widely used among developers working in that language.
++
++  The "System Libraries" of an executable work include anything, other
++than the work as a whole, that (a) is included in the normal form of
++packaging a Major Component, but which is not part of that Major
++Component, and (b) serves only to enable use of the work with that
++Major Component, or to implement a Standard Interface for which an
++implementation is available to the public in source code form.  A
++"Major Component", in this context, means a major essential component
++(kernel, window system, and so on) of the specific operating system
++(if any) on which the executable work runs, or a compiler used to
++produce the work, or an object code interpreter used to run it.
++
++  The "Corresponding Source" for a work in object code form means all
++the source code needed to generate, install, and (for an executable
++work) run the object code and to modify the work, including scripts to
++control those activities.  However, it does not include the work's
++System Libraries, or general-purpose tools or generally available free
++programs which are used unmodified in performing those activities but
++which are not part of the work.  For example, Corresponding Source
++includes interface definition files associated with source files for
++the work, and the source code for shared libraries and dynamically
++linked subprograms that the work is specifically designed to require,
++such as by intimate data communication or control flow between those
++subprograms and other parts of the work.
++
++  The Corresponding Source need not include anything that users
++can regenerate automatically from other parts of the Corresponding
++Source.
++
++  The Corresponding Source for a work in source code form is that
++same work.
++
++  2. Basic Permissions.
++
++  All rights granted under this License are granted for the term of
++copyright on the Program, and are irrevocable provided the stated
++conditions are met.  This License explicitly affirms your unlimited
++permission to run the unmodified Program.  The output from running a
++covered work is covered by this License only if the output, given its
++content, constitutes a covered work.  This License acknowledges your
++rights of fair use or other equivalent, as provided by copyright law.
++
++  You may make, run and propagate covered works that you do not
++convey, without conditions so long as your license otherwise remains
++in force.  You may convey covered works to others for the sole purpose
++of having them make modifications exclusively for you, or provide you
++with facilities for running those works, provided that you comply with
++the terms of this License in conveying all material for which you do
++not control copyright.  Those thus making or running the covered works
++for you must do so exclusively on your behalf, under your direction
++and control, on terms that prohibit them from making any copies of
++your copyrighted material outside their relationship with you.
++
++  Conveying under any other circumstances is permitted solely under
++the conditions stated below.  Sublicensing is not allowed; section 10
++makes it unnecessary.
++
++  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
++
++  No covered work shall be deemed part of an effective technological
++measure under any applicable law fulfilling obligations under article
++11 of the WIPO copyright treaty adopted on 20 December 1996, or
++similar laws prohibiting or restricting circumvention of such
++measures.
++
++  When you convey a covered work, you waive any legal power to forbid
++circumvention of technological measures to the extent such circumvention
++is effected by exercising rights under this License with respect to
++the covered work, and you disclaim any intention to limit operation or
++modification of the work as a means of enforcing, against the work's
++users, your or third parties' legal rights to forbid circumvention of
++technological measures.
++
++  4. Conveying Verbatim Copies.
++
++  You may convey verbatim copies of the Program's source code as you
++receive it, in any medium, provided that you conspicuously and
++appropriately publish on each copy an appropriate copyright notice;
++keep intact all notices stating that this License and any
++non-permissive terms added in accord with section 7 apply to the code;
++keep intact all notices of the absence of any warranty; and give all
++recipients a copy of this License along with the Program.
++
++  You may charge any price or no price for each copy that you convey,
++and you may offer support or warranty protection for a fee.
++
++  5. Conveying Modified Source Versions.
++
++  You may convey a work based on the Program, or the modifications to
++produce it from the Program, in the form of source code under the
++terms of section 4, provided that you also meet all of these conditions:
++
++    a) The work must carry prominent notices stating that you modified
++    it, and giving a relevant date.
++
++    b) The work must carry prominent notices stating that it is
++    released under this License and any conditions added under section
++    7.  This requirement modifies the requirement in section 4 to
++    "keep intact all notices".
++
++    c) You must license the entire work, as a whole, under this
++    License to anyone who comes into possession of a copy.  This
++    License will therefore apply, along with any applicable section 7
++    additional terms, to the whole of the work, and all its parts,
++    regardless of how they are packaged.  This License gives no
++    permission to license the work in any other way, but it does not
++    invalidate such permission if you have separately received it.
++
++    d) If the work has interactive user interfaces, each must display
++    Appropriate Legal Notices; however, if the Program has interactive
++    interfaces that do not display Appropriate Legal Notices, your
++    work need not make them do so.
++
++  A compilation of a covered work with other separate and independent
++works, which are not by their nature extensions of the covered work,
++and which are not combined with it such as to form a larger program,
++in or on a volume of a storage or distribution medium, is called an
++"aggregate" if the compilation and its resulting copyright are not
++used to limit the access or legal rights of the compilation's users
++beyond what the individual works permit.  Inclusion of a covered work
++in an aggregate does not cause this License to apply to the other
++parts of the aggregate.
++
++  6. Conveying Non-Source Forms.
++
++  You may convey a covered work in object code form under the terms
++of sections 4 and 5, provided that you also convey the
++machine-readable Corresponding Source under the terms of this License,
++in one of these ways:
++
++    a) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by the
++    Corresponding Source fixed on a durable physical medium
++    customarily used for software interchange.
++
++    b) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by a
++    written offer, valid for at least three years and valid for as
++    long as you offer spare parts or customer support for that product
++    model, to give anyone who possesses the object code either (1) a
++    copy of the Corresponding Source for all the software in the
++    product that is covered by this License, on a durable physical
++    medium customarily used for software interchange, for a price no
++    more than your reasonable cost of physically performing this
++    conveying of source, or (2) access to copy the
++    Corresponding Source from a network server at no charge.
++
++    c) Convey individual copies of the object code with a copy of the
++    written offer to provide the Corresponding Source.  This
++    alternative is allowed only occasionally and noncommercially, and
++    only if you received the object code with such an offer, in accord
++    with subsection 6b.
++
++    d) Convey the object code by offering access from a designated
++    place (gratis or for a charge), and offer equivalent access to the
++    Corresponding Source in the same way through the same place at no
++    further charge.  You need not require recipients to copy the
++    Corresponding Source along with the object code.  If the place to
++    copy the object code is a network server, the Corresponding Source
++    may be on a different server (operated by you or a third party)
++    that supports equivalent copying facilities, provided you maintain
++    clear directions next to the object code saying where to find the
++    Corresponding Source.  Regardless of what server hosts the
++    Corresponding Source, you remain obligated to ensure that it is
++    available for as long as needed to satisfy these requirements.
++
++    e) Convey the object code using peer-to-peer transmission, provided
++    you inform other peers where the object code and Corresponding
++    Source of the work are being offered to the general public at no
++    charge under subsection 6d.
++
++  A separable portion of the object code, whose source code is excluded
++from the Corresponding Source as a System Library, need not be
++included in conveying the object code work.
++
++  A "User Product" is either (1) a "consumer product", which means any
++tangible personal property which is normally used for personal, family,
++or household purposes, or (2) anything designed or sold for incorporation
++into a dwelling.  In determining whether a product is a consumer product,
++doubtful cases shall be resolved in favor of coverage.  For a particular
++product received by a particular user, "normally used" refers to a
++typical or common use of that class of product, regardless of the status
++of the particular user or of the way in which the particular user
++actually uses, or expects or is expected to use, the product.  A product
++is a consumer product regardless of whether the product has substantial
++commercial, industrial or non-consumer uses, unless such uses represent
++the only significant mode of use of the product.
++
++  "Installation Information" for a User Product means any methods,
++procedures, authorization keys, or other information required to install
++and execute modified versions of a covered work in that User Product from
++a modified version of its Corresponding Source.  The information must
++suffice to ensure that the continued functioning of the modified object
++code is in no case prevented or interfered with solely because
++modification has been made.
++
++  If you convey an object code work under this section in, or with, or
++specifically for use in, a User Product, and the conveying occurs as
++part of a transaction in which the right of possession and use of the
++User Product is transferred to the recipient in perpetuity or for a
++fixed term (regardless of how the transaction is characterized), the
++Corresponding Source conveyed under this section must be accompanied
++by the Installation Information.  But this requirement does not apply
++if neither you nor any third party retains the ability to install
++modified object code on the User Product (for example, the work has
++been installed in ROM).
++
++  The requirement to provide Installation Information does not include a
++requirement to continue to provide support service, warranty, or updates
++for a work that has been modified or installed by the recipient, or for
++the User Product in which it has been modified or installed.  Access to a
++network may be denied when the modification itself materially and
++adversely affects the operation of the network or violates the rules and
++protocols for communication across the network.
++
++  Corresponding Source conveyed, and Installation Information provided,
++in accord with this section must be in a format that is publicly
++documented (and with an implementation available to the public in
++source code form), and must require no special password or key for
++unpacking, reading or copying.
++
++  7. Additional Terms.
++
++  "Additional permissions" are terms that supplement the terms of this
++License by making exceptions from one or more of its conditions.
++Additional permissions that are applicable to the entire Program shall
++be treated as though they were included in this License, to the extent
++that they are valid under applicable law.  If additional permissions
++apply only to part of the Program, that part may be used separately
++under those permissions, but the entire Program remains governed by
++this License without regard to the additional permissions.
++
++  When you convey a copy of a covered work, you may at your option
++remove any additional permissions from that copy, or from any part of
++it.  (Additional permissions may be written to require their own
++removal in certain cases when you modify the work.)  You may place
++additional permissions on material, added by you to a covered work,
++for which you have or can give appropriate copyright permission.
++
++  Notwithstanding any other provision of this License, for material you
++add to a covered work, you may (if authorized by the copyright holders of
++that material) supplement the terms of this License with terms:
++
++    a) Disclaiming warranty or limiting liability differently from the
++    terms of sections 15 and 16 of this License; or
++
++    b) Requiring preservation of specified reasonable legal notices or
++    author attributions in that material or in the Appropriate Legal
++    Notices displayed by works containing it; or
++
++    c) Prohibiting misrepresentation of the origin of that material, or
++    requiring that modified versions of such material be marked in
++    reasonable ways as different from the original version; or
++
++    d) Limiting the use for publicity purposes of names of licensors or
++    authors of the material; or
++
++    e) Declining to grant rights under trademark law for use of some
++    trade names, trademarks, or service marks; or
++
++    f) Requiring indemnification of licensors and authors of that
++    material by anyone who conveys the material (or modified versions of
++    it) with contractual assumptions of liability to the recipient, for
++    any liability that these contractual assumptions directly impose on
++    those licensors and authors.
++
++  All other non-permissive additional terms are considered "further
++restrictions" within the meaning of section 10.  If the Program as you
++received it, or any part of it, contains a notice stating that it is
++governed by this License along with a term that is a further
++restriction, you may remove that term.  If a license document contains
++a further restriction but permits relicensing or conveying under this
++License, you may add to a covered work material governed by the terms
++of that license document, provided that the further restriction does
++not survive such relicensing or conveying.
++
++  If you add terms to a covered work in accord with this section, you
++must place, in the relevant source files, a statement of the
++additional terms that apply to those files, or a notice indicating
++where to find the applicable terms.
++
++  Additional terms, permissive or non-permissive, may be stated in the
++form of a separately written license, or stated as exceptions;
++the above requirements apply either way.
++
++  8. Termination.
++
++  You may not propagate or modify a covered work except as expressly
++provided under this License.  Any attempt otherwise to propagate or
++modify it is void, and will automatically terminate your rights under
++this License (including any patent licenses granted under the third
++paragraph of section 11).
++
++  However, if you cease all violation of this License, then your
++license from a particular copyright holder is reinstated (a)
++provisionally, unless and until the copyright holder explicitly and
++finally terminates your license, and (b) permanently, if the copyright
++holder fails to notify you of the violation by some reasonable means
++prior to 60 days after the cessation.
++
++  Moreover, your license from a particular copyright holder is
++reinstated permanently if the copyright holder notifies you of the
++violation by some reasonable means, this is the first time you have
++received notice of violation of this License (for any work) from that
++copyright holder, and you cure the violation prior to 30 days after
++your receipt of the notice.
++
++  Termination of your rights under this section does not terminate the
++licenses of parties who have received copies or rights from you under
++this License.  If your rights have been terminated and not permanently
++reinstated, you do not qualify to receive new licenses for the same
++material under section 10.
++
++  9. Acceptance Not Required for Having Copies.
++
++  You are not required to accept this License in order to receive or
++run a copy of the Program.  Ancillary propagation of a covered work
++occurring solely as a consequence of using peer-to-peer transmission
++to receive a copy likewise does not require acceptance.  However,
++nothing other than this License grants you permission to propagate or
++modify any covered work.  These actions infringe copyright if you do
++not accept this License.  Therefore, by modifying or propagating a
++covered work, you indicate your acceptance of this License to do so.
++
++  10. Automatic Licensing of Downstream Recipients.
++
++  Each time you convey a covered work, the recipient automatically
++receives a license from the original licensors, to run, modify and
++propagate that work, subject to this License.  You are not responsible
++for enforcing compliance by third parties with this License.
++
++  An "entity transaction" is a transaction transferring control of an
++organization, or substantially all assets of one, or subdividing an
++organization, or merging organizations.  If propagation of a covered
++work results from an entity transaction, each party to that
++transaction who receives a copy of the work also receives whatever
++licenses to the work the party's predecessor in interest had or could
++give under the previous paragraph, plus a right to possession of the
++Corresponding Source of the work from the predecessor in interest, if
++the predecessor has it or can get it with reasonable efforts.
++
++  You may not impose any further restrictions on the exercise of the
++rights granted or affirmed under this License.  For example, you may
++not impose a license fee, royalty, or other charge for exercise of
++rights granted under this License, and you may not initiate litigation
++(including a cross-claim or counterclaim in a lawsuit) alleging that
++any patent claim is infringed by making, using, selling, offering for
++sale, or importing the Program or any portion of it.
++
++  11. Patents.
++
++  A "contributor" is a copyright holder who authorizes use under this
++License of the Program or a work on which the Program is based.  The
++work thus licensed is called the contributor's "contributor version".
++
++  A contributor's "essential patent claims" are all patent claims
++owned or controlled by the contributor, whether already acquired or
++hereafter acquired, that would be infringed by some manner, permitted
++by this License, of making, using, or selling its contributor version,
++but do not include claims that would be infringed only as a
++consequence of further modification of the contributor version.  For
++purposes of this definition, "control" includes the right to grant
++patent sublicenses in a manner consistent with the requirements of
++this License.
++
++  Each contributor grants you a non-exclusive, worldwide, royalty-free
++patent license under the contributor's essential patent claims, to
++make, use, sell, offer for sale, import and otherwise run, modify and
++propagate the contents of its contributor version.
++
++  In the following three paragraphs, a "patent license" is any express
++agreement or commitment, however denominated, not to enforce a patent
++(such as an express permission to practice a patent or covenant not to
++sue for patent infringement).  To "grant" such a patent license to a
++party means to make such an agreement or commitment not to enforce a
++patent against the party.
++
++  If you convey a covered work, knowingly relying on a patent license,
++and the Corresponding Source of the work is not available for anyone
++to copy, free of charge and under the terms of this License, through a
++publicly available network server or other readily accessible means,
++then you must either (1) cause the Corresponding Source to be so
++available, or (2) arrange to deprive yourself of the benefit of the
++patent license for this particular work, or (3) arrange, in a manner
++consistent with the requirements of this License, to extend the patent
++license to downstream recipients.  "Knowingly relying" means you have
++actual knowledge that, but for the patent license, your conveying the
++covered work in a country, or your recipient's use of the covered work
++in a country, would infringe one or more identifiable patents in that
++country that you have reason to believe are valid.
++
++  If, pursuant to or in connection with a single transaction or
++arrangement, you convey, or propagate by procuring conveyance of, a
++covered work, and grant a patent license to some of the parties
++receiving the covered work authorizing them to use, propagate, modify
++or convey a specific copy of the covered work, then the patent license
++you grant is automatically extended to all recipients of the covered
++work and works based on it.
++
++  A patent license is "discriminatory" if it does not include within
++the scope of its coverage, prohibits the exercise of, or is
++conditioned on the non-exercise of one or more of the rights that are
++specifically granted under this License.  You may not convey a covered
++work if you are a party to an arrangement with a third party that is
++in the business of distributing software, under which you make payment
++to the third party based on the extent of your activity of conveying
++the work, and under which the third party grants, to any of the
++parties who would receive the covered work from you, a discriminatory
++patent license (a) in connection with copies of the covered work
++conveyed by you (or copies made from those copies), or (b) primarily
++for and in connection with specific products or compilations that
++contain the covered work, unless you entered into that arrangement,
++or that patent license was granted, prior to 28 March 2007.
++
++  Nothing in this License shall be construed as excluding or limiting
++any implied license or other defenses to infringement that may
++otherwise be available to you under applicable patent law.
++
++  12. No Surrender of Others' Freedom.
++
++  If conditions are imposed on you (whether by court order, agreement or
++otherwise) that contradict the conditions of this License, they do not
++excuse you from the conditions of this License.  If you cannot convey a
++covered work so as to satisfy simultaneously your obligations under this
++License and any other pertinent obligations, then as a consequence you may
++not convey it at all.  For example, if you agree to terms that obligate you
++to collect a royalty for further conveying from those to whom you convey
++the Program, the only way you could satisfy both those terms and this
++License would be to refrain entirely from conveying the Program.
++
++  13. Use with the GNU Affero General Public License.
++
++  Notwithstanding any other provision of this License, you have
++permission to link or combine any covered work with a work licensed
++under version 3 of the GNU Affero General Public License into a single
++combined work, and to convey the resulting work.  The terms of this
++License will continue to apply to the part which is the covered work,
++but the special requirements of the GNU Affero General Public License,
++section 13, concerning interaction through a network will apply to the
++combination as such.
++
++  14. Revised Versions of this License.
++
++  The Free Software Foundation may publish revised and/or new versions of
++the GNU General Public License from time to time.  Such new versions will
++be similar in spirit to the present version, but may differ in detail to
++address new problems or concerns.
++
++  Each version is given a distinguishing version number.  If the
++Program specifies that a certain numbered version of the GNU General
++Public License "or any later version" applies to it, you have the
++option of following the terms and conditions either of that numbered
++version or of any later version published by the Free Software
++Foundation.  If the Program does not specify a version number of the
++GNU General Public License, you may choose any version ever published
++by the Free Software Foundation.
++
++  If the Program specifies that a proxy can decide which future
++versions of the GNU General Public License can be used, that proxy's
++public statement of acceptance of a version permanently authorizes you
++to choose that version for the Program.
++
++  Later license versions may give you additional or different
++permissions.  However, no additional obligations are imposed on any
++author or copyright holder as a result of your choosing to follow a
++later version.
++
++  15. Disclaimer of Warranty.
++
++  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
++APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
++HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
++OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
++THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
++PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
++IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
++ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
++
++  16. Limitation of Liability.
++
++  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
++WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
++THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
++GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
++USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
++DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
++PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
++EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
++SUCH DAMAGES.
++
++  17. Interpretation of Sections 15 and 16.
++
++  If the disclaimer of warranty and limitation of liability provided
++above cannot be given local legal effect according to their terms,
++reviewing courts shall apply local law that most closely approximates
++an absolute waiver of all civil liability in connection with the
++Program, unless a warranty or assumption of liability accompanies a
++copy of the Program in return for a fee.
++
++                     END OF TERMS AND CONDITIONS
++
++            How to Apply These Terms to Your New Programs
++
++  If you develop a new program, and you want it to be of the greatest
++possible use to the public, the best way to achieve this is to make it
++free software which everyone can redistribute and change under these terms.
++
++  To do so, attach the following notices to the program.  It is safest
++to attach them to the start of each source file to most effectively
++state the exclusion of warranty; and each file should have at least
++the "copyright" line and a pointer to where the full notice is found.
++
++    <one line to give the program's name and a brief idea of what it does.>
++    Copyright (C) <year>  <name of author>
++
++    This program is free software: you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation, either version 3 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program.  If not, see <http://www.gnu.org/licenses/>.
++
++Also add information on how to contact you by electronic and paper mail.
++
++  If the program does terminal interaction, make it output a short
++notice like this when it starts in an interactive mode:
++
++    <program>  Copyright (C) <year>  <name of author>
++    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
++    This is free software, and you are welcome to redistribute it
++    under certain conditions; type `show c' for details.
++
++The hypothetical commands `show w' and `show c' should show the appropriate
++parts of the General Public License.  Of course, your program's commands
++might be different; for a GUI interface, you would use an "about box".
++
++  You should also get your employer (if you work as a programmer) or school,
++if any, to sign a "copyright disclaimer" for the program, if necessary.
++For more information on this, and how to apply and follow the GNU GPL, see
++<http://www.gnu.org/licenses/>.
++
++  The GNU General Public License does not permit incorporating your program
++into proprietary programs.  If your program is a subroutine library, you
++may consider it more useful to permit linking proprietary applications with
++the library.  If this is what you want to do, use the GNU Lesser General
++Public License instead of this License.  But first, please read
++<http://www.gnu.org/philosophy/why-not-lgpl.html>.
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/Makefile.in
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/Makefile.in	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,56 @@
++# ***** BEGIN LICENSE BLOCK *****
++# Version: MPL 1.1/GPL 2.0/LGPL 2.1
++#
++# The contents of this file are subject to the Mozilla Public License Version
++# 1.1 (the "License"); you may not use this file except in compliance with
++# the License. You may obtain a copy of the License at
++# http://www.mozilla.org/MPL/
++#
++# Software distributed under the License is distributed on an "AS IS" basis,
++# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
++# for the specific language governing rights and limitations under the
++# License.
++#
++# The Original Code is mozilla.org code.
++#
++# The Initial Developer of the Original Code is
++#   Florian QUEZE <florian@instantbird.org>
++# Portions created by the Initial Developer are Copyright (C) 2008
++# the Initial Developer. All Rights Reserved.
++#
++# Contributor(s):
++#
++# Alternatively, the contents of this file may be used under the terms of
++# either of the GNU General Public License Version 2 or later (the "GPL"),
++# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
++# in which case the provisions of the GPL or the LGPL are applicable instead
++# of those above. If you wish to allow use of your version of this file only
++# under the terms of either the GPL or the LGPL, and not to allow others to
++# use your version of this file under the terms of the MPL, indicate your
++# decision by deleting the provisions above and replace them with the notice
++# and other provisions required by the GPL or the LGPL. If you do not delete
++# the provisions above, a recipient may use your version of this file under
++# the terms of any one of the MPL, the GPL or the LGPL.
++#
++# ***** END LICENSE BLOCK *****
++
++DEPTH		= ../../../..
++topsrcdir	= @top_srcdir@
++srcdir		= @srcdir@
++VPATH		= @srcdir@
++PROTOCOL	= facebook
++
++include $(srcdir)/../prpl.mk
++
++CSRCS		= \
++		libfacebook.c \
++		fb_blist.c \
++		fb_connection.c \
++		fb_info.c \
++		fb_managefriends.c \
++		fb_messages.c \
++		fb_notifications.c \
++		fb_search.c \
++		$(NULL)
++
++include $(srcdir)/../prpl-rules.mk
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_blist.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_blist.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,411 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "libfacebook.h"
++#include "fb_connection.h"
++#include "fb_blist.h"
++
++static void set_buddies_offline(PurpleBuddy *buddy, GSList *online_buddies_list)
++{
++	if (g_slist_find(online_buddies_list, buddy) == NULL &&
++			PURPLE_BUDDY_IS_ONLINE(buddy))
++	{
++		purple_prpl_got_user_status(buddy->account, buddy->name,
++				purple_primitive_get_id_from_type(PURPLE_STATUS_OFFLINE),
++				NULL);
++	}
++}
++
++static void buddy_icon_cb(FacebookAccount *fba, gchar *data, gsize data_len,
++		gpointer user_data)
++{
++	gchar *buddyname;
++	PurpleBuddy *buddy;
++	gpointer buddy_icon_data;
++
++	buddyname = user_data;
++
++	purple_debug_info("facebook",
++			"buddy icon for buddy %s %" G_GSIZE_FORMAT "\n",
++			buddyname, data_len);
++
++	buddy = purple_find_buddy(fba->account, buddyname);
++	g_free(buddyname);
++	if (buddy == NULL)
++		return;
++
++	buddy_icon_data = g_memdup(data, data_len);
++
++	purple_buddy_icons_set_for_user(fba->account, buddy->name,
++			buddy_icon_data, data_len, NULL);
++}
++
++static void got_buddy_list_cb(FacebookAccount *fba, gchar *data,
++		gsize data_len, gpointer userdata)
++{
++	GSList *buddies_list;
++	GSList *online_buddies_list = NULL;
++	PurpleBuddy *buddy;
++	FacebookBuddy *fbuddy;
++	gchar *uid;
++	gchar *name;
++	gchar *status_text;
++	gchar *status_time_text;
++	gchar *buddy_icon_url;
++	gboolean idle;
++	guint32 error_number;
++
++	gchar *search_start;
++	gchar *search_tmp;
++	gchar *tmp;
++	gchar *largest_buddy_search_point = NULL;
++
++	PurpleGroup *fb_group = NULL;
++
++	gboolean current_buddy_online = FALSE;
++
++	purple_debug_info("facebook", "parsing buddy list\n");
++	purple_debug_misc("facebook", "buddy list\n%s\n", data);
++
++	if (fba == NULL)
++		return;
++
++	if (data == NULL) {
++		purple_connection_error_reason(fba->pc,
++				PURPLE_CONNECTION_ERROR_NETWORK_ERROR,
++				_("Could not retrieve buddy list"));
++		return;
++	}
++
++	/* Check if the facebook group already exists (fixes #13) */
++	fb_group = purple_find_group("Facebook");
++
++	/* if logged out, this comes up */
++	/* for (;;);{"error":1357001,"errorSummary":"Not Logged In",
++		"errorDescription":"You must be logged in to do that.",
++		"payload":null,"bootload":[{"name":"js\/common.js.pkg.php",
++		"type":"js","src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/pkg\/59\
++		/98561\/js\/common.js.pkg.php"}]} */
++	tmp = g_strstr_len(data, data_len, "\"error\":");
++	if (tmp != NULL)
++	{
++		tmp += 9;
++		tmp = g_strndup(tmp, strchr(tmp, ',')-tmp);
++		error_number = atoi(tmp);
++		g_free(tmp);
++		if (error_number)
++		{
++			/* error :( */
++			tmp = g_strstr_len(data, data_len, "\"errorDescription\":");
++			tmp += 20;
++			tmp = g_strndup(tmp, strchr(tmp, '"')-tmp);
++			/* TODO: Use purple_connection_error_reason() */
++			purple_connection_error(fba->pc, tmp);
++			g_free(tmp);
++			return;
++		}
++	}
++
++	/* look for "userInfos":{ ... }, */
++	search_start = strstr(data, "\"userInfos\":{");
++	if (search_start == NULL)
++		return;
++	search_start += 13;
++
++	while (*search_start != '}' && (search_start - data < data_len))
++	{
++		tmp = strchr(search_start, ':');
++		uid = g_strndup(search_start+1, tmp-search_start-2);
++		/* purple_debug_misc("facebook", "uid: %s\n", uid); */
++
++		search_start += strlen(uid) + 2;
++
++		search_tmp = strstr(search_start, "\"name\":") + 8;
++		if (search_tmp > largest_buddy_search_point)
++			largest_buddy_search_point = search_tmp;
++		search_tmp = g_strndup(search_tmp, strchr(search_tmp, '"')-search_tmp);
++		name = fb_convert_unicode(search_tmp);
++		g_free(search_tmp);
++		/* purple_debug_misc("facebook", "name: %s\n", name); */
++
++		/* try updating the alias, just in case it was removed locally */
++		serv_got_alias(fba->pc, uid, name);
++
++		/* look for "uid":{"i":_____} */
++		tmp = g_strdup_printf("\"%s\":{\"i\":", uid);
++		search_tmp = g_strstr_len(data, data_len, tmp);
++		if (search_tmp != NULL)
++		{
++			search_tmp += strlen(tmp);
++			if (search_tmp > largest_buddy_search_point)
++				largest_buddy_search_point = search_tmp;
++			search_tmp = g_strndup(search_tmp, strchr(search_tmp, '}')-search_tmp);
++			/* purple_debug_misc("facebook", "buddy idle: %s\n", search_tmp); */
++			buddy = purple_find_buddy(fba->account, uid);
++			idle = g_str_equal(search_tmp, "true");
++			g_free(search_tmp);
++			current_buddy_online = TRUE;
++		} else {
++			/* if we're here, the buddy's info has been sent, but they're not actually online */
++			current_buddy_online = FALSE;
++			idle = FALSE;
++		}
++		g_free(tmp);
++
++		/* Set the buddy status text and time */
++		search_tmp = strstr(search_start, "\"status\":");
++		if (search_tmp != NULL && *(search_tmp + 9) == '"')
++		{
++			search_tmp += 10;
++			if (search_tmp > largest_buddy_search_point)
++				largest_buddy_search_point = strstr(search_tmp, ",\"statusTime");
++			search_tmp = g_strndup(search_tmp, strstr(search_tmp, ",\"statusTime")-1-search_tmp);
++			status_text = fb_convert_unicode(search_tmp);
++			g_free(search_tmp);
++		} else {
++			status_text = NULL;
++		}
++
++		/* is this us? */
++		if (atoi(uid) == fba->uid)
++		{
++			purple_connection_set_display_name(fba->pc, name);
++
++			/* set our last known status so that we don't re-set it */
++			if (status_text && !fba->last_status_message)
++				fba->last_status_message = g_strdup(status_text);
++
++			/* check that we don't want to show ourselves */
++			if (purple_account_get_bool(fba->account, "facebook_hide_self", TRUE))
++			{
++				g_free(status_text);
++				g_free(name);
++				g_free(uid);
++
++				/* Move pointer to the end of the buddy entry */
++				search_start = strchr(largest_buddy_search_point, '}') + 1;
++				while (*search_start == ',' && (search_start - data < data_len))
++					search_start++;
++				/* go on to the next buddy */
++				continue;
++			} else {
++				current_buddy_online = TRUE;
++			}
++		}
++
++		/* Is this a new buddy? */
++		buddy = purple_find_buddy(fba->account, uid);
++		if (buddy == NULL)
++		{
++			buddy = purple_buddy_new(fba->account, uid, NULL);
++			if (fb_group == NULL)
++			{
++				fb_group = purple_group_new("Facebook");
++				purple_blist_add_group(fb_group, NULL);
++			}
++			purple_blist_add_buddy(buddy, NULL, fb_group, NULL);
++		}
++		serv_got_alias(fba->pc, uid, name);
++		purple_presence_set_idle(purple_buddy_get_presence(buddy), idle, 0);
++
++		/* Set the FacebookBuddy structure */
++		if (buddy->proto_data == NULL)
++		{
++			fbuddy = g_new0(FacebookBuddy, 1);
++			fbuddy->buddy = buddy;
++			fbuddy->fba = fba;
++			fbuddy->uid = atoi(uid);
++			fbuddy->name = g_strdup(name);
++
++			/* load the old buddy icon from the account settings */
++			tmp = g_strdup_printf("buddy_icon_%d_cache", fbuddy->uid);
++			fbuddy->thumb_url = g_strdup(purple_account_get_string(fba->account, tmp, ""));
++			g_free(tmp);
++
++			buddy->proto_data = fbuddy;
++		} else {
++			fbuddy = buddy->proto_data;
++		}
++
++		g_free(uid);
++		g_free(name);
++
++		if (status_text != NULL)
++		{
++			tmp = fb_strdup_withhtml(status_text);
++			g_free(status_text);
++			status_text = tmp;
++			/* purple_debug_misc("facebook", "status: %s\n", status_text); */
++
++			search_tmp = strstr(search_start, "\"statusTimeRel\":") + 17;
++			if (search_tmp > largest_buddy_search_point)
++				largest_buddy_search_point = strchr(search_tmp, '"');
++			search_tmp = g_strndup(search_tmp, strchr(search_tmp, '"')-search_tmp);
++			status_time_text = fb_convert_unicode(search_tmp);
++			g_free(search_tmp);
++
++			if (g_str_equal(status_time_text, "ull,"))
++			{
++				g_free(status_time_text);
++				status_time_text = NULL;
++			}
++			g_free(fbuddy->status_rel_time);
++			if (status_time_text != NULL)
++			{
++				fbuddy->status_rel_time = fb_strdup_withhtml(status_time_text);
++				g_free(status_time_text);
++				/* purple_debug_misc("facebook", "status time: %s\n", fbuddy->status_rel_time); */
++			} else {
++				fbuddy->status_rel_time = NULL;
++			}
++
++			/* if the buddy status has changed, update the contact list */
++			if (fbuddy->status == NULL || !g_str_equal(fbuddy->status, status_text))
++			{
++				tmp = fbuddy->status;
++				fbuddy->status = status_text;
++				g_free(tmp);
++				if (current_buddy_online)
++					purple_prpl_got_user_status(fba->account, buddy->name, purple_primitive_get_id_from_type(PURPLE_STATUS_AVAILABLE), NULL);
++			} else {
++				g_free(status_text);
++			}
++		} else {
++			if (fbuddy->status != NULL)
++			{
++				g_free(fbuddy->status);
++				fbuddy->status = NULL;
++				if (current_buddy_online)
++				{
++					/* update the status in the contact list */
++					purple_prpl_got_user_status(fba->account, buddy->name, purple_primitive_get_id_from_type(PURPLE_STATUS_AVAILABLE), NULL);
++				}
++			}
++		}
++
++		/* Set the buddy icon (if it hasn't changed) */
++		search_tmp = strstr(search_start, "\"thumbSrc\":") + 12;
++		if (search_tmp > largest_buddy_search_point)
++			largest_buddy_search_point = search_tmp;
++		buddy_icon_url = g_strndup(search_tmp, strchr(search_tmp, '"')-search_tmp);
++		if (fbuddy->thumb_url == NULL || !g_str_equal(fbuddy->thumb_url, buddy_icon_url))
++		{
++			g_free(fbuddy->thumb_url);
++			fbuddy->thumb_url = g_strdup(buddy_icon_url);
++
++			/* Save the buddy icon so that they don't all need to be reloaded at startup */
++			tmp = g_strdup_printf("buddy_icon_%d_cache", fbuddy->uid);
++			purple_account_set_string(fba->account, tmp, buddy_icon_url);
++			g_free(tmp);
++
++			/* Turn the \/ into / */
++			tmp = g_strcompress(buddy_icon_url);
++
++			/* small icon at http://profile.ak.facebook.com/profile6/1845/74/q800753867_2878.jpg */
++			/* bigger icon at http://profile.ak.facebook.com/profile6/1845/74/n800753867_2878.jpg */
++			search_tmp = strstr(tmp, "/q");
++			if (search_tmp)
++				*(search_tmp + 1) = 'n';
++
++			if (g_str_equal(tmp, "http://static.ak.fbcdn.net/pics/q_silhouette.gif"))
++				/* User has no icon */
++				purple_buddy_icons_set_for_user(fba->account,
++						purple_buddy_get_name(buddy), NULL, 0, NULL);
++			else
++				/* Fetch their icon */
++				fb_post_or_get(fba, FB_METHOD_GET, "profile.ak.facebook.com",
++						tmp + strlen("http://profile.ak.facebook.com"), NULL,
++						buddy_icon_cb, g_strdup(purple_buddy_get_name(buddy)),
++					FALSE);
++			g_free(tmp);
++		}
++		g_free(buddy_icon_url);
++
++		if (current_buddy_online)
++		{
++			/* Add buddy to the list of online buddies */
++			online_buddies_list = g_slist_append(online_buddies_list, buddy);
++
++			/* Update the display of the buddy in the buddy list and make the user online */
++			if (!PURPLE_BUDDY_IS_ONLINE(buddy))
++				purple_prpl_got_user_status(fba->account, buddy->name, purple_primitive_get_id_from_type(PURPLE_STATUS_AVAILABLE), NULL);
++		}
++
++		/* Move pointer after any user configurable data */
++		search_start = search_tmp;
++		/* Move pointer to the end of the buddy entry */
++		search_start = strchr(largest_buddy_search_point, '}') + 1;
++		while (*search_start == ',' && (search_start - data < data_len))
++			search_start++;
++	}
++
++	buddies_list = purple_find_buddies(fba->account, NULL);
++	if (buddies_list != NULL)
++	{
++		g_slist_foreach(buddies_list, (GFunc)set_buddies_offline, online_buddies_list);
++		g_slist_free(buddies_list);
++	}
++	g_slist_free(online_buddies_list);
++}
++
++gboolean fb_get_buddy_list(gpointer data)
++{
++	FacebookAccount *fba;
++	gchar *postdata;
++
++	fba = data;
++
++	postdata = g_strdup_printf(
++			"user=%d&popped_out=false&force_render=true&buddy_list=1",
++			fba->uid);
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/presence/update.php",
++			postdata, got_buddy_list_cb, NULL, FALSE);
++	g_free(postdata);
++
++	return TRUE;
++}
++
++void fb_blist_poke_buddy(PurpleBlistNode *node, gpointer data)
++{
++	PurpleBuddy *buddy;
++	FacebookBuddy *fbuddy;
++	FacebookAccount *fba;
++	gchar *postdata;
++	
++	if(!PURPLE_BLIST_NODE_IS_BUDDY(node))
++		return;
++	buddy = (PurpleBuddy *) node;
++	if (!buddy)
++		return;
++	fbuddy = buddy->proto_data;
++	if (!fbuddy)
++		return;
++	fba = fbuddy->fba;
++	if (!fba)
++		return;
++	
++	postdata = g_strdup_printf("uid=%d&pokeback=0&post_form_id=%s", fbuddy->uid, fba->post_form_id);
++	
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/poke.php",
++				postdata, NULL, NULL, FALSE);
++	
++	g_free(postdata);
++}
++
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_blist.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_blist.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,29 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_BLIST_H
++#define FACEBOOK_BLIST_H
++
++#include "libfacebook.h"
++
++gboolean fb_get_buddy_list(gpointer data);
++void fb_blist_poke_buddy(PurpleBlistNode *node, gpointer data);
++
++#endif /* FACEBOOK_BLIST_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_connection.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_connection.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,580 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "fb_connection.h"
++
++static void fb_attempt_connection(FacebookConnection *);
++
++#ifdef HAVE_ZLIB
++static guchar *fb_gunzip(const guchar *gzip_data, ssize_t *len_ptr)
++{
++	gsize gzip_data_len	= *len_ptr;
++	z_stream zstr;
++	int gzip_err = 0;
++	guchar *output_data;
++	gulong gzip_len = G_MAXUINT16;
++
++	g_return_val_if_fail(zlib_inflate != NULL, NULL);
++
++	output_data = g_new0(guchar, gzip_len);
++
++	zstr.next_in = gzip_data;
++	zstr.avail_in = gzip_data_len;
++	zstr.zalloc = Z_NULL;
++	zstr.zfree = Z_NULL;
++	zstr.opaque = Z_NULL;
++	int flags = gzip_data[3];
++	int offset = 4;
++	/* if (flags & 0x04) offset += *tmp[] */
++	zstr.next_in += offset;
++	zstr.avail_in -= offset;
++	zlib_inflateInit2_(&zstr, -MAX_WBITS, ZLIB_VERSION, sizeof(z_stream));
++	zstr.next_out = output_data;
++	zstr.avail_out = gzip_len;
++	gzip_err = zlib_inflate(&zstr, Z_FINISH);
++	zlib_inflateEnd(&zstr);
++
++	purple_debug_info("facebook", "gzip len: %ld, len: %ld\n", gzip_len,
++			gzip_data_len);
++	purple_debug_info("facebook", "gzip flags: %d\n", flags);
++	purple_debug_info("facebook", "gzip error: %d\n", gzip_err);
++
++	*len_ptr = gzip_len;
++	return output_data;
++}
++#endif
++
++void fb_connection_destroy(FacebookConnection *fbconn)
++{
++	fbconn->fba->conns = g_slist_remove(fbconn->fba->conns, fbconn);
++
++	if (fbconn->request != NULL)
++		g_string_free(fbconn->request, TRUE);
++
++	g_free(fbconn->rx_buf);
++
++	if (fbconn->connect_data != NULL)
++		purple_proxy_connect_cancel(fbconn->connect_data);
++
++	if (fbconn->ssl_conn != NULL)
++		purple_ssl_close(fbconn->ssl_conn);
++
++	if (fbconn->fd >= 0) {
++		close(fbconn->fd);
++	}
++
++	if (fbconn->input_watcher > 0)
++		purple_input_remove(fbconn->input_watcher);
++
++	g_free(fbconn->hostname);
++	g_free(fbconn);
++}
++
++static void fb_update_cookies(FacebookAccount *fba, const gchar *headers)
++{
++	const gchar *cookie_start;
++	const gchar *cookie_end;
++	gchar *cookie_name;
++	gchar *cookie_value;
++	int header_len;
++
++	g_return_if_fail(headers != NULL);
++
++	header_len = strlen(headers);
++
++	/* look for the next "Set-Cookie: " */
++	/* grab the data up until ';' */
++	cookie_start = headers;
++	while ((cookie_start = strstr(cookie_start, "\r\nSet-Cookie: ")) &&
++			(headers-cookie_start) < header_len)
++	{
++		cookie_start += 14;
++		cookie_end = strchr(cookie_start, '=');
++		cookie_name = g_strndup(cookie_start, cookie_end-cookie_start);
++		cookie_start = cookie_end + 1;
++		cookie_end = strchr(cookie_start, ';');
++		cookie_value= g_strndup(cookie_start, cookie_end-cookie_start);
++		cookie_start = cookie_end;
++
++		purple_debug_info("facebook", "got cookie %s=%s\n",
++				cookie_name, cookie_value);
++
++		g_hash_table_replace(fba->cookie_table, cookie_name,
++				cookie_value);
++	}
++}
++
++static void fb_connection_process_data(FacebookConnection *fbconn)
++{
++	ssize_t len;
++	gchar *tmp;
++
++	len = fbconn->rx_len;
++	tmp = g_strstr_len(fbconn->rx_buf, len, "\r\n\r\n");
++	if (tmp == NULL) {
++		/* This is a corner case that occurs when the connection is
++		 * prematurely closed either on the client or the server.
++		 * This can either be no data at all or a partial set of
++		 * headers.  We pass along the data to be good, but don't
++		 * do any fancy massaging.  In all likelihood the result will
++		 * be tossed by the connection callback func anyways
++		 */
++		tmp = g_strndup(fbconn->rx_buf, len);
++	} else {
++		tmp += 4;
++		len -= g_strstr_len(fbconn->rx_buf, len, "\r\n\r\n") -
++				fbconn->rx_buf + 4;
++		tmp = g_memdup(tmp, len + 1);
++		tmp[len] = '\0';
++		fbconn->rx_buf[fbconn->rx_len - len] = '\0';
++		purple_debug_misc("facebook", "response headers\n%s\n",
++				fbconn->rx_buf);
++		fb_update_cookies(fbconn->fba, fbconn->rx_buf);
++
++#ifdef HAVE_ZLIB
++		if (strstr(fbconn->rx_buf, "Content-Encoding: gzip"))
++		{
++			/* we've received compressed gzip data, decompress */
++			if (zlib_inflate != NULL)
++			{
++				gchar *gunzipped;
++				gunzipped = fb_gunzip((const guchar *)tmp, &len);
++				g_free(tmp);
++				tmp = gunzipped;
++			}
++		}
++#endif
++	}
++
++	g_free(fbconn->rx_buf);
++	fbconn->rx_buf = NULL;
++
++	if (fbconn->callback != NULL)
++		fbconn->callback(fbconn->fba, tmp, len, fbconn->user_data);
++
++	g_free(tmp);
++}
++
++static void fb_fatal_connection_cb(FacebookConnection *fbconn)
++{
++	PurpleConnection *pc = fbconn->fba->pc;
++
++	purple_debug_error("facebook", "fatal connection error\n");
++
++	fb_connection_destroy(fbconn);
++
++	/* We died.  Do not pass Go.  Do not collect $200 */
++	/* In all seriousness, don't attempt to call the normal callback here.
++	 * That may lead to the wrong error message being displayed */
++	purple_connection_error_reason(pc,
++				PURPLE_CONNECTION_ERROR_NETWORK_ERROR,
++				_("Server closed the connection."));
++
++}
++
++static void fb_post_or_get_readdata_cb(gpointer data, gint source,
++		PurpleInputCondition cond)
++{
++	FacebookConnection *fbconn;
++	gchar buf[4096];
++	ssize_t len;
++
++	fbconn = data;
++
++	if (fbconn->method & FB_METHOD_SSL) {
++		len = purple_ssl_read(fbconn->ssl_conn,
++				buf, sizeof(buf) - 1);
++	} else {
++		len = recv(fbconn->fd, buf, sizeof(buf) - 1, 0);
++	}
++
++	if (len < 0)
++	{
++		if (errno == EAGAIN || errno == EWOULDBLOCK || errno == EINTR) {
++			/* Try again later */
++			return;
++		}
++
++		if (fbconn->method & FB_METHOD_SSL && fbconn->rx_len > 0) {
++			/*
++			 * This is a slightly hacky workaround for a bug in either
++			 * GNU TLS or in the SSL implementation on Facebook's web
++			 * servers.  The sequence of events is:
++			 * 1. We attempt to read the first time and successfully read
++			 *    the server's response.
++			 * 2. We attempt to read a second time and libpurple's call
++			 *    to gnutls_record_recv() returns the error
++			 *    GNUTLS_E_UNEXPECTED_PACKET_LENGTH, or
++			 *    "A TLS packet with unexpected length was received."
++			 *
++			 * Normally the server would have closed the connection
++			 * cleanly and this second read() request would have returned
++			 * 0.  Or maybe it's normal for SSL connections to be severed
++			 * in this manner?  In any case, this differs from the behavior
++			 * of the standard recv() system call.
++			 */
++			purple_debug_warning("facebook",
++				"ssl error, but data received.  attempting to continue\n");
++		} else {
++			/* TODO: Is this a regular occurrence?  If so then maybe resend the request? */
++			fb_fatal_connection_cb(fbconn);
++			return;
++		}
++	}
++
++	if (len > 0)
++	{
++		buf[len] = '\0';
++
++		fbconn->rx_buf = g_realloc(fbconn->rx_buf,
++				fbconn->rx_len + len + 1);
++		memcpy(fbconn->rx_buf + fbconn->rx_len, buf, len + 1);
++		fbconn->rx_len += len;
++
++		/* Wait for more data before processing */
++		return;
++	}
++
++	/* The server closed the connection, let's parse the data */
++	fb_connection_process_data(fbconn);
++
++	fb_connection_destroy(fbconn);
++}
++
++static void fb_post_or_get_ssl_readdata_cb (gpointer data,
++		PurpleSslConnection *ssl, PurpleInputCondition cond)
++{
++	fb_post_or_get_readdata_cb(data, -1, cond);
++}
++
++static void fb_post_or_get_connect_cb(gpointer data, gint source,
++		const gchar *error_message)
++{
++	FacebookConnection *fbconn;
++	ssize_t len;
++
++	fbconn = data;
++	fbconn->connect_data = NULL;
++
++	if (error_message)
++	{
++		purple_debug_error("facebook", "post_or_get_connect_cb %s\n",
++				error_message);
++		fb_fatal_connection_cb(fbconn);
++		return;
++	}
++
++	purple_debug_info("facebook", "post_or_get_connect_cb\n");
++	fbconn->fd = source;
++
++	/* TODO: Check the return value of write() */
++	len = write(fbconn->fd, fbconn->request->str,
++			fbconn->request->len);
++	fbconn->input_watcher = purple_input_add(fbconn->fd,
++			PURPLE_INPUT_READ,
++			fb_post_or_get_readdata_cb, fbconn);
++}
++
++static void fb_post_or_get_ssl_connect_cb(gpointer data,
++		PurpleSslConnection *ssl, PurpleInputCondition cond)
++{
++	FacebookConnection *fbconn;
++	ssize_t len;
++
++	fbconn = data;
++
++	purple_debug_info("facebook", "post_or_get_ssl_connect_cb\n");
++
++	/* TODO: Check the return value of write() */
++	len = purple_ssl_write(fbconn->ssl_conn,
++			fbconn->request->str, fbconn->request->len);
++	purple_ssl_input_add(fbconn->ssl_conn,
++			fb_post_or_get_ssl_readdata_cb, fbconn);
++}
++
++static void fb_host_lookup_cb(GSList *hosts, gpointer data,
++		const char *error_message)
++{
++	GSList *host_lookup_list;
++	struct sockaddr_in *addr;
++	gchar *hostname;
++	gchar *ip_address;
++	FacebookAccount *fba;
++	PurpleDnsQueryData *query;
++
++	purple_debug_info("facebook", "updating cache of dns addresses\n");
++
++	/* Extract variables */
++	host_lookup_list = data;
++
++	fba = host_lookup_list->data;
++	host_lookup_list =
++			g_slist_delete_link(host_lookup_list, host_lookup_list);
++	hostname = host_lookup_list->data;
++	host_lookup_list =
++			g_slist_delete_link(host_lookup_list, host_lookup_list);
++	query = host_lookup_list->data;
++	host_lookup_list =
++			g_slist_delete_link(host_lookup_list, host_lookup_list);
++
++	/* The callback has executed, so we no longer need to keep track of
++	 * the original query.  This always needs to run when the cb is 
++	 * executed. */
++	fba->dns_queries = g_slist_remove(fba->dns_queries, query);
++
++	/* Any problems, capt'n? */
++	if (error_message != NULL)
++	{
++		purple_debug_warning("facebook",
++				"Error doing host lookup: %s\n", error_message);
++		return;
++	}
++
++	if (hosts == NULL)
++	{
++		purple_debug_warning("facebook",
++				"Could not resolve host name\n");
++		return;
++	}
++
++	/* Discard the length... */
++	hosts = g_slist_delete_link(hosts, hosts);
++	/* Copy the address then free it... */
++	addr = hosts->data;
++	ip_address = g_strdup(inet_ntoa(addr->sin_addr));
++	g_free(addr);
++	hosts = g_slist_delete_link(hosts, hosts);
++
++	/*
++	 * DNS lookups can return a list of IP addresses, but we only cache
++	 * the first one.  So free the rest.
++	 */
++	while (hosts != NULL)
++	{
++		/* Discard the length... */
++		hosts = g_slist_delete_link(hosts, hosts);
++		/* Free the address... */
++		g_free(hosts->data);
++		hosts = g_slist_delete_link(hosts, hosts);
++	}
++
++	purple_debug_info("facebook", "Host %s has IP %s\n",
++			hostname, ip_address);
++
++	g_hash_table_insert(fba->hostname_ip_cache, hostname, ip_address);
++}
++
++static void fb_cookie_foreach_cb(gchar *cookie_name,
++		gchar *cookie_value, GString *str)
++{
++	/* TODO: Need to escape name and value? */
++	g_string_append_printf(str, "%s=%s;", cookie_name, cookie_value);
++}
++
++/**
++ * Serialize the fba->cookie_table hash table to a string.
++ */
++static gchar *fb_cookies_to_string(FacebookAccount *fba)
++{
++	GString *str;
++
++	str = g_string_new(NULL);
++
++	g_hash_table_foreach(fba->cookie_table,
++			(GHFunc)fb_cookie_foreach_cb, str);
++
++	return g_string_free(str, FALSE);
++}
++
++static void fb_ssl_connection_error(PurpleSslConnection *ssl,
++		PurpleSslErrorType errortype, gpointer data)
++{
++	FacebookConnection *fbconn = data;
++	PurpleConnection *pc = fbconn->fba->pc;
++
++	fbconn->ssl_conn = NULL;
++	fb_connection_destroy(fbconn);
++	purple_connection_ssl_error(pc, errortype);
++}
++
++void fb_post_or_get(FacebookAccount *fba, FacebookMethod method,
++		const gchar *host, const gchar *url, const gchar *postdata,
++		FacebookProxyCallbackFunc callback_func, gpointer user_data,
++		gboolean keepalive)
++{
++	GString *request;
++	gchar *cookies;
++	FacebookConnection *fbconn;
++	gchar *real_url;
++	gboolean is_proxy = FALSE;
++	const gchar *user_agent;
++
++	/* TODO: Fix keepalive and use it as much as possible */
++	keepalive = FALSE;
++
++	if (host == NULL)
++		host = "www.facebook.com";
++
++	if (fba && fba->account && fba->account->proxy_info &&
++		(fba->account->proxy_info->type == PURPLE_PROXY_HTTP ||
++		(fba->account->proxy_info->type == PURPLE_PROXY_USE_GLOBAL &&
++			purple_global_proxy_get_info() &&
++			purple_global_proxy_get_info()->type ==
++					PURPLE_PROXY_HTTP)))
++	{
++		real_url = g_strdup_printf("http://%s%s", host, url);
++		is_proxy = TRUE;
++	} else {
++		real_url = g_strdup(url);
++	}
++
++	cookies = fb_cookies_to_string(fba);
++	user_agent = purple_account_get_string(fba->account, "user-agent", "Opera/9.50 (Windows NT 5.1; U; en-GB)");
++
++	/* Build the request */
++	request = g_string_new(NULL);
++	g_string_append_printf(request, "%s %s HTTP/1.0\r\n",
++			(method & FB_METHOD_POST) ? "POST" : "GET",
++			real_url);
++	g_string_append_printf(request, "Host: %s\r\n", host);
++	g_string_append_printf(request, "Connection: %s\r\n",
++			(keepalive ? "Keep-Alive" : "close"));
++	g_string_append_printf(request, "User-Agent: %s\r\n", user_agent);
++	if (method & FB_METHOD_POST) {
++		g_string_append_printf(request,
++				"Content-Type: application/x-www-form-urlencoded\r\n");
++		g_string_append_printf(request,
++				"Content-length: %zu\r\n", strlen(postdata));
++	}
++	g_string_append_printf(request, "Accept: */*\r\n");
++	g_string_append_printf(request, "Cookie: isfbe=false;%s\r\n", cookies);
++#ifdef HAVE_ZLIB
++	if (zlib_inflate != NULL)
++		g_string_append_printf(request, "Accept-Encoding: gzip\r\n");
++#endif
++
++
++	purple_debug_misc("facebook", "sending request headers:\n%s\n",
++			request->str);
++
++	g_string_append_printf(request, "\r\n");
++	if (method & FB_METHOD_POST)
++		g_string_append_printf(request, "%s", postdata);
++
++	/* If it needs to go over a SSL connection, we probably shouldn't print
++	 * it in the debug log.  Without this condition a user's password is
++	 * printed in the debug log */
++	if (method == FB_METHOD_POST)
++		purple_debug_misc("facebook", "sending request data:\n%s\n",
++			postdata);
++
++	g_free(cookies);
++	g_free(real_url);
++	/*
++	 * Do a separate DNS lookup for the given host name and cache it
++	 * for next time.
++	 *
++	 * TODO: It would be better if we did this before we call
++	 *       purple_proxy_connect(), so we could re-use the result.
++	 *       Or even better: Use persistent HTTP connections for servers
++	 *       that we access continually.
++	 *
++	 * TODO: This cache of the hostname<-->IP address does not respect
++	 *       the TTL returned by the DNS server.  We should expire things
++	 *       from the cache after some amount of time.
++	 */
++	if (!is_proxy)
++	{
++		/* Don't do this for proxy connections, since proxies do the DNS lookup */
++		gchar *host_ip;
++
++		host_ip = g_hash_table_lookup(fba->hostname_ip_cache, host);
++		if (host_ip != NULL) {
++			purple_debug_info("facebook",
++					"swapping original host %s with cached value of %s\n",
++					host, host_ip);
++			host = host_ip;
++		} else if (fba->account && !fba->account->disconnecting) {
++			GSList *host_lookup_list = NULL;
++			PurpleDnsQueryData *query;
++
++			host_lookup_list = g_slist_prepend(
++					host_lookup_list, g_strdup(host));
++			host_lookup_list = g_slist_prepend(
++					host_lookup_list, fba);
++
++			query = purple_dnsquery_a(host, 80,
++					fb_host_lookup_cb, host_lookup_list);
++			fba->dns_queries = g_slist_prepend(fba->dns_queries, query);
++			host_lookup_list = g_slist_append(host_lookup_list, query);
++		}
++	}
++
++	fbconn = g_new0(FacebookConnection, 1);
++	fbconn->fba = fba;
++	fbconn->method = method;
++	fbconn->hostname = g_strdup(host);
++	fbconn->request = request;
++	fbconn->callback = callback_func;
++	fbconn->user_data = user_data;
++	fbconn->fd = -1;
++	fbconn->connection_keepalive = keepalive;
++	fbconn->request_time = time(NULL);
++	fba->conns = g_slist_prepend(fba->conns, fbconn);
++
++	fb_attempt_connection(fbconn);
++}
++
++static void fb_attempt_connection(FacebookConnection *fbconn)
++{
++	FacebookAccount *fba = fbconn->fba;
++
++#if 0
++	/* Connection to attempt retries.  This code doesn't work perfectly, but
++	 * remains here for future reference if needed */
++	if (time(NULL) - fbconn->request_time > 5) {
++		/* We've continuously tried to remake this connection for a 
++		 * bit now.  It isn't happening, sadly.  Time to die. */
++		purple_debug_error("facebook", "could not connect after retries\n");
++		fb_fatal_connection_cb(fbconn);
++		return;
++	}
++
++	purple_debug_info("facebook", "making connection attempt\n");
++
++	/* TODO: If we're retrying the connection, consider clearing the cached
++	 * DNS value.  This will require some juggling with the hostname param */
++	/* TODO/FIXME: This retries almost instantenously, which in some cases
++	 * runs at blinding speed.  Slow it down. */
++	/* TODO/FIXME: this doesn't retry properly on non-ssl connections */
++#endif
++
++	if (fbconn->method & FB_METHOD_SSL) {
++		fbconn->ssl_conn = purple_ssl_connect(fba->account, fbconn->hostname,
++				443, fb_post_or_get_ssl_connect_cb,
++				fb_ssl_connection_error, fbconn);
++	} else {
++		fbconn->connect_data = purple_proxy_connect(NULL, fba->account,
++				fbconn->hostname, 80, fb_post_or_get_connect_cb, fbconn);
++	}
++
++	return;
++}
++
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_connection.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_connection.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,60 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_CONNECTION_H
++#define FACEBOOK_CONNECTION_H
++
++#include "libfacebook.h"
++
++/*
++ * This is a bitmask.
++ */
++typedef enum
++{
++	FB_METHOD_GET  = 0x0001,
++	FB_METHOD_POST = 0x0002,
++	FB_METHOD_SSL  = 0x0004
++} FacebookMethod;
++
++typedef struct _FacebookConnection FacebookConnection;
++struct _FacebookConnection {
++	FacebookAccount *fba;
++	FacebookMethod method;
++	gchar *hostname;
++	GString *request;
++	FacebookProxyCallbackFunc callback;
++	gpointer user_data;
++	char *rx_buf;
++	size_t rx_len;
++	PurpleProxyConnectData *connect_data;
++	PurpleSslConnection *ssl_conn;
++	int fd;
++	guint input_watcher;
++	gboolean connection_keepalive;
++	time_t request_time;
++};
++
++void fb_connection_destroy(FacebookConnection *fbconn);
++void fb_post_or_get(FacebookAccount *fba, FacebookMethod method,
++		const gchar *host, const gchar *url, const gchar *postdata,
++		FacebookProxyCallbackFunc callback_func, gpointer user_data,
++		gboolean keepalive);
++
++#endif /* FACEBOOK_CONNECTION_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_info.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_info.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,212 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "fb_connection.h"
++#include "fb_info.h"
++
++/*
++ * TODO: Do we really want to do this?  Maybe we could just set a
++ *       flag that says that this protocol supports HTML?
++ */
++static gchar *fb_remove_useless_stripped_links(const gchar *input)
++{
++	/* removes stripped links like "(/s.php? ... )" from user info */
++	/* as an artifact of purple_markup_strip_html */
++
++	gchar *output = g_strdup(input);
++	gchar *i = output;
++	gchar *end;
++
++	while ((i = strstr(i, " (/")))
++	{
++		end = strchr(i, ')');
++		if (end)
++		{
++			end += 1;
++			/* overwrite everything after the brackets to before it */
++			g_stpcpy(i, end);
++		}
++	}
++
++	return output;
++}
++
++static void fb_get_info_cb(FacebookAccount *fba, gchar *data, gsize data_len, gpointer user_data)
++{
++	PurpleNotifyUserInfo *user_info;
++	PurpleBuddyIcon *buddy_icon;
++	size_t image_size;
++	gconstpointer image_pointer;
++	int icon_id = -1;
++	gchar *uid = user_data;
++	gchar *label_tmp;
++	gchar *value_tmp;
++	gchar *value_tmp2;
++	gchar *search_start;
++	gchar *search_end;
++	PurpleBuddy *buddy = NULL;
++	FacebookBuddy *fbuddy = NULL;
++
++	purple_debug_info("facebook", "get_info_cb\n");
++
++	buddy = purple_find_buddy(fba->account, uid);
++	if (buddy)
++	{
++		fbuddy = buddy->proto_data;
++	}
++	
++	user_info = purple_notify_user_info_new();
++
++	/* Insert link to profile at top */
++	value_tmp = g_strdup_printf("<a href=\"http://www.facebook.com/profile.php?id=%s\">%s</a>",
++			uid, _("View web profile"));
++	purple_notify_user_info_add_pair(user_info, NULL, value_tmp);
++	purple_notify_user_info_add_section_break(user_info);
++	g_free(value_tmp);
++
++	/* look from <div id="info_tab" class="info_tab"> */
++	/* until </div></div></div></div> */
++	search_start = g_strstr_len(data, data_len, "<div id=\"info_tab\" class=\"info_tab\">");
++	if (search_start == NULL)
++	{
++		purple_debug_warning("facebook",
++				"could not find user info, showing default");
++		purple_notify_userinfo(fba->pc, uid, user_info, NULL, NULL);
++		purple_notify_user_info_destroy(user_info);
++		g_free(uid);
++		return;
++	}
++	search_end = strstr(search_start, "</div></div></div></div>");
++
++	value_tmp = g_strstr_len(data, data_len, "<title>Facebook | ");
++	if (value_tmp)
++	{
++		value_tmp = strchr(value_tmp, '|')+2;
++		value_tmp2 = g_strndup(value_tmp, strstr(value_tmp, "</title>")-value_tmp);
++		value_tmp = g_strchomp(purple_markup_strip_html(value_tmp2));
++		purple_notify_user_info_add_pair(user_info, _("Name"), value_tmp);
++		serv_got_alias(fba->pc, uid, value_tmp);
++		g_free(value_tmp);
++		g_free(value_tmp2);
++	}
++
++	value_tmp = g_strstr_len(data, data_len, "<span id=\"profile_status\"");
++	if (value_tmp)
++	{
++		value_tmp2 = strstr(value_tmp, "</span>");
++		if (value_tmp2)
++		{
++			value_tmp = strchr(value_tmp, '>')+1;
++			value_tmp2 = g_strndup(value_tmp, strchr(value_tmp, '<')-value_tmp);
++			purple_debug_info("facebook", "status: %s\n", value_tmp2);
++			value_tmp = g_strchomp(purple_markup_strip_html(value_tmp2));
++			if (strlen(value_tmp) == 0)
++			{
++				//For some reason their status message disappeared
++				//Try using their status message from the buddy list
++				if (fbuddy)
++				{
++					g_free(value_tmp);
++					value_tmp = g_strdup(fbuddy->status);	
++				}
++			}
++			purple_notify_user_info_add_pair(user_info, _("Status"), value_tmp);
++			g_free(value_tmp);
++			g_free(value_tmp2);
++		}
++	}
++
++	buddy_icon = purple_buddy_icons_find(fba->account, uid);
++	if (buddy_icon)
++	{
++		image_pointer = purple_buddy_icon_get_data(buddy_icon, &image_size);
++		icon_id = purple_imgstore_add_with_id(g_memdup(image_pointer, image_size), image_size, NULL);
++		value_tmp = g_strdup_printf("<img id='%d'>", icon_id);
++		purple_debug_info("facebook", "user info pic: '%s'\n", value_tmp);
++		purple_notify_user_info_add_pair(user_info, NULL, value_tmp);
++		g_free(value_tmp);
++	}
++
++	while ((search_start = strstr(search_start, "<dt>")) && search_start < search_end)
++	{
++		search_start += 4;
++		if (search_start[0] == '<' && search_start[1] == '/' && search_start[2] == 'd' && search_start[3] == 't')
++		{
++			/* the tag closes as soon as it opens (bad xhtml) */
++			continue;
++		}
++
++		label_tmp = g_strndup(search_start, strchr(search_start, ':')-search_start);
++		if (!*label_tmp)
++		{
++			g_free(label_tmp);
++			continue;
++		}
++
++		search_start = strstr(search_start, "<dd>");
++		if (!search_start)
++		{
++			g_free(label_tmp);
++			break;
++		}
++
++		search_start += 4;
++		value_tmp = g_strndup(search_start, strstr(search_start, "</dd>")-search_start);
++		if (!*value_tmp)
++		{
++			g_free(label_tmp);
++			g_free(value_tmp);
++			continue;
++		}
++
++		/* turn html to plaintext */
++		value_tmp2 = g_strchomp(purple_markup_strip_html(value_tmp));
++		g_free(value_tmp);
++
++		/* remove the silly links */
++		value_tmp = fb_remove_useless_stripped_links(value_tmp2);
++		g_free(value_tmp2);
++
++		purple_debug_info("facebook", "label: %s\n", label_tmp);
++		purple_debug_info("facebook", "value: %s\n", value_tmp);
++		purple_notify_user_info_add_pair(user_info, label_tmp, value_tmp);
++		g_free(label_tmp);
++		g_free(value_tmp);
++	}
++
++	purple_notify_userinfo(fba->pc, uid, user_info, NULL, NULL);
++	purple_notify_user_info_destroy(user_info);
++
++	if (icon_id >= 0)
++		purple_imgstore_unref_by_id(icon_id);
++
++	g_free(uid);
++}
++
++void fb_get_info(PurpleConnection *pc, const gchar *uid)
++{
++	gchar *profile_url;
++
++	profile_url = g_strdup_printf("/profile.php?id=%s&v=info", uid);
++
++	fb_post_or_get(pc->proto_data, FB_METHOD_GET, NULL, profile_url, NULL, fb_get_info_cb, g_strdup(uid), FALSE);
++
++	g_free(profile_url);
++}
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_info.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_info.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,28 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_INFO_H
++#define FACEBOOK_INFO_H
++
++#include "libfacebook.h"
++
++void fb_get_info(PurpleConnection *pc, const gchar *uid);
++
++#endif /* FACEBOOK_INFO_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_managefriends.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_managefriends.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,214 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "fb_managefriends.h"
++#include "fb_connection.h"
++
++static void fb_auth_accept_cb(gpointer data)
++{
++	FacebookBuddy *fbuddy = data;
++	FacebookAccount *fba = fbuddy->fba;
++	gchar *postdata;
++
++	g_return_if_fail(fba != NULL);
++	g_return_if_fail(fba->post_form_id != NULL);
++	g_return_if_fail(fbuddy->uid != 0);
++
++	postdata = g_strdup_printf(
++			"type=friend_add&id=%d&action=accept&post_form_id=%s",
++			fbuddy->uid, fba->post_form_id);
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/reqs.php",
++			postdata, NULL, NULL, FALSE);
++	g_free(postdata);
++
++	fba->auth_buddies = g_slist_remove(fba->auth_buddies,
++			GINT_TO_POINTER(fbuddy->uid));
++
++	g_free(fbuddy);
++}
++
++static void fb_auth_reject_cb(gpointer data)
++{
++	FacebookBuddy *fbuddy = data;
++	FacebookAccount *fba = fbuddy->fba;
++	gchar *postdata;
++
++	g_return_if_fail(fba != NULL);
++	g_return_if_fail(fba->post_form_id != NULL);
++	g_return_if_fail(fbuddy->uid != 0);
++
++	postdata = g_strdup_printf(
++			"type=friend_add&id=%d&action=reject&post_form_id=%s",
++			fbuddy->uid, fba->post_form_id);
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/reqs.php",
++			postdata, NULL, NULL, FALSE);
++	g_free(postdata);
++
++	fba->auth_buddies = g_slist_remove(fba->auth_buddies,
++			GINT_TO_POINTER(fbuddy->uid));
++
++	g_free(fbuddy);
++}
++
++static void fb_check_friend_request_cb(FacebookAccount *fba, gchar *data,
++		gsize data_len, gpointer user_data)
++{
++	const char *uid_pre_text = "class=\"confirm\" id=\"friend_add_";
++	const char *name_pre_text = "<td class=\"info\"><a ";
++	const char *msg_pre_text = "<div class=\"personal_msg\"><span>";
++	gchar *uid;
++	gint32 uid_int;
++	gchar *name;
++	gchar *msg;
++	gchar *msg_plain;
++	FacebookBuddy *buddy;
++	gchar *search_start = data;
++
++	/* loop through the data and look for confirm_friend_add_([0-9]*)" */
++	while ((search_start = strstr(search_start, uid_pre_text)))
++	{
++		search_start += strlen(uid_pre_text);
++		uid = g_strndup(search_start,
++				strchr(search_start, '"') - search_start);
++		purple_debug_info("facebook", "uid: %s\n", uid);
++
++		uid_int = atoi(uid);
++
++		if (g_slist_find(fba->auth_buddies,
++				GINT_TO_POINTER(uid_int)) != NULL)
++		{
++			/* we've already notified the user of this friend request */
++			g_free(uid);
++			continue;
++		}
++
++		name = strstr(search_start, name_pre_text);
++		if (name != NULL)
++		{
++			name += strlen(name_pre_text);
++			name = strchr(name, '>') + 1;
++			name = g_strndup(name, strchr(name, '<') - name);
++			purple_debug_info("facebook", "name: %s\n", name);
++		} else {
++			name = NULL;
++		}
++
++		msg = strstr(search_start, msg_pre_text);
++		if (msg != NULL)
++		{
++			msg += strlen(msg_pre_text);
++			msg = g_strndup(msg, strstr(msg, "</span></div>") - msg);
++			msg_plain = purple_markup_strip_html(msg);
++			g_free(msg);
++			purple_debug_info("facebook", "msg: %s\n", msg_plain);
++		} else {
++			msg_plain = NULL;
++		}
++
++		buddy = g_new0(FacebookBuddy, 1);
++		buddy->fba = fba;
++		buddy->uid = uid_int;
++		purple_account_request_authorization(
++				fba->account, uid, NULL,
++				name, msg_plain, TRUE,
++				fb_auth_accept_cb, fb_auth_reject_cb, buddy);
++
++		g_free(uid);
++		/* TODO: msg_plain might be leaking here? */
++
++		/* Don't display an auth request for this buddy again */
++		fba->auth_buddies = g_slist_prepend(
++				fba->auth_buddies, GINT_TO_POINTER(uid_int));
++	}
++}
++
++gboolean fb_check_friend_requests(gpointer data)
++{
++	FacebookAccount *fba;
++
++	fba = data;
++
++	if (purple_account_get_bool(
++			fba->account, "facebook_manage_friends", FALSE)) {
++		fb_post_or_get(fba, FB_METHOD_GET, NULL, "/reqs.php", NULL,
++				fb_check_friend_request_cb, NULL, FALSE);
++	}
++
++	return TRUE;
++}
++
++void fb_add_buddy(PurpleConnection *pc, PurpleBuddy *buddy, PurpleGroup *group)
++{
++	gchar *postdata;
++	gchar *url;
++	FacebookAccount *fba = pc->proto_data;
++	gchar *buddy_tmp;
++
++	if (!purple_account_get_bool(
++				fba->account, "facebook_manage_friends", FALSE)) {
++		purple_notify_info(fba->pc, _("Friend not added"),
++				_("Adding Facebook friends via Pidgin is disabled"),
++				_("Either add a friend via Facebook.com or edit your account preferences"));
++		// TODO: Message here
++		return;
++	}
++
++	if (atoi(buddy->name) == fba->uid)
++	{
++		purple_account_set_bool(fba->account,
++				"facebook_hide_self", FALSE);
++		return;
++	}
++
++	buddy_tmp = g_strdup(purple_url_encode(buddy->name));
++	postdata = g_strdup_printf(
++			"confirmed=1&add=Add+Friend&action=follow_up&uid=%s&flids=&flid_name=&source=search&is_from_whitelist=0&message=&failed_captcha=0&post_form_id=%s",
++			buddy_tmp, fba->post_form_id);
++	url = g_strdup_printf("/ajax/addfriend.php?id=%s", buddy_tmp);
++	g_free(buddy_tmp);
++
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, url, postdata,
++			NULL, NULL, FALSE);
++
++	g_free(postdata);
++	g_free(url);
++}
++
++#if 0
++/* This code should never be reinstated in it's current form.  Period.  See
++ * issue 185 for why */
++static void fb_remove_buddy(PurpleConnection *pc, PurpleBuddy *buddy, PurpleGroup *group)
++{
++	gchar *postdata;
++	FacebookAccount *fba = pc->proto_data;
++
++	if (atoi(buddy->name) == fba->uid)
++	{
++		purple_account_set_bool(fba->account, "facebook_hide_self", TRUE);
++		return;
++	}
++
++	postdata = g_strdup_printf("uid=%s&post_form_id=%s", buddy->name, fba->post_form_id);
++
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/removefriend.php", postdata, NULL, NULL, FALSE);
++
++	g_free(postdata);
++}
++#endif
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_managefriends.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_managefriends.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,29 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_MANAGEFRIENDS_H
++#define FACEBOOK_MANAGEFRIENDS_H
++
++#include "libfacebook.h"
++
++gboolean fb_check_friend_requests(gpointer data);
++void fb_add_buddy(PurpleConnection *pc, PurpleBuddy *buddy, PurpleGroup *group);
++
++#endif /* FACEBOOK_MANAGEFRIENDS_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_messages.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_messages.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,552 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "fb_messages.h"
++#include "fb_connection.h"
++
++typedef struct _FacebookOutgoingMessage FacebookOutgoingMessage;
++
++struct _FacebookOutgoingMessage {
++	FacebookAccount *fba;
++	gchar *who;
++	time_t time;
++	gchar *message;
++	gint msg_id;
++	guint retry_count;
++};
++
++static gboolean fb_send_im_fom(FacebookOutgoingMessage *msg);
++static gboolean fb_get_new_messages(FacebookAccount *fba);
++
++static void got_new_messages(FacebookAccount *fba, gchar *data,
++		gsize data_len, gpointer userdata)
++{
++	gchar *message_text;
++	gchar *message_time;
++	gchar *from;
++	gchar *to;
++	gchar *tmp;
++	gchar *type;
++	gchar *start;
++	gchar *end;
++	gint64 msgID;
++	int i;
++	PurpleConnection *pc = userdata;
++	PurpleBuddy *buddy;
++
++	/* NULL data will crash on Windows */
++	if (data == NULL)
++		data = "(null)";
++
++	purple_debug_misc("facebook", "got new messages: %s\n", data);
++
++	/* purple_debug_info("facebook", "fba: %d\n", fba); */
++	/* purple_debug_info("facebook", "account: %d\n", fba->account); */
++
++	/* for (;;);{"t":"msg","c":"p_800753867","ms":[{"type":"msg",
++		"msg":{"text":"yes","time":1211176515861,"clientTime":1211176514750,
++		"msgID":"367146364"},"from":596176850,"to":800753867,
++		"from_name":"Jeremy Lawson","to_name":"Eion Robb",
++		"from_first_name":"Jeremy","to_first_name":"Eion"}]} */
++	/* for (;;);{"t":"refresh"} */
++	/* for (;;);{"t":"msg","c":"p_800753867","ms":[{"type":"msg",
++		"msg":{"text":"porn head","time":1211177326689,"clientTime":1211177325,
++		"msgID":"-1992480367"},"from":800753867,"to":596176850,
++		"from_name":"Eion Robb","to_name":"Jeremy Lawson",
++		"from_first_name":"Eion","to_first_name":"Jeremy"}]} */
++	/* for (;;);{"t":"msg","c":"p_800753867","ms":[{"type":"typ","st":1,
++		"from":596176850,"to":800753867},{"type":"msg","msg":{"text":"nubile!",
++		"time":1211177334019,"clientTime":1211177326690,"msgID":"696260545"},
++		"from":596176850,"to":800753867,"from_name":"Jeremy Lawson",
++		"to_name":"Eion Robb","from_first_name":"Jeremy","to_first_name":"Eion"},
++		{"type":"msg","msg":{"text":"test2","time":1211177336688,
++		"clientTime":1211177326691,"msgID":"1527815367"},"from":596176850,
++		"to":800753867,"from_name":"Jeremy Lawson","to_name":"Eion Robb",
++		"from_first_name":"Jeremy","to_first_name":"Eion"},{"type":"msg",
++		"msg":{"text":"ahhhhhhh!","time":1211177344361,"clientTime":1211177326692,
++		"msgID":"4028916254"},"from":596176850,"to":800753867,
++		"from_name":"Jeremy Lawson","to_name":"Eion Robb",
++		"from_first_name":"Jeremy","to_first_name":"Eion"}]} */
++	/* for (;;);{"t":"msg","c":"p_800753867","ms":[{"type":"msg",
++		"msg":{"text":"2","time":1211178167261,"clientTime":1211178164656,
++		"msgID":"3382240259"},"from":596176850,"to":800753867,
++		"from_name":"Jeremy Lawson","to_name":"Eion Robb",
++		"from_first_name":"Jeremy","to_first_name":"Eion"}]} */
++
++	/* for (;;);{"t":"refresh", "seq":1} */
++
++	/* look for the start of the JSON, and ignore any proxy headers */
++	data = g_strstr_len(data, data_len, "for (;;);");
++	if (!data)
++	{
++		/* Sometimes proxies will return incorrect data, so we just shrug 
++		 * it off.
++		 * TODO: Only do this for proxies.  And when we do it, keep track
++		 * of consecutive failures in the case something is actually
++		 * wrong with Facebook.  Eventually this condition should cause
++		 * failure */
++		/* Continue looping, waiting for more messages */
++		purple_debug_error("facebook",
++				"got data back, but it's not even json\n");
++
++		fb_get_new_messages(fba);
++		return;
++	}
++
++	/* refresh means that the session or post_form_id is invalid */
++	if (g_str_equal(data, "for (;;);{\"t\":\"refresh\"}"))
++	{
++		purple_timeout_add_seconds(1, (GSourceFunc)fb_get_post_form_id, fba);
++		return;
++	}
++
++	/* continue means that the server wants us to remake the connection */
++	if (g_str_equal(data, "for (;;);{\"t\":\"continue\"}"))
++	{
++		/* Continue looping, waiting for more messages */
++		fb_get_new_messages(fba);
++		return;
++	}
++
++	tmp = strstr(data, "\"seq\":");
++	if (tmp != NULL)
++	{
++		tmp = tmp + 6;
++		tmp = g_strndup(tmp, strchr(tmp, '}') - tmp);
++		purple_debug_info("facebook", "new seq number: %s\n", tmp);
++		fba->message_fetch_sequence = atoi(tmp);
++		g_free(tmp);
++	} else {
++		fba->message_fetch_sequence++;
++	}
++
++	if (strncmp(data, "for (;;);{\"t\":\"msg\"", 19) == 0)
++	{
++		start = g_strstr_len(data, data_len, "\"ms\":[");
++		if (!start)
++		{
++			/* Continue looping, waiting for more messages */
++			fb_get_new_messages(fba);
++			return;
++		}
++		start += 6;
++		while (*start != ']')
++		{
++			tmp = strstr(start, "\"type\":\"");
++			if (tmp)
++			{
++				tmp += 8;
++				type = g_strndup(tmp, strchr(tmp, '"') - tmp);
++				purple_debug_info("facebook", "type: %s\n", type);
++			} else {
++				type = g_strdup("unknown");
++			}
++
++			tmp = strstr(start, "\"from\":");
++			if (tmp)
++			{
++				tmp += 7;
++				from = g_strndup(tmp, strchr(tmp, ',') - tmp);
++				if (from[0] == '"')
++					snprintf(from, strlen(from), "%d", atoi(from + 1));
++				purple_debug_info("facebook", "from: %s\n", from);
++			} else {
++				from = NULL;
++			}
++			tmp = strstr(start, "\"to\":");
++			if (tmp)
++			{
++				tmp += 5;
++				end = strchr(tmp, ',');
++				if (end == NULL || strchr(tmp, '}') < end)
++					end = strchr(tmp, '}');
++				to = g_strndup(tmp, end - tmp);
++				if (to[0] == '"')
++					snprintf(to, strlen(to), "%d", atoi(to + 1));
++				purple_debug_info("facebook", "to: %s\n", to);
++			} else {
++				to = NULL;
++			}
++
++			if (from && to && g_str_equal(type, "msg"))
++			{
++				/* IM message */
++				if (fba->uid != atoi(from) || fba->uid == atoi(to))
++				{
++					tmp = strstr(start, "\"msgID\":");
++					tmp += 9;
++					tmp = g_strndup(tmp, strchr(tmp, '"') - tmp);
++					msgID = atoll(tmp);
++					purple_debug_info("facebook", "message id: %s %" G_GINT64_FORMAT " %lld\n", tmp, msgID, atoll(tmp));
++					g_free(tmp);
++					/* loop through all the previous messages that we have stored */
++					/* to make sure that we havn't already received this message */
++					for(i = 0; i < FB_LAST_MESSAGE_MAX; i++)
++					{
++						purple_debug_info("facebook", "last_messages[%d] = %" G_GINT64_FORMAT "\n", i, fba->last_messages[i]);
++						if (fba->last_messages[i] == msgID)
++							break;
++					}
++					purple_debug_info("facebook", "i: %d\n", i);
++					if (i == FB_LAST_MESSAGE_MAX)
++					{
++						gchar *postdata;
++
++						/* if we're here, it must be a new message */
++						fba->last_messages[fba->next_message_pointer++] = msgID;
++						if (fba->next_message_pointer >= FB_LAST_MESSAGE_MAX)
++							fba->next_message_pointer = 0;
++
++						tmp = strstr(start, "\"text\":\"");
++						tmp += 8;
++						tmp = g_strndup(tmp, strstr(tmp, "\",\"time\":") - tmp);
++						message_text = fb_convert_unicode(tmp);
++						g_free(tmp);
++						tmp = fb_strdup_withhtml(message_text);
++						g_free(message_text);
++						message_text = tmp;
++						purple_debug_info("facebook", "text: %s\n", message_text);
++						
++						tmp = strstr(start, "\"time\":");
++						tmp += 7;
++						message_time = g_strndup(tmp, strchr(tmp, ',') - tmp - 3);
++						purple_debug_info("facebook", "time: %s\n", message_time);
++						
++						/* Use the in-line buddy name if the buddy list hasn't been downloaded yet */
++						buddy = purple_find_buddy(pc->account, from);
++						if (buddy == NULL || buddy->server_alias == NULL)
++						{
++							tmp = strstr(start, "\"from_name\":\"");
++							if (tmp)
++							{
++								tmp += 13;
++								tmp = g_strndup(tmp, strstr(tmp, "\",") - tmp);
++								serv_got_alias(pc, from, tmp);
++								g_free(tmp);
++							}
++						}
++
++						serv_got_im(pc, from, message_text, PURPLE_MESSAGE_RECV, atoi(message_time));
++
++						/*
++						 * Acknowledge receipt of the message by simulating
++						 * focusing the window.  Not sure what the window_id
++						 * is here, but it doesn't seem to matter.  Maybe
++						 * something internal to the Facebook javascript that
++						 * is used for maintaining UI state across page loads?
++						 */
++						postdata = g_strdup_printf(
++								"focus_chat=%s&window_id=12345&post_form_id=%s",
++								from, fba->post_form_id);
++						fb_post_or_get(fba, FB_METHOD_POST, NULL,
++								"/ajax/chat/settings.php?_ecdc=false",
++								postdata, NULL, NULL, FALSE);
++						g_free(postdata);
++
++						g_free(message_text);
++						g_free(message_time);
++					}
++				}
++				start = strchr(start, '}')+1;
++			} else if (from && g_str_equal(type, "typ"))
++			{
++				/* typing notification */
++				tmp = strstr(start, "\"st\":");
++				if (tmp != NULL)
++				{
++					tmp += 5;
++					if (*tmp == '0')
++						serv_got_typing(pc, from, 10, PURPLE_TYPED);
++					else
++						serv_got_typing(pc, from, 10, PURPLE_TYPING);
++				}
++			}
++
++			/*
++			 * we've received something from a buddy, assume they're online
++			 * only if it's not from ourselves
++			 */
++			if (from && fba->uid != atoi(from))
++				purple_prpl_got_user_status(fba->account, from, purple_primitive_get_id_from_type(PURPLE_STATUS_AVAILABLE), NULL);
++
++			g_free(from);
++			g_free(to);
++			g_free(type);
++
++			start = strchr(start, '}')+1;
++			while (*start == ',')
++				start++;
++		}
++	}
++
++	/* Continue looping, waiting for more messages */
++	fb_get_new_messages(fba);
++}
++
++/* Message fetch loop.  An invariant here is that get_new_messages()
++ * is the only function which can create a new timer for
++ * new_messages_check_timer.  The timer always calls got_new_messages(),
++ * and got_new_messages always calls get_new_messages (either directly
++ * or indirectly).  To start the loops off, get_new_messages should be
++ * called ONCE and only ONCE.  After that the timers will take care of
++ * themselves until final cleanup.
++ */
++static gboolean fb_get_new_messages(FacebookAccount *fba)
++{
++	/* MARKCONFLICT (r283,r286): Mark uses the fba->chanel_number variable here,
++	 * where this patch/fix eschews that in favor of some hacks.
++	 */
++	time_t now;
++	gchar *fetch_url;
++	gchar *fetch_server;
++	const gchar *channel_number;
++
++	fba->new_messages_check_timer = 0;
++
++	now = time(NULL);
++	if (fba->last_messages_download_time > now - 3) {
++		/*
++		 * Wait a bit before fetching more messages, to make sure we
++		 * never hammer their servers.
++		 *
++		 * TODO: This could be smarter.  Like, allow 3 requests per
++		 *       10 seconds or something.
++		 */
++		fba->new_messages_check_timer = purple_timeout_add_seconds(
++				3 - (now - fba->last_messages_download_time),
++				(GSourceFunc)fb_get_new_messages, fba);
++		return FALSE;
++	}
++
++	if (fba->channel_number == NULL)
++	{
++		channel_number = purple_account_get_string(fba->account, "last_channel_number", NULL);
++		if (channel_number == NULL)
++		{
++			/* channel number is probably updating */
++			fba->new_messages_check_timer = purple_timeout_add_seconds(3 - (now - fba->last_messages_download_time), (GSourceFunc)fb_get_new_messages, fba);
++			return FALSE;
++		}
++	} else {
++		channel_number = fba->channel_number;
++	}
++
++	purple_debug_info("facebook", "getting new messages\n");
++
++	fetch_server = g_strdup_printf("%d.channel%s.facebook.com", 0, channel_number);
++	/* use the current time in the url to get past any transparent proxy caches */
++	fetch_url = g_strdup_printf("/x/%lu/%s/p_%d=%d", (unsigned long) time(NULL), (fba->is_idle?"false":"true"), fba->uid, fba->message_fetch_sequence);
++
++	fb_post_or_get(fba, FB_METHOD_GET, fetch_server, fetch_url, NULL, got_new_messages, fba->pc, TRUE);
++	fba->last_messages_download_time = now;
++
++	g_free(fetch_url);
++	g_free(fetch_server);
++
++	return FALSE;
++}
++
++static void fb_send_im_cb(FacebookAccount *fba, gchar *data, gsize data_len, gpointer user_data)
++{
++	FacebookOutgoingMessage *msg = user_data;
++	gchar *error_summary = NULL;
++	gchar *tmp;
++
++	/* NULL data crashes on Windows */
++	if (data == NULL)
++		data = "(null)";
++	
++	purple_debug_misc("facebook", "sent im response: %s\n", data);
++	/* for (;;);{"error":1356003,"errorSummary":"Send destination not online",
++		"errorDescription":"This person is no longer online.","payload":null,
++		"bootload":[{"name":"js\/common.js.pkg.php","type":"js",
++		"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/pkg\/59\/98936\
++		/js\/common.js.pkg.php"}]} */
++	/* for (;;);{"error":0,"errorSummary":"","errorDescription":"No error.",
++		"payload":[],"bootload":[{"name":"js\/common.js.pkg.php","type":"js",
++		"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/pkg\/59\/98936\
++		/js\/common.js.pkg.php"}]} */
++
++	tmp = g_strstr_len(data, data_len, "\"error\":");
++	if (tmp != NULL)
++	{
++		tmp += 8;
++		tmp = g_strndup(tmp, strchr(tmp, ',') - tmp);
++		if (strlen(tmp) > 1 || tmp[0] != '0')
++		{
++			g_free(tmp);
++			tmp = g_strstr_len(data, data_len, "\"errorSummary\":\"");
++			tmp += 16;
++			error_summary = g_strndup(tmp, strchr(tmp, '"') - tmp);
++			purple_debug_error("facebook", "sent im error: %s\n", error_summary);
++			if (*error_summary)
++			{
++				/* there was an error, either report it or retry */
++				if (msg->retry_count++ < FB_MAX_MSG_RETRY)
++				{
++					purple_timeout_add_seconds(1, (GSourceFunc)fb_send_im_fom, msg);
++					g_free(error_summary);
++					return;
++				}
++				else
++				{
++					PurpleConversation *conv;
++					conv = purple_conversation_new(PURPLE_CONV_TYPE_IM,
++							fba->account, msg->who);
++					purple_conversation_write(conv, NULL, error_summary,
++							PURPLE_MESSAGE_ERROR, msg->time);
++				}
++			}
++		}
++	}
++
++	g_free(error_summary);
++	g_free(msg->who);
++	g_free(msg->message);
++	g_free(msg);
++}
++
++static gboolean fb_send_im_fom(FacebookOutgoingMessage *msg)
++{
++	gchar *encoded_message;
++	gchar *postdata;
++
++	encoded_message = g_strdup(purple_url_encode(msg->message));
++	postdata = g_strdup_printf("msg_text=%s&msg_id=%d&to=%s&client_time=%lu&post_form_id=%s",
++			encoded_message, msg->msg_id, msg->who,
++			(unsigned long) msg->time,
++			msg->fba->post_form_id ? msg->fba->post_form_id : "0");
++	g_free(encoded_message);
++
++	fb_post_or_get(msg->fba, FB_METHOD_POST, NULL, "/ajax/chat/send.php", postdata, fb_send_im_cb, msg, FALSE);
++	g_free(postdata);
++
++	return FALSE;
++}
++
++int fb_send_im(PurpleConnection *pc, const gchar *who, const gchar *message, PurpleMessageFlags flags)
++{
++	FacebookOutgoingMessage *msg;
++
++	msg = g_new0(FacebookOutgoingMessage, 1);
++	msg->fba = pc->proto_data;
++
++	/* convert html to plaintext, removing trailing spaces */
++	msg->message = purple_markup_strip_html(message);
++	if (strlen(msg->message) > 999)
++	{
++		g_free(msg->message);
++		g_free(msg);
++		return -E2BIG;
++	}
++
++	msg->msg_id = g_random_int();
++	msg->who = g_strdup(who);
++	msg->time = time(NULL);
++	msg->retry_count = 0;
++
++	fb_send_im_fom(msg);
++
++	return strlen(message);
++}
++
++static void got_form_id_page(FacebookAccount *fba, gchar *data, gsize data_len, gpointer userdata)
++{
++	const gchar *start_text = "id=\"post_form_id\" name=\"post_form_id\" value=\"";
++	gchar *post_form_id;
++	gchar *channel_number;
++	gchar *tmp = NULL;
++	
++	/* NULL data crashes on Windows */
++	if (data == NULL)
++		data = "(null)";
++	
++	tmp = g_strstr_len(data, data_len, start_text);
++	if (tmp == NULL)
++	{
++		purple_debug_error("facebook", "couldn't find post_form_id\n");
++		purple_debug_info("facebook", "page content: %s\n", data);
++		/* Maybe they changed their HTML slightly? */
++		purple_connection_error_reason(fba->pc,
++				PURPLE_CONNECTION_ERROR_AUTHENTICATION_FAILED,
++				_("Error getting info from Facebook."));
++		return;
++	}
++	tmp += strlen(start_text);
++	post_form_id = g_strndup(tmp, strchr(tmp, '"') - tmp);
++
++	g_free(fba->post_form_id);
++	fba->post_form_id = post_form_id;
++
++	/* dodgy as search for channel server number */
++	if (!fba->channel_number)
++	{
++		start_text = "\", \"channel";
++		tmp = g_strstr_len(data, data_len, start_text);
++		if (tmp == NULL)
++		{
++			/* Some proxies strip whitepsace */
++			start_text = "\",\"channel";
++			tmp = g_strstr_len(data, data_len, start_text);
++			if (tmp == NULL)
++			{
++				/* TODO: Is it better to pick a random channel number or to disconnect? */
++				/* MARKCONFLICT (r283,r286) */
++				channel_number = g_strdup(purple_account_get_string(fba->account, "last_channel_number", ""));
++				if (channel_number[0] == '\0')
++				{
++					purple_debug_error("facebook", "couldn't find channel\n");
++					purple_debug_misc("facebook", "page content: %s\n", data);
++					purple_connection_error_reason(fba->pc,
++							PURPLE_CONNECTION_ERROR_NETWORK_ERROR,
++							_("Chat service currently unavailable."));
++					return;
++				}
++			}
++		}
++
++		if (tmp != NULL)
++		{
++			tmp += strlen(start_text);
++			channel_number = g_strndup(tmp, strchr(tmp, '"') - tmp);
++		}
++
++		purple_account_set_string(fba->account, "last_channel_number", channel_number);
++
++		g_free(fba->channel_number);
++		fba->channel_number = channel_number;
++	}
++
++	tmp = g_strdup_printf("visibility=true&post_form_id=%s", post_form_id);
++	fb_post_or_get(fba, FB_METHOD_POST, "apps.facebook.com", "/ajax/chat/settings.php", tmp, NULL, NULL, FALSE);
++	g_free(tmp);
++
++	/*
++	 * Now that we have a channel number we can start looping and
++	 * waiting for messages
++	 */
++	fb_get_new_messages(fba);
++}
++
++gboolean fb_get_post_form_id(FacebookAccount *fba)
++{
++	fb_post_or_get(fba, FB_METHOD_GET, NULL, "/home.php", NULL, got_form_id_page, NULL, FALSE);
++	return FALSE;
++}
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_messages.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_messages.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,30 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_MESSAGES_H
++#define FACEBOOK_MESSAGES_H
++
++#include "libfacebook.h"
++
++gboolean fb_get_post_form_id(FacebookAccount *fba);
++int fb_send_im(PurpleConnection *pc, const gchar *who, const gchar *message,
++		PurpleMessageFlags flags);
++
++#endif /* FACEBOOK_MESSAGES_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_notifications.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_notifications.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,216 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "fb_notifications.h"
++#include "fb_connection.h"
++
++static void fb_got_notifications_cb(FacebookAccount *fba, gchar *url_text, gsize len, gpointer userdata)
++{
++	time_t last_fetch_time;
++	time_t time_of_message;
++	time_t newest_message = 0;
++	gchar *tmp;
++	gchar month_string[4], weekday[4];
++	guint year, month, day, hour, minute, second;
++	long timezone;
++	gchar *subject, *url, *stripped_subject;
++	gchar *search_start = (gchar *)url_text;
++
++	month_string[3] = weekday[3] = '\0';
++	year = month = day = hour = minute = second = 0;
++
++	if (!url_text || !len)
++		return;
++
++	last_fetch_time = purple_account_get_int(fba->account, "facebook_notifications_last_fetch", 0);
++	/* purple_debug_info("facebook", "last fetch time: %zu\n", last_fetch_time); */
++
++	while (search_start && (search_start = strstr(search_start, "<item>")))
++	{
++		search_start = search_start + 6;
++
++		tmp = strstr(search_start, "<pubDate>");
++		if (!tmp)
++		{
++			purple_debug_error("facebook", "couldn't find date in rss feed\n");
++			return;
++		}
++		tmp += 9;
++		tmp = g_strndup(tmp, strchr(tmp, '<')-tmp);
++
++		/* rss times are in Thu, 19 Jun 2008 15:51:25 -1100 format */
++		/* purple_debug_info("facebook", "pre time: %s\n", tmp); */
++		sscanf(tmp, "%3s, %2u %3s %4u %2u:%2u:%2u %5ld", (char*)&weekday, &day, (char*)&month_string, &year, &hour, &minute, &second, &timezone);
++		if (g_str_equal(month_string, "Jan")) month = 0;
++		else if (g_str_equal(month_string, "Feb")) month = 1;
++		else if (g_str_equal(month_string, "Mar")) month = 2;
++		else if (g_str_equal(month_string, "Apr")) month = 3;
++		else if (g_str_equal(month_string, "May")) month = 4;
++		else if (g_str_equal(month_string, "Jun")) month = 5;
++		else if (g_str_equal(month_string, "Jul")) month = 6;
++		else if (g_str_equal(month_string, "Aug")) month = 7;
++		else if (g_str_equal(month_string, "Sep")) month = 8;
++		else if (g_str_equal(month_string, "Oct")) month = 9;
++		else if (g_str_equal(month_string, "Nov")) month = 10;
++		else if (g_str_equal(month_string, "Dec")) month = 11;
++		g_free(tmp);
++
++		/* try using pidgin's functions */
++		tmp = g_strdup_printf("%04u%02u%02uT%02u%02u%02u%05ld", year, month, day, hour, minute, second, timezone);
++		time_of_message = purple_str_to_time(tmp, FALSE, NULL, NULL, NULL);
++		g_free(tmp);
++
++		if (time_of_message <= 0)
++		{
++			/* there's no cross-platform, portable way of converting string to time */
++			/* that doesn't need a new version of glib, so just cheat */
++			time_of_message = second + 60*minute + 3600*hour + 86400*day + 2592000*month + 31536000*(year-1970);
++		}
++
++		/* purple_debug_info("facebook", "time of message: %zu\n", time_of_message); */
++		/* purple_debug_info("facebook", "time of message: %s\n", ctime(&time_of_message)); */
++
++		if (time_of_message > newest_message)
++		{
++			/* we'll keep the newest message to save */
++			newest_message = time_of_message;
++		}
++
++		if (time_of_message <= last_fetch_time)
++		{
++			/* fortunatly, rss messages are ordered from newest to oldest */
++			/* so if this message is older than the last one, ignore rest */
++			break;
++		}
++
++		tmp = strstr(search_start, "<link>");
++		if (!tmp)
++		{
++			url = g_strdup("");
++		} else {
++			tmp += 6;
++			url = g_strndup(tmp, strchr(tmp, '<')-tmp);
++			/* convert &amp; to & */
++			tmp = purple_unescape_html(url);
++			g_free(url);
++			url = tmp;
++		}
++
++		tmp = strstr(search_start, "<title>");
++		if (!tmp)
++		{
++			subject = g_strdup("");
++		} else {
++			tmp += 7;
++			subject = g_strndup(tmp, strchr(tmp, '<')-tmp);
++		}
++		stripped_subject = purple_unescape_html(subject);
++		g_free(subject);
++		subject = stripped_subject;
++		
++		purple_debug_info("facebook", "subject: %s\n", subject);
++
++		purple_notify_email(fba->pc, subject, NULL, fba->account->username, url, NULL, NULL);
++		g_free(subject);
++		g_free(url);
++
++		search_start = strstr(search_start, "</item>");
++	}
++
++	if (newest_message > last_fetch_time)
++	{
++		/* update the last fetched time if we had newer messages */
++		purple_account_set_int(fba->account, "facebook_notifications_last_fetch", newest_message);
++	}
++}
++
++static void find_feed_url_cb(FacebookAccount *fba, gchar *data, gsize data_len, gpointer userdata)
++{
++	const gchar *search_string = "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Your &quot;Facebook Notifications Feed\" href=\"";
++	const gchar *search_string2 = "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Your &amp;quot;Facebook Notifications Feed\" href=\"";
++	const gchar *search_string3 = "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Your &amp;quot;Facebook Notifications&amp;quot; Feed\" href=\"";
++	gchar *feed_url;
++	gchar *stripped;
++
++	purple_debug_info("facebook", "find_feed_url_cb\n");
++
++	feed_url = g_strstr_len(data, data_len, search_string);
++	if (feed_url)
++	{
++		feed_url += strlen(search_string);
++	} else {
++		feed_url = g_strstr_len(data, data_len, search_string2);
++		if (feed_url)
++		{
++			feed_url += strlen(search_string2);
++		} else {
++			feed_url = g_strstr_len(data, data_len, search_string3);
++			if (feed_url)
++			{
++				feed_url += strlen(search_string3);
++			} else {
++				purple_debug_error("facebook", "received data, but could not find url on page\n");
++				return;
++			}
++		}
++	}
++
++	feed_url = g_strndup(feed_url, strchr(feed_url, '"') - feed_url);
++
++	/* convert &amp; to & */
++	stripped = purple_unescape_html(feed_url);
++	g_free(feed_url);
++	/* strip the host and protocol off url */
++	feed_url = g_strdup(strstr(stripped, "/feeds"));
++	g_free(stripped);
++
++	purple_debug_info("facebook", "parsed feed url %s\n", feed_url);
++
++	if (feed_url && *feed_url)
++	{
++		purple_account_set_string(fba->account, "notifications_feed_url", feed_url);
++		fb_get_notifications_feed(fba);
++	}
++}
++
++static void fb_find_feed_url(FacebookAccount *fba)
++{
++	fb_post_or_get(fba, FB_METHOD_GET, NULL, "/notifications.php", NULL,
++			find_feed_url_cb, NULL, FALSE);
++}
++
++gboolean fb_get_notifications_feed(FacebookAccount *fba)
++{
++	const gchar *feed_url;
++
++	if (purple_account_get_bool(fba->account, "facebook_get_notifications", TRUE)) {
++		feed_url = purple_account_get_string(fba->account, "notifications_feed_url", NULL);
++		if (!feed_url)
++		{
++			purple_debug_info("facebook", "no notifications feed url available, searching for it\n");
++			fb_find_feed_url(fba);
++			return TRUE;
++		}
++
++		fb_post_or_get(fba, FB_METHOD_GET, NULL, feed_url, NULL, fb_got_notifications_cb, NULL, FALSE);
++	}
++
++	return TRUE;
++}
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_notifications.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_notifications.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,28 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_NOTIFICATIONS_H
++#define FACEBOOK_NOTIFICATIONS_H
++
++#include "libfacebook.h"
++
++gboolean fb_get_notifications_feed(FacebookAccount *fba);
++
++#endif /* FACEBOOK_NOTIFICATIONS_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_search.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_search.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,199 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "libfacebook.h"
++#include "fb_connection.h"
++#include "fb_info.h"
++#include "fb_search.h"
++
++static void fb_searchresults_add_buddy(PurpleConnection *pc, GList *row,
++		void *user_data)
++{
++	PurpleAccount *account = purple_connection_get_account(pc);
++
++	if (!purple_find_buddy(account, g_list_nth_data(row, 0)))
++		purple_blist_request_add_buddy(account,
++				g_list_nth_data(row, 0), NULL, NULL);
++}
++
++static void fb_searchresults_info_buddy(PurpleConnection *pc, GList *row,
++		void *user_data)
++{
++	/* PurpleAccount *account = purple_connection_get_account(pc); */
++
++	/* if (purple_find_buddy(account, g_list_nth_data(row, 0))) */
++		fb_get_info(pc, g_list_nth_data(row, 0));
++}
++
++static void fb_found_friends(FacebookAccount *fba, gchar *data,
++		gsize data_len, gpointer user_data)
++{
++	PurpleNotifySearchResults *results;
++	PurpleNotifySearchColumn *column;
++	gchar *id, *tmp, *stripped, *last_id_pos = 0, *id_pos = data;
++	gchar *search_term = user_data;
++	const gchar *id_search_term =
++			"facebook.com/inbox/?compose&amp;id="; /* " */
++	const gchar *name_search_term = "class=\"url fn\""; /* < */
++	const gchar *network_search_term = "class=\"result_network\">"; /* < */
++
++	if (!g_strstr_len(data, data_len, id_search_term))
++	{
++		/* there's no friends found; notify as such */
++		tmp = g_strdup_printf(_("No results found for %s"),
++				search_term);
++		purple_notify_error(fba->pc, NULL, tmp, NULL);
++		g_free(tmp);
++		g_free(search_term);
++		return;
++	}
++
++	results = purple_notify_searchresults_new();
++	if (results == NULL)
++	{
++		g_free(search_term);
++		return;
++	}
++
++	/* columns: Facebook ID, Name, Network */
++	column = purple_notify_searchresults_column_new(_("ID"));
++	purple_notify_searchresults_column_add(results, column);
++	column = purple_notify_searchresults_column_new(_("Name"));
++	purple_notify_searchresults_column_add(results, column);
++	column = purple_notify_searchresults_column_new(_("Network"));
++	purple_notify_searchresults_column_add(results, column);
++	column = purple_notify_searchresults_column_new(_("In List?"));
++	purple_notify_searchresults_column_add(results, column);
++
++	if (purple_account_get_bool(fba->account, "facebook_manage_friends",
++				FALSE)) {
++		purple_notify_searchresults_button_add(results,
++				PURPLE_NOTIFY_BUTTON_ADD,
++				fb_searchresults_add_buddy);
++	}
++	purple_notify_searchresults_button_add(results,
++			PURPLE_NOTIFY_BUTTON_INFO,
++			fb_searchresults_info_buddy);
++
++	purple_debug_info("facebook", "found_friends\n");
++	while ((id_pos = strstr(id_pos, id_search_term)))
++	{
++		/* the row in the search results table */
++		/* prepend to it backwards then reverse to speed up adds */
++		GList *row = NULL;
++
++		/* grab id */
++		id_pos += strlen(id_search_term);
++		if (strchr(id_pos, '&') < strchr(id_pos, '"'))
++		{
++			/* new layout repeats the id */
++			continue;
++		}
++		id = g_strndup(id_pos, strchr(id_pos, '"')-id_pos);
++		purple_debug_info("facebook", "Found user with id: %s\n", id);
++		row = g_list_prepend(row, id);
++
++		/* look for name */
++		tmp = g_strrstr_len(data, id_pos-data, name_search_term);
++		if (tmp && tmp > last_id_pos)
++		{
++			tmp += strlen(name_search_term);
++			tmp = strchr(tmp, '>') + 1;
++			tmp = g_strndup(tmp, strchr(tmp, '<')-tmp);
++			stripped = purple_unescape_html(tmp);
++			g_free(tmp);
++			purple_debug_info("facebook", "With name: %s\n",
++					stripped);
++			row = g_list_prepend(row, stripped);
++		} else {
++			row = g_list_prepend(row, NULL);
++		}
++
++		/* look for network */
++		tmp = g_strrstr_len(data, id_pos-data, network_search_term);
++		if (tmp && tmp > last_id_pos)
++		{
++			tmp += strlen(network_search_term);
++			tmp = g_strndup(tmp, strchr(tmp, '<')-tmp);
++			stripped = purple_unescape_html(tmp);
++			g_free(tmp);
++			purple_debug_info("facebook", "With network: %s\n",
++					stripped);
++			row = g_list_prepend(row, stripped);
++		} else {
++			row = g_list_prepend(row, NULL);
++		}
++
++		if (purple_find_buddy(fba->account, id))
++			row = g_list_prepend(row, g_strdup(_("Yes")));
++		else
++			row = g_list_prepend(row, g_strdup(_("No")));
++
++		row = g_list_reverse(row);
++		purple_notify_searchresults_row_add(results, row);
++
++		last_id_pos = id_pos;
++	}
++	purple_debug_info("facebook", "dumping search results\n");
++	purple_notify_searchresults(fba->pc, NULL, search_term, NULL,
++			results, NULL, NULL);
++
++	g_free(search_term);
++}
++
++static void fb_search_users_search_cb(gpointer connection,
++		const gchar *search_text)
++{
++	PurpleConnection *pc = connection;
++	FacebookAccount *fba = pc->proto_data;
++	gchar *search_url;
++	gchar *search_tmp;
++	gchar *sid_cookie_value;
++
++	if (!search_text || !*search_text)
++		return;
++
++	search_tmp = g_strdup(purple_url_encode(search_text));
++	sid_cookie_value = g_hash_table_lookup(fba->cookie_table, "sid");
++	if (sid_cookie_value == NULL)
++		sid_cookie_value = "1";
++	search_url = g_strdup_printf("/s.php?q=%s&init=q&sid=%s",
++			search_tmp, sid_cookie_value);
++	g_free(search_tmp);
++
++	fb_post_or_get(fba, FB_METHOD_GET, NULL, search_url, NULL,
++			fb_found_friends, g_strdup(search_text), FALSE);
++
++	g_free(search_url);
++}
++
++void fb_search_users(PurplePluginAction *action)
++{
++	PurpleConnection *pc = (PurpleConnection *) action->context;
++
++	purple_request_input(pc, _("Search for Friends"),
++			_("Search for Facebook Friends"),
++			_("Type the full name or e-mail address of the friend you are searching for."),
++			NULL, FALSE, FALSE, NULL,
++			_("_Search"), G_CALLBACK(fb_search_users_search_cb),
++			_("_Cancel"), NULL,
++			purple_connection_get_account(pc), NULL, NULL,
++			pc);
++}
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/fb_search.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/fb_search.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,28 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef FACEBOOK_SEARCH_H
++#define FACEBOOK_SEARCH_H
++
++#include "libfacebook.h"
++
++void fb_search_users(PurplePluginAction *action);
++
++#endif /* FACEBOOK_SEARCH_H */
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/libfacebook.c
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/libfacebook.c	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,765 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include "libfacebook.h"
++#include "fb_blist.h"
++#include "fb_connection.h"
++#include "fb_info.h"
++#include "fb_managefriends.h"
++#include "fb_messages.h"
++#include "fb_notifications.h"
++#include "fb_search.h"
++
++/******************************************************************************/
++/* Utility functions */
++/******************************************************************************/
++
++gchar *fb_convert_unicode(const gchar *input)
++{
++	/* \u00e9t\u00e9 should be été */
++
++	gunichar unicode_char;
++	gchar unicode_char_str[6];
++	gint unicode_char_len;
++	gchar *next_pos;
++	gchar *input_string;
++	gchar *output_string;
++
++	if (input == NULL)
++		return NULL;
++
++	next_pos = input_string = g_strdup(input);
++
++	/* purple_debug_info("facebook", "unicode convert: in: %s\n", input); */
++	while ((next_pos = strstr(next_pos, "\\u")))
++	{
++		/* grab the unicode */
++		sscanf(next_pos, "\\u%4x", &unicode_char);
++		/* turn it to a char* */
++		unicode_char_len = g_unichar_to_utf8(unicode_char, unicode_char_str);
++		/* shove it back into the string */
++		g_memmove(next_pos, unicode_char_str, unicode_char_len);
++		/* move all the data after the \u0000 along */
++		g_stpcpy(next_pos + unicode_char_len, next_pos + 6);
++	}
++
++	/* purple_debug_info("facebook", "unicode convert: out: %s\n", input); */
++	output_string = g_strcompress(input_string);
++	g_free(input_string);
++
++	return output_string;
++}
++
++/* Like purple_strdup_withhtml, but escapes htmlentities too */
++gchar *fb_strdup_withhtml(const gchar *src)
++{
++	gulong destsize, i, j;
++	gchar *dest;
++
++	g_return_val_if_fail(src != NULL, NULL);
++
++	/* New length is (length of src) + (number of \n's * 3) + (number of &'s * 5) +
++		(number of <'s * 4) + (number of >'s *4) + (number of "'s * 6) -
++		(number of \r's) + 1 */
++	destsize = 1;
++	for (i = 0; src[i] != '\0'; i++)
++	{
++		if (src[i] == '\n' || src[i] == '<' || src[i] == '>')
++			destsize += 4;
++		else if (src[i] == '&')
++			destsize += 5;
++		else if (src[i] == '"')
++			destsize += 6;
++		else if (src[i] != '\r')
++			destsize++;
++	}
++
++	dest = g_malloc(destsize);
++
++	/* Copy stuff, ignoring \r's, because they are dumb */
++	for (i = 0, j = 0; src[i] != '\0'; i++) {
++		if (src[i] == '\n') {
++			strcpy(&dest[j], "<BR>");
++			j += 4;
++		} else if (src[i] == '<') {
++			strcpy(&dest[j], "&lt;");
++			j += 4;
++		} else if (src[i] == '>') {
++			strcpy(&dest[j], "&gt;");
++			j += 4;
++		} else if (src[i] == '&') {
++			strcpy(&dest[j], "&amp;");
++			j += 5;
++		} else if (src[i] == '"') {
++			strcpy(&dest[j], "&quot;");
++			j += 6;
++		} else if (src[i] != '\r')
++			dest[j++] = src[i];
++	}
++
++	dest[destsize-1] = '\0';
++
++	return dest;
++}
++
++/******************************************************************************/
++/* PRPL functions */
++/******************************************************************************/
++
++static const char *fb_list_icon(PurpleAccount *account, PurpleBuddy *buddy)
++{
++	return "facebook";
++}
++
++static gchar *fb_status_text(PurpleBuddy *buddy)
++{
++	FacebookBuddy *fbuddy = buddy->proto_data;
++
++	if (fbuddy && fbuddy->status && *fbuddy->status != '\0')
++		return g_strdup(fbuddy->status);
++
++	return NULL;
++}
++
++static void fb_tooltip_text(PurpleBuddy *buddy,
++		PurpleNotifyUserInfo *userinfo, gboolean full)
++{
++	FacebookBuddy *fbuddy = buddy->proto_data;
++	gchar *status;
++
++	g_return_if_fail(fbuddy);
++
++	if (fbuddy->status && *fbuddy->status != '\0')
++	{
++		status = g_strdup_printf("%s %s",
++				fbuddy->name, fbuddy->status);
++
++		purple_notify_user_info_add_pair(userinfo,
++				_("Status"), status);
++		g_free(status);
++		if (fbuddy->status_rel_time && *fbuddy->status_rel_time)
++		{
++			purple_notify_user_info_add_pair(userinfo,
++					_("Status changed"),
++					fbuddy->status_rel_time);
++		}
++	}
++}
++
++static GList *fb_statuses(PurpleAccount *account)
++{
++	GList *types = NULL;
++	PurpleStatusType *status;
++
++	/* Online people have a status message and also a date when it was set */
++	status = purple_status_type_new_with_attrs(PURPLE_STATUS_AVAILABLE,
++		NULL, _("Online"), FALSE, TRUE, FALSE, "message",
++		_("Message"), purple_value_new(PURPLE_TYPE_STRING),
++		"message_date", _("Message changed"),
++		purple_value_new(PURPLE_TYPE_STRING), NULL);
++	types = g_list_append(types, status);
++
++	/* Offline people dont have messages */
++	status = purple_status_type_new_full(PURPLE_STATUS_OFFLINE, NULL, _("Offline"), FALSE, TRUE, FALSE);
++	types = g_list_append(types, status);
++
++	return types;
++}
++
++static gboolean fb_get_messages_failsafe(FacebookAccount *fba)
++{
++	if (fba->last_messages_download_time < (time(NULL) - (60*5))) {
++		/* Messages haven't been downloaded in a while-
++		 * something is probably wrong */
++		purple_debug_warning("facebook",
++				"executing message check failsafe\n");
++		fb_get_post_form_id(fba);
++	}
++
++	return TRUE;
++}
++
++static void fb_login_cb(FacebookAccount *fba, gchar *response, gsize len,
++		gpointer userdata)
++{
++	gchar *user_cookie;
++
++	purple_connection_update_progress(fba->pc, _("Authenticating"), 2, 3);
++
++	/* Look for our uid */
++	user_cookie = g_hash_table_lookup(fba->cookie_table, "c_user");
++	if (user_cookie == NULL) {
++		/*
++		 * Server didn't set the c_user cookie, so we must have given
++		 * them a bad username or password
++		 */
++		purple_connection_error_reason(fba->pc,
++				PURPLE_CONNECTION_ERROR_AUTHENTICATION_FAILED,
++				_("Incorrect username or password."));
++		return;
++	}
++	fba->uid = atoi(user_cookie);
++	purple_debug_info("facebook", "uid %d\n", fba->uid);
++
++	/* ok, we're logged in now! */
++	purple_connection_set_state(fba->pc, PURPLE_CONNECTED);
++
++	/* This will kick off our long-poll message retrieval loop */
++	fb_get_post_form_id(fba);
++	fb_get_buddy_list(fba);
++	fb_check_friend_requests(fba);
++
++	/* periodically check for people adding you to their facebook friend list */
++	fba->friend_request_timer = purple_timeout_add_seconds(60 * 5,
++			fb_check_friend_requests, fba);
++
++	/* periodically check for updates to your buddy list */
++	fba->buddy_list_timer = purple_timeout_add_seconds(60,
++			fb_get_buddy_list, fba);
++
++	/* periodically check for new notifications */
++	fba->notifications_timer = purple_timeout_add_seconds(60,
++			(GSourceFunc)fb_get_notifications_feed, fba);
++
++	/* Periodically check for new messages.  NOTE: This MUST exist,
++	 * regardless of other other mechanisms for checking messages.  This
++	 * is because the code needs a failsafe checker in case other one of
++	 * the other retrieval mechanisms dies due to a bad request, etc.
++	 * Without such a failsafe, a user will receive no messages, which is
++	 * one of hardest bugs to debug and get reports about.  Hence, the
++	 * importance of this loop.
++	 * That said, there is room for tweaking this loop and possibly even
++	 * setting it such that it is the primary or only message checker.
++	 * The key is that the method must NEVER die until logout.
++	 */
++	fba->perpetual_messages_timer = purple_timeout_add_seconds(15,
++			(GSourceFunc)fb_get_messages_failsafe, fba);
++}
++
++static void fb_login(PurpleAccount *account)
++{
++	FacebookAccount *fba;
++	guint16 i;
++	gchar *postdata, *encoded_username, *encoded_password;
++
++	/* Create account and initialize state */
++	fba = g_new0(FacebookAccount, 1);
++	fba->account = account;
++	fba->pc = purple_account_get_connection(account);
++	fba->uid = -1;
++	fba->last_messages_download_time = time(NULL) - 60; /* 60 secs is a safe buffer */
++	fba->cookie_table = g_hash_table_new_full(g_str_hash, g_str_equal,
++			g_free, g_free);
++	fba->hostname_ip_cache = g_hash_table_new_full(g_str_hash, g_str_equal,
++			g_free, g_free);
++
++	g_hash_table_replace(fba->cookie_table, g_strdup("test_cookie"),
++			g_strdup("1"));
++
++	for (i = 0; i < FB_LAST_MESSAGE_MAX; i++)
++		fba->last_messages[i] = 0;
++
++	account->gc->proto_data = fba;
++
++	/* Error localized in libpurple jabber.c */
++	if (!purple_ssl_is_supported()) {
++		purple_connection_error_reason (purple_account_get_connection(account),
++				PURPLE_CONNECTION_ERROR_NO_SSL_SUPPORT,
++				_("Server requires TLS/SSL for login.  No TLS/SSL support found."));
++		return;
++	}
++
++	purple_connection_set_state(fba->pc, PURPLE_CONNECTING);
++	purple_connection_update_progress(fba->pc, _("Connecting"), 1, 3);
++
++	encoded_username = g_strdup(purple_url_encode(
++			purple_account_get_username(fba->account)));
++	encoded_password = g_strdup(purple_url_encode(
++			purple_account_get_password(fba->account)));
++
++	postdata = g_strdup_printf(
++			"email=%s&pass=%s&persistent=1&login=Login&charset_test=%%E2%%AC%%C2%%B4%%E2%%82%%AC%%C2%%B4%%E6%%B0%%B4%%D0%%94%%D0%%84",
++			encoded_username, encoded_password);
++	g_free(encoded_username);
++	g_free(encoded_password);
++
++	fb_post_or_get(fba, FB_METHOD_POST | FB_METHOD_SSL, "login.facebook.com",
++			"/login.php", postdata, fb_login_cb, NULL, FALSE);
++	g_free(postdata);
++}
++
++static void fb_close(PurpleConnection *pc)
++{
++	FacebookAccount *fba;
++	gchar *postdata;
++
++	purple_debug_info("facebook", "disconnecting account\n");
++
++	fba = pc->proto_data;
++
++	/* Tell Facebook that we've logged out. */
++	/*
++	 * TODO
++	 * This doesn't actually work because the request is non-blocking
++	 * and we're in the process of logging out.  So we start making a
++	 * connection but then libpurple immediately cancels the attempt
++	 * and frees everything.
++	 *
++	 * There are two ways to fix this:
++	 * 1. We could make this request, but not pass in fba or reference
++	 *    any other data.  The request could complete normally even
++	 *    after this account has logged out, since it really doesn't
++	 *    need access to the PurpleConnection or the FacebookAccount.
++	 *
++	 * 2. The close prpl callback could be changed in libpurple so that
++	 *    protocol plugins can have a chance to make network requests
++	 *    and do other long cleanup operations.  So the call to
++	 *    prpl->close() would become asynchronous.  It tells the
++	 *    protocol plugin to begin the shutdown sequence, and the
++	 *    protocol plugin tells the core when it's finished.
++	 */
++	if (fba->post_form_id)
++		postdata = g_strdup_printf(
++				"visibility=false&post_form_id=%s",
++				fba->post_form_id);
++	else
++		postdata = g_strdup("visibility=false");
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/chat/settings.php",
++			postdata, NULL, NULL, FALSE);
++	g_free(postdata);
++
++	if (fba->buddy_list_timer) {
++		purple_timeout_remove(fba->buddy_list_timer);
++	}
++	if (fba->friend_request_timer) {
++		purple_timeout_remove(fba->friend_request_timer);
++	}
++	if (fba->notifications_timer) {
++		purple_timeout_remove(fba->notifications_timer);
++	}
++	if (fba->new_messages_check_timer) {
++		purple_timeout_remove(fba->new_messages_check_timer);
++	}
++	if (fba->perpetual_messages_timer) {
++		purple_timeout_remove(fba->perpetual_messages_timer);
++	}
++
++	purple_debug_info("facebook", "destroying %d incomplete connections\n",
++			g_slist_length(fba->conns));
++
++	while (fba->conns != NULL)
++		fb_connection_destroy(fba->conns->data);
++
++	while (fba->dns_queries != NULL) {
++		PurpleDnsQueryData *dns_query = fba->dns_queries->data;
++		purple_debug_info("facebook", "canceling dns query for %s\n",
++					purple_dnsquery_get_host(dns_query));
++		fba->dns_queries = g_slist_remove(fba->dns_queries, dns_query);
++		purple_dnsquery_destroy(dns_query);
++	}
++
++	g_hash_table_destroy(fba->cookie_table);
++	g_hash_table_destroy(fba->hostname_ip_cache);
++	g_free(fba->post_form_id);
++	g_free(fba->channel_number);
++	g_slist_free(fba->auth_buddies);
++	g_free(fba->last_status_message);
++	g_free(fba);
++}
++
++static unsigned int fb_send_typing(PurpleConnection *pc, const gchar *name,
++		PurpleTypingState state)
++{
++	int typing_state;
++	gchar *postdata;
++	FacebookAccount *fba = pc->proto_data;
++	gchar *encoded_name;
++
++	g_return_val_if_fail(fba != NULL, 0);
++	g_return_val_if_fail(fba->post_form_id != NULL, 0);
++
++	typing_state = (state == PURPLE_TYPING) ? 1 : 0;
++
++	/* Don't send typing notifications to self */
++	if (atoi(name) != fba->uid)
++	{
++		encoded_name = g_strdup(purple_url_encode(name));
++		postdata = g_strdup_printf("typ=%d&to=%s&post_form_id=%s",
++				typing_state, encoded_name, fba->post_form_id);
++		g_free(encoded_name);
++		fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/chat/typ.php",
++				postdata, NULL, NULL, FALSE);
++		g_free(postdata);
++	} else {
++		serv_got_typing(pc, name, 10, state);
++	}
++
++	/* 7 is the number of seconds before sending the new typing state.  It
++	 * corresponds with the default value that Facebook waits. */
++	return 7;
++}
++
++static void fb_set_status_ok_cb(gpointer data, gchar *status_text)
++{
++	PurpleConnection *pc = data;
++	FacebookAccount *fba = pc->proto_data;
++	gchar *postdata;
++	gchar *status_tmp;
++	gchar *status_text_new;
++
++	g_return_if_fail(fba->post_form_id != NULL);
++
++	g_strstrip(status_text);
++
++	status_text_new = g_strdup_printf("%s", status_text);
++
++	/* don't set the status if it's idential to what we've already set */
++	if (fba->last_status_message && g_str_equal(fba->last_status_message,
++				status_text_new)) {
++		g_free(status_text_new);
++		return;
++	}
++
++	g_free(fba->last_status_message);
++	fba->last_status_message = g_strdup(status_text_new);
++
++	if (*status_text != '\0')
++	{
++		status_tmp = g_strdup(purple_url_encode(status_text_new));
++		postdata = g_strdup_printf("profile_id=%d&status=%s&post_form_id=%s",
++				fba->uid, status_tmp, fba->post_form_id);
++		g_free(status_tmp);
++	}
++	else
++		postdata = g_strdup_printf("profile_id=%d&clear=1&post_form_id=%s",
++				fba->uid, fba->post_form_id);
++
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/updatestatus.php",
++			postdata, NULL, NULL, FALSE);
++
++	g_free(status_text_new);
++	g_free(postdata);
++}
++
++static void fb_set_status_p(PurpleAccount *account, PurpleStatus *status)
++{
++	const gchar *message;
++	gchar *stripped;
++
++	/* first check that we actually want to set this through Pidgin */
++	if (!purple_account_get_bool(account,
++				"facebook_set_status_through_pidgin", FALSE))
++	{
++		return;
++	}
++
++	message = purple_status_get_attr_string(status, "message");
++	if (message == NULL)
++		message = "";
++
++	stripped = g_strstrip(purple_markup_strip_html(message));
++	fb_set_status_ok_cb(account->gc, stripped);
++	g_free(stripped);
++}
++
++static void fb_buddy_free(PurpleBuddy *buddy)
++{
++	FacebookBuddy *fbuddy = buddy->proto_data;
++	if (fbuddy != NULL)
++	{
++		buddy->proto_data = NULL;
++
++		g_free(fbuddy->name);
++		g_free(fbuddy->status);
++		g_free(fbuddy->status_rel_time);
++		g_free(fbuddy->thumb_url);
++		g_free(fbuddy);
++	}
++}
++
++static void fb_convo_closed(PurpleConnection *gc, const char *who)
++{
++	FacebookAccount *fba = gc->proto_data;
++	gchar *postdata;
++
++	g_return_if_fail(fba->post_form_id != NULL);
++
++	/* notify server that we closed the chat window */
++	/* close_chat=589039771&window_id=3168919846&
++	 * post_form_id=c258fe42460c7e8b61e242a37ef05afc */
++	postdata = g_strdup_printf("close_chat=%s&post_form_id=%s", who,
++			fba->post_form_id);
++	fb_post_or_get(fba, FB_METHOD_POST, NULL, "/ajax/chat/settings.php",
++			postdata, NULL, NULL, FALSE);
++	g_free(postdata);
++}
++
++static GHashTable *fb_get_account_text_table(PurpleAccount *account)
++{
++	GHashTable *table;
++
++	table = g_hash_table_new(g_str_hash, g_str_equal);
++
++	g_hash_table_insert(table, "login_label", (gpointer)_("Email Address..."));
++
++	return table;
++}
++
++/******************************************************************************/
++/* Plugin functions */
++/******************************************************************************/
++
++static gboolean plugin_load(PurplePlugin *plugin)
++{
++#ifdef HAVE_ZLIB
++	/* try dynamically loading zlib functions */
++	if (zlib_library == NULL)
++		/* zlib_library = dlopen("zlib1.dll", RTLD_LAZY); */
++		zlib_library = dlopen("libz.dll", RTLD_LAZY);
++	if (zlib_library == NULL)
++		zlib_library = dlopen("libz.so", RTLD_LAZY);
++	if (zlib_library == NULL)
++		zlib_library = dlopen("libz.dylib", RTLD_LAZY);
++	if (zlib_inflate == NULL && zlib_library != NULL)
++	{
++		zlib_inflate = (int (*)()) dlsym(zlib_library, "inflate");
++		zlib_inflateInit2_ = (int (*) ()) dlsym(zlib_library, "inflateInit2_");
++		zlib_inflateEnd = (int (*) ()) dlsym(zlib_library, "inflateEnd");
++	}
++#endif
++
++	return TRUE;
++}
++
++static gboolean plugin_unload(PurplePlugin *plugin)
++{
++#ifdef HAVE_ZLIB
++	if (zlib_library != NULL)
++	{
++		dlclose(zlib_library);
++		zlib_library = NULL;
++		zlib_inflate = NULL;
++		zlib_inflateInit2_ = NULL;
++		zlib_inflateEnd = NULL;
++	}
++#endif
++	return TRUE;
++}
++
++static void fb_set_status_cb(PurplePluginAction *action)
++{
++	PurpleConnection *pc = action->context;
++	FacebookAccount *fba = pc->proto_data;
++	gchar *uid_str;
++
++	uid_str = g_strdup_printf("%d", fba->uid);
++
++	purple_request_input(pc, NULL, _("Set your Facebook status"),
++			purple_account_get_alias(pc->account), "is ",
++			FALSE, FALSE, NULL, _("OK"),
++			G_CALLBACK(fb_set_status_ok_cb), _("Cancel"),
++			NULL, pc->account, uid_str, NULL, pc);
++
++	g_free(uid_str);
++}
++
++static void fb_display_plugin_info(PurplePluginAction *action)
++{
++	purple_notify_info(action->context, _("About Facebook for Pidgin"),
++			_("Version"), FACEBOOK_PLUGIN_VERSION);
++}
++
++static GList *fb_actions(PurplePlugin *plugin, gpointer context)
++{
++	GList *m = NULL;
++	PurplePluginAction *act;
++
++	act = purple_plugin_action_new(_("About Facebook for Pidgin"),
++			fb_display_plugin_info);
++	m = g_list_append(m, act);
++
++	act = purple_plugin_action_new(_("Set Facebook status..."),
++			fb_set_status_cb);
++	m = g_list_append(m, act);
++
++	act = purple_plugin_action_new(_("Search for buddies..."),
++			fb_search_users);
++	m = g_list_append(m, act);
++
++	return m;
++}
++
++static GList *fb_node_menu(PurpleBlistNode *node)
++{
++	GList *m = NULL;
++	PurpleMenuAction *act;
++	PurpleBuddy *buddy;
++	
++	if(PURPLE_BLIST_NODE_IS_BUDDY(node))
++	{
++		buddy = (PurpleBuddy *)node;
++		
++		act = purple_menu_action_new(_("_Poke"),
++										PURPLE_CALLBACK(fb_blist_poke_buddy),
++										NULL, NULL);
++		m = g_list_append(m, act);
++	}
++	return m;
++}
++
++static void fb_set_idle(PurpleConnection *gc, int time)
++{
++	FacebookAccount *fba = gc->proto_data;
++	
++	g_return_if_fail(fba != NULL);
++	
++	if (time)
++	{
++		fba->is_idle = TRUE;
++	} else {
++		fba->is_idle = FALSE;
++	}
++}
++
++static void plugin_init(PurplePlugin *plugin)
++{
++	PurpleAccountOption *option;
++	PurplePluginInfo *info = plugin->info;
++	PurplePluginProtocolInfo *prpl_info = info->extra_info;
++
++	/* Add options to the advanced screen in the account settings */
++	option = purple_account_option_bool_new(_("Hide myself in the Buddy List"), "facebook_hide_self", TRUE);
++	prpl_info->protocol_options = g_list_append(prpl_info->protocol_options, option);
++
++	option = purple_account_option_bool_new(_("Set Facebook status through Pidgin status"), "facebook_set_status_through_pidgin", FALSE);
++	prpl_info->protocol_options = g_list_append(prpl_info->protocol_options, option);
++
++	option = purple_account_option_bool_new(_("Show Facebook notifications as e-mails in Pidgin"), "facebook_get_notifications", TRUE);
++	prpl_info->protocol_options = g_list_append(prpl_info->protocol_options, option);
++
++	option = purple_account_option_bool_new(_("Edit Facebook friends from Pidgin"), "facebook_manage_friends", FALSE);
++	prpl_info->protocol_options = g_list_append(prpl_info->protocol_options, option);
++}
++
++static PurplePluginProtocolInfo prpl_info = {
++	/* options */
++	OPT_PROTO_UNIQUE_CHATNAME,
++
++	NULL,                   /* user_splits */
++	NULL,                   /* protocol_options */
++	/* NO_BUDDY_ICONS */    /* icon_spec */
++	{"jpg", 0, 0, 50, 50, -1, PURPLE_ICON_SCALE_SEND}, /* icon_spec */
++	fb_list_icon,           /* list_icon */
++	NULL,                   /* list_emblems */
++	fb_status_text,         /* status_text */
++	fb_tooltip_text,        /* tooltip_text */
++	fb_statuses,            /* status_types */
++	fb_node_menu,           /* blist_node_menu */
++	NULL,                   /* chat_info */
++	NULL,                   /* chat_info_defaults */
++	fb_login,               /* login */
++	fb_close,               /* close */
++	fb_send_im,             /* send_im */
++	NULL,                   /* set_info */
++	fb_send_typing,         /* send_typing */
++	fb_get_info,            /* get_info */
++	fb_set_status_p,        /* set_status */
++	fb_set_idle,            /* set_idle */
++	NULL,                   /* change_passwd */
++	fb_add_buddy,           /* add_buddy */
++	NULL,                   /* add_buddies */
++	NULL,                   /* remove_buddy */
++	NULL,                   /* remove_buddies */
++	NULL,                   /* add_permit */
++	NULL,                   /* add_deny */
++	NULL,                   /* rem_permit */
++	NULL,                   /* rem_deny */
++	NULL,                   /* set_permit_deny */
++	NULL,                   /* join_chat */
++	NULL,                   /* reject chat invite */
++	NULL,                   /* get_chat_name */
++	NULL,                   /* chat_invite */
++	NULL,                   /* chat_leave */
++	NULL,                   /* chat_whisper */
++	NULL,                   /* chat_send */
++	NULL,                   /* keepalive */
++	NULL,                   /* register_user */
++	NULL,                   /* get_cb_info */
++	NULL,                   /* get_cb_away */
++	NULL,                   /* alias_buddy */
++	NULL,                   /* group_buddy */
++	NULL,                   /* rename_group */
++	fb_buddy_free,          /* buddy_free */
++	fb_convo_closed,        /* convo_closed */
++	purple_normalize_nocase,/* normalize */
++	NULL,                   /* set_buddy_icon */
++	NULL,                   /* remove_group */
++	NULL,                   /* get_cb_real_name */
++	NULL,                   /* set_chat_topic */
++	NULL,                   /* find_blist_chat */
++	NULL,                   /* roomlist_get_list */
++	NULL,                   /* roomlist_cancel */
++	NULL,                   /* roomlist_expand_category */
++	NULL,                   /* can_receive_file */
++	NULL,                   /* send_file */
++	NULL,                   /* new_xfer */
++	NULL,                   /* offline_message */
++	NULL,                   /* whiteboard_prpl_ops */
++	NULL,                   /* send_raw */
++	NULL,                   /* roomlist_room_serialize */
++	NULL,                   /* unregister_user */
++	NULL,                   /* send_attention */
++	NULL,                   /* attention_types */
++	sizeof(PurplePluginProtocolInfo), /* struct_size */
++	fb_get_account_text_table, /* get_account_text_table */
++};
++
++static PurplePluginInfo info = {
++	PURPLE_PLUGIN_MAGIC,
++	2, /* major_version */
++	3, /* minor version */
++	PURPLE_PLUGIN_PROTOCOL, /* type */
++	NULL, /* ui_requirement */
++	0, /* flags */
++	NULL, /* dependencies */
++	PURPLE_PRIORITY_DEFAULT, /* priority */
++	"prpl-bigbrownchunx-facebookim", /* id */
++	"Facebook", /* name */
++	FACEBOOK_PLUGIN_VERSION, /* version */
++	N_("Facebook Protocol Plugin"), /* summary */
++	N_("Facebook Protocol Plugin"), /* description */
++	"Eion Robb <eionrobb@gmail.com>", /* author */
++	"http://pidgin-facebookchat.googlecode.com/", /* homepage */
++	plugin_load, /* load */
++	plugin_unload, /* unload */
++	NULL, /* destroy */
++	NULL, /* ui_info */
++	&prpl_info, /* extra_info */
++	NULL, /* prefs_info */
++	fb_actions, /* actions */
++
++	/* padding */
++	NULL,
++	NULL,
++	NULL,
++	NULL
++};
++
++PURPLE_INIT_PLUGIN(facebook, plugin_init, info);
+diff -r 478b0dfd9325 purple/libpurple/protocols/facebook/libfacebook.h
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/purple/libpurple/protocols/facebook/libfacebook.h	Sat Apr 18 22:36:37 2009 +0200
+@@ -0,0 +1,136 @@
++/*
++ * libfacebook
++ *
++ * libfacebook is the property of its developers.  See the COPYRIGHT file
++ * for more details.
++ *
++ * This program is free software: you can redistribute it and/or modify
++ * it under the terms of the GNU General Public License as published by
++ * the Free Software Foundation, either version 3 of the License, or
++ * (at your option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#ifndef LIBFACEBOOK_H
++#define LIBFACEBOOK_H
++
++#define FACEBOOK_PLUGIN_VERSION "1.47"
++
++#include <glib.h>
++#include "gettext.h"
++
++#ifdef _MSC_VER
++#define ssize_t SSIZE_T
++#define atoll _atoi64
++#endif
++
++#define _(String) (purple_get_text(PACKAGE, String))
++#define N_(String) (String)
++#define ngettext(Singular, Plural, Number) dngettext(PACKAGE, Singular, Plural, Number)
++#define dngettext(Domain, Singular, Plural, Number) (purple_get_plural_text(Domain, Singular, Plural, Number))
++
++#ifdef ENABLE_NLS
++#  include <libintl.h>
++#  ifdef gettext_noop
++#    undef N_
++#    define N_(String) gettext_noop (String)
++#  endif
++#endif
++
++#include <errno.h>
++#include <string.h>
++#include <sys/types.h>
++
++#ifndef G_GNUC_NULL_TERMINATED
++#	if __GNUC__ >= 4
++#		define G_GNUC_NULL_TERMINATED __attribute__((__sentinel__))
++#	else
++#		define G_GNUC_NULL_TERMINATED
++#	endif /* __GNUC__ >= 4 */
++#endif /* G_GNUC_NULL_TERMINATED */
++
++#ifdef _WIN32
++#	include "win32dep.h"
++#	define dlopen(a,b) LoadLibrary(a)
++#	define RTLD_LAZY
++#	define dlsym(a,b) GetProcAddress(a,b)
++#	define dlclose(a) FreeLibrary(a)
++#else
++#	include <arpa/inet.h>
++#	include <dlfcn.h>
++#	include <netinet/in.h>
++#	include <sys/socket.h>
++#endif
++
++#include "accountopt.h"
++#include "connection.h"
++#include "debug.h"
++#include "dnsquery.h"
++#include "proxy.h"
++#include "prpl.h"
++#include "request.h"
++#include "sslconn.h"
++#include "version.h"
++
++#ifdef HAVE_ZLIB
++/* for dynamically loading gzip uncompression */
++#include <zlib.h>
++static void *zlib_library = NULL;
++static int (*zlib_inflate)(z_streamp, int) = NULL;
++static int (*zlib_inflateEnd)(z_streamp) = NULL;
++static int (*zlib_inflateInit2_)(z_streamp, int, char *, int) = NULL;
++#endif
++
++#define FB_LAST_MESSAGE_MAX 10
++#define FB_MAX_MSG_RETRY 2
++
++typedef struct _FacebookAccount FacebookAccount;
++typedef struct _FacebookBuddy FacebookBuddy;
++
++typedef void (*FacebookProxyCallbackFunc)(FacebookAccount *fba, gchar *data, gsize data_len, gpointer user_data);
++
++struct _FacebookAccount {
++	PurpleAccount *account;
++	PurpleConnection *pc;
++	GSList *conns; /**< A list of all active FacebookConnections */
++	GSList *dns_queries;
++	GHashTable *cookie_table;
++	gchar *post_form_id;
++	gint32 uid;
++	guint buddy_list_timer;
++	guint friend_request_timer;
++	gchar *channel_number;
++	guint message_fetch_sequence;
++	gint64 last_messages[FB_LAST_MESSAGE_MAX];
++	guint16 next_message_pointer;
++	GSList *auth_buddies;
++	GHashTable *hostname_ip_cache;
++	guint notifications_timer;
++	time_t last_messages_download_time;
++	guint new_messages_check_timer;
++	guint perpetual_messages_timer;
++	gchar *last_status_message;
++	gboolean is_idle;
++};
++
++struct _FacebookBuddy {
++	FacebookAccount *fba;
++	PurpleBuddy *buddy;
++	gint32 uid;
++	gchar *name;
++	gchar *status;
++	gchar *status_rel_time;
++	gchar *thumb_url;
++};
++
++gchar *fb_strdup_withhtml(const gchar *src);
++gchar *fb_convert_unicode(const gchar *input);
++
++#endif /* LIBFACEBOOK_H */

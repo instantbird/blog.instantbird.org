@@ -17,7 +17,7 @@ conversation (although pressing enter or double clicking is usually
 faster), show the conversation history, rename a contact, move the
 contact to a different group or remove it from the list:
 
-|Buddy context menu|\ 
+|Buddy context menu|
 
 The context menu is usable anywhere in the buddy list to toggle the
 display of offline buddies:
@@ -52,8 +52,8 @@ query in search engine. We have included search engine items directly in
 the context menus to reduce the number of clicks needed for this common
 case.
 
-.. |Buddy context menu| image:: http://blog.instantbird.org/images/buddy_context-menu2.png
-.. |Buddy list context menu| image:: http://blog.instantbird.org/images/blist_context-menu2.png
-.. |Account context menu| image:: http://blog.instantbird.org/images/account_context-menu2.png
-.. |Tab context menu| image:: http://blog.instantbird.org/images/tab_context-menu2.png
-.. |Content context menu| image:: http://blog.instantbird.org/images/text_context-menu2.png
+.. |Buddy context menu| image:: {filename}/images/buddy_context-menu2.png
+.. |Buddy list context menu| image:: {filename}/images/blist_context-menu2.png
+.. |Account context menu| image:: {filename}/images/account_context-menu2.png
+.. |Tab context menu| image:: {filename}/images/tab_context-menu2.png
+.. |Content context menu| image:: {filename}/images/text_context-menu2.png
