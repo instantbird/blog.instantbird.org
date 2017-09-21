@@ -67,5 +67,5 @@ Next:
 -  Setup a nonprofit to make money matters related to the project
    transparent, and to be able to accept donations.
 
-.. |:(| image:: http://blog.instantbird.org/smileys/triste.png
+.. |:(| image:: {filename}/smileys/triste.png
 
