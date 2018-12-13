@@ -33,6 +33,17 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
+# This is currently a modified copy of notmyidea, one of the default themes.
+THEME = 'theme'
+
+# Set up static content and output locations.
+STATIC_PATHS = [
+    'files',
+    'images',
+    'smileys',
+    'wp-content',
+]
+
 DEFAULT_PAGINATION = 7
 
 # Uncomment following line if you want document-relative URLs when developing

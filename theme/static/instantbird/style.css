@@ -1,0 +1,276 @@
+/*
+Theme Name:     Instantbird Theme - A Twenty Eleven Child
+Theme URI:      http://blog.instantbird.org/
+Description:    Theme based on InstantBird.com
+Author:         The Instantbird team
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+@font-face {
+  font-family: Sacco-Vanzetti Instantbird;
+  font-weight: normal;
+  src: url('SaccoVanzettiInstantbird.otf') format("opentype");
+}
+
+@font-face
+{
+  font-family: Sacco-Vanzetti Instantbird;
+  font-weight: bold;
+  src: url('SaccoVanzettiInstantbirdBold.otf') format("opentype");
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Sacco-Vanzetti Instantbird, Arial, sans-serif;
+  font-size: medium;
+  color: #4d4d4d;
+  background: url('images/dark-background.png') repeat-x left top;
+  background-color: white;
+}
+h1, h2, h3, h4, h5, h6, a, div, p, span
+{
+  font-family: Sacco-Vanzetti Instantbird, Arial, sans-serif;
+}
+
+a
+{
+  color: #054a88;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #c85e00;
+}
+
+input#s
+{
+  background-color:white;
+}
+
+#shadow
+{
+  margin: 0;
+  padding: 0;
+  background: url('images/main-shadow.png') repeat-y center top;
+}
+
+#page
+{
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  background: white url('images/main-background.png') repeat-x 0px -64px;
+}
+
+#page:after
+{
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+header#branding
+{
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  border-top:0;
+  position: relative;
+}
+
+header#branding h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:335px;
+}
+
+header#branding #logo-top
+{
+  width: 335px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: url('images/instantbird-logo-top.png') no-repeat 0px 0px;
+  display: block;
+  float: left;
+}
+
+header#branding #logo-top:hover
+{
+  background-position: 0px -64px;
+}
+
+header#branding #logo-top span
+{
+  display: none;
+}
+
+header#branding nav
+{
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+header#branding nav h3
+{
+  display:none;
+}
+
+ul#menu-header
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#menu-header li
+{
+  list-style: none;
+  float: left;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  border-left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+#menu-header li a
+{
+  display: block;
+  height: 52px;
+  margin: 0;
+  padding: 6px 20px;
+  color: white;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+#menu-header li a:last-child
+{
+  border-right: none;
+}
+
+#menu-header li a:hover
+{
+  background: url('images/main-background.png') repeat-x 0px 0px;
+}
+
+#page
+{
+  margin:0 auto;
+}
+
+#content
+{
+  margin-left: 20px;
+  width: 650px;
+  margin-right: 20px;
+}
+
+#secondary {
+  width: 250px;
+  margin-right: 0;
+}
+
+h1.entry-title
+{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.entry-summary, .entry-content
+{
+  padding-top: 0;
+}
+
+footer#colophon
+{
+  height: 76px;
+  margin: 0;
+  padding: 0;
+  background: url('images/footer-shadow.png') no-repeat center top;
+}
+
+footer #footer
+{
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 26px;
+  text-align: center;
+  background: url('images/footer-background.png') repeat-x left top;
+  background-color: white;
+}
+
+#footer p
+{
+  margin: 0;
+}
+
+#footer a
+{
+  color: inherit;
+}
+
+/* Adjustment to make single pages show the sidebar */
+.singular #primary
+{
+  margin-left: 20px;
+  width: 650px;
+  margin-right: 20px;
+}
+ 
+#nav-single
+{
+  display: none;
+}
+ 
+.singular .entry-header .entry-meta
+{
+  position: relative;
+}
+ 
+.singular .hentry
+{
+  padding: 0;
+}
+ 
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title
+{
+  width: 100%;
+}
+ 
+.singular #content, .left-sidebar.singular #content
+{
+  margin: 0;
+}
+ 
+.singular article .entry-title
+{
+  padding-top: 0;
+}
+ 
+.singular .entry-meta .edit-link a {
+  right: 0;
+  top: 0;
+  left: auto;
+}
