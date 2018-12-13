@@ -3,7 +3,7 @@ Ideas for future posts
 :date: 2011-10-13 13:42
 :author: ecaron
 :slug: ideas-for-future-posts
-:status: private
+:status: hidden
 
 from flo: another idea for blog content: sometimes posting an image of a
 work-in-progress with a very short description (a teaser) can bring some
