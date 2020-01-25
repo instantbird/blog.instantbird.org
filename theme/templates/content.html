@@ -1,0 +1,61 @@
+<article id="post-{{ article.slug }}">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/{{ article.author.url }}" rel="bookmark">{{ article.title }}</a></h1>
+
+    <div class="entry-meta">
+      {{ article.locale_date }}
+    </div><!-- .entry-meta -->
+
+    {# TODO Comments #}
+    {% if false %}
+    <?php if ( comments_open() && ! post_password_required() ) : ?>
+    <div class="comments-link">
+      <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'twentyeleven' ) . '</span>', _x( '1', 'comments number', 'twentyeleven' ), _x( '%', 'comments number', 'twentyeleven' ) ); ?>
+    </div>
+    <?php endif; ?>
+    {% endif %}
+  </header><!-- .entry-header -->
+
+  {% if false %}
+  <?php if ( is_search() ) : // Only display Excerpts for Search ?>
+  <div class="entry-summary">
+    {{ article.summary }}
+  </div><!-- .entry-summary -->
+  {% else %}
+  <div class="entry-content">
+    {# TODO #}
+    <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?>
+    <?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
+  </div><!-- .entry-content -->
+  {% endif %}
+
+  <footer class="entry-meta">
+    {% set show_sep = false %}
+    {% if article.category %}
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> {{ article.category }}
+      {% set show_sep = true %}
+    </span>
+    {% endif %}{# End if categories #}
+    {% if article.tags %}
+      {% if show_sep %}
+      <span class="sep"> | </span>
+      {% endif %}{# End if show_sep #}
+    {# translators: used between list items, there is a space after the comma #}
+    {% set tags = article.tags|join(', ') %}
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> {{ tags }}
+      {% set show_sep = true %}
+    </span>
+    {% endif %}{# End if tags_list #}
+
+    {% if false %}
+    <?php if ( comments_open() ) : ?>
+    {% if show_sep %}
+    <span class="sep"> | </span>
+    {% endif %}{# End if show_sep #}
+    <span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
+    <?php endif; // End if comments_open() ?>
+    {% endif %}
+  </footer><!-- .entry-meta -->
+</article><!-- #post-<?php the_ID(); ?> -->
