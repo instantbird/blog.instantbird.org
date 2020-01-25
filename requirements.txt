@@ -1,11 +1,8 @@
-pelican==3.7.1
+pelican==4.2.0
 
 # For automation.
-invoke==0.15.0
-ghp_import==0.4.1
-
-# For testing.
-SimpleHTTP404Server==0.2.0
+invoke==1.4.0
+ghp_import==0.5.5
 
 # For importing the old WordPress site.
 BeautifulSoup4==4.5.3

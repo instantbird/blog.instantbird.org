@@ -1,11 +1,16 @@
+# -*- coding: utf-8 -*-
+
 import os
+import sys
 
 from invoke import run, task
+
+from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 
 # local path configuration (can be absolute or relative to tasks)
 env = {
     'deploy_path': 'output',
-    'listen_port': 8000,
+    'port': 8000,
 }
 
 
@@ -31,8 +36,19 @@ def regenerate(ctx):
 
 @task
 def serve(ctx):
-    """runly serve the blog."""
-    run('cd {deploy_path} && python -m SimpleHTTP404Server {listen_port}'.format(**env), pty=True)
+    """Serve site at http://localhost:$PORT/ (default port is 8000)"""
+
+    class AddressReuseTCPServer(RootedHTTPServer):
+        allow_reuse_address = True
+
+    server = AddressReuseTCPServer(
+        env['deploy_path'],
+        ('', env['port']),
+        ComplexHTTPRequestHandler)
+
+    sys.stderr.write('Serving on port {port} ...\n'.format(**env))
+    server.serve_forever()
+
 
 
 @task
@@ -46,7 +62,7 @@ def preview(ctx):
 def publish(ctx):
     """Build with the publish config and push to the remote server."""
     preview(ctx)
-    run('ghp-import -p -b master output')
+    run('ghp-import -p -b master {deploy_path}'.format(**env))
 
 
 @task
