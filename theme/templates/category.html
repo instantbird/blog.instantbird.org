@@ -1,19 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div id="primary">
+<section id="primary">
   <div id="content" role="main">
-    {% if articles_page.object_list %}
-      {# TODO #}
-      {# <?php twentyeleven_content_nav( 'nav-above' ); ?> #}
 
-      {% for article in articles_page.object_list %}
-      {% include "content.html" %}
-      {% endfor %}
+  {% if articles_page.object_list %}
 
-      {# TODO #}
-      {# <?php twentyeleven_content_nav( 'nav-below' ); ?> #}
-    {% else %}
+    <header class="page-header">
+      <h1 class="page-title">Category Archives: <span>{{ category }}</span></h1>
+
+      {# TODO Can categories have descriptions? #}
+      {# <div class="category-archive-meta">{{ category.description }}</div> #}
+    </header>
+
+    {# TODO #}
+    {# <?php twentyeleven_content_nav( 'nav-above' ); ?> #}
+
+    {% for article in articles_page.object_list %}
+    {% include "content.html" %}
+    {% endfor %}
+
+    {# TODO #}
+    {# <?php twentyeleven_content_nav( 'nav-below' ); ?> #}
+
+  {% else %}
 
     <article id="post-0" class="post no-results not-found">
       <header class="entry-header">
@@ -27,10 +37,10 @@
       </div><!-- .entry-content -->
     </article><!-- #post-0 -->
 
-    {% endif %}
+  {% endif %}
+
   </div><!-- #content -->
-</div><!-- #primary -->
+</section><!-- #primary -->
 
 {% include "sidebar.html" %}
-
 {% endblock %}
