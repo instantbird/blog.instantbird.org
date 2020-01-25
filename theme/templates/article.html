@@ -1,1 +1,52 @@
+{% extends "base.html" %}
+
 {% block title %}{{ title }} | Blog@instantbird.org{% endblock %}
+
+{% block content %}
+
+<div id="primary">
+  <div id="content" role="main">
+
+    <nav id="nav-single">
+      {# TODO See below #}
+      <h3 class="assistive-text">Post navigation</h3>
+      <span class="nav-previous"><?php previous_post_link( '%link', __( '<span class="meta-nav">&larr;</span> Previous', 'twentyeleven' ) ); ?></span>
+      <span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
+    </nav><!-- #nav-single -->
+
+    <article id="post-{{ article.slug }}">
+      <header class="entry-header">
+        <h1 class="entry-title">{{ article.title }}</h1>
+
+        <div class="entry-meta">
+          {{ article.locale_date }}
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        {{ article.content }}
+        {# TODO See below. #}
+        {# <?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?> #}
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+        {# TODO Should the category and tags be links? #}
+        {# translators: used between list items, there is a space after the comma #}
+        {% set tags = article.tags|join(', ') %}
+        {% if article.tags %}
+          This entry was posted in {{ article.category }} and tagged {{ tags }} by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
+        {% elif article.category %}
+          This entry was posted in {{ article.category }} by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
+        {% else %}
+          This entry was posted by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
+        {% endif %}
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-<?php the_ID(); ?> -->
+
+    {# TODO Comments #}
+    {# <?php comments_template( '', true ); ?> #}
+
+  </div><!-- #content -->
+</div><!-- #primary -->
+
+{% endblock %}
