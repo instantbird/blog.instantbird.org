@@ -34,10 +34,10 @@ What's Being Worked On:
 -----------------------
 
 .. class:: left
-.. image:: {filename}/images/nickcolor13.png
+.. image:: {static}/images/nickcolor13.png
     :width: 159px
     :height: 387px
-    :target: {filename}/images/nickcolor13.png
+    :target: {static}/images/nickcolor13.png
     :alt: Active participants are highlighted in color.
 
 -  `Only show colors of participants who have

@@ -88,4 +88,4 @@ time to start! In the next few days, we will detail a few of the
 features that already make Instantbird 0.2 a very usable instant
 messaging application, despite its low version number.
 
-.. _nightly: {filename}/articles/nightly-builds-available.rst
+.. _nightly: {static}/articles/nightly-builds-available.rst

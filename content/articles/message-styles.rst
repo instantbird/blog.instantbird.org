@@ -91,11 +91,11 @@ for you to enjoy trying out. `Creating a new
 one <http://wiki.instantbird.org/Instantbird:Message_Styles>`__ yourself
 is also very easy.
 
-.. _already explained: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+.. _already explained: {static}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
 
-.. |chat room with people talking in colorful chat bubbles| image:: {filename}/images/chatroom2.png
-.. |Conversation using the Bubbles theme, with grouped messages and collapsed system messages| image:: {filename}/images/bubbles2.png
-.. |Conversation using the Dark message theme| image:: {filename}/images/dark2.png
-.. |Conversation using the Paper Sheets message theme| image:: {filename}/images/papersheets2.png
-.. |Conversation using the Simple theme| image:: {filename}/images/simple2.png
+.. |chat room with people talking in colorful chat bubbles| image:: {static}/images/chatroom2.png
+.. |Conversation using the Bubbles theme, with grouped messages and collapsed system messages| image:: {static}/images/bubbles2.png
+.. |Conversation using the Dark message theme| image:: {static}/images/dark2.png
+.. |Conversation using the Paper Sheets message theme| image:: {static}/images/papersheets2.png
+.. |Conversation using the Simple theme| image:: {static}/images/simple2.png
 

@@ -52,8 +52,8 @@ query in search engine. We have included search engine items directly in
 the context menus to reduce the number of clicks needed for this common
 case.
 
-.. |Buddy context menu| image:: {filename}/images/buddy_context-menu2.png
-.. |Buddy list context menu| image:: {filename}/images/blist_context-menu2.png
-.. |Account context menu| image:: {filename}/images/account_context-menu2.png
-.. |Tab context menu| image:: {filename}/images/tab_context-menu2.png
-.. |Content context menu| image:: {filename}/images/text_context-menu2.png
+.. |Buddy context menu| image:: {static}/images/buddy_context-menu2.png
+.. |Buddy list context menu| image:: {static}/images/blist_context-menu2.png
+.. |Account context menu| image:: {static}/images/account_context-menu2.png
+.. |Tab context menu| image:: {static}/images/tab_context-menu2.png
+.. |Content context menu| image:: {static}/images/text_context-menu2.png

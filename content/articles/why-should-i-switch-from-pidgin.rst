@@ -241,7 +241,7 @@ In any case, we are not going to try to force you to switch from Pidgin
 or whatever IM client you may be using right now to Instantbird. We
 respect your freedom, we respect your choices, we love you!
 
-.. |Instantbird crash reporter| image:: {filename}/images/crash-breakpad.png
-.. _stability efforts: {filename}/articles/stability.rst
-.. _Time Bubbles: {filename}/articles/introducing-time-bubbles.rst
-.. _Magic copy: {filename}/articles/introducing-magic-copy.rst
+.. |Instantbird crash reporter| image:: {static}/images/crash-breakpad.png
+.. _stability efforts: {static}/articles/stability.rst
+.. _Time Bubbles: {static}/articles/introducing-time-bubbles.rst
+.. _Magic copy: {static}/articles/introducing-magic-copy.rst

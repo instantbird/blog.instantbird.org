@@ -32,5 +32,5 @@ topic!
 
 .. _Mozilla: http://blog.gerv.net/2013/02/summer-of-code-2013/
 .. _Google Summer of Code 2013: https://wiki.mozilla.org/Community:SummerOfCode13
-.. _JS-XMPP: {filename}/articles/status-update-april-2011-may-2011.rst
-.. _Import Wizard: {filename}/articles/google-summer-of-code-2012.rst
+.. _JS-XMPP: {static}/articles/status-update-april-2011-may-2011.rst
+.. _Import Wizard: {static}/articles/google-summer-of-code-2012.rst

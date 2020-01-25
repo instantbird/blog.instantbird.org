@@ -94,5 +94,5 @@ Next:
 
 By the way... Happy new year! Yeah... we are late |;)|.
 
-.. |;)| image:: {filename}/smileys/clin_d'oeil.png
+.. |;)| image:: {static}/smileys/clin_d'oeil.png
 

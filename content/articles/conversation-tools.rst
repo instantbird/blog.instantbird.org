@@ -39,5 +39,5 @@ size (Command instead of Ctrl on Mac OS X).
 The changes in zoom settings are applied to all conversations at once
 and saved so that you do not need to adapt the zoom more than once.
 
-.. |Findbar in conversation window| image:: {filename}/images/findbar.png
-.. |same conversation zoomed at various scales| image:: {filename}/images/zoom.png
+.. |Findbar in conversation window| image:: {static}/images/findbar.png
+.. |same conversation zoomed at various scales| image:: {static}/images/zoom.png

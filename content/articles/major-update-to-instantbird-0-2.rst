@@ -22,6 +22,6 @@ users, who should `download the full
 installer <http://www.instantbird.com/>`__ themselves. We are sorry for
 the inconvenience.
 
-.. _recently released Instantbird 0.2: {filename}/articles/instantbird-0-2-released.rst
+.. _recently released Instantbird 0.2: {static}/articles/instantbird-0-2-released.rst
 
-.. |Major update offer dialog| image:: {filename}/images/major-update-to-0.2.png
+.. |Major update offer dialog| image:: {static}/images/major-update-to-0.2.png

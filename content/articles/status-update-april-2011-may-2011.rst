@@ -88,6 +88,6 @@ Known Issues with Nightly Builds (0.3a3pre)
 -  The user icon may not appear anymore on some protocols (ICQ/AIM/?)
    after restarting the application (bug 783).
 
-.. |Screenshot of a work in progress| image:: {filename}/images/IbGlassBorders.png
-   :target: {filename}/images/IbGlassBorders.png
+.. |Screenshot of a work in progress| image:: {static}/images/IbGlassBorders.png
+   :target: {static}/images/IbGlassBorders.png
    :width: 100%

@@ -74,9 +74,9 @@ Next:
 -  Setup a nonprofit organization to make money matters related to the
    project transparent and to be able to accept donations.
 
-.. _last status update: {filename}/articles/status-update-2.rst
-.. _suggestion: {filename}/articles/tabs.rst
+.. _last status update: {static}/articles/status-update-2.rst
+.. _suggestion: {static}/articles/tabs.rst
 
-.. |Cropped screenshot of the old look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive.png
-.. |Cropped screenshot of the new look of the unified toolbar on Mac| image:: {filename}/images/tabs8-macosxactiveinactive-trunk.png
+.. |Cropped screenshot of the old look of the unified toolbar on Mac| image:: {static}/images/tabs8-macosxactiveinactive.png
+.. |Cropped screenshot of the new look of the unified toolbar on Mac| image:: {static}/images/tabs8-macosxactiveinactive-trunk.png
 

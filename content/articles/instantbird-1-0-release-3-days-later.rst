@@ -87,6 +87,6 @@ exciting (even though they were also exhausting). We look forward to
 continue hearing your feedback (and to actually act upon it!). Don't
 hesitate to share Instantbird with your friends. Our servers are ready!
 
-.. |:)| image:: {filename}/smileys/sourire.png
-.. |Dialog offering a major update to Instantbird 1.0| image:: {filename}/images/major-update-1.0.png
+.. |:)| image:: {static}/smileys/sourire.png
+.. |Dialog offering a major update to Instantbird 1.0| image:: {static}/images/major-update-1.0.png
 

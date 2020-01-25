@@ -144,4 +144,4 @@ or
    :target: http://www.instantbird.com/
 .. |Instantbird 1.0 screenshot on Windows 7| image:: http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png
    :target: http://www.instantbird.com/
-.. |:)| image:: {filename}/smileys/sourire.png
+.. |:)| image:: {static}/smileys/sourire.png

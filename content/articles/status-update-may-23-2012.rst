@@ -86,10 +86,10 @@ application, timeline and a series of links) that he'll be updating as
 the summer continues. (And of course you can stop by our IRC channel,
 #instantbird on irc.mozilla.org, and say "Hi!")
 
-.. _Google Summer of Code 2012 student: {filename}/articles/google-summer-of-code-2012.rst
+.. _Google Summer of Code 2012 student: {static}/articles/google-summer-of-code-2012.rst
 
-.. |"Top Protocol" Page in the Account Wizard| image:: {filename}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
+.. |"Top Protocol" Page in the Account Wizard| image:: {static}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
    :class: size-medium wp-image-342
    :width: 300px
    :height: 243px
-   :target: {filename}/wp-content/uploads/2012/05/top-protocol-page.png
+   :target: {static}/wp-content/uploads/2012/05/top-protocol-page.png

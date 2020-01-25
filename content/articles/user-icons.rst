@@ -45,9 +45,9 @@ disappear, leaving only the strictly necessary user interface:
 
 |small conversation without the info bar|
 
-.. |screenshot of the contact list with a place holder icon| image:: {filename}/images/userIconPlaceholder.png
-.. |screenshot of the contact list with an icon and a display name| image:: {filename}/images/userIcon.png
-.. |conversation with an info bar showing the user icon| image:: {filename}/images/userIconConvUI.png
-.. |conversation with a smaller info bar| image:: {filename}/images/userIconSmallConvUI.png
-.. |small conversation without the info bar| image:: {filename}/images/userIconNoConvUI.png
+.. |screenshot of the contact list with a place holder icon| image:: {static}/images/userIconPlaceholder.png
+.. |screenshot of the contact list with an icon and a display name| image:: {static}/images/userIcon.png
+.. |conversation with an info bar showing the user icon| image:: {static}/images/userIconConvUI.png
+.. |conversation with a smaller info bar| image:: {static}/images/userIconSmallConvUI.png
+.. |small conversation without the info bar| image:: {static}/images/userIconNoConvUI.png
 

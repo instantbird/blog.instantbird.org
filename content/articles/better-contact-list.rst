@@ -106,8 +106,8 @@ Other noticable changes
    Preference dialog); on Mac it can be easily reopened from the
    menubar.
 
-.. |Tags menu| image:: {filename}/images/tags-menu.png
-.. |Hide tag icon| image:: {filename}/images/hide-tag-button.png
-.. |Talk using a different network| image:: {filename}/images/conversation-targets-menu.png
-.. |Expanded contact| image:: {filename}/images/expanded-contact.png
+.. |Tags menu| image:: {static}/images/tags-menu.png
+.. |Hide tag icon| image:: {static}/images/hide-tag-button.png
+.. |Talk using a different network| image:: {static}/images/conversation-targets-menu.png
+.. |Expanded contact| image:: {static}/images/expanded-contact.png
 

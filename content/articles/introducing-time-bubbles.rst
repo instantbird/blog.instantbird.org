@@ -150,13 +150,13 @@ nightly builds <http://nightly.instantbird.im/>`__, and it will be in
 Instantbird 0.3 beta 1 which we plan to release very soon. We look
 forward to your feedback on this!
 
-.. _the findbar: {filename}/articles/conversation-tools.rst
+.. _the findbar: {static}/articles/conversation-tools.rst
 
-.. |default message themes of Instantbird 0.2| image:: {filename}/images/instantbird-0.2-default-themes.png
-.. |screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them| image:: {filename}/images/bubbles-with-different-spacing.png
-.. |screenshot of 2 messages with over 5 minutes of interval| image:: {filename}/images/bubbles-with-over-5-minutes-between-them.png
-.. |screenshot of the area at the bottom of the conversation without space| image:: {filename}/images/bubble-just-arrived-message.png
-.. |screenshot of the area at the bottom of the conversation with a lot of space and the time displayed| image:: {filename}/images/bubble-message-arrived-minutes-ago.png
-.. |hovered bubble| image:: {filename}/images/bubble-hovered.png
-.. |the input box with a copy of some selected messages| image:: {filename}/images/bubbles-magic-copy.png
+.. |default message themes of Instantbird 0.2| image:: {static}/images/instantbird-0.2-default-themes.png
+.. |screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them| image:: {static}/images/bubbles-with-different-spacing.png
+.. |screenshot of 2 messages with over 5 minutes of interval| image:: {static}/images/bubbles-with-over-5-minutes-between-them.png
+.. |screenshot of the area at the bottom of the conversation without space| image:: {static}/images/bubble-just-arrived-message.png
+.. |screenshot of the area at the bottom of the conversation with a lot of space and the time displayed| image:: {static}/images/bubble-message-arrived-minutes-ago.png
+.. |hovered bubble| image:: {static}/images/bubble-hovered.png
+.. |the input box with a copy of some selected messages| image:: {static}/images/bubbles-magic-copy.png
 

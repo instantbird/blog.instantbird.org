@@ -68,12 +68,12 @@ the others, thanks to different colors of the tabs.
 
 |An active and an inactive conversation window on Mac OS X|
 
-.. |Top of conversation window with 2 tabs and some free space| image:: {filename}/images/tabs1-2tabsandfreespace.png
-.. |Top of conversation window with 4 tabs, only one close button is displayed| image:: {filename}/images/tabs2-4tabs1closebutton.png
-.. |Top of conversation window with overflowing tabs, and the all tabs menu opened| image:: {filename}/images/tabs3-overflowandalltabsmenu.png
-.. |Very small conversation window with 2 tabs| image:: {filename}/images/tabs4-smallwindow.png
-.. |dragging a tab, tab drop arrow visible in the same window| image:: {filename}/images/tabs5-reorder.png
-.. |new window with only one tab| image:: {filename}/images/tabs6-detach.png
-.. |dragging a tab, drop arrow visible in another window| image:: {filename}/images/tabs7-movebetweenwindows.png
-.. |An active and an inactive conversation window on Mac OS X| image:: {filename}/images/tabs8-macosxactiveinactive.png
+.. |Top of conversation window with 2 tabs and some free space| image:: {static}/images/tabs1-2tabsandfreespace.png
+.. |Top of conversation window with 4 tabs, only one close button is displayed| image:: {static}/images/tabs2-4tabs1closebutton.png
+.. |Top of conversation window with overflowing tabs, and the all tabs menu opened| image:: {static}/images/tabs3-overflowandalltabsmenu.png
+.. |Very small conversation window with 2 tabs| image:: {static}/images/tabs4-smallwindow.png
+.. |dragging a tab, tab drop arrow visible in the same window| image:: {static}/images/tabs5-reorder.png
+.. |new window with only one tab| image:: {static}/images/tabs6-detach.png
+.. |dragging a tab, drop arrow visible in another window| image:: {static}/images/tabs7-movebetweenwindows.png
+.. |An active and an inactive conversation window on Mac OS X| image:: {static}/images/tabs8-macosxactiveinactive.png
 

@@ -21,7 +21,7 @@ Some of the options are also the same...
 
 |Advanced tab of the preference dialog|
 
-.. |General tab of the preference dialog| image:: {filename}/images/pref1.png
-.. |Themes tab of the preference dialog| image:: {filename}/images/pref2.png
-.. |Advanced tab of the preference dialog| image:: {filename}/images/pref3.png
+.. |General tab of the preference dialog| image:: {static}/images/pref1.png
+.. |Themes tab of the preference dialog| image:: {static}/images/pref2.png
+.. |Advanced tab of the preference dialog| image:: {static}/images/pref3.png
 

@@ -43,5 +43,5 @@ details later, including: localization, emoticon themes, message styles
 Next time: how localization works with Instantbird and how we replaced
 ``gettext``.
 
-.. _installable xpi file: {filename}/files/facebook.xpi
-.. _the exact patch I used: {filename}/files/add-facebook-chat-prpl.patch
+.. _installable xpi file: {static}/files/facebook.xpi
+.. _the exact patch I used: {static}/files/add-facebook-chat-prpl.patch

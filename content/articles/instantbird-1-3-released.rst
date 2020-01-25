@@ -37,8 +37,8 @@ versions of Instantbird!  We will update to a more recent version of
 Mozilla with awesome new features, imagine all the cool things we can do
 with technologies like WebRTC!
 
-.. |Nickname highlighting in a chat| image:: {filename}/wp-content/uploads/2012/11/Show-Nick-300x281.png
+.. |Nickname highlighting in a chat| image:: {static}/wp-content/uploads/2012/11/Show-Nick-300x281.png
    :class: size-medium wp-image-474 alignright
    :width: 300px
    :height: 281px
-   :target: {filename}/wp-content/uploads/2012/11/Show-Nick.png
+   :target: {static}/wp-content/uploads/2012/11/Show-Nick.png

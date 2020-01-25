@@ -38,7 +38,7 @@ to change your favourite theme.
 `Get the add-on
 here! <https://addons.instantbird.org/en-US/instantbird/addon/340/>`__
 
-.. |mathjax| image:: {filename}/wp-content/uploads/2013/04/math21.png
+.. |mathjax| image:: {static}/wp-content/uploads/2013/04/math21.png
    :class: alignright size-full wp-image-503
    :width: 445px
    :height: 377px

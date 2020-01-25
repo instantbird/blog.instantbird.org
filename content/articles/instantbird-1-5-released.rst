@@ -65,14 +65,14 @@ view the `release notes`_.
 .. _grab your copy now: http://www.instantbird.com/download-all.html
 .. _release notes: http://www.instantbird.com/release-notes.html
 
-.. |awesometab| image:: {filename}/wp-content/uploads/2013/12/awesometab-300x217.png
+.. |awesometab| image:: {static}/wp-content/uploads/2013/12/awesometab-300x217.png
     :class: alignnone size-full wp-image-395
     :width: 300px
     :height: 217px
-    :target: {filename}/wp-content/uploads/2013/12/awesometab.png
+    :target: {static}/wp-content/uploads/2013/12/awesometab.png
 
-.. |new-tooltips| image:: {filename}/wp-content/uploads/2013/12/new-tooltips-300x101.png
+.. |new-tooltips| image:: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png
     :class: alignnone size-full wp-image-395
     :width: 300px
     :height: 101px
-    :target: {filename}/wp-content/uploads/2013/12/new-tooltips-300x101.png
+    :target: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png

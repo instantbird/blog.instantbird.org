@@ -94,10 +94,10 @@ them <http://bugzilla.instantbird.org/>`__ (`Filing a
 bug <https://wiki.instantbird.org/Instantbird:Bugzilla>`__: what a bug
 report should contain) instead of complaining.
 
-.. |Instantbird Crash Reporter dialog| image:: {filename}/images/crash-breakpad.png
-.. |Account manager with automatic connection disabled and an error message explaining the problem| image:: {filename}/images/autologin-crash-global.png
-.. |Account manager where an account was disabled because of a crash during the last connection attempt.| image:: {filename}/images/autologin-crash-account.png
-.. |Dialog prompting the user to accept a security and stability update| image:: {filename}/images/update1.png
-.. |Check for updates menu item| image:: {filename}/images/update6.png
-.. |About dialog of a Nightly build of Instantbird| image:: {filename}/images/nightly2.png
+.. |Instantbird Crash Reporter dialog| image:: {static}/images/crash-breakpad.png
+.. |Account manager with automatic connection disabled and an error message explaining the problem| image:: {static}/images/autologin-crash-global.png
+.. |Account manager where an account was disabled because of a crash during the last connection attempt.| image:: {static}/images/autologin-crash-account.png
+.. |Dialog prompting the user to accept a security and stability update| image:: {static}/images/update1.png
+.. |Check for updates menu item| image:: {static}/images/update6.png
+.. |About dialog of a Nightly build of Instantbird| image:: {static}/images/nightly2.png
 

@@ -37,5 +37,5 @@ notes <http://www.instantbird.com/download-0.2a1.html>`__ for more:
 You can download the alpha and read the release notes from
 `here <http://www.instantbird.com/download-0.2a1.html>`__.
 
-.. _ready to be localized: {filename}/articles/instantbird-0-2-feature-preview-localizability.rst
-.. _Improved conversations: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+.. _ready to be localized: {static}/articles/instantbird-0-2-feature-preview-localizability.rst
+.. _Improved conversations: {static}/articles/instantbird-0-2-feature-preview-conversations-customization.rst

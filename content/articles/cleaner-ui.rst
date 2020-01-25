@@ -34,6 +34,6 @@ a much smaller window:
 
 |Account manager windows in Instantbird 0.2 and 0.1.3|
 
-.. |Conversation windows in Instantbird 0.2 and 0.1.3| image:: {filename}/images/conv_before-after.png
-.. |Buddy list windows in Instantbird 0.2 and 0.1.3| image:: {filename}/images/blist_before-after.png
-.. |Account manager windows in Instantbird 0.2 and 0.1.3| image:: {filename}/images/am_before-after.png
+.. |Conversation windows in Instantbird 0.2 and 0.1.3| image:: {static}/images/conv_before-after.png
+.. |Buddy list windows in Instantbird 0.2 and 0.1.3| image:: {static}/images/blist_before-after.png
+.. |Account manager windows in Instantbird 0.2 and 0.1.3| image:: {static}/images/am_before-after.png

@@ -76,7 +76,7 @@ Thanks, Nihanth, it’s really great work that you’re doing here!
 .. _Mozilla: http://blog.gerv.net/2013/06/gsoc-2013-project-list/
 .. _nightly build: http://nightly.instantbird.im/
 
-.. |Awesometab| image:: {filename}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png
+.. |Awesometab| image:: {static}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png
     :width: 300px
     :height: 232px
-    :target: {filename}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png
+    :target: {static}/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png

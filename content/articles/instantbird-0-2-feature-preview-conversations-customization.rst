@@ -64,5 +64,5 @@ developers. It is now easy, for example, to change the way we filter
 incoming messages, modify the text before it is displayed (adding links
 for instance), and more coming!
 
-.. |:-)| image:: {filename}/smileys/sourire.png
+.. |:-)| image:: {static}/smileys/sourire.png
 

@@ -56,4 +56,4 @@ Oh, and try out Instantbird 1.1 if you haven't (and tell your friends)!
 available, as well as the `Etherpad
 timelime <https://etherpad.mozilla.org/instantbird-weekly-meeting-20111017>`__.)
 
-.. _blog post: {filename}/articles/instantbird-1-1-released.rst
+.. _blog post: {static}/articles/instantbird-1-1-released.rst
