@@ -2,19 +2,25 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'The Instantbird Team'
-SITENAME = u"The blog of Instantbird's development"
+AUTHOR = 'The Instantbird Team'
+SITENAME = "The blog of Instantbird's development"
 SITEURL = ''
 
 # Set up locations of articles, pages and theme.
 PATH = 'content'
 ARTICLE_PATHS = ['articles']
 PAGE_PATHS = ['pages']
-STATIC_PATHS = ['files', 'images', 'smileys', 'wp-content']
+# Set up static content and output locations.
+STATIC_PATHS = [
+    'files',
+    'images',
+    'smileys',
+    'wp-content',
+]
 
 TIMEZONE = 'America/New_York'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -35,14 +41,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 # This is currently a modified copy of notmyidea, one of the default themes.
 THEME = 'theme'
-
-# Set up static content and output locations.
-STATIC_PATHS = [
-    'files',
-    'images',
-    'smileys',
-    'wp-content',
-]
 
 DEFAULT_PAGINATION = 7
 

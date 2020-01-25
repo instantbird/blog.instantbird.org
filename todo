@@ -1,6 +1,8 @@
 * Convert the theme
-* Fix URLs
+* Fix URLs for tags and categories, etc.
 * Update bugzilla links
 * Check layout of images
 * Get rid of weird WordPress classes on images
 * Comments
+* Check TODOs and "if false"
+* Add pages
