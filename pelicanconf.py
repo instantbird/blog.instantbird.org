@@ -15,8 +15,13 @@ STATIC_PATHS = [
     'files',
     'images',
     'smileys',
+    'static',
     'wp-content',
 ]
+EXTRA_PATH_METADATA = {
+    # Include a favicon.
+    'static/favicon.ico': {'path': 'favicon.ico'},
+}
 
 TIMEZONE = 'America/New_York'
 
