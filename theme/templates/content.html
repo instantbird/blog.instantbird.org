@@ -33,7 +33,8 @@
     {% set show_sep = false %}
     {% if article.category %}
     <span class="cat-links">
-      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> {{ article.category }}
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/{{ article.category.url }}" title="View all posts in {{ article.category }}">{{ article.category }}</a>
       {% set show_sep = true %}
     </span>
     {% endif %}{# End if categories #}
@@ -41,10 +42,10 @@
       {% if show_sep %}
       <span class="sep"> | </span>
       {% endif %}{# End if show_sep #}
-    {# translators: used between list items, there is a space after the comma #}
-    {% set tags = article.tags|join(', ') %}
     <span class="tag-links">
-      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> {{ tags }}
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> {% for tag in article.tags|sort %}
+          <a href="/{{ tag.url }}">{{ tag }}</a>{% if loop.nextitem %},{% endif %}
+        {% endfor %}
       {% set show_sep = true %}
     </span>
     {% endif %}{# End if tags_list #}

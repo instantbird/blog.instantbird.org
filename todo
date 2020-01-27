@@ -9,3 +9,5 @@
 * date format
 * timezone?
 * archives?
+* Multiple categories per article aren't supported by pelican
+* The page title doesn't update.

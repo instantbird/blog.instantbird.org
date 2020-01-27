@@ -30,13 +30,12 @@
       </div><!-- .entry-content -->
 
       <footer class="entry-meta">
-        {# TODO Should the category and tags be links? #}
-        {# translators: used between list items, there is a space after the comma #}
-        {% set tags = article.tags|join(', ') %}
         {% if article.tags %}
-          This entry was posted in {{ article.category }} and tagged {{ tags }} by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
+          This entry was posted in <a href="/{{ category.url }}" title="View all posts in {{ article.category }}">{{ article.category }}</a> and tagged {% for tag in article.tags|sort %}
+          <a href="/{{ tag.url }}">{{ tag }}</a>{% if loop.nextitem %},{% endif %}
+        {% endfor %} by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
         {% elif article.category %}
-          This entry was posted in {{ article.category }} by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
+          This entry was posted in <a href="/{{ category.url }}" title="View all posts in {{ article.category }}">{{ article.category }}</a> by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
         {% else %}
           This entry was posted by <a href="/{{ article.author.url }}">{{ article.author.name }}</a>. Bookmark the <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">permalink</a>.
         {% endif %}
