@@ -53,9 +53,19 @@ DEFAULT_PAGINATION = 7
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Change the default URLs.
-ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+# Create an archive for each year, month, and day.
+YEAR_ARCHIVE_URL = '{date:%Y}/'
+YEAR_ARCHIVE_SAVE_AS = YEAR_ARCHIVE_URL + 'index.html'
+MONTH_ARCHIVE_URL = YEAR_ARCHIVE_URL + '{date:%m}/'
+MONTH_ARCHIVE_SAVE_AS = MONTH_ARCHIVE_URL + 'index.html'
+DAY_ARCHIVE_URL = MONTH_ARCHIVE_URL + '{date:%d}/'
+DAY_ARCHIVE_SAVE_AS = DAY_ARCHIVE_URL + 'index.html'
+
+# Place each article under the year & month.
+ARTICLE_URL = MONTH_ARCHIVE_URL + '{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+
+# Create separate archives for each author, category, and tag.
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = AUTHOR_URL + 'index.html'
 CATEGORY_URL = 'category/{slug}/'

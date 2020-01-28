@@ -12,7 +12,7 @@
     {% endif %}
   </header><!-- .entry-header -->
 
-  {% set is_search = true %}
+  {% set is_search = false %}
   {% if is_search %}{# Only display Excerpts for Search #}
   <div class="entry-summary">
     {{ article.summary }}
@@ -53,4 +53,4 @@
     <?php endif; // End if comments_open() ?>
     {% endif %}
   </footer><!-- .entry-meta -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</article><!-- #post-{{ article.slug }} -->

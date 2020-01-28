@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{# TODO Month | Year | Blog@... #}
+{% block title %}
+  {% for p in period|reverse %}{{ p }} | {% endfor %}Blog@instantbird.org{% endblock %}
+
+{% block additional_feeds %}
+{# TODO #}
+{# <link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" /> #}
+{% endblock %}
+
+{% block content %}
+
+<section id="primary">
+  <div id="content" role="main">
+  {% if articles %}
+    <header class="page-header">
+      <h1 class="page-title">
+        {# Day archive. #}
+        {% if period|length == 3 %}
+          Daily Archives: <span>{{ period[1] }} {{ period[2] }}, {{ period[0] }}</span>
+        {# Month archive. #}
+        {% elif period|length == 2 %}
+          Monthly Archives: <span>{{ period[1] }} {{ period[0] }}</span>
+        {# Year archive. #}
+        {% elif period|length == 1 %}
+          Yearly Archives: <span>{{ period[0] }}</span>
+        {% else %}
+          Blog Archives
+        {% endif %}
+      </h1>
+    </header>
+
+    {# TODO #}
+    {# <?php twentyeleven_content_nav( 'nav-above' ); ?> #}
+
+    {% for article in articles %}
+    {% include "content.html" %}
+    {% endfor %}
+
+    {# TODO #}
+    {# <?php twentyeleven_content_nav( 'nav-below' ); ?> #}
+
+  {% else %}
+
+    <article id="post-0" class="post no-results not-found">
+      <header class="entry-header">
+        <h1 class="entry-title">Nothing Found</h1>
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.</p>
+        {# TODO #}
+        <?php get_search_form(); ?>
+      </div><!-- .entry-content -->
+    </article><!-- #post-0 -->
+
+  {% endif %}
+
+  </div><!-- #content -->
+</section><!-- #primary -->
+
+{% include "sidebar.html" %}
+{% endblock %}
