@@ -62,3 +62,13 @@ CATEGORY_URL = 'category/{slug}/'
 CATEGORY_SAVE_AS = CATEGORY_URL + 'index.html'
 TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = TAG_URL + 'index.html'
+
+# Match the slugification of Wordpress.
+SLUG_REGEX_SUBSTITUTIONS = [
+    # Only this first regular expression is modified. It replaces with a -,
+    # instead of removing characters.
+    (r'[^\w\s]', '-'), # replace non-alphabetical/whitespace/'-' chars with -
+    (r'(?u)\A\s*', ''), # strip leading whitespace
+    (r'(?u)\s*\Z', ''), # strip trailing whitespace
+    (r'[-\s]+', '-'), # reduce multiple whitespace or '-' to single '-'
+]

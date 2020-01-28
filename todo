@@ -9,5 +9,4 @@
 * Multiple categories per article aren't supported by pelican
 * Pagination (of tags / categories)
 * Tag slugification is wrong:
-    * 0.1 -> 01 instead of 0-1
-    * mozilla -> mozilla-2
+    * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)
