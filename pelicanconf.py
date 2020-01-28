@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'The Instantbird Team'
 SITENAME = "The blog of Instantbird's development"
-SITEURL = ''
+SITEURL = 'http://localhost'
 
 # Set up locations of articles, pages and theme.
 PATH = 'content'
@@ -62,6 +62,23 @@ CATEGORY_URL = 'category/{slug}/'
 CATEGORY_SAVE_AS = CATEGORY_URL + 'index.html'
 TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = TAG_URL + 'index.html'
+
+# Change the default feed URLs.
+# TODO redirect /feed/rss2/ to /feed/
+FEED_ALL_RSS_URL = 'feed/'
+FEED_ALL_RSS = FEED_ALL_RSS_URL + 'rss.xml'
+
+TAG_FEED_RSS_URL = TAG_URL + 'feed/'
+TAG_FEED_RSS = TAG_FEED_RSS_URL + 'rss.xml'
+CATEGORY_FEED_RSS_URL = CATEGORY_URL + 'feed/'
+CATEGORY_FEED_RSS = CATEGORY_FEED_RSS_URL + 'rss.xml'
+
+# Show full content in the feeds.
+RSS_FEED_SUMMARY_ONLY = False
+# Show 7 items in the feed.
+FEED_MAX_ITEMS = 7
+# The domain to serve the feeds from.
+FEED_DOMAIN = SITEURL
 
 # Match the slugification of Wordpress.
 SLUG_REGEX_SUBSTITUTIONS = [

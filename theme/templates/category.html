@@ -2,6 +2,10 @@
 
 {% block title %}{{ category }} | Blog@instantbird.org{% endblock %}
 
+{% block additional_feeds %}
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ category }} Category Feed" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}" />
+{% endblock %}
+
 {% block content %}
 <section id="primary">
   <div id="content" role="main">

@@ -13,9 +13,7 @@ from pelicanconf import *
 SITEURL = 'http://blog.instantbird.org'
 RELATIVE_URLS = False
 
-# TODO Match old WordPress URLs.
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_DOMAIN = SITEURL
 
 DELETE_OUTPUT_DIRECTORY = True
 

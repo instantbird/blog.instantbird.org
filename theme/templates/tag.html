@@ -2,6 +2,10 @@
 
 {% block title %}{{ tag }} | Blog@instantbird.org{% endblock %}
 
+{% block additional_feeds %}
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" />
+{% endblock %}
+
 {% block content %}
 <section id="primary">
   <div id="content" role="main">
