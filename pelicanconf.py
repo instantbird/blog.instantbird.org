@@ -23,7 +23,8 @@ EXTRA_PATH_METADATA = {
     'static/favicon.ico': {'path': 'favicon.ico'},
 }
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'UTC'
+DEFAULT_DATE_FORMAT = '%B %-d, %Y'
 
 DEFAULT_LANG = 'en'
 
@@ -55,8 +56,8 @@ DEFAULT_PAGINATION = 7
 # Change the default URLs.
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
-
-# Change the default URLs.
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = AUTHOR_URL + 'index.html'
 CATEGORY_URL = 'category/{slug}/'
 CATEGORY_SAVE_AS = CATEGORY_URL + 'index.html'
 TAG_URL = 'tag/{slug}/'

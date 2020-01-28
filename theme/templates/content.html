@@ -3,7 +3,7 @@
     <h1 class="entry-title"><a href="/{{ article.url }}" rel="bookmark">{{ article.title }}</a></h1>
 
     <div class="entry-meta">
-      {{ article.locale_date }}
+
     </div><!-- .entry-meta -->
 
     {# TODO Comments #}
@@ -30,31 +30,29 @@
   {% endif %}
 
   <footer class="entry-meta">
-    {% set show_sep = false %}
+    <span class="sep">
+      Posted on </span><a href="/{{ article.url }}" title="{{ article.date.strftime('%-I:%M %p') }}" rel="bookmark"><time class="entry-date" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/{{ article.author.url }}" title="View all posts by {{ article.author }}" rel="author">{{ article.author }}</a></span>
+    </span>
     {% if article.category %}
+    <span class="sep"> | </span>
     <span class="cat-links">
       <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
         <a href="/{{ article.category.url }}" title="View all posts in {{ article.category }}">{{ article.category }}</a>
-      {% set show_sep = true %}
     </span>
     {% endif %}{# End if categories #}
     {% if article.tags %}
-      {% if show_sep %}
-      <span class="sep"> | </span>
-      {% endif %}{# End if show_sep #}
+    <span class="sep"> | </span>
     <span class="tag-links">
       <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> {% for tag in article.tags|sort %}
           <a href="/{{ tag.url }}">{{ tag }}</a>{% if loop.nextitem %},{% endif %}
         {% endfor %}
-      {% set show_sep = true %}
     </span>
     {% endif %}{# End if tags_list #}
 
     {% if false %}
     <?php if ( comments_open() ) : ?>
-    {% if show_sep %}
     <span class="sep"> | </span>
-    {% endif %}{# End if show_sep #}
     <span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
     <?php endif; // End if comments_open() ?>
     {% endif %}

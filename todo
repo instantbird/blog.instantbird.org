@@ -1,12 +1,10 @@
 * Convert the theme
-* Fix URLs for tags and categories, etc.
 * Update bugzilla links
 * Check layout of images
 * Get rid of weird WordPress classes on images
 * Comments
 * Check TODOs and "if false"
 * Add pages
-* date format
-* timezone?
 * archives?
 * Multiple categories per article aren't supported by pelican
+* Pagination (of tags / categories)
