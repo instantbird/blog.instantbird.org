@@ -19,7 +19,10 @@
         <h1 class="entry-title">{{ article.title }}</h1>
 
         <div class="entry-meta">
-          {{ article.locale_date }}
+          <span class="sep">
+            Posted on </span><a href="/{{ article.url }}" title="{{ article.date.strftime('%-I:%M %p') }}" rel="bookmark"><time class="entry-date" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/{{ article.author.url }}" title="View all posts by {{ article.author }}" rel="author">{{ article.author }}</a></span>
+          </span>
         </div><!-- .entry-meta -->
       </header><!-- .entry-header -->
 
