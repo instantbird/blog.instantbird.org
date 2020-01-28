@@ -1,18 +1,35 @@
 <div id="secondary" class="widget-area" role="complementary">
-  <aside id="archives" class="widget">
-    <h3 class="widget-title">Archives</h3>
-    <ul>
-      {# TODO Monthly archive list #}
-      <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
+  <aside id="search-3" class="widget widget_search">
+    <form method="get" id="searchform" action="http://blog.instantbird.org/">
+      <label for="s" class="assistive-text">Search</label>
+      <input type="text" class="field" name="s" id="s" placeholder="Search" />
+      <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+    </form>
+  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>		<ul>
+    <li><a href="http://blog.instantbird.org/2016/01/facebook-chat-issues/" title="Facebook Chat Issues">Facebook Chat Issues</a></li>
+    <li><a href="http://blog.instantbird.org/2014/07/linux-nightly-builds-back/" title="Linux nightly builds back!">Linux nightly builds back!</a></li>
+    <li><a href="http://blog.instantbird.org/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has Commenced!">Google Summer of Code 2014 has Commenced!</a></li>
     </ul>
   </aside>
-
-  <aside id="meta" class="widget">
-    <h3 class="widget-title">Meta</h3>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
     <ul>
-      <?php wp_register(); ?>
-      <li><?php wp_loginout(); ?></li>
-      <?php wp_meta(); ?>
+      {% for category, _ in categories %}
+        <li class="cat-item cat-item-8">
+          <a href="/{{ category.url }}" title="View all posts filed under {{ category }}">{{ category }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+  {{ archives }}
+    <ul>
+      {% for month in month_archives %}
+        <li><a href="/{{ month.url }}" title='{{ month }}'>{{ month }}</a></li>
+      {% endfor %}
     </ul>
   </aside>
 </div><!-- #secondary .widget-area -->

@@ -99,3 +99,7 @@ SLUG_REGEX_SUBSTITUTIONS = [
     (r'(?u)\s*\Z', ''), # strip trailing whitespace
     (r'[-\s]+', '-'), # reduce multiple whitespace or '-' to single '-'
 ]
+
+PLUGINS = [
+    'plugins.archives'
+]
