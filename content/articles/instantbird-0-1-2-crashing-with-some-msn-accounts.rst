@@ -1,6 +1,6 @@
 Instantbird 0.1.2 crashing with some MSN accounts
 #################################################
-:date: 2008-08-12 02:07
+:date: 2008-08-12 02:07:24
 :author: flo
 :category: Uncategorized
 :tags: 0.1, msn

@@ -1,9 +1,9 @@
 Linux nightly builds back!
 ##########################
-:date: 2014-07-25 13:07
+:date: 2014-07-25 13:07:07
 :author: clokep
 :category: Development, Downloads
-:tags: nightly, status updates
+:tags: nightly, status update
 :slug: linux-nightly-builds-back
 :status: published
 

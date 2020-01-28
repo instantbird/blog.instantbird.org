@@ -1,6 +1,6 @@
 Tip for MacBook users
 #####################
-:date: 2010-07-22 22:04
+:date: 2010-07-22 22:04:35
 :author: flo
 :category: Support
 :tags: 0.2, mac

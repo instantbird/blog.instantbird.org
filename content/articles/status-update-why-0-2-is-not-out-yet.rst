@@ -1,6 +1,6 @@
 Status Update - Why 0.2 is not out yet
 ######################################
-:date: 2010-06-12 22:41
+:date: 2010-06-12 22:41:37
 :author: flo
 :category: Development
 :tags: 0.2, status update

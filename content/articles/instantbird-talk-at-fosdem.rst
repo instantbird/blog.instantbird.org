@@ -1,6 +1,6 @@
 Instantbird talk at FOSDEM
 ##########################
-:date: 2011-02-08 00:21
+:date: 2011-02-08 00:21:11
 :author: flo
 :category: Mozilla
 :tags: event, florian, FOSDEM

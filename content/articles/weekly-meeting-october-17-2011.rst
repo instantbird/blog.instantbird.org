@@ -1,6 +1,6 @@
 Weekly Meeting: October 17, 2011
 ################################
-:date: 2011-10-21 21:36
+:date: 2011-10-21 21:36:47
 :author: clokep
 :category: Community, Development
 :tags: weekly meetings

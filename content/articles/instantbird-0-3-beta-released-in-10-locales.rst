@@ -1,6 +1,6 @@
 Instantbird 0.3 beta released in 10 locales!
 ############################################
-:date: 2011-06-13 18:31
+:date: 2011-06-13 18:31:28
 :author: flo
 :category: Downloads
 :tags: 0.3, announce, beta

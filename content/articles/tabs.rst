@@ -1,6 +1,6 @@
 Tabs
 ####
-:date: 2010-06-30 23:41
+:date: 2010-06-30 23:41:39
 :author: flo
 :category: Features
 :tags: 0.2, preview, user interface

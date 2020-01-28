@@ -1,6 +1,6 @@
 Instantbird 0.2 feature preview: conversations customization
 ############################################################
-:date: 2009-07-20 23:17
+:date: 2009-07-20 23:17:29
 :author: flo
 :category: Development
 :tags: 0.2, chatting, preview, user interface

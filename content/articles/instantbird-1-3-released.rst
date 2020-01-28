@@ -1,6 +1,6 @@
 Instantbird 1.3 Released!
 #########################
-:date: 2012-11-16 02:13
+:date: 2012-11-16 02:13:58
 :author: clokep
 :category: Downloads
 :tags: 1.3, announce, downloads

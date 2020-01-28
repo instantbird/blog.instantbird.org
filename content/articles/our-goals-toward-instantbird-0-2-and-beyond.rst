@@ -1,6 +1,6 @@
 Our goals: toward Instantbird 0.2 and beyond
 ############################################
-:date: 2010-06-29 14:21
+:date: 2010-06-29 14:21:45
 :author: flo
 :category: Development
 :tags: 0.2, philosophy

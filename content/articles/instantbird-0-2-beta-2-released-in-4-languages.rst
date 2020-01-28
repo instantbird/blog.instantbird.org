@@ -1,6 +1,6 @@
 Instantbird 0.2 beta 2 released in 4 languages!
 ###############################################
-:date: 2010-03-09 09:45
+:date: 2010-03-09 09:45:55
 :author: flo
 :category: Downloads
 :tags: 0.2, beta

@@ -1,6 +1,6 @@
 Cleaner UI
 ##########
-:date: 2010-07-08 14:32
+:date: 2010-07-08 14:32:27
 :author: flo
 :category: Features
 :tags: 0.2, preview, user interface

@@ -1,6 +1,6 @@
 LaTeX support brings prettier math to your messages
 ###################################################
-:date: 2013-04-15 01:00
+:date: 2013-04-15 01:00:50
 :author: aleth
 :category: Downloads, Features
 :tags: addons, announce, downloads, latex, mathematics

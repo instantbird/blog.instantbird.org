@@ -1,6 +1,6 @@
 Instantbird 1.0 release, 3 days later
 #####################################
-:date: 2011-07-02 03:15
+:date: 2011-07-02 03:15:23
 :author: flo
 :category: Community
 :tags: 1.0, downloads

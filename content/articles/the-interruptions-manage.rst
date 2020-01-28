@@ -1,6 +1,6 @@
 The Interruptions Manager
 #########################
-:date: 2011-10-15 00:24
+:date: 2011-10-15 00:24:52
 :author: clokep
 :category: Features
 :tags: 1.1, addons, irc, preview

@@ -1,6 +1,6 @@
 Preferences dialog
 ##################
-:date: 2010-07-02 23:15
+:date: 2010-07-02 23:15:29
 :author: flo
 :category: Features
 :tags: 0.2, mozilla, user interface

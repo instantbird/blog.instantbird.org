@@ -1,6 +1,6 @@
 Better contact list
 ###################
-:date: 2011-06-23 18:48
+:date: 2011-06-23 18:48:12
 :author: flo
 :category: Features
 :tags: contacts, preview, user interface

@@ -1,6 +1,6 @@
 Instantbird 0.2 released!
 #########################
-:date: 2010-07-13 17:10
+:date: 2010-07-13 17:10:53
 :author: flo
 :category: Downloads
 :tags: 0.2, announce, downloads, final

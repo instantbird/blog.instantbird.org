@@ -1,6 +1,6 @@
 Instantbird 1.1 released!
 #########################
-:date: 2011-10-18 15:17
+:date: 2011-10-18 15:17:06
 :author: flo
 :category: Downloads
 :tags: 1.1, announce, downloads

@@ -1,6 +1,6 @@
 Message Styles
 ##############
-:date: 2010-07-06 06:14
+:date: 2010-07-06 06:14:23
 :author: flo
 :category: Features
 :tags: 0.2, preview, user interface

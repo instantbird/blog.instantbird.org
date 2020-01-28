@@ -1,6 +1,6 @@
 Introducing magic copy
 ######################
-:date: 2011-06-16 16:35
+:date: 2011-06-16 16:35:21
 :author: flo
 :category: Features
 :tags: adium, user interface

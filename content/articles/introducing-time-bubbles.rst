@@ -1,6 +1,6 @@
 Introducing Time Bubbles
 ########################
-:date: 2011-06-08 23:45
+:date: 2011-06-08 23:45:50
 :author: flo
 :category: Features
 :tags: chatting, preview, user interface

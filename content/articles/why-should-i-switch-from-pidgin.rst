@@ -1,6 +1,6 @@
 "Why should I switch from Pidgin?"
 ##################################
-:date: 2011-07-09 00:17
+:date: 2011-07-09 00:17:20
 :author: flo
 :category: Community
 :tags: libpurple, pidgin

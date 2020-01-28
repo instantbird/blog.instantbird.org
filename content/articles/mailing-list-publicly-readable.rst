@@ -1,6 +1,6 @@
 Mailing list publicly readable
 ##############################
-:date: 2011-03-16 00:39
+:date: 2011-03-16 00:39:44
 :author: flo
 :category: Community
 :tags: announcements

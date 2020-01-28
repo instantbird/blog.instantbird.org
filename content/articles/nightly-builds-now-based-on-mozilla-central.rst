@@ -1,6 +1,6 @@
 Nightly builds now based on mozilla-central
 ###########################################
-:date: 2010-09-13 16:24
+:date: 2010-09-13 16:24:07
 :author: flo
 :category: Development
 :tags: mozilla, nightly

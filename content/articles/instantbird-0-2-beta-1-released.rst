@@ -1,6 +1,6 @@
 Instantbird 0.2 beta 1 released!
 ################################
-:date: 2009-12-09 17:30
+:date: 2009-12-09 17:30:30
 :author: flo
 :category: Downloads
 :tags: 0.2, beta

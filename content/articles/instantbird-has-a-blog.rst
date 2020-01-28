@@ -1,6 +1,6 @@
 Instantbird has a blog!
 #######################
-:date: 2007-11-12 08:09
+:date: 2007-11-12 08:09:27
 :author: flo
 :category: Community
 :tags: blog

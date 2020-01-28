@@ -1,6 +1,6 @@
 IRC in Javascript - a contributor's work
 ########################################
-:date: 2010-12-11 02:10
+:date: 2010-12-11 02:10:32
 :author: mic
 :category: Development
 :tags: irc, javascript

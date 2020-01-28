@@ -1,6 +1,6 @@
 Instantbird 0.3 alpha 1 released
 ################################
-:date: 2011-02-09 22:23
+:date: 2011-02-09 22:23:06
 :author: flo
 :category: Downloads
 :tags: 0.3, alpha

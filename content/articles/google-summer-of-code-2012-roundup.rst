@@ -1,6 +1,6 @@
 Google Summer of Code 2012 Roundup
 ##################################
-:date: 2012-10-03 01:07
+:date: 2012-10-03 01:07:02
 :author: clokep
 :category: Community, Mozilla
 :tags: 1.2, GSoC, mozilla, Thunderbird

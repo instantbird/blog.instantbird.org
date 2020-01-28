@@ -1,6 +1,6 @@
 ICQ connection error
 ####################
-:date: 2010-11-17 00:29
+:date: 2010-11-17 00:29:54
 :author: clokep
 :category: Support
 :tags: icq

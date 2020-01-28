@@ -1,6 +1,6 @@
 Instantbird 0.2 alpha 1 and addons!
 ###################################
-:date: 2009-07-23 17:01
+:date: 2009-07-23 17:01:46
 :author: flo
 :category: Downloads
 :tags: 0.2, addons, alpha

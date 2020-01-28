@@ -1,6 +1,6 @@
 Instantbird speaks your language
 ################################
-:date: 2012-12-04 01:00
+:date: 2012-12-04 01:00:36
 :author: rosonline
 :category: Community
 :tags: 1.3, l10n, philosophy, translations

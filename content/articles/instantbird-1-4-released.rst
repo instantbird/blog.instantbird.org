@@ -1,6 +1,6 @@
 Instantbird 1.4 Released!
 #########################
-:date: 2013-05-20 18:19
+:date: 2013-05-20 18:19:44
 :author: clokep
 :category: Downloads
 :tags: 1.4, announce, downloads

@@ -1,6 +1,6 @@
 Nightlies fixed and with upgraded libpurple
 ###########################################
-:date: 2010-09-24 19:35
+:date: 2010-09-24 19:35:54
 :author: flo
 :category: Development
 :tags: libpurple, nightly

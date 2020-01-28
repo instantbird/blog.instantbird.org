@@ -1,9 +1,9 @@
 Facebook Chat Issues
 ####################
-:date: 2016-01-26 21:37
+:date: 2016-01-26 21:37:26
 :author: nhnt11
 :category: Support
-:tags: facebook, status updates
+:tags: facebook, status update
 :slug: facebook-chat-issues
 :status: published
 

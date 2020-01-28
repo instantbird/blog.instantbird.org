@@ -1,6 +1,6 @@
 Instantbird 0.2 feature preview: protocols as extensions
 ########################################################
-:date: 2009-04-19 19:45
+:date: 2009-04-19 19:45:13
 :author: flo
 :category: Development
 :tags: 0.2, addons, preview

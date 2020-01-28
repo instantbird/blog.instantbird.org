@@ -1,6 +1,6 @@
 First Milestone of the Awesometab has landed!
 #############################################
-:date: 2013-07-22 09:00
+:date: 2013-07-22 09:00:59
 :author: Benedikt P
 :category: Community, Development, Features
 :tags: community, GSoC

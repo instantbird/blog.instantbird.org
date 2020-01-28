@@ -1,6 +1,6 @@
 Status update
 #############
-:date: 2010-11-17 00:01
+:date: 2010-11-17 00:01:26
 :author: mic
 :category: Development
 :tags: status update

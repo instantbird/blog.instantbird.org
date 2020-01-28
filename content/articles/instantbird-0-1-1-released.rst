@@ -1,6 +1,6 @@
 Instantbird 0.1.1 released!
 ###########################
-:date: 2008-03-03 00:24
+:date: 2008-03-03 00:24:07
 :author: flo
 :category: Downloads
 :tags: 0.1

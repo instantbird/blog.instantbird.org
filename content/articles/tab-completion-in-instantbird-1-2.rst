@@ -1,6 +1,6 @@
 Tab completion in Instantbird 1.2
 #################################
-:date: 2012-08-01 10:00
+:date: 2012-08-01 10:00:16
 :author: aleth
 :category: Features
 :tags: 1.2, preview, tab complete, user interface

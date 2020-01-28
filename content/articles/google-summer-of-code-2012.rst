@@ -1,6 +1,6 @@
 Google Summer of Code 2012
 ##########################
-:date: 2012-04-26 13:01
+:date: 2012-04-26 13:01:25
 :author: clokep
 :category: Community, Mozilla
 :tags: GSoC, mozilla

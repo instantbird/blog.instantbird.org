@@ -1,6 +1,6 @@
 Instantbird 0.1, one month and nearly 80000 downloads
 #####################################################
-:date: 2007-11-19 09:22
+:date: 2007-11-19 09:22:11
 :author: flo
 :category: Downloads
 :tags: 0.1, announce, downloads, final

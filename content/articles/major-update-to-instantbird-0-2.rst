@@ -1,6 +1,6 @@
 Major update to Instantbird 0.2
 ###############################
-:date: 2010-07-25 22:59
+:date: 2010-07-25 22:59:34
 :author: flo
 :category: Downloads
 :tags: 0.1, 0.2

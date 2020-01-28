@@ -1,6 +1,6 @@
 Instantbird 0.2 Feature Preview: Localizability
 ###############################################
-:date: 2009-07-16 18:04
+:date: 2009-07-16 18:04:41
 :author: flo
 :category: Development
 :tags: 0.2, preview, translations

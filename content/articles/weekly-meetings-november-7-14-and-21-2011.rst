@@ -1,8 +1,9 @@
 Weekly Meetings: November 7, 14 and 21, 2011
 ############################################
-:date: 2011-11-23 04:57
+:date: 2011-11-23 04:57:34
 :author: clokep
-:category: Uncategorized
+:category: Community, Development
+:tags: weekly meetings
 :slug: weekly-meetings-november-7-14-and-21-2011
 :status: published
 

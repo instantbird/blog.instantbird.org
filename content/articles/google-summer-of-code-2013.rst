@@ -1,6 +1,6 @@
 Google Summer of Code 2013
 ##########################
-:date: 2013-02-15 14:28
+:date: 2013-02-15 14:28:06
 :author: clokep
 :category: Community, Mozilla
 :tags: GSoC, mozilla

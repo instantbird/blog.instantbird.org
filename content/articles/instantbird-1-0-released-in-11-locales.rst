@@ -1,6 +1,6 @@
 Instantbird 1.0 released in 11 locales!
 #######################################
-:date: 2011-06-28 15:10
+:date: 2011-06-28 15:10:36
 :author: clokep
 :category: Downloads
 :tags: 1.0, announce, downloads
