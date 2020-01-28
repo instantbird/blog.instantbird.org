@@ -2,6 +2,8 @@
 
 {% block title %}{{ article.title }} | Blog@instantbird.org{% endblock %}
 
+{% block body_class %}single single-post single-format-standard singular two-column right-sidebar{% endblock %}
+
 {% block content %}
 
 <div id="primary">
@@ -14,7 +16,7 @@
       <span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
     </nav><!-- #nav-single -->
 
-    <article id="post-{{ article.slug }}">
+    <article id="post-{{ article.slug }}" class="post type-post status-publish format-standard hentry">
       <header class="entry-header">
         <h1 class="entry-title">{{ article.title }}</h1>
 
