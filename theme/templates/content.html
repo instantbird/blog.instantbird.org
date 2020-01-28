@@ -12,16 +12,16 @@
     {% endif %}
   </header><!-- .entry-header -->
 
-  {% if false %}
-  <?php if ( is_search() ) : // Only display Excerpts for Search ?>
+  {% set is_search = true %}
+  {% if is_search %}{# Only display Excerpts for Search #}
   <div class="entry-summary">
     {{ article.summary }}
+    <a href="/{{ article.url }}">Continue reading <span class="meta-nav">&rarr;</span></a>
   </div><!-- .entry-summary -->
   {% else %}
   <div class="entry-content">
     {# TODO #}
-    {# <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?> #}
-    {# <?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?> #}
+    {{ article.content }}
   </div><!-- .entry-content -->
   {% endif %}
 
