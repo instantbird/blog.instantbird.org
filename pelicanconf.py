@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'The Instantbird Team'
 SITENAME = "The blog of Instantbird's development"
-SITEURL = 'http://localhost'
+SITEURL = 'http://localhost:8000'
 
 # Set up locations of articles, pages and theme.
 PATH = 'content'
@@ -48,7 +48,19 @@ SOCIAL = (('You can add links in your config file', '#'),
 # This is currently a modified copy of notmyidea, one of the default themes.
 THEME = 'theme'
 
+# Configuration pagination to show 7 articles per page.
 DEFAULT_PAGINATION = 7
+PAGINATED_TEMPLATES = {
+    'index': None,
+    'tag': None,
+    'category': None,
+    'author': None,
+    'period_archives': None,
+}
+PAGINATION_PATTERNS = (
+    (1, '{url}', '{save_as}'),
+    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

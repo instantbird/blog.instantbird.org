@@ -5,9 +5,8 @@
 * Comments
 * Check TODOs and "if false"
 * Add pages
-* archives?
 * Multiple categories per article aren't supported by pelican
-* Pagination (of tags / categories)
 * Tag slugification is wrong:
     * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)
 * Quotes render weirdly, see http://localhost:8000/2011/11/weekly-meetings-november-7-14-and-21-2011/
+* Recent posts

@@ -6,6 +6,8 @@
 <link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" />
 {% endblock %}
 
+{% block body_class %}archive {% if articles_page.has_previous() %}paged {% endif %}tag two-column right-sidebar{% endblock %}
+
 {% block content %}
 <section id="primary">
   <div id="content" role="main">
@@ -17,15 +19,16 @@
       {# <div class="tag-archive-meta">{{ tag.description }}</div> #}
     </header>
 
-    {# TODO #}
-    {# <?php twentyeleven_content_nav( 'nav-above' ); ?> #}
+    {% set nav_class='nav-above' %}
+    {% include 'content_nav.html' %}
 
     {% for article in articles_page.object_list %}
     {% include "content.html" %}
     {% endfor %}
 
-    {# TODO #}
-    {# <?php twentyeleven_content_nav( 'nav-below' ); ?> #}
+    {% set nav_class='nav-below' %}
+    {% include 'content_nav.html' %}
+
   {% else %}
 
     <article id="post-0" class="post no-results not-found">
