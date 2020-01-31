@@ -16,9 +16,6 @@
 
     <header class="page-header">
       <h1 class="page-title">Category Archives: <span>{{ category }}</span></h1>
-
-      {# TODO Can categories have descriptions? #}
-      {# <div class="category-archive-meta">{{ category.description }}</div> #}
     </header>
 
     {% set nav_class='nav-above' %}
@@ -40,8 +37,7 @@
 
       <div class="entry-content">
         <p>Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.</p>
-        {# TODO #}
-        {# <?php get_search_form(); ?> #}
+        {% include 'searchform.html' %}
       </div><!-- .entry-content -->
     </article><!-- #post-0 -->
 
