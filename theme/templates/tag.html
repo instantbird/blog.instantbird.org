@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ tag }} | Blog@instantbird.org{% endblock %}
+{% block title %}{{ tag }} | Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
 
 {% block additional_feeds %}
 <link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" />

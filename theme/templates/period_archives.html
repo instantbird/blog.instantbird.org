@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{% for p in period|reverse %}{{ p }} | {% endfor %}Blog@instantbird.org{% endblock %}
+{% block title %}{% for p in period|reverse %}{{ p }} | {% endfor %}Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
 
 {% block additional_feeds %}
 {# TODO #}
