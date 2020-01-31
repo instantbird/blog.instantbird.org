@@ -21,7 +21,7 @@ Landed Changes:
 .. container:: wp-caption alignright
 
     .. image:: {static}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
-       :class: size-medium wp-image-342
+       :class: size-medium
        :width: 300px
        :height: 243px
        :target: {static}/wp-content/uploads/2012/05/top-protocol-page.png

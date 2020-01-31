@@ -12,7 +12,7 @@ any mathematics contained in your conversations will be beautifully
 rendered using `MathJax <http://www.mathjax.org>`__.
 
 .. image:: {static}/wp-content/uploads/2013/04/math21.png
-   :class: alignright size-full wp-image-503
+   :class: alignright size-full
    :width: 445px
    :height: 377px
 

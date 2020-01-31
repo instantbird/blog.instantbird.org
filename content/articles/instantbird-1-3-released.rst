@@ -14,7 +14,7 @@ includes some nice improvements, which are fully outlined in the
 few changes of note are:
 
 .. image:: {static}/wp-content/uploads/2012/11/Show-Nick-300x281.png
-   :class: size-medium wp-image-474 alignright
+   :class: size-medium alignright
    :width: 300px
    :height: 281px
    :target: {static}/wp-content/uploads/2012/11/Show-Nick.png

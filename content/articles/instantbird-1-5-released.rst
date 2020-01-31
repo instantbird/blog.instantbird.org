@@ -62,13 +62,13 @@ view the `release notes`_.
 .. _release notes: http://www.instantbird.com/release-notes.html
 
 .. |awesometab| image:: {static}/wp-content/uploads/2013/12/awesometab-300x217.png
-    :class: alignright size-full wp-image-395
+    :class: alignright size-full
     :width: 300px
     :height: 217px
     :target: {static}/wp-content/uploads/2013/12/awesometab.png
 
 .. |new-tooltips| image:: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png
-    :class: alignleft size-full wp-image-395
+    :class: alignleft size-full
     :width: 300px
     :height: 101px
     :target: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png
