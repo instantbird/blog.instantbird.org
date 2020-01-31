@@ -35,11 +35,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# Top-level links.
+LINKS = (
+    ('Blog', SITEURL),
+    ('Add-ons', 'https://addons.instantbird.org/'),
+    ('F.A.Q.', 'http://www.instantbird.com/faq.html'),
+    ('Wiki', 'https://wiki.instantbird.org/'),
+    ('About', 'http://www.instantbird.com/about.html'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -86,7 +89,6 @@ TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = TAG_URL + 'index.html'
 
 # Change the default feed URLs.
-# TODO redirect /feed/rss2/ to /feed/
 FEED_ALL_RSS_URL = 'feed/'
 FEED_ALL_RSS = FEED_ALL_RSS_URL + 'rss.xml'
 
@@ -113,5 +115,5 @@ SLUG_REGEX_SUBSTITUTIONS = [
 ]
 
 PLUGINS = [
-    'plugins.archives'
+    'plugins.archives',
 ]
