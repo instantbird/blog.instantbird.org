@@ -14,7 +14,7 @@
     <h3 class="widget-title">Categories</h3>
     <ul>
       {% for category, _ in categories %}
-        <li class="cat-item cat-item-8">
+        <li class="cat-item">
           <a href="/{{ category.url }}" title="View all posts filed under {{ category }}">{{ category }}</a>
         </li>
       {% endfor %}
@@ -22,7 +22,6 @@
   </aside>
   <aside id="archives-3" class="widget widget_archive">
     <h3 class="widget-title">Archives</h3>
-  {{ archives }}
     <ul>
       {% for month in month_archives %}
         <li><a href="/{{ month.url }}" title='{{ month }}'>{{ month }}</a></li>
