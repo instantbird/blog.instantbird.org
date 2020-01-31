@@ -187,7 +187,9 @@ time" on Instantbird.
 In the page of our website where we explain `why we create
 Instantbird <http://www.instantbird.org/>`__, we conclude:
 
-    It's time to bring back innovation!
+    .. compound::
+
+        It's time to bring back innovation!
 
 To do this, we need to be able to change things easily. As Instantbird
 is still a young project, we can change fast.

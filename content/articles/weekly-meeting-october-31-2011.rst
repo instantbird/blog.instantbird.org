@@ -13,9 +13,11 @@ release. (`Full chatlogs <http://log.bezut.info/instantbird/111031/#m220>`__
 are also available, as well as the `Etherpad
 timelime <https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031>`__.)
 
-    Weekly meetings are held every Monday at 4pm UTC (that's 6pm for
-    people in France, and 9am for people in San Francisco) in
-    `#instantbird on irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
+    .. compound::
+
+        Weekly meetings are held every Monday at 4pm UTC (that's 6pm for
+        people in France, and 9am for people in San Francisco) in
+        `#instantbird on irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
 
 What's Happened Since the 1.1 Release:
 --------------------------------------

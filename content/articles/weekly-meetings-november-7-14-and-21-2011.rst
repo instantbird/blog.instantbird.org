@@ -12,10 +12,12 @@ past few weeks, but that doesn't mean nothings been going on! In fact,
 we've had a lot of major changes coming down the pipeline: here's a
 summary of what's new with Instantbird.
 
-    Weekly meetings are held every Monday at 4pm UTC (that’s 6pm for
-    people in France, and 9am for people in San Francisco) in
-    `#instantbird on
-    irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
+    .. compound::
+
+        Weekly meetings are held every Monday at 4pm UTC (that’s 6pm for
+        people in France, and 9am for people in San Francisco) in
+        `#instantbird on
+        irc.mozilla.org <irc://irc.mozilla.org/instantbird>`__.
 
 What's Been Done?
 -----------------

@@ -11,7 +11,7 @@ Instantbird is participating in Google Summer of Code (GSoC) again this
 year as part of Mozilla and we will be mentoring one student: Will
 Nayes.  The abstract for his project is:
 
-    .. rubric:: Instantbird Account Import Wizard
+    .. rubric:: **Instantbird Account Import Wizard**
        :name: instantbird-account-import-wizard
 
     When evaluating a new messaging client, the common frustration of
