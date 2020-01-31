@@ -33,12 +33,15 @@ What's Happened Since the 1.1 Release:
 What's Being Worked On:
 -----------------------
 
-.. class:: left
-.. image:: {static}/images/nickcolor13.png
-    :width: 159px
-    :height: 387px
-    :target: {static}/images/nickcolor13.png
-    :alt: Active participants are highlighted in color.
+.. container:: wp-caption alignleft
+
+    .. image:: {static}/images/nickcolor13.png
+        :width: 159px
+        :height: 387px
+        :alt: Active participants are highlighted in color.
+        :target: {static}/images/nickcolor13.png
+
+    Active participants are highlighted in color.
 
 -  `Only show colors of participants who have
    participated <https://bugzilla.instantbird.org/show_bug.cgi?id=1112>`__,
@@ -57,8 +60,6 @@ What's Being Worked On:
 -  Lots of user interface (in particular, when using Twitter) "paper
    cut" bugs! Those annoying bugs that you can live with, but get in
    your way? Yeah, we don't like those either.
-
- 
 
 **Ways You Help Out:**
 ----------------------

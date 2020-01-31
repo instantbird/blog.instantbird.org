@@ -18,9 +18,16 @@ even fixed a bug (see the "top protocols" page, below)!
 Landed Changes:
 ===============
 
-.. class:: right
+.. container:: wp-caption alignright
 
-    |"Top Protocol" Page in the Account Wizard|
+    .. image:: {static}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
+       :class: size-medium wp-image-342
+       :width: 300px
+       :height: 243px
+       :target: {static}/wp-content/uploads/2012/05/top-protocol-page.png
+       :alt: "Top Protocol" Page in the Account Wizard
+
+    .. class:: wp-caption-text
 
     "Top Protocol" Page in the Account Wizard"
 
@@ -87,9 +94,3 @@ the summer continues. (And of course you can stop by our IRC channel,
 #instantbird on irc.mozilla.org, and say "Hi!")
 
 .. _Google Summer of Code 2012 student: {static}/articles/google-summer-of-code-2012.rst
-
-.. |"Top Protocol" Page in the Account Wizard| image:: {static}/wp-content/uploads/2012/05/top-protocol-page-300x243.png
-   :class: size-medium wp-image-342
-   :width: 300px
-   :height: 243px
-   :target: {static}/wp-content/uploads/2012/05/top-protocol-page.png

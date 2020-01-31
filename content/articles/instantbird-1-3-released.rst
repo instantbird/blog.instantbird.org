@@ -13,9 +13,11 @@ includes some nice improvements, which are fully outlined in the
 `release notes <http://www.instantbird.com/release-notes.html>`__.  A
 few changes of note are:
 
-.. class:: right
-
-    |Nickname highlighting in a chat|
+.. image:: {static}/wp-content/uploads/2012/11/Show-Nick-300x281.png
+   :class: size-medium wp-image-474 alignright
+   :width: 300px
+   :height: 281px
+   :target: {static}/wp-content/uploads/2012/11/Show-Nick.png
 
 -  **IRC:** Long messages will now be sent in multiple parts, and more
    authentication methods are supported to connect e.g. to Freenode.
@@ -36,9 +38,3 @@ We've got plenty of interesting new features and ideas for upcoming
 versions of Instantbird!  We will update to a more recent version of
 Mozilla with awesome new features, imagine all the cool things we can do
 with technologies like WebRTC!
-
-.. |Nickname highlighting in a chat| image:: {static}/wp-content/uploads/2012/11/Show-Nick-300x281.png
-   :class: size-medium wp-image-474 alignright
-   :width: 300px
-   :height: 281px
-   :target: {static}/wp-content/uploads/2012/11/Show-Nick.png

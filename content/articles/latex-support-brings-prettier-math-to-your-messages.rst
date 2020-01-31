@@ -11,9 +11,10 @@ With our `new add-on <https://addons.instantbird.org/en-US/instantbird/addon/340
 any mathematics contained in your conversations will be beautifully
 rendered using `MathJax <http://www.mathjax.org>`__.
 
-.. class:: right
-
-    |mathjax|
+.. image:: {static}/wp-content/uploads/2013/04/math21.png
+   :class: alignright size-full wp-image-503
+   :width: 445px
+   :height: 377px
 
 It's rather nice to be able to discuss math using familiar
 `LaTeX <https://en.wikipedia.org/wiki/LaTeX>`__ markup, but with the
@@ -37,8 +38,3 @@ to change your favourite theme.
 
 `Get the add-on
 here! <https://addons.instantbird.org/en-US/instantbird/addon/340/>`__
-
-.. |mathjax| image:: {static}/wp-content/uploads/2013/04/math21.png
-   :class: alignright size-full wp-image-503
-   :width: 445px
-   :height: 377px

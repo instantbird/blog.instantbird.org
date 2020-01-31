@@ -7,9 +7,16 @@ Instantbird 1.4 Released!
 :slug: instantbird-1-4-released
 :status: published
 
-.. class:: right
+.. container:: wp-caption alignright
 
-    |Log Viewer showing dates in a tree|
+    .. image:: {static}/wp-content/uploads/2013/05/logtree-faded-151x300.png
+       :alt: Instantbird 1.4 Logger Tree
+       :class: size-medium
+       :width: 151px
+       :height: 300px
+       :target: {static}/wp-content/uploads/2013/05/logtree-faded.png
+
+    .. class:: wp-caption-text
 
     Log Viewer showing dates in a tree
 
@@ -44,9 +51,3 @@ from Google Summer of Code 2012! As always, if you see any issues,
 please `file bugs <https://bugzilla.instantbird.org>`__!
 
 .. _Instantbird 1.3 release: {static}/articles/instantbird-1-3-released.rst
-
-.. |Log Viewer showing dates in a tree| image:: {static}/wp-content/uploads/2013/05/logtree-faded-151x300.png
-   :class: size-medium wp-image-553
-   :width: 151px
-   :height: 300px
-   :target: {static}/wp-content/uploads/2013/05/logtree-faded.png
