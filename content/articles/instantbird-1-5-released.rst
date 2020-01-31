@@ -11,9 +11,7 @@ Instantbird 1.5 has been released: go `grab your copy now`_! There are a ton of
 new features and bugs fixed for this new release, but we’d like to highlight a
 couple of new features below.
 
-.. class:: right
-
-    |awesometab|
+|awesometab|
 
 An exciting new feature you’ll find in Instantbird 1.5 is the New Conversation
 tab. It displays a list of your contacts, ordered based on how frequently and
@@ -38,9 +36,7 @@ why you’re searching, right?): we’ve got you covered there too! Instantbird 
 search the channel topics in addition to channel names so you can quickly find
 new channels to join!
 
-.. class:: left
-
-    |new-tooltips|
+|new-tooltips|
 
 A very visible user interface improvement that was included for Instantbird 1.5
 is redone tooltips that fit more into the visual style of the rest of the user
@@ -66,13 +62,13 @@ view the `release notes`_.
 .. _release notes: http://www.instantbird.com/release-notes.html
 
 .. |awesometab| image:: {static}/wp-content/uploads/2013/12/awesometab-300x217.png
-    :class: alignnone size-full wp-image-395
+    :class: alignright size-full wp-image-395
     :width: 300px
     :height: 217px
     :target: {static}/wp-content/uploads/2013/12/awesometab.png
 
 .. |new-tooltips| image:: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png
-    :class: alignnone size-full wp-image-395
+    :class: alignleft size-full wp-image-395
     :width: 300px
     :height: 101px
     :target: {static}/wp-content/uploads/2013/12/new-tooltips-300x101.png
