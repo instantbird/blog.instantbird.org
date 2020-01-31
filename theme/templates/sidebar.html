@@ -7,10 +7,11 @@
     </form>
   </aside>
   <aside id="recent-posts-3" class="widget widget_recent_entries">
-    <h3 class="widget-title">Recent Posts</h3>		<ul>
-    <li><a href="http://blog.instantbird.org/2016/01/facebook-chat-issues/" title="Facebook Chat Issues">Facebook Chat Issues</a></li>
-    <li><a href="http://blog.instantbird.org/2014/07/linux-nightly-builds-back/" title="Linux nightly builds back!">Linux nightly builds back!</a></li>
-    <li><a href="http://blog.instantbird.org/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has Commenced!">Google Summer of Code 2014 has Commenced!</a></li>
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+      {% for article in (all_articles or articles)[:3] %}
+        <li><a href="/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a></li>
+      {% endfor %}
     </ul>
   </aside>
   <aside id="categories-3" class="widget widget_categories">
