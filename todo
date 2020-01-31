@@ -3,6 +3,5 @@
 * Comments
 * Check TODOs and "if false"
 * Add pages
-* Multiple categories per article aren't supported by pelican
 * Tag slugification is wrong:
     * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)

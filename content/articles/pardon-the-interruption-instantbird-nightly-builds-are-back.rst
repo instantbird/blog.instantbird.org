@@ -2,7 +2,7 @@ Pardon the Interruption! Instantbird nightly builds are back!
 #############################################################
 :date: 2014-03-03 12:21:35
 :author: clokep
-:category: Development, Mozilla
+:category: Development
 :tags: mozilla, nightly, status update
 :slug: pardon-the-interruption-instantbird-nightly-builds-are-back
 :status: published

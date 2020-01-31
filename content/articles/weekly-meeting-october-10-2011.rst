@@ -2,7 +2,7 @@ Weekly Meeting: October 10, 2011
 ################################
 :date: 2011-10-13 13:19:02
 :author: ecaron
-:category: Community, Development
+:category: Development
 :tags: weekly meetings
 :slug: weekly-meeting-october-10-2011
 :status: published

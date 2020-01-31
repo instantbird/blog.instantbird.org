@@ -2,7 +2,7 @@ Status Update: May 23, 2012
 ###########################
 :date: 2012-05-23 15:37:27
 :author: clokep
-:category: Community, Development
+:category: Development
 :tags: GSoC, preview, status update
 :slug: status-update-may-23-2012
 :status: published

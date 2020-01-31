@@ -2,7 +2,7 @@ Status Update: February 25, 2012
 ################################
 :date: 2012-02-25 20:17:03
 :author: clokep
-:category: Community, Development
+:category: Development
 :tags: status update
 :slug: status-update-february-25-2012
 :status: published

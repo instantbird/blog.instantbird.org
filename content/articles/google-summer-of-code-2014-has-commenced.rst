@@ -2,7 +2,7 @@ Google Summer of Code 2014 has Commenced!
 #########################################
 :date: 2014-04-21 19:00:05
 :author: clokep
-:category: Community, Mozilla
+:category: Community
 :tags: GSoC, mozilla
 :slug: google-summer-of-code-2014-has-commenced
 :status: published

@@ -2,7 +2,7 @@ Google Summer of Code 2013 Projects Announced
 #############################################
 :date: 2013-05-29 14:01:23
 :author: clokep
-:category: Community, Mozilla
+:category: Community
 :tags: GSoC, mozilla
 :slug: google-summer-of-code-2013-projects-announced
 :status: published
