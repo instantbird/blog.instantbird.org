@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'The Instantbird Team'
 SITENAME = "The blog of Instantbird's development"
 SITEURL = 'http://localhost:8000'
+# The main Instantbird site's URL.
+MAIN_SITE_URL = 'https://www.instantbird.com'
 
 # Set up locations of articles, pages and theme.
 PATH = 'content'
