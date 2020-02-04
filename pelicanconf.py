@@ -116,6 +116,11 @@ SLUG_REGEX_SUBSTITUTIONS = [
     (r'[-\s]+', '-'), # reduce multiple whitespace or '-' to single '-'
 ]
 
+# Configure installed plug-ins.
+PLUGIN_PATHS = [
+    'pelican-plugins/',
+]
 PLUGINS = [
     'plugins.archives',
+    'pelican_comment_system',
 ]
