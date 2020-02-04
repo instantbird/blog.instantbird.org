@@ -1,0 +1,6 @@
+:date: 2009-07-25 05:18
+:author: gatolandia
+:replyto: 0
+
+| Â¿Question? Instantbird only show the online contacts?.
+| I have to create multiple accounts and put the contact across ot them for the item show

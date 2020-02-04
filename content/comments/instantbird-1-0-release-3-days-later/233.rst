@@ -1,0 +1,5 @@
+:date: 2011-07-05 17:18
+:author: (anonymous)
+:replyto: 0
+
+One of the reasons I'm excited by Instantbird is that Pidgin has made some poor security decisions. Can you please tell us more about the default security? How are passwords stored internally, and do the chat protocols default to using SSL/TLS? Thanks!

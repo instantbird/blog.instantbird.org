@@ -1,0 +1,10 @@
+:date: 2012-02-28 00:16
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1181
+
+The libpurple IRC protocol leaves a lot to be desired (and is extremely hard to hack on). One thing I really wanted to do (which isn't really possible with the libpurple version) is to make the protocol completely extensible since there are many flavors of IRC out there. An extension can hook into the protocol itself and modify how the protocol interacts with the accounts, etc. The implementation mostly started as something random for me to do, though.
+
+It's unfortunate that there aren't any user facing changes from this (yet); so it definitely might seem like a "waste of time"; but...I did write a whole blog post about this on my own blog: http://clokep.blogspot.com/2010/12/why-rewrite-irc-into-javascript.html (shows you how long it's been in the works too!).
+
+libpurple is actually optional right now (if you were to compile Instantbird yourself). Of course you'll only be able to use XMPP, Twitter and IRC! Stop by #instantbird on irc.mozilla.org if you'd like to discuss this more, by the way. I'm usually there during EST as some variation of clokep.

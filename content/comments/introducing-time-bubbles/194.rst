@@ -1,0 +1,7 @@
+:date: 2011-06-12 18:33
+:author: Mads
+:replyto: 0
+
+If you add the timestamp next to the username you are not taking up additional space and people can easily get the time of whatever message they need the time of, instead of constantly guessing. For example, the iPhone has a similar system to time stamping messages, but to normal users the timestamps appear to be added randomly. Moreover, users don't know the logic behind this complex timestamping scheme and are left to guess when estimating the timestamp of that one particularly message they'd like to know the time of.
+
+Just show the timestamp right-aligned on the same line as the username, but in a color less strong. Having users guess how to access the timestamp seems counterproductive. You have to code more, users have to work harder, just to show basic information.

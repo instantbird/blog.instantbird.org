@@ -1,0 +1,7 @@
+:date: 2011-11-07 03:59
+:author: Bret
+:replyto: 0
+
+I am going to give it a shot! Pidgin on windows has done very well for a while, but the whole GTK thing always bothered me. Mozilla products always seem to do the best on windows and offer a more native feel.
+
+Also, I bet you would get a much faster adoption rate by simply getting a fancier/nicer looking logo that better matched the Firefox/Thunderbird animal hugging the task theme. People are weird like that.

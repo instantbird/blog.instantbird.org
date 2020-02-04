@@ -1,0 +1,5 @@
+:date: 2011-06-27 00:16
+:author: JosÃ©
+:replyto: 0
+
+Another thing that is repeated in the UI is the name of the person you are chatting with. It is repeated 3 times. Surely this could be improved?

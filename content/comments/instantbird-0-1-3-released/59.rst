@@ -1,0 +1,7 @@
+:date: 2009-01-11 15:51
+:author: deOmega
+:replyto: 0
+
+I also agree on the minimize to tray and autoclosing. A little more pizazz to the interface in terms of functionality would be great....+ font edit etc and history management.
+
+Also, please consider launching the addons page ASAP. You are inadvertently locking out community participation by not having it available as yet. Community participation 'could' save you a lot of work and help you move faster.

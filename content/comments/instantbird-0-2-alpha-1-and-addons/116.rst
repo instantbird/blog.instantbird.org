@@ -1,0 +1,5 @@
+:date: 2009-11-30 02:28
+:author: Patrickjdempsey
+:replyto: 0
+
+@ Tare: The nightlies just get better and better! Beta 1 will really impress a lot of people I think! Additions off the top of my head: Buddy list now has "twisties" for the categories and Notification for Mobile buddies (at least for Y! and AIM). They have updated the tabs and borrowed the Options window both from Firefox 3.0. The Options window doesn't just collect the old options but expands on them and offers new things to the table that makes this a world-class messenger! Nightly tests aren't for everyone, but Beta 1 is going to kick butt!

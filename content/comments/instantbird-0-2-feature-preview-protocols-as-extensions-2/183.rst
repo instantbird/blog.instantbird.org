@@ -1,0 +1,7 @@
+:date: 2011-02-22 21:39
+:author: Wexlei Silveira
+:replyto: 0
+
+| Use protocols as extension was a great idea, for sure.
+| But I'm realy worried about how to implement Twitter. I think that maybe better to implement it as in Trillian.
+| No Doubt that the format of the implementation of Twitter in Trillian is the best.

@@ -1,0 +1,10 @@
+:date: 2009-08-08 16:24
+:author: Mic
+:replyto: 0
+
+There is an addon on the addon-page that allows to minimize the buddy list to tray:
+
+https://addons.instantbird.org/en-US/instantbird/addon/211
+
+| (Another thing for convenience: there's also an extension that shows incoming messages in a small notification window near the task tray (on windows atleast):
+| https://addons.instantbird.org/en-US/instantbird/addon/208 )

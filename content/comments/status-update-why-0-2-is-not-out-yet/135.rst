@@ -1,0 +1,7 @@
+:date: 2010-06-21 02:00
+:author: (anonymous)
+:replyto: 0
+
+When do you think it will be available in 0.2 final ?
+
+i'm fan of firefox & thunderbird, and i'd like perhaps use instantbird instead of windows live messenger, because it has the same engine and the same system of add-ons

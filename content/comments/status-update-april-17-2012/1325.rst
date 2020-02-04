@@ -1,0 +1,17 @@
+:date: 2012-04-19 12:22
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1322
+
+Thanks for trying Instantbird!
+
+| 1a. Yes, we know this is an issue. We'd like a certificate error dialog to pop up (similar to Firefox's), but we haven't implemented this yet. We have a bug open to track the issue.
+| 1b. You should really import your cert instead of disabling all certificate checking, however.
+| 2a. You're able to do this from a variety of places (the tray icon and/or jump list menu in Windows and the top of the buddy list, next to your display name).
+| 2b. There's been some discussion about changing the icon, but no consensus.
+| 3. There's an extension you might like: the Do Not Disturb addon (https://addons.instantbird.org/en-US/instantbird/addon/305).
+| 4a. You can easily change the password in the properties of each account.
+| 4b. Currently you cannot change the username, it has to do with the way libpurple stores and persists account information. We have a bug open on this issue.
+| 5. By default Instantbird only shows online users. In the context menu of the contact list there's an option to show/hide offline contacts.
+
+Thanks for your feedback, I think most of the features you've requested ARE actually available and some of the other ones aren't issues that should be run into often (essentially they revolve around setting up an account...which we would definitely like to make simpler).

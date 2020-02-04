@@ -1,0 +1,16 @@
+:date: 2012-05-13 23:03
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1534
+
+I hope you're enjoying Instantbird so far! Please let us know if you have any problems (on our bugtracker most likely: https://bugzilla.instantbird.org).
+
+1. Sounds like you want the Smile! addon. :) (https://addons.instantbird.org/en-US/instantbird/addon/318).
+
+2. You want to disable incoming fonts, (Tools > Options > Formatting > "Display formatting of incoming messages" > Choose any option except "all").
+
+3. Your buddies' avatars should show up fine, although there's been reports of issues on MSN.
+
+4. :)
+
+5. Conversation logging is either disabled or enabled. If it's enabled, logs are kept forever. This could be tweaked with an add-on, but I don't think anyone has created one to mess with this.

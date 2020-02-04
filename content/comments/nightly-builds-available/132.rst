@@ -1,0 +1,5 @@
+:date: 2010-05-02 12:07
+:author: Florian
+:replyto: 0
+
+: Thanks for the feedback. In a future version (we don't know yet which version exactly) we will use the master password system of Mozilla's password manager. And providing a list of common IRC servers is indeed a good idea. :)

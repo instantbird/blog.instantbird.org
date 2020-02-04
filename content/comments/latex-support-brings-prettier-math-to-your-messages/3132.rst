@@ -1,0 +1,5 @@
+:date: 2013-04-19 15:10
+:author: aleth
+:replyto: 3103
+
+Thanks. It might be interesting to add that kind of UI in a future version.

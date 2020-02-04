@@ -1,0 +1,27 @@
+:date: 2011-07-09 19:44
+:author: patrickjdempsey
+:replyto: 0
+
+Ok, I'm seeing now that I can collapse the tags without closing them... that really confused me when I hit the X button and the contacts moved around.
+
+The dragging thing is really confusing for me. In every UI I've ever used dragging an item from one place to another place physically moves it. In this new system dragging items does not move them as I would expect. In fact, a whole series of unexpected things happen when you drag a buddy. Instead of an item disappearing from one list and appearing on another like in the old system, the item disappears altogether and it's old position is renamed to the new buddy name it's been merged with. That's two really unexpected actions at once. And it's not easy to figure out how to correct that. Context menus are almost never intuitive! I feel like you've hidden all of the important UI interaction behind context menus and made the upfront UI difficult to understand. There's also a bug where sometimes contacts get renamed to the name of the buddy they are merged with that makes it even more confusing! I notice you do have the note "drop a contact her to merge it" but this only appears in an expanded contact list, which most users will not notice at first. These are some suggestions I have after playing around with the new system:
+
+- Hide the buddy information popups when an item is "grabbed" with the mouse, as they get in the way.
+
+- Offer a way to organize buddies by dragging without using the context menus: dragging a buddy into the name of the tag should \*move\* it into that tag group. (And I mean move, not copy! remove from previous group and add to new group). This would also allow a way to remove a buddy from one tag without using the context menu, as well as allow a way to remove a buddy from the contact list it's in by dragging it to group name. That is the kind of interaction most people familiar with mouse-based UI's will expect I think.
+
+- Show instructional popups while buddies are being dragged: "Move to this tag group" "Merge into this contact list"
+
+- Automatically show the full contact list when a buddy is merged into that list via the mouse. This will avoid that "where did it go????" syndrome. It will also make it easier to find and visually confirm if you accidentally drop a buddy in the wrong contact list. Currently accidentally dropping a buddy means it's basically lost until you go through all of the contacts and expand them one by one.
+
+- Dispense with the collapsing of the contact list. Clicking on a buddy should show all of the information the first time without multiple clicks. This will also help to avoid "loosing" buddies if you accidentally drop them into a contact list.
+
+- When clicking on one buddy from another, perhaps the collapsing of the old buddy info and the expanding of the new buddy info should be animated? Especially with the expanded contact lists there gets to be a jumpy interaction where the mouse isn't sitting on the same spot in the list where it was before.
+
+- Dispense with the redundant name in the contact list.
+
+- Offer an X button beside buddies in a contact list to remove them from the list.
+
+- Offer a "chat" button beside buddies in a contact list on hover. If the chat button is offered on the top level of the contact list, why isn't it offered inside the list?
+
+- Visual clue that a buddy name contains a hidden contact list. I'm not a fan of visual clutter, but I think it's important to show a distinction between a single buddy and a hidden contact list. It could be something simple like having the text in bold?

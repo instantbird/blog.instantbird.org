@@ -1,0 +1,8 @@
+:date: 2011-06-29 00:50
+:author: Norman
+:replyto: 0
+
+Hi, first it's a very nice IM, but there is one important point - managing/ deleting tags. Is there any way to do this or do I have to wait for the next release?
+
+| Best,
+| Norman.

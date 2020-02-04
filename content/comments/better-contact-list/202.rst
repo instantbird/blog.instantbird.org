@@ -1,0 +1,7 @@
+:date: 2011-06-23 21:31
+:author: Florian
+:replyto: 0
+
+**@Roflo**: The user icon will give me material for another post (hopefully tomorrow) ;).
+
+**@aSystemOverload**: 0.3 final hasn't been released yet, we plan to release it next week (I've just edited the first paragraph of the post to clarify this). All the features described in this post are already available in Instantbird 0.3 beta (there's a link on the home page, labeled "Try Instantbird 0.3 beta!"). I'm glad to see you are eager to download it :).

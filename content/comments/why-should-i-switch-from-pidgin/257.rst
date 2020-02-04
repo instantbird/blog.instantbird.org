@@ -1,0 +1,17 @@
+:date: 2011-07-22 18:55
+:author: Johannes
+:replyto: 0
+
+"Hey come on, we are in 2011, new machines have been shipping with gigabytes of memory for years already..."
+
+| I generally agree that memory usage of apps, especially in the <50MB region shouldn't be an issue.
+| And it shouldn't be a point that is used to prioritize bug reports, feature requests, etc.
+
+| But, and that's a big but, almost all of my use cases pertaining to open source software rely on the fact that most of the tools are running on older machines as well.
+| Almost all of my friends and customers (= all of the people who are enjoying software I recommend to them) have machines that are older than a couple of years.
+| They are sufficiently fast and lean to get the jobs they need to get done, erm, done.
+| And the age of those machines come with several restrictions. One of them being that they are often notebooks which are not able to be upgrade beyond a certain amount of memory.
+| So being conservative on memory usage is a criteria for me when it comes to choose a certain tool over another.
+
+| As you've said well a couple of times it isn't a competition. And it shouldn't be.
+| But it should be a mantra to constantly drive memory usage down or at least hold it at a certain level.

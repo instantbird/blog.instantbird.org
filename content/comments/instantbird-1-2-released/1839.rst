@@ -1,0 +1,5 @@
+:date: 2012-08-10 18:48
+:author: changesound
+:replyto: 0
+
+is there a way to change the default sound for incoming and outgoing messages? i tried about:config but there didnt seem to be any path to a media file, nor could i find anything that jumped out at me in the program or app data directory. thoughts?

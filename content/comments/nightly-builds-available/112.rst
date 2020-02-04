@@ -1,0 +1,6 @@
+:date: 2009-09-26 07:17
+:author: (anonymous)
+:replyto: 0
+
+| see http://www.cypherpunks.ca/otr/
+| I think it should support this protocol right out of the box.

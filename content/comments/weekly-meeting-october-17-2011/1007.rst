@@ -1,0 +1,8 @@
+:date: 2011-10-31 10:01
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1006
+
+Please use https://bugzilla.instantbird.org for bug reports.
+
+My guess is that you're using a self signed certificate, in which case you need to import the certificate or disable checking of SSL certificates, please see https://bugzilla.instantbird.org/show_bug.cgi?id=1100 comments 3 and 5.

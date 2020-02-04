@@ -1,0 +1,11 @@
+:date: 2011-07-08 11:43
+:author: Florian
+:replyto: 0
+
+**@patrickjdempsey** I have about 20 accounts, some of which I've had for about 10 years too, and thousands of buddies, so I don't think this point is relevant here.
+
+"if you drag buddies around you end up with more and more copies of them all over the place" this sentence makes no sense to me. Drag and drop is used to merge buddies into contacts, it's not related to tags or groups (and a contact has all the tags of the buddies that compose it, but it doesn't add more).
+
+"when you "close" a tag it just moves all of the untagged buddies down to the bottom instead of hiding them." I don't understand this either. Or are you maybe confusing closing and hiding a tag? To close a tag, double click on its name or click on the icon at the left of the name. Closing a tag is useful for people you want to have in a separate place, but don't need to interact with at the moment. Hiding a tag is a completely different operation (done with the [X] icon at the right of the tag name, or from the context menu) to ignore tags that are totally meaningless without having to remove the tag from each of the contained contacts.
+
+I hope this clarifies things, if it doesn't, please do get back to me as I would like to understand your problem if there is one beside the apparent confusion. In any case, thanks for your feedback! :)

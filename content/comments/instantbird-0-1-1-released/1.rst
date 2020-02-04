@@ -1,0 +1,5 @@
+:date: 2008-03-10 21:32
+:author: serrebi
+:replyto: 0
+
+nice. I hope instantbird takes off. I'm very interested in this project, as I'm blind and it's the closest thing to accessible multinetwrok we've got that will hopefully have good builtin or easily found functionality.

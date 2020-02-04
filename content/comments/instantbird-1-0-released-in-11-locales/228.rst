@@ -1,0 +1,7 @@
+:date: 2011-07-02 03:04
+:author: Florian
+:replyto: 0
+
+**@SwooopD**: The facebook chat XMPP gateway doesn't officially support SSL, so there's no option for that in the UI. If you want to play with unsupported settings (some poeple have recently reported that SSL works), you can create your facebook account as an account of the 'XMPP' protocol and you will have all connection options to play with.
+
+**@Nono**: We don't really have the resource to support these builds (by support I mean automatic updates, crash reporting, ...) but we may produce a set of builds and just drop them in a folder of our download server.

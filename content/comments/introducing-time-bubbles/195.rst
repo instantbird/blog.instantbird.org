@@ -1,0 +1,11 @@
+:date: 2011-06-13 18:44
+:author: Florian
+:replyto: 0
+
+**@Mads**: I think you are likely to really like the 'Paper Sheets' theme (also installed by default): it shows the time stamp right-aligned, in gray for the first message of a group and light gray for the next messages (which turns to normal gray when hovering for better readability).
+
+For your suggestion of showing the time on the same line as the username in the 'Bubbles' theme, I think you missed the fact that we display the username only for the first message of a group.
+
+I certainly disagree with your feeling that "users have to work harder" when provided with the direct answer to their question, rather than having to read and compute the answer using a numeric representation of the time. I think I explained this in the post already :).
+
+In any case, thanks for your feedback!

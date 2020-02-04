@@ -1,0 +1,5 @@
+:date: 2011-01-17 18:55
+:author: Florian
+:replyto: 0
+
+SSL certificates are validated by default when they are used. Using SSL without validating the certificate doesn't offer any additionnal security (except maybe in extremely limited cases).

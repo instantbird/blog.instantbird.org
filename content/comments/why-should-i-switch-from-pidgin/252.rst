@@ -1,0 +1,8 @@
+:date: 2011-07-13 07:45
+:author: (anonymous)
+:replyto: 0
+
+| I simply love Instantbird for the good CJK support, since Pidgin didn't and hasn't fix the issue and probably never will. (I heard it's a GTK issue?)
+| Miranda IM works fine but I'm too lazy to customize everything. XD||\|
+| The most important thing makes me use Instantbird is simply because of all the great developers!
+| Thank you all for creating this nice application~ <3

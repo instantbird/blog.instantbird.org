@@ -1,0 +1,13 @@
+:date: 2012-04-19 04:00
+:author: coba instantbird
+:replyto: 0
+
+Hi, I've just tried instantbird 1.1. I use instantbird for local xmpp messenger(my office use openfire for the server). I've tried several others xmpp messenger so far, I have few comments about instantbird:
+
+| 1. Handshake error, you need to google about the problem and turn off the certificate check, in the other messenger I don't have to do this, I just need to accept the certificate. This will certainly drive common user away.
+| 2. No feature to change buddy's online, busy, offline yet. I don't like the icon. It'll be great if there's to change the icon.
+| 3. No feature to minimize new conversation, this is really important because when I'm in the middle of doing something, a window popup will distract me.
+| 4. No feature to change username or password in account manager, I need to delete the account and create new to change the info.
+| 5. No feature to just show online members, this is really important for a messenger I think.
+
+Overall there's still lot of improvement to be made, I won't use instantbird yet but I hope in the future it'll be better than other messengers to make me consider using it as my primary messenger :D

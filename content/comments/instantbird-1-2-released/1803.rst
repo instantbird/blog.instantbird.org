@@ -1,0 +1,6 @@
+:date: 2012-08-08 15:12
+:author: yanoo
+:website: http://codetunes.com/
+:replyto: 0
+
+I heard that Mozilla will stop develop thunderbird... anything changed?

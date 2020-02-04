@@ -1,0 +1,5 @@
+:date: 2012-08-11 12:29
+:author: aleth
+:replyto: 1831
+
+We do have some concrete plans, but they are not on the wiki yet. Please join us on #instantbird if you would like to know more ;)

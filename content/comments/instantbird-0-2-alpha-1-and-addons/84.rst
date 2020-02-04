@@ -1,0 +1,14 @@
+:date: 2009-07-23 18:06
+:author: Totoche
+:replyto: 0
+
+Hello,
+
+I don't want to creat un bug for the first day ;-)
+
+| The "experimental French language pack" don't work...
+| Install ok --> but at the restart, Instanbird is always in english ...
+| (maybe it's me, but i don't find any option for changing language and it's not "automatic")
+
+| Sorry my first message is not better...
+| But thank you for all this great job :-)

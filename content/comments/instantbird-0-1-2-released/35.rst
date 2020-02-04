@@ -1,0 +1,5 @@
+:date: 2008-08-09 05:24
+:author: (anonymous)
+:replyto: 0
+
+Right now, this does nothing more than Pidgin and in fact a lot less, but eventually it might become more featured and have some advantages. I can guess that for one thing, it will be easier to make plugins/extensions because of XUL.

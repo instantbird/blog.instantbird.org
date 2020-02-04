@@ -1,0 +1,5 @@
+:date: 2009-08-31 22:10
+:author: Florian
+:replyto: 0
+
+**@bruno**: We don't know the release date yet. 'When it's ready' I guess :). Probably in a month or two... For more information about what we are planning for it, you can give a look at the `roadmap <http://wiki.instantbird.org/Instantbird:Roadmap>`__.

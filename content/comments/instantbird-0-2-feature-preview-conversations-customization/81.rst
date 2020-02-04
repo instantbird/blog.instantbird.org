@@ -1,0 +1,5 @@
+:date: 2009-07-21 00:55
+:author: David Smith
+:replyto: 0
+
+Glad to see you're not supporting custom Template.html files; that's been a thorn in our side for years.

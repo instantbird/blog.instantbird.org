@@ -1,0 +1,7 @@
+:date: 2011-06-27 21:30
+:author: Greg
+:replyto: 0
+
+Good decision! I've been following this blog since the early days of the project, and in recent weeks there's been some really interesting posts, and I've thought "wow, I want that! but isn't Instantbird young and missing features all over the place?"
+
+I hope this works out for you. If nothing else, more competition (for Pidgin and Empathy) has to be a good thing in the "marketplace".

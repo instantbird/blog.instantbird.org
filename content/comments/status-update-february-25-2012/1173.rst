@@ -1,0 +1,6 @@
+:date: 2012-02-26 01:18
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1171
+
+Hopefully they do! If they don't, please file a bug at https://bugzilla.instantbird.org. (Note that we've had some issues updating the MSN protocol as some of the updates to Pidgin are causing crashes for us.) You can try the nightly builds at http://nightly.instantbird.im

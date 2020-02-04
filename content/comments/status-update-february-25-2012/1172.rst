@@ -1,0 +1,6 @@
+:date: 2012-02-26 01:02
+:author: linux-void
+:replyto: 0
+
+| does icq protocol implementation endlessly have a "get info" about contacts?
+| about 50% of my contacts are displayed as uins (numbers) and I have no way to know who they are... that's why instantbird is unusable for me... as well as for the people living in russia, where icq is very popular

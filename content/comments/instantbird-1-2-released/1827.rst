@@ -1,0 +1,8 @@
+:date: 2012-08-10 09:59
+:author: Zingus
+:replyto: 0
+
+This TB license issue is nasty. Putting a working back-end replacement in front of user features is even nastier.
+
+| I have a bad hunch about this whole situation
+| (and a tribal belief in TB's bad mojo)

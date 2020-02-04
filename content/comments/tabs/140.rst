@@ -1,0 +1,5 @@
+:date: 2010-07-01 09:41
+:author: Markus Stange
+:replyto: 0
+
+You can improve the Mac style a little: Instead of using titlebarcolor, just put a 2px high strip under the titlebar that has -moz-appearance: -moz-mac-unified-toolbar, and then hide its dark bottom border by pulling the tabs over it using margin-top: -1px. Then you will have a nice gradient in the titlebar and it will look exactly like the tabs in Terminal.app.

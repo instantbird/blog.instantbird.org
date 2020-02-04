@@ -1,0 +1,7 @@
+:date: 2011-06-29 23:36
+:author: Florian
+:replyto: 0
+
+**@Peter**: As soon as possible. But with the load we currently have, it's obviously not going to happen before a couple of hours, maybe even a day or two.
+
+**@Cory**: We have a great tab completion add-on. I've `hosted it temporarily on my blog <http://queze.net/goinfre/tab_complete-1.0-instantbird.xpi>`__ so that you all can benefit from it even while the add-ons website is down. Enjoy! :)

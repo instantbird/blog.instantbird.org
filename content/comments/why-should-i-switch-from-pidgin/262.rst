@@ -1,0 +1,9 @@
+:date: 2011-08-20 01:41
+:author: QuestionM
+:replyto: 0
+
+Hi,
+
+I would like to know if there is some security extensions for InstantBird.
+
+Thank you.

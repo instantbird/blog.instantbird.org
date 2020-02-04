@@ -1,0 +1,18 @@
+:date: 2011-10-20 17:28
+:author: Aashish Jha
+:replyto: 0
+
+Well Instant Bird is my preferred im-client at the moment.
+
+It is light non intrusive and works well.
+
+I would recommend you to add some social networking option in it that I can use to share when I like.
+
+| Problem I am facing with it are:
+| 1. I got a huge friend list and when I enable buddy notification add on, the notifications just hang.
+
+2. Instantbird hangs often handling my huge list and I have to restart it again.
+
+3. To use additional feature like video or voice chat I still have to switch back to original client and I would love to see them here soon. I have seen many other other multi im messenger using them.
+
+And at last just a suggestion. Though it is not-for-profit I would suggest you to add non intrusive ads like yahoo messenger and I hope your user will understand that. While it will be a revenue source for you.

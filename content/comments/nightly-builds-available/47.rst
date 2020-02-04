@@ -1,0 +1,7 @@
+:date: 2008-10-21 20:17
+:author: Justin Wood (Callek)
+:replyto: 0
+
+>>Thanks to the people who ... and to the people who worked on the comm-central build system.<<
+
+On behalf of myself and other comm-central [Build System] "owners"/"peers" your welcome, I'm glad it helps more than just us as well!

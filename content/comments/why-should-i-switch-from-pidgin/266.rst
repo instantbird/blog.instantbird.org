@@ -1,0 +1,13 @@
+:date: 2011-09-03 01:42
+:author: Saab
+:replyto: 0
+
+Hallo!
+
+| I just downloaded your program and Im happy with it. The cheerful interface and the comic-book bubbles are cool! I just have one question: On the "real" Yahoo Messenger you can selectively be visible/invisible to individual contacts. By this I mean you can do this:
+| Contact 1 = invisible
+| Contact 2 = invisible
+| Contact 3= VISIBLE
+| Contact 4 = invisible
+| Will you make this feature available in InstantBird? Right now it seems its a blanket "Available" or "Unavailable"
+| Thanks and keep up the good work! :-)

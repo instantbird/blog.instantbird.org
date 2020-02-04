@@ -1,0 +1,5 @@
+:date: 2008-06-09 18:53
+:author: Florian
+:replyto: 0
+
+No. We are still discussing whether we want to ship a 0.1.2 release with what we currently have as soon as possible or start working on bigger changes.

@@ -1,0 +1,10 @@
+:date: 2011-03-01 18:51
+:author: Patrick
+:replyto: 0
+
+| @Neil: (Really long time has passed, but anyway...) there's a few bugs open about sorting:
+| Bug 343 - Sort buddies alphabetically (https://bugzilla.instantbird.org/show_bug.cgi?id=343)
+| Bug 366 - Alphabetical sorting of group names (https://bugzilla.instantbird.org/show_bug.cgi?id=366)
+| Bug 701 - Sort buddies by status (https://bugzilla.instantbird.org/show_bug.cgi?id=701)
+
+Not too much work done on them though. It's not specifically on the roadmap but if someone wants to implement it, we'd certainly love to take the patch!

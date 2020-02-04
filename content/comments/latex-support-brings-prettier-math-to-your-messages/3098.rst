@@ -1,0 +1,6 @@
+:date: 2013-04-15 10:31
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 3094
+
+I think that integration of the editor from FireMath (a Firefox extension) would be pretty awesome: https://addons.mozilla.org/en-US/firefox/addon/firemath/ I'm pretty sure that this spits out MathML though, not LaTeX...which probably can't be sent over the network.

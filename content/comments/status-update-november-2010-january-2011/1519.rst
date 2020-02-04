@@ -1,0 +1,5 @@
+:date: 2012-05-09 22:47
+:author: Klexur
+:replyto: 0
+
+I'd like it much better if there was an option to enable/disable the auto-hiding of the statusbar. I prefer to have my chat windows smaller, but the typing notification is only shown in the statusbar, which is hidden. Is there a work-around?

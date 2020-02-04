@@ -1,0 +1,5 @@
+:date: 2010-07-05 09:03
+:author: Mic
+:replyto: 0
+
+Just to say it in public: I'm always amazed how easy it is to update Mozilla based applications and their extensions. :)

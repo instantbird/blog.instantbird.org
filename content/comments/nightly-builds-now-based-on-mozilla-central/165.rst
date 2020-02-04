@@ -1,0 +1,6 @@
+:date: 2010-09-13 22:35
+:author: Antoine Turmel
+:replyto: 0
+
+| Thanks for including the bug, I now figure out why was addons manager broken in my app :)
+| Also great thing Instantbird update to moz-central ;)

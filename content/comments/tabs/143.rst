@@ -1,0 +1,5 @@
+:date: 2010-07-01 13:07
+:author: Florian
+:replyto: 0
+
+**@Luke**: an add-on is being developed for vertical tabs. I don't know when it's going to be released, but given that the author comes in the #instantbird IRC chatroom and seems to work on it almost every day, I guess it's going to be 'soon' :).

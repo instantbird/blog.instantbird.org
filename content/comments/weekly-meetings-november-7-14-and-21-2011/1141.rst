@@ -1,0 +1,5 @@
+:date: 2011-12-02 16:44
+:author: vpplucky
+:replyto: 0
+
+Could you please let me know if there is a expected date for integrating SIPE protocol?

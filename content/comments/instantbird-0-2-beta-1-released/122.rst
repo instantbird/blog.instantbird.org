@@ -1,0 +1,5 @@
+:date: 2009-12-23 23:11
+:author: Anthony
+:replyto: 0
+
+Just wanted to say I've been using Instantbird as my exclusive IM client and hope the project grows even bigger!

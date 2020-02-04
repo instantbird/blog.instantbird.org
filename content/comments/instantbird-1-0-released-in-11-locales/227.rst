@@ -1,0 +1,6 @@
+:date: 2011-07-01 22:12
+:author: Nono
+:replyto: 0
+
+| Hello,
+| Could you please provide a 64-bit Linux version?

@@ -1,0 +1,7 @@
+:date: 2011-06-23 21:32
+:author: Patrick
+:replyto: 0
+
+@Roflo If you're talking about the user icon in the conversation window, that's new. I believe we'll have a blog post abou tthat soon too.
+
+@aSystemOverload Instantbird 0.3 is not released yet, it will be released next week. You can download the beta from http://instantbird.com/download-0.3b1.html

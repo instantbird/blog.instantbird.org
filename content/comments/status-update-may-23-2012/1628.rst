@@ -1,0 +1,8 @@
+:date: 2012-06-13 14:25
+:author: clokep
+:website: http://clokep.blogspot.com/
+:replyto: 1627
+
+I'm glad you like it so far! We spent quite a bit of time on the tags, but there's still more work to do! :)
+
+Linking your profiles for Linux and Windows should work (mostly) OK, as long as you don't have any binary extensions.

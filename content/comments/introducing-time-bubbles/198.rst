@@ -1,0 +1,5 @@
+:date: 2011-06-19 00:34
+:author: Florian
+:replyto: 0
+
+**@Scarrer**: Don't the messages that scroll away (quite fast in the first seconds, and slower after because of the logarithmic scale) give a more accurate perception of silence than timestamps can do? Anyway, if you feel you have a very specific use case that diverges from what a typical chat may be, it's totally OK to customize your instant messenger for that specific use case :). We have 4 different message themes included by default (look in the preferences dialog), and lots more to download from the add-ons website.

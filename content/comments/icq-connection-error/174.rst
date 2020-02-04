@@ -1,0 +1,5 @@
+:date: 2011-01-17 18:10
+:author: Basil
+:replyto: 0
+
+Thank you! No more privacy! :) Is it possible to make option like Miranda's "Validate SSL Certificates"?

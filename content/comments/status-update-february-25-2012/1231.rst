@@ -1,0 +1,11 @@
+:date: 2012-03-08 06:50
+:author: pvagner
+:replyto: 0
+
+| Thanks for the excellent job. I see instantbird is really moving forward however one thing I would like to bug you on are the accessibility tweaks.
+| There are are some in the bugtracker. They appear to be really easy fixes at least from my unexperienced point of view and would help visually disabled people to use instant bird more effectivelly. Now due to extra verbosity in some places many people avoid it as a main IM client. These are the areas where the look is a bit different from what the accessibility APIs expose.
+| If you need additional input regarding these tweaks please emphasize it in the bugtracker so we can try to address these.
+| I am sure if I can come up with an idea on how to tweak a feature to be slightly better accessible in a hour you might be able to figure out possible problems with my suggestion and implementation in a similar period of time.
+| I'm sorry if I sound too demanding I really respect the work you all are doing. I see this opportunity to try doing some more improvements in the future as well if I am able to from the technical perspective.
+
+Thanks one more time

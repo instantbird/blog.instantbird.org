@@ -1,0 +1,9 @@
+:date: 2011-06-09 09:44
+:author: Neil
+:replyto: 0
+
+This looks fantastic, excellent work Florian! It's great to see so much thought has been put into something that seems simple at first glance.
+
+"I don't think that making the user responsible for choosing between two not-so-good options which one is best is a good way to address this issue."
+
+Couldn't agree more, I'm so glad Instantbird is being developed with this sort of philosophy; when you look at clients like Miranda and they just cram in a million different options for a million different tastes and preferences, it's just embarrassing :-)

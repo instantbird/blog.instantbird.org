@@ -1,0 +1,7 @@
+:date: 2010-07-12 10:55
+:author: (anonymous)
+:replyto: 0
+
+I think you whould really remove those entries, that are already easily accessible through the UI. For example 'Start conversation' mustn't be there.
+
+Instantbird is a Mozilla product, isn't it? And isn't Mozilla working very hard on removing unnecessary menu elements in Firefox? Why doesn't Instantbird try that concept, too?

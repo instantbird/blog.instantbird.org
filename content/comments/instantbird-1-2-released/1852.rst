@@ -1,0 +1,5 @@
+:date: 2012-08-11 12:51
+:author: aleth
+:replyto: 1823
+
+Yes, it is in the works, but didn't make it for 1.2. You can track progress by cc'ing yourself to https://bugzilla.instantbird.org/show_bug.cgi?id=976

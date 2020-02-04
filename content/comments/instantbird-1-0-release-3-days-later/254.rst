@@ -1,0 +1,7 @@
+:date: 2011-07-13 14:47
+:author: Florian
+:replyto: 0
+
+**@(anonymous)**: Passwords are currently stored in plain text in the profile folder. We plan to use the Mozilla password manager for them someday. See `bug 434 <https://bugzilla.instantbird.org/show_bug.cgi?id=434>`__ for details and to follow the work on this point.
+
+Most protocols use SSL by default if it's possible.

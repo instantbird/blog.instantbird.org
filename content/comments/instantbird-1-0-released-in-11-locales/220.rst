@@ -1,0 +1,9 @@
+:date: 2011-06-29 21:11
+:author: Peter
+:replyto: 0
+
+The addons is currently down:
+
+"Over capacity! Due to an unprecedented affluence, this server is currently over capacity. We are doing our best to bring this service back online as soon as possible. Thanks for your interest in Instantbird!"
+
+Any idea when it will be back up?
