@@ -1,6 +1,8 @@
+46
+##
 :date: 2008-10-19 23:56
 :author: Peter Lairo
-:replyto: 0
+:status: published
 
 | Some suggestions:
 | - needs a taskbar icon

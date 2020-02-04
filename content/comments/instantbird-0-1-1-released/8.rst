@@ -1,5 +1,7 @@
+8
+#
 :date: 2008-04-25 23:29
 :author: lizmoney
-:replyto: 0
+:status: published
 
 nice and clean, interface. is there a way to set things like fonts and colors?

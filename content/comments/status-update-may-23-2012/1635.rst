@@ -1,7 +1,10 @@
+1635
+####
 :date: 2012-06-14 13:37
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 1634
+:status: published
 
 | Jess,
 | We'd certainly love to support voice and video in Instantbird! Unfortunately no one is currently working on this, but there's a couple of bugs you could CC yourself if you'd like to get emails of when work starts: https://bugzilla.instantbird.org/show_bug.cgi?id=568 for Audio/Video support in general and https://bugzilla.instantbird.org/show_bug.cgi?id=769 for GTalk. There doesn't seem to be one for SIP.

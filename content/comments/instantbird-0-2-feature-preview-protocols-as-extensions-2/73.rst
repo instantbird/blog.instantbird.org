@@ -1,6 +1,8 @@
+73
+##
 :date: 2009-05-01 14:00
 :author: Livio
-:replyto: 0
+:status: published
 
 I'm really counting on you. Pidgin's interface is boring and quite useless. You could give libpurple a new power.
 

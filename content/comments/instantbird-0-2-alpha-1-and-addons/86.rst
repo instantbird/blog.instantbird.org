@@ -1,6 +1,8 @@
+86
+##
 :date: 2009-07-23 20:38
 :author: Totoche
-:replyto: 0
+:status: published
 
 | :-)
 | [url=http://pagesperso-orange.fr/Totoche2607/Instantbird_fr.bmp]screenshot[/url]

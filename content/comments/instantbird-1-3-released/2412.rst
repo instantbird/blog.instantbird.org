@@ -1,6 +1,8 @@
+2412
+####
 :date: 2012-11-28 16:07
 :author: RongYao
-:replyto: 0
+:status: published
 
 | Hey there, thanks for the awesome app. Keep improving it.
 | And talking about improvements, one sort suggestion here.

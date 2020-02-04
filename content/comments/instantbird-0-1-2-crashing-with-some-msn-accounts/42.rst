@@ -1,5 +1,7 @@
+42
+##
 :date: 2008-10-14 16:52
 :author: Corinna
-:replyto: 0
+:status: published
 
 It's great do see that you're always working on new advancements of Instantbird and that problems such as those occured are resolved. So thanks for your endeavors.

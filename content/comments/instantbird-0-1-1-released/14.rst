@@ -1,6 +1,8 @@
+14
+##
 :date: 2008-05-19 02:37
 :author: Ron K.
-:replyto: 0
+:status: published
 
 As discussed on IRC, support for the basic IRC commands is needed to do joins, etc. from the chat window rather than going back to the connections interface. I also have the Same Place Jabber extension installed into Firefox that handle Jabber Chat, but I need IRC for Mozilla and other single server IRC connections.
 

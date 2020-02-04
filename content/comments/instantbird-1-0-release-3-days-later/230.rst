@@ -1,6 +1,8 @@
+230
+###
 :date: 2011-07-04 09:18
 :author: Alfred Kayser
-:replyto: 0
+:status: published
 
 | Good to read that Instantbird got so much attention, causing the servers to overload, and especially that you have solved the performance issues (by throwinng hardware at it ;-) ).
 | I have developed two themes for Instantbird: LittleChat (based on LittleFox) and Nautipolis for Instantbird. And two more will follow soon...

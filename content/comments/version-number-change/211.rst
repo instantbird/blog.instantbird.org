@@ -1,6 +1,8 @@
+211
+###
 :date: 2011-06-27 21:30
 :author: Greg
-:replyto: 0
+:status: published
 
 Good decision! I've been following this blog since the early days of the project, and in recent weeks there's been some really interesting posts, and I've thought "wow, I want that! but isn't Instantbird young and missing features all over the place?"
 

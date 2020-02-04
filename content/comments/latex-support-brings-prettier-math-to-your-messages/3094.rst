@@ -1,5 +1,7 @@
+3094
+####
 :date: 2013-04-15 03:44
 :author: Caspy7
-:replyto: 0
+:status: published
 
 I take it, then, there is no free wysiwyg math editor around.

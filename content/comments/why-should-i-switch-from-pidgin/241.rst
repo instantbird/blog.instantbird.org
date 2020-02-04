@@ -1,6 +1,8 @@
+241
+###
 :date: 2011-07-09 04:24
 :author: skierpage
-:replyto: 0
+:status: published
 
 Have you thought of distributing a version of Instantbird without the Mozilla runtime? It would be a smaller download, it can share the Mozilla toolkit that every Firefox user already has on-disk and probably in-memory, it would get Firefox enhancements to core code. I like browser-like apps and the Mozilla toolkit (for all the reasons you mention and more), but I don't want to run and update another copy of it. I can imagine the effort it would take to keep up with the development pace of Firefox, but with Mozilla's increasing emphasis on Firefox, everything else is falling by the wayside anyway.
 

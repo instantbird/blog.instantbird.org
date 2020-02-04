@@ -1,5 +1,8 @@
+1850
+####
 :date: 2012-08-11 12:28
 :author: aleth
 :replyto: 1827
+:status: published
 
 There is nothing nasty about it - it just means TB can't ship libpurple (nor does it want to). And the changes to the back end are not "in front of user features" or even merely due to licensing issues, they were necessary prerequisites for improving user features in the future! For example, you can already see that IRC on Instantbird is clearly a much better user experience than it was in 1.1, with more features than would have been possible without the JS protocol.

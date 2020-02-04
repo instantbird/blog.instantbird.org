@@ -1,5 +1,7 @@
+21
+##
 :date: 2008-06-13 09:01
 :author: Tare
-:replyto: 0
+:status: published
 
 Well, if the 0.2 release doesn't take too much time I would wait for it, but if it takes more than a month I would prefer a 0.1.2 release before. Keep up the good work :)

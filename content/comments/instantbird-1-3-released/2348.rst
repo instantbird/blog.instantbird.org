@@ -1,6 +1,9 @@
+2348
+####
 :date: 2012-11-16 11:31
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 2346
+:status: published
 
 Any news would be in the bug: https://bugzilla.instantbird.org/show_bug.cgi?id=976 I currently have a set of patches up that work on Linux and Windows, but it is awaiting review from another developer. Hopefully we'll get it into the next version.

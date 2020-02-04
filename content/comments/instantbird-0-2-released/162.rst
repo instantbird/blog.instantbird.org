@@ -1,5 +1,7 @@
+162
+###
 :date: 2010-07-23 21:06
 :author: deOmega
-:replyto: 0
+:status: published
 
 I am already impressed with this program. It has really come a very long way. Using it now for IRC as well as IM.

@@ -1,5 +1,7 @@
+1008
+####
 :date: 2011-10-31 11:38
 :author: vlad
-:replyto: 0
+:status: published
 
 Thank you, your solution helped me a lot if you are the consistency I posted the corrected version with the option purple.ssl.check_certificates to false on your site, thank you

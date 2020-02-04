@@ -1,6 +1,8 @@
+257
+###
 :date: 2011-07-22 18:55
 :author: Johannes
-:replyto: 0
+:status: published
 
 "Hey come on, we are in 2011, new machines have been shipping with gigabytes of memory for years already..."
 

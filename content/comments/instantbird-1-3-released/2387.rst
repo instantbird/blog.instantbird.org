@@ -1,6 +1,8 @@
+2387
+####
 :date: 2012-11-19 17:24
 :author: Eugenio Velazquez
 :website: http://eugeniovelazquez.com
-:replyto: 0
+:status: published
 
 Norton and Symantec.cloud detect Instantbird 1.3 setup detect as infected with "Suspicious.Cloud.7.F". Check please!!

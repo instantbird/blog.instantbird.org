@@ -1,5 +1,7 @@
+259
+###
 :date: 2011-08-02 18:53
 :author: Florian
-:replyto: 0
+:status: published
 
 The latest nightly builds are available at http://nightly.instantbird.im/

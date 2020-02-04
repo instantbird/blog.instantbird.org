@@ -1,7 +1,10 @@
+1538
+####
 :date: 2012-05-13 23:03
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 1534
+:status: published
 
 I hope you're enjoying Instantbird so far! Please let us know if you have any problems (on our bugtracker most likely: https://bugzilla.instantbird.org).
 

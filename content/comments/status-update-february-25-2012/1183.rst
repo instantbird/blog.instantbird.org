@@ -1,5 +1,8 @@
+1183
+####
 :date: 2012-02-28 12:36
 :author:  
 :replyto: 1174
+:status: published
 
 Oops, that should be bugzilla.instantbird.org.

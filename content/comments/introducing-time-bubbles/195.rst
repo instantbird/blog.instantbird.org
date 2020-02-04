@@ -1,6 +1,8 @@
+195
+###
 :date: 2011-06-13 18:44
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Mads**: I think you are likely to really like the 'Paper Sheets' theme (also installed by default): it shows the time stamp right-aligned, in gray for the first message of a group and light gray for the next messages (which turns to normal gray when hovering for better readability).
 

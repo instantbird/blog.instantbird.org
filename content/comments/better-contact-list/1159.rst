@@ -1,6 +1,8 @@
+1159
+####
 :date: 2012-01-04 21:17
 :author: Johnathan
-:replyto: 0
+:status: published
 
 Is there a way to massively move contacts from one tag to another... or maybe renaming a tag group from one name to another or to an existing tag group to combine them?
 

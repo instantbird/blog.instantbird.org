@@ -1,5 +1,7 @@
+133
+###
 :date: 2010-05-25 18:19
 :author: Nigcra
-:replyto: 0
+:status: published
 
 Instantbird is so great and fast! I love it! Just a little more features (avatar selection + view in contact list, multicontacts, german translation) and I would kick Pidgin away.

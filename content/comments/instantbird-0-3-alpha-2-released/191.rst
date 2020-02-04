@@ -1,6 +1,8 @@
+191
+###
 :date: 2011-04-28 17:30
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 | I like the minimize to tray, but just like MinTrayR is has some issues that's be nice to fix.
 | 1.) MinTrayR has the ability to single or double click to open from the system tray icon

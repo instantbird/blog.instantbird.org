@@ -1,5 +1,7 @@
+63
+##
 :date: 2009-02-10 11:37
 :author: Radu
-:replyto: 0
+:status: published
 
 Minimize to tray option is a MUST, also history management and avatar, mood, status messages, file transfers (within the IM window like yahoo messenger).. I was also looking for add-ons directly from Instantbird's options but Instanbird opens a tab in firefox saying 404 not found :(

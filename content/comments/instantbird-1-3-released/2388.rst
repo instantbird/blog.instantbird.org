@@ -1,6 +1,9 @@
+2388
+####
 :date: 2012-11-19 19:03
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 2387
+:status: published
 
 There's certainly no malware in it, I've sent Symantec a false positive report.

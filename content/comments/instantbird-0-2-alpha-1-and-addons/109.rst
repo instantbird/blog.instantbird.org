@@ -1,5 +1,7 @@
+109
+###
 :date: 2009-09-14 16:20
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Tak**\ I think the libpurple version in Instantbird 0.1.3.1 is too old to connect to yahoo properly. You can try the alpha, or a nightly build ;) !

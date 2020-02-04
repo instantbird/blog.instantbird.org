@@ -1,6 +1,8 @@
+983
+###
 :date: 2011-10-24 09:08
 :author: myk
-:replyto: 0
+:status: published
 
 | how to search invisible contacts to send messages. need inputs for this issue.
 | thanks

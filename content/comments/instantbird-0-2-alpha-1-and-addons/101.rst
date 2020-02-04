@@ -1,6 +1,8 @@
+101
+###
 :date: 2009-08-08 16:24
 :author: Mic
-:replyto: 0
+:status: published
 
 There is an addon on the addon-page that allows to minimize the buddy list to tray:
 

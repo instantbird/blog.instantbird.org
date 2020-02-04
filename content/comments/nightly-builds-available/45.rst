@@ -1,6 +1,8 @@
+45
+##
 :date: 2008-10-19 23:49
 :author: Peter Lairo
-:replyto: 0
+:status: published
 
 I can't connect to my Google Talk account, although it does work in Pidgin with the exact same settings.
 

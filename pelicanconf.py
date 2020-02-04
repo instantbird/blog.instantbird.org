@@ -116,6 +116,9 @@ SLUG_REGEX_SUBSTITUTIONS = [
     (r'[-\s]+', '-'), # reduce multiple whitespace or '-' to single '-'
 ]
 
+# Enable the comments system.
+PELICAN_COMMENT_SYSTEM = True
+
 # Configure installed plug-ins.
 PLUGIN_PATHS = [
     'pelican-plugins/',
@@ -123,4 +126,5 @@ PLUGIN_PATHS = [
 PLUGINS = [
     'plugins.archives',
     'pelican_comment_system',
+    'plugins.comments',
 ]

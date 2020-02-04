@@ -1,5 +1,7 @@
+12
+##
 :date: 2008-05-13 11:30
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 As a recent "switcher" to the Mac, I was surprised and a little disappointed to find that the premier IM app for OS X (Adium) was a beautiful-looking app, and yet was missing one feature that I had assumed to be basically "standard" for all such programs, based on my experience with GAIM/Pidgin: "Buddy Pounce". Since Instabird is based on Pidgin, can we assume that feature is included? If not, where does such a feature lie on the development roadmap? Thanks, good luck..

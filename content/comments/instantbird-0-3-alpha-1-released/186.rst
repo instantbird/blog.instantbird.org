@@ -1,6 +1,8 @@
+186
+###
 :date: 2011-03-01 18:51
 :author: Patrick
-:replyto: 0
+:status: published
 
 | @Neil: (Really long time has passed, but anyway...) there's a few bugs open about sorting:
 | Bug 343 - Sort buddies alphabetically (https://bugzilla.instantbird.org/show_bug.cgi?id=343)

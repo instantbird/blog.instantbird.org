@@ -1,6 +1,9 @@
+1066
+####
 :date: 2011-11-08 17:11
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 1054
+:status: published
 
 We're hoping to switch to some sort of logging format that can quickly and easily be searched. XML is great for sending and exporting data, but might not be ideal for long term storage of data. It'd be great to be able to import logs from Adium though!

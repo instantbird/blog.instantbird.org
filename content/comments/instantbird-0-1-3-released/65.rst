@@ -1,5 +1,7 @@
+65
+##
 :date: 2009-03-07 19:00
 :author: Nigcra
-:replyto: 0
+:status: published
 
 Instantbird is still cool. I'm waiting for newer versions to have a build which throws Pidgin from my harddisk.

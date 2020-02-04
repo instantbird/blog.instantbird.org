@@ -1,5 +1,7 @@
+189
+###
 :date: 2011-04-12 23:35
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Herman**: we made this change very recently, it's the new default behavior. You can try it in current nightly builds (or wait for Instantbird 0.3 alpha 2 which should be released soon). :)

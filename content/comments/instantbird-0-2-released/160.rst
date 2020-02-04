@@ -1,5 +1,7 @@
+160
+###
 :date: 2010-07-14 09:43
 :author: paulus
-:replyto: 0
+:status: published
 
 nicely, but no video and audio in gtalk :-(

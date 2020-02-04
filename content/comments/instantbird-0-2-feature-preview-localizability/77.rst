@@ -1,6 +1,8 @@
+77
+##
 :date: 2009-07-16 18:33
 :author: SamuÃ«l
-:replyto: 0
+:status: published
 
 | I already knew that :D
 | But I can hardly wait to translate.

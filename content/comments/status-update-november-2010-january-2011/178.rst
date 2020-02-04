@@ -1,6 +1,8 @@
+178
+###
 :date: 2011-02-03 14:45
 :author: Neil
-:replyto: 0
+:status: published
 
 Awesome! Thanks for letting me know, Instantbird looks really promising and I'm really excited about your plans for it. I'm a happy Adium user at home on OS X, but at work, I've struggled to find an IM client I can get on with, and I've tried most of them... Windows Live is just embarrassing. Pidgin is hampered by GTK+ and doesn't behave like a Windows application. Digsby is full of spam (and spams your friends). Miranda is the best I've found so far, but all of its default behaviours are baffling and it has a ridiculous number of options to configure it, making it a bit of a mess.
 

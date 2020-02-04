@@ -1,6 +1,8 @@
+1176
+####
 :date: 2012-02-26 10:15
 :author: Derp
-:replyto: 0
+:status: published
 
 "We were hoping to release Instantbird 1.2 near the end of January, 2012."
 

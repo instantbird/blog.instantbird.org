@@ -1,5 +1,7 @@
+85
+##
 :date: 2009-07-23 18:17
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Totoche**: I edited the description of the addon to indicate how to enable it once it is installed.

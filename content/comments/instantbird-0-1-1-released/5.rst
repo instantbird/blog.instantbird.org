@@ -1,5 +1,7 @@
+5
+#
 :date: 2008-03-23 01:38
 :author: Martin S.
-:replyto: 0
+:status: published
 
 Instantbird seems nice, but i REALLY would like to have a (optional) all-in-one-window-solution for instant messaging, Climm (from climm.org) is a nice example for this.

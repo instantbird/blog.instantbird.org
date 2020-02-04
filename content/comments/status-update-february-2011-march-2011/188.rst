@@ -1,6 +1,8 @@
+188
+###
 :date: 2011-04-12 18:54
 :author: Herman
-:replyto: 0
+:status: published
 
 Next time around can you add an option to minimize to notification window for Windows implementations? I would like to keep it on like other instant messengers, but not have it clutter up on the task bar.
 

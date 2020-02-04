@@ -1,7 +1,10 @@
+1167
+####
 :date: 2012-02-14 12:10
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 1166
+:status: published
 
 No, development is still chugging along! We're hoping to release Instantbird 1.2 soon. Unfortunately we got a bit busy (especially around the holidays) and our blog posts seem to have gotten dropped on the floor. :( Sorry about that! I'll see if I (or someone else) can whip up something soon to keep everyone informed about what's gone on in the last couple of months!
 

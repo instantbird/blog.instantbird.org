@@ -1,6 +1,8 @@
+210
+###
 :date: 2011-06-27 09:01
 :author: Benedikt P. [:Mic] 
-:replyto: 0
+:status: published
 
 @JosÃ©: the reasoning behind the duplication on the tab and in the user info area is no different from the repeated status icon.
 

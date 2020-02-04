@@ -1,5 +1,7 @@
+95
+##
 :date: 2009-07-26 03:06
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Michael B.**: In the error console, type ``openDialog('about:config')``.

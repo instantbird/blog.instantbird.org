@@ -1,5 +1,7 @@
+184
+###
 :date: 2011-02-22 22:17
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Wexlei Silveira**: Have you seen that Instantbird 0.3 alpha 1 has twitter support by default? Could you please tell us more about what's worrying you exactly? And maybe about what's different in the way Trillian handles twitter?

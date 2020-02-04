@@ -1,6 +1,9 @@
+1067
+####
 :date: 2011-11-08 17:13
 :author: clokep
 :website: http://clokep.blogspot.com/
 :replyto: 1061
+:status: published
 
 You can't reverse the order, it might be able to be done in an extension. You could file a bug @ https://bugzilla.instantbird.org.

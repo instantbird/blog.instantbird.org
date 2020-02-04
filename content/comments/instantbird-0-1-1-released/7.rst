@@ -1,5 +1,7 @@
+7
+#
 :date: 2008-03-27 04:33
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 Good to see an IM client that will have continual upgrades made to it. I have been using Trillian for years and enjoy it pretty well but there are no changes being made to it that can be utilized by a free user. Hope this will become my only IM client. Keep up the good work.

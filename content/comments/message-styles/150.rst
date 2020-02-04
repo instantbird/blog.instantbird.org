@@ -1,5 +1,7 @@
+150
+###
 :date: 2010-07-08 05:51
 :author: Florian
-:replyto: 0
+:status: published
 
 **@patrickjdempsey**: I tend to believe that we should display information about the contact in chrome rather than in the content, but until we do it, I agree it would be nice to have this available as an option for some or most of the default themes.

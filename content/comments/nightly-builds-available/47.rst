@@ -1,6 +1,8 @@
+47
+##
 :date: 2008-10-21 20:17
 :author: Justin Wood (Callek)
-:replyto: 0
+:status: published
 
 >>Thanks to the people who ... and to the people who worked on the comm-central build system.<<
 

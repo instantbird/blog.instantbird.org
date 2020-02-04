@@ -1,5 +1,7 @@
+71
+##
 :date: 2009-04-25 07:33
 :author: Patrick Patience
-:replyto: 0
+:status: published
 
 Haven't tested it out yet, but that's a pretty slick way to add protocols. Props.

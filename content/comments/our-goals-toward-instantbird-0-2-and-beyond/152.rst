@@ -1,6 +1,8 @@
+152
+###
 :date: 2010-07-08 13:19
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 [quote]I personally like the current system and find that seeing the icon for the chat protocol gives me more information than a tiny version of an avatar.[/quote]
 

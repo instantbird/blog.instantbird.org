@@ -1,5 +1,7 @@
+204
+###
 :date: 2011-06-26 02:42
 :author: JosÃ©
-:replyto: 0
+:status: published
 
 What is the point with repeating the online status (green dot) to the left of the tab? Looks odd.

@@ -1,5 +1,7 @@
+31
+##
 :date: 2008-08-08 10:47
 :author: Ibrahim
-:replyto: 0
+:status: published
 
 Ignore the idiots complaining, this seems awesome! I've been a Gaim/Pidgin user on Windows for several years, and I've been wanting a more Windows oriented open source IM client for a while. This might fit the ticket eventually, and I'm checking it out right now. You guys should get the Pidgin developers to mention you on their site or something for greater visibility.

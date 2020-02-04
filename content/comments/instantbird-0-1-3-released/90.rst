@@ -1,5 +1,7 @@
+90
+##
 :date: 2009-07-24 11:34
 :author: Florian
-:replyto: 0
+:status: published
 
 **@No Contacts**: Are you sure you are not behind a firewall or proxy that doesn't let you use the ports of these protocols? And by the way, this is not a support forum.

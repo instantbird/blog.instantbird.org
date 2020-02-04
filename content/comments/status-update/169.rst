@@ -1,5 +1,7 @@
+169
+###
 :date: 2010-11-17 16:09
 :author: Robert Kaiser
-:replyto: 0
+:status: published
 
 Hmm, we are thinking about creating a non-profit for SeaMonkey as well, perhaps we should connect on this?

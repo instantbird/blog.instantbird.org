@@ -1,5 +1,7 @@
+94
+##
 :date: 2009-07-25 20:47
 :author: Michael B.
-:replyto: 0
+:status: published
 
 On the alpha's download page, you mention that Instantbird has an about:config menu. How does one access it? I can't find it.

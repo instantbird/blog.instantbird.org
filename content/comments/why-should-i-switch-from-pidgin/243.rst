@@ -1,5 +1,7 @@
+243
+###
 :date: 2011-07-09 13:22
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 That's way too much text for a 'why should I switch' document - it's at over 2500 words. Pare it down to 10% of that and put everything else in separate sections or pages.

@@ -1,6 +1,8 @@
+1006
+####
 :date: 2011-10-31 09:14
 :author: vlad
-:replyto: 0
+:status: published
 
 | Jabber error
 | Ssl handshake Failed

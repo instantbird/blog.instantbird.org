@@ -1,5 +1,7 @@
+179
+###
 :date: 2011-02-03 15:09
 :author: Patrick
-:replyto: 0
+:status: published
 
 @Neil: There is a version of Minimize to Tray available on the Mozilla Add-Ons website, but it has not yet been mirrored to our website, you can download it by right clicking and choosing "Save Link as..." on the newest version (0.8.4 currently) from this page: https://addons.mozilla.org/en-US/firefox/addon/minimizetotray-revived/versions/ That should keep you from closing it by mistake!

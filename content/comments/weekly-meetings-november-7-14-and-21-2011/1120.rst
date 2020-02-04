@@ -1,6 +1,9 @@
+1120
+####
 :date: 2011-11-23 08:28
 :author: Benedikt P. [:Mic] 
 :replyto: 1119
+:status: published
 
 | Hi Caspy7,
 | don't worry, libpurple was not removed. We'll keep using it and you'll have all the protocols available that you used to have.

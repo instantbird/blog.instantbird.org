@@ -1,6 +1,8 @@
+1374
+####
 :date: 2012-04-26 19:23
 :author: none
-:replyto: 0
+:status: published
 
 | When can we expect file transfer support?
 | It's not a problem for me but I can't start converting people because not everyone runs an an ftp and http server on localhost.

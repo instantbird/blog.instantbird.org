@@ -1,5 +1,8 @@
+3097
+####
 :date: 2013-04-15 09:38
 :author: aleth
 :replyto: 3094
+:status: published
 
 I'm not sure I understand your question properly. Do you mean "I don't speak LaTeX, is there another (more graphical) way to enter equations?" Are you looking for something like `this wysiwyg LaTeX generator <http://www.codecogs.com/latex/eqneditor.php>`__ maybe?

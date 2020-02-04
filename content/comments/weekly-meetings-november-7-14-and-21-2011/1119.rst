@@ -1,5 +1,7 @@
+1119
+####
 :date: 2011-11-23 08:17
 :author: Caspy7
-:replyto: 0
+:status: published
 
 I'm curious why libpurple was removed?

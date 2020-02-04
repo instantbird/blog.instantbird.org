@@ -1,5 +1,7 @@
+33
+##
 :date: 2008-08-08 12:15
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 Ooops, keeps on crashing for MSN... Works fine with ICQ, though... Congrats, guys!!! I check every week for new versions and have great expectations with this project!!! Keep up the good work!!!

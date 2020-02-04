@@ -1,5 +1,7 @@
+246
+###
 :date: 2011-07-09 20:00
 :author: patrickjdempsey
-:replyto: 0
+:status: published
 
 Also, is there a meta bug on improving the buddy list I can add some bugs to?

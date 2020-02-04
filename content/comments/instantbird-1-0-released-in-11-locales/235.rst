@@ -1,5 +1,7 @@
+235
+###
 :date: 2011-07-06 11:46
 :author: Florian
-:replyto: 0
+:status: published
 
 **@Yong** We have received a few requests for SameTime support since the 1.0 release so we will consider bringing it back, yes.

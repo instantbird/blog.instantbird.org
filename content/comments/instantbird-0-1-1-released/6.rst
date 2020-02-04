@@ -1,5 +1,7 @@
+6
+#
 :date: 2008-03-23 15:43
 :author: Marcelo
-:replyto: 0
+:status: published
 
 Great begin, really hope that this project can go further Miranda IM...waiting for the next release!

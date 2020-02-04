@@ -1,6 +1,8 @@
+64
+##
 :date: 2009-03-02 01:35
 :author: Midnight
-:replyto: 0
+:status: published
 
 | Looks nice, but still buggy. As previously mentioned, access to the Add-ons Link would be nice. Cannot import contacts for any IMs, so that kinda sucks! Have to enter each one Manually, unlike Trillian.
 | InstantBird does look promising!

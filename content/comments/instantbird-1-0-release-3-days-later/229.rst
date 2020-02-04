@@ -1,6 +1,8 @@
+229
+###
 :date: 2011-07-02 20:09
 :author: Colby Russell
-:replyto: 0
+:status: published
 
 "Some people very kindly offered help and proposed to host the website on their server, but it's difficult to trust someone we barely know to host a website that requires our SSL certificate."
 

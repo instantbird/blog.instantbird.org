@@ -1,6 +1,8 @@
+18
+##
 :date: 2008-06-07 17:28
 :author: Chris
-:replyto: 0
+:status: published
 
 Instantbird rocks! (Because it unites all famous messengers in one application an it's so easy to use!)
 

@@ -1,7 +1,9 @@
+1627
+####
 :date: 2012-06-13 13:51
 :author: Psykar
 :website: http://psykar.com
-:replyto: 0
+:status: published
 
 | So I've just stumbled here while looking for a pidgin alternative. Nice GUI and cross platform.
 | To be honest the thing I love most is your usage of tags, and being able to hide tags. Great idea.

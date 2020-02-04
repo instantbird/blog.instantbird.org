@@ -1,6 +1,8 @@
+240
+###
 :date: 2011-07-09 02:13
 :author: Daniel
-:replyto: 0
+:status: published
 
 My main machine recently died and I decided to install Instantbird on my backup machine for the time being. One thing that has annoyed me no end about Pidgin is that it's support for the Windows clipboard is broken. It seems to actually maintain its own copy of the clipboard which it often fails to keep up to date. Strangely, it ignores this private copy for "Paste as plain text". I've posted so many URLs into the wrong window, it's not funny. Pidgin's UI also doesn't quite work natively, although this is more a comment on GTK+ on Windows in general.
 

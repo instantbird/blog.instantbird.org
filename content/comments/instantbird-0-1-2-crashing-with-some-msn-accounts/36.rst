@@ -1,5 +1,7 @@
+36
+##
 :date: 2008-08-12 10:09
 :author: Eric
-:replyto: 0
+:status: published
 
 Way to go! I'm glad to see that you are still working on Instantbird.

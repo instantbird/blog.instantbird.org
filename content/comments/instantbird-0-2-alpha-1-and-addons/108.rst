@@ -1,6 +1,8 @@
+108
+###
 :date: 2009-09-14 16:16
 :author: Tak
-:replyto: 0
+:status: published
 
 I am starting to use Instantbird 0.1.3.1. Managed to use msn and gtalk. However, whenever I start yahoo. it always stays at connecting stage. Is there any special setting for yahoo.
 

@@ -1,5 +1,7 @@
+156
+###
 :date: 2010-07-12 11:01
 :author: Florian
-:replyto: 0
+:status: published
 
 **@(anonymous)**: there's a discoverability issue on the "Start conversation" item. Some people don't have the idea of double clicking or pressing enter.

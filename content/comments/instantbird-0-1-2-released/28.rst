@@ -1,5 +1,7 @@
+28
+##
 :date: 2008-08-08 09:29
 :author: Ondrej Donek
-:replyto: 0
+:status: published
 
 Awesome! I waited for so long time :)

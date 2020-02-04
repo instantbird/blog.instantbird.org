@@ -1,6 +1,8 @@
+176
+###
 :date: 2011-02-02 17:40
 :author: Neil
-:replyto: 0
+:status: published
 
 Very exciting! The two features I am most looking forward to in 0.3 (from the roadmap) are the systray icon for Windows and buddy icon support... Can you tell me what the status of these two features is?
 

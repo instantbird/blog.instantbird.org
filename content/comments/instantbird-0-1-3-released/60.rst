@@ -1,5 +1,7 @@
+60
+##
 :date: 2009-01-31 01:15
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 Can I run InstantBird as a plug-in to firefox? that way, it integrates into it.

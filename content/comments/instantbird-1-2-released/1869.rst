@@ -1,7 +1,9 @@
+1869
+####
 :date: 2012-08-12 17:54
 :author: ConnorBehan
 :website: http://www.smallperturbation.com
-:replyto: 0
+:status: published
 
 Presumably Mozilla was supportive of theThunderbird chat innovation 10 months ago... and then they decided that they would only work on security fixes. It reminds me of how Firefox developers didn't want to support gstreamer because their mission was to only promote Theora / WebM. And then Mozilla made an announcement that Firefox will start playing H.264. Is there a civil war at Mozilla?
 

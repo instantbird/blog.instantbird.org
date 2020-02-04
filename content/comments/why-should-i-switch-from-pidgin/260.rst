@@ -1,6 +1,8 @@
+260
+###
 :date: 2011-08-11 20:56
 :author: (anonymous)
-:replyto: 0
+:status: published
 
 "We are not competing..."
 

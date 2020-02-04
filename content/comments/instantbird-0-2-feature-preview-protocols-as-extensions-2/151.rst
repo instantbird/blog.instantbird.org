@@ -1,5 +1,7 @@
+151
+###
 :date: 2010-07-08 05:54
 :author: Florian
-:replyto: 0
+:status: published
 
 **@patrickjdempsey**: This seems to be a Pidgin plugin, not a libpurple protocol plugin, and it uses XMPP (the page explains how an account can be created using the XMPP protocol plugin). However, I agree that we need to write some documentation for this feature.

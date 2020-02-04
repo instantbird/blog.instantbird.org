@@ -1,5 +1,7 @@
+87
+##
 :date: 2009-07-24 00:00
 :author: Tigsfan
-:replyto: 0
+:status: published
 
 Great work guys! I love the clean message styles, something that other clients (*coughs\* Pidgin \*coughs*) have been missing for awhile. Also, its running great off my USB, which is a double bonus. Definitely looking forward to the stable release of .2 .

@@ -1,5 +1,8 @@
+1186
+####
 :date: 2012-02-28 20:34
 :author: linux-void
 :replyto: 1174
+:status: published
 
 the last time I tried instantbird it had version 1.0 (I guess), but right now I can't compile it due to in archlinux repos xulrunner is at version 10.0.2 so I can't compile instantbird 1.1 on xulrunner 10, I was told it compiles on xulrunner 7 but since arch is a rolling distro I can't get any outdated packages... if I try to compile them myself I have to compile some other packages too =((

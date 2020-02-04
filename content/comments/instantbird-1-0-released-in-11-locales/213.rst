@@ -1,6 +1,8 @@
+213
+###
 :date: 2011-06-28 23:38
 :author: Cane
-:replyto: 0
+:status: published
 
 Only thing i miss is the "busy" status option (MSN). Other than that, it has everything needed on a daily basis.
 
