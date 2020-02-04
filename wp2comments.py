@@ -57,13 +57,13 @@ def wp2comments(xml):
                 comment_author_IP = comment.find('comment_author_IP').string
                 comment_content = comment.find('comment_content').string
 
-                comment_approved = comment.find('comment_approved').string
+                comment_approved = bool(comment.find('comment_approved').string)
                 status = 'published' if comment.find('comment_approved').string == "1" \
                     else 'hidden'
 
                 comment_type = comment.find('comment_type').string
                 comment_type = 'comment' if not comment_type else comment_type
-                comment_parent = comment.find('comment_parent').string
+                comment_parent = int(comment.find('comment_parent').string)
                 comment_user_id = comment.find('comment_user_id').string
 
                 # TODO Generate filename?
@@ -84,10 +84,15 @@ def wp2comments(xml):
             yield (filename, comments)
 
 
-def build_header(date, author, website, replyto, **kwargs):
+def build_header(title, date, author, website, replyto, **kwargs):
     """Build a header from a list of fields"""
 
-    header = ':date: %s\n' % date
+    from docutils.utils import column_width
+
+    # reStructuredText documents need a title.
+    header = '%s\n%s\n' % (title, '#' * column_width(title))
+
+    header += ':date: %s\n' % date
     header += ':author: %s\n' % author
     if website:
         header += ':website: %s\n' % website
@@ -164,7 +169,8 @@ def comments2pelican(comments, out_markup, output_path, strip_raw=False, include
                 #    status, links.values() if links else None)
             else:
                 out_markup = 'rst'
-                header = build_header(date, author, author_url, parent)
+                header = build_header(
+                    filename, date, author, author_url, parent, status=status)
 
             out_filename = get_out_filename(output_path, post_path, filename, ext)
             print(out_filename)
