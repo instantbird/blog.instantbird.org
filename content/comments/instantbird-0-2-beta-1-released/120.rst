@@ -2,6 +2,7 @@
 ###
 :date: 2009-12-12 23:16
 :author: pjdkrunkt
+:email: pjdkrunkt@lycos.com
 :status: published
 
 Anyone else having trouble connecting to AIM?

@@ -2,6 +2,7 @@
 ###
 :date: 2010-06-21 07:09
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 We don't know yet, but it's a matter of weeks at most :). You can be sure that it will be announced here when it's released, so if you check back sometimes, or subscribe to the rss feed of the blog, you will know. I'm glad you intend to use it!

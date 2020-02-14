@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-26 02:58
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@JosÃ©**: it makes sense when there's more than one tab. When there's only one tab, or when the first tab is selected it looks odd like you pointed out. We have a bug filed on this already, though I don't know what a good solution would be. Thanks for the feedback anyway :).

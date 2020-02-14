@@ -2,6 +2,7 @@
 ##
 :date: 2008-08-29 15:56
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@Eison**: because we have no hardware to test it.

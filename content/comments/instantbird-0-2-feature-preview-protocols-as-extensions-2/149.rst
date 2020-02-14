@@ -2,6 +2,7 @@
 ###
 :date: 2010-07-08 03:01
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 I would love to see a sample plugin updated, along with some documentation on what's needed. I attempted to package a Meebo plugin from here: http://jrpomeroy.com/pidgin/ and got an XPCOM error, but I'm not well enough versed in Firefox extensions to understand what that means.

@@ -2,6 +2,7 @@
 ####
 :date: 2012-08-10 09:50
 :author: Zingus
+:email: zingus@gmail.com
 :status: published
 
 ...and still no buddy blocking. quite disappointing.

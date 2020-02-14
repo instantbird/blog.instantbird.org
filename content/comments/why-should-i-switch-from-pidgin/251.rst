@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-11 14:31
 :author: (anonymous)
+:email: UL
 :status: published
 
 restartless add-ons? So you're supporting JetPack add-ons?

@@ -2,6 +2,7 @@
 ####
 :date: 2012-02-26 01:02
 :author: linux-void
+:email: artemeas@gmail.com
 :status: published
 
 | does icq protocol implementation endlessly have a "get info" about contacts?

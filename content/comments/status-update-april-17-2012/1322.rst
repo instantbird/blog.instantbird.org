@@ -2,6 +2,7 @@
 ####
 :date: 2012-04-19 04:00
 :author: coba instantbird
+:email: coba@instantbird.com
 :status: published
 
 Hi, I've just tried instantbird 1.1. I use instantbird for local xmpp messenger(my office use openfire for the server). I've tried several others xmpp messenger so far, I have few comments about instantbird:

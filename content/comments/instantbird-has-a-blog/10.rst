@@ -2,6 +2,7 @@
 ##
 :date: 2008-05-01 12:41
 :author: murat
+:email: muratsplanet@gmail.com
 :status: published
 
 | i hope you will make the perfect multimessenger.with audio and video chat also.

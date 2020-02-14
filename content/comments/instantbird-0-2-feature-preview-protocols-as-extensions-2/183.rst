@@ -2,6 +2,7 @@
 ###
 :date: 2011-02-22 21:39
 :author: Wexlei Silveira
+:email: wsilveira.nx@gmail.com
 :status: published
 
 | Use protocols as extension was a great idea, for sure.

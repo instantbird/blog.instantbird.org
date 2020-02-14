@@ -2,6 +2,7 @@
 ##
 :date: 2008-10-19 23:56
 :author: Peter Lairo
+:email: PeterLairo@gmail.com
 :status: published
 
 | Some suggestions:

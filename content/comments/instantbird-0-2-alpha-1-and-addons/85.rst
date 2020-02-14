@@ -2,6 +2,7 @@
 ##
 :date: 2009-07-23 18:17
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@Totoche**: I edited the description of the addon to indicate how to enable it once it is installed.

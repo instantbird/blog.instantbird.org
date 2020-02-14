@@ -2,6 +2,7 @@
 ##
 :date: 2009-05-09 22:36
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 0.2 will be released when it's ready, we don't know yet when that is. We will probably release an alpha or beta milestone soon so that people who don't test nightlies can try the new features we have already added. There's a `roadmap <http://wiki.instantbird.org/Instantbird:Roadmap>`__ on the wiki, but it's not fully up to date and not very detailed.

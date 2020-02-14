@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-23 21:31
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@Roflo**: The user icon will give me material for another post (hopefully tomorrow) ;).

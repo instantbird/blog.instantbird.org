@@ -2,6 +2,7 @@
 ###
 :date: 2011-03-01 18:51
 :author: Patrick
+:email: clokep@gmail.com
 :status: published
 
 | @Neil: (Really long time has passed, but anyway...) there's a few bugs open about sorting:

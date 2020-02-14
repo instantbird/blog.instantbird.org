@@ -2,6 +2,7 @@
 ###
 :date: 2010-08-13 02:19
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 The new website looks great and 0.2 is running very smoothly! I'm looking forward to hearing more about planned changes for 0.3 as well.

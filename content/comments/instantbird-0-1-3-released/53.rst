@@ -2,6 +2,7 @@
 ##
 :date: 2008-12-08 20:37
 :author: LoRDEP
+:email: UL
 :status: published
 
 Can you make some interfaces features, such as minimize to tray and autoclosing? Before 0.2 release.

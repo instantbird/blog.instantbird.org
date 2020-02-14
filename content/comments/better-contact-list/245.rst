@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-09 19:44
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 Ok, I'm seeing now that I can collapse the tags without closing them... that really confused me when I hit the X button and the contacts moved around.

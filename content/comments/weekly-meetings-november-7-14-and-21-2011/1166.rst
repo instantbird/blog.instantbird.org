@@ -2,6 +2,7 @@
 ####
 :date: 2012-02-14 08:28
 :author: Derp
+:email: miika.ahonen@gmail.com
 :status: published
 
 Did the development of this client suddenly die or why did the news stop?

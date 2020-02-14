@@ -2,6 +2,7 @@
 ##
 :date: 2008-12-22 10:52
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 @Emralegna: The IRC network is irc.mozilla.org (that was on one of the previous posts and is on the contact page of the main site. We don't plan to create a debian repository ourself, but there is an open bug in launchpad for the integration of Instantbird: https://bugs.launchpad.net/debian/+bug/254413.

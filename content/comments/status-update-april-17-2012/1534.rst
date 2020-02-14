@@ -2,6 +2,7 @@
 ####
 :date: 2012-05-13 13:17
 :author: VGA
+:email: vga1232@yahoo.com
 :status: published
 
 I'm trying out IBird because Pidgin has started crashing for me for the last two versions during MSN convos.

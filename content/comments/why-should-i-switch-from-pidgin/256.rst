@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-17 20:38
 :author: (anonymous)
+:email: UL
 :status: published
 
 | I really do like instantbird and I'm willing switch to it but there are a few things preventing me from doing so. One is the inability to block a contact or just appear offline to it. I've got some colleagues and professors that I have on my list and I just can't delete them but I also don't want to talk to them, so in my case, a block feature is a dire need. Secondly I can't see the display picture of any of my contact. While that isn't a major problem, it's still something that can be missed. A third item I would like to see in instantbird is a mail checker. Perhaps something similar to the "watcher" addon series that are present in firefox's database could suffice (Hotmail Watcher, Gmail Watcher, Yahoo! Mail Watcher). Another feature I'd like to see in instantbird is the ability to enlarge and reposition icons in the main window. It's easier to identify a contact by their dp instead of their nickname, so in my opinion we could make use of the option of enlarging and shrinking display pictures that are found in the contact list. I've got one last suggestion and that is giving the users the ability to utilize custom sounds. One thing I love about instantbird is the ability to customize it, and that feature should be extended to the sounds as well.

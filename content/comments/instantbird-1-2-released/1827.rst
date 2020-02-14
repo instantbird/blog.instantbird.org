@@ -2,6 +2,7 @@
 ####
 :date: 2012-08-10 09:59
 :author: Zingus
+:email: zingus@gmail.com
 :status: published
 
 This TB license issue is nasty. Putting a working back-end replacement in front of user features is even nastier.

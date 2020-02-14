@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-14 02:39
 :author: Stuart
+:email: stuart.a.ballard@gmail.com
 :status: published
 
 ... and that was me, I missed that I could enter a name. Do you happen to know if there is or will be invisibility support for google chat?

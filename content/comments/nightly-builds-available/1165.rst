@@ -1,7 +1,7 @@
 1165
 ####
 :date: 2012-02-14 07:33
-:author:  
+:author: Anonymous
 :status: published
 
 Your IM Mangager looks great, the only thing I miss, but which is important to me, is the master password.

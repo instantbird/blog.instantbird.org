@@ -2,6 +2,7 @@
 ##
 :date: 2008-06-15 03:28
 :author: Caio Viel
+:email: caioviel@gmail.com
 :status: published
 
 Very good, a Mozilla fan and descovery this program recentely, he is very simple yet, but probabily will be the best IM, like Firefox is the best brower and Thunderbird is the best e-mail tool.

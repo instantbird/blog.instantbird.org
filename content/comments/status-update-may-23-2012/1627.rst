@@ -2,6 +2,7 @@
 ####
 :date: 2012-06-13 13:51
 :author: Psykar
+:email: psyker7@gmail.com
 :website: http://psykar.com
 :status: published
 

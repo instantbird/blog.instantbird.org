@@ -2,6 +2,7 @@
 ####
 :date: 2012-11-19 17:24
 :author: Eugenio Velazquez
+:email: jevc@eugeniovelazquez.com
 :website: http://eugeniovelazquez.com
 :status: published
 

@@ -2,6 +2,7 @@
 ##
 :date: 2008-12-20 00:59
 :author: guice
+:email: UL
 :status: published
 
 Sweet, been waiting for some IRC updates :D Now I can't wait for 0.2!

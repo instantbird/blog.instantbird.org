@@ -2,6 +2,7 @@
 ##
 :date: 2008-05-27 11:32
 :author: Marcus J
+:email: UL
 :status: published
 
 So where's the IRC channel?

@@ -2,6 +2,7 @@
 ###
 :date: 2011-10-20 17:28
 :author: Aashish Jha
+:email: jha.aashi@gmail.com
 :status: published
 
 Well Instant Bird is my preferred im-client at the moment.

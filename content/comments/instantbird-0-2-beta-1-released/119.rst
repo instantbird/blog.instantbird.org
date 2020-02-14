@@ -2,6 +2,7 @@
 ###
 :date: 2009-12-12 11:59
 :author: Tare
+:email: UL
 :status: published
 
 As I said before, realy fine. I would like to create a german Language Pack for IB. If I understood the wiki-entry correctly you have to set a folder on the server where I can work, isn't it?

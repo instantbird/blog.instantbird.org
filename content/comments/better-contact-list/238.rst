@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-08 11:43
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@patrickjdempsey** I have about 20 accounts, some of which I've had for about 10 years too, and thousands of buddies, so I don't think this point is relevant here.

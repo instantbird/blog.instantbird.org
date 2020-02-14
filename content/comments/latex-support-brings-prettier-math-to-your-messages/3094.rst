@@ -2,6 +2,7 @@
 ####
 :date: 2013-04-15 03:44
 :author: Caspy7
+:email: caspy77@gmail.com
 :status: published
 
 I take it, then, there is no free wysiwyg math editor around.

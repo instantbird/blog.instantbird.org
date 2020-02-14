@@ -51,7 +51,9 @@ def wp2comments(xml):
                     date = date_object.strftime('%Y-%m-%d %H:%M')
 
                 comment_id = comment.find('comment_id').string
-                comment_author = comment.find('comment_author').string
+                # Anonymous is provided by WordPress when there's no author. The comment system assumes an author is
+                # available, so easier to provide it here.
+                comment_author = comment.find('comment_author').string.strip() or 'Anonymous'
                 comment_author_email = comment.find('comment_author_email').string
                 comment_author_url = comment.find('comment_author_url').string
                 comment_author_IP = comment.find('comment_author_IP').string
@@ -84,7 +86,7 @@ def wp2comments(xml):
             yield (filename, comments)
 
 
-def build_header(title, date, author, website, replyto, **kwargs):
+def build_header(title, date, author, email, website, replyto, **kwargs):
     """Build a header from a list of fields"""
 
     from docutils.utils import column_width
@@ -94,6 +96,8 @@ def build_header(title, date, author, website, replyto, **kwargs):
 
     header += ':date: %s\n' % date
     header += ':author: %s\n' % author
+    if email:
+        header += ':email: %s\n' % email
     if website:
         header += ':website: %s\n' % website
     if replyto:
@@ -170,7 +174,7 @@ def comments2pelican(comments, out_markup, output_path, strip_raw=False, include
             else:
                 out_markup = 'rst'
                 header = build_header(
-                    filename, date, author, author_url, parent, status=status)
+                    filename, date, author, author_email, author_url, parent, status=status)
 
             out_filename = get_out_filename(output_path, post_path, filename, ext)
             print(out_filename)

@@ -2,6 +2,7 @@
 ####
 :date: 2012-12-01 14:06
 :author: madarexxx
+:email: madarexxx@gmail.com
 :status: published
 
 | Can someone help me? I need support of mail.ru agent protocol.

@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-27 00:16
 :author: JosÃ©
+:email: jose.jeria@gmail.com
 :status: published
 
 Another thing that is repeated in the UI is the name of the person you are chatting with. It is repeated 3 times. Surely this could be improved?

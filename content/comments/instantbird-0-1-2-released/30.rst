@@ -2,6 +2,7 @@
 ##
 :date: 2008-08-08 10:20
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@ (anonymous)(1)**: If you had read better, you would have understood that most of the work was not visible. And by the way (unfortunately?) "all" we do is not limited to Instantbird, but if you want to make the projet go faster, feel free to help us.

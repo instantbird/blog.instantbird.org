@@ -2,6 +2,7 @@
 ####
 :date: 2011-12-02 16:44
 :author: vpplucky
+:email: vpplucky@gmail.com
 :status: published
 
 Could you please let me know if there is a expected date for integrating SIPE protocol?

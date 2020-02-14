@@ -2,6 +2,7 @@
 ##
 :date: 2009-05-09 20:58
 :author: Merlin
+:email: UL
 :status: published
 
 | When is the 0.2 release planned for? Where can we see (if available) some release/milestones plan?

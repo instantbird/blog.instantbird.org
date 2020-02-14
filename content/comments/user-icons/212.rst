@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-27 22:00
 :author: JosÃ©
+:email: jose.jeria@gmail.com
 :status: published
 
 I see how the the "information bar" makes sense when there it is maximized, but not when it is minimized. It should shrink to how it looks on the last screenshot in my opinion.

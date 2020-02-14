@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-09 20:09
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@patrickjdempsey**: Thanks for the feedback! I'm not aware of a meta bug for the buddy list, feel free to create one if you feel the need :).

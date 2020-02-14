@@ -2,6 +2,7 @@
 #
 :date: 2008-04-27 05:06
 :author: Vicki
+:email: vkorchagin@gmail.com
 :status: published
 
 I really, really like this Pidgin-type tool for Mac because I don't like Adium at all. Keep up the good work! I think you should add a bigger away message bar, fonts/smiley face options, and sound options.

@@ -2,6 +2,7 @@
 #
 :date: 2008-03-19 10:02
 :author: dusoft
+:email: dusoft@staznostiNOSPAM.sk
 :status: published
 
 | hi,

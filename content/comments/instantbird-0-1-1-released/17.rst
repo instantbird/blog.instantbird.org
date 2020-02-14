@@ -2,6 +2,7 @@
 ##
 :date: 2008-05-29 09:08
 :author: Sacha H.
+:email: UL
 :status: published
 
 I've also used Trillian for years but recently began looking for something with XMPP (mainly for GoogleTalk) since I've been getting fed up with how capricious ICQ can be. I'd tried Gaim in the past but I had problems with it. I decided to give Pidgin a shot, anyway. Unfortunately it crashed every time I tried to get at the Preferences. Hopefully as Instantbird develops there'll be a simple(r) version available for those of us who really only want to keep track of our various IM accounts through one client.

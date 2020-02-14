@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-08 04:38
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 I wasn't aware 0.3 was so far along for release as 1.0! I didn't realize this partly because I kept thinking that the Buddy List was seriously broken because I couldn't grab and drag buddies to rearrange them in the list. I've got 5 messenger accounts, several of which I've maintained for almost 10 years now and so when I say I have a \*huge\* buddy list, I'm not exaggerating. Being able to organize those buddies into discreet groups which I can then collapse so I don't have to see them is extremely important for me. Tags does the opposite of that, if you drag buddies around you end up with more and more copies of them all over the place. And when you "close" a tag it just moves all of the untagged buddies down to the bottom instead of hiding them. I \*need\* my groups! This isn't just a matter of me being old fashioned, compartmentalization is the only way I can keep up with all of these people and organize them. Is there any way we can have the option to choose \*between\* Groups and Tags? Or have Tags be a totally separate interface?

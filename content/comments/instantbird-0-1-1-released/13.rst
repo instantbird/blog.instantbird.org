@@ -2,6 +2,7 @@
 ##
 :date: 2008-05-13 12:51
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 The `roadmap <http://www.instantbird.org/>`__ is public, buddy pounces are listed on it.

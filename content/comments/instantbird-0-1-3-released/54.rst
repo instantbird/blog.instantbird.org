@@ -2,6 +2,7 @@
 ##
 :date: 2008-12-09 13:26
 :author: SKY
+:email: SKY@qq.com
 :status: published
 
 QQ doesn't work&#65281; &#65306;&#65288;

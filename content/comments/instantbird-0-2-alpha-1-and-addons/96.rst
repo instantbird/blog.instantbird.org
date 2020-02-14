@@ -2,6 +2,7 @@
 ##
 :date: 2009-07-27 03:05
 :author: (anonymous)
+:email: UL
 :status: published
 
 I would also have to say that tho I just found this program, it already shows a lot of promises and I hope you guys continue to improve it. The minimalistic nature of the message dialog is great! Though having a message history and being able to minimize the buddy list to tray would be nice :)

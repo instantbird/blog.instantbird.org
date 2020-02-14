@@ -2,6 +2,7 @@
 ##
 :date: 2009-02-02 18:07
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 No (or at least, not yet).

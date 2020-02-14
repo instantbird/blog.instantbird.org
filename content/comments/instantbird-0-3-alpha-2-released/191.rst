@@ -2,6 +2,7 @@
 ###
 :date: 2011-04-28 17:30
 :author: (anonymous)
+:email: darrenrh@gmail.com
 :status: published
 
 | I like the minimize to tray, but just like MinTrayR is has some issues that's be nice to fix.

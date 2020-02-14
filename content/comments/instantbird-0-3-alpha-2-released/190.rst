@@ -2,6 +2,7 @@
 ###
 :date: 2011-04-18 13:59
 :author: (anonymous)
+:email: UL
 :status: published
 
 Thank you for incorporating the minimize to tray feature.

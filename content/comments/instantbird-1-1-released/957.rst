@@ -1,7 +1,7 @@
 957
 ###
 :date: 2011-10-21 12:38
-:author:  
+:author: Anonymous
 :status: published
 
 You have like a thousand message styles but none of them work with any recent version of the platform. The default ones leave so much to be desired. Seems far too much time was spent on one of the defaults. When should we expect improvement? Instantbird 2.0?

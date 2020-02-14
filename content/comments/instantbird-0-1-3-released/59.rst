@@ -2,6 +2,7 @@
 ##
 :date: 2009-01-11 15:51
 :author: deOmega
+:email: UL
 :status: published
 
 I also agree on the minimize to tray and autoclosing. A little more pizazz to the interface in terms of functionality would be great....+ font edit etc and history management.

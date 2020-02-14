@@ -2,6 +2,7 @@
 ####
 :date: 2012-08-10 03:34
 :author: Cam
+:email: cam@camm.id.au
 :website: http://www.camm.id.au
 :status: published
 

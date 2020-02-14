@@ -2,6 +2,7 @@
 ###
 :date: 2009-09-04 05:06
 :author: Charlie Callow
+:email: UL
 :status: published
 
 This exension does not work for me, it installs but when i sign in 2 facebook chat it dissconnets staright after commanting and says facebook chat unavilable and tries again and keeps looping round like this (no matter when i try 2 use it or which nightly i use) can you fix this becuase i really need instantbird 2 do facebook chat and also can soon add a way 2 change ur profile pic and status message, rename freinds oh and show offline freinds :)

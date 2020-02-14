@@ -2,6 +2,7 @@
 ###
 :date: 2011-10-24 09:08
 :author: myk
+:email: myk.fariolen@gmail.com
 :status: published
 
 | how to search invisible contacts to send messages. need inputs for this issue.

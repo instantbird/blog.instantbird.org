@@ -2,6 +2,7 @@
 ##
 :date: 2008-05-05 19:04
 :author: sLLIK
+:email: kurzad@gmail.com
 :status: published
 
 For a 0.1.1 release, I'm EXTREMELY impressed. It doesn't yet have Away configurations, full XMPP interoperability (like service discovery and the ability to set the client's priority), or a full-featured and dynamic buddy list that I can tell yet, but it's already well on its way to becoming a premier Pidgin alternative. In fact, I'm already using it for that purpose. I can live without the expand/collapse group functionality in the buddy list for now, and I was already relying on launching Psi (ugliest IM client ever) for my service discovery configurations (like transports and chatroom listings), so no great loss for supporting an IM solution that holds lots of promise. It already inherits the GTK theme flawlessly (even when I'm using the Neutronium theme, which turns everything very dark), and already defaults to a tabbed single window. Kudos. =)

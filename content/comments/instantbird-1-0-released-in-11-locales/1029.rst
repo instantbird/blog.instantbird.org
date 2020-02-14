@@ -2,6 +2,7 @@
 ####
 :date: 2011-11-04 19:23
 :author: clokep
+:email: clokep@gmail.com
 :website: http://clokep.blogspot.com/
 :replyto: 983
 :status: published

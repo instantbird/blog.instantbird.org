@@ -2,6 +2,7 @@
 ###
 :date: 2009-08-31 22:03
 :author: bruno
+:email: UL
 :status: published
 
 Hey guys, when the new version is coming out? What are you planning for it?

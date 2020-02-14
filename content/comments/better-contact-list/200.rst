@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-23 20:14
 :author: Roflo
+:email: UL
 :status: published
 
 I don't recall the portrait/icon to be in version 0.2. Or was it?

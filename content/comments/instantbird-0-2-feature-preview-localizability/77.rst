@@ -2,6 +2,7 @@
 ##
 :date: 2009-07-16 18:33
 :author: SamuÃ«l
+:email: samuelmortier76@gmail.com
 :status: published
 
 | I already knew that :D

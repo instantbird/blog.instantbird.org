@@ -2,6 +2,7 @@
 ###
 :date: 2011-07-04 09:18
 :author: Alfred Kayser
+:email: alfredkayser@gmail.com
 :status: published
 
 | Good to read that Instantbird got so much attention, causing the servers to overload, and especially that you have solved the performance issues (by throwinng hardware at it ;-) ).

@@ -2,6 +2,7 @@
 ###
 :date: 2011-02-25 11:21
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 Thanks for posting your talk for us to read! The usage graph was really interesting. I'm betting Facebook support has really helped adoption... I've seen a dramatic shift away from people using traditional chat services and using Facebook and Twitter for that... as well as SMS/mobile messaging. Glad to see IB is making waves!

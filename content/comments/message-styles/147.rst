@@ -2,6 +2,7 @@
 ###
 :date: 2010-07-07 22:25
 :author: patrickjdempsey
+:email: UL
 :status: published
 
 The message styles are nice and simple, but I'm wondering if there shouldn't be at least one default message style that supports "headers" to have an avatar.

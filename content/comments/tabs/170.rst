@@ -2,6 +2,7 @@
 ###
 :date: 2010-11-21 12:39
 :author: sabret00the
+:email: sabret00the@yahoo.co.uk
 :status: published
 
 Can't we just get rid of the title bar like Firefox 4 and like Trillian have done with Trillian 5?

@@ -2,6 +2,7 @@
 ####
 :date: 2012-08-12 17:54
 :author: ConnorBehan
+:email: connor.behan@gmail.com
 :website: http://www.smallperturbation.com
 :status: published
 

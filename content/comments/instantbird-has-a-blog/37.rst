@@ -2,6 +2,7 @@
 ##
 :date: 2008-08-29 15:52
 :author: Eison
+:email: UL
 :status: published
 
 Why isn't there a version for Mac OS X 10.4.11 PowerPC ?

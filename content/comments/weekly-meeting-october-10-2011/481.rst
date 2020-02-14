@@ -1,7 +1,8 @@
 481
 ###
 :date: 2011-10-14 18:54
-:author: Benedikt P. [:Mic] 
+:author: Benedikt P. [:Mic]
+:email: mic@instantbird.com
 :status: published
 
 Next time I'll be there, I promise :)

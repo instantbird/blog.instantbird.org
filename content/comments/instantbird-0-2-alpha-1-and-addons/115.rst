@@ -2,6 +2,7 @@
 ###
 :date: 2009-11-07 08:47
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@Tare**: We are all fine. The current work going on is finishing the preference window. We will release a beta once this is finished. If you can't wait to play with something new, you can enjoy the new tabs in nightly builds. :)

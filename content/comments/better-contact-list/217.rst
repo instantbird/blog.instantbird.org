@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-29 01:28
 :author: Florian
+:email: florian@instantbird.org
 :status: published
 
 **@Norman**: What's the motivation for wanting to delete a tag? If the tags that are empty weren't visible in the 'Tags...' context menu, would that solve your issue?

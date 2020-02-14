@@ -2,6 +2,7 @@
 ##
 :date: 2008-12-08 11:25
 :author: vadim s. sabinich
+:email: vadim@sabini.ch
 :status: published
 
 | cool!

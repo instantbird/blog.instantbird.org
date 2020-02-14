@@ -2,6 +2,7 @@
 ###
 :date: 2011-06-20 19:29
 :author: (anonymous)
+:email: pav@zelek.ru
 :status: published
 
 Well done! Just do not have the plug-in Anti-Spam!

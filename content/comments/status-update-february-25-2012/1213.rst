@@ -2,6 +2,7 @@
 ####
 :date: 2012-03-07 15:01
 :author: jay
+:email: friendlyfreak@gmx.net
 :status: published
 
 IRC is nice to have, but i would like to see more development in other more popular protocols. ;)
