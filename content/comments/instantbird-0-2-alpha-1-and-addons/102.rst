@@ -4,5 +4,6 @@
 :author: Lubilia
 :email: UL
 :status: published
+:type: comment
 
 Votre projet avance dans la bonne voie! Le dÃ©veloppement est un peu lent, mais les progrÃ¨s sont lÃ .

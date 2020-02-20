@@ -4,5 +4,6 @@
 :author: paulus
 :email: UL
 :status: published
+:type: comment
 
 nicely, but no video and audio in gtalk :-(

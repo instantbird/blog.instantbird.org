@@ -4,6 +4,7 @@
 :author: JosÃ©
 :email: jose.jeria@gmail.com
 :status: published
+:type: comment
 
 I see how the the "information bar" makes sense when there it is maximized, but not when it is minimized. It should shrink to how it looks on the last screenshot in my opinion.
 

@@ -4,5 +4,6 @@
 :author: tymerkaev
 :email: tymerkaev@gmail.com
 :status: published
+:type: comment
 
 Great!!!

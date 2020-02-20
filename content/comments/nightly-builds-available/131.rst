@@ -4,5 +4,6 @@
 :author: Eemanueil TAN
 :email: UL
 :status: published
+:type: comment
 
 It would make connecting to IRC servers a lot easier if the list of servers are available in the pull-down dialog. Just my two cents worth. For privacy, password lock to InstantBird at the start of the program to make it accessible only to authorize users.

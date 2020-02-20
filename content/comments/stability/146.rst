@@ -4,5 +4,6 @@
 :author: Mic
 :email: UL
 :status: published
+:type: comment
 
 Just to say it in public: I'm always amazed how easy it is to update Mozilla based applications and their extensions. :)

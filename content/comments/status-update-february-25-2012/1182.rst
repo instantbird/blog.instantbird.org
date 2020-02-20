@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1181
 :status: published
+:type: comment
 
 The libpurple IRC protocol leaves a lot to be desired (and is extremely hard to hack on). One thing I really wanted to do (which isn't really possible with the libpurple version) is to make the protocol completely extensible since there are many flavors of IRC out there. An extension can hook into the protocol itself and modify how the protocol interacts with the accounts, etc. The implementation mostly started as something random for me to do, though.
 

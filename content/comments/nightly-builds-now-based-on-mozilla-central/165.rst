@@ -4,6 +4,7 @@
 :author: Antoine Turmel
 :email: geekshadow@gmail.com
 :status: published
+:type: comment
 
 | Thanks for including the bug, I now figure out why was addons manager broken in my app :)
 | Also great thing Instantbird update to moz-central ;)

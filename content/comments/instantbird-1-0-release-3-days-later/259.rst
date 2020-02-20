@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 The latest nightly builds are available at http://nightly.instantbird.im/

@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1015
 :status: published
+:type: comment
 
 I'm glad you appreciate the Sametime support! I'm not sure why the user is not showing up, are they definitely online? I would advise you to file a bug on our bugtracker (https://bugzilla.instantbird.org), it's a better medium for bug reports!

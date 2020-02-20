@@ -4,6 +4,7 @@
 :author: Marcus J
 :email: UL
 :status: published
+:type: comment
 
 So where's the IRC channel?
 

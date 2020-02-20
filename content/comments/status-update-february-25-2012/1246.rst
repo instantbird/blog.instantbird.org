@@ -1,0 +1,9 @@
+1246
+####
+:date: 2012-03-10 14:58
+:author: Thunderbird integrará mensajería instantánea | 1aqui.com - Lo nuevo en Tecnologia
+:website: http://www.1aqui.com/?p=1522
+:status: published
+:type: pingback
+
+[...] (proyecto que sigue bastante activo, por lo que vemos en su blog actualizado por última vez hace apenas dos semanas) y por dentro utiliza librerías de [...]

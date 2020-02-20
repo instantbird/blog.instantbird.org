@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@patrickjdempsey**: I tend to believe that we should display information about the contact in chrome rather than in the content, but until we do it, I agree it would be nice to have this available as an option for some or most of the default themes.

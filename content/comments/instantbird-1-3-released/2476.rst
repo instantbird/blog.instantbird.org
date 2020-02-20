@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 2432
 :status: published
+:type: comment
 
 | Replying here (in case someone else has similar questions), even though we talked on IRC:
 | 1. You must recompile Pidgin protocol plug-ins for Instantbird.

@@ -4,6 +4,7 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Peter**: As soon as possible. But with the load we currently have, it's obviously not going to happen before a couple of hours, maybe even a day or two.
 

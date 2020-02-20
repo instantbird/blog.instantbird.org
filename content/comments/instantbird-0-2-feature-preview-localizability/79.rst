@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Do you have any future plans to switch Instantbird over to Telepathy?

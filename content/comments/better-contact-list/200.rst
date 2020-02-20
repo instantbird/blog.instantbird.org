@@ -4,6 +4,7 @@
 :author: Roflo
 :email: UL
 :status: published
+:type: comment
 
 I don't recall the portrait/icon to be in version 0.2. Or was it?
 

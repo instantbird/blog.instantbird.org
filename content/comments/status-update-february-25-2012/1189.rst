@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1187
 :status: published
+:type: comment
 
 Instantbird 1.2 will include a prompt for password! (It will also save your passwords in the Mozilla password manager, like Firefox or Thunderbird, so they're encrypted.) You can try a nightly build at http://nightly.instantbird.im.

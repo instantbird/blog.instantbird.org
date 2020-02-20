@@ -4,5 +4,6 @@
 :author: leica
 :email: UL
 :status: published
+:type: comment
 
 Also agree OTR should be supported out of the box...

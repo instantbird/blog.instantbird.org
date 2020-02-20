@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Superb work! I wish we could have those beautiful mac color and frames on Windows!! This looks so sexy on the mac.

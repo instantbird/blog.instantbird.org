@@ -4,6 +4,7 @@
 :author: Bret
 :email: bcomnes@gmail.com
 :status: published
+:type: comment
 
 I am going to give it a shot! Pidgin on windows has done very well for a while, but the whole GTK thing always bothered me. Mozilla products always seem to do the best on windows and offer a more native feel.
 

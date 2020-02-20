@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 I agree that OTR encrption should be supported out of the box.

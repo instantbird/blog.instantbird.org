@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: microla_step@mail.ru
 :status: published
+:type: comment
 
 please add mail.ru agent protocol

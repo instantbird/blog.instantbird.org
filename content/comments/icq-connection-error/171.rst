@@ -4,5 +4,6 @@
 :author: Lukas Vesely
 :email: lukasmost@centrum.cz
 :status: published
+:type: comment
 
 Thank you for advice. It was working well, but today it does not work again. Do you have some new information? Thanks a lot.

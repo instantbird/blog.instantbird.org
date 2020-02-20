@@ -4,5 +4,6 @@
 :author: Nick
 :email: info@wohnungsmarkt24.de
 :status: published
+:type: comment
 
 Thats a really interesting and helpful way to get the builds.

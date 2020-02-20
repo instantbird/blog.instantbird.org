@@ -4,5 +4,6 @@
 :author: LoRDEP
 :email: UL
 :status: published
+:type: comment
 
 Can you make some interfaces features, such as minimize to tray and autoclosing? Before 0.2 release.

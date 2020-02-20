@@ -4,5 +4,6 @@
 :author: Benedikt P. [:Mic]
 :email: mic@instantbird.com
 :status: published
+:type: comment
 
 Next time I'll be there, I promise :)

@@ -4,5 +4,6 @@
 :author: bruno
 :email: UL
 :status: published
+:type: comment
 
 Hey guys, when the new version is coming out? What are you planning for it?

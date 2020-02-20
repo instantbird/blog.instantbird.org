@@ -4,5 +4,6 @@
 :author: Ibrahim
 :email: ibrahim.awwal@gmail.com
 :status: published
+:type: comment
 
 Ah, I see this is still very basic so far. But I'm sure it will improve with time.

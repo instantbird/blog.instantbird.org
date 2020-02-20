@@ -4,5 +4,6 @@
 :author: Jim Fulner
 :email: fulner@vote4ronpaul.net
 :status: published
+:type: comment
 
 So I've used IM a lot, and I'm already quite impressed on the ease of use from Instantbird. Not that I'd expect anything else that starts with the word Mozilla. I've never really used IRC, what's the best way for me to go about setting that up.

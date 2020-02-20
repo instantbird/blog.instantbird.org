@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Cris** : Just double click on your friends in the list to message them.

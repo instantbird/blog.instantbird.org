@@ -4,5 +4,6 @@
 :author: Marcelo
 :email: marcelo@euqfiz.com.br
 :status: published
+:type: comment
 
 Great begin, really hope that this project can go further Miranda IM...waiting for the next release!

@@ -4,5 +4,6 @@
 :author: Zingus
 :email: zingus@gmail.com
 :status: published
+:type: comment
 
 ...and still no buddy blocking. quite disappointing.

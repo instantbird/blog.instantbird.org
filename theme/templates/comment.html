@@ -1,6 +1,6 @@
 {% if comment.type == 'pingback' or comment.type == 'trackback' %}
 <li class="post pingback">
-  <p><?php _e( 'Pingback:', 'twentyeleven' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?></p>
+  <p>Pingback: <a href='{{ comment.website }}' rel='external nofollow ugc' class='url'>{{ comment.author }}</a></p>
 
 {% else %}
 {# TODO #}

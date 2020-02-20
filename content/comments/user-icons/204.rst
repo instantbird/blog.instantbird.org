@@ -4,5 +4,6 @@
 :author: JosÃ©
 :email: UL
 :status: published
+:type: comment
 
 What is the point with repeating the online status (green dot) to the left of the tab? Looks odd.

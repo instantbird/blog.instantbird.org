@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 @\ **Judicious**: User icon display is currently known to be unreliable on MSN.

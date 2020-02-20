@@ -1,0 +1,9 @@
+1188
+####
+:date: 2012-02-29 10:13
+:author: Jak si vede Instantbird ke konci února
+:website: http://www.mikk.cz/wp/wp/2012/02/jak-si-vede-instantbird-ke-konci-unora/
+:status: published
+:type: pingback
+
+[...] slibují vydání v co nejbližším termínu, jakmile dokončí výše zmiňované [...]

@@ -1,0 +1,9 @@
+955
+###
+:date: 2011-10-19 06:02
+:author: Linux Blog &raquo; Blog Archive &raquo; Instantbird 1.1– po čtyřech letech
+:website: http://www.linuxblog.cz/czilla/instantbird-1-1%e2%80%93-po-ctyrech-letech-3568/
+:status: published
+:type: pingback
+
+[...] po 4 letech od vydání prvního Instantbirdu 0.1 dnes vyšla verze o celou [...]

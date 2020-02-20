@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Totoche**: I edited the description of the addon to indicate how to enable it once it is installed.

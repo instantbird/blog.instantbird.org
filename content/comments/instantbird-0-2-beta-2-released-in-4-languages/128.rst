@@ -4,6 +4,7 @@
 :author: ./cewood
 :email: UL
 :status: published
+:type: comment
 
 Keep up the great work guys!
 

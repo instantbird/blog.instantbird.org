@@ -4,5 +4,6 @@
 :author: Yong
 :email: UL
 :status: published
+:type: comment
 
 Any chance of bringing back support for SameTime? I saw it mentioned in the previous releases, but it seems to have gone away?

@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1061
 :status: published
+:type: comment
 
 You can't reverse the order, it might be able to be done in an extension. You could file a bug @ https://bugzilla.instantbird.org.

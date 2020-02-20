@@ -4,6 +4,7 @@
 :author: Neil
 :email: UL
 :status: published
+:type: comment
 
 This looks fantastic, excellent work Florian! It's great to see so much thought has been put into something that seems simple at first glance.
 

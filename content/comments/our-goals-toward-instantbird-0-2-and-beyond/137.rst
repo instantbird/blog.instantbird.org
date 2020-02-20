@@ -4,6 +4,7 @@
 :author: cabotine
 :email: UL
 :status: published
+:type: comment
 
 | Hi,
 | it would be nice to have a standalone client for the wave-protocol.

@@ -4,5 +4,6 @@
 :author: Matta Hari
 :email: betacams@yahoo.com
 :status: published
+:type: comment
 
 Does anyone now how I can follow the tweets with the latest on top instead of default in InstantBird, which seems to put the latest at the bottom?

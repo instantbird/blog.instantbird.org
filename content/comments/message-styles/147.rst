@@ -4,5 +4,6 @@
 :author: patrickjdempsey
 :email: UL
 :status: published
+:type: comment
 
 The message styles are nice and simple, but I'm wondering if there shouldn't be at least one default message style that supports "headers" to have an avatar.

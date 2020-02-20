@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@./cewood** Thanks for the encouraging message! Instantbird is not a project of the Mozilla Foundation. Any additional resource might help. Additional visibility would definitely help.

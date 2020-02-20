@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@ChrisThomas**: The first after at least Arch linux, debian and Ubuntu. That's great! :)

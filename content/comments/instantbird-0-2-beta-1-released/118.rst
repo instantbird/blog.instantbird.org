@@ -4,5 +4,6 @@
 :author: Even
 :email: UL
 :status: published
+:type: comment
 
 @pjdkrunkt: Well, I hope so too. Thanks a lot :)

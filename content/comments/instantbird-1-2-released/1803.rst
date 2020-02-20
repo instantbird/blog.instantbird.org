@@ -5,5 +5,6 @@
 :email: jan@dudulski.pl
 :website: http://codetunes.com/
 :status: published
+:type: comment
 
 I heard that Mozilla will stop develop thunderbird... anything changed?

@@ -4,6 +4,7 @@
 :author: Herman
 :email: UL
 :status: published
+:type: comment
 
 Next time around can you add an option to minimize to notification window for Windows implementations? I would like to keep it on like other instant messengers, but not have it clutter up on the task bar.
 

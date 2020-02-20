@@ -4,5 +4,6 @@
 :author: 404
 :email: ps2dev@gmail.com
 :status: published
+:type: comment
 
 Major step in the right direction! Minimizing to system tray is quite literally the only thing that's stopping me from switching from pidgin right now.

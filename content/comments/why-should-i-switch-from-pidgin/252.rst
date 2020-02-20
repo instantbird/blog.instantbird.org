@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 | I simply love Instantbird for the good CJK support, since Pidgin didn't and hasn't fix the issue and probably never will. (I heard it's a GTK issue?)
 | Miranda IM works fine but I'm too lazy to customize everything. XD||\|

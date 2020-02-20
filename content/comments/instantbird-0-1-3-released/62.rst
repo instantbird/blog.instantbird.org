@@ -4,5 +4,6 @@
 :author: Chaz6
 :email: chaz@chaz6.com
 :status: published
+:type: comment
 
 This release works fine, but the 0.2a1pre nightly has stopped working because the libgio-2.0.so.0 dependancy has returned.

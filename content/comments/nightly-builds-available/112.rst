@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 | see http://www.cypherpunks.ca/otr/
 | I think it should support this protocol right out of the box.

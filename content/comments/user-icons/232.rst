@@ -4,5 +4,6 @@
 :author: Tom
 :email: UL
 :status: published
+:type: comment
 
 Please just make this an option :(. I don't like how much space is used to display a contact's name 3 times, and it becomes almost entirely useless whitespace as the window is grown horizontally.

@@ -4,6 +4,7 @@
 :author: QuestionM
 :email: UL
 :status: published
+:type: comment
 
 Hi,
 

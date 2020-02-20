@@ -4,6 +4,7 @@
 :author: Totoche
 :email: alexgoog@gmail.com
 :status: published
+:type: comment
 
 Hello,
 

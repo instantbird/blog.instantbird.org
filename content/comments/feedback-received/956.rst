@@ -4,6 +4,7 @@
 :author: Aashish Jha
 :email: jha.aashi@gmail.com
 :status: published
+:type: comment
 
 Well Instant Bird is my preferred im-client at the moment.
 

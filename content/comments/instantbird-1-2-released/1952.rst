@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1939
 :status: published
+:type: comment
 
 Those lines are totally separate and have nothing to do with each other. "Has You" refers to whether your friend "Has You" as a contact, "Blocked" refers to whether you have them blocked. I hope you're enjoying using Instantbird!

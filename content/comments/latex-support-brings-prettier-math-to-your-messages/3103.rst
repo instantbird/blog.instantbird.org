@@ -5,6 +5,7 @@
 :email: caspy77@gmail.com
 :replyto: 3097
 :status: published
+:type: comment
 
 | The answer to your first question is yes.
 | But when I say wysiwyg I mean more like BlueGriffon where you edit formatted text/equations inline. FireMath, which clokep mentioned below, is close. I struggled some with it, but maybe that's just inexperience.

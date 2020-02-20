@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Does anybody know when 0.2 will come?

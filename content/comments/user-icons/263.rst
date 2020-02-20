@@ -4,5 +4,6 @@
 :author: Judicious
 :email: UL
 :status: published
+:type: comment
 
 I can't see my contact's display pictures nor can they see mine. Am I missing something here?

@@ -4,5 +4,6 @@
 :author: SKY
 :email: SKY@qq.com
 :status: published
+:type: comment
 
 QQ doesn't work&#65281; &#65306;&#65288;

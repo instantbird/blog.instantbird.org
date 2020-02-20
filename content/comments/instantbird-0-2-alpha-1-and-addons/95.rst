@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Michael B.**: In the error console, type ``openDialog('about:config')``.

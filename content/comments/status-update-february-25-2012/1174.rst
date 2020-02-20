@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1172
 :status: published
+:type: comment
 
 I've never heard this issue about ICQ before, can you please file a bug on http://bugzilla.instantbird.org? The (few) ICQ contacts I have all load their information properly? Make sure you're running the latest version of Instantbird (1.1) or a nightly build!

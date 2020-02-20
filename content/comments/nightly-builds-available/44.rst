@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 | i can't wait to see what else is coming :-)
 | keep going!!

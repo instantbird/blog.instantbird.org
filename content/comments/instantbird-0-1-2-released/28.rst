@@ -4,5 +4,6 @@
 :author: Ondrej Donek
 :email: ondrejd@gmail.com
 :status: published
+:type: comment
 
 Awesome! I waited for so long time :)

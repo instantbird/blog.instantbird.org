@@ -4,5 +4,6 @@
 :author: pjdkrunkt
 :email: UL
 :status: published
+:type: comment
 
 Awesome! I hope you all will be able to move quickly to a full 0.2 release... this wonderful program needs more public support and more developers!

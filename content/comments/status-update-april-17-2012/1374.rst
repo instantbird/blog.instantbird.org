@@ -4,6 +4,7 @@
 :author: none
 :email: xyffimmew-239@yopmail.com
 :status: published
+:type: comment
 
 | When can we expect file transfer support?
 | It's not a problem for me but I can't start converting people because not everyone runs an an ftp and http server on localhost.

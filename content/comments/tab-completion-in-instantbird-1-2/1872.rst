@@ -1,0 +1,9 @@
+1872
+####
+:date: 2012-08-13 01:15
+:author: Instantbird updates with important changes inside
+:website: http://computerrepairya.com/blog/?p=210
+:status: published
+:type: pingback
+
+[...] and Thunderbird projects, and features support for theBonjour protocol. Improvements, such as better tab completion of nicknames, have been made to the user interface for multi-user chats. The log viewer can now [...]

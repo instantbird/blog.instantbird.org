@@ -4,6 +4,7 @@
 :author: gatolandia
 :email: UL
 :status: published
+:type: comment
 
 | Â¿Question? Instantbird only show the online contacts?.
 | I have to create multiple accounts and put the contact across ot them for the item show

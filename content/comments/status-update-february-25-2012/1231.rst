@@ -4,6 +4,7 @@
 :author: pvagner
 :email: pvdeejay@gmail.com
 :status: published
+:type: comment
 
 | Thanks for the excellent job. I see instantbird is really moving forward however one thing I would like to bug you on are the accessibility tweaks.
 | There are are some in the bugtracker. They appear to be really easy fixes at least from my unexperienced point of view and would help visually disabled people to use instant bird more effectivelly. Now due to extra verbosity in some places many people avoid it as a main IM client. These are the areas where the look is a bit different from what the accessibility APIs expose.

@@ -4,5 +4,6 @@
 :author: patrickjdempsey
 :email: UL
 :status: published
+:type: comment
 
 The new website looks great and 0.2 is running very smoothly! I'm looking forward to hearing more about planned changes for 0.3 as well.

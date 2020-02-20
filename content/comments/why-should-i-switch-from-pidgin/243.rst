@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 That's way too much text for a 'why should I switch' document - it's at over 2500 words. Pare it down to 10% of that and put everything else in separate sections or pages.

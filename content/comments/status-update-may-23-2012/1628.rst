@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1627
 :status: published
+:type: comment
 
 I'm glad you like it so far! We spent quite a bit of time on the tags, but there's still more work to do! :)
 

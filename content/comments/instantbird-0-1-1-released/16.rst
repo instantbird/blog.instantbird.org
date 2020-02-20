@@ -4,5 +4,6 @@
 :author: Marcus J
 :email: UL
 :status: published
+:type: comment
 
 Haha... Neglect my recent post. Saw the info in the blog post! x)

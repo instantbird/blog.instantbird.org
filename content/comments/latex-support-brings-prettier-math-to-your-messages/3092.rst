@@ -4,5 +4,6 @@
 :author: Mali
 :email: dev@maliayas.com
 :status: published
+:type: comment
 
 Lovely!

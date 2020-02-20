@@ -4,5 +4,6 @@
 :author: vlad
 :email: serviceseo@gmail.com
 :status: published
+:type: comment
 
 Thank you, your solution helped me a lot if you are the consistency I posted the corrected version with the option purple.ssl.check_certificates to false on your site, thank you

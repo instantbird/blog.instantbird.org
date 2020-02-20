@@ -4,5 +4,6 @@
 :author: jay
 :email: friendlyfreak@gmx.net
 :status: published
+:type: comment
 
 IRC is nice to have, but i would like to see more development in other more popular protocols. ;)

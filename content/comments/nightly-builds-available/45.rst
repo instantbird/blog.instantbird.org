@@ -4,6 +4,7 @@
 :author: Peter Lairo
 :email: PeterLairo@gmail.com
 :status: published
+:type: comment
 
 I can't connect to my Google Talk account, although it does work in Pidgin with the exact same settings.
 

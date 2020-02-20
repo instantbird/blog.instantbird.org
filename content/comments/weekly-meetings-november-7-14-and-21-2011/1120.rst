@@ -5,6 +5,7 @@
 :email: mic@instantbird.org
 :replyto: 1119
 :status: published
+:type: comment
 
 | Hi Caspy7,
 | don't worry, libpurple was not removed. We'll keep using it and you'll have all the protocols available that you used to have.

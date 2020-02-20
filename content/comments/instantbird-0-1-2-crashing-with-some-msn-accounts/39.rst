@@ -4,5 +4,6 @@
 :author: Sim
 :email: UL
 :status: published
+:type: comment
 
 Keep up the good work, I've been waiting for something like this for ages!

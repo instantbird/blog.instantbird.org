@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1519
 :status: published
+:type: comment
 
 We'd actually really like to get rid of the status bar in general, we think there are better ways to show the information (i.e. typing notifications, number of characters left) then we're currently using it.
 

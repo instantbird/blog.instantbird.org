@@ -4,5 +4,6 @@
 :author: Tak
 :email: UL
 :status: published
+:type: comment
 
 Thanks Florian. It works with nightly build

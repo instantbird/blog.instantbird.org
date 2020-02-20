@@ -4,5 +4,6 @@
 :author: Caspy7
 :email: caspy77@gmail.com
 :status: published
+:type: comment
 
 I'm curious why libpurple was removed?

@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Cane**: The buddy icons are already displayed in tooltip that appear when hovering a contact in the buddy list, or a tab. In a future version they will be more visible. Thanks for your encouragement :).

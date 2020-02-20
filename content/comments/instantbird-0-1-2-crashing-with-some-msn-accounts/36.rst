@@ -4,5 +4,6 @@
 :author: Eric
 :email: UL
 :status: published
+:type: comment
 
 Way to go! I'm glad to see that you are still working on Instantbird.

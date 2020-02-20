@@ -4,6 +4,7 @@
 :author: isifer
 :email: isifer@excite.it
 :status: published
+:type: comment
 
 | Hi all,
 | how can i create a multi-user chat?

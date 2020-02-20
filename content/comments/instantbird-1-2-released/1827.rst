@@ -4,6 +4,7 @@
 :author: Zingus
 :email: zingus@gmail.com
 :status: published
+:type: comment
 
 This TB license issue is nasty. Putting a working back-end replacement in front of user features is even nastier.
 

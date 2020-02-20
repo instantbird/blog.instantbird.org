@@ -4,6 +4,7 @@
 :author: madarexxx
 :email: madarexxx@gmail.com
 :status: published
+:type: comment
 
 | Can someone help me? I need support of mail.ru agent protocol.
 | I tried to do it in two ways:

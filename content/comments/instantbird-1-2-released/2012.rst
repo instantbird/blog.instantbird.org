@@ -3,5 +3,6 @@
 :date: 2012-08-29 19:36
 :author: Jeroen
 :status: published
+:type: comment
 
 Is it possible to provide the other protocols as add-ons for Thunderbird?

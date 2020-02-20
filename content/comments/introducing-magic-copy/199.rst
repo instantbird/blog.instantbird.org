@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: pav@zelek.ru
 :status: published
+:type: comment
 
 Well done! Just do not have the plug-in Anti-Spam!

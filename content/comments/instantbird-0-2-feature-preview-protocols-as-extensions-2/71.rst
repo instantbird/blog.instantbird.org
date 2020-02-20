@@ -4,5 +4,6 @@
 :author: Patrick Patience
 :email: UL
 :status: published
+:type: comment
 
 Haven't tested it out yet, but that's a pretty slick way to add protocols. Props.

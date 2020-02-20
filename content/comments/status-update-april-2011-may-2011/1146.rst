@@ -5,5 +5,6 @@
 :email: spanadspensur1975@imagcash.com
 :website: http://velmabtssio.blogrire.com
 :status: published
+:type: comment
 
 hi, that's a squeamish install. There is both mistakes but the primary is here.

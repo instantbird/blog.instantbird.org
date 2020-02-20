@@ -4,6 +4,7 @@
 :author: RezzoRix
 :email: UL
 :status: published
+:type: comment
 
 Great Job!
 

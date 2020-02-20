@@ -4,6 +4,7 @@
 :author: murat
 :email: muratsplanet@gmail.com
 :status: published
+:type: comment
 
 | i hope you will make the perfect multimessenger.with audio and video chat also.
 | and i hope you will bring a portable version of instandbird.because if you bring portable version also many people will download it.

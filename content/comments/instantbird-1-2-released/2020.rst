@@ -5,5 +5,6 @@
 :email: jim@ncc1701.ie
 :replyto: 2012
 :status: published
+:type: comment
 
 I'd also like to know the prospects of other protocols being supported in Thunderbird. I'd like to use ICQ with Thunderbird.

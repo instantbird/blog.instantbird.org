@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: gmontagu@gmail.com
 :status: published
+:type: comment
 
 Could you please tell me how canI install an Adium message style in Instantbird? Firefox doesn't recognize the file so it won't download it nor will other downloading program.

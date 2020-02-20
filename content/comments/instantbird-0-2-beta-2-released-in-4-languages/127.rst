@@ -4,5 +4,6 @@
 :author: Anonymous
 :email: UL
 :status: published
+:type: comment
 
 Thanks, guys. Love your messenger.

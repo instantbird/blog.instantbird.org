@@ -4,5 +4,6 @@
 :author: Nigcra
 :email: ich@will.niggs.de
 :status: published
+:type: comment
 
 Instantbird is so great and fast! I love it! Just a little more features (avatar selection + view in contact list, multicontacts, german translation) and I would kick Pidgin away.

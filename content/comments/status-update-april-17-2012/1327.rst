@@ -3,6 +3,7 @@
 :date: 2012-04-21 04:53
 :author: Anonymous
 :status: published
+:type: comment
 
 Happy to see the project is not dead. Seems like nothing has really been coming forth development-wise after such a major push out of the gate last year with version 1.
 

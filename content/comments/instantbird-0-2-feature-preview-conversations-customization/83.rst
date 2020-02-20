@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@(anonymous)**: there are some packaging differences so even if Instantbird uses the same themes as Adium, the file is a little different (it needs to be a valid .xpi file for Instantbird). You will be able to download message themes from `addons.instantbird.org <https://addons.instantbird.org/>`__ once this site is ready (very soon!).

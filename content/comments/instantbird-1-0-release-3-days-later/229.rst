@@ -4,6 +4,7 @@
 :author: Colby Russell
 :email: Sevenspade@gmail.com
 :status: published
+:type: comment
 
 "Some people very kindly offered help and proposed to host the website on their server, but it's difficult to trust someone we barely know to host a website that requires our SSL certificate."
 

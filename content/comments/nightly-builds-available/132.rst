@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 : Thanks for the feedback. In a future version (we don't know yet which version exactly) we will use the master password system of Mozilla's password manager. And providing a list of common IRC servers is indeed a good idea. :)

@@ -4,5 +4,6 @@
 :author: Julien Ramakichenin
 :email: julien@instantbird.org
 :status: published
+:type: comment
 
 Updates are coming soon!

@@ -4,5 +4,6 @@
 :author: Donfuy
 :email: UL
 :status: published
+:type: comment
 
 Has this stopped?

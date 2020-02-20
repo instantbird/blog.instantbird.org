@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Are there any plans to provide InstantBird-Firefox integration in the form of a Firefox extension? My ultimate dream would be to be able to access all my IMs from the Firefox sidebar!

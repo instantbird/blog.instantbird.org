@@ -4,6 +4,7 @@
 :author: Justin Wood (Callek)
 :email: Callek@gmail.com
 :status: published
+:type: comment
 
 >>Thanks to the people who ... and to the people who worked on the comm-central build system.<<
 

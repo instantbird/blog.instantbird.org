@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Definitely shaping up to be the best instant messenger...the potential is becoming a reality...Keep up the great work.

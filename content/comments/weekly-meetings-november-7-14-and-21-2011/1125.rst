@@ -5,6 +5,7 @@
 :email: caspy77@gmail.com
 :replyto: 1120
 :status: published
+:type: comment
 
 | Ah. Thanks for setting me straight (both of you).
 | I'm used to removing the dependencies on something as being the direct precursor to removing it.

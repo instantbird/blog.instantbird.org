@@ -4,6 +4,7 @@
 :author: Derp
 :email: miika.ahonen@gmail.com
 :status: published
+:type: comment
 
 "We were hoping to release Instantbird 1.2 near the end of January, 2012."
 

@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1534
 :status: published
+:type: comment
 
 I hope you're enjoying Instantbird so far! Please let us know if you have any problems (on our bugtracker most likely: https://bugzilla.instantbird.org).
 

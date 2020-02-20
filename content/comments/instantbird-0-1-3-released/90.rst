@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@No Contacts**: Are you sure you are not behind a firewall or proxy that doesn't let you use the ports of these protocols? And by the way, this is not a support forum.

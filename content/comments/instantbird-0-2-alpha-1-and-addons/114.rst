@@ -4,6 +4,7 @@
 :author: Tare
 :email: UL
 :status: published
+:type: comment
 
 | Is there something new, you can tell use? How is the work going? Are you all fine? :)
 | (hope my english is understandingly)

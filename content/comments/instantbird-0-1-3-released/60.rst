@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 Can I run InstantBird as a plug-in to firefox? that way, it integrates into it.

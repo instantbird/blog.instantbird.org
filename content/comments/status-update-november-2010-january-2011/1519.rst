@@ -4,5 +4,6 @@
 :author: Klexur
 :email: klexur@gmail.com
 :status: published
+:type: comment
 
 I'd like it much better if there was an option to enable/disable the auto-hiding of the statusbar. I prefer to have my chat windows smaller, but the typing notification is only shown in the statusbar, which is hidden. Is there a work-around?

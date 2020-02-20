@@ -4,6 +4,7 @@
 :author: Jess
 :email: nomail@no.no
 :status: published
+:type: comment
 
 Please, implement Vocal conversations with XMPP and SIP!
 

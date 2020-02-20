@@ -4,5 +4,6 @@
 :author: David Smith
 :email: catfish.man@gmail.com
 :status: published
+:type: comment
 
 Glad to see you're not supporting custom Template.html files; that's been a thorn in our side for years.

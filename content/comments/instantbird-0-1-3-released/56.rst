@@ -4,5 +4,6 @@
 :author: guice
 :email: UL
 :status: published
+:type: comment
 
 Sweet, been waiting for some IRC updates :D Now I can't wait for 0.2!

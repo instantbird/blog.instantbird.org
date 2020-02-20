@@ -4,5 +4,6 @@
 :author: Cory
 :email: UL
 :status: published
+:type: comment
 
 +1 Peter; looking forward to switching to this, but it's tough without e.g. tab completion in IRC.

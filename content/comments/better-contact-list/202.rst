@@ -4,6 +4,7 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Roflo**: The user icon will give me material for another post (hopefully tomorrow) ;).
 

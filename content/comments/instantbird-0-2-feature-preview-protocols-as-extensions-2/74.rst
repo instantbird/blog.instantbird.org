@@ -4,6 +4,7 @@
 :author: Merlin
 :email: UL
 :status: published
+:type: comment
 
 | When is the 0.2 release planned for? Where can we see (if available) some release/milestones plan?
 | Regards

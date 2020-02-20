@@ -4,5 +4,6 @@
 :author: olecve
 :email: UL
 :status: published
+:type: comment
 
 I totally agree with 404

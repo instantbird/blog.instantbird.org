@@ -4,6 +4,7 @@
 :author: Wexlei Silveira
 :email: wsilveira.nx@gmail.com
 :status: published
+:type: comment
 
 | Use protocols as extension was a great idea, for sure.
 | But I'm realy worried about how to implement Twitter. I think that maybe better to implement it as in Trillian.

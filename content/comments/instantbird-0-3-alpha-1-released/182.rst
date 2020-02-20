@@ -4,5 +4,6 @@
 :author: Andrey
 :email: UL
 :status: published
+:type: comment
 
 Good work! Thanks.

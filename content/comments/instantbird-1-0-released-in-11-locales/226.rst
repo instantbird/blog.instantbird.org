@@ -4,5 +4,6 @@
 :author: SwooopD
 :email: UL
 :status: published
+:type: comment
 
 Nice app! But I canÂ´t connect to Facebook Chat "Connection not possible". Are there options for (de)activating SSL/TLS for Facebook Chat?

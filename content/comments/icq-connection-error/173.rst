@@ -4,5 +4,6 @@
 :author: locotes
 :email: UL
 :status: published
+:type: comment
 
 Thanks for ur help! no more ERRORS

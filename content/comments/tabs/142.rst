@@ -4,5 +4,6 @@
 :author: Luke
 :email: UL
 :status: published
+:type: comment
 
 Has any thought been given to a vertical tab option? I know it's inconsistent with browsers, but it can be very convenient for chatting. I frequently chat with lots of people at the same time, more than can fit in the active portion of a horizontal tab bar. Vertical tabs are about the only thing I miss from my old Adium days.

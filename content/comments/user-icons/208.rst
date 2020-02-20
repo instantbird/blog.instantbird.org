@@ -4,5 +4,6 @@
 :author: commander keen
 :email: UL
 :status: published
+:type: comment
 
 @Florian: thanks for the reply, i'll have a look at it.

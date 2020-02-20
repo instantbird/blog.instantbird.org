@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 | 0.2b2 20100317194948 will not connect to Facebook. I receive an error message stating, "Error. You require encryption, but it is not available on this server."
 | Windows Vista Home Premium x64

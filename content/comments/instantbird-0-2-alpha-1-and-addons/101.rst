@@ -4,6 +4,7 @@
 :author: Mic
 :email: UL
 :status: published
+:type: comment
 
 There is an addon on the addon-page that allows to minimize the buddy list to tray:
 

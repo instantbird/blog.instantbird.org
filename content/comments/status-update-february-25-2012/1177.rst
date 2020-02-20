@@ -4,5 +4,6 @@
 :author: Anonymous
 :replyto: 1176
 :status: published
+:type: comment
 
 That's the reason for the past tense in that sentence ;).

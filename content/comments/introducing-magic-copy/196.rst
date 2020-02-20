@@ -4,5 +4,6 @@
 :author: deOmega
 :email: UL
 :status: published
+:type: comment
 
 This is really very impressive stuff. The problem you have addressed here is something that has had me and others struggling in our efforts to neatly organize and share discussions. Really very good work. Thank you.

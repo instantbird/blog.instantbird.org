@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Herman**: we made this change very recently, it's the new default behavior. You can try it in current nightly builds (or wait for Instantbird 0.3 alpha 2 which should be released soon). :)

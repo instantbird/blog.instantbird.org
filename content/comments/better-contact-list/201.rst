@@ -4,5 +4,6 @@
 :author: aSystemOverload
 :email: sylmand@googlemail.com
 :status: published
+:type: comment
 
 Can't seem to download 0.3, get ACCESS DENIED and can't find it on the site, where can I get it from??? :-)

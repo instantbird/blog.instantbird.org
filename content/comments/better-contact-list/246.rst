@@ -4,5 +4,6 @@
 :author: patrickjdempsey
 :email: UL
 :status: published
+:type: comment
 
 Also, is there a meta bug on improving the buddy list I can add some bugs to?

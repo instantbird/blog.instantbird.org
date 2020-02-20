@@ -4,6 +4,7 @@
 :author: No Contacts
 :email: UL
 :status: published
+:type: comment
 
 | I put three accounts, from yahoo, msn and gtalk, in none version of instantbird the contact are imported and if i put them one by one they dont show in the main windows.
 | Feature not implemented?

@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@(anonymous)1**: Uncheck "Require SSL/TLS" in the Advanced Options of the account.

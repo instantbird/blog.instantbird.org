@@ -4,5 +4,6 @@
 :author: Anonymous
 :replyto: 1174
 :status: published
+:type: comment
 
 Oops, that should be bugzilla.instantbird.org.

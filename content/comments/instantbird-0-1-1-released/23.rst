@@ -4,5 +4,6 @@
 :author: Salz
 :email: UL
 :status: published
+:type: comment
 
 Update?!? Can't wait for updates :-/

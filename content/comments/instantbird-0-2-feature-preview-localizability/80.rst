@@ -4,6 +4,7 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Axel**: Libpurple doesn't use gettext context strings. Technically, we can change the libpurple code as much as we want because we have a fork in our repository, but I prefer to change it as little as possible, to reduce the pain when upgrading it and merging our modifications.
 

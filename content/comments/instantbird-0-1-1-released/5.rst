@@ -4,5 +4,6 @@
 :author: Martin S.
 :email: UL
 :status: published
+:type: comment
 
 Instantbird seems nice, but i REALLY would like to have a (optional) all-in-one-window-solution for instant messaging, Climm (from climm.org) is a nice example for this.

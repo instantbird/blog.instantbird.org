@@ -5,5 +5,6 @@
 :email: cam@camm.id.au
 :website: http://www.camm.id.au
 :status: published
+:type: comment
 
 Any news on the SIPE front?

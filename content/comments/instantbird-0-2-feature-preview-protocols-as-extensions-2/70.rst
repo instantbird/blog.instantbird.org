@@ -4,5 +4,6 @@
 :author: Tare
 :email: UL
 :status: published
+:type: comment
 
 Nice to hear this :)

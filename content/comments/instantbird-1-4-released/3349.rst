@@ -1,0 +1,9 @@
+3349
+####
+:date: 2013-05-21 20:59
+:author: Mozilla Messenger Instantbird in Version 1.4 erschienen - soeren-hentzschel.at
+:website: http://www.soeren-hentzschel.at/mozilla/instantbird/2013/05/21/mozilla-messenger-instantbird-in-version-1-4-erschienen/
+:status: published
+:type: pingback
+
+[...] den Neuerungen von Instantbird 1.4 gehören ein verbesserter Zeichenzähler für Twitter, welcher nun auch URLs in den Tweets korrekt [...]

@@ -126,7 +126,7 @@ def get_out_filename(output_path, post_path, comment_filename, ext):
 
 
 
-def comments2pelican(comments, out_markup, output_path, strip_raw=False, include_pingbacks=False):
+def comments2pelican(comments, out_markup, output_path, strip_raw=False):
     pandoc_version = get_pandoc_version()
     posts_require_pandoc = []
 
@@ -160,8 +160,6 @@ def comments2pelican(comments, out_markup, output_path, strip_raw=False, include
 
         for (filename, comment_type, author, date, author_email, author_url, content, status,
                 parent, in_markup) in post_comments:
-            if not include_pingbacks and comment_type == 'pingback':
-                continue
             if is_pandoc_needed(in_markup) and not pandoc_version:
                 posts_require_pandoc.append(filename)
 
@@ -174,7 +172,7 @@ def comments2pelican(comments, out_markup, output_path, strip_raw=False, include
             else:
                 out_markup = 'rst'
                 header = build_header(
-                    filename, date, author, author_email, author_url, parent, status=status)
+                    filename, date, author, author_email, author_url, parent, status=status, type=comment_type)
 
             out_filename = get_out_filename(output_path, post_path, filename, ext)
             print(out_filename)
@@ -258,9 +256,6 @@ if __name__ == '__main__':
         '--strip-raw', action='store_true', dest='strip_raw',
         help="Strip raw HTML code that can't be converted to "
              "markup such as flash embeds or iframes (wordpress import only)")
-    parser.add_argument(
-        '--include-pingbacks', action='store_true', dest='include_pingbacks',
-        help='Include pingbacks in imported comments')
 
     args = parser.parse_args()
     if not os.path.exists(args.output):
@@ -276,5 +271,4 @@ if __name__ == '__main__':
     comments2pelican(comments,
                      args.markup,
                      args.output,
-                     strip_raw=args.strip_raw or False,
-                     include_pingbacks=args.include_pingbacks or False)
+                     strip_raw=args.strip_raw or False)

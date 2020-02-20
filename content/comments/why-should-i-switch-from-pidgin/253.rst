@@ -4,6 +4,7 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@skierpage**: While it would technically be possible to use the firefox.exe binary with the -app flag, we would gain almost nothing and it would be a sure way to get in trouble at each Firefox update.
 

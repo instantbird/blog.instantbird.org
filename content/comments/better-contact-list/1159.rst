@@ -4,6 +4,7 @@
 :author: Johnathan
 :email: johnathan_morlock@tsgcomputers.net
 :status: published
+:type: comment
 
 Is there a way to massively move contacts from one tag to another... or maybe renaming a tag group from one name to another or to an existing tag group to combine them?
 

@@ -4,5 +4,6 @@
 :author: Neil
 :email: UL
 :status: published
+:type: comment
 
 Great, thanks very much! As it happens, my office finally made the switch to Windows 7 last week and the tray is all of a sudden less of an issue :-)

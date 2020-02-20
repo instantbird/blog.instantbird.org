@@ -1,0 +1,9 @@
+958
+###
+:date: 2011-10-21 16:11
+:author: Instantbird 1.1 &#8211; po čtyřech letech
+:website: http://www.mikk.cz/wp/wp/2011/10/instantbird-1-1-po-ctyrech-letech/
+:status: published
+:type: pingback
+
+[...] po 4 letech od vydání prvního Instantbirdu 0.1 dnes vyšla verze o celou „jedničku“ [...]

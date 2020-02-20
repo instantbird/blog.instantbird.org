@@ -4,5 +4,6 @@
 :author: Antoine Turmel
 :email: turmelantoine@yahoo.fr
 :status: published
+:type: comment
 
 Cool je vais regarder Ã§a de plus prÃ¨s ;)

@@ -4,6 +4,7 @@
 :author: Patrick
 :email: clokep@gmail.com
 :status: published
+:type: comment
 
 @Roflo If you're talking about the user icon in the conversation window, that's new. I believe we'll have a blog post abou tthat soon too.
 

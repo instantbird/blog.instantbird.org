@@ -5,6 +5,7 @@
 :email: solid_ice8@hotmail.com
 :replyto: 1952
 :status: published
+:type: comment
 
 Thanks!
 

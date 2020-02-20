@@ -4,6 +4,7 @@
 :author: Patrick
 :email: clokep@gmail.com
 :status: published
+:type: comment
 
 | @Neil: (Really long time has passed, but anyway...) there's a few bugs open about sorting:
 | Bug 343 - Sort buddies alphabetically (https://bugzilla.instantbird.org/show_bug.cgi?id=343)

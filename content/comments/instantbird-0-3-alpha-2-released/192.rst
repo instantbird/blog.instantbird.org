@@ -4,6 +4,7 @@
 :author: ziomaul
 :email: ziomaul@tiscali.it
 :status: published
+:type: comment
 
 Thank you for incorporating the minimize to tray feature.
 

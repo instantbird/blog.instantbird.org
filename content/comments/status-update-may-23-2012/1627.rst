@@ -5,6 +5,7 @@
 :email: psyker7@gmail.com
 :website: http://psykar.com
 :status: published
+:type: comment
 
 | So I've just stumbled here while looking for a pidgin alternative. Nice GUI and cross platform.
 | To be honest the thing I love most is your usage of tags, and being able to hide tags. Great idea.

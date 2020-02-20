@@ -4,6 +4,7 @@
 :author: Benedikt P. [:Mic]
 :email: UL
 :status: published
+:type: comment
 
 @JosÃ©: the reasoning behind the duplication on the tab and in the user info area is no different from the repeated status icon.
 

@@ -4,5 +4,6 @@
 :author: Khan
 :email: UL
 :status: published
+:type: comment
 
 hey buddies.. great job!! have saved a lot of headache :P I wud really love to have video chat feature too tho :) keep it up

@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 When do you think it will be available in 0.2 final ?
 

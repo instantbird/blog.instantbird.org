@@ -4,5 +4,6 @@
 :author: Amfidiusz
 :email: UL
 :status: published
+:type: comment
 
 Great job, guys! Keep up a hard work!

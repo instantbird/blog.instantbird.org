@@ -4,6 +4,7 @@
 :author: David
 :email: UL
 :status: published
+:type: comment
 
 Just downloaded Instantbird and liking it so far. One Contact List setting I like on other IM clients that I'm missing on Instantbird is the ability to sort contacts based on status (i.e. those that show 'available' appear first in alphabetical order, followed by those that are away/busy again in alphabetical order).
 

@@ -4,6 +4,7 @@
 :author: ChrisThomas
 :email: UL
 :status: published
+:type: comment
 
 We have integrated InstantBird 0.2 in our package repos on Puppy Linux 5.1.1
 

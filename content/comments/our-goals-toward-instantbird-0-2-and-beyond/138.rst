@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 This all sounds very exciting. Thank you for the public updates. Please keep them coming.

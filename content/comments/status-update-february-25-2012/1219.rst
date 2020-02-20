@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1213
 :status: published
+:type: comment
 
 We'll gladly accept patches if there's someone interested in working on other protocols! Currently any improvements on protocols besides IRC or XMPP happen through libpurple (i.e. Pidgin's instant messaging library).

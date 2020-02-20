@@ -4,5 +4,6 @@
 :author: nef
 :email: nascent.spam@mailnull.com
 :status: published
+:type: comment
 
 does this mean msn display pics now work?

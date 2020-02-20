@@ -4,6 +4,7 @@
 :author: baza
 :email: UL
 :status: published
+:type: comment
 
 | When I use icq, I receive the message: "The client version you are using is too old. Please upgrade at http://www.instantbird.com".
 | version 0.1.3 (20081203103924)

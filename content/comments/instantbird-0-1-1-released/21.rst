@@ -4,5 +4,6 @@
 :author: Tare
 :email: UL
 :status: published
+:type: comment
 
 Well, if the 0.2 release doesn't take too much time I would wait for it, but if it takes more than a month I would prefer a 0.1.2 release before. Keep up the good work :)

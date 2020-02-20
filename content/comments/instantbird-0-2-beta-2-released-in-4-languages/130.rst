@@ -4,6 +4,7 @@
 :author: NeMMo
 :email: xp.sweetdreams@hotmail.fr
 :status: published
+:type: comment
 
 | Yeah it's a real great freeware, but there somes bugs :
 | - When you create a group that is put in contact. We restart the program and then we find our contact twice. Once in the group overall, a time in the lower one in which we move.

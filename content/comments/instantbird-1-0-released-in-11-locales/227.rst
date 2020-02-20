@@ -4,6 +4,7 @@
 :author: Nono
 :email: UL
 :status: published
+:type: comment
 
 | Hello,
 | Could you please provide a 64-bit Linux version?

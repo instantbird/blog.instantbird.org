@@ -4,5 +4,6 @@
 :author: Even
 :email: UL
 :status: published
+:type: comment
 
 @404 (and follow up): it should be there for 0.2b1. Stay tuned.

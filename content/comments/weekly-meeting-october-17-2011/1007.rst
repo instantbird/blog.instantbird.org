@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1006
 :status: published
+:type: comment
 
 Please use https://bugzilla.instantbird.org for bug reports.
 

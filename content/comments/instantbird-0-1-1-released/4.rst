@@ -4,6 +4,7 @@
 :author: dusoft
 :email: dusoft@staznostiNOSPAM.sk
 :status: published
+:type: comment
 
 | hi,
 | very good initiative. thanks for that. i'll be watching the project and looking forward to seeing first fully-featured (e.g. context options) functional version.

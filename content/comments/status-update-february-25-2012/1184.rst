@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1183
 :status: published
+:type: comment
 
 Thanks, I fixed that link! :)

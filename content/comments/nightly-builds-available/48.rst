@@ -4,5 +4,6 @@
 :author: Fellipe Cicconi
 :email: liperuf@gmail.com
 :status: published
+:type: comment
 
 Go IB! Go!

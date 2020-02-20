@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 2412
 :status: published
+:type: comment
 
 Thanks for the feedback.
 

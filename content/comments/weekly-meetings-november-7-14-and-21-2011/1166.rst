@@ -4,5 +4,6 @@
 :author: Derp
 :email: miika.ahonen@gmail.com
 :status: published
+:type: comment
 
 Did the development of this client suddenly die or why did the news stop?

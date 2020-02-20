@@ -1,0 +1,9 @@
+1871
+####
+:date: 2012-08-13 01:14
+:author: Instantbird updates with important changes inside
+:website: http://computerrepairya.com/blog/?p=210
+:status: published
+:type: pingback
+
+[...] 1.2 of the open source Instantbird instant messaging (IM) client is now available for Windows, Mac OS X and Linux. The latest version has been ten months in the making; a large [...]

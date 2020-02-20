@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 you should write what instanbird is on your home page. How can you run a website with out a description of your product?!! WTF!!! Anyway, I found the download links, you know, just in case I need to download a random app and try to figure out what it is doing ;-)

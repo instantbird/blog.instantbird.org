@@ -4,5 +4,6 @@
 :author: Jim
 :email: jim@ncc1701d.ie
 :status: published
+:type: comment
 
 I don't if the work from the Google Summer of Code contributed to it in any way, but the Additional Chat Protocols add on for Thunderbird is great. I'm using it with ICQ and it works well. As a result, I now have mail and instant messaging neatly integrated in one program which is exactly what I've wanted for a long time. Thanks.

@@ -4,5 +4,6 @@
 :author: Ibrahim
 :email: ibrahim.awwal@gmail.com
 :status: published
+:type: comment
 
 Ignore the idiots complaining, this seems awesome! I've been a Gaim/Pidgin user on Windows for several years, and I've been wanting a more Windows oriented open source IM client for a while. This might fit the ticket eventually, and I'm checking it out right now. You guys should get the Pidgin developers to mention you on their site or something for greater visibility.

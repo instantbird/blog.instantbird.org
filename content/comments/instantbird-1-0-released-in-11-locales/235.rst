@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Yong** We have received a few requests for SameTime support since the 1.0 release so we will consider bringing it back, yes.

@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1322
 :status: published
+:type: comment
 
 Thanks for trying Instantbird!
 

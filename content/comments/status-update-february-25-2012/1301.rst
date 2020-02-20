@@ -3,5 +3,6 @@
 :date: 2012-04-02 08:35
 :author: Molli
 :status: published
+:type: comment
 
 Anti-Spam pliz!

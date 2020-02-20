@@ -4,6 +4,7 @@
 :author: Saab
 :email: UL
 :status: published
+:type: comment
 
 Hallo!
 

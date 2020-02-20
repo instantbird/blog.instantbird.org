@@ -5,6 +5,7 @@
 :email: solid_ice8@hotmail.com
 :website: http://none
 :status: published
+:type: comment
 
 Hello guys,
 

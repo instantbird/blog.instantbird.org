@@ -4,5 +4,6 @@
 :author: deOmega
 :email: jahkae@yahoo.com
 :status: published
+:type: comment
 
 I am already impressed with this program. It has really come a very long way. Using it now for IRC as well as IM.

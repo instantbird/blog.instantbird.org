@@ -4,5 +4,6 @@
 :author: Eison
 :email: UL
 :status: published
+:type: comment
 
 Why isn't there a version for Mac OS X 10.4.11 PowerPC ?

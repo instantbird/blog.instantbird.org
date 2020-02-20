@@ -4,5 +4,6 @@
 :author: Underscore
 :email: UL
 :status: published
+:type: comment
 
 Happy birthday Instantbird!

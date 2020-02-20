@@ -4,5 +4,6 @@
 :author: Norman
 :email: UL
 :status: published
+:type: comment
 
 @Florian: Motivation? Order! Frankly, there is no buddy in my list with tag "xyz" but in the tag list there ist a tag called "xyz". A good userinterface would be in the preferences; appearance and there something like "manage your tags".

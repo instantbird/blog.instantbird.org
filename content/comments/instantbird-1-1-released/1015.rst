@@ -4,6 +4,7 @@
 :author: Arch Stanton
 :email: a-stanton@yandex.ru
 :status: published
+:type: comment
 
 | Sametime support = awesome!
 | However it seems I can't search to add new contacts. Anytime I try to add a contact through 'Add Buddy' menu, momentarily shows him in the contact list, then contact disappears. Bug?

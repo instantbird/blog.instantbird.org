@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: stuart.a.ballard@gmail.com
 :status: published
+:type: comment
 
 One missing feature that's a showstopper in pidgin for a friend of mine is Invisibility support for gmail. I did some research on that a while back and found that it's hard to support because Google decided to screw up the XMPP protocol in some way. But if Instantbird were to support that feature, I could immediately recommend it to my friend to try. Do you happen to know if Instantbird has that?

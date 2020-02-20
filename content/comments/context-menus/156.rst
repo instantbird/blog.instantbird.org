@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@(anonymous)**: there's a discoverability issue on the "Start conversation" item. Some people don't have the idea of double clicking or pressing enter.

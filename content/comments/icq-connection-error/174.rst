@@ -4,5 +4,6 @@
 :author: Basil
 :email: UL
 :status: published
+:type: comment
 
 Thank you! No more privacy! :) Is it possible to make option like Miranda's "Validate SSL Certificates"?

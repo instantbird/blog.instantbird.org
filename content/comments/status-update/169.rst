@@ -4,5 +4,6 @@
 :author: Robert Kaiser
 :email: kairo@kairo.at
 :status: published
+:type: comment
 
 Hmm, we are thinking about creating a non-profit for SeaMonkey as well, perhaps we should connect on this?

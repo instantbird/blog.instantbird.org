@@ -4,5 +4,6 @@
 :author: ariel
 :email: UL
 :status: published
+:type: comment
 
 Can't wait to see a final release! Please hurry! :) I'm downloading v0.1.1 now because Pidgin is not working so well.

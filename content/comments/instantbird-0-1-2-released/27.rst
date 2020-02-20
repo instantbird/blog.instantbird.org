@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 In 5 months all you do is stability update? that's really disappoint...

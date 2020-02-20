@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 2387
 :status: published
+:type: comment
 
 There's certainly no malware in it, I've sent Symantec a false positive report.

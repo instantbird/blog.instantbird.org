@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@patrickjdempsey**: This seems to be a Pidgin plugin, not a libpurple protocol plugin, and it uses XMPP (the page explains how an account can be created using the XMPP protocol plugin). However, I agree that we need to write some documentation for this feature.

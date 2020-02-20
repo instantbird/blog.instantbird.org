@@ -6,5 +6,6 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1374
 :status: published
+:type: comment
 
 Unfortunately (you won't like this response): when someone adds support for it. We know it's a wanted feature, but it's difficult to get right. (File transfers notoriously don't work for some people over instant messaging and we don't want it to work only half the time! We'd love there to be some kind of fallback mechanism...) There is a bug open on this though: https://bugzilla.instantbird.org/show_bug.cgi?id=9 If someone is interested in helping to add this, we'd definitely love that and will work with them to get it right. :)

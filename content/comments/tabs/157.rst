@@ -4,6 +4,7 @@
 :author: deOmega
 :email: UL
 :status: published
+:type: comment
 
 Vertical tabs are available on the addons site:
 

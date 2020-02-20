@@ -4,5 +4,6 @@
 :author: vpplucky
 :email: vpplucky@gmail.com
 :status: published
+:type: comment
 
 Could you please let me know if there is a expected date for integrating SIPE protocol?

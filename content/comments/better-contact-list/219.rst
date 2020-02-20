@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 | Cool! I just downloaded it! I got your link from Lifehacker.
 | CEO of http://ikejhamb.com

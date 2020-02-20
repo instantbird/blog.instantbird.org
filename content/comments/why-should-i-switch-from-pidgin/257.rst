@@ -4,6 +4,7 @@
 :author: Johannes
 :email: johannes.weiser@gmail.com
 :status: published
+:type: comment
 
 "Hey come on, we are in 2011, new machines have been shipping with gigabytes of memory for years already..."
 

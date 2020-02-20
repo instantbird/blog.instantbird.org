@@ -4,6 +4,7 @@
 :author: RongYao
 :email: lilstenly@gmail.com
 :status: published
+:type: comment
 
 | Hey there, thanks for the awesome app. Keep improving it.
 | And talking about improvements, one sort suggestion here.

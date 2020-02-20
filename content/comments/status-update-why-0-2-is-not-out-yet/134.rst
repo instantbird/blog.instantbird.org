@@ -4,5 +4,6 @@
 :author: amadorera
 :email: UL
 :status: published
+:type: comment
 
 good news :)

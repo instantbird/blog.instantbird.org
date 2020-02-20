@@ -4,5 +4,6 @@
 :author: jseger9000
 :email: jseger9000@comcast.net
 :status: published
+:type: comment
 
 I LIKE the user icons. The two green dots don't look so odd if your window is large enough to display the user icon. I do wish we had the option to see user icons in the Contacts list.

@@ -4,6 +4,7 @@
 :author: Livio
 :email: jakub.rusinek@gmail.com
 :status: published
+:type: comment
 
 I'm really counting on you. Pidgin's interface is boring and quite useless. You could give libpurple a new power.
 

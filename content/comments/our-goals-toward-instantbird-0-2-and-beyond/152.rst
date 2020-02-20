@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 [quote]I personally like the current system and find that seeing the icon for the chat protocol gives me more information than a tiny version of an avatar.[/quote]
 

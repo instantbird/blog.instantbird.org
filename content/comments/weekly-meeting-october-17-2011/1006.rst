@@ -4,6 +4,7 @@
 :author: vlad
 :email: serviceseo@gmail.com
 :status: published
+:type: comment
 
 | Jabber error
 | Ssl handshake Failed

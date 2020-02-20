@@ -5,6 +5,7 @@
 :email: benediktp@ymail.com
 :replyto: 1327
 :status: published
+:type: comment
 
 | > Seems like nothing has really been
 | > coming forth development-wise after

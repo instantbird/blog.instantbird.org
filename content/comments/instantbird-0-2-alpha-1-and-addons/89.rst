@@ -4,5 +4,6 @@
 :author: Instantbirdie
 :email: UL
 :status: published
+:type: comment
 
 This is EXCELLENT. Main Window Minimize to Tray, Regular Installer, and you are Golden. THIS is showing GREAT promise.

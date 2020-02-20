@@ -4,5 +4,6 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 restartless add-ons? So you're supporting JetPack add-ons?

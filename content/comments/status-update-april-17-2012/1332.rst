@@ -4,6 +4,7 @@
 :author: Anonymous
 :replyto: 1331
 :status: published
+:type: comment
 
 Then this is a case where it is unfortunate that some of us cannot appreciate the work that is going on in the background.
 

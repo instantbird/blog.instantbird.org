@@ -4,5 +4,6 @@
 :author: frank
 :email: UL
 :status: published
+:type: comment
 
 When come a new version?

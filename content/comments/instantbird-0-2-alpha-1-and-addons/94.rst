@@ -4,5 +4,6 @@
 :author: Michael B.
 :email: UL
 :status: published
+:type: comment
 
 On the alpha's download page, you mention that Instantbird has an about:config menu. How does one access it? I can't find it.

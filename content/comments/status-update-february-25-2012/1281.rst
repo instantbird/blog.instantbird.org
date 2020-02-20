@@ -6,6 +6,7 @@
 :website: http://clokep.blogspot.com/
 :replyto: 1280
 :status: published
+:type: comment
 
 Bug 1021 covers upgrading from the old libpurple plug-in to the new libqq one: https://bugzilla.instantbird.org/show_bug.cgi?id=1021 . The real issue is that we don't support captchas (or much of the request API from libpurple), which we've heard makes QQ essentially unusable. If you're interested in helping out, please stop by #instantbird on irc.mozilla.org or reply on the bug, etc.
 

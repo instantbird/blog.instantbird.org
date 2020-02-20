@@ -4,5 +4,6 @@
 :author: Antoine Turmel
 :email: geekshadow@gmail.com
 :status: published
+:type: comment
 
 Keep on the good work, and enjoy your holidays ;)

@@ -4,6 +4,7 @@
 :author: Peter
 :email: UL
 :status: published
+:type: comment
 
 The addons is currently down:
 

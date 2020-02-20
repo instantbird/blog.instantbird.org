@@ -4,6 +4,7 @@
 :author: foxmask
 :email: UL
 :status: published
+:type: comment
 
 | hi,
 | will a relase exist for android ?

@@ -4,5 +4,6 @@
 :author: Merlin
 :email: UL
 :status: published
+:type: comment
 
 Great, thanks a lot

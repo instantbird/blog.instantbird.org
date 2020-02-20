@@ -4,6 +4,7 @@
 :author: SamuÃ«l
 :email: samuelmortier76@gmail.com
 :status: published
+:type: comment
 
 | I already knew that :D
 | But I can hardly wait to translate.

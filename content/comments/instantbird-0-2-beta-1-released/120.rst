@@ -4,5 +4,6 @@
 :author: pjdkrunkt
 :email: pjdkrunkt@lycos.com
 :status: published
+:type: comment
 
 Anyone else having trouble connecting to AIM?

@@ -4,5 +4,6 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Charlie Callow**: We are aware of this issue that appears with the facebook chat protocol plugin. We will probably need to provide an update of the plugin. Thanks for your feedback!

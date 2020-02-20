@@ -4,6 +4,7 @@
 :author: Florian
 :email: florian@instantbird.org
 :status: published
+:type: comment
 
 **@Colby**: We didn't ask for help to the Mozilla Foundation for this specific issue. In the past our various requests have been denied, except the latest one: they agreed that we participate in Google Summer of Code with the Mozilla organization, and we are benefiting this year from a Google Summer of Code student :). Now that the project has gained some maturity (we have been around for almost 4 years!) and visibility, I think we would be more likely to get help. However I don't expect decisions (either way) to be taken immediately, and for this server issue we needed a solution ASAP.
 

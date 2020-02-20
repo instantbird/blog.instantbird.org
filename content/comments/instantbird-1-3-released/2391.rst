@@ -4,6 +4,7 @@
 :author: Amin Asoode
 :email: seyyed.amin@gmail.com
 :status: published
+:type: comment
 
 | Thank you ^_^
 | Now twitter inf instantbird is much more fun :D

@@ -4,6 +4,7 @@
 :author: Midnight
 :email: UL
 :status: published
+:type: comment
 
 | Looks nice, but still buggy. As previously mentioned, access to the Add-ons Link would be nice. Cannot import contacts for any IMs, so that kinda sucks! Have to enter each one Manually, unlike Trillian.
 | InstantBird does look promising!

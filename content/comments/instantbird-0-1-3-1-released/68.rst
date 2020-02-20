@@ -4,5 +4,6 @@
 :author: Raverabbitess
 :email: UL
 :status: published
+:type: comment
 
 mmmm addons please!!!!

@@ -4,6 +4,7 @@
 :author: Peter Lairo
 :email: PeterLairo@gmail.com
 :status: published
+:type: comment
 
 | Some suggestions:
 | - needs a taskbar icon

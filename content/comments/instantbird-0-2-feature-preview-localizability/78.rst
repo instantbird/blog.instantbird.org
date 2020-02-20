@@ -4,5 +4,6 @@
 :author: Axel Hecht
 :email: axel@pike.org
 :status: published
+:type: comment
 
 Did you consider using gettext msg context strings as identifiers in the properties files? Not sure how much you can change the libpurple code.

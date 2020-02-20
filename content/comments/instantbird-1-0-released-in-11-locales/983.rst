@@ -4,6 +4,7 @@
 :author: myk
 :email: myk.fariolen@gmail.com
 :status: published
+:type: comment
 
 | how to search invisible contacts to send messages. need inputs for this issue.
 | thanks

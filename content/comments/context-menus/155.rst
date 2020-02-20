@@ -4,6 +4,7 @@
 :author: (anonymous)
 :email: UL
 :status: published
+:type: comment
 
 I think you whould really remove those entries, that are already easily accessible through the UI. For example 'Start conversation' mustn't be there.
 

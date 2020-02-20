@@ -4,5 +4,6 @@
 :author: Cory
 :email: UL
 :status: published
+:type: comment
 
 @Florian: Thanks! With tab completion, I can now recommend Instantbird over Pidgin + xChat. Looking forward to browsing the other addons once you get more capacity!

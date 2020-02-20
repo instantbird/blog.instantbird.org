@@ -4,5 +4,6 @@
 :author: Jo
 :email: jofin007@yahoo.com
 :status: published
+:type: comment
 
 Waiting for the release !!
