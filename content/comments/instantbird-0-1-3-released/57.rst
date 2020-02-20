@@ -8,10 +8,10 @@
 
 Salut,
 
-Tu dis de vous rejoindre sur l'IRC Ã  la fin de ton poste, mais tu n'indiques pas le rÃ©seau. :P
+Tu dis de vous rejoindre sur l'IRC à la fin de ton poste, mais tu n'indiques pas le réseau. :P
 
-Je m'en vais tester cette version, en espÃ©rant qu'il deviennent le futur Miranda-IM sous GNU par la possibilitÃ© d'y ajouter plugins et qu'il soit tout aussi lÃ©ger. :)
+Je m'en vais tester cette version, en espérant qu'il deviennent le futur Miranda-IM sous GNU par la possibilité d'y ajouter plugins et qu'il soit tout aussi léger. :)
 
-Sinon, avez-vous la possibilitÃ© de faire un dÃ©pÃ´t (Debian Ã  tout hasard) Ã  terme ?
+Sinon, avez-vous la possibilité de faire un dépôt (Debian à tout hasard) à terme ?
 
 Merci. :)

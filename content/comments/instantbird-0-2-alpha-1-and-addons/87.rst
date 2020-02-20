@@ -6,4 +6,4 @@
 :status: published
 :type: comment
 
-Great work guys! I love the clean message styles, something that other clients (*coughs\* Pidgin \*coughs*) have been missing for awhile. Also, its running great off my USB, which is a double bonus. Definitely looking forward to the stable release of .2 .
+Great work guys! I love the clean message styles, something that other clients (\*coughs\* Pidgin \*coughs\*) have been missing for awhile. Also, its running great off my USB, which is a double bonus. Definitely looking forward to the stable release of .2 .

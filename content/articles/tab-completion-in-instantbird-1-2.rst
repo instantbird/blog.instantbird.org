@@ -11,11 +11,11 @@ We've made some major improvements to the tab completion of nicknames
 in IRC channels (and other chatrooms). The goal, as always, is to make it
 "just work" (so you can think about more important things!).
 
-Simply press TAB to complete the first couple of letters you have typed:
+Simply press |TAB| to complete the first couple of letters you have typed:
 
 |image0|
 
-To undo the completion, just press Backspace as usual.
+To undo the completion, just press |Backspace| as usual.
 
 If there is no unique nick that fits the bill, Instantbird tries to
 guess which nick you mean from the context. For example, if you have
@@ -25,13 +25,12 @@ alternative completions:
 
 |image1|
 
-You can then always press TAB again to cycle through these candidate
+You can then always press |TAB| again to cycle through these candidate
 nicks until you get the right one:
 
 |image2|
 
-(Shift+TAB will cycle through the list in the opposite direction.)
-
+(|Shift+TAB| will cycle through the list in the opposite direction.)
 
 Notice how Instantbird automatically added a colon after the nick, as
 we were addressing someone at the start of a message. And if you add
@@ -40,13 +39,25 @@ another nick, you get a comma-separated list:
 |image3|
 
 Of course, sometimes that may not be what you intended. So if you
-delete the trailing colon by pressing Backspace, the punctuation
+delete the trailing colon by pressing |Backspace|, the punctuation
 adjusts accordingly:
 
 |image4|
 
 Don't forget you can also reply to any message by double-clicking it!
 This will add the sender's nick to the beginning of the message.
+
+.. |TAB| raw:: html
+
+    <span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller">TAB</span>
+
+.. |Backspace| raw:: html
+
+    <span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller">Backspace</span>
+
+.. |Shift+Tab| raw:: html
+
+    <span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller">Shift</span>+<span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller">TAB</span>
 
 .. |image0| image:: {static}/wp-content/uploads/2013/07/tabc4.png
    :class: alignnone size-full

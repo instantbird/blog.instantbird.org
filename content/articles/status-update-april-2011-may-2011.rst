@@ -35,40 +35,38 @@ project.
 Done:
 -----
 
--  0.3 alpha 2 released! `Give it a
-   try <http://www.instantbird.com/download-0.3a2.html>`__ and let us
-   know what you think!
--  Contacts now show the list of the buddies they contain (as well as
-   their online status) in the tooltip.
--  Windows (and Linux) users can now minimize to the system tray (we've
-   integrated the popular MinTrayR add-on). Note that by default
-   Instantbird will minimize to tray when the "x" is clicked, to quit
-   the application choose "Quit" from the File menu or right click on
-   the system tray icon and choose "Quit". This behavior can be changed
-   from the preferences window.
--  Alphabetical sorting of group names (bug 366) and contacts (bug 343).
--  You can now quickly jump to the n-th tab using <modifier>+<n> in the
-   conversation window (bug 496), where <modifier> is ctrl on
-   Windows/Linux and Command on Mac.
--  The conversation tabs styling has been updating to match Firefox 4
-   (bug 768), although we're still working on getting some of the Aero
-   glass effects in.
-
-   |Screenshot of a work in progress|
-
-   Screenshot of the ongoing work on the Windows Aero theme, but also
-   showing the already finished new conversation and contacts list UI.
--  Users can now set their buddy icon and the display name of their
-   accounts right on the contacts list (bug 334).
--  The Conversation UI has received a major overhaul to show the buddy
-   icon, display name and current status of your contact. In addition,
-   you can switch the buddy you're talking to by clicking on the
-   protocol icon (bug 744).
--  Message themes can also properly show the user's own icon, go `check
-   one
-   out <https://addons.instantbird.org/en-US/instantbird/browse/type:1/cat:6>`__!
--  A help command ('/help') was added to quickly and easily see which
-   commands are available for the current conversation (bug 691).
+-   0.3 alpha 2 released! `Give it a
+    try <http://www.instantbird.com/download-0.3a2.html>`__ and let us
+    know what you think!
+-   Contacts now show the list of the buddies they contain (as well as
+    their online status) in the tooltip.
+-   Windows (and Linux) users can now minimize to the system tray (we've
+    integrated the popular MinTrayR add-on). Note that by default
+    Instantbird will minimize to tray when the "x" is clicked, to quit
+    the application choose "Quit" from the File menu or right click on
+    the system tray icon and choose "Quit". This behavior can be changed
+    from the preferences window.
+-   Alphabetical sorting of group names (bug 366) and contacts (bug 343).
+-   You can now quickly jump to the n-th tab using <modifier>+<n> in the
+    conversation window (bug 496), where <modifier> is ctrl on
+    Windows/Linux and Command on Mac.
+-   The conversation tabs styling has been updating to match Firefox 4
+    (bug 768), although we're still working on getting some of the Aero
+    glass effects in.
+    |Screenshot of a work in progress|
+    Screenshot of the ongoing work on the Windows Aero theme, but also
+    showing the already finished new conversation and contacts list UI.
+-   Users can now set their buddy icon and the display name of their
+    accounts right on the contacts list (bug 334).
+-   The Conversation UI has received a major overhaul to show the buddy
+    icon, display name and current status of your contact. In addition,
+    you can switch the buddy you're talking to by clicking on the
+    protocol icon (bug 744).
+-   Message themes can also properly show the user's own icon, go `check
+    one
+    out <https://addons.instantbird.org/en-US/instantbird/browse/type:1/cat:6>`__!
+-   A help command ('/help') was added to quickly and easily see which
+    commands are available for the current conversation (bug 691).
 
 For Developers:
 ---------------

@@ -1,7 +1,7 @@
 204
 ###
 :date: 2011-06-26 02:42
-:author: JosÃ©
+:author: José
 :email: UL
 :status: published
 :type: comment

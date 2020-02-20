@@ -27,8 +27,8 @@ is always appreciated!)
 Development Issues Discussed:
 -----------------------------
 
--  [STRIKEOUT:SSL issue.] Fixed
--  [STRIKEOUT:Translations not yet 1.1 compliant.] Fixed
+-  |SSL| Fixed
+-  |Translations| Fixed
 
 Non-Development Issues Discussed:
 ---------------------------------
@@ -52,5 +52,13 @@ Non-Development Issues Discussed:
 *If you read this full post, here is an extra sneak peak for you: Check
 out the `full list of new features in 1.1`_! More details on them
 are on the way, that's why this is just a sneak peek.*
+
+.. |SSL| raw:: html
+
+    <del>SSL issue.</del>
+
+.. |Translations| raw:: html
+
+    <del>Translations not yet 1.1 compliant.</del>
 
 .. _full list of new features in 1.1: https://etherpad.mozilla.org/9wXmFy7EBX

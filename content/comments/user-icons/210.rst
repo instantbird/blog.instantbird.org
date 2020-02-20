@@ -6,9 +6,9 @@
 :status: published
 :type: comment
 
-@JosÃ©: the reasoning behind the duplication on the tab and in the user info area is no different from the repeated status icon.
+@José: the reasoning behind the duplication on the tab and in the user info area is no different from the repeated status icon.
 
 | I can't see how the user name on the window title could possibly hurt, in contrary it would lose us the way to differentiate different conversation windows if we'd just put a "Conversations" there on every window. And it wouldn't even save any space to do so.
-| What's the way of improving/removing the duplication that you were thinking of, JosÃ©?
+| What's the way of improving/removing the duplication that you were thinking of, José?
 
 Best regards, Bendikt P.

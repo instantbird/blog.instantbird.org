@@ -1,7 +1,7 @@
 209
 ###
 :date: 2011-06-27 00:16
-:author: JosÃ©
+:author: José
 :email: jose.jeria@gmail.com
 :status: published
 :type: comment
