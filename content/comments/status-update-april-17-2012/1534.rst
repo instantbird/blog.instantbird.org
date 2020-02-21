@@ -8,12 +8,12 @@
 
 I'm trying out IBird because Pidgin has started crashing for me for the last two versions during MSN convos.
 
-1) What I miss most is an emoticon selection window that shows all emoticons from the currently active emoticon addon.
+\1) What I miss most is an emoticon selection window that shows all emoticons from the currently active emoticon addon.
 
-2) I'm using the excellent DarkChat 1.2 addon but the incoming messages show up as black (unless the other user has changed his color). I would like the option to override his text color.
+\2) I'm using the excellent DarkChat 1.2 addon but the incoming messages show up as black (unless the other user has changed his color). I would like the option to override his text color.
 
-3) Profile pics of my buddies ...
+\3) Profile pics of my buddies ...
 
-4) The icon/logo needs to be a bird, seriously.
+\4) The icon/logo needs to be a bird, seriously.
 
-5) How long are the convo logs kept ? Forever ? No option about it under Privacy.
+\5) How long are the convo logs kept ? Forever ? No option about it under Privacy.
