@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Page not found | Blog@instantbird.org{% endblock %}
+
+{% block body_class %}error404 two-column right-sidebar{% endblock %}
+
+{% block content %}
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-0" class="post error404 not-found">
+       <header class="entry-header">
+        <h1 class="entry-title">This is somewhat embarrassing, isn&rsquo;t it?</h1>
+      </header>
+
+      <div class="entry-content">
+        <p>It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.</p>
+
+        {% include 'searchform.html' %}
+
+        <div class="widget widget_recent_entries">
+          <h2 class="widgettitle">Recent Posts</h2>
+          <ul>
+            {% for article in articles[:10] %}
+            <li>
+              <a href="/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h2 class="widgettitle">Most Used Categories</h2>
+          <ul>
+            {% for category, articles in most_used_categories %}
+            <li class="cat-item">
+              <a href="/{{ category.url }}" title="View all posts filed under {{ category }}">{{ category }}</a> ({{ articles|count }})
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="widget widget_archive">
+          <h2 class="widgettitle">Archives</h2>
+          <p>Try looking in the monthly archives. :)</p>
+          <select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+            <option value="">Select Month</option>
+            {% for archive in month_archives %}
+            <option value="/{{ archive.url }}">{{ archive }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="widget widget_tag_cloud">
+          <h2 class="widgettitle">Tags</h2>
+          <div class="tagcloud">
+            {% for tag in tag_cloud %}
+            <a href="/{{ tag.0.url }}" title="{{ tag.2 }} topics" style="font-size: {{ tag.1 }}pt;">
+            {{ tag.0 }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div><!-- .entry-content -->
+    </article><!-- #post-0 -->
+
+  </div><!-- #content -->
+</div><!-- #primary -->
+{% endblock %}

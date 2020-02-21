@@ -24,6 +24,10 @@ EXTRA_PATH_METADATA = {
     # Include a favicon.
     'static/favicon.ico': {'path': 'favicon.ico'},
 }
+TEMPLATE_PAGES = {
+    # Custom 404 page for GitHub pages.
+    '404.html': '404.html',
+}
 
 TIMEZONE = 'UTC'
 DEFAULT_DATE_FORMAT = '%B %-d, %Y'
@@ -126,6 +130,13 @@ REDIRECT_SAVE_AS = [
     'n{index}-{slug}.html',
 ]
 
+# Configure the tag cloud.
+TAG_CLOUD_MAX_ITEMS = 100
+TAG_CLOUD_MIN_FONT = 8
+TAG_CLOUD_MAX_FONT = 22
+TAG_CLOUD_ORDER_BY = 'name'
+TAG_CLOUD_ORDER = 'ASC'
+
 # Configure installed plug-ins.
 PLUGIN_PATHS = [
     'pelican-plugins/',
@@ -134,5 +145,7 @@ PLUGINS = [
     'pelican_comment_system',
     'plugins.archives',
     'plugins.comments',
+    'plugins.most_used_categories',
     'plugins.redirects',
+    'plugins.tag_cloud',
 ]
