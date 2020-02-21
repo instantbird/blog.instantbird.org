@@ -3,7 +3,6 @@
   <p>Pingback: <a href='{{ comment.website }}' rel='external nofollow ugc' class='url'>{{ comment.author }}</a></p>
 
 {% else %}
-{# TODO #}
 <li class="comment even thread-even depth-1{% if comment.author == article.author %} bypostauthor{% endif %}" id="li-comment-{{ comment.slug }}">
   <article id="comment-{{ comment.slug }}" class="comment">
     <footer class="comment-meta">
@@ -13,10 +12,8 @@
             {% set avatar_size = 39 %}
           {% endif %}
 
-          {# TODO Get the gravatar URL for the author. #}
           <img alt='' src='{{ comment.avatar }}' class='avatar avatar-{{ avatar_size }} photo' height='{{ avatar_size }}' width='{{ avatar_size }}'/>
 
-          {# TODO Author URLs #}
           <span class="fn">
             {{ comment.author }}</span> on <a href="{{ comment.url }}"><time datetime="{{ comment.date.isoformat() }}">{{ comment.date.strftime('%B %-d, %Y at %-I:%M') }} {{ comment.date.strftime('%p').lower() }}</time></a> <span class="says">said:
           </span>

@@ -1,4 +1,3 @@
-* Check TODOs and "if false"
 * Add pages
 * Tag slugification is wrong:
     * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)
