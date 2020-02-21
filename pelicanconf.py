@@ -119,12 +119,20 @@ SLUG_REGEX_SUBSTITUTIONS = [
 # Enable the comments system.
 PELICAN_COMMENT_SYSTEM = True
 
+# Configure permalink redirects.
+REDIRECT_SAVE_AS = [
+    'a{index}-{slug}.html',
+    'c{index}-{slug}.html',
+    'n{index}-{slug}.html',
+]
+
 # Configure installed plug-ins.
 PLUGIN_PATHS = [
     'pelican-plugins/',
 ]
 PLUGINS = [
-    'plugins.archives',
     'pelican_comment_system',
+    'plugins.archives',
     'plugins.comments',
+    'plugins.redirects',
 ]
