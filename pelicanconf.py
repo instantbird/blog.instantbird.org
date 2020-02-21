@@ -20,6 +20,10 @@ STATIC_PATHS = [
     'wp-content',
 ]
 EXTRA_PATH_METADATA = {
+    # Disable GitHub's Jekyll parsing, this will allow folders starting with a .
+    # to be served:
+    # https://help.github.com/articles/files-that-start-with-an-underscore-are-missing/
+    'static/.nojekyll': {'path': '.nojekyll'},
     # Include a favicon.
     'static/favicon.ico': {'path': 'favicon.ico'},
 }
