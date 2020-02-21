@@ -62,8 +62,8 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# Do not use relative URLs.
+RELATIVE_URLS = False
 
 # Create an archive for each year, month, and day.
 YEAR_ARCHIVE_URL = '{date:%Y}/'
