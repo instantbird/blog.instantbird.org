@@ -1,5 +1,0 @@
-:date: 2008-06-09 16:54
-:author: (anonymous)
-:replyto: 0
-
-Does anybody know when 0.2 will come?

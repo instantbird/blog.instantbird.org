@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - mac</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Thu, 22 Jul 2010 22:04:35 +0000</lastBuildDate><item><title>Tip for MacBook users</title><link>http://blog.instantbird.org/2010/07/tip-for-macbook-users/</link><description>&lt;p&gt;Instantbird 0.2 uses the multitouch feature of Macbook touchpads in
+conversation&amp;nbsp;windows:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Pinch in or out 2 fingers to change the zoom&amp;nbsp;level.&lt;/li&gt;
+&lt;li&gt;Swipe up (3 fingers) to scroll to the top of the conversation, down
+to scroll to the last message. This saves time when looking for an
+old messages in the conversation (for example, using the Find
+feature) and then going back to the display of the most recent&amp;nbsp;messages.&lt;/li&gt;
+&lt;li&gt;Twist left or right to select the tab at the left or right of the
+currently selected&amp;nbsp;tab.&lt;/li&gt;
+&lt;li&gt;Swipe left or right (3 fingers) to change the selected tab to the
+previously selected tab. This gesture is probably the most useful
+one: it&amp;#8217;s very convenient when reading quickly a message in a newly
+opened tab and then going back to the conversation tab where an
+active conversation is occurring, or when actively participating in 2
+discussions and repeatedly switching between 2&amp;nbsp;tabs.&lt;/li&gt;
+&lt;/ul&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 22 Jul 2010 22:04:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-22:/2010/07/tip-for-macbook-users/</guid><category>Support</category><category>0.2</category><category>mac</category></item></channel></rss>

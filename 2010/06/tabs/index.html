@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Tabs | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-tabs" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Tabs</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2010/06/tabs/" title="11:41 PM" rel="bookmark"><time class="entry-date" datetime="2010-06-30T23:41:39+00:00">June 30, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>During the 0.2 cycle, we spent a lot of time reworking the conversation
+window. The conversation window will now feel more familiar to Firefox
+users. That&#8217;s because lots of parts have been borrowed and adapted. In
+this post, and the next few posts, we will present features that are
+already present in Firefox, but have been adapted for&nbsp;Instantbird.</p>
+<p>Let&#8217;s begin with tabs: conversations appear in tabs that work exactly
+the same way as in Firefox&nbsp;3.6.</p>
+<div class="section" id="tab-sizing">
+<h2>Tab&nbsp;sizing</h2>
+<p>Tabs are sized to take full advantage of the available space: when there
+are only a few tabs, their width allows seeing most of the title of the
+conversations, and a close button is visible on each tab, making it easy
+to close a tab with a single&nbsp;click.</p>
+<p><img alt="Top of conversation window with 2 tabs and some free space" src="http://blog.instantbird.org/images/tabs1-2tabsandfreespace.png" /></p>
+<p>If there are more tabs or if the window is smaller, the tabs shrink, and
+the close button remains visible only on the selected tab to save&nbsp;space.</p>
+<p><img alt="Top of conversation window with 4 tabs, only one close button is displayed" src="http://blog.instantbird.org/images/tabs2-4tabs1closebutton.png" /></p>
+<p>If the space is really too limited to fit all the conversation tabs, the
+tab bar becomes scrollable and a button appears to give the user a way
+to display a list of all tabs at&nbsp;once.</p>
+<p><img alt="Top of conversation window with overflowing tabs, and the all tabs menu opened" src="http://blog.instantbird.org/images/tabs3-overflowandalltabsmenu.png" /></p>
+<p>All this makes very small conversation windows&nbsp;usable.</p>
+<p><img alt="Very small conversation window with 2 tabs" src="http://blog.instantbird.org/images/tabs4-smallwindow.png" /></p>
+</div>
+<div class="section" id="drag-and-drop">
+<h2>Drag and&nbsp;drop</h2>
+<p>Tabs can be easily reordered, just drag a tab and drop it where you wish
+it to&nbsp;be.</p>
+<p><img alt="dragging a tab, tab drop arrow visible in the same window" src="http://blog.instantbird.org/images/tabs5-reorder.png" /></p>
+<p>Dropping a tab elsewhere detaches the tab to create a new window. The
+new window appears where the tab was&nbsp;dropped.</p>
+<p><img alt="new window with only one tab" src="http://blog.instantbird.org/images/tabs6-detach.png" /></p>
+<p>Tabs can also be dragged between&nbsp;windows:</p>
+<p><img alt="dragging a tab, drop arrow visible in another window" src="http://blog.instantbird.org/images/tabs7-movebetweenwindows.png" /></p>
+</div>
+<div class="section" id="os-integration">
+<h2><span class="caps">OS</span>&nbsp;integration</h2>
+<p>On Mac <span class="caps">OS</span> X, the active conversation window is easy to distinguish from
+the others, thanks to different colors of the&nbsp;tabs.</p>
+<p><img alt="An active and an inactive conversation window on Mac OS X" src="http://blog.instantbird.org/images/tabs8-macosxactiveinactive.png" /></p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/features/" title="View all posts in Features">Features</a> and tagged           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a> by <a href="/author/flo/">flo</a>. Bookmark the <a href="/2010/06/tabs/" title="Permalink to Tabs" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-tabs -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      7 thoughts on &ldquo;<span>Tabs</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-139">
+  <article id="comment-139" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-139"><time datetime="2010-07-01T05:03:00+00:00">July 1, 2010 at 5:03 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Superb work! I wish we could have those beautiful mac color and frames on Windows!! This looks so sexy on the&nbsp;mac.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-140">
+  <article id="comment-140" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/573334b6a2998387f669909419f276f4?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Markus Stange</span> on <a href="#comment-140"><time datetime="2010-07-01T09:41:00+00:00">July 1, 2010 at 9:41 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>You can improve the Mac style a little: Instead of using titlebarcolor, just put a 2px high strip under the titlebar that has -moz-appearance: -moz-mac-unified-toolbar, and then hide its dark bottom border by pulling the tabs over it using margin-top: -1px. Then you will have a nice gradient in the titlebar and it will look exactly like the tabs in&nbsp;Terminal.app.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-141">
+  <article id="comment-141" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-141"><time datetime="2010-07-01T10:11:00+00:00">July 1, 2010 at 10:11 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Thanks for the tip!&nbsp;:)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-142">
+  <article id="comment-142" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Luke</span> on <a href="#comment-142"><time datetime="2010-07-01T13:01:00+00:00">July 1, 2010 at 1:01 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Has any thought been given to a vertical tab option? I know it&#8217;s inconsistent with browsers, but it can be very convenient for chatting. I frequently chat with lots of people at the same time, more than can fit in the active portion of a horizontal tab bar. Vertical tabs are about the only thing I miss from my old Adium&nbsp;days.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-143">
+  <article id="comment-143" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-143"><time datetime="2010-07-01T13:07:00+00:00">July 1, 2010 at 1:07 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Luke</strong>: an add-on is being developed for vertical tabs. I don&#8217;t know when it&#8217;s going to be released, but given that the author comes in the #instantbird <span class="caps">IRC</span> chatroom and seems to work on it almost every day, I guess it&#8217;s going to be &#8216;soon&#8217;&nbsp;:).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-157">
+  <article id="comment-157" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            deOmega</span> on <a href="#comment-157"><time datetime="2010-07-13T17:12:00+00:00">July 13, 2010 at 5:12 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Vertical tabs are available on the addons&nbsp;site:</p>
+<p><a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/244">https://addons.instantbird.org/en-<span class="caps">US</span>/instantbird/addon/244</a></p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-170">
+  <article id="comment-170" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/9bac647cc5bfe7e040abab24b1c3e60c?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            sabret00the</span> on <a href="#comment-170"><time datetime="2010-11-21T12:39:00+00:00">November 21, 2010 at 12:39 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Can&#8217;t we just get rid of the title bar like Firefox 4 and like Trillian have done with Trillian&nbsp;5?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

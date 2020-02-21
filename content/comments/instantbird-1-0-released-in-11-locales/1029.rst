@@ -1,6 +1,0 @@
-:date: 2011-11-04 19:23
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 983
-
-I'm not sure what you mean by "search invisible contacts", if a contact is invisible you will just see them as offline.

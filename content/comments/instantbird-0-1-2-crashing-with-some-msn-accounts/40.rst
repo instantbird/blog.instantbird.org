@@ -1,5 +1,0 @@
-:date: 2008-09-11 23:29
-:author: Cris
-:replyto: 0
-
-I've downloaded instant bird and tried to install it. It asked me for my account information and it does get my friends but does not allow me to message them or give any information on them. It has the usual windows box with my friends usernames inside and at the top the options it gives me to click on are File (w/add buddy & get away), Tools (Sounds, accounts & add-ons), ? (about Instantbird), Join Chat is also under File but does not work. Is there to be more or what? I followed the instructions to the T. Was there something more I needed like another program installed? If so be more detailed in your instructions. And if there isn't any more this program needs alot more cause it sucks.

@@ -1,5 +1,0 @@
-:date: 2009-12-09 22:59
-:author: pjdkrunkt
-:replyto: 0
-
-Awesome! I hope you all will be able to move quickly to a full 0.2 release... this wonderful program needs more public support and more developers!

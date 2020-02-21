@@ -1,5 +1,0 @@
-:date: 2008-09-12 11:48
-:author: Florian
-:replyto: 0
-
-**@Cris** : Just double click on your friends in the list to message them.

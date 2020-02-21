@@ -1,5 +1,0 @@
-:date: 2010-12-02 09:46
-:author: Lukas Vesely
-:replyto: 0
-
-Thank you for advice. It was working well, but today it does not work again. Do you have some new information? Thanks a lot.

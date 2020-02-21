@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Uncategorized</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 12 Aug 2008 02:07:24 +0000</lastBuildDate><item><title>Instantbird 0.1.2 crashing with some MSN accounts</title><link>http://blog.instantbird.org/2008/08/instantbird-0-1-2-crashing-with-some-msn-accounts/</link><description>&lt;p&gt;We have just released Instantbird 0.1.2.1 to fix a crash that a lot of
+people experienced when trying to connect their &lt;span class="caps"&gt;MSN&lt;/span&gt; account on Windows.
+Unfortunately, this issue wasn&amp;#8217;t detected during our testing prior to
+the release and we are really sorry about&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;If you have Instantbird 0.1.2 on Windows (and if it doesn&amp;#8217;t crash at
+startup because of an automatic connection to your &lt;span class="caps"&gt;MSN&lt;/span&gt; account), you
+will receive an automated update notification within 24 to 48&amp;nbsp;hours.&lt;/p&gt;
+&lt;p&gt;You can get the full version of Instantbird 0.1.2.1 from the
+&lt;a class="reference external" href="http://www.instantbird.com/download.html"&gt;download&lt;/a&gt;&amp;nbsp;page.&lt;/p&gt;
+&lt;p&gt;We would like to thank our users who sent crash reports and useful
+feedback, and congrats to the people who worked on the crash reporting
+and automated update tools. Being able to notice, locate and fix quickly
+such bugs with a small (21kB) update is just&amp;nbsp;amazing!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 12 Aug 2008 02:07:24 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2008-08-12:/2008/08/instantbird-0-1-2-crashing-with-some-msn-accounts/</guid><category>Uncategorized</category><category>0.1</category><category>msn</category></item></channel></rss>

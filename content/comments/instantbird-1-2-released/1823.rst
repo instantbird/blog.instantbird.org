@@ -1,6 +1,0 @@
-:date: 2012-08-10 03:34
-:author: Cam
-:website: http://www.camm.id.au
-:replyto: 0
-
-Is SIPE integration still in the mix? I thought this was to be implemented in 1.2?

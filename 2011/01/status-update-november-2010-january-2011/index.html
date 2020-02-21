@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Status Update: November 2010 - January 2011 | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-status-update-november-2010-january-2011" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Status Update: November 2010 - January&nbsp;2011</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2011/01/status-update-november-2010-january-2011/" title="8:45 PM" rel="bookmark"><time class="entry-date" datetime="2011-01-31T20:45:23+00:00">January 31, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>It&#8217;s been over two months from our last status update and a lot of
+changes and updates have occurred (from
+<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/02d87017c8ca">changeset</a>
+to
+<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/70d4ef408f3e">changeset</a>).
+Below we list changes for the nightly trunk builds of Instantbird&nbsp;(0.3a1pre).</p>
+<div class="section" id="done">
+<h2>Done:</h2>
+<ul class="simple">
+<li>Basic support for Twitter was added (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=598">bug
+598</a>).
+When the twitter account is connected, a timeline conversation
+automatically opens. If the conversation is closed by the user, it&#8217;s
+reopened automatically when new messages arrive. The user should
+disconnect the account from the account manager to prevent new
+messages from being displayed.
+There&#8217;s a &#8220;track&#8221; advanced option that allows to specify keywords to
+track. This is a comma separated list of keywords. Comma means <span class="caps">OR</span>,
+space inside a keyword means <span class="caps">AND</span>.</li>
+<li>The conversation <span class="caps">UI</span> has received a slight update:
+On Mac the splitter between the conversation and input boxes was
+<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/9616e11f0a4f">reduced</a>.
+For all operating systems, the status bar of the conversation window
+is now <a class="reference external" href="http://hg.instantbird.org/instantbird/rev/a2687b36dadd">automatically hidden when the window is made
+small</a>.</li>
+<li>After quite a lot of debate, the wording of the option for when to
+create a new conversation window was updated (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=387">bug
+387</a>).</li>
+<li>An old regression where the new JavaScript logger used *nix style
+line breaks on all systems was fixed so Windows logs can be viewed in
+Notepad (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=473">bug
+473</a>).</li>
+<li>The conversation window can now be minimized with the <span class="caps">ESC</span> key (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=441">bug
+441</a>).</li>
+<li>Support for <a class="reference external" href="http://hg.instantbird.org/instantbird/rev/f2cd3e499f8d">Windows <span class="caps">CE</span> was
+dropped</a>.</li>
+<li>The themes preference pane now shows if themes are disabled or
+incompatible (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=364">bug
+364</a>).</li>
+<li>Multi-user chats now show an disconnected icon when offline or after
+leaving a room (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=520">bug
+520</a>).</li>
+<li>libpurple has been updated to
+<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/b9b12560d425">2.7.9</a>
+(from&nbsp;2.7.3)</li>
+<li>Localized strings with a keyboard accelerator were not localized
+properly in the &#8216;Join Chat&#8217; dialog (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=655">bug
+655</a>).</li>
+<li>For Developers:<ul>
+<li>The menus are no longer created with a preprocessor directive and
+are now included via a <span class="caps">XUL</span> overlay (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=622">bug
+622</a>).</li>
+<li>A <a class="reference external" href="http://hg.instantbird.org/instantbird/log/82123845bacf/purple/purplexpcom/src/jsProtoHelper.jsm">large number of updates have occurred in
+jsProtoHelper.jsm</a>,
+used to simplify the creation of JavaScript protocols. They are
+now able to access account-specific preferences (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=495">bug
+495</a>),
+handle username splits (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=647">bug
+647</a>),
+join chat rooms (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=648">bug
+648</a>). In
+addition, some bugs were fixed to ignore the libpurple proxy
+structure (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=649">bug
+649</a>),
+automatically highlight messages containing the user&#8217;s nick in
+multi-user chats (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=661">bug
+661</a>),
+and <a class="reference external" href="http://hg.instantbird.org/instantbird/rev/035f7d8d7f78">some clean up
+occurred</a>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="next">
+<h2>Next:</h2>
+<ul class="simple">
+<li>Release 0.3 alpha&nbsp;1.</li>
+<li>Florian is attending
+<a class="reference external" href="https://wiki.mozilla.org/Fosdem:2011"><span class="caps">FOSDEM</span></a>, where he&#8217;ll show
+Instantbird on <a class="reference external" href="https://wiki.mozilla.org/Fosdem:2011/Schedule">Sunday, February 6th,
+2011</a> in a talk
+about XULRunner Applications entitled &#8220;Instantbird and Conkeror &#8212; A
+view from the authors&#8221; (Axel Beckert will be discussing&nbsp;Conkeror).</li>
+<li>Research into setting up a non-profit&nbsp;organization.</li>
+</ul>
+<p>By the way&#8230; Happy new year! Yeah&#8230; we are late <img alt=";)" src="http://blog.instantbird.org/smileys/clin_d'oeil.png" />.</p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/development/" title="View all posts in Development">Development</a> and tagged           <a href="/tag/status-update/">status update</a> by <a href="/author/clokep/">clokep</a>. Bookmark the <a href="/2011/01/status-update-november-2010-january-2011/" title="Permalink to Status Update: November 2010 - January 2011" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-status-update-november-2010-january-2011 -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      7 thoughts on &ldquo;<span>Status Update: November 2010 - January&nbsp;2011</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-176">
+  <article id="comment-176" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Neil</span> on <a href="#comment-176"><time datetime="2011-02-02T17:40:00+00:00">February 2, 2011 at 5:40 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Very exciting! The two features I am most looking forward to in 0.3 (from the roadmap) are the systray icon for Windows and buddy icon support&#8230; Can you tell me what the status of these two features&nbsp;is?</p>
+<p>Keep up the good&nbsp;work!</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-177">
+  <article id="comment-177" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-177"><time datetime="2011-02-03T10:24:00+00:00">February 3, 2011 at 10:24 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Neil</strong>: The coding work on the systray icon and on buddy icons hasn&#8217;t really started, but will probably start&nbsp;soon.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-178">
+  <article id="comment-178" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Neil</span> on <a href="#comment-178"><time datetime="2011-02-03T14:45:00+00:00">February 3, 2011 at 2:45 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Awesome! Thanks for letting me know, Instantbird looks really promising and I&#8217;m really excited about your plans for it. I&#8217;m a happy Adium user at home on <span class="caps">OS</span> X, but at work, I&#8217;ve struggled to find an <span class="caps">IM</span> client I can get on with, and I&#8217;ve tried most of them&#8230; Windows Live is just embarrassing. Pidgin is hampered by <span class="caps">GTK</span>+ and doesn&#8217;t behave like a Windows application. Digsby is full of spam (and spams your friends). Miranda is the best I&#8217;ve found so far, but all of its default behaviours are baffling and it has a ridiculous number of options to configure it, making it a bit of a&nbsp;mess.</p>
+<p>Instantbird looks like the Windows (well, cross-platform) <span class="caps">IM</span> client I&#8217;ve been looking for for years now, as soon as 0.3 hits, I expect to become a regular user! (Without the systray icon I&#8217;ll just be closing it by accident all the&nbsp;time!).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-179">
+  <article id="comment-179" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Patrick</span> on <a href="#comment-179"><time datetime="2011-02-03T15:09:00+00:00">February 3, 2011 at 3:09 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#64;Neil: There is a version of Minimize to Tray available on the Mozilla Add-Ons website, but it has not yet been mirrored to our website, you can download it by right clicking and choosing &#8220;Save Link as&#8230;&#8221; on the newest version (0.8.4 currently) from this page: <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/minimizetotray-revived/versions/">https://addons.mozilla.org/en-<span class="caps">US</span>/firefox/addon/minimizetotray-revived/versions/</a> That should keep you from closing it by&nbsp;mistake!</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-180">
+  <article id="comment-180" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Neil</span> on <a href="#comment-180"><time datetime="2011-02-07T10:06:00+00:00">February 7, 2011 at 10:06 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Great, thanks very much! As it happens, my office finally made the switch to Windows 7 last week and the tray is all of a sudden less of an issue&nbsp;:-)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1519">
+  <article id="comment-1519" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/f4d18979338455d9bcb3a564779e3474?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Klexur</span> on <a href="#comment-1519"><time datetime="2012-05-09T22:47:00+00:00">May 9, 2012 at 10:47 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I&#8217;d like it much better if there was an option to enable/disable the auto-hiding of the statusbar. I prefer to have my chat windows smaller, but the typing notification is only shown in the statusbar, which is hidden. Is there a&nbsp;work-around?</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1521">
+  <article id="comment-1521" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1521"><time datetime="2012-05-10T13:46:00+00:00">May 10, 2012 at 1:46 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>We&#8217;d actually really like to get rid of the status bar in general, we think there are better ways to show the information (i.e. typing notifications, number of characters left) then we&#8217;re currently using&nbsp;it.</p>
+<p>The tab color should also change (to green I believe) when your buddy is typing a message to you.&nbsp;:)</p>
+<p>I don&#8217;t know a way to always enable it off hand, but it should be possible with a userChrome.css&nbsp;hack.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

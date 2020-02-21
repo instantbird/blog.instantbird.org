@@ -1,5 +1,0 @@
-:date: 2009-07-24 03:54
-:author: Instantbirdie
-:replyto: 0
-
-This is EXCELLENT. Main Window Minimize to Tray, Regular Installer, and you are Golden. THIS is showing GREAT promise.

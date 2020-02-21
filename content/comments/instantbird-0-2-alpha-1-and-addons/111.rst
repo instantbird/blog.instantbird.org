@@ -1,5 +1,0 @@
-:date: 2009-09-18 20:40
-:author: Francesco &lt;The Player&gt;
-:replyto: 0
-
-It's OK. Version 0.1.3.1 has a bug for Yahoo connction. Version 0.2 alpha works properly. I should remember the parameter for Yahoo. Fill the username field only with <user_name> without "@yahoo.com". Thanks to Florian and Tak. Thanks to all Instantbird developers' (I'm waiting the final ersion 0.2. Good work!)

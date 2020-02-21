@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - philosophy</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>http://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
+features (you can see them
+clicking&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;). The
+Instantbird team is interested in offering this &lt;span class="caps"&gt;IM&lt;/span&gt; client to everyone,
+so there&amp;#8217;s a new language in this release: &lt;strong&gt;Brazilian
+Portuguese&lt;/strong&gt;&amp;nbsp;-&amp;nbsp;&lt;strong&gt;Sim, nós falamos Português!&lt;/strong&gt;.&amp;nbsp;Now Brazilians users can
+enjoy Instantbird&amp;nbsp;in&amp;nbsp;their&amp;nbsp;language.&lt;/p&gt;
+&lt;p&gt;Additionally,&amp;nbsp;Instantbird&amp;nbsp;brought&amp;nbsp;back&amp;nbsp;the &lt;strong&gt;Russian language&lt;/strong&gt;&amp;nbsp;in
+this release. This language&amp;nbsp;was in&amp;nbsp;Instantbird&amp;nbsp;since version 0.2, but it
+was not present&amp;nbsp;in&amp;nbsp;version&amp;nbsp;1.2. Thanks&amp;nbsp;go out&amp;nbsp;to
+our&amp;nbsp;Russian&amp;nbsp;localization&amp;nbsp;team for&amp;nbsp;making&amp;nbsp;this&amp;nbsp;possible!&lt;/p&gt;
+&lt;p&gt;Since the&amp;nbsp;0.2&amp;nbsp;release, Instantbird has&amp;nbsp;been&amp;nbsp;available in 5 languages
+-&amp;nbsp;English,&amp;nbsp;Finnish,&amp;nbsp;French,&amp;nbsp;Polish and&amp;nbsp;Russian. The 1.0&amp;nbsp;release
+brought&amp;nbsp;six&amp;nbsp;more languages&amp;nbsp;and now&amp;nbsp;Instantbird&amp;nbsp;is&amp;nbsp;available in &lt;strong&gt;13&lt;/strong&gt;&amp;nbsp;languages!&lt;/p&gt;
+&lt;p&gt;The Instantbird team has a &lt;a class="reference external" href="http://www.instantbird.org/"&gt;goal&lt;/a&gt;:&amp;nbsp;&amp;#8220;to
+redefine the way instant messaging is used, to work the way you
+want.&amp;#8221;&amp;nbsp;To reach this goal, it&amp;#8217;s necessary that Instantbird can be used
+by as many&amp;nbsp;people&amp;nbsp;as possible, in every country. So
+we&amp;nbsp;encourage&amp;nbsp;interested people to translate it to&amp;nbsp;their&amp;nbsp;languages.&amp;nbsp;If
+you&amp;#8217;re interested in helping us achieve this goal by creating
+new&amp;nbsp;translations&amp;nbsp;or&amp;nbsp;improving Instantbird, you can get more
+information&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.org/#getinvolved"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Our goals: toward Instantbird 0.2 and beyond</title><link>http://blog.instantbird.org/2010/06/our-goals-toward-instantbird-0-2-and-beyond/</link><description>&lt;p&gt;As you may already know, Instantbird 0.2 will be released soon. The
+development of this version has been going on for more than a year
+already! While we have been busy adding new features or polishing
+existing ones, we may have missed a few opportunities to communicate
+about what we were doing, what we had already done, where we are going,
+and why. And when we did write something about our new features, the
+announcements lacked screenshots, and probably didn&amp;#8217;t convey much of our&amp;nbsp;enthusiasm.&lt;/p&gt;
+&lt;p&gt;The last few days before the 0.2 release are an opportunity for us make
+up for our lack of&amp;nbsp;communication.&lt;/p&gt;
+&lt;div class="section" id="the-way-toward-instantbird-1-0"&gt;
+&lt;h2&gt;The way toward Instantbird&amp;nbsp;1.0&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s begin with a clarification about the way we are slowly but surely
+going to our future 1.0 release. Our &lt;a class="reference external" href="http://wiki.instantbird.org/Instantbird:Initial_Roadmap"&gt;initial
+roadmap&lt;/a&gt;
+contained the somewhat misleading claim that our goal for 1.0 was to
+reach &amp;#8220;feature parity&amp;#8221; with &lt;a class="reference external" href="http://pidgin.im/"&gt;Pidgin&lt;/a&gt;. This led
+some people to believe that we were basically copying the Pidgin
+graphical user interface and reimplementing it in &lt;span class="caps"&gt;XUL&lt;/span&gt;. Although this
+could have held some truth for the earlier goal of Instantbird - which
+was to provide the extensibility that is loved in Firefox and features
+similar to those found in Pidgin - this is no longer the&amp;nbsp;case.&lt;/p&gt;
+&lt;p&gt;When we implement a new feature in Instantbird, we carefully consider
+how it is likely to be used. We think about the use cases. We look at
+how the same problem has been handled by other existing &lt;span class="caps"&gt;IM&lt;/span&gt; clients, so
+that we can benefit from what others have done before us. Sometimes we
+take inspiration and implement something in a similar way to another
+client (for instance the &lt;a class="reference external" href="http://wiki.instantbird.org/Instantbird:Message_Styles_reference"&gt;message theme
+system&lt;/a&gt;
+that we have borrowed from &lt;a class="reference external" href="http://adium.im/"&gt;Adium&lt;/a&gt;), but sometimes
+things don&amp;#8217;t look satisfying and we have to look for a better solution.
+We especially try to avoid exposing the user to new popup dialogs that
+interrupt the user but don&amp;#8217;t seem absolutely&amp;nbsp;necessary.&lt;/p&gt;
+&lt;p&gt;Once something is implemented, we do our best to take advantage of the
+early feedback we get from our &lt;a class="reference external" href="http://blog.instantbird.org/articles/nightly-builds-available.rst"&gt;nightly&lt;/a&gt;&amp;nbsp;testers.&lt;/p&gt;
+&lt;p&gt;So why are we doing this? Copying the interface of an existing
+application as quickly as possible would be easier, and would lead to a
+fast result. But it would be worthless. We don&amp;#8217;t need another Pidgin,
+Adium, &amp;#8230; (insert the name of your favorite multi-protocol &lt;span class="caps"&gt;IM&lt;/span&gt;
+application here). These applications already exist and are mostly
+great, there&amp;#8217;s no point in cloning them. What we do care about is our
+users: our current users of course, but also future users. We believe
+instant messaging should be less frustrating. We want to build an
+all-in-one instant messaging application that is as easy as possible to
+use, yet powerful. We value simplicity and ease of use in the default
+configuration, and at the same time we want to allow advanced
+customizations. Developers with an idea should be able to easily
+customize their &lt;span class="caps"&gt;IM&lt;/span&gt; client, like they can already do with their web&amp;nbsp;browser.&lt;/p&gt;
+&lt;p&gt;We value privacy, and respect your data. Instant messages often have
+confidential or intimate content. We believe that our users should have
+the power to decide how this information is used, and where it is
+stored. This is the reason why even though more and more users decide to
+use web applications like Gmail, Facebook or Meebo for their &lt;span class="caps"&gt;IM&lt;/span&gt; needs,
+we believe that it is still relevant in 2010 to build an &lt;span class="caps"&gt;IM&lt;/span&gt; application
+that runs directly on the computer you&amp;nbsp;own.&lt;/p&gt;
+&lt;p&gt;We don&amp;#8217;t know yet how Instantbird 1.0 will be, it will need to be
+discussed. With You. At this point we are discussing which improvements
+will compose the 0.3 release. If you want to take part in this
+discussion or have questions related to our long term goals, don&amp;#8217;t
+hesitate to &lt;a class="reference external" href="http://instantbird.com/contact.html"&gt;get in touch&lt;/a&gt; with&amp;nbsp;us.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-next"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;next?&lt;/h2&gt;
+&lt;p&gt;We are confident that if you have tried a release from the Instantbird
+0.1.* series, you will see Instantbird 0.2 as major improvement. And if
+you haven&amp;#8217;t used Instantbird before, then the 0.2 release is a great
+time to start! In the next few days, we will detail a few of the
+features that already make Instantbird 0.2 a very usable instant
+messaging application, despite its low version&amp;nbsp;number.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 29 Jun 2010 14:21:45 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-06-29:/2010/06/our-goals-toward-instantbird-0-2-and-beyond/</guid><category>Development</category><category>0.2</category><category>philosophy</category></item></channel></rss>

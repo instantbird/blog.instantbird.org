@@ -1,9 +1,0 @@
-:date: 2012-11-28 16:07
-:author: RongYao
-:replyto: 0
-
-| Hey there, thanks for the awesome app. Keep improving it.
-| And talking about improvements, one sort suggestion here.
-| Sort tabs by protocol (mostly for muc windows) with an option for which protocol the rule applies. Which means muc windows will be open in tabs in separate window from your single user chat if you choose that option, but if muc window opens a single user chat (like query in irc) instead opening it separately, tab will be opened where other irc tabs are.
-
-Also option for buddy list to be able to sort by: status, protocol, alphabetically in order which you can choose.

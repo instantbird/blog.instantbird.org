@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Better contact list | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-better-contact-list" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Better contact&nbsp;list</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2011/06/better-contact-list/" title="6:48 PM" rel="bookmark"><time class="entry-date" datetime="2011-06-23T18:48:12+00:00">June 23, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>The contact list was identified as a weak area of Instantbird 0.2. It
+has been dramatically improved for Instantbird 0.3 which we plan to
+release next&nbsp;week.</p>
+<div class="section" id="tags">
+<h2>Tags</h2>
+<div class="section" id="goodbye-groups">
+<h3>Goodbye&nbsp;groups</h3>
+<p>Like most <span class="caps">IM</span> clients, Instantbird 0.2 had each contact placed in a
+group, leading users to organize contacts a bit like files are placed in
+folders on the&nbsp;disk.</p>
+<p>While this seems ok at first, placing contacts inside groups doesn&#8217;t
+work well when thinking of the contact as a person. Don&#8217;t you have a
+friend (group &#8216;friend&#8217;) who is also a coworker (group&nbsp;&#8216;colleagues&#8217;)?</p>
+<p>For this reason, with Instantbird 0.3 we replaced the notion of
+&#8220;Groups&#8221; with the notion of &#8220;Tags&#8221; throughout the user interface.
+While groups used to be containers for your contacts (it was possible
+to move a contact from one group into another), tags are additional
+data attached to the contact (you can add or remove tags on a contact,
+but no longer &#8216;move&#8217; a contact) and thus a single contact can have
+multiple tags. To change the tags attached to a contact, use the
+&#8220;Tags&#8230;&#8221; context menu item of the contact; it shows a list of the
+existing tags with a check mark next to the tags attached to the
+selected contact. Checking/unchecking a tag in this list will
+attach/detach a tag from the&nbsp;contact.</p>
+<p><img alt="Tags menu" src="http://blog.instantbird.org/images/tags-menu.png" /></p>
+</div>
+<div class="section" id="hidden-tags">
+<h3>Hidden&nbsp;tags</h3>
+<p>It&#8217;s pretty common when using several accounts of different protocols on
+a multi-protocol client for the first time to have contacts scattered
+around in lots of meaningless tags. These contacts are typically those
+that have never been moved before and are still in whatever the default
+group of the various previous clients&nbsp;were.</p>
+<p>As moving each of these contacts out of these meaningless groups is
+not really an interesting task, and sometimes is even impossible (if
+the server doesn&#8217;t allow us to move it), we have designed a more
+efficient way to forget the annoyance caused by the pointless
+resulting tags: when hovering a tag in the contact list, you will see
+an [x] icon. Clicking it will hide the tag (after showing an
+explanation the first&nbsp;time).</p>
+<p><img alt="Hide tag icon" src="http://blog.instantbird.org/images/hide-tag-button.png" /></p>
+<p>It&#8217;s possible to manage the list of visible tags (to unhide a tag) from
+the &#8220;Visible tags&#8230;&#8221; context menu&nbsp;item.</p>
+<p>Contacts which haven&#8217;t been associated with a visible tag will be
+displayed in a special &#8220;Other Contacts&#8221; tag, always at the bottom of the
+contact&nbsp;list.</p>
+</div>
+</div>
+<div class="section" id="grouped-contacts">
+<h2>Grouped&nbsp;contacts</h2>
+<p>If several networks are usable to <span class="caps">IM</span> the same person, you will no longer
+be annoyed by seeing that person listed several times in your contact
+list. Just drag and drop one of these contacts onto another and
+Instantbird will know they are both ways to contact the same&nbsp;person.</p>
+<p>During future conversations, if your contact suddenly starts talking to
+you from a different network, the conversation will continue in the same
+tab. A system message will be displayed in the conversation to
+unobtrusively notify you of this&nbsp;change.</p>
+<p>If you want to start talking to a different account of your contact,
+you can do so easily with a click on the protocol icon at the top
+right of the conversation <span class="caps">UI</span>:</p>
+<p><img alt="Talk using a different network" src="http://blog.instantbird.org/images/conversation-targets-menu.png" /></p>
+<p>When starting a conversation from the contact list, Instantbird will
+automatically select the best way to reach your contact, based on
+availability information and your preference with regard to the
+various ways to contact this person. You can change this preference by
+expanding a contact (with the down arrow icon) and then using drag and
+drop to reorder the&nbsp;accounts.</p>
+<p><img alt="Expanded contact" src="http://blog.instantbird.org/images/expanded-contact.png" /></p>
+</div>
+<div class="section" id="other-noticable-changes">
+<h2>Other noticable&nbsp;changes</h2>
+<ul class="simple">
+<li>The contact list is now sorted: both tags and contacts inside a tag
+appear alphabetically&nbsp;sorted.</li>
+<li>Changes in the displayed information are smoothly animated, making
+them at the same time easier to understand and less&nbsp;interrupting.</li>
+<li>Closing the contact list window, which is not needed all the time,
+will no longer close Instantbird. On Windows and Linux it will be
+minimized to the system tray (this behavior can be customized in the
+Preference dialog); on Mac it can be easily reopened from the&nbsp;menubar.</li>
+</ul>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/features/" title="View all posts in Features">Features</a> and tagged           <a href="/tag/contacts/">contacts</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a> by <a href="/author/flo/">flo</a>. Bookmark the <a href="/2011/06/better-contact-list/" title="Permalink to Better contact list" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-better-contact-list -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      19 thoughts on &ldquo;<span>Better contact&nbsp;list</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-200">
+  <article id="comment-200" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Roflo</span> on <a href="#comment-200"><time datetime="2011-06-23T20:14:00+00:00">June 23, 2011 at 8:14 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I don&#8217;t recall the portrait/icon to be in version 0.2. Or was&nbsp;it?</p>
+<p>Anyway.. it&#8217;s a change that I found to be noticeable.&nbsp;;)</p>
+<p>Kudos to the Instantbird&nbsp;team!</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-201">
+  <article id="comment-201" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/cc55eaa3e0d869513575bc96c7c5e92e?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            aSystemOverload</span> on <a href="#comment-201"><time datetime="2011-06-23T21:00:00+00:00">June 23, 2011 at 9:00 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Can&#8217;t seem to download 0.3, get <span class="caps">ACCESS</span> <span class="caps">DENIED</span> and can&#8217;t find it on the site, where can I get it from???&nbsp;:-)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-202">
+  <article id="comment-202" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-202"><time datetime="2011-06-23T21:31:00+00:00">June 23, 2011 at 9:31 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Roflo</strong>: The user icon will give me material for another post (hopefully tomorrow)&nbsp;;).</p>
+<p><strong>&#64;aSystemOverload</strong>: 0.3 final hasn&#8217;t been released yet, we plan to release it next week (I&#8217;ve just edited the first paragraph of the post to clarify this). All the features described in this post are already available in Instantbird 0.3 beta (there&#8217;s a link on the home page, labeled &#8220;Try Instantbird 0.3 beta!&#8221;). I&#8217;m glad to see you are eager to download it&nbsp;:).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-203">
+  <article id="comment-203" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Patrick</span> on <a href="#comment-203"><time datetime="2011-06-23T21:32:00+00:00">June 23, 2011 at 9:32 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#64;Roflo If you&#8217;re talking about the user icon in the conversation window, that&#8217;s new. I believe we&#8217;ll have a blog post abou tthat soon&nbsp;too.</p>
+<p>&#64;aSystemOverload Instantbird 0.3 is not released yet, it will be released next week. You can download the beta from <a class="reference external" href="http://instantbird.com/download-0.3b1.html">http://instantbird.com/download-0.3b1.html</a></p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-215">
+  <article id="comment-215" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Norman</span> on <a href="#comment-215"><time datetime="2011-06-29T00:50:00+00:00">June 29, 2011 at 12:50 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Hi, first it&#8217;s a very nice <span class="caps">IM</span>, but there is one important point - managing/ deleting tags. Is there any way to do this or do I have to wait for the next&nbsp;release?</p>
+<div class="line-block">
+<div class="line">Best,</div>
+<div class="line">Norman.</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-216">
+  <article id="comment-216" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-216"><time datetime="2011-06-29T01:25:00+00:00">June 29, 2011 at 1:25 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Norman</strong>: It&#8217;s not supported yet. By the way, any idea of what could be a good user interface for&nbsp;that?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-217">
+  <article id="comment-217" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-217"><time datetime="2011-06-29T01:28:00+00:00">June 29, 2011 at 1:28 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Norman</strong>: What&#8217;s the motivation for wanting to delete a tag? If the tags that are empty weren&#8217;t visible in the &#8216;Tags&#8230;&#8217; context menu, would that solve your&nbsp;issue?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-218">
+  <article id="comment-218" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Norman</span> on <a href="#comment-218"><time datetime="2011-06-29T16:12:00+00:00">June 29, 2011 at 4:12 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#64;Florian: Motivation? Order! Frankly, there is no buddy in my list with tag &#8220;xyz&#8221; but in the tag list there ist a tag called &#8220;xyz&#8221;. A good userinterface would be in the preferences; appearance and there something like &#8220;manage your&nbsp;tags&#8221;.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-219">
+  <article id="comment-219" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-219"><time datetime="2011-06-29T19:01:00+00:00">June 29, 2011 at 7:01 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">Cool! I just downloaded it! I got your link from Lifehacker.</div>
+<div class="line"><span class="caps">CEO</span> of <a class="reference external" href="http://ikejhamb.com">http://ikejhamb.com</a></div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-221">
+  <article id="comment-221" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            David</span> on <a href="#comment-221"><time datetime="2011-06-29T23:18:00+00:00">June 29, 2011 at 11:18 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Just downloaded Instantbird and liking it so far. One Contact List setting I like on other <span class="caps">IM</span> clients that I&#8217;m missing on Instantbird is the ability to sort contacts based on status (i.e. those that show &#8216;available&#8217; appear first in alphabetical order, followed by those that are away/busy again in alphabetical&nbsp;order).</p>
+<p>Any chance that option will be included in the near&nbsp;future?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-222">
+  <article id="comment-222" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-222"><time datetime="2011-06-29T23:29:00+00:00">June 29, 2011 at 11:29 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Norman</strong>:</p>
+<p>So if the tag list stopped listing the empty tags, you would have the order you crave without having to take the time do the work of actually removing these tags, wouldn&#8217;t you?&nbsp;:)</p>
+<p><strong>&#64;David</strong>: We have a bug filed on this (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=701">Bug 701</a> - Sort buddies by&nbsp;status).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-237">
+  <article id="comment-237" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            patrickjdempsey</span> on <a href="#comment-237"><time datetime="2011-07-08T04:38:00+00:00">July 8, 2011 at 4:38 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I wasn&#8217;t aware 0.3 was so far along for release as 1.0! I didn&#8217;t realize this partly because I kept thinking that the Buddy List was seriously broken because I couldn&#8217;t grab and drag buddies to rearrange them in the list. I&#8217;ve got 5 messenger accounts, several of which I&#8217;ve maintained for almost 10 years now and so when I say I have a *huge* buddy list, I&#8217;m not exaggerating. Being able to organize those buddies into discreet groups which I can then collapse so I don&#8217;t have to see them is extremely important for me. Tags does the opposite of that, if you drag buddies around you end up with more and more copies of them all over the place. And when you &#8220;close&#8221; a tag it just moves all of the untagged buddies down to the bottom instead of hiding them. I *need* my groups! This isn&#8217;t just a matter of me being old fashioned, compartmentalization is the only way I can keep up with all of these people and organize them. Is there any way we can have the option to choose *between* Groups and Tags? Or have Tags be a totally separate&nbsp;interface?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-238">
+  <article id="comment-238" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-238"><time datetime="2011-07-08T11:43:00+00:00">July 8, 2011 at 11:43 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;patrickjdempsey</strong> I have about 20 accounts, some of which I&#8217;ve had for about 10 years too, and thousands of buddies, so I don&#8217;t think this point is relevant&nbsp;here.</p>
+<p><span class="dquo">&#8220;</span>if you drag buddies around you end up with more and more copies of them all over the place&#8221; this sentence makes no sense to me. Drag and drop is used to merge buddies into contacts, it&#8217;s not related to tags or groups (and a contact has all the tags of the buddies that compose it, but it doesn&#8217;t add&nbsp;more).</p>
+<p><span class="dquo">&#8220;</span>when you &#8220;close&#8221; a tag it just moves all of the untagged buddies down to the bottom instead of hiding them.&#8221; I don&#8217;t understand this either. Or are you maybe confusing closing and hiding a tag? To close a tag, double click on its name or click on the icon at the left of the name. Closing a tag is useful for people you want to have in a separate place, but don&#8217;t need to interact with at the moment. Hiding a tag is a completely different operation (done with the [X] icon at the right of the tag name, or from the context menu) to ignore tags that are totally meaningless without having to remove the tag from each of the contained&nbsp;contacts.</p>
+<p>I hope this clarifies things, if it doesn&#8217;t, please do get back to me as I would like to understand your problem if there is one beside the apparent confusion. In any case, thanks for your feedback!&nbsp;:)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-245">
+  <article id="comment-245" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            patrickjdempsey</span> on <a href="#comment-245"><time datetime="2011-07-09T19:44:00+00:00">July 9, 2011 at 7:44 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Ok, I&#8217;m seeing now that I can collapse the tags without closing them&#8230; that really confused me when I hit the X button and the contacts moved&nbsp;around.</p>
+<p>The dragging thing is really confusing for me. In every <span class="caps">UI</span> I&#8217;ve ever used dragging an item from one place to another place physically moves it. In this new system dragging items does not move them as I would expect. In fact, a whole series of unexpected things happen when you drag a buddy. Instead of an item disappearing from one list and appearing on another like in the old system, the item disappears altogether and it&#8217;s old position is renamed to the new buddy name it&#8217;s been merged with. That&#8217;s two really unexpected actions at once. And it&#8217;s not easy to figure out how to correct that. Context menus are almost never intuitive! I feel like you&#8217;ve hidden all of the important <span class="caps">UI</span> interaction behind context menus and made the upfront <span class="caps">UI</span> difficult to understand. There&#8217;s also a bug where sometimes contacts get renamed to the name of the buddy they are merged with that makes it even more confusing! I notice you do have the note &#8220;drop a contact her to merge it&#8221; but this only appears in an expanded contact list, which most users will not notice at first. These are some suggestions I have after playing around with the new&nbsp;system:</p>
+<ul class="simple">
+<li>Hide the buddy information popups when an item is &#8220;grabbed&#8221; with the mouse, as they get in the&nbsp;way.</li>
+<li>Offer a way to organize buddies by dragging without using the context menus: dragging a buddy into the name of the tag should *move* it into that tag group. (And I mean move, not copy! remove from previous group and add to new group). This would also allow a way to remove a buddy from one tag without using the context menu, as well as allow a way to remove a buddy from the contact list it&#8217;s in by dragging it to group name. That is the kind of interaction most people familiar with mouse-based <span class="caps">UI</span>&#8217;s will expect I&nbsp;think.</li>
+<li>Show instructional popups while buddies are being dragged: &#8220;Move to this tag group&#8221; &#8220;Merge into this contact&nbsp;list&#8221;</li>
+<li>Automatically show the full contact list when a buddy is merged into that list via the mouse. This will avoid that &#8220;where did it go????&#8221; syndrome. It will also make it easier to find and visually confirm if you accidentally drop a buddy in the wrong contact list. Currently accidentally dropping a buddy means it&#8217;s basically lost until you go through all of the contacts and expand them one by&nbsp;one.</li>
+<li>Dispense with the collapsing of the contact list. Clicking on a buddy should show all of the information the first time without multiple clicks. This will also help to avoid &#8220;loosing&#8221; buddies if you accidentally drop them into a contact&nbsp;list.</li>
+<li>When clicking on one buddy from another, perhaps the collapsing of the old buddy info and the expanding of the new buddy info should be animated? Especially with the expanded contact lists there gets to be a jumpy interaction where the mouse isn&#8217;t sitting on the same spot in the list where it was&nbsp;before.</li>
+<li>Dispense with the redundant name in the contact&nbsp;list.</li>
+<li>Offer an X button beside buddies in a contact list to remove them from the&nbsp;list.</li>
+<li>Offer a &#8220;chat&#8221; button beside buddies in a contact list on hover. If the chat button is offered on the top level of the contact list, why isn&#8217;t it offered inside the&nbsp;list?</li>
+<li>Visual clue that a buddy name contains a hidden contact list. I&#8217;m not a fan of visual clutter, but I think it&#8217;s important to show a distinction between a single buddy and a hidden contact list. It could be something simple like having the text in&nbsp;bold?</li>
+</ul>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-246">
+  <article id="comment-246" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            patrickjdempsey</span> on <a href="#comment-246"><time datetime="2011-07-09T20:00:00+00:00">July 9, 2011 at 8:00 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Also, is there a meta bug on improving the buddy list I can add some bugs&nbsp;to?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-247">
+  <article id="comment-247" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-247"><time datetime="2011-07-09T20:09:00+00:00">July 9, 2011 at 8:09 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;patrickjdempsey</strong>: Thanks for the feedback! I&#8217;m not aware of a meta bug for the buddy list, feel free to create one if you feel the need&nbsp;:).</p>
+<p>Note: we have never supported moving a buddy from a group into another by a drag and drop in the&nbsp;past.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-248">
+  <article id="comment-248" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            patrickjdempsey</span> on <a href="#comment-248"><time datetime="2011-07-10T00:07:00+00:00">July 10, 2011 at 12:07 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>You know what Florian&#8230; you are right.. I have no idea why I though you could&nbsp;before!</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-249">
+  <article id="comment-249" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-249"><time datetime="2011-07-10T00:15:00+00:00">July 10, 2011 at 12:15 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Maybe you have used Pidgin for years?&nbsp;;)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1159">
+  <article id="comment-1159" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/b83ccb190ade74776c5c38edb5a95458?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Johnathan</span> on <a href="#comment-1159"><time datetime="2012-01-04T21:17:00+00:00">January 4, 2012 at 9:17 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Is there a way to massively move contacts from one tag to another&#8230; or maybe renaming a tag group from one name to another or to an existing tag group to combine&nbsp;them?</p>
+<p>I have a ton of contacts and want to move multiple folks from under one tag to another, A way to do this would be greatly&nbsp;appreciated.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

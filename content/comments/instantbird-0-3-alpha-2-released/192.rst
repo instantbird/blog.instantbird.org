@@ -1,9 +1,0 @@
-:date: 2011-05-20 02:09
-:author: ziomaul
-:replyto: 0
-
-Thank you for incorporating the minimize to tray feature.
-
-Idea: Work with http://getbuzzbird.com/bb/ ???
-
-Bye

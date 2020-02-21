@@ -1,5 +1,0 @@
-:date: 2010-10-04 17:37
-:author: (anonymous)
-:replyto: 0
-
-please add mail.ru agent protocol

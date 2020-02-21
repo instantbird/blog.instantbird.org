@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The blog of Instantbird's development - Comments: Instantbird 0.3 alpha 1 released</title><link href="http://blog.instantbird.org/2011/02/instantbird-0-3-alpha-1-released//" rel="alternate"></link><link href="http://blog.instantbird.org/feeds/comment.instantbird-0-3-alpha-1-released.atom.xml" rel="self"></link><id>http://blog.instantbird.org/2011/02/instantbird-0-3-alpha-1-released//</id><updated>2011-03-01T18:51:00+00:00</updated><subtitle></subtitle><entry><title>Posted by: Patrick</title><link href="http://blog.instantbird.org/2011/02/instantbird-0-3-alpha-1-released/#comment-186" rel="alternate"></link><published>2011-03-01T18:51:00+00:00</published><updated>2011-03-01T18:51:00+00:00</updated><author><name>Patrick</name></author><id>tag:blog.instantbird.org,2011-03-01:/2011/02/instantbird-0-3-alpha-1-released//comment-186</id><summary type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&amp;#64;Neil: (Really long time has passed, but anyway&amp;#8230;) there&amp;#8217;s a few bugs open about sorting:&lt;/div&gt;
+&lt;div class="line"&gt;Bug 343 - Sort buddies alphabetically (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=343"&gt;https://bugzilla.instantbird.org/show_bug.cgi?id=343&lt;/a&gt;)&lt;/div&gt;
+&lt;div class="line"&gt;Bug 366 - Alphabetical sorting of group names (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=366"&gt;https://bugzilla.instantbird.org/show_bug.cgi?id=366&lt;/a&gt;)&lt;/div&gt;
+&lt;div class="line"&gt;Bug 701 - Sort buddies by status …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&amp;#64;Neil: (Really long time has passed, but anyway&amp;#8230;) there&amp;#8217;s a few bugs open about sorting:&lt;/div&gt;
+&lt;div class="line"&gt;Bug 343 - Sort buddies alphabetically (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=343"&gt;https://bugzilla.instantbird.org/show_bug.cgi?id=343&lt;/a&gt;)&lt;/div&gt;
+&lt;div class="line"&gt;Bug 366 - Alphabetical sorting of group names (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=366"&gt;https://bugzilla.instantbird.org/show_bug.cgi?id=366&lt;/a&gt;)&lt;/div&gt;
+&lt;div class="line"&gt;Bug 701 - Sort buddies by status (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=701"&gt;https://bugzilla.instantbird.org/show_bug.cgi?id=701&lt;/a&gt;)&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Not too much work done on them though. It&amp;#8217;s not specifically on the roadmap but if someone wants to implement it, we&amp;#8217;d certainly love to take the&amp;nbsp;patch!&lt;/p&gt;
+</content><category term="misc"></category></entry><entry><title>Posted by: Andrey</title><link href="http://blog.instantbird.org/2011/02/instantbird-0-3-alpha-1-released/#comment-182" rel="alternate"></link><published>2011-02-19T19:00:00+00:00</published><updated>2011-02-19T19:00:00+00:00</updated><author><name>Andrey</name></author><id>tag:blog.instantbird.org,2011-02-19:/2011/02/instantbird-0-3-alpha-1-released//comment-182</id><content type="html">&lt;p&gt;Good work!&amp;nbsp;Thanks.&lt;/p&gt;
+</content><category term="misc"></category></entry><entry><title>Posted by: Neil</title><link href="http://blog.instantbird.org/2011/02/instantbird-0-3-alpha-1-released/#comment-181" rel="alternate"></link><published>2011-02-16T11:46:00+00:00</published><updated>2011-02-16T11:46:00+00:00</updated><author><name>Neil</name></author><id>tag:blog.instantbird.org,2011-02-16:/2011/02/instantbird-0-3-alpha-1-released//comment-181</id><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Me again :-)&lt;/div&gt;
+&lt;div class="line"&gt;I don&amp;#8217;t suppose the alpha lets you sort buddies alphabetically within their groups? I don&amp;#8217;t see any mention of sorting on the roadmap&amp;#8230;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Keep up the good work!&lt;/div&gt;
+&lt;div class="line"&gt;-Neil&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="misc"></category></entry></feed>

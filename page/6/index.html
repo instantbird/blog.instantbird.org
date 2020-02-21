@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Blog@instantbird.org | The blog of Instantbird&#039;s development</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="home blog paged two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+<nav id="nav-above">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"><a href="/page/7/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+  <div class="nav-next"><a href="/page/5/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+<article id="post-introducing-time-bubbles" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/06/introducing-time-bubbles/" rel="bookmark">Introducing Time&nbsp;Bubbles</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>Instantbird 0.2 was released with Bubbles as its default message&nbsp;theme:</p>
+<p><img alt="default message themes of Instantbird 0.2" src="http://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /></p>
+<p>The most common feedback we received from users that quickly switched
+back to Simple (the previous default) or another theme was that the lack
+of timestamp for each message made the theme&nbsp;unusable.</p>
+<p>Some users have really passionate opinions about whether these
+timestamps should be shown or not. On one hand, people think it&#8217;s a
+useful piece of information that should always be visible, but on the
+other hand, people think it&#8217;s a waste of space on their limited screens.
+The common &#8220;solution&#8221; to this problem is to include a &#8220;show timestamp&#8221;
+preference, allowing each user to decide for themselves which of the two
+behaviors is the least&nbsp;inconvenient.</p>
+<p>I don&#8217;t think that making the user responsible for choosing between two
+not-so-good options which one is best is a good way to address this
+issue. So soon after the 0.2 release, I started searching for better&nbsp;solutions.</p>
+<p>I tried to identify what the information provided by message timestamps
+was used for, so that we could hopefully find something appropriate for
+the actual&nbsp;needs.</p>
+<p>The starting points of my reflection were&nbsp;that:</p>
+<ul class="simple">
+<li>timestamps, when visible, are most of the time&nbsp;ignored.</li>
+<li>when they are actually read, the information they provide is rarely
+the information really desired, but only an indirect way to answer a
+valid&nbsp;question.</li>
+</ul>
+<p>So then, I tried to identify which questions users who wanted to have
+their timestamps visible all the time had to answer. Here are the
+questions I found, and what I&#8217;ve implemented to provide human friendly
+answers to these&nbsp;questions:</p>
+<div class="section" id="how-much-time-has-passed-between-2-messages">
+<h2>1. How much time has passed between 2&nbsp;messages?</h2>
+<p>That&#8217;s actually still an indirect answer to another question: has that
+person talking to me actually read what I said and thought about it
+before replying? Sometimes when receiving an answer that doesn&#8217;t seem to
+take into account what has just been said, it&#8217;s just that the message
+wasn&#8217;t read yet at the time the reply was&nbsp;written.</p>
+<p>I believe having to read and compare mentally 2 timestamps to get that
+information is overly complicated and we can convey this information&nbsp;visually:</p>
+<p><img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="http://blog.instantbird.org/images/bubbles-with-different-spacing.png" /></p>
+<p>The vertical space between Bubbles is used to show how much time
+separates messages. If 2 people talked at the same second, their bubbles
+will almost touch each other. If there&#8217;s been a pause between the
+messages, there will be some space between the&nbsp;bubbles.</p>
+<p>In order to not waste too much space when 2 messages are separated by a
+long time, I decided that the first few seconds would cause a much
+bigger increase of the space than the next seconds and minutes (for the
+readers who care about the details: it&#8217;s a logarithmic representation of
+the&nbsp;time).</p>
+<p>This makes it easy to see a difference in time just after a message was
+received (the very few seconds that make the difference between a
+likely-read message and a most-likely-not-read-yet message), but makes
+it hard to evaluate time intervals of several minutes. To address that,
+when messages are separated by over 5 minutes, the exact time is
+displayed between the bubbles in gray&nbsp;text:</p>
+<p><img alt="screenshot of 2 messages with over 5 minutes of interval" src="http://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /></p>
+</div>
+<div class="section" id="is-this-message-old">
+<h2>2. Is this message&nbsp;old?</h2>
+<p>This question is especially interesting when returning to the computer
+after being away, and having several conversations with new messages, to
+decide which one to answer to first. If a message has already been
+waiting there for an hour or so, the person has probably moved on
+already, and is most likely not actively waiting for your answer.
+However, if a message was sent only a few seconds or minutes ago, it&#8217;s
+reasonable to expect that the person is still at the other end and still
+remembers what was&nbsp;discussed.</p>
+<p>To answer this question, my proposition is to make the space between the
+latest message and the text input box vary exactly like the space
+between 2 bubbles. Unlike the time between 2 bubbles which doesn&#8217;t
+change, the time between the last message and now changes continuously,
+so displaying this time requires an animation: messages will &#8220;scroll
+away&#8221; as they get old. If a message is older than 5 minutes, the time
+since it appeared will be written (omitting seconds, so that the text
+displayed doesn&#8217;t change&nbsp;continuously).</p>
+<p>Just arrived message: <img alt="screenshot of the area at the bottom of the conversation without space" src="http://blog.instantbird.org/images/bubble-just-arrived-message.png" /></p>
+<p>Message arrived a while ago: <img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="http://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /></p>
+</div>
+<div class="section" id="when-did-i-say-that">
+<h2>3. When did I say&nbsp;that?</h2>
+<p>This question occurs occasionally when looking for something in the
+backlog (typically using <a class="reference external" href="http://blog.instantbird.org/articles/conversation-tools.rst">the findbar</a>).
+In this case, the time is actually the desired information, but seconds
+are irrelevant, so only the hour and minutes need to be displayed. For
+this case, I decided to display the time of the first message of a
+bubble when the bubbles is&nbsp;hovered:</p>
+<p><img alt="hovered bubble" src="http://blog.instantbird.org/images/bubble-hovered.png" /></p>
+</div>
+<div class="section" id="what-was-the-time-of-a-specific-message">
+<h2>4. What was the time of a specific&nbsp;message?</h2>
+<p>This rather rare question was already addressed with a little known
+feature of the existing bubble theme: when hovering a message, a tooltip
+appears showing a timestamp for that specific&nbsp;message.</p>
+</div>
+<div class="section" id="when-quoting-messages-to-paste-in-emails-for-example-i-need-the-messages-to-have-some-time-information-associated-with-them-in-plain-text">
+<h2>5. When quoting messages (to paste in emails for example), I need the messages to have some time information associated with them in plain&nbsp;text!</h2>
+<p>While this is a valid concern, it&#8217;s out of the scope of the message
+theme design, as Instantbird 0.2 already supported a nice feature that
+we called &#8220;magic copy&#8221;: when a selection inside a conversation is copied
+into the clipboard, Instantbird will detect which messages are selected,
+and &#8220;prettyprint&#8221; them so that whatever message theme is currently in
+used doesn&#8217;t change the appearance of quoted&nbsp;messages.</p>
+<p><img alt="the input box with a copy of some selected messages" src="http://blog.instantbird.org/images/bubbles-magic-copy.png" /></p>
+<div class="section" id="conclusion">
+<h3>Conclusion</h3>
+<p>I have experimented with all of these suggestions for over a year
+already with a modified version of the Bubble theme, called &#8220;Time
+Bubbles&#8221; which was in an add-on. As the results of the experiment were
+satisfying, the &#8220;Time Bubbles&#8221; feature is now part of the Bubbles theme
+which is used by default in Instantbird. You can try it in <a class="reference external" href="http://nightly.instantbird.im/">current
+nightly builds</a>, and it will be in
+Instantbird 0.3 beta 1 which we plan to release very soon. We look
+forward to your feedback on&nbsp;this!</p>
+</div>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/06/introducing-time-bubbles/" title="11:45 PM" rel="bookmark"><time class="entry-date" datetime="2011-06-08T23:45:50+00:00">June 8, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/chatting/">chatting</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-introducing-time-bubbles --><article id="post-status-update-april-2011-may-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/05/status-update-april-2011-may-2011/" rel="bookmark">Status Update: April 2011 - May&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>A lot has been going on for Instantbird as the pace has been picking up
+as we approach the release of 0.3. Below we&#8217;ve highlighted some of the
+exciting new features that have become available since our last update.
+Some of these are currently available in 0.3 alpha 2, and the rest are
+available in the <a class="reference external" href="http://nightly.instantbird.im/">nightly</a> builds!
+They&#8217;ll of course be included in 0.3 beta 1 (and the final release of&nbsp;0.3).</p>
+<p>Instantbird is participating in <a class="reference external" href="http://www.google-melange.com/gsoc/org/google/gsoc2011/mozilla">Google Summer of Code
+2011</a>
+with <a class="reference external" href="http://www.google-melange.com/gsoc/project/google/gsoc2011/vpj/6001">one student
+project</a>.
+<a class="reference external" href="http://www.mozilla.org/">Mozilla</a> has been gracious enough to allow
+us to participate this year as part of their mentoring organization. The
+project includes an implementation of the <span class="caps">XMPP</span> protocol in JavaScript as
+an Instantbird extension. The <span class="caps">XMPP</span> implementation will be extensible to
+allow Instantbird extension developers to easily implement extra parts
+of the <span class="caps">XMPP</span> protocol beyond what will be included by default, some
+examples of this include collaborative editors and drawing boards.
+Details of the <a class="reference external" href="http://www.google-melange.com/gsoc/project/google/gsoc2011/vpj/6001">project
+proposal</a>,
+as well as <a class="reference external" href="https://github.com/vpj/xmpp-js">code</a> and a
+<a class="reference external" href="https://xmpp-js.posterous.com/">blog</a> are available to track this&nbsp;project.</p>
+<div class="section" id="done">
+<h2>Done:</h2>
+<ul class="simple">
+<li>0.3 alpha 2 released! <a class="reference external" href="http://www.instantbird.com/download-0.3a2.html">Give it a
+try</a> and let us
+know what you&nbsp;think!</li>
+<li>Contacts now show the list of the buddies they contain (as well as
+their online status) in the&nbsp;tooltip.</li>
+<li>Windows (and Linux) users can now minimize to the system tray (we&#8217;ve
+integrated the popular MinTrayR add-on). Note that by default
+Instantbird will minimize to tray when the &#8220;x&#8221; is clicked, to quit
+the application choose &#8220;Quit&#8221; from the File menu or right click on
+the system tray icon and choose &#8220;Quit&#8221;. This behavior can be changed
+from the preferences&nbsp;window.</li>
+<li>Alphabetical sorting of group names (bug 366) and contacts (bug&nbsp;343).</li>
+<li>You can now quickly jump to the n-th tab using &lt;modifier&gt;+&lt;n&gt; in the
+conversation window (bug 496), where &lt;modifier&gt; is ctrl on
+Windows/Linux and Command on&nbsp;Mac.</li>
+<li>The conversation tabs styling has been updating to match Firefox 4
+(bug 768), although we&#8217;re still working on getting some of the Aero
+glass effects in.
+<a class="reference external" href="http://blog.instantbird.org/images/IbGlassBorders.png"><img alt="Screenshot of a work in progress" src="http://blog.instantbird.org/images/IbGlassBorders.png" style="width: 100%;" /></a>
+Screenshot of the ongoing work on the Windows Aero theme, but also
+showing the already finished new conversation and contacts list <span class="caps">UI</span>.</li>
+<li>Users can now set their buddy icon and the display name of their
+accounts right on the contacts list (bug&nbsp;334).</li>
+<li>The Conversation <span class="caps">UI</span> has received a major overhaul to show the buddy
+icon, display name and current status of your contact. In addition,
+you can switch the buddy you&#8217;re talking to by clicking on the
+protocol icon (bug&nbsp;744).</li>
+<li>Message themes can also properly show the user&#8217;s own icon, go <a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/browse/type:1/cat:6">check
+one
+out</a>!</li>
+<li>A help command (&#8216;/help&#8217;) was added to quickly and easily see which
+commands are available for the current conversation (bug&nbsp;691).</li>
+</ul>
+</div>
+<div class="section" id="for-developers">
+<h2>For&nbsp;Developers:</h2>
+<ul class="simple">
+<li>An &#8216;icon-changed&#8217; notification was added for when the user updates
+their buddy&nbsp;icon.</li>
+<li>The <span class="caps">UI</span> code has been moved into the &#8216;content&#8217; directory inside of
+omnijar (this will affect developers who have been unzipping omnijar
+to edit&nbsp;code).</li>
+</ul>
+</div>
+<div class="section" id="known-issues-with-nightly-builds-0-3a3pre">
+<h2>Known Issues with Nightly Builds&nbsp;(0.3a3pre)</h2>
+<ul class="simple">
+<li>Commands do not work in protocol overrides (i.e. GTalk, Facebook)
+(bug&nbsp;697).</li>
+<li>Twitter dumps too much information to the error console (bug&nbsp;681).</li>
+<li>The user icon may not appear anymore on some protocols (<span class="caps">ICQ</span>/<span class="caps">AIM</span>/?)
+after restarting the application (bug&nbsp;783).</li>
+</ul>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/05/status-update-april-2011-may-2011/" title="7:03 PM" rel="bookmark"><time class="entry-date" datetime="2011-05-27T19:03:22+00:00">May 27, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/status-update/">status update</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-status-update-april-2011-may-2011 --><article id="post-instantbird-0-3-alpha-2-released" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/04/instantbird-0-3-alpha-2-released/" rel="bookmark">Instantbird 0.3 alpha 2&nbsp;released</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>We are pleased to announce that <a class="reference external" href="http://www.instantbird.com/download-0.3a2.html">Instantbird 0.3 alpha
+2</a> has just been&nbsp;released.</p>
+<p>This release contains the first visible changes on the road to making
+Instantbird 0.3&nbsp;awesome:</p>
+<ul class="simple">
+<li>Contacts: If you talk to the same person on multiple <span class="caps">IM</span> networks you
+can now combine the buddies from each network into a single contact.
+Just drag and drop one onto the other and they will be&nbsp;merged!</li>
+<li>Tags: Tags have replaced groups in the buddy list. Even though our
+tag system isn&#8217;t fully implemented yet, there are already some new
+features. For example, a tag can be hidden by clicking the &#8220;x&#8221; on the
+right side of the buddy list, all buddies from this tag will then
+show in an &#8220;Other Contacts&#8221; tag automatically, which is shown at the
+bottom of the buddy&nbsp;list.</li>
+<li>Windows (and Linux) users will appreciate the minimize to system tray
+feature, for which we borrowed some code from the popular MinTrayR
+add-on. By default Instantbird will minimize to tray when the &#8220;x&#8221; is
+clicked, to quit the application choose &#8220;Quit&#8221; from the File menu or
+right click on the system tray icon and choose &#8220;Quit&#8221;. This behavior
+can be changed from the preferences&nbsp;window.</li>
+<li>On Mac it&#8217;s now possible to close the Contacts window without
+quitting the application. A click on the dock will reopen&nbsp;it.</li>
+</ul>
+<p>This release also contains very significant invisible changes, including
+the ability to create JavaScript protocol plugins and the upgrade to the
+Mozilla 2.0 platform (which Firefox 4.0 is based on). Add-on developers
+will like this, especially because of the new ability to create
+<a class="reference external" href="https://developer.mozilla.org/en/Extensions/Bootstrapped_extensions">restartless
+add-ons</a>.</p>
+<p><a class="reference external" href="http://www.instantbird.com/download-0.3a2.html">Download or learn more about Instantbird 0.3 alpha
+2</a>.</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/04/instantbird-0-3-alpha-2-released/" title="2:55 AM" rel="bookmark"><time class="entry-date" datetime="2011-04-16T02:55:20+00:00">April 16, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/downloads/" title="View all posts in Downloads">Downloads</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-3/">0.3</a>,          <a href="/tag/alpha/">alpha</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-instantbird-0-3-alpha-2-released --><article id="post-status-update-february-2011-march-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/04/status-update-february-2011-march-2011/" rel="bookmark">Status Update: February 2011 - March&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <div class="section" id="done">
+<h2>Done:</h2>
+<ul class="simple">
+<li>Contact merging (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=698">bug
+698</a>).&nbsp; If
+you talk to the same person on multiple <span class="caps">IM</span> networks you can now
+combine the buddies from each network into a single contact.&nbsp; When
+opening a new chat the buddy that is online will be chosen
+automatically and the conversation window will automatically change
+to another buddy if they switch to a different <span class="caps">IM</span>&nbsp;network.</li>
+<li><a class="reference external" href="http://hg.instantbird.org/instantbird/rev/75644053615a">Tags have begun to be
+implemented</a>
+(to replace the groups concept in the current buddy list).&nbsp; Tags can
+be hidden by clicking the &#8220;x&#8221; on the right side of the buddy list,
+all buddies from this tag will go into an &#8220;Other Contacts&#8221; tag
+automatically, which is shown at the bottom of the buddy&nbsp;list.</li>
+<li>The buddy list can now be closed on Mac without Instantbird quitting
+(<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=24">bug 24</a>).
+It can be reopened from the&nbsp;Dock.</li>
+<li>Offline contacts vs. unknown contacts are now <a class="reference external" href="http://hg.instantbird.org/instantbird/rev/7019846a7be3">differentiated with
+icons</a>.</li>
+<li>Instantbird has been upgraded from libpurple 2.7.9 to
+<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/4af8bacbd226">2.7.11</a>.
+Changes of note include a fix for adding buddies in <span class="caps">MSN</span> (see all
+changes at <a class="reference external" href="http://developer.pidgin.im/wiki/ChangeLog">their change
+log</a>).</li>
+<li>Dark variant of the &#8220;Simple&#8221; skin (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=710">bug
+710</a>).</li>
+<li><strong>For Developers:</strong><ul>
+<li>Extensions are now able to register commands (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=118">bug
+118</a>).</li>
+<li>A general JavaScript socket object has been included (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=673">bug
+673</a>).</li>
+<li>Instantbird 0.3a2pre nightlies are now based on the
+<tt class="docutils literal"><span class="pre">mozilla-2.0</span></tt> branch instead of the <tt class="docutils literal"><span class="pre">mozilla-central</span></tt> trunk
+(<a class="reference external" href="http://hg.instantbird.org/instantbird/rev/31b8187656ec">commit</a>).
+This is the version of the Mozilla source that is used in Firefox&nbsp;4.x.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="known-issues-with-nightly-builds-0-3a2pre">
+<h2>Known Issues with Nightly Builds&nbsp;(0.3a2pre):</h2>
+<ul class="simple">
+<li>No feedback when an extension fails to install (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=712">bug
+712</a>).</li>
+<li>Sounds do not work when the buddy list is closed on Mac (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=731">bug
+731</a>).</li>
+<li>Commands do not work in protocol overrides (i.e. GTalk, Facebook)
+(<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=697">bug 697</a>).</li>
+<li>Twitter dumps too much information to the error console (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=681">bug
+681</a>).</li>
+</ul>
+</div>
+<div class="section" id="next">
+<h2>Next:</h2>
+<ul class="simple">
+<li>Release 0.3 alpha&nbsp;2.</li>
+<li>A <a class="reference external" href="https://wiki.instantbird.org/Instantbird:Roadmap:0.3">detailed
+roadmap</a> for
+the continued work on 0.3 has been released.&nbsp; Please take a look and
+help&nbsp;out!</li>
+<li>Instantbird is participating in <a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2011">Google Summer of Code
+2011</a>.
+Mozilla has been gracious enough to allow us to participate this year
+as part of their organization; you can see ideas and information on
+the <a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode11#Instantbird">Mozilla
+Wiki</a>.<ul>
+<li>Contact us via <a class="reference external" href="mailto:contact&#64;instantbird.org">email</a> (any
+email to this address can be found in our public <a class="reference external" href="http://groups.google.com/group/instantbird-contact">Google
+Group</a>) or
+<a class="reference external" href="irc://irc.mozilla.org/#instantbird"><span class="caps">IRC</span></a> if you have any&nbsp;question.</li>
+<li>Applications are due Friday, April 6th, 2011 at 12:00 <span class="caps">PM</span> <span class="caps">PDT</span>!</li>
+</ul>
+</li>
+</ul>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/04/status-update-february-2011-march-2011/" title="11:39 PM" rel="bookmark"><time class="entry-date" datetime="2011-04-06T23:39:37+00:00">April 6, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/status-update/">status update</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-status-update-february-2011-march-2011 --><article id="post-mailing-list-publicly-readable" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/03/mailing-list-publicly-readable/" rel="bookmark">Mailing list publicly&nbsp;readable</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>We used to handle most support requests received from the contact <span class="caps">AT</span>
+instantbird <span class="caps">DOT</span> org email address on a mailing list which was private.
+This was inefficient as we replied to the same questions over and over
+and people couldn&#8217;t benefit from old replies. New posts to the mailing
+list will now be publicly readable so that anybody in the community can
+help users with support requests (see our
+<a class="reference external" href="https://wiki.instantbird.org/Mailing_lists#Reply_guidelines">guidelines</a>
+describing how we have answered emails up to now), answer questions, or
+just read the feedback we&nbsp;receive.</p>
+<p>Anybody can subscribe to the Google group used:
+<a class="reference external" href="http://groups.google.com/group/instantbird-contact">http://groups.google.com/group/instantbird-contact</a></p>
+<p>We have also created another mailing list for all bug changes, so that
+people interested in knowing what&#8217;s changed in our bugzilla can get the
+information without requesting us to add them as globalwatchers on
+bugzilla. See <a class="reference external" href="http://groups.google.com/group/instantbird-bugs">http://groups.google.com/group/instantbird-bugs</a></p>
+<p>Note: if you don&#8217;t have or don&#8217;t want to use a Google account, you can
+subscribe by email using the <tt class="docutils literal"><span class="pre">[Groupname]+subscribe&#64;googlegroups.com</span></tt>
+address.</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/03/mailing-list-publicly-readable/" title="12:39 AM" rel="bookmark"><time class="entry-date" datetime="2011-03-16T00:39:44+00:00">March 16, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/community/" title="View all posts in Community">Community</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/announcements/">announcements</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-mailing-list-publicly-readable --><article id="post-instantbird-0-3-alpha-1-released" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/02/instantbird-0-3-alpha-1-released/" rel="bookmark">Instantbird 0.3 alpha 1&nbsp;released</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p><a class="reference external" href="http://www.instantbird.com/download-0.3a1.html">Instantbird 0.3 alpha
+1</a> has just been&nbsp;released.</p>
+<p>This release contains very significant changes, including the ability to
+create JavaScript protocol plugins and the upgrade to the Mozilla 2.0
+platform. Most of the changes are not yet visible in the user interface,
+so we would not advise current users of the 0.2 version to&nbsp;update.</p>
+<p>However, it includes basic support for Twitter and is already quite
+stable; so it will please early adopters and testers who don&#8217;t go as far
+as to use <a class="reference external" href="http://nightly.instantbird.im/">nightly builds</a> (which
+update themselves everyday with the newest code). Add-on developers will
+also be interested, especially because of the new ability to create
+restartless&nbsp;add-ons.</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/02/instantbird-0-3-alpha-1-released/" title="10:23 PM" rel="bookmark"><time class="entry-date" datetime="2011-02-09T22:23:06+00:00">February 9, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/downloads/" title="View all posts in Downloads">Downloads</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-3/">0.3</a>,          <a href="/tag/alpha/">alpha</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-instantbird-0-3-alpha-1-released --><article id="post-instantbird-talk-at-fosdem" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/02/instantbird-talk-at-fosdem/" rel="bookmark">Instantbird talk at <span class="caps">FOSDEM</span></a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>I (Florian) was in Brussels this week-end for the <span class="caps">FOSDEM</span> conference. As
+every time I went to <span class="caps">FOSDEM</span>, it was great to meet again several
+Mozillians I hadn&#8217;t seen for a long&nbsp;time.</p>
+<p>I gave a talk early on Sunday morning about Instantbird. I would like to
+thank all the people who attended the session, asked interesting
+questions and gave great feedback at the end of the talk and during the
+rest of the day: thank&nbsp;you!</p>
+<p>For those of you who would have liked to be there but couldn&#8217;t because
+of the time (too early, especially after the great dinner and bowling
+event Saturday evening) or location (not everybody lives in Europe!), I
+put the <a class="reference external" href="/files/fosdem11-slides/">slides of my presentation</a> online (and even wrote down what I&nbsp;said!).</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/02/instantbird-talk-at-fosdem/" title="12:21 AM" rel="bookmark"><time class="entry-date" datetime="2011-02-08T00:21:11+00:00">February 8, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/mozilla/" title="View all posts in Mozilla">Mozilla</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/event/">event</a>,          <a href="/tag/florian/">florian</a>,          <a href="/tag/fosdem/">FOSDEM</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-instantbird-talk-at-fosdem -->
+<nav id="nav-below">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"><a href="/page/7/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+  <div class="nav-next"><a href="/page/5/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

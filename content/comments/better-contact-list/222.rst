@@ -1,9 +1,0 @@
-:date: 2011-06-29 23:29
-:author: Florian
-:replyto: 0
-
-**@Norman**:
-
-So if the tag list stopped listing the empty tags, you would have the order you crave without having to take the time do the work of actually removing these tags, wouldn't you? :)
-
-**@David**: We have a bug filed on this (`Bug 701 <https://bugzilla.instantbird.org/show_bug.cgi?id=701>`__ - Sort buddies by status).

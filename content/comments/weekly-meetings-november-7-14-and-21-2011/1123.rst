@@ -1,6 +1,0 @@
-:date: 2011-11-23 16:02
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 1119
-
-Yes, as Mic stated libpurple was not removed, the DEPENDENCY on using libpurple was removed. This means that Instantbird can now (optionally) be built without libpurple. We have no plans to build it without libpurple in our distribution currently.

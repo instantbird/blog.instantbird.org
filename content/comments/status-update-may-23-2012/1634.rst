@@ -1,9 +1,0 @@
-:date: 2012-06-14 11:39
-:author: Jess
-:replyto: 0
-
-Please, implement Vocal conversations with XMPP and SIP!
-
-I can't use Instantbird only cause of i need vocal conversations.
-
-Will you do it in Google summer code?

@@ -1,6 +1,0 @@
-:date: 2008-03-19 10:02
-:author: dusoft
-:replyto: 0
-
-| hi,
-| very good initiative. thanks for that. i'll be watching the project and looking forward to seeing first fully-featured (e.g. context options) functional version.

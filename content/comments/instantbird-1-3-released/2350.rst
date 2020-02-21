@@ -1,6 +1,0 @@
-:date: 2012-11-16 13:36
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 2349
-
-It'd be great for someone to implement OTR (https://bugzilla.instantbird.org/show_bug.cgi?id=877), if you're interested in doing this...definitely pop on IRC and contact us. I had looked at that code once before and wasn't fully happy with it. But it'd be possible it could be a good starting place for an implementation!

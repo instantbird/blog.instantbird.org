@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - downloads</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 20 Dec 2013 21:12:06 +0000</lastBuildDate><item><title>Instantbird 1.5 Released!</title><link>http://blog.instantbird.org/2013/12/instantbird-1-5-released/</link><description>&lt;p&gt;Instantbird 1.5 has been released: go &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;grab your copy now&lt;/a&gt;! There are a ton of
+new features and bugs fixed for this new release, but we’d like to highlight a
+couple of new features&amp;nbsp;below.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/12/awesometab.png"&gt;&lt;img alt="awesometab" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/12/awesometab-300x217.png" style="width: 300px; height: 217px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An exciting new feature you’ll find in Instantbird 1.5 is the New Conversation
+tab. It displays a list of your contacts, ordered based on how frequently and
+recently you’ve talked to them. Starting a conversation has never been easier!
+No longer will you have to open a separate window and scroll through your
+contact list to find a person. Just click the “+” button or press Ctrl/Cmd+T,
+start typing the name of the contact, and you should see your contact appear at
+the top of the list after typing only a few letters! You can then press enter
+and your conversation opens! The first time you open the tab, Instantbird will
+load your chat logs and learn who you talk to most often in order to offer
+accurate suggestions. New friends might not show up at the top immediately, but
+keep talking to them and they’ll reorder themselves. Don’t worry though, this
+ranking data is kept only on your own computer and is not transmitted or shared
+in any&amp;nbsp;way!&lt;/p&gt;
+&lt;p&gt;Additionally, if you use Instantbird for &lt;span class="caps"&gt;IRC&lt;/span&gt;, the New Conversation tab will
+automatically query your servers to download the list of channels that are
+available to you. (This is generally known as &lt;span class="caps"&gt;LIST&lt;/span&gt; in &lt;span class="caps"&gt;IRC&lt;/span&gt; jargon.) Just like
+with your contacts, you can type in the name of a channel and it’ll bubble to
+the top of the list. Sometimes you don’t always know the channel name (that’s
+why you’re searching, right?): we’ve got you covered there too! Instantbird will
+search the channel topics in addition to channel names so you can quickly find
+new channels to&amp;nbsp;join!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png"&gt;&lt;img alt="new-tooltips" class="alignleft size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png" style="width: 300px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A very visible user interface improvement that was included for Instantbird 1.5
+is redone tooltips that fit more into the visual style of the rest of the user
+interface. They should be immediately familiar to Instantbird users as they’re
+modeled after the conversation header! Hopefully this will help you find
+information quickly and easily whether conversing with your contacts or just
+checking their&amp;nbsp;status.&lt;/p&gt;
+&lt;p&gt;For Linux users out there, we are still only offering 32-bit builds, although we
+hope to change that soon! If you are running a 64-bit Linux distribution,
+previously you’d have to install the ia32-libs (see our &lt;span class="caps"&gt;FAQ&lt;/span&gt;), but this has
+changed in recent versions of Ubuntu which no longer offer this package. The
+procedure now is to&amp;nbsp;run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install libgtk2.0-0:i386 libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 libglu1-mesa:i386 libxt-dev:i386 libasound-dev:i386
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you’d like to see a complete list of what’s new in Instantbird 1.5, please
+view the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 20 Dec 2013 21:12:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-12-20:/2013/12/instantbird-1-5-released/</guid><category>Downloads</category><category>1.5</category><category>announce</category><category>downloads</category></item><item><title>Instantbird 1.4 Released!</title><link>http://blog.instantbird.org/2013/05/instantbird-1-4-released/</link><description>&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded.png"&gt;&lt;img alt="Instantbird 1.4 Logger Tree" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded-151x300.png" style="width: 151px; height: 300px;" /&gt;&lt;/a&gt;
+&lt;p class="wp-caption-text"&gt;Log Viewer showing dates in a&amp;nbsp;tree&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;Get your copy&lt;/a&gt; of
+Instantbird 1.4, hot off the presses! We&amp;#8217;ve made a lot of improvements
+(for full details, see the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release
+notes&lt;/a&gt;):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Twitter:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;The character counter should now be correct when tweeting&amp;nbsp;links.&lt;/li&gt;
+&lt;li&gt;Twitter now uses the v1.1 &lt;span class="caps"&gt;API&lt;/span&gt;, this will allow Twitter to continue
+working past June 11th, 2013 (when the v1.0 &lt;span class="caps"&gt;API&lt;/span&gt; is&amp;nbsp;disabled).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Invalid/self-signed/out-of-date &lt;span class="caps"&gt;SSL&lt;/span&gt; certificates can now be easily
+overridden for &lt;span class="caps"&gt;IRC&lt;/span&gt;&amp;nbsp;accounts.&lt;/li&gt;
+&lt;li&gt;Logs are now organized by the date they were created, and smartly folded
+to easily find recent&amp;nbsp;chats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As we stated during the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-3-released.rst"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
+Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X 10.6 (Snow Leopard). Instantbird 1.4 is based off Mozilla 20 and
+libpurple 2.10.7, the newest versions&amp;nbsp;available.&lt;/p&gt;
+&lt;p&gt;You might be asking &amp;#8220;What&amp;#8217;s next?&amp;#8221; for Instantbird; we will be
+participating in &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode13#Instantbird"&gt;Google Summer of Code
+2013&lt;/a&gt;
+(again through Mozilla). Through this and our other volunteers, we&amp;#8217;ll
+continue improving Instantbird to make it a chat program you love to
+use. Hopefully we can integrate some cool new features from this year&amp;#8217;s
+Google Summer of Code and finish integrating the Account Import Wizard
+from Google Summer of Code 2012! As always, if you see any issues,
+please &lt;a class="reference external" href="https://bugzilla.instantbird.org"&gt;file bugs&lt;/a&gt;!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 20 May 2013 18:19:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-05-20:/2013/05/instantbird-1-4-released/</guid><category>Downloads</category><category>1.4</category><category>announce</category><category>downloads</category></item><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+any mathematics contained in your conversations will be beautifully
+rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
+equations displayed properly. And of course, as LaTeX is text-based,
+this works for all protocols, and does not depend on your conversation
+partners also using&amp;nbsp;Instantbird!&lt;/p&gt;
+&lt;p&gt;No configuration is necessary &amp;#8212; to use this, you don&amp;#8217;t even need to
+have TeX&amp;nbsp;installed.&lt;/p&gt;
+&lt;p&gt;You can easily obtain the LaTeX source of any equation using the context
+menu. AMSmath symbols and environments (such as
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;\\begin{align}...\\end{align}&lt;/span&gt;&lt;/tt&gt;) are&amp;nbsp;supported.&lt;/p&gt;
+&lt;p&gt;There are a few customization options &amp;#8212; for example, you can choose to
+have displayed equations numbered automatically, to make them easier to
+refer&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;The add-on works with all Instantbird message styles, so you don&amp;#8217;t have
+to change your favourite&amp;nbsp;theme.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;Get the add-on&amp;nbsp;here!&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item><item><title>Instantbird 1.3 Released!</title><link>http://blog.instantbird.org/2012/11/instantbird-1-3-released/</link><description>&lt;p&gt;We&amp;#8217;ve released Instantbird 1.3 (get your copy
+&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;)!&amp;nbsp; This update
+includes some nice improvements, which are fully outlined in the
+&lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release notes&lt;/a&gt;.&amp;nbsp; A
+few changes of note&amp;nbsp;are:&lt;/p&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick.png"&gt;&lt;img alt="" class="size-medium alignright" src="http://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick-300x281.png" style="width: 300px; height: 281px;" /&gt;&lt;/a&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;&lt;span class="caps"&gt;IRC&lt;/span&gt;:&lt;/strong&gt; Long messages will now be sent in multiple parts, and more
+authentication methods are supported to connect e.g. to&amp;nbsp;Freenode.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter:&lt;/strong&gt; Replying to a tweet now replies to all users, just like
+on the Twitter&amp;nbsp;website!&lt;/li&gt;
+&lt;li&gt;User&amp;#8217;s &lt;strong&gt;nicknames are now highlighted&lt;/strong&gt; when mentioned in a&amp;nbsp;chat.&lt;/li&gt;
+&lt;li&gt;Two new social networks were added: &lt;strong&gt;Odnoklassniki&lt;/strong&gt; and
+&lt;strong&gt;VKontakte&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Various connection issues with Twitter and &lt;span class="caps"&gt;XMPP&lt;/span&gt; based networks were&amp;nbsp;fixed.&lt;/li&gt;
+&lt;li&gt;Accessibility&amp;nbsp;improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately, this will be the last release to support Mac &lt;span class="caps"&gt;OS&lt;/span&gt; 10.5 and
+&lt;span class="caps"&gt;PPC&lt;/span&gt;, as we will be unable to support these once we upgrade Instantbird
+to Mozilla&amp;nbsp;17.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ve got plenty of interesting new features and ideas for upcoming
+versions of Instantbird!&amp;nbsp; We will update to a more recent version of
+Mozilla with awesome new features, imagine all the cool things we can do
+with technologies like&amp;nbsp;WebRTC!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 16 Nov 2012 02:13:58 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-11-16:/2012/11/instantbird-1-3-released/</guid><category>Downloads</category><category>1.3</category><category>announce</category><category>downloads</category></item><item><title>Instantbird 1.2 Released!</title><link>http://blog.instantbird.org/2012/08/instantbird-1-2-released/</link><description>&lt;p&gt;We&amp;#8217;re very proud to release Instantbird 1.2, which has a huge number of
+improvements!&amp;nbsp; If you love Instantbird 1.1, you&amp;#8217;ll definitely appreciate
+the improvements made in this release; and if you don&amp;#8217;t use Instantbird
+yet&amp;#8230;well I&amp;#8217;d suggest you &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;give it a
+try&lt;/a&gt;! You can read the
+full list of changes (403 to be precise) in the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release
+notes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instantbird 1.2 took way more time to finish (10 months!) than we
+originally expected, and even though there&amp;#8217;s a very long list of
+improved details, there&amp;#8217;s no major new features. So you may wonder&amp;#8230;
+what&amp;nbsp;happened?!?&lt;/p&gt;
+&lt;p&gt;Well, the reason why it took so long is&amp;#8230;
+&lt;a class="reference external" href="http://www.mozilla.org/en-US/thunderbird/"&gt;Thunderbird&lt;/a&gt;! The major
+change that came with Instantbird 1.2 is that the chat back-end code is
+now shared with Thunderbird, that will feature instant messaging support
+in its version 15, to be released in a few&amp;nbsp;weeks.&lt;/p&gt;
+&lt;p&gt;This forced us to give priority to some long standing side projects that
+were interesting for Instantbird, but not immediately required: as
+Thunderbird can&amp;#8217;t use libpurple which has an incompatible license, we
+had to finish sooner, rather than later, some major architectural
+changes to ensure that our chat back-end doesn&amp;#8217;t depend on libpurple at
+all. That&amp;#8217;s right, Instantbird 1.2 is no longer based on libpurple (but
+still uses it to support many protocols of&amp;nbsp;course).&lt;/p&gt;
+&lt;p&gt;Our back-end working without libpurple wasn&amp;#8217;t enough for Thunderbird:
+the only protocol plug-in shipped in Instantbird 1.0 and 1.1 that didn&amp;#8217;t
+use libpurple was Twitter; more were obviously needed. Fortunately, we
+were already cooking a JavaScript implementation of &lt;span class="caps"&gt;XMPP&lt;/span&gt; (started during
+Google Summer of Code 2011) and &lt;span class="caps"&gt;IRC&lt;/span&gt; (it&amp;#8217;s been Patrick&amp;#8217;s side project
+for years!). Our initial goal when we started working on these 2
+protocol reimplementations in JavaScript was to gain full control of the
+way these important protocols are handled by Instantbird, and to improve
+their extensibility. For Thunderbird, finishing them became a priority,
+and it&amp;#8217;s where we spent most of our&amp;nbsp;time!&lt;/p&gt;
+&lt;p&gt;As I&amp;#8217;m talking a lot about Thunderbird, you may be wondering if this
+involvement of the Instantbird team in the Thunderbird project could
+mean we are discontinuing the development of Instantbird as a
+stand-alone application. Not at all! We believe both applications
+complement each other very well, and have different use cases. While
+Thunderbird, with integrated email and &lt;span class="caps"&gt;IM&lt;/span&gt;, may be better for users who
+work all day long with their email client and &lt;span class="caps"&gt;IM&lt;/span&gt; the same contacts; we
+believe lots of home users tend to use a webmail instead of a local
+email client and would prefer to keep their &lt;span class="caps"&gt;IM&lt;/span&gt; application&amp;nbsp;separate.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re very excited that Instantbird is developing closer ties with
+Mozilla, who we think shares a &lt;a class="reference external" href="http://www.instantbird.org/"&gt;similar&lt;/a&gt;
+&lt;a class="reference external" href="http://www.mozilla.org/about/manifesto.en.html"&gt;mission&lt;/a&gt; of allowing
+users, &lt;span class="caps"&gt;YOU&lt;/span&gt;, to control their own privacy on the Internet! A few of our
+developers are now &amp;#8220;peers&amp;#8221; of Mozilla&amp;#8217;s new &lt;a class="reference external" href="https://wiki.mozilla.org/Modules/Chat"&gt;chat
+module&lt;/a&gt;, and we are pursuing
+more opportunities to bring Instantbird closer to Mozilla in the&amp;nbsp;future.&lt;/p&gt;
+&lt;p&gt;We hope you&amp;#8217;ll enjoy using Instantbird 1.2 as much as we are and we
+greatly look forward to the next version of Instantbird! As always, if
+you see any bugs please &lt;a class="reference external" href="https://bugzilla.instantbird.org"&gt;file a
+bug&lt;/a&gt;, &lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;catch us on
+&lt;span class="caps"&gt;IRC&lt;/span&gt;&lt;/a&gt; or &lt;a class="reference external" href="mailto:contact&amp;#64;instantbird.org"&gt;email
+us&lt;/a&gt;!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 08 Aug 2012 14:31:41 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-08:/2012/08/instantbird-1-2-released/</guid><category>Downloads</category><category>1.2</category><category>announce</category><category>downloads</category></item><item><title>Instantbird 1.1 released!</title><link>http://blog.instantbird.org/2011/10/instantbird-1-1-released/</link><description>&lt;p&gt;Exactly 4 years after the very early 0.1 preview, Instantbird 1.1 has
+just been released today in 13 locales (Swedish and Estonian are&amp;nbsp;new)!&lt;/p&gt;
+&lt;p&gt;In addition to several stability fixes and a dramatic reduction of
+resource consumption in some cases, this new release will make Twitter
+and &lt;span class="caps"&gt;IRC&lt;/span&gt; much more usable in&amp;nbsp;Instantbird:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;On Twitter, it&amp;#8217;s now possible from the context menu to &lt;strong&gt;retweet&lt;/strong&gt;,
+to &lt;strong&gt;reply to a tweet&lt;/strong&gt; (or simply double click on the tweet to start
+a reply). The context menu also lets you follow or unfollow the
+author of the&amp;nbsp;tweet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tab completion&lt;/strong&gt; of usernames (starting with an &amp;#64; character on
+twitter) or nicknames (in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels) will also be very&amp;nbsp;appreciated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these changes have been commonly requested, so no surprise here. But
+there&amp;#8217;s one last feature I would like to talk about before offering you
+a download link: Instantbird 1.1 brings support for putting conversation
+on hold. This means you can now &lt;strong&gt;close conversation tabs without
+leaving the conversation&lt;/strong&gt;, the conversation will sit at the top of the
+Contacts window until you reopen it or someone talks to you. While this
+may seem like a small change, it&amp;#8217;s exceptionally useful for &lt;span class="caps"&gt;IRC&lt;/span&gt; users
+who tend to idle in lots of channels because they want to &amp;#8220;be there just
+in case&amp;#8221; but don&amp;#8217;t interact much with the&amp;nbsp;conversation.&lt;/p&gt;
+&lt;p&gt;Enough talk! Time to go &lt;a class="reference external" href="http://instantbird.com/"&gt;download Instantbird
+1.1&lt;/a&gt; (or read the &lt;a class="reference external" href="http://instantbird.com/release-notes.html"&gt;more detailed release
+notes&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As always, your feedback is welcome! And if you like Instantbird, maybe
+you will want to share the good news with your friends on
+&lt;a class="reference external" href="https://www.facebook.com/sharer/sharer.php?u=http://www.instantbird.com/"&gt;Facebook&lt;/a&gt;
+or
+&lt;a class="reference external" href="http://twitter.com/share?url=http://www.instantbird.com/&amp;amp;text=Instantbird%201.1%20just%20released,%20with%20much%20better%20twitter%20support!%20Try%20it,%20it's%20free!&amp;amp;related=instantbird"&gt;twitter&lt;/a&gt;?&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 18 Oct 2011 15:17:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-18:/2011/10/instantbird-1-1-released/</guid><category>Downloads</category><category>1.1</category><category>announce</category><category>downloads</category></item><item><title>Instantbird 1.0 release, 3 days later</title><link>http://blog.instantbird.org/2011/07/instantbird-1-0-release-3-days-later/</link><description>&lt;div class="section" id="servers-load"&gt;
+&lt;h2&gt;Servers&amp;nbsp;load&lt;/h2&gt;
+&lt;p&gt;Instantbird 1.0 has been very quickly downloaded over ten thousand of
+times. In fact, it happened so fast (especially immediately after we
+have been &lt;a class="reference external" href="http://lifehacker.com/5816618/instantbird-is-a-lightweight-cross+platform-instant-messaging-app-with-sharp-looks"&gt;featured on
+lifehacker&lt;/a&gt;)
+that our server couldn&amp;#8217;t handle the&amp;nbsp;load.&lt;/p&gt;
+&lt;p&gt;We have very quickly been able to mirror our &lt;a class="reference external" href="http://www.instantbird.com/"&gt;main
+website&lt;/a&gt; on another server, which
+allowed people to keep discovering and downloading Instantbird 1.0, but
+we had to close the add-ons website for a while as the load it couldn&amp;#8217;t
+handle was also putting down other services that we really needed to
+keep online, especially our &lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;bug
+database&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We have tried to re-open the add-ons website at a quieter time, but the
+server was unresponsive again within half an hour. This morning we tried
+to improve the website&amp;#8217;s performance by adding some caching mechanism
+and reopened again (at a time when most Americans are asleep) for a try.
+Again it fall&amp;nbsp;down.&lt;/p&gt;
+&lt;p&gt;Some people very kindly offered help and proposed to host the website on
+their server, but it&amp;#8217;s difficult to trust someone we barely know to host
+a website that requires our &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;nbsp;certificate.&lt;/p&gt;
+&lt;p&gt;As the add-ons website had been closed for almost 2 days already (sorry
+for the inconvenience!) and extensibility is a key differentiator of
+Instantbird compared to other similar &lt;span class="caps"&gt;IM&lt;/span&gt; clients, we decided that this
+situation couldn&amp;#8217;t last any longer and we solved the problem by throwing
+money at it: we ordered a beefier server (Quad Core &lt;span class="caps"&gt;CPU&lt;/span&gt;, &lt;span class="caps"&gt;16GB&lt;/span&gt; of &lt;span class="caps"&gt;RAM&lt;/span&gt;)
+and migrated the add-ons website to it as quickly as we could. The
+website reopened this afternoon, and our testing confirmed that the new
+server can easily handle the load, even with more visitors than we had
+when the previous server stopped responding. It&amp;#8217;s ready for a lot more
+people coming! Don&amp;#8217;t hesitate to tell your friends to try Instantbird
+&lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="feedback"&gt;
+&lt;h2&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;We have received a massive amount of feedback since the release. Most
+was positive or extremely positive. We received lots of encouragements.
+We even received some love&amp;nbsp;letters!&lt;/p&gt;
+&lt;p&gt;Some of the feedback showed there was some confusion, for example about
+how we are different from Pidgin (which we will be the subject of
+another post to clarify things). We also received constructive
+criticism, good bug reports. The most common request is an easy way to
+retweet or to reply to a tweet. We will work on that soon &lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;. Tab
+completion of nick names is also commonly requested, but even though
+it&amp;#8217;s clear we need to have this by default in the future, we can usually
+satisfy the reporter by pointing to the great (restartless!) &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/276"&gt;Tab
+Complete&lt;/a&gt;&amp;nbsp;add-on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="updates"&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;p&gt;As no alarming issue has been reported in Instantbird 1.0 which is
+already widely used, we have decided to turn on major updates from
+Instantbird 0.2 to Instantbird&amp;nbsp;1.0.&lt;/p&gt;
+&lt;p&gt;Users of Instantbird 0.2 will be offered an update shortly with an
+update prompt looking like&amp;nbsp;this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dialog offering a major update to Instantbird 1.0" src="http://blog.instantbird.org/images/major-update-1.0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Users of our 0.3pre nightly builds will be offered an update to a
+nightly build numbered 1.1a1pre in the next few&amp;nbsp;days.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All in all, it&amp;#8217;s been a great release and the last few days have been
+exciting (even though they were also exhausting). We look forward to
+continue hearing your feedback (and to actually act upon it!). Don&amp;#8217;t
+hesitate to share Instantbird with your friends. Our servers are&amp;nbsp;ready!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 02 Jul 2011 03:15:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-02:/2011/07/instantbird-1-0-release-3-days-later/</guid><category>Community</category><category>1.0</category><category>downloads</category></item></channel></rss>

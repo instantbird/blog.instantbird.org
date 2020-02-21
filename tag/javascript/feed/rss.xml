@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - javascript</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 11 Dec 2010 02:10:32 +0000</lastBuildDate><item><title>IRC in Javascript - a contributor’s work</title><link>http://blog.instantbird.org/2010/12/irc-in-javascript-a-contributors-work/</link><description>&lt;p&gt;A short time after Instantbird 0.2 was released the &lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update.rst"&gt;js-proto branch&lt;/a&gt; was
+merged into the main development tree. This was the branch where the
+backend of Instantbird was prepared to support protocol plugins written
+entirely in Javascript. Not long after that, Patrick Cloke, an active
+contributor of the project, started working on an implementation of the
+&lt;span class="caps"&gt;IRC&lt;/span&gt; protocol plugin in&amp;nbsp;Javascript.&lt;/p&gt;
+&lt;p&gt;Now he has written a long and detailed posting on his blog about the
+hows and whys, as well as the current status of his work. It&amp;#8217;s spiced
+with lots of references to both Instantbird and specifications of the
+protocol. So if you&amp;#8217;re interested in the technical aspects of
+Instantbird and how to extend Instantbird with a protocol plugin written
+in &lt;span class="caps"&gt;JS&lt;/span&gt; then you definitely should go and read it at &lt;a class="reference external" href="http://patrick.cloke.us/posts/2010/12/08/why-rewrite-irc-into-javascript/"&gt;his
+blog&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mic</dc:creator><pubDate>Sat, 11 Dec 2010 02:10:32 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-12-11:/2010/12/irc-in-javascript-a-contributors-work/</guid><category>Development</category><category>irc</category><category>javascript</category></item></channel></rss>

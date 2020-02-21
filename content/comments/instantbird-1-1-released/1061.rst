@@ -1,5 +1,0 @@
-:date: 2011-11-08 12:21
-:author: Matta Hari
-:replyto: 0
-
-Does anyone now how I can follow the tweets with the latest on top instead of default in InstantBird, which seems to put the latest at the bottom?

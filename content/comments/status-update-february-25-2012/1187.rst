@@ -1,5 +1,0 @@
-:date: 2012-02-29 00:46
-:author: Evandro
-:replyto: 0
-
-Instantbird has a very nice looking, a cool IM. I do not like to save password in my notebook, and it seens Instantbird, can't connect to any account unless i save the password, isn't there a way to make it ask for password when the pass is not saved?

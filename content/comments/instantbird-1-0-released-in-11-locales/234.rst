@@ -1,5 +1,0 @@
-:date: 2011-07-05 22:00
-:author: Yong
-:replyto: 0
-
-Any chance of bringing back support for SameTime? I saw it mentioned in the previous releases, but it seems to have gone away?

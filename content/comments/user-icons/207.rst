@@ -1,5 +1,0 @@
-:date: 2011-06-26 14:24
-:author: Florian
-:replyto: 0
-
-**@commander keen**: Everything is customizable in Instantbird :). If you want to change it just for you, the fastest way is probably to add a line or two in a userChrome.css file in your profile folder. If you believe a significant number of people would, like you, want to turn it off, maybe you can write an add-on for it? If you don't know how to get started, I'm sure you'll find help in our IRC chat room. :)

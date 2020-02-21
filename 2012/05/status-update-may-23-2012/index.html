@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Status Update: May 23, 2012 | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-status-update-may-23-2012" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Status Update: May 23,&nbsp;2012</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2012/05/status-update-may-23-2012/" title="3:37 PM" rel="bookmark"><time class="entry-date" datetime="2012-05-23T15:37:27+00:00">May 23, 2012</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>We&#8217;ve made quite a bit of improvements over the past few weeks. Although
+a lot of the changes are behind the scenes or fixing regressions, there
+are some exciting user facing changes, as detailed below! We&#8217;ve also
+been working with our <a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst">Google Summer of Code 2012 student</a>,
+wnayes, quite a bit to get him up to speed of how things work in
+Instantbird. He&#8217;s made great progress on understanding the code and has
+even fixed a bug (see the &#8220;top protocols&#8221; page,&nbsp;below)!</p>
+<div class="section" id="landed-changes">
+<h2>Landed&nbsp;Changes:</h2>
+<div class="wp-caption alignright docutils container">
+<a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page.png"><img alt="&quot;Top Protocol&quot; Page in the Account Wizard" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page-300x243.png" style="width: 300px; height: 243px;" /></a>
+<p class="wp-caption-text"><span class="dquo">&#8220;</span>Top Protocol&#8221; Page in the Account&nbsp;Wizard&#8221;</p>
+</div>
+<ul class="simple">
+<li>The account wizard now has a <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1391">&#8220;top protocols&#8221;
+page</a> to allow
+users to quickly set up accounts that are most applicable to them. This
+is localizable as different instant messaging networks are popular in
+different&nbsp;regions.</li>
+<li>Tab Completion improvements:<ul>
+<li>Will <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1393">no longer complete the same name multiple
+times</a>.</li>
+<li>You can now <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1395">cycle
+backwards</a>
+through the list of completions by holding shift while pressing&nbsp;tab.</li>
+<li>All matching names can be cycled through now, although they are
+<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1385">prioritized</a>
+as:<ol class="arabic">
+<li>Names of people who have pinged you (i.e. said your name in the&nbsp;chat).</li>
+<li>Names of active&nbsp;participants.</li>
+<li>Names of inactive&nbsp;participants.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><span class="caps">IRC</span> changes<ul>
+<li><span class="caps">IRC</span> contacts (yes, you can add <span class="caps">IRC</span> nicks to your contacts list!) now
+have <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1123">tooltips which show the results of a <span class="caps">WHOIS</span>
+command</a>.</li>
+<li>Better support for <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1369">tracking if a nick is
+online/away/offline</a>.</li>
+<li>The <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=318">topic <span class="caps">UI</span></a> now
+reflects whether you have permission to edit&nbsp;it.</li>
+<li>Many bugs were fixed and error messages were added as fallout to the
+landing of JavaScript-<span class="caps">IRC</span>. Thanks for filing&nbsp;bugs!</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="google-summer-of-code-status">
+<h2>Google Summer of Code&nbsp;Status:</h2>
+<p>The past few weeks were the &#8220;bonding&#8221; period for Google Summer of Code
+students and their respective communities; actual work has started this
+week. As part of the &#8220;bonding&#8221; period, we asked wnayes to check out <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1391">bug
+1391: adding the &#8220;top protocols&#8221; page to the account
+wizard</a> (see
+above for a screenshot!).&nbsp; We thought this would be a great introduction
+to our tools (mostly Bugzilla and Mercurial), our workflow (requesting
+reviews and feedback, discussing why changes were made, etc.), some of
+the languages that we use (<span class="caps">XUL</span>, <span class="caps">XBL</span>, <span class="caps">CSS</span>, and JavaScript) and to some of
+the account manager code that he will be working on this summer! wnayes
+has done a great job and the changes are already in the <a class="reference external" href="http://nightly.instantbird.im/">nightly
+builds</a>!</p>
+<p>To follow along with what wnayes will be working on this summer, you can
+read his
+<a class="reference external" href="http://www.tc.umn.edu/~nayes006/blog/index.php/category/gsoc/">blog</a>
+(<a class="reference external" href="http://www.tc.umn.edu/~nayes006/blog/index.php/feed/rss2/category/gsoc/"><span class="caps">RSS</span>
+feed</a>)
+and check out his <a class="reference external" href="http://hg.instantbird.org/users/wnayes/">user
+repository</a>. Additionally,
+he&#8217;s posted some <a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php">general
+information</a> (his
+application, timeline and a series of links) that he&#8217;ll be updating as
+the summer continues. (And of course you can stop by our <span class="caps">IRC</span> channel,
+#instantbird on irc.mozilla.org, and say&nbsp;&#8220;Hi!&#8221;)</p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/development/" title="View all posts in Development">Development</a> and tagged           <a href="/tag/gsoc/">GSoC</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/status-update/">status update</a> by <a href="/author/clokep/">clokep</a>. Bookmark the <a href="/2012/05/status-update-may-23-2012/" title="Permalink to Status Update: May 23, 2012" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-status-update-may-23-2012 -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      4 thoughts on &ldquo;<span>Status Update: May 23,&nbsp;2012</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-1627">
+  <article id="comment-1627" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/8b0e2cfa5398613ba0e1019910a8fcfb?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Psykar</span> on <a href="#comment-1627"><time datetime="2012-06-13T13:51:00+00:00">June 13, 2012 at 1:51 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">So I&#8217;ve just stumbled here while looking for a pidgin alternative. Nice <span class="caps">GUI</span> and cross platform.</div>
+<div class="line">To be honest the thing I love most is your usage of tags, and being able to hide tags. Great idea.</div>
+<div class="line">I look forward to seeing where it ends up!</div>
+</div>
+<p>I&#8217;m also about to try linking in my preferences folder to dropbox and running it on both linux and windows as I&#8217;ve been doing with Pidgin, fingers&nbsp;crossed.</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1628">
+  <article id="comment-1628" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1628"><time datetime="2012-06-13T14:25:00+00:00">June 13, 2012 at 2:25 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I&#8217;m glad you like it so far! We spent quite a bit of time on the tags, but there&#8217;s still more work to do!&nbsp;:)</p>
+<p>Linking your profiles for Linux and Windows should work (mostly) <span class="caps">OK</span>, as long as you don&#8217;t have any binary&nbsp;extensions.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1634">
+  <article id="comment-1634" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/7d6d0fd97085ab63d3492d35dd3bc589?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Jess</span> on <a href="#comment-1634"><time datetime="2012-06-14T11:39:00+00:00">June 14, 2012 at 11:39 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Please, implement Vocal conversations with <span class="caps">XMPP</span> and <span class="caps">SIP</span>!</p>
+<p>I can&#8217;t use Instantbird only cause of i need vocal&nbsp;conversations.</p>
+<p>Will you do it in Google summer&nbsp;code?</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1635">
+  <article id="comment-1635" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1635"><time datetime="2012-06-14T13:37:00+00:00">June 14, 2012 at 1:37 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">Jess,</div>
+<div class="line">We&#8217;d certainly love to support voice and video in Instantbird! Unfortunately no one is currently working on this, but there&#8217;s a couple of bugs you could <span class="caps">CC</span> yourself if you&#8217;d like to get emails of when work starts: <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=568">https://bugzilla.instantbird.org/show_bug.cgi?id=568</a> for Audio/Video support in general and <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=769">https://bugzilla.instantbird.org/show_bug.cgi?id=769</a> for GTalk. There doesn&#8217;t seem to be one for <span class="caps">SIP</span>.</div>
+</div>
+<p>We have a Google Summer of Code student working on Account Import this summer, hopefully next summer we&#8217;ll participate again; but we haven&#8217;t discussed projects (although students can propose their own as&nbsp;well!).</p>
+<p>Thanks for your feedback.&nbsp;:)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

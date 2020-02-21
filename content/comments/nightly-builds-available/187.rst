@@ -1,5 +1,0 @@
-:date: 2011-03-18 00:15
-:author: leica
-:replyto: 0
-
-Also agree OTR should be supported out of the box...

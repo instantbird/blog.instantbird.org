@@ -1,5 +1,0 @@
-:date: 2010-12-02 11:00
-:author: Florian
-:replyto: 0
-
-**@Lukas Vesely**: Could you please verify that you have unchecked 'Use clientLogin'? I exchanged emails yesterday with someone who was confused by the wording here; I've just edited the post to clarify it.

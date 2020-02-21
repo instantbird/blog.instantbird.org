@@ -1,5 +1,0 @@
-:date: 2009-07-25 10:41
-:author: Florian
-:replyto: 0
-
-**@gatolandia**: Currently it shows only online contacts, yes.

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Our goals: toward Instantbird 0.2 and beyond | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-our-goals-toward-instantbird-0-2-and-beyond" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Our goals: toward Instantbird 0.2 and&nbsp;beyond</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2010/06/our-goals-toward-instantbird-0-2-and-beyond/" title="2:21 PM" rel="bookmark"><time class="entry-date" datetime="2010-06-29T14:21:45+00:00">June 29, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>As you may already know, Instantbird 0.2 will be released soon. The
+development of this version has been going on for more than a year
+already! While we have been busy adding new features or polishing
+existing ones, we may have missed a few opportunities to communicate
+about what we were doing, what we had already done, where we are going,
+and why. And when we did write something about our new features, the
+announcements lacked screenshots, and probably didn&#8217;t convey much of our&nbsp;enthusiasm.</p>
+<p>The last few days before the 0.2 release are an opportunity for us make
+up for our lack of&nbsp;communication.</p>
+<div class="section" id="the-way-toward-instantbird-1-0">
+<h2>The way toward Instantbird&nbsp;1.0</h2>
+<p>Let&#8217;s begin with a clarification about the way we are slowly but surely
+going to our future 1.0 release. Our <a class="reference external" href="http://wiki.instantbird.org/Instantbird:Initial_Roadmap">initial
+roadmap</a>
+contained the somewhat misleading claim that our goal for 1.0 was to
+reach &#8220;feature parity&#8221; with <a class="reference external" href="http://pidgin.im/">Pidgin</a>. This led
+some people to believe that we were basically copying the Pidgin
+graphical user interface and reimplementing it in <span class="caps">XUL</span>. Although this
+could have held some truth for the earlier goal of Instantbird - which
+was to provide the extensibility that is loved in Firefox and features
+similar to those found in Pidgin - this is no longer the&nbsp;case.</p>
+<p>When we implement a new feature in Instantbird, we carefully consider
+how it is likely to be used. We think about the use cases. We look at
+how the same problem has been handled by other existing <span class="caps">IM</span> clients, so
+that we can benefit from what others have done before us. Sometimes we
+take inspiration and implement something in a similar way to another
+client (for instance the <a class="reference external" href="http://wiki.instantbird.org/Instantbird:Message_Styles_reference">message theme
+system</a>
+that we have borrowed from <a class="reference external" href="http://adium.im/">Adium</a>), but sometimes
+things don&#8217;t look satisfying and we have to look for a better solution.
+We especially try to avoid exposing the user to new popup dialogs that
+interrupt the user but don&#8217;t seem absolutely&nbsp;necessary.</p>
+<p>Once something is implemented, we do our best to take advantage of the
+early feedback we get from our <a class="reference external" href="http://blog.instantbird.org/articles/nightly-builds-available.rst">nightly</a>&nbsp;testers.</p>
+<p>So why are we doing this? Copying the interface of an existing
+application as quickly as possible would be easier, and would lead to a
+fast result. But it would be worthless. We don&#8217;t need another Pidgin,
+Adium, &#8230; (insert the name of your favorite multi-protocol <span class="caps">IM</span>
+application here). These applications already exist and are mostly
+great, there&#8217;s no point in cloning them. What we do care about is our
+users: our current users of course, but also future users. We believe
+instant messaging should be less frustrating. We want to build an
+all-in-one instant messaging application that is as easy as possible to
+use, yet powerful. We value simplicity and ease of use in the default
+configuration, and at the same time we want to allow advanced
+customizations. Developers with an idea should be able to easily
+customize their <span class="caps">IM</span> client, like they can already do with their web&nbsp;browser.</p>
+<p>We value privacy, and respect your data. Instant messages often have
+confidential or intimate content. We believe that our users should have
+the power to decide how this information is used, and where it is
+stored. This is the reason why even though more and more users decide to
+use web applications like Gmail, Facebook or Meebo for their <span class="caps">IM</span> needs,
+we believe that it is still relevant in 2010 to build an <span class="caps">IM</span> application
+that runs directly on the computer you&nbsp;own.</p>
+<p>We don&#8217;t know yet how Instantbird 1.0 will be, it will need to be
+discussed. With You. At this point we are discussing which improvements
+will compose the 0.3 release. If you want to take part in this
+discussion or have questions related to our long term goals, don&#8217;t
+hesitate to <a class="reference external" href="http://instantbird.com/contact.html">get in touch</a> with&nbsp;us.</p>
+</div>
+<div class="section" id="what-s-next">
+<h2>What&#8217;s&nbsp;next?</h2>
+<p>We are confident that if you have tried a release from the Instantbird
+0.1.* series, you will see Instantbird 0.2 as major improvement. And if
+you haven&#8217;t used Instantbird before, then the 0.2 release is a great
+time to start! In the next few days, we will detail a few of the
+features that already make Instantbird 0.2 a very usable instant
+messaging application, despite its low version&nbsp;number.</p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/development/" title="View all posts in Development">Development</a> and tagged           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/philosophy/">philosophy</a> by <a href="/author/flo/">flo</a>. Bookmark the <a href="/2010/06/our-goals-toward-instantbird-0-2-and-beyond/" title="Permalink to Our goals: toward Instantbird 0.2 and beyond" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-our-goals-toward-instantbird-0-2-and-beyond -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      6 thoughts on &ldquo;<span>Our goals: toward Instantbird 0.2 and&nbsp;beyond</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-137">
+  <article id="comment-137" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            cabotine</span> on <a href="#comment-137"><time datetime="2010-06-29T15:18:00+00:00">June 29, 2010 at 3:18 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">Hi,</div>
+<div class="line">it would be nice to have a standalone client for the wave-protocol.</div>
+<div class="line">Have you thought about it already?</div>
+<div class="line">Regards</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-138">
+  <article id="comment-138" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-138"><time datetime="2010-06-30T15:18:00+00:00">June 30, 2010 at 3:18 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>This all sounds very exciting. Thank you for the public updates. Please keep them&nbsp;coming.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-144">
+  <article id="comment-144" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Cane</span> on <a href="#comment-144"><time datetime="2010-07-03T14:28:00+00:00">July 3, 2010 at 2:28 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">The thing I miss the most, and the only reason why I hold on to Pidgin, is that Instantbird don&#8217;t display buddy icons.</div>
+<div class="line">Anyway&#8230; Keep up the good work!</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-145">
+  <article id="comment-145" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-145"><time datetime="2010-07-03T17:12:00+00:00">July 3, 2010 at 5:12 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;Cane</strong>: The buddy icons are already displayed in tooltip that appear when hovering a contact in the buddy list, or a tab. In a future version they will be more visible. Thanks for your encouragement&nbsp;:).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-148">
+  <article id="comment-148" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            patrickjdempsey</span> on <a href="#comment-148"><time datetime="2010-07-08T00:06:00+00:00">July 8, 2010 at 12:06 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#64;Cane: Buddy icons are displayed in the conversation, but only if you use one of the converted Adium message themes. They are not available in any of the default message themes at this point. I know for sure they appear in Bishop. I personally like the current system and find that seeing the icon for the chat protocol gives me more information than a tiny version of an&nbsp;avatar.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-152">
+  <article id="comment-152" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-152"><time datetime="2010-07-08T13:19:00+00:00">July 8, 2010 at 1:19 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>[quote]I personally like the current system and find that seeing the icon for the chat protocol gives me more information than a tiny version of an&nbsp;avatar.[/quote]</p>
+<p>I can imagine since you are a developer. I personally think in the end, on a daily basis, you shouldn&#8217;t be too busy with the protocol, but with the users on your list that make instant&nbsp;messaging.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

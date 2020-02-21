@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>4 | November | 2011 | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="archive date two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<section id="primary">
+  <div id="content" role="main">
+    <header class="page-header">
+      <h1 class="page-title">
+          Daily Archives: <span>November 4, 2011</span>
+      </h1>
+    </header>
+
+
+<article id="post-weekly-meeting-october-31-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/11/weekly-meeting-october-31-2011/" rel="bookmark">Weekly Meeting: October 31,&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
+were discussed as well as a summary of what&#8217;s happened since the 1.1
+release. (<a class="reference external" href="http://log.bezut.info/instantbird/111031/#m220">Full chatlogs</a>
+are also available, as well as the <a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031">Etherpad
+timelime</a>.)</p>
+<blockquote>
+<div class="compound">
+<p>Weekly meetings are held every Monday at 4pm <span class="caps">UTC</span> (that&#8217;s 6pm for
+people in France, and 9am for people in San Francisco) in
+<a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on irc.mozilla.org</a>.</p>
+</div>
+</blockquote>
+<div class="section" id="what-s-happened-since-the-1-1-release">
+<h2>What&#8217;s Happened Since the 1.1&nbsp;Release:</h2>
+<ul class="simple">
+<li>Lots of patches have been reviewed and some new features are in (or soon
+to be in) the <a class="reference external" href="http://nightly.instantbird.im/">nightly builds</a>.<ul>
+<li>Tab complete is now smart about case&nbsp;sensitivity.</li>
+<li>You can now change your status from the tray&nbsp;icon.</li>
+<li>You can now copy the link directly to a&nbsp;tweet.</li>
+</ul>
+</li>
+<li>Some major changes have been made to the repository to pave the way for
+large improvements. If you have the code checked out, you should&nbsp;update!</li>
+</ul>
+</div>
+<div class="section" id="what-s-being-worked-on">
+<h2>What&#8217;s Being Worked&nbsp;On:</h2>
+<div class="wp-caption alignleft docutils container">
+<a class="reference external image-reference" href="http://blog.instantbird.org/images/nickcolor13.png"><img alt="Active participants are highlighted in color." src="http://blog.instantbird.org/images/nickcolor13.png" style="width: 159px; height: 387px;" /></a>
+<p>Active participants are highlighted in&nbsp;color.</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1112">Only show colors of participants who have
+participated</a>,
+allowing you to quickly see who&#8217;s active! This first patch will keep
+participants gray until they&#8217;ve talked once, look for it in a nightly&nbsp;soon!</li>
+<li>Cleaning up and renaming of the interfaces to make them easier to
+work with. This is paving stone to making libpurple optional (and
+only loading protocols when they&#8217;re&nbsp;needed).</li>
+<li>Integration work of the JavaScript <span class="caps">IRC</span> code into the Instantbird
+source has started (instead of using it as an&nbsp;extension).</li>
+<li>Florian will be attending <a class="reference external" href="https://wiki.mozilla.org/EU_MozCamp_2011">MozCamp
+Berlin</a>, from November
+12th to November 13th, and will be giving a talk on Instantbird, go
+say &#8220;Hi!&#8221; if you&#8217;ll be&nbsp;attending!</li>
+<li>Lots of user interface (in particular, when using Twitter) &#8220;paper
+cut&#8221; bugs! Those annoying bugs that you can live with, but get in
+your way? Yeah, we don&#8217;t like those&nbsp;either.</li>
+</ul>
+</div>
+<div class="section" id="ways-you-help-out">
+<h2><strong>Ways You Help&nbsp;Out:</strong></h2>
+<p>There&#8217;s a few tasks that we could use help with, if you&#8217;re interested in
+any of these, please <a class="reference external" href="http://instantbird.com/about.html">contact
+us</a>.&nbsp; (And if there&#8217;s something
+else you&#8217;re interested, let us know about that&nbsp;too!)</p>
+<ul class="simple">
+<li>A <span class="caps">QA</span>/testing team would help to find regressions and bugs&nbsp;quickly</li>
+<li>Help is needed in organizing the localization effort and keeping them
+up to date with&nbsp;information.</li>
+<li>Someone to work on making the add-on experience more enjoyable would
+be&nbsp;appreciated.</li>
+</ul>
+<p>Stop by at our next meeting on November 7, 2011 at 6:00 <span class="caps">PM</span> France time
+in <a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on
+irc.mozilla.org</a>!&nbsp; And as always,
+please file any bugs you see in our <a class="reference external" href="https://bugzilla.instantbird.org">bug
+tracker</a>.</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/11/weekly-meeting-october-31-2011/" title="3:52 PM" rel="bookmark"><time class="entry-date" datetime="2011-11-04T15:52:14+00:00">November 4, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/weekly-meetings/">weekly meetings</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-weekly-meeting-october-31-2011 -->
+
+  </div><!-- #content -->
+</section><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

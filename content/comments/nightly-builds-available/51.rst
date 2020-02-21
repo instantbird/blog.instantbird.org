@@ -1,5 +1,0 @@
-:date: 2008-12-02 23:15
-:author: (anonymous)
-:replyto: 0
-
-Are there any plans to provide InstantBird-Firefox integration in the form of a Firefox extension? My ultimate dream would be to be able to access all my IMs from the Firefox sidebar!

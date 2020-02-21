@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - community</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 22 Jul 2013 09:00:59 +0000</lastBuildDate><item><title>First Milestone of the Awesometab has landed!</title><link>http://blog.instantbird.org/2013/07/first-milestone-of-the-awesometab-has-landed/</link><description>&lt;p&gt;&lt;em&gt;Awesometab&lt;/em&gt; is the project name for a tab developed by &lt;a class="reference external" href="http://awesometab.blogspot.de/"&gt;Nihanth Subramanya&lt;/a&gt;
+during the &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013"&gt;Google Summer of Code 2013&lt;/a&gt; (via &lt;a class="reference external" href="http://blog.gerv.net/2013/06/gsoc-2013-project-list/"&gt;Mozilla&lt;/a&gt;) which allows to
+&lt;em&gt;quickly start the conversation you want to start&lt;/em&gt;. The suggestions will be based
+on several parameters like frequency and recency of previous conversations and
+will show the most likely results when you open the new conversation-tab. It
+will also include already ongoing conversations (&lt;em&gt;Switch to conversation&lt;/em&gt;) and
+suggestions for multi user chats such as &lt;span class="caps"&gt;IRC&lt;/span&gt; channels and &lt;span class="caps"&gt;XMPP&lt;/span&gt; chatrooms on the
+servers that you’re connected&amp;nbsp;to.&lt;/p&gt;
+&lt;div class="section" id="whats-this-milestone-that-has-landed-already"&gt;
+&lt;h2&gt;What’s this milestone that has landed&amp;nbsp;already?&lt;/h2&gt;
+&lt;p&gt;After problems with the sheer size of the patch during last years GSoC project,
+we decided to split this year’s projects into smaller parts that can land as
+soon as they are&amp;nbsp;ready.&lt;/p&gt;
+&lt;p&gt;So far a filterable contact list in a tab has landed that can easily be opened
+using the common shortcut of &lt;em&gt;Ctrl+T&lt;/em&gt; for &lt;em&gt;New Tab&lt;/em&gt; (from both the contact list
+or a conversation window) or by clicking the likewise familiar &lt;em&gt;New Tab&lt;/em&gt;-button
+in the tab&amp;nbsp;bar.&lt;/p&gt;
+&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png"&gt;&lt;img alt="New conversation tab" src="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png" style="width: 300px; height: 232px;" /&gt;&lt;/a&gt;
+&lt;p class="wp-caption-text"&gt;New conversation tab, list filtered for contacts starting with letter&amp;nbsp;f&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It features a search bar at top of the tab content which allows to refine the
+results. It currently matches the entered name against each part of the
+contact’s names but will do more later (see next&amp;nbsp;section).&lt;/p&gt;
+&lt;p&gt;Contacts are displayed similar to results in Firefox’ awesomebar while retaining
+the familiar look of the conversation header with the contact icon and status
+indicator at the left and the contact name and status message to the right of
+it. Additionally the tags of the contact are displayed, indicated by the same
+icons as Firefox uses for tags on the&amp;nbsp;Awesomebar.&lt;/p&gt;
+&lt;p&gt;Starting a conversation is as easy as single clicking on the result or selecting
+an item with the keyboard and pressing Enter – a middle click opens the new
+conversation in background instead while keeping the new conversation tab
+visible, just in case that you need to start more than one&amp;nbsp;conversation!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="and-whats-next"&gt;
+&lt;h2&gt;And what’s&amp;nbsp;next?&lt;/h2&gt;
+&lt;p&gt;The next step (already under development!) will be further improving this list
+by integrating already ongoing conversations (&lt;em&gt;Switch to tab/conversation&lt;/em&gt;).
+We’d also like to include a way to filter the list by tags and to highlight the
+text that matches the filter like the Awesomebar&amp;nbsp;does.&lt;/p&gt;
+&lt;p&gt;Later on a ranking algorithm will be introduced and tweaked to show the most
+important results first instead of the alphabetically sorted list that you
+currently get when opening the&amp;nbsp;tab.&lt;/p&gt;
+&lt;p&gt;These changes are most likely going to be integrated as soon as they are ready
+and reviewed, so make sure you have a &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;nightly build&lt;/a&gt; and update&amp;nbsp;frequently!&lt;/p&gt;
+&lt;p&gt;I’m really happy to see how well this project is going, I’m already enjoying how
+easy it became to start a conversation using the filterable contact list. I’m
+looking forward to actually see the conversations I most likely want to start
+right&amp;nbsp;away!&lt;/p&gt;
+&lt;p&gt;Thanks, Nihanth, it’s really great work that you’re doing&amp;nbsp;here!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benedikt P</dc:creator><pubDate>Mon, 22 Jul 2013 09:00:59 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-07-22:/2013/07/first-milestone-of-the-awesometab-has-landed/</guid><category>Features</category><category>community</category><category>GSoC</category></item></channel></rss>

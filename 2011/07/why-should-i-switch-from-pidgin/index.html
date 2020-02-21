@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>“Why should I switch from Pidgin?” | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-why-should-i-switch-from-pidgin" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title"><span class="dquo">&#8220;</span>Why should I switch from&nbsp;Pidgin?&#8221;</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2011/07/why-should-i-switch-from-pidgin/" title="12:17 AM" rel="bookmark"><time class="entry-date" datetime="2011-07-09T00:17:20+00:00">July 9, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>This is a question people keep asking us. With some variations (&#8220;Why
+should I switch from Adium?&#8221;), or sometimes without the question mark
+(&#8220;There&#8217;s nothing more than&nbsp;Pidgin&#8221;).</p>
+<div class="section" id="we-are-not-competing">
+<h2>We are not&nbsp;competing&#8230;</h2>
+<p>I think people ask us this question because they perceive us as
+competing with Pidgin/Adium/[insert the name of your favorite open
+source <span class="caps">IM</span> client]. But there&#8217;s no good answer to that question, because
+we are not competing, here is&nbsp;why:</p>
+<ul class="simple">
+<li>we share values. We believe that instant messaging technologies
+should be freely accessible and open: people should not be locked in
+closed&nbsp;systems.</li>
+<li>we share a technology stand point: we think that to empower people to
+increasingly use the open <span class="caps">IM</span> technologies that we like, we need to
+offer people a tool that makes it easy to access both promising open
+technologies and legacy&nbsp;networks.</li>
+<li>we share code. Instantbird, like Adium, relies on libpurple, which is
+at the heart of Pidgin, to connect to legacy networks. We take this
+code, but we also give back: several changes made to libpurple to
+improve its reliability in Instantbird are now part of Pidgin. We are
+working together, and Instantbird developers are definitely part of
+the Pidgin developer&nbsp;community.</li>
+</ul>
+</div>
+<div class="section" id="but-we-offer-an-alternative">
+<h2>&#8230; but we offer an&nbsp;alternative</h2>
+<p>I can easily understand why people think we compete though, as we do
+provide an alternative. I assume people who ask the previously mentioned
+question actually wanted the answer to another question: How is
+Instantbird different from Pidgin? Now, this is a question we can&nbsp;answer!</p>
+<p>I will actually provide several different answers: the first will
+satisfy technically oriented people, the others should be understandable
+by everybody. Most of my points compares Instantbird to Pidgin, but are
+still applicable when comparing Instantbird to other <span class="caps">IM</span>&nbsp;clients.</p>
+</div>
+<div class="section" id="technical-differences">
+<h2>Technical&nbsp;differences</h2>
+<p>The biggest technical difference between Pidgin and Instantbird is that
+Pidgin uses <span class="caps">GTK</span>+ and Instantbird uses the Mozilla <span class="caps">XUL</span> platform to
+display its user&nbsp;interface.</p>
+<p>The Mozilla platform has advantages compared to <span class="caps">GTK</span>+:</p>
+<ul class="simple">
+<li>The Mozilla platform is well known for its awesome extensibility.
+Add-ons can modify almost anything that is part of the Instantbird
+user interface, and the skills required to build add-ons are similar
+to the skills required to create a website, as the technologies are
+basically the same: <span class="caps">HTML</span>, <span class="caps">CSS</span>, JavaScript, <span class="caps">XML</span>, &#8230; Instantbird
+add-ons are easy to install, some can even be installed without
+restarting the application! (To be fair, Pidgin also supports
+plugins, but writing them in C requires much more programming
+knowledge and to compile them for each platform. Pidgin also has
+Python (via D-Bus) and Perl scripting APIs, but I&#8217;m not sure they are
+actually usable on&nbsp;Windows.)</li>
+<li>While a <span class="caps">GTK</span>+ user interface is native on some Linux desktop operating
+systems (typically those based on Gnome or <span class="caps">XFCE</span>), a <span class="caps">XUL</span> user
+interface also acts native on Windows (we even included some Aero
+Glass effects for Windows 7) and Mac <span class="caps">OS</span> X where <span class="caps">GTK</span> may not fit as&nbsp;well.</li>
+<li>Thanks to the Mozilla accessibility effort, the <span class="caps">XUL</span> platform is very
+accessible and we have received a lot of enthusiastic feedback from
+users of assistive technologies who love&nbsp;Instantbird.</li>
+</ul>
+<p>Developing on top of Mozilla also has some (perceived)&nbsp;downsides:</p>
+<ul class="simple">
+<li>We need to ship the whole Mozilla toolkit, which makes us package
+megabytes of compiled code we didn&#8217;t write. This means for example
+that the Instantbird installer for Windows weights 9.<span class="caps">9MB</span>. Some people
+(especially some Miranda fans) seem to think this is huge, but while
+I like to find ways to reduce the size of the installer we ship, I
+tend to think at this point it is mostly a non-issue. Just for
+comparison, the Pidgin installer weights 9.<span class="caps">5MB</span> without <span class="caps">GTK</span>, and
+32.<span class="caps">4MB</span> with all its dependencies&nbsp;included.</li>
+<li>The Mozilla platform has the reputation of using more resources than
+other browsers/toolkits. The good news is, some bright people are
+currently making a <a class="reference external" href="https://wiki.mozilla.org/Performance/MemShrink">huge
+effort</a> to reduce
+the memory usage, so this will be mitigated in future releases. Plus
+the situation is not as bad as some people pretend it to be: the
+memory usage measurements we see in comments about Instantbird aren&#8217;t
+that scary, some people start to complain when an application uses
+<span class="caps">40MB</span> of memory. Hey come on, we are in 2011, new machines have been
+shipping with gigabytes of memory for years&nbsp;already&#8230;</li>
+<li>I heard from some Linux packagers that the Mozilla build system is
+not easy to work with for them. While there may be some pain points
+here, it doesn&#8217;t really affect the end&nbsp;user.</li>
+</ul>
+</div>
+<div class="section" id="we-make-instantbird-for-you">
+<h2>We make Instantbird for&nbsp;you!</h2>
+<p>Some developers make their programs the best for themselves and share it
+with you, for free. These programs are the result of people&#8217;s hard work
+which they offer you as a gift, and so these people deserve respect for
+that! Unfortunately, it is not unusual that if somehow the product
+doesn&#8217;t work out for you, it&#8217;s your problem, not theirs, and you are
+free: to fix it, to report the issue and hope someone will fix it, or to
+look for a greener pasture. Your comments are valued if they help
+developers make their program better for everybody, for example if it
+helps fixing bugs that lots of people suffer from. Your opinions and
+wishes may not be taken into account, however, unless you intend to
+actually start working on them: patches are welcome, not additional work
+(people are busy&nbsp;already).</p>
+<p>We work to make Instantbird the best for you. We look forward to
+gathering your feedback and acting upon it to make Instantbird even
+better, for you. We assume that when someone takes the trouble to come
+and talk with us to complain about something, there&#8217;s a valid concern.
+Even when it&#8217;s well hidden behind factually inexact assertions that we
+can&#8217;t agree with. If people cannot express themselves clearly, there&#8217;s a
+reason why they are confused, and if a confusion is common, we should
+find its cause and fix&nbsp;it.</p>
+<p>As this difference may be a bit theoretical, I&#8217;m going to give a
+concrete example in the next point: the way we deal with stability&nbsp;issues.</p>
+</div>
+<div class="section" id="stability">
+<h2>Stability</h2>
+<div class="section" id="crash-reports">
+<h3>Crash&nbsp;reports</h3>
+<p>Let&#8217;s see what happens in the unfortunate event of the user being hit by
+a bug resulting in a crash of the&nbsp;application:</p>
+<p>If you are using Pidgin and want to help get the bug fixed, you need to
+<a class="reference external" href="http://developer.pidgin.im/wiki/GetABacktrace">get a backtrace</a> (on
+Unix systems) or to have <a class="reference external" href="http://developer.pidgin.im/wiki/TipsForBugReports#WhattodoifPidgincrashes">installed the debug symbols before the
+crash</a>
+so that a crash report could be dumped to the disk (on Windows). Then
+you need to open a ticket on trac and give all the info you have. As
+this process may be a bit scary for most end-users, I&#8217;m afraid valuable
+feedback could get&nbsp;lost.</p>
+<p>If the same issue happens with Instantbird, first we&nbsp;apologize:</p>
+<p><img alt="Instantbird crash reporter" src="http://blog.instantbird.org/images/crash-breakpad.png" /></p>
+<p>Then all you have to do to send us the technical information about the
+crash is a single click in this crash reporter dialog. We collect all
+these crash reports and analyze them to improve the stability of the
+next version of&nbsp;Instantbird.</p>
+</div>
+<div class="section" id="nightly-testing">
+<h3>Nightly&nbsp;testing</h3>
+<p>In addition to collecting crash reports, another thing we do to maintain
+a high stability level for Instantbird is that we encourage early
+adopters to run with nightly builds of Instantbird which are updated
+almost daily with the very latest version of our source code. Therefore,
+if something we changed degrades the stability, we receive crash reports
+way before the defective change ends up in a release you may&nbsp;use.</p>
+<p>If some change feels a bit risky to us, we push it to our testers at
+least a week before releasing, or we delay it so that it gets
+appropriate testing before being included in the next&nbsp;release.</p>
+<p>Just as a comparison, Pidgin&#8217;s currently in development code is tested
+only by developers and <a class="reference external" href="http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN">others people are discouraged from attempting to
+use
+it</a>.</p>
+<p>Learn more about our <a class="reference external" href="http://blog.instantbird.org/articles/stability.rst">stability efforts</a>.</p>
+</div>
+</div>
+<div class="section" id="changing">
+<h2>Changing</h2>
+<p>We keep seeing comments of people (who have not actually tried
+Instantbird) who think we should go improve Pidgin instead of &#8220;wasting
+time&#8221; on&nbsp;Instantbird.</p>
+<p>In the page of our website where we explain <a class="reference external" href="http://www.instantbird.org/">why we create
+Instantbird</a>, we&nbsp;conclude:</p>
+<blockquote>
+<div class="compound">
+<p>It&#8217;s time to bring back&nbsp;innovation!</p>
+</div>
+</blockquote>
+<p>To do this, we need to be able to change things easily. As Instantbird
+is still a young project, we can change&nbsp;fast.</p>
+<p>Pidgin on the other hand is already a mature project with policies about
+when it&#8217;s acceptable to change APIs or when they are frozen: it&#8217;s
+basically impossible to change an <span class="caps">API</span> in Pidgin until a new major
+version is released (so after the Pidgin 2.0.0 release, the <span class="caps">API</span> changes
+have to wait until Pidgin 3.0.0 comes out to be included: currently
+Pidgin 2.0.0 was released over four years ago!). This is a good thing to
+ensure the plugins stay compatible, but it slows down the changes to the&nbsp;application.</p>
+</div>
+<div class="section" id="different-feature-sets">
+<h2>Different feature&nbsp;sets</h2>
+<p>This is my last point even though most people would expect to see it
+first. Instantbird and Pidgin have different feature&nbsp;sets.</p>
+<p>On one hand, Pidgin has some features that Instantbird doesn&#8217;t have.
+Some that we will have in the future. Some that we don&#8217;t want to have.
+I&#8217;m not going to give a full list here because I don&#8217;t actually have a
+list of all Pidgin features to compare and check what we have and what
+we don&#8217;t have. We are neither trying to copy Pidgin nor to directly
+compete against it, so such a list would be irrelevant&nbsp;anyway.</p>
+<p>On the other hand, Instantbird has some features that Pidgin doesn&#8217;t
+have (message themes, automatic updates, inline search, &#8230;) and even
+some unique features (for two examples, see my blog posts introducing
+<a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst">Time Bubbles</a> and <a class="reference external" href="http://blog.instantbird.org/articles/introducing-magic-copy.rst">Magic copy</a>).</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>So, should you switch to Instantbird? If I were you, I would. But I&#8217;m
+not you. Deciding which <span class="caps">IM</span> client you use is your choice, based on your
+taste, your needs, your feelings. It&#8217;s your decision,&nbsp;really!</p>
+<p>If you like what you currently have and see nothing you like in what
+Instantbird offers, just keep using what you&nbsp;like.</p>
+<p>If you love Instantbird, then, obviously you should use&nbsp;it.</p>
+<p>If you are in the middle and like Instantbird but for some reason can&#8217;t
+use it because something you really need is missing or doesn&#8217;t work,
+please tell us about it, we are eager to receive your feedback! And
+maybe there&#8217;s already an add-on to customize Instantbird to do what you
+wanted that we can point you&nbsp;to.</p>
+<p>In any case, we are not going to try to force you to switch from Pidgin
+or whatever <span class="caps">IM</span> client you may be using right now to Instantbird. We
+respect your freedom, we respect your choices, we love&nbsp;you!</p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/community/" title="View all posts in Community">Community</a> and tagged           <a href="/tag/libpurple/">libpurple</a>,          <a href="/tag/pidgin/">pidgin</a> by <a href="/author/flo/">flo</a>. Bookmark the <a href="/2011/07/why-should-i-switch-from-pidgin/" title="Permalink to “Why should I switch from Pidgin?”" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-why-should-i-switch-from-pidgin -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      17 thoughts on &ldquo;<span><span class="dquo">&#8220;</span>Why should I switch from&nbsp;Pidgin?&#8221;</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-239">
+  <article id="comment-239" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/9faf4284682ab5f09d1a20a23218fe9f?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-239"><time datetime="2011-07-09T00:41:00+00:00">July 9, 2011 at 12:41 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>One missing feature that&#8217;s a showstopper in pidgin for a friend of mine is Invisibility support for gmail. I did some research on that a while back and found that it&#8217;s hard to support because Google decided to screw up the <span class="caps">XMPP</span> protocol in some way. But if Instantbird were to support that feature, I could immediately recommend it to my friend to try. Do you happen to know if Instantbird has&nbsp;that?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-240">
+  <article id="comment-240" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Daniel</span> on <a href="#comment-240"><time datetime="2011-07-09T02:13:00+00:00">July 9, 2011 at 2:13 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>My main machine recently died and I decided to install Instantbird on my backup machine for the time being. One thing that has annoyed me no end about Pidgin is that it&#8217;s support for the Windows clipboard is broken. It seems to actually maintain its own copy of the clipboard which it often fails to keep up to date. Strangely, it ignores this private copy for &#8220;Paste as plain text&#8221;. I&#8217;ve posted so many URLs into the wrong window, it&#8217;s not funny. Pidgin&#8217;s <span class="caps">UI</span> also doesn&#8217;t quite work natively, although this is more a comment on <span class="caps">GTK</span>+ on Windows in&nbsp;general.</p>
+<p>Instantbird does not have any of these problems. As soon as I get my main machine back up and running, I&#8217;ll be trying to switch over to Instantbird&nbsp;fully.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-241">
+  <article id="comment-241" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/181ae3c6e4a87c35bfbd987c5838a135?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            skierpage</span> on <a href="#comment-241"><time datetime="2011-07-09T04:24:00+00:00">July 9, 2011 at 4:24 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Have you thought of distributing a version of Instantbird without the Mozilla runtime? It would be a smaller download, it can share the Mozilla toolkit that every Firefox user already has on-disk and probably in-memory, it would get Firefox enhancements to core code. I like browser-like apps and the Mozilla toolkit (for all the reasons you mention and more), but I don&#8217;t want to run and update another copy of it. I can imagine the effort it would take to keep up with the development pace of Firefox, but with Mozilla&#8217;s increasing emphasis on Firefox, everything else is falling by the wayside&nbsp;anyway.</p>
+<p>I think Ubuntu 11.04 ships Instantbird as a XULRunner package, which is good, but it only delays the problem of keeping up with the relentless Firefox tempo. Even though I&#8217;ve got multiple Firefox, Thunderbird, and SeaMonkey versions installed, I didn&#8217;t have a system xulrunner package until I installed Instantbird, so there&#8217;s no&nbsp;sharing.</p>
+<p>I&#8217;m not suggesting turning Instantbird into a Firefox add-on, I want it as a separate app independent of the browser using the -app trick to reuse the Firefox runtime. I tried this, `/path/to/firefox/firefox -app /path/to/instantbird/application.ini`, and found that after adjusting MaxVersion, Ubuntu&#8217;s 64-bit instantbird package works (or &#8220;doesn&#8217;t immediately crash&#8221; ;-) ) sharing Ubuntu&#8217;s Firefox5 package! <span class="caps">FWIW</span>, running instantbird with Firefox Nightly, it fails with &#8220;Description: <span class="caps">XPCOM</span> registration of the purplexpcom component&nbsp;failed.&#8221;</p>
+<p>Good luck keeping up with the runaway Firefox&nbsp;train.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-242">
+  <article id="comment-242" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-242"><time datetime="2011-07-09T04:45:00+00:00">July 9, 2011 at 4:45 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">That&#8217;s why I had been always keeping an eye on Instantbird. The extensibility with addons like Firefox is what I love most about this project, that&#8217;s the real potential. I love Firefox and Thunderbird because I can customized and add to it whatever I want, and just make it &#8220;my browser&#8221;. I admit that I am currently a Pidgin user, because Instanbird still lacks some of the features I want before making the jump. The problem I see currently with Pidgin at least for me, is that the addons are very limited (even though some are awesome. ), rarely you see a new one. That&#8217;s where I have faith in Instantbird, it&#8217;s untapped potential which will be achieve once it&#8217;s add on community grows as big as the ones in Firefox and Thunderbird, and it will happen. The great thing about it, is that all the future features don&#8217;t depend on the main developer, but in the add on community and its creativity. If it isn&#8217;t there, there&#8217;s no need for a new version to come out, but rather a new add on being made.</div>
+<div class="line">Some of the features or add ons, I look forward: Pop up for new messages (like Pidgin&#8217;s Guifications), even better that feature in Digsby to reply to a message in the pop up (Pidgin will never had that), make the buddy list dockable to a side of the screen, display your current song on your status, see buddy pic on the buddy list, change the font of your contacts, and many more I can&#8217;t think of right now, but someone might and make an addon for it.</div>
+<div class="line">Glad seeing this project going mainstream and very excited to see it growing in the upcoming months. All the best</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-243">
+  <article id="comment-243" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-243"><time datetime="2011-07-09T13:22:00+00:00">July 9, 2011 at 1:22 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>That&#8217;s way too much text for a &#8216;why should I switch&#8217; document - it&#8217;s at over 2500 words. Pare it down to 10% of that and put everything else in separate sections or&nbsp;pages.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-244">
+  <article id="comment-244" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            foxmask</span> on <a href="#comment-244"><time datetime="2011-07-09T16:46:00+00:00">July 9, 2011 at 4:46 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">hi,</div>
+<div class="line">will a relase exist for android ?</div>
+<div class="line">that will be great ;)</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-251">
+  <article id="comment-251" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-251"><time datetime="2011-07-11T14:31:00+00:00">July 11, 2011 at 2:31 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>restartless add-ons? So you&#8217;re supporting JetPack&nbsp;add-ons?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-252">
+  <article id="comment-252" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-252"><time datetime="2011-07-13T07:45:00+00:00">July 13, 2011 at 7:45 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">I simply love Instantbird for the good <span class="caps">CJK</span> support, since Pidgin didn&#8217;t and hasn&#8217;t fix the issue and probably never will. (I heard it&#8217;s a <span class="caps">GTK</span> issue?)</div>
+<div class="line">Miranda <span class="caps">IM</span> works fine but I&#8217;m too lazy to customize everything. <span class="caps">XD</span>|||</div>
+<div class="line">The most important thing makes me use Instantbird is simply because of all the great developers!</div>
+<div class="line">Thank you all for creating this nice application~ &lt;3</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-253">
+  <article id="comment-253" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-253"><time datetime="2011-07-13T14:39:00+00:00">July 13, 2011 at 2:39 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><strong>&#64;skierpage</strong>: While it would technically be possible to use the firefox.exe binary with the -app flag, we would gain almost nothing and it would be a sure way to get in trouble at each Firefox&nbsp;update.</p>
+<p><strong>&#64;(anonymous)[1]</strong>: Instantbird already has popup notifications for new messages, it&#8217;s the &#8220;notify of messages received in inactive windows&#8221; checkbox in the General tab of the preference&nbsp;window.</p>
+<p><strong>&#64;(anonymous)[2]</strong>: I agree that it&#8217;s way too long for a marketing document. I wrote it this way to give an answer to the people who genuinely wanted an answer to that question, which isn&#8217;t an easy one at&nbsp;all.</p>
+<p><strong>&#64;foxmask</strong>: I would like to release Instantbird for Android someday. To be honest, at this point having some of the existing developers spend their time on an Android version would slow down too much the development of the desktop version, so it will have to wait for us to grow a bit more. By the way, if someone is interested in porting Instantbird to Android, we are definitely willing to help&nbsp;;).</p>
+<p><strong>&#64;(anonymous)[3]</strong>: JetPack is just a specific kind of restartless add-ons for Firefox. We aren&#8217;t supporting JetPack add-ons. See the Mozilla documentation on <a class="reference external" href="https://developer.mozilla.org/en/Extensions/Bootstrapped_extensions%22">bootstrapped extensions</a> for more&nbsp;details.</p>
+<p><strong>&#64;(anonymous)[4] + others expressing love and enthusiasm for our work</strong>: Thanks for your kind words. We really appreciate them! Don&#8217;t hesitate to share Instantbird with your friends!&nbsp;:)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-255">
+  <article id="comment-255" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/9faf4284682ab5f09d1a20a23218fe9f?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Stuart</span> on <a href="#comment-255"><time datetime="2011-07-14T02:39:00+00:00">July 14, 2011 at 2:39 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#8230; and that was me, I missed that I could enter a name. Do you happen to know if there is or will be invisibility support for google&nbsp;chat?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-256">
+  <article id="comment-256" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-256"><time datetime="2011-07-17T20:38:00+00:00">July 17, 2011 at 8:38 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">I really do like instantbird and I&#8217;m willing switch to it but there are a few things preventing me from doing so. One is the inability to block a contact or just appear offline to it. I&#8217;ve got some colleagues and professors that I have on my list and I just can&#8217;t delete them but I also don&#8217;t want to talk to them, so in my case, a block feature is a dire need. Secondly I can&#8217;t see the display picture of any of my contact. While that isn&#8217;t a major problem, it&#8217;s still something that can be missed. A third item I would like to see in instantbird is a mail checker. Perhaps something similar to the &#8220;watcher&#8221; addon series that are present in firefox&#8217;s database could suffice (Hotmail Watcher, Gmail Watcher, Yahoo! Mail Watcher). Another feature I&#8217;d like to see in instantbird is the ability to enlarge and reposition icons in the main window. It&#8217;s easier to identify a contact by their dp instead of their nickname, so in my opinion we could make use of the option of enlarging and shrinking display pictures that are found in the contact list. I&#8217;ve got one last suggestion and that is giving the users the ability to utilize custom sounds. One thing I love about instantbird is the ability to customize it, and that feature should be extended to the sounds as well.</div>
+<div class="line">If any of these features are found but I have failed to discover them then please point me to where they are.</div>
+<div class="line">On another note, Instantbird starts up real quickly, and rarely ever gives start up errors which is an indispensable feature. Keep up the good work :)</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-257">
+  <article id="comment-257" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/309e6de374351428c809009d5f8c9028?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Johannes</span> on <a href="#comment-257"><time datetime="2011-07-22T18:55:00+00:00">July 22, 2011 at 6:55 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><span class="dquo">&#8220;</span>Hey come on, we are in 2011, new machines have been shipping with gigabytes of memory for years&nbsp;already&#8230;&#8221;</p>
+<div class="line-block">
+<div class="line">I generally agree that memory usage of apps, especially in the &lt;<span class="caps">50MB</span> region shouldn&#8217;t be an issue.</div>
+<div class="line">And it shouldn&#8217;t be a point that is used to prioritize bug reports, feature requests, etc.</div>
+</div>
+<div class="line-block">
+<div class="line">But, and that&#8217;s a big but, almost all of my use cases pertaining to open source software rely on the fact that most of the tools are running on older machines as well.</div>
+<div class="line">Almost all of my friends and customers (= all of the people who are enjoying software I recommend to them) have machines that are older than a couple of years.</div>
+<div class="line">They are sufficiently fast and lean to get the jobs they need to get done, erm, done.</div>
+<div class="line">And the age of those machines come with several restrictions. One of them being that they are often notebooks which are not able to be upgrade beyond a certain amount of memory.</div>
+<div class="line">So being conservative on memory usage is a criteria for me when it comes to choose a certain tool over another.</div>
+</div>
+<div class="line-block">
+<div class="line">As you&#8217;ve said well a couple of times it isn&#8217;t a competition. And it shouldn&#8217;t be.</div>
+<div class="line">But it should be a mantra to constantly drive memory usage down or at least hold it at a certain level.</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-260">
+  <article id="comment-260" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            (anonymous)</span> on <a href="#comment-260"><time datetime="2011-08-11T20:56:00+00:00">August 11, 2011 at 8:56 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p><span class="dquo">&#8220;</span>We are not&nbsp;competing&#8230;&#8221;</p>
+<p><span class="dquo">&#8220;</span>So, should you switch to Instantbird? If I were you, I&nbsp;would.&#8221;</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-262">
+  <article id="comment-262" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            QuestionM</span> on <a href="#comment-262"><time datetime="2011-08-20T01:41:00+00:00">August 20, 2011 at 1:41 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Hi,</p>
+<p>I would like to know if there is some security extensions for&nbsp;InstantBird.</p>
+<p>Thank&nbsp;you.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-264">
+  <article id="comment-264" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/720ac45915393e404eab9f9c1daee4c6?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Florian</span> on <a href="#comment-264"><time datetime="2011-08-23T22:03:00+00:00">August 23, 2011 at 10:03 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>&#64;<strong>QuestionM</strong>: What security concerns do you have? What doesn&#8217;t feel secure&nbsp;enough?</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-266">
+  <article id="comment-266" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/738a656e8e8ec272ca17cd51e12f558b?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Saab</span> on <a href="#comment-266"><time datetime="2011-09-03T01:42:00+00:00">September 3, 2011 at 1:42 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Hallo!</p>
+<div class="line-block">
+<div class="line">I just downloaded your program and Im happy with it. The cheerful interface and the comic-book bubbles are cool! I just have one question: On the &#8220;real&#8221; Yahoo Messenger you can selectively be visible/invisible to individual contacts. By this I mean you can do this:</div>
+<div class="line">Contact 1 = invisible</div>
+<div class="line">Contact 2 = invisible</div>
+<div class="line">Contact 3= <span class="caps">VISIBLE</span></div>
+<div class="line">Contact 4 = invisible</div>
+<div class="line">Will you make this feature available in InstantBird? Right now it seems its a blanket &#8220;Available&#8221; or &#8220;Unavailable&#8221;</div>
+<div class="line">Thanks and keep up the good work! :-)</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1047">
+  <article id="comment-1047" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Bret</span> on <a href="#comment-1047"><time datetime="2011-11-07T03:59:00+00:00">November 7, 2011 at 3:59 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I am going to give it a shot! Pidgin on windows has done very well for a while, but the whole <span class="caps">GTK</span> thing always bothered me. Mozilla products always seem to do the best on windows and offer a more native&nbsp;feel.</p>
+<p>Also, I bet you would get a much faster adoption rate by simply getting a fancier/nicer looking logo that better matched the Firefox/Thunderbird animal hugging the task theme. People are weird like&nbsp;that.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

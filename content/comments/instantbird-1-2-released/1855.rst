@@ -1,5 +1,0 @@
-:date: 2012-08-11 13:53
-:author: aleth
-:replyto: 1839
-
-Currently, the only way to do this is with an add-on. Such a 'sound theme' is basically a wrapper for the desired sound files. It's not difficult to do - look at https://addons.instantbird.org/en-US/instantbird/addon/323 for an example. Feel free to ask for help on #instantbird if you have questions!

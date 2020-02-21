@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>user interface | Blog@instantbird.org | Page 2</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; user interface Tag Feed" href="http://blog.instantbird.org/tag/user-interface/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="archive paged tag two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<section id="primary">
+  <div id="content" role="main">
+    <header class="page-header">
+      <h1 class="page-title">Tag Archives: <span>user interface</span></h1>
+    </header>
+
+<nav id="nav-above">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"></div>
+  <div class="nav-next"><a href="/tag/user-interface/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+<article id="post-message-styles" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2010/07/message-styles/" rel="bookmark">Message&nbsp;Styles</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>As exchanging messages is the most important feature of an instant
+messaging client, we put a great deal of thought into the way the
+messages are displayed. As we have <a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst">already explained</a>,
+we decided to implement the <a class="reference external" href="http://adium.im/">Adium</a> message style
+system. This system offers a great flexibility to message style authors
+to display the conversation content the way they&nbsp;want.</p>
+<p>In order to give users a good out-of-the-box experience, we have
+packaged a variety of messages styles by default in&nbsp;Instantbird.</p>
+<div class="section" id="bubbles">
+<h2>Bubbles</h2>
+<p>In Instantbird 0.1.*, the display of conversations was very simple
+(some may say boring!), and very similar to what Pidgin does. In
+Instantbird 0.2, the default message style, called &#8220;Bubbles,&#8221; is a lot
+more&nbsp;colorful.</p>
+<p>Messages are displayed in colored bubbles. In a private conversation
+with one other user, there&#8217;s a background color for your messages, and a
+color for the messages you receive. In multi-user chat rooms, there&#8217;s a
+different color for each participant, so you easily can tell which
+messages are sent by the same&nbsp;participant:</p>
+<p><img alt="chat room with people talking in colorful chat bubbles" src="http://blog.instantbird.org/images/chatroom2.png" /></p>
+<p>In this theme, the display of messages is clear and well spaced out.
+This theme was designed to be usable for most&nbsp;users.</p>
+<p>A few special features have been added to this theme to improve the
+readability of conversations and reduce the waste of space: consecutive
+messages from the same person are grouped automatically, consecutive
+system messages are automatically grouped and collapsed, and the
+timestamps are no longer displayed for each message, but as a tooltip
+when a message is&nbsp;hovered.</p>
+<p><img alt="Conversation using the Bubbles theme, with grouped messages and collapsed system messages" src="http://blog.instantbird.org/images/bubbles2.png" /></p>
+<p>Because we know one theme cannot fit the needs of everybody, we provide
+a few other themes by&nbsp;default.</p>
+</div>
+<div class="section" id="dark">
+<h2>Dark</h2>
+<p>The &#8220;Dark&#8221; theme is designed to please people who like having a dark
+(almost black) background color in their&nbsp;windows.</p>
+<p><img alt="Conversation using the Dark message theme" src="http://blog.instantbird.org/images/dark2.png" /></p>
+</div>
+<div class="section" id="paper-sheets">
+<h2>Paper&nbsp;Sheets</h2>
+<p>The &#8220;Paper Sheets&#8221; theme is a less fancy alternative to the default
+Bubble&nbsp;theme.</p>
+<p><img alt="Conversation using the Paper Sheets message theme" src="http://blog.instantbird.org/images/papersheets2.png" /></p>
+<p>Most of the features of Bubbles are also there, but it takes less space
+on the screen (no bubbles), and the colors are&nbsp;lighter.</p>
+<p>The margins used in this theme automatically adapt based on the total
+size of the conversation area, in order to save space if you decide to
+use a very small conversation&nbsp;window.</p>
+</div>
+<div class="section" id="simple">
+<h2>Simple</h2>
+<p>As we know some people may feel nostalgic, hate fancy stuff, or simply
+want to have a very compact message theme, we have included a message
+theme called &#8220;Simple.&#8221; With this theme, all the space is used for the
+conversation&nbsp;messages.</p>
+<p><img alt="Conversation using the Simple theme" src="http://blog.instantbird.org/images/simple2.png" /></p>
+<p>Finally, a little reminder about extensibility: even though the themes
+included by default have been designed to fit the needs of most users,
+they may not fit perfectly your personal taste, and that&#8217;s why there are
+<a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/browse/type:1/cat:6">hundreds of message themes already
+available</a>
+for you to enjoy trying out. <a class="reference external" href="http://wiki.instantbird.org/Instantbird:Message_Styles">Creating a new
+one</a> yourself
+is also very&nbsp;easy.</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2010/07/message-styles/" title="6:14 AM" rel="bookmark"><time class="entry-date" datetime="2010-07-06T06:14:23+00:00">July 6, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-message-styles --><article id="post-preferences-dialog" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2010/07/preferences-dialog/" rel="bookmark">Preferences&nbsp;dialog</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>The preferences dialog is a new feature in Instantbird 0.2 which will
+feel familiar to Firefox users. The overall appearance is the same,
+making you feel at&nbsp;home.</p>
+<p><img alt="General tab of the preference dialog" src="http://blog.instantbird.org/images/pref1.png" /></p>
+<p>Some of the options are also the&nbsp;same&#8230;</p>
+<p><img alt="Themes tab of the preference dialog" src="http://blog.instantbird.org/images/pref2.png" /></p>
+<p>&#8230; while some are very specific to&nbsp;Instantbird:</p>
+<p><img alt="Advanced tab of the preference dialog" src="http://blog.instantbird.org/images/pref3.png" /></p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2010/07/preferences-dialog/" title="11:15 PM" rel="bookmark"><time class="entry-date" datetime="2010-07-02T23:15:29+00:00">July 2, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/mozilla/">mozilla</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-preferences-dialog --><article id="post-conversation-tools" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2010/07/conversation-tools/" rel="bookmark">Conversation&nbsp;Tools</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>Some tools you already have in Firefox can help you manage your
+conversations in&nbsp;Instantbird:</p>
+<div class="section" id="find">
+<h2>Find</h2>
+<p>Trying to find where a topic or keyword was mentioned in a long
+conversation is a common action. Instantbird uses the same findbar as
+Firefox to provide a search facility inside conversations. Just press
+Ctrl + F (Command + F on Mac <span class="caps">OS</span> X) and the findbar will&nbsp;appear:</p>
+<p><img alt="Findbar in conversation window" src="http://blog.instantbird.org/images/findbar.png" /></p>
+<p>However, when looking for something in a conversation, the most recent
+match is probably the most interesting. That&#8217;s why for Instantbird we
+adapted the findbar to search from bottom to top by&nbsp;default.</p>
+</div>
+<div class="section" id="zoom">
+<h2>Zoom</h2>
+<p>Having trouble reading the text in conversations or fitting all the
+content on a small screen? Then the zoom feature is for&nbsp;you.</p>
+<p>The keyboard shortcuts are the same as in Firefox: Ctrl + + to increase
+the size, Ctrl + - to decrease, and Ctrl + 0 to reset to the default
+size (Command instead of Ctrl on Mac <span class="caps">OS</span>&nbsp;X).</p>
+<p><img alt="same conversation zoomed at various scales" src="http://blog.instantbird.org/images/zoom.png" /></p>
+<p>The changes in zoom settings are applied to all conversations at once
+and saved so that you do not need to adapt the zoom more than&nbsp;once.</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2010/07/conversation-tools/" title="10:11 PM" rel="bookmark"><time class="entry-date" datetime="2010-07-01T22:11:35+00:00">July 1, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/mozilla/">mozilla</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-conversation-tools --><article id="post-tabs" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2010/06/tabs/" rel="bookmark">Tabs</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>During the 0.2 cycle, we spent a lot of time reworking the conversation
+window. The conversation window will now feel more familiar to Firefox
+users. That&#8217;s because lots of parts have been borrowed and adapted. In
+this post, and the next few posts, we will present features that are
+already present in Firefox, but have been adapted for&nbsp;Instantbird.</p>
+<p>Let&#8217;s begin with tabs: conversations appear in tabs that work exactly
+the same way as in Firefox&nbsp;3.6.</p>
+<div class="section" id="tab-sizing">
+<h2>Tab&nbsp;sizing</h2>
+<p>Tabs are sized to take full advantage of the available space: when there
+are only a few tabs, their width allows seeing most of the title of the
+conversations, and a close button is visible on each tab, making it easy
+to close a tab with a single&nbsp;click.</p>
+<p><img alt="Top of conversation window with 2 tabs and some free space" src="http://blog.instantbird.org/images/tabs1-2tabsandfreespace.png" /></p>
+<p>If there are more tabs or if the window is smaller, the tabs shrink, and
+the close button remains visible only on the selected tab to save&nbsp;space.</p>
+<p><img alt="Top of conversation window with 4 tabs, only one close button is displayed" src="http://blog.instantbird.org/images/tabs2-4tabs1closebutton.png" /></p>
+<p>If the space is really too limited to fit all the conversation tabs, the
+tab bar becomes scrollable and a button appears to give the user a way
+to display a list of all tabs at&nbsp;once.</p>
+<p><img alt="Top of conversation window with overflowing tabs, and the all tabs menu opened" src="http://blog.instantbird.org/images/tabs3-overflowandalltabsmenu.png" /></p>
+<p>All this makes very small conversation windows&nbsp;usable.</p>
+<p><img alt="Very small conversation window with 2 tabs" src="http://blog.instantbird.org/images/tabs4-smallwindow.png" /></p>
+</div>
+<div class="section" id="drag-and-drop">
+<h2>Drag and&nbsp;drop</h2>
+<p>Tabs can be easily reordered, just drag a tab and drop it where you wish
+it to&nbsp;be.</p>
+<p><img alt="dragging a tab, tab drop arrow visible in the same window" src="http://blog.instantbird.org/images/tabs5-reorder.png" /></p>
+<p>Dropping a tab elsewhere detaches the tab to create a new window. The
+new window appears where the tab was&nbsp;dropped.</p>
+<p><img alt="new window with only one tab" src="http://blog.instantbird.org/images/tabs6-detach.png" /></p>
+<p>Tabs can also be dragged between&nbsp;windows:</p>
+<p><img alt="dragging a tab, drop arrow visible in another window" src="http://blog.instantbird.org/images/tabs7-movebetweenwindows.png" /></p>
+</div>
+<div class="section" id="os-integration">
+<h2><span class="caps">OS</span>&nbsp;integration</h2>
+<p>On Mac <span class="caps">OS</span> X, the active conversation window is easy to distinguish from
+the others, thanks to different colors of the&nbsp;tabs.</p>
+<p><img alt="An active and an inactive conversation window on Mac OS X" src="http://blog.instantbird.org/images/tabs8-macosxactiveinactive.png" /></p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2010/06/tabs/" title="11:41 PM" rel="bookmark"><time class="entry-date" datetime="2010-06-30T23:41:39+00:00">June 30, 2010</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-tabs --><article id="post-instantbird-0-2-feature-preview-conversations-customization" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2009/07/instantbird-0-2-feature-preview-conversations-customization/" rel="bookmark">Instantbird 0.2 feature preview: conversations&nbsp;customization</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>In our <a class="reference external" href="http://wiki.instantbird.org/Instantbird:Roadmap">roadmap</a> we
+stated that for 0.2 we were going to improve the conversation window,
+and especially make it customizable. Let&#8217;s show you an overview of what
+we&nbsp;did.</p>
+<div class="section" id="smileys">
+<h2>Smileys</h2>
+<p>People are used to see little images like <img alt=":-)" src="http://blog.instantbird.org/smileys/sourire.png" /> in conversations instead
+of the plain text version <tt class="docutils literal"><span class="pre">:-)</span></tt>. Testers of Instantbird 0.1.* have
+probably noticed that this feature was missing. No&nbsp;more.</p>
+<p>Instantbird 0.2 supports smileys, and has a theme system for them.
+<a class="reference external" href="http://wiki.instantbird.org/Instantbird:Creating_a_smiley_theme">Creating a new smiley
+theme</a>
+is easy: it is just a bunch of images and a file (<span class="caps">JSON</span> format)
+describing how to use them, bundled into an <span class="caps">XPI</span>&nbsp;file.</p>
+</div>
+<div class="section" id="message-styles">
+<h2>Message&nbsp;styles</h2>
+<p>Selecting a smiley theme is not enough for you to feel comfortable when
+looking at your conversations? Ok, we have more! We have borrowed the
+message style system of Adium to let you fully customize the way your
+conversations&nbsp;look.</p>
+<p>An image is worth a thousand words so&#8230; I&#8217;m gonna give you a <a class="reference external" href="http://screenshots.instantbird.org/message-styles-preview/">thousand
+of
+images</a>.
+Ok, not really a thousand, but we took a few hundreds of screenshots to
+show how Instantbird is doing with the hundreds of Adium message styles
+downloadable from
+<a class="reference external" href="http://adiumxtras.com/index.php?a=search&amp;cat_id=5">adiumxtra.com</a>.</p>
+<p>The compatibility is not perfect because there are some <a class="reference external" href="http://wiki.instantbird.org/Instantbird:Message_Styles:Differences_with_Adium">differences in
+the way Instantbird and Adium handle
+themes</a>,
+and some Adium themes may use some webkit-specific features, but most
+themes look&nbsp;right.</p>
+<p>This theme system is very flexible, and quite easy to learn. The
+technologies used (<span class="caps">HTML</span>, <span class="caps">CSS</span>, JavaScript) are well known by
+web-developers and web-designers. If you are not happy with the existing
+themes, go ahead an create your own. And don&#8217;t hesitate to let your
+creativity play with all the cool <a class="reference external" href="https://developer.mozilla.org/En/Firefox_3.5_for_developers">new developer features of Firefox
+3.5</a>.</p>
+</div>
+<div class="section" id="extensibility">
+<h2>Extensibility</h2>
+<p>The eye candy is cool but&#8230; I&#8217;m a developer, I want to create
+extensions and I want to be able to interact with the conversations!
+Don&#8217;t worry, we love you too. We added several new APIs for extension
+developers. It is now easy, for example, to change the way we filter
+incoming messages, modify the text before it is displayed (adding links
+for instance), and more&nbsp;coming!</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2009/07/instantbird-0-2-feature-preview-conversations-customization/" title="11:17 PM" rel="bookmark"><time class="entry-date" datetime="2009-07-20T23:17:29+00:00">July 20, 2009</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/0-2/">0.2</a>,          <a href="/tag/chatting/">chatting</a>,          <a href="/tag/preview/">preview</a>,          <a href="/tag/user-interface/">user interface</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-instantbird-0-2-feature-preview-conversations-customization -->
+<nav id="nav-below">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"></div>
+  <div class="nav-next"><a href="/tag/user-interface/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+  </div><!-- #content -->
+</section><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

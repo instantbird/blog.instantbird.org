@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - irc</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 17 Apr 2012 13:52:16 +0000</lastBuildDate><item><title>Status Update: April 17, 2012</title><link>http://blog.instantbird.org/2012/04/status-update-april-17-2012/</link><description>&lt;p&gt;A lot has happened in the past two months since our last post: we&amp;#8217;ve
+been quite busy trying to fix &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;the list of blockers for Instantbird
+1.2&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ve again joined Mozilla as part of their application for &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012"&gt;Google
+Summer of
+Code&lt;/a&gt;.
+You can see some of our ideas on &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode12#Instantbird"&gt;Mozilla&amp;#8217;s
+wiki&lt;/a&gt;.
+(We should find out soon whether Instantbird will be doing any projects
+or not this&amp;nbsp;year!)&lt;/p&gt;
+&lt;div class="section" id="what-s-new"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;New?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The JavaScript &lt;span class="caps"&gt;IRC&lt;/span&gt; implementation has landed! Many minor bugs were also
+fixed. The behavior is mostly the same as the old libpurple
+implementations, but there are differences. If you see issues, please
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/enter_bug.cgi"&gt;file a bug&lt;/a&gt;! This
+will allow for better &lt;span class="caps"&gt;IRC&lt;/span&gt; support in the&amp;nbsp;future.&lt;/li&gt;
+&lt;li&gt;The tab completion algorithm has been made smarter:&lt;ul&gt;
+&lt;li&gt;It now prefers the last person to have pinged you if there are
+multiple possible&amp;nbsp;completions.&lt;/li&gt;
+&lt;li&gt;Addressing multiple participants is now handled&amp;nbsp;gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There is now a reading position marker to show which messages arrived
+since you last viewed a&amp;nbsp;conversation.&lt;/li&gt;
+&lt;li&gt;Updated to Mozilla&amp;nbsp;11.&lt;/li&gt;
+&lt;li&gt;A few crashers have been&amp;nbsp;fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whats-coming-soon-being-worked-on"&gt;
+&lt;h2&gt;What’s Coming Soon / Being Worked&amp;nbsp;On?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Minor &lt;span class="caps"&gt;IRC&lt;/span&gt; fixes: see &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=component%3AIRC&amp;amp;list_id=1122"&gt;known &lt;span class="caps"&gt;IRC&lt;/span&gt;
+bugs&lt;/a&gt;
+(in particular, better error&amp;nbsp;handling).&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1337"&gt;Upgrade to libpurple
+2.10.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;Instantbird 1.2
+blockers&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-this-i-hear-about-thunderbird-integrating-instant-messaging-code-from-instantbird"&gt;
+&lt;h2&gt;What&amp;#8217;s this I hear about Thunderbird integrating instant messaging code from&amp;nbsp;Instantbird?&lt;/h2&gt;
+&lt;p&gt;You
+&lt;a class="reference external" href="http://www.rumblingedge.com/2012/03/13/instant-messaging-in-thunderbird-just-got-landed-should-appear-in-tomorrows-nightlies/"&gt;may&lt;/a&gt;
+&lt;a class="reference external" href="https://wiki.mozilla.org/Features/Thunderbird/Instant_messaging_in_Thunderbird"&gt;have&lt;/a&gt;
+heard that instant messaging was recently added to Thunderbird. This
+work was done by our very own Florian Quèze! Don&amp;#8217;t panic though! This
+doesn&amp;#8217;t mean that Instantbird development is stopping, we strongly
+believe there is a place for both a standalone instant messenger and a
+more integrated approach with email. This is a mutually beneficial
+relationship between Instantbird and Thunderbird where we share code,
+benefit from more testing and get a set of new people &amp;#8212; and ideas &amp;#8212;
+involved in making instant messaging easier and more about how you &amp;#8212;
+the user &amp;#8212; wants&amp;nbsp;it!&lt;/p&gt;
+&lt;p&gt;For those curious, approximately &lt;a class="reference external" href="http://lxr.instantbird.org/instantbird/source/chat"&gt;one-third of the Instantbird
+codebase&lt;/a&gt; is now
+&lt;a class="reference external" href="http://mxr.mozilla.org/comm-central/source/chat/"&gt;in Thunderbird&amp;#8217;s
+Daily&lt;/a&gt; and
+Earlybird builds.&amp;nbsp; Feel free to give it a try and file any bugs in
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird&amp;amp;component=Instant%20Messaging"&gt;Mozilla&amp;#8217;s
+bugtracker&lt;/a&gt;.
+Currently it looks like this feature will likely appear in Thunderbird&amp;nbsp;15.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re getting close to the Instantbird 1.2 release and we think there&amp;#8217;s
+been a lot of great improvements that will make it easier and more
+natural to instant message with your friends, family, co-workers and&amp;nbsp;others!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 17 Apr 2012 13:52:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-17:/2012/04/status-update-april-17-2012/</guid><category>Development</category><category>irc</category><category>mozilla</category><category>status update</category></item><item><title>The Interruptions Manager</title><link>http://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
+spot in our &lt;span class="caps"&gt;API&lt;/span&gt; was the ability to control whether events should be
+shown to a user or cancelled under certain conditions.&amp;nbsp; This fits in as
+part of our mission about giving control of instant messaging to the
+user: the user should only be interrupted by events that deserve their
+attention.&amp;nbsp; If you&amp;#8217;re wondering how this is useful; extensions now have
+great control over how Instantbird is allowed to interact with the
+user.&amp;nbsp; For example, extensions could: keep conversations from opening
+(i.e. spam guards), quiet sounds during a full screen video, or even
+stop new conversations from opening if the user has set their status as&amp;nbsp;Unavailable.&lt;/p&gt;
+&lt;p&gt;Extensions are able to simply register themselves with the interruptions
+manager and they will automatically be notified if certain events
+happen, including when Instantbird wants to: get your attention (e.g.
+flash the task bar), open a new conversation, play a sound or show a
+message&amp;nbsp;notification.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;API&lt;/span&gt; is really easy to use and we&amp;#8217;ve created some example add-ons
+that use it!&amp;nbsp; We have created an an add-on to not allow the NickServ
+from &lt;span class="caps"&gt;IRC&lt;/span&gt; accounts to open
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/nickservkiller"&gt;source&lt;/a&gt;),
+an update of
+&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/209"&gt;NickServKiller&lt;/a&gt;.
+Additionally there is an add-on to force auto-joined chats to be held on
+the buddy list
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/hideautojoins"&gt;source&lt;/a&gt;),
+allowing you to give them your attention when you want to.&amp;nbsp; Another
+example of a great add-on is the Do Not Disturb add-on, which does not
+allow Instantbird to disturb the user while their status is set to
+Unavailable, really allowing you to concentrate on something more
+important
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/ca4ba6af0b8a/donotdisturb"&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;There&amp;#8217;s also a skeleton for an anti-spam add-on (an often requested
+feature!) that is just waiting to be finished!&amp;nbsp; Contact us on
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt;
+if you&amp;#8217;re interested in helping out.&amp;nbsp; And don&amp;#8217;t worry, these extensions
+will be available on
+&lt;a class="reference external" href="http://addons.instantbird.org"&gt;addons.instantbird.org&lt;/a&gt;&amp;nbsp;soon!&lt;/p&gt;
+&lt;p&gt;We think this is a great addition for add-on developers working on
+Instantbird and can&amp;#8217;t wait to see what exciting ideas people come up&amp;nbsp;with!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 15 Oct 2011 00:24:52 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-15:/2011/10/the-interruptions-manage/</guid><category>Features</category><category>1.1</category><category>addons</category><category>irc</category><category>preview</category></item><item><title>IRC in Javascript - a contributor’s work</title><link>http://blog.instantbird.org/2010/12/irc-in-javascript-a-contributors-work/</link><description>&lt;p&gt;A short time after Instantbird 0.2 was released the &lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update.rst"&gt;js-proto branch&lt;/a&gt; was
+merged into the main development tree. This was the branch where the
+backend of Instantbird was prepared to support protocol plugins written
+entirely in Javascript. Not long after that, Patrick Cloke, an active
+contributor of the project, started working on an implementation of the
+&lt;span class="caps"&gt;IRC&lt;/span&gt; protocol plugin in&amp;nbsp;Javascript.&lt;/p&gt;
+&lt;p&gt;Now he has written a long and detailed posting on his blog about the
+hows and whys, as well as the current status of his work. It&amp;#8217;s spiced
+with lots of references to both Instantbird and specifications of the
+protocol. So if you&amp;#8217;re interested in the technical aspects of
+Instantbird and how to extend Instantbird with a protocol plugin written
+in &lt;span class="caps"&gt;JS&lt;/span&gt; then you definitely should go and read it at &lt;a class="reference external" href="http://patrick.cloke.us/posts/2010/12/08/why-rewrite-irc-into-javascript/"&gt;his
+blog&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mic</dc:creator><pubDate>Sat, 11 Dec 2010 02:10:32 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-12-11:/2010/12/irc-in-javascript-a-contributors-work/</guid><category>Development</category><category>irc</category><category>javascript</category></item></channel></rss>

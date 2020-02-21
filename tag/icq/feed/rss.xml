@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - icq</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 17 Nov 2010 00:29:54 +0000</lastBuildDate><item><title>ICQ connection error</title><link>http://blog.instantbird.org/2010/11/icq-connection-error/</link><description>&lt;p&gt;Recently users started to get an error (&amp;#8220;Error: Unknown reason&amp;#8221;) while
+attempting to connect to &lt;span class="caps"&gt;ICQ&lt;/span&gt;. This is being tracked in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=582"&gt;bug
+582&lt;/a&gt;. This will
+occur using Instantbird 0.2 or 0.3a1pre nightly builds, if you are not
+seeing this error then the rest of this post can be&amp;nbsp;disregarded.&lt;/p&gt;
+&lt;p&gt;Luckily there is an easy work around for&amp;nbsp;now:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Open the account manager (&amp;#8220;Tools&amp;#8221; &amp;gt;&amp;nbsp;&amp;#8220;Accounts&amp;#8221;)&lt;/li&gt;
+&lt;li&gt;Select your &lt;span class="caps"&gt;ICQ&lt;/span&gt; account and click&amp;nbsp;&amp;#8220;Properties&amp;#8221;&lt;/li&gt;
+&lt;li&gt;On the &amp;#8220;Advanced Options&amp;#8221; tab&lt;ul&gt;
+&lt;li&gt;change the &amp;#8220;Server&amp;#8221; to&amp;nbsp;&amp;#8220;login.icq.com&amp;#8221;&lt;/li&gt;
+&lt;li&gt;deselect &amp;#8220;Use &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;#8221;&lt;/li&gt;
+&lt;li&gt;deselect &amp;#8220;Use&amp;nbsp;clientLogin&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://developer.pidgin.im/wiki/ChangeLog"&gt;Other&lt;/a&gt;
+&lt;a class="reference external" href="http://forums.cocoaforge.com/viewtopic.php?f=13&amp;amp;t=22834&amp;amp;sid=e56d3b94a0f337e49d37a4b9a5400076#p127686"&gt;third&lt;/a&gt;
+party instant messaging clients using one of the &amp;#8220;old&amp;#8221; login servers
+were also&amp;nbsp;affected.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 17 Nov 2010 00:29:54 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-11-17:/2010/11/icq-connection-error/</guid><category>Support</category><category>icq</category></item></channel></rss>

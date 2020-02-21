@@ -1,5 +1,0 @@
-:date: 2009-08-02 16:06
-:author: 404
-:replyto: 0
-
-Major step in the right direction! Minimizing to system tray is quite literally the only thing that's stopping me from switching from pidgin right now.

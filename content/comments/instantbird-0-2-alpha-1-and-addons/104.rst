@@ -1,5 +1,0 @@
-:date: 2009-08-31 22:03
-:author: bruno
-:replyto: 0
-
-Hey guys, when the new version is coming out? What are you planning for it?

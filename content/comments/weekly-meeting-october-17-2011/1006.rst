@@ -1,9 +1,0 @@
-:date: 2011-10-31 09:14
-:author: vlad
-:replyto: 0
-
-| Jabber error
-| Ssl handshake Failed
-| All version instantbird
-
-Please check

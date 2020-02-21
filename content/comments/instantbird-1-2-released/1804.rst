@@ -1,6 +1,0 @@
-:date: 2012-08-08 15:17
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 1803
-
-We don't have any inside information about this, pretty much it can be summarized that Mozilla will be focused on Firefox and the Thunderbird community will be taking over development of Thunderbird, more information can be gained from https://blog.mozilla.org/beyond-the-code/2012/07/09/about-the-future-of-thunderbird/.

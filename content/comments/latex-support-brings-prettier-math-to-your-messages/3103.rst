@@ -1,7 +1,0 @@
-:date: 2013-04-16 21:21
-:author: Caspy7
-:replyto: 3097
-
-| The answer to your first question is yes.
-| But when I say wysiwyg I mean more like BlueGriffon where you edit formatted text/equations inline. FireMath, which clokep mentioned below, is close. I struggled some with it, but maybe that's just inexperience.
-| When I was in college in the late 90s, the computer lab had a math program (...I think it had "math" in the name) that had inline wysiwyg editing that worked nicely. I remember you could tab around or click in place to edit. This is what I mean.

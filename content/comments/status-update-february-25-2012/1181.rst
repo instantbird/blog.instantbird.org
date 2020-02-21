@@ -1,6 +1,0 @@
-:date: 2012-02-28 00:08
-:author: ConnorBehan
-:website: http://www.smallperturbation.com
-:replyto: 0
-
-It seems strange to rewrite a working protocol implementation in Javascript. Are you trying to be free of libpurple in the future?

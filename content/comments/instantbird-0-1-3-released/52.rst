@@ -1,6 +1,0 @@
-:date: 2008-12-08 11:25
-:author: vadim s. sabinich
-:replyto: 0
-
-| cool!
-| If you make some interfaces features, such as minimize to tray and autoclosing, that be very good ;)

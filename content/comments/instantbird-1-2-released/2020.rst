@@ -1,5 +1,0 @@
-:date: 2012-09-03 08:04
-:author: Jim
-:replyto: 2012
-
-I'd also like to know the prospects of other protocols being supported in Thunderbird. I'd like to use ICQ with Thunderbird.

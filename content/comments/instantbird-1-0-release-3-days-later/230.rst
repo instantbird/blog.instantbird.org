@@ -1,9 +1,0 @@
-:date: 2011-07-04 09:18
-:author: Alfred Kayser
-:replyto: 0
-
-| Good to read that Instantbird got so much attention, causing the servers to overload, and especially that you have solved the performance issues (by throwinng hardware at it ;-) ).
-| I have developed two themes for Instantbird: LittleChat (based on LittleFox) and Nautipolis for Instantbird. And two more will follow soon...
-| However I am not able to create an account on AIO, at least there is an account but it fails to send the confirmation email.
-
-Greetings, Alfred

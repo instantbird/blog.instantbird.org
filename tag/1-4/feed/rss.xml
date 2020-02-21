@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.4</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 20 May 2013 18:19:44 +0000</lastBuildDate><item><title>Instantbird 1.4 Released!</title><link>http://blog.instantbird.org/2013/05/instantbird-1-4-released/</link><description>&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded.png"&gt;&lt;img alt="Instantbird 1.4 Logger Tree" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded-151x300.png" style="width: 151px; height: 300px;" /&gt;&lt;/a&gt;
+&lt;p class="wp-caption-text"&gt;Log Viewer showing dates in a&amp;nbsp;tree&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;Get your copy&lt;/a&gt; of
+Instantbird 1.4, hot off the presses! We&amp;#8217;ve made a lot of improvements
+(for full details, see the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release
+notes&lt;/a&gt;):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Twitter:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;The character counter should now be correct when tweeting&amp;nbsp;links.&lt;/li&gt;
+&lt;li&gt;Twitter now uses the v1.1 &lt;span class="caps"&gt;API&lt;/span&gt;, this will allow Twitter to continue
+working past June 11th, 2013 (when the v1.0 &lt;span class="caps"&gt;API&lt;/span&gt; is&amp;nbsp;disabled).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Invalid/self-signed/out-of-date &lt;span class="caps"&gt;SSL&lt;/span&gt; certificates can now be easily
+overridden for &lt;span class="caps"&gt;IRC&lt;/span&gt;&amp;nbsp;accounts.&lt;/li&gt;
+&lt;li&gt;Logs are now organized by the date they were created, and smartly folded
+to easily find recent&amp;nbsp;chats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As we stated during the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-3-released.rst"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
+Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X 10.6 (Snow Leopard). Instantbird 1.4 is based off Mozilla 20 and
+libpurple 2.10.7, the newest versions&amp;nbsp;available.&lt;/p&gt;
+&lt;p&gt;You might be asking &amp;#8220;What&amp;#8217;s next?&amp;#8221; for Instantbird; we will be
+participating in &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode13#Instantbird"&gt;Google Summer of Code
+2013&lt;/a&gt;
+(again through Mozilla). Through this and our other volunteers, we&amp;#8217;ll
+continue improving Instantbird to make it a chat program you love to
+use. Hopefully we can integrate some cool new features from this year&amp;#8217;s
+Google Summer of Code and finish integrating the Account Import Wizard
+from Google Summer of Code 2012! As always, if you see any issues,
+please &lt;a class="reference external" href="https://bugzilla.instantbird.org"&gt;file bugs&lt;/a&gt;!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 20 May 2013 18:19:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-05-20:/2013/05/instantbird-1-4-released/</guid><category>Downloads</category><category>1.4</category><category>announce</category><category>downloads</category></item></channel></rss>

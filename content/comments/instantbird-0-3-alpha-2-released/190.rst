@@ -1,5 +1,0 @@
-:date: 2011-04-18 13:59
-:author: (anonymous)
-:replyto: 0
-
-Thank you for incorporating the minimize to tray feature.

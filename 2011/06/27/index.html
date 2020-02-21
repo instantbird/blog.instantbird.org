@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>27 | June | 2011 | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="archive date two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<section id="primary">
+  <div id="content" role="main">
+    <header class="page-header">
+      <h1 class="page-title">
+          Daily Archives: <span>June 27, 2011</span>
+      </h1>
+    </header>
+
+
+<article id="post-version-number-change" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/06/version-number-change/" rel="bookmark">Version number&nbsp;change</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <div class="section" id="the-current-system">
+<h2>The current&nbsp;system</h2>
+<p>Since the beginning of the Instantbird project, we have released
+versions numbered <tt class="docutils literal">0.x.y.z</tt>:</p>
+<ul class="simple">
+<li><tt class="docutils literal">0.</tt> indicates that the initial goals of the project haven&#8217;t been
+reached&nbsp;yet.</li>
+<li><tt class="docutils literal">x</tt> is the major version number. For example, Instantbird 0.2 was a
+major version for which we made very significant&nbsp;changes.</li>
+<li><tt class="docutils literal">y</tt> is the minor version number, incremented when a release is very
+similar to the previous one, but with some new features. We released
+Instantbird 0.1.1, 0.1.2 and 0.1.3 which were minor new&nbsp;versions.</li>
+<li><tt class="docutils literal">z</tt> was used only for emergency bugfix releases. For example we
+released 0.1.2.1 a day after 0.1.2 because of a very common crash on
+Windows with some <span class="caps">MSN</span> accounts (not those we used during our testing
+of course). We also released Instantbird 0.1.3.1 when Instantbird
+0.1.3 was no longer able to connect to the <span class="caps">ICQ</span>&nbsp;network.</li>
+</ul>
+<p>This version numbering scheme made a lot of sense when the project was
+initially a &#8220;<span class="caps">XUL</span> <span class="caps">UI</span> for Pidgin&#8221; and the goal was to reach &#8220;feature
+parity&#8221; with Pidgin for Instantbird 1.0. We have, however, supported
+features that Pidgin doesn&#8217;t have for a long time, thus defining the
+completion of Instantbird 1.0 as a comparison with Pidgin doesn&#8217;t make
+sense any more. Actually, our roadmap has stated for a long time already
+that the 1.0 goal is a &#8220;Simple, usable and extensible user&nbsp;interface.&#8221;</p>
+<p>In addition to the 0.x.y.z version number, we are using &#8220;aN&#8221; and &#8220;bN&#8221;
+suffixes for alpha and beta releases (0.3b1 for example), so the version
+number in itself has nothing to do with stability (actually, our testers
+report that even our nightly builds are stable!). 0.&lt;something&gt; only
+means that we haven&#8217;t reached our initial goals, not that the version
+isn&#8217;t&nbsp;stable.</p>
+</div>
+<div class="section" id="received-feedback">
+<h2>Received&nbsp;feedback</h2>
+<p>While linux enthusiasts are used to have great software with a
+not-yet-1.0 version number, on Windows a 0.* version number was a bit
+misleading and we received mostly 2 kinds of feedback about the version&nbsp;number:</p>
+<ul class="simple">
+<li><span class="dquo">&#8220;</span>Wow, I can&#8217;t believe it&#8217;s so stable and featureful with such a low
+version number!&#8221; (user who has downloaded and tested&nbsp;it)</li>
+<li><span class="dquo">&#8220;</span>Oh, it looks cool, but with such a low version number, it&#8217;s a
+pre-alpha, it can&#8217;t be stable, I&#8217;ll give it a try when it reaches&nbsp;1.0.&#8221;</li>
+</ul>
+<p>Disappointing, isn&#8217;t it? <img alt=";-)" src="http://blog.instantbird.org/smileys/clin_d'oeil.png" /></p>
+</div>
+<div class="section" id="next">
+<h2>Next</h2>
+<p>We are about to release Instantbird 0.3. This is a major version of
+Instantbird, with more changes than any previous release. With the
+current changes in the Mozilla release cycle, we are very unlikely to
+ever release again a version containing so many changes at once (more
+details on how we will adapt to release much more frequently in the
+future in another post soon after the release). When releasing
+Instantbird 0.2, we hesitated between incrementing the major version
+number by only one (which is what we did), or skipping a few version
+numbers to go straight to 0.5, because we felt we were half way through
+on our goals of delivering a simple, easy to use, cross-platform,
+multi-protocol, extensible instant messaging application. After the
+fact, given the feedback related to the low version number that we
+received, we regretted that we didn&#8217;t go ahead and release it as
+Instantbird&nbsp;0.5.</p>
+<p>What we called Instantbird 0.3 up to now is most likely the last major
+release in which we change important things in every parts of the code
+base at once. We don&#8217;t feel that we&#8217;re only &#8220;half way through&#8221;, so this
+time we won&#8217;t have regrets: It&#8217;s going to be released as <strong>Instantbird
+1.0</strong>.&nbsp;Tomorrow!</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/06/version-number-change/" title="7:35 PM" rel="bookmark"><time class="entry-date" datetime="2011-06-27T19:35:34+00:00">June 27, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-version-number-change -->
+
+  </div><!-- #content -->
+</section><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

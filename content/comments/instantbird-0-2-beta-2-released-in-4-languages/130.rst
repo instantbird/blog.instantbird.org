@@ -1,7 +1,0 @@
-:date: 2010-04-30 07:18
-:author: NeMMo
-:replyto: 0
-
-| Yeah it's a real great freeware, but there somes bugs :
-| - When you create a group that is put in contact. We restart the program and then we find our contact twice. Once in the group overall, a time in the lower one in which we move.
-| - Some contact don't become 'in line'

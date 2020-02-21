@@ -1,5 +1,0 @@
-:date: 2008-08-08 19:15
-:author: Chris Pratt
-:replyto: 0
-
-I actually saw the description and I'm still confused. Why would I want to use this over Pidgin (or in my case Adium, since I'm on a Mac)? What's the benefit? Both Adium and Pidgin have been around for a long time, have lots of plugins, are very stable and feature rich? What does InstantBird do that these can't?

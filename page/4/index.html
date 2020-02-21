@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Blog@instantbird.org | The blog of Instantbird&#039;s development</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="home blog paged two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+<nav id="nav-above">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"><a href="/page/5/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+  <div class="nav-next"><a href="/page/3/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+<article id="post-weekly-meeting-october-31-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/11/weekly-meeting-october-31-2011/" rel="bookmark">Weekly Meeting: October 31,&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
+were discussed as well as a summary of what&#8217;s happened since the 1.1
+release. (<a class="reference external" href="http://log.bezut.info/instantbird/111031/#m220">Full chatlogs</a>
+are also available, as well as the <a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031">Etherpad
+timelime</a>.)</p>
+<blockquote>
+<div class="compound">
+<p>Weekly meetings are held every Monday at 4pm <span class="caps">UTC</span> (that&#8217;s 6pm for
+people in France, and 9am for people in San Francisco) in
+<a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on irc.mozilla.org</a>.</p>
+</div>
+</blockquote>
+<div class="section" id="what-s-happened-since-the-1-1-release">
+<h2>What&#8217;s Happened Since the 1.1&nbsp;Release:</h2>
+<ul class="simple">
+<li>Lots of patches have been reviewed and some new features are in (or soon
+to be in) the <a class="reference external" href="http://nightly.instantbird.im/">nightly builds</a>.<ul>
+<li>Tab complete is now smart about case&nbsp;sensitivity.</li>
+<li>You can now change your status from the tray&nbsp;icon.</li>
+<li>You can now copy the link directly to a&nbsp;tweet.</li>
+</ul>
+</li>
+<li>Some major changes have been made to the repository to pave the way for
+large improvements. If you have the code checked out, you should&nbsp;update!</li>
+</ul>
+</div>
+<div class="section" id="what-s-being-worked-on">
+<h2>What&#8217;s Being Worked&nbsp;On:</h2>
+<div class="wp-caption alignleft docutils container">
+<a class="reference external image-reference" href="http://blog.instantbird.org/images/nickcolor13.png"><img alt="Active participants are highlighted in color." src="http://blog.instantbird.org/images/nickcolor13.png" style="width: 159px; height: 387px;" /></a>
+<p>Active participants are highlighted in&nbsp;color.</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1112">Only show colors of participants who have
+participated</a>,
+allowing you to quickly see who&#8217;s active! This first patch will keep
+participants gray until they&#8217;ve talked once, look for it in a nightly&nbsp;soon!</li>
+<li>Cleaning up and renaming of the interfaces to make them easier to
+work with. This is paving stone to making libpurple optional (and
+only loading protocols when they&#8217;re&nbsp;needed).</li>
+<li>Integration work of the JavaScript <span class="caps">IRC</span> code into the Instantbird
+source has started (instead of using it as an&nbsp;extension).</li>
+<li>Florian will be attending <a class="reference external" href="https://wiki.mozilla.org/EU_MozCamp_2011">MozCamp
+Berlin</a>, from November
+12th to November 13th, and will be giving a talk on Instantbird, go
+say &#8220;Hi!&#8221; if you&#8217;ll be&nbsp;attending!</li>
+<li>Lots of user interface (in particular, when using Twitter) &#8220;paper
+cut&#8221; bugs! Those annoying bugs that you can live with, but get in
+your way? Yeah, we don&#8217;t like those&nbsp;either.</li>
+</ul>
+</div>
+<div class="section" id="ways-you-help-out">
+<h2><strong>Ways You Help&nbsp;Out:</strong></h2>
+<p>There&#8217;s a few tasks that we could use help with, if you&#8217;re interested in
+any of these, please <a class="reference external" href="http://instantbird.com/about.html">contact
+us</a>.&nbsp; (And if there&#8217;s something
+else you&#8217;re interested, let us know about that&nbsp;too!)</p>
+<ul class="simple">
+<li>A <span class="caps">QA</span>/testing team would help to find regressions and bugs&nbsp;quickly</li>
+<li>Help is needed in organizing the localization effort and keeping them
+up to date with&nbsp;information.</li>
+<li>Someone to work on making the add-on experience more enjoyable would
+be&nbsp;appreciated.</li>
+</ul>
+<p>Stop by at our next meeting on November 7, 2011 at 6:00 <span class="caps">PM</span> France time
+in <a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on
+irc.mozilla.org</a>!&nbsp; And as always,
+please file any bugs you see in our <a class="reference external" href="https://bugzilla.instantbird.org">bug
+tracker</a>.</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/11/weekly-meeting-october-31-2011/" title="3:52 PM" rel="bookmark"><time class="entry-date" datetime="2011-11-04T15:52:14+00:00">November 4, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/weekly-meetings/">weekly meetings</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-weekly-meeting-october-31-2011 --><article id="post-weekly-meeting-october-17-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/10/weekly-meeting-october-17-2011/" rel="bookmark">Weekly Meeting: October 17,&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <!--  -->
+<blockquote>
+Weekly meetings are held every Monday at 4pm <span class="caps">UTC</span> (that&#8217;s 6pm for
+people in France, and 9am for people in San Francisco) in
+<a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on
+irc.mozilla.org</a>.</blockquote>
+<p>The second weekly meeting discussed some final details for the 1.1 release,
+which happened on October 18, 2011!&nbsp;Read the <a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-1-released.rst">blog post</a> about the release. In
+addition, some plans for Instantbird 1.2 were&nbsp;discussed.</p>
+<div class="section" id="development-issues-discussed">
+<h2>Development Issues&nbsp;Discussed:</h2>
+<ul class="simple">
+<li>Instantbird 1.1:<ul>
+<li><span class="caps">SSL</span> Issues with&nbsp;GTalk</li>
+<li>Focus issues on the buddy&nbsp;list</li>
+<li>Release candidates for all localization&nbsp;prepared</li>
+</ul>
+</li>
+<li>Instantbird 1.2:<ul>
+<li>Check in the backlog patches that have been&nbsp;reviewed</li>
+<li>Update to Mozilla 8 or Mozilla&nbsp;9</li>
+<li>Integrate JavaScript protocols: clokep&#8217;s <span class="caps">JS</span>-<span class="caps">IRC</span> and <span class="caps">XMPP</span> from our&nbsp;GSoC&nbsp;student</li>
+<li>Strive toward making libpurple&nbsp;optional</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="non-development-issues-discussed">
+<h2>Non-Development Issues&nbsp;Discussed:</h2>
+<ul class="simple">
+<li>Florian Quèze&nbsp;will be attending the <a class="reference external" href="http://gsoc-wiki.osuosl.org/index.php/2011">Google Summer of Code Mentor
+Summit</a> this coming&nbsp;weekend</li>
+<li>Publicity for 1.1&nbsp;release</li>
+</ul>
+</div>
+<div class="section" id="ways-to-help-out">
+<h2><strong>Ways to Help&nbsp;Out:</strong></h2>
+<ul class="simple">
+<li>A <span class="caps">QA</span>/testing team would help to find regressions and bugs&nbsp;quickly</li>
+<li>Help is needed in organizing the localization effort and keeping them
+up to date with&nbsp;information</li>
+</ul>
+<p>Stop by at our next meeting on October 24, 2011 at 6:00 <span class="caps">PM</span> France time.
+Oh, and try out Instantbird 1.1 if you haven&#8217;t (and tell your&nbsp;friends)!</p>
+<p>(<a class="reference external" href="http://log.bezut.info/instantbird/111017/#m190">Full chat logs</a> are
+available, as well as the <a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111017">Etherpad
+timelime</a>.)</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/10/weekly-meeting-october-17-2011/" title="9:36 PM" rel="bookmark"><time class="entry-date" datetime="2011-10-21T21:36:47+00:00">October 21, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/weekly-meetings/">weekly meetings</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-weekly-meeting-october-17-2011 --><article id="post-instantbird-1-1-released" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/10/instantbird-1-1-released/" rel="bookmark">Instantbird 1.1&nbsp;released!</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>Exactly 4 years after the very early 0.1 preview, Instantbird 1.1 has
+just been released today in 13 locales (Swedish and Estonian are&nbsp;new)!</p>
+<p>In addition to several stability fixes and a dramatic reduction of
+resource consumption in some cases, this new release will make Twitter
+and <span class="caps">IRC</span> much more usable in&nbsp;Instantbird:</p>
+<ul class="simple">
+<li>On Twitter, it&#8217;s now possible from the context menu to <strong>retweet</strong>,
+to <strong>reply to a tweet</strong> (or simply double click on the tweet to start
+a reply). The context menu also lets you follow or unfollow the
+author of the&nbsp;tweet.</li>
+<li><strong>Tab completion</strong> of usernames (starting with an &#64; character on
+twitter) or nicknames (in <span class="caps">IRC</span> channels) will also be very&nbsp;appreciated.</li>
+</ul>
+<p>All these changes have been commonly requested, so no surprise here. But
+there&#8217;s one last feature I would like to talk about before offering you
+a download link: Instantbird 1.1 brings support for putting conversation
+on hold. This means you can now <strong>close conversation tabs without
+leaving the conversation</strong>, the conversation will sit at the top of the
+Contacts window until you reopen it or someone talks to you. While this
+may seem like a small change, it&#8217;s exceptionally useful for <span class="caps">IRC</span> users
+who tend to idle in lots of channels because they want to &#8220;be there just
+in case&#8221; but don&#8217;t interact much with the&nbsp;conversation.</p>
+<p>Enough talk! Time to go <a class="reference external" href="http://instantbird.com/">download Instantbird
+1.1</a> (or read the <a class="reference external" href="http://instantbird.com/release-notes.html">more detailed release
+notes</a>).</p>
+<p>As always, your feedback is welcome! And if you like Instantbird, maybe
+you will want to share the good news with your friends on
+<a class="reference external" href="https://www.facebook.com/sharer/sharer.php?u=http://www.instantbird.com/">Facebook</a>
+or
+<a class="reference external" href="http://twitter.com/share?url=http://www.instantbird.com/&amp;text=Instantbird%201.1%20just%20released,%20with%20much%20better%20twitter%20support!%20Try%20it,%20it's%20free!&amp;related=instantbird">twitter</a>?</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/10/instantbird-1-1-released/" title="3:17 PM" rel="bookmark"><time class="entry-date" datetime="2011-10-18T15:17:06+00:00">October 18, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/downloads/" title="View all posts in Downloads">Downloads</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/1-1/">1.1</a>,          <a href="/tag/announce/">announce</a>,          <a href="/tag/downloads/">downloads</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-instantbird-1-1-released --><article id="post-the-interruptions-manage" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/10/the-interruptions-manage/" rel="bookmark">The Interruptions&nbsp;Manager</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>For Instantbird 1.1, which will be released soon, we realized a weak
+spot in our <span class="caps">API</span> was the ability to control whether events should be
+shown to a user or cancelled under certain conditions.&nbsp; This fits in as
+part of our mission about giving control of instant messaging to the
+user: the user should only be interrupted by events that deserve their
+attention.&nbsp; If you&#8217;re wondering how this is useful; extensions now have
+great control over how Instantbird is allowed to interact with the
+user.&nbsp; For example, extensions could: keep conversations from opening
+(i.e. spam guards), quiet sounds during a full screen video, or even
+stop new conversations from opening if the user has set their status as&nbsp;Unavailable.</p>
+<p>Extensions are able to simply register themselves with the interruptions
+manager and they will automatically be notified if certain events
+happen, including when Instantbird wants to: get your attention (e.g.
+flash the task bar), open a new conversation, play a sound or show a
+message&nbsp;notification.</p>
+<p>The <span class="caps">API</span> is really easy to use and we&#8217;ve created some example add-ons
+that use it!&nbsp; We have created an an add-on to not allow the NickServ
+from <span class="caps">IRC</span> accounts to open
+(<a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/nickservkiller">source</a>),
+an update of
+<a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/209">NickServKiller</a>.
+Additionally there is an add-on to force auto-joined chats to be held on
+the buddy list
+(<a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/hideautojoins">source</a>),
+allowing you to give them your attention when you want to.&nbsp; Another
+example of a great add-on is the Do Not Disturb add-on, which does not
+allow Instantbird to disturb the user while their status is set to
+Unavailable, really allowing you to concentrate on something more
+important
+(<a class="reference external" href="http://hg.instantbird.org/addons/file/ca4ba6af0b8a/donotdisturb">source</a>).</p>
+<p>There&#8217;s also a skeleton for an anti-spam add-on (an often requested
+feature!) that is just waiting to be finished!&nbsp; Contact us on
+<a class="reference external" href="irc://irc.mozilla.org/instantbird">#instantbird on irc.mozilla.org</a>
+if you&#8217;re interested in helping out.&nbsp; And don&#8217;t worry, these extensions
+will be available on
+<a class="reference external" href="http://addons.instantbird.org">addons.instantbird.org</a>&nbsp;soon!</p>
+<p>We think this is a great addition for add-on developers working on
+Instantbird and can&#8217;t wait to see what exciting ideas people come up&nbsp;with!</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/10/the-interruptions-manage/" title="12:24 AM" rel="bookmark"><time class="entry-date" datetime="2011-10-15T00:24:52+00:00">October 15, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/features/" title="View all posts in Features">Features</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/1-1/">1.1</a>,          <a href="/tag/addons/">addons</a>,          <a href="/tag/irc/">irc</a>,          <a href="/tag/preview/">preview</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-the-interruptions-manage --><article id="post-weekly-meeting-october-10-2011" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/10/weekly-meeting-october-10-2011/" rel="bookmark">Weekly Meeting: October 10,&nbsp;2011</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <!--  -->
+<blockquote>
+Weekly meetings are held every Monday at 4pm <span class="caps">UTC</span> (that&#8217;s 6pm for
+people in France, and 9am for people in San Francisco.)</blockquote>
+<p>The first weekly status meeting, which everyone is encouraged to attend,
+was held on #instantbird (irc.mozilla.org) and flo, clokep and aleth
+lead the discussions. (<a class="reference external" href="http://log.bezut.info/instantbird/111010/">Full chat
+logs</a> are available, as
+well as the <a class="reference external" href="https://etherpad.mozilla.org/ep/pad/view/instantbird-weekly-meeting-20111010/latest">Etherpad
+timelime</a>.)</p>
+<p>The meeting&#8217;s primary focus was about the pending 1.1 release (if you&#8217;re
+reading this before 1.1 goes gold, nightlies are available at
+<a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/">http://ftp.instantbird.com/instantbird/nightly/latest-trunk/</a> and testing
+is always&nbsp;appreciated!)</p>
+<div class="section" id="development-issues-discussed">
+<h2>Development Issues&nbsp;Discussed:</h2>
+<ul class="simple">
+<li><del><span class="caps">SSL</span> issue.</del> Fixed</li>
+<li><del>Translations not yet 1.1 compliant.</del> Fixed</li>
+</ul>
+</div>
+<div class="section" id="non-development-issues-discussed">
+<h2>Non-Development Issues&nbsp;Discussed:</h2>
+<ul class="simple">
+<li>Establishment of the non-profit foundation to support Instantbird<ul>
+<li>Specifically the creation of a bank account for funds and starting
+ideas to generate&nbsp;capital</li>
+<li>We are still seeking suggestions for good web-based systems to let
+the non-profit receive donations (ideally with minimal transaction
+charges and must be accepting of most international&nbsp;currencies)</li>
+<li>Thinking about ways to get more people to use Instantbird&#8217;s
+Amazon-affiliate code when making&nbsp;purchases</li>
+</ul>
+</li>
+<li>New WordPress-powered blog is launched, letting more Instantbird
+developers share in the blog&#8217;s upkeep and helping to expand its&nbsp;audience</li>
+<li>Florian Quèze&nbsp;will be attending the <a class="reference external" href="http://gsoc-wiki.osuosl.org/index.php/2011">Google Summer of Code Mentor
+Summit</a>, so say hi if you
+are&nbsp;attending</li>
+</ul>
+<p><em>If you read this full post, here is an extra sneak peak for you: Check
+out the</em> <a class="reference external" href="https://etherpad.mozilla.org/9wXmFy7EBX"><em>full list of new features in 1.1</em></a><em>! More details on them
+are on the way, that&#8217;s why this is just a sneak&nbsp;peek.</em></p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/10/weekly-meeting-october-10-2011/" title="1:19 PM" rel="bookmark"><time class="entry-date" datetime="2011-10-13T13:19:02+00:00">October 13, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/ecaron/" title="View all posts by ecaron" rel="author">ecaron</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/development/" title="View all posts in Development">Development</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/weekly-meetings/">weekly meetings</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-weekly-meeting-october-10-2011 --><article id="post-feedback-received" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/09/feedback-received/" rel="bookmark">Feedback&nbsp;received</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>Following the release of Instantbird 1.0, we&#8217;ve received a variety of
+great feedback (if you haven&#8217;t read some of our other posts: we love to
+receive feedback, although we might not always agree) via our <a class="reference external" href="http://groups.google.com/group/instantbird-contact/topics">contact
+email
+address</a>,
+<a class="reference external" href="irc://irc.mozilla.org/instantbird">our <span class="caps">IRC</span> channel</a>, our <a class="reference external" href="https://bugzilla.instantbird.org/">bug
+tracker</a>,
+<a class="reference external" href="http://twitter.com/instantbird">Twitter</a> and what ever other ways
+there are to communicate with us. We&#8217;d like to take some time to respond
+to some of the popular requests we&#8217;ve got (or at the very least, point
+you to the bug where you can follow any&nbsp;progress).</p>
+<p><strong>File transfer support</strong>: something we definitely want, but we also
+want to give a good user experience. Unfortunately most protocols do not
+transfer files efficiently or quickly (and many times they break when
+behind firewalls, etc.), thus we wish to offer an alternative to using
+the protocol file transfer before providing support for it: see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=9">bug
+9</a>.</p>
+<p><strong>Grouping buddies first by protocol then by group</strong>: this has been
+requested by multiple individuals, but we don&#8217;t feel it would fit well
+into Instantbird. Instantbird is a multi-protocol instant messaging
+client that aims to integrate all of your accounts together (therefore
+it doesn&#8217;t make sense to separate your accounts on the contact&nbsp;list).</p>
+<p>For example, is your &#8220;Friend&#8221; not your friend whether it&#8217;s your <span class="caps">MSN</span>
+account, your <span class="caps">AIM</span> account or your Facebook account? Of course they still
+are! But perhaps you have different groups of friends on <span class="caps">MSN</span> than on <span class="caps">AIM</span>
+(maybe one is your online gaming buddies and one is your high school
+friends); well our suggestion is to move them to tags that make more
+sense (i.e. make an &#8220;Online Gaming Buddies&#8221; tag for all your <span class="caps">MSN</span> friends
+and a &#8220;School Friends&#8221; tag for all your <span class="caps">AIM</span> friends, in this&nbsp;example).</p>
+<p>When asking people why they want this, the response usually is &#8220;that&#8217;s
+what &lt;another <span class="caps">IM</span> client&gt; does&#8221;. Well, ok but we wish that you take more
+of a &#8216;contact level view&#8217; of people: <a class="reference external" href="http://blog.instantbird.org/articles/better-contact-list.rst">Combine your contacts that are the
+same person</a> and
+group them according to how you know them. (You can even put them in
+multiple tags, if someone is your online gaming buddy <span class="caps">AND</span> from&nbsp;school!)</p>
+<p>If there&#8217;s a usecase that we&#8217;re not covering here, please let us know!
+(And don&#8217;t forget that Instantbird is fully extensible, so you could
+certainly write an extension to display the contacts grouped first by
+protocol if you really need that&nbsp;feature.)</p>
+<p><strong>Blocking buddies at the protocol level</strong>: unfortunately support for
+this isn&#8217;t great depending on the protocol, but libpurple does support
+it. We have two bugs on file; one is to <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=135">block individual
+users</a> and
+another to <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=704">block all buddies not on your buddy
+list</a>, which
+might not be supported by all&nbsp;protocols.</p>
+<p><strong>Blocking spam</strong>: although this is similar to blocking buddies, it&#8217;s
+different in that you do not wish to block <span class="caps">ALL</span> people not on your buddy
+list, but of course you still want to ignore the obvious spam messages!
+See <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=288">bug 288</a>
+and <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=887">bug 887</a>
+for two ideas on how to implement&nbsp;this.</p>
+<p><strong>Start with the operating system</strong>: many people expect an <span class="caps">IM</span> client to
+start with their operating system and although most operating systems
+provide a way to manually make a program start on boot, it would be
+convenient for Instantbird to provide an option to do this. This was
+requested in <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=376">bug
+376</a>.</p>
+<p><strong>Facebook &#8220;Not Authorized&#8221; error</strong>: we added the solution to the
+<a class="reference external" href="http://instantbird.com/faq.html#facebookauthorization"><span class="caps">FAQ</span></a>.</p>
+<p><strong>Voice/video</strong>: we&#8217;d love to support voice/video too! But libpurple
+does not yet support voice/video on Windows or Mac, you can see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=568">bug
+568</a> for some
+information on how we could support it in JavaScript&nbsp;protocols.</p>
+<p><strong><span class="caps">OTR</span> (off the record messaging)</strong>: private messaging is something we
+believe is useful, but it needs to be convenient and transparent to the
+users (after authentication, of course!). Encrypted chat is not a
+trivial task, especially when the protocols don&#8217;t support it, but
+there&#8217;s a library (called Off the Record) which handles this for us, we
+have a bug about integrating it: <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=877">bug
+877</a>.</p>
+<p><strong>People want 64-bit Linux versions</strong>: we actually currently <a class="reference external" href="http://ftp.instantbird.org/instantbird/releases/1.0/contrib/">supply
+unsupported 64-bit
+builds</a>,
+and there&#8217;s a bug about making them official (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=395">bug
+395</a>).</p>
+<p><strong>Instantbird interrupts you</strong>: if you receive a new <span class="caps">IM</span> window
+Instantbird rudely pops to the front, this is mostly noticeable when
+using another application as a fullscreen window (<a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=926">bug
+926</a>). Luckily
+for now, there&#8217;s currently an easy workaround: keep a conversation
+window opened and minimized, so that a new conversation appears in a tab
+of the existing window instead of a new&nbsp;window.</p>
+<p><strong>Being able to search/filter the contacts</strong> would be helpful: we agree!
+In fact we filed a bug about it: <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=631">bug
+631</a>.</p>
+<div class="line-block">
+<div class="line"><strong>System tray issues</strong>:</div>
+<div class="line"><strong>Persist the tray icon</strong>: the system tray icon should stay visible
+even when the buddy list is restored, see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=749">bug
+749</a>.</div>
+<div class="line"><strong>Single click to restore the tray icon</strong>: <a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/291/">an
+extension</a>
+was created to support this and by default the next version of
+Instantbird will use single click on Linux and double click on Windows
+(see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=870">bug
+870</a>).</div>
+<div class="line"><strong>Expand the system tray context menu to change the status</strong>: this
+would be helpful and would match what was added to the jumplists for
+Windows 7, see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=750">bug
+750</a> about
+any work on this.</div>
+</div>
+<div class="line-block">
+<div class="line">We&#8217;ve heard that <strong>some protocols are having problems</strong>:</div>
+<div class="line"><strong><span class="caps">QQ</span> does not work</strong>: we&#8217;ve had reports of <span class="caps">QQ</span> not connecting (<span class="caps">QQ</span> was
+actually dropped from Pidgin and spun off into a separate project
+(<a class="reference external" href="http://code.google.com/p/libqq-pidgin/">libqq</a>), which we <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1021">intend
+to include</a>.</div>
+<div class="line"><strong><span class="caps">ICQ</span> does not connect with default settings</strong>: we have begun to
+investigate this in <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=894">bug
+894</a>, but it
+seems that <span class="caps">SSL</span> is broken for now.</div>
+<div class="line"><strong>Twitter has a variety of issues</strong> and needs more work, including:
+retweeting and replying to messages, direct messaging and showing a
+list of who you follow and who follows you.</div>
+<div class="line">A few suggestions to <strong>replace the libpurple <span class="caps">MSN</span> with msn-pecan</strong>: we
+actually have still not updated to the newest <span class="caps">MSN</span> code from libpurple
+2.9.0 (as it was causing crashes for one of our developers), see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=907">bug
+907</a> for the
+details.</div>
+</div>
+<div class="line-block">
+<div class="line">People want <strong>more protocols</strong>:</div>
+<div class="line"><strong><span class="caps">IBM</span> Lotus Sametime</strong>: we&#8217;ve actually <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=102">added
+support</a> for
+this in the nightly builds and it&#8217;ll be included in the next version!</div>
+<div class="line"><strong>Bonjour</strong>: this should be fairly easy to add on Mac, but Windows and
+Linux would require an extra library from Apple to support Bonjour. If
+you&#8217;re interested in adding it, see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=944">bug
+944</a>.</div>
+<div class="line"><strong><span class="caps">SIPE</span> (Microsoft Office Communicator)</strong>: one of our developers has
+started working on this in <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=976">bug
+976</a>.</div>
+<div class="line"><strong>Skype</strong>: supporting Skype is non-trivial and requires Skype to be
+running in the background, use of (the non-free) SkypeKit or reverse
+engineering the protocol, see <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=563">bug
+563</a> for some
+ideas.</div>
+</div>
+<p>Lots of positive feedback! Including that Instantbird works great with
+screen readers! We&#8217;ve received <span class="caps">TONS</span> of other great feedback as well,
+this is just a summary of the popular feedback we&#8217;ve&nbsp;received.</p>
+<p>Please remember that one of the team&#8217;s goals is to keep Instantbird as
+light as possible, and for that reason, we are trying to encourage the
+idea of creating add-ons for things that may not seem as a core
+necessity for the larger&nbsp;audience.</p>
+<p>Development of Instantbird 1.1 is already well underway. We have a
+tentative
+<a class="reference external" href="https://wiki.instantbird.org/Instantbird:Roadmap:1.1">roadmap</a> for
+it. We definitely plan to release faster than we used to do before
+Instantbird 1.0. Our current target date for the next release is the end
+of&nbsp;September!</p>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/09/feedback-received/" title="7:29 PM" rel="bookmark"><time class="entry-date" datetime="2011-09-06T19:29:17+00:00">September 6, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/support/" title="View all posts in Support">Support</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/feedback/">feedback</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-feedback-received --><article id="post-why-should-i-switch-from-pidgin" class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="/2011/07/why-should-i-switch-from-pidgin/" rel="bookmark"><span class="dquo">&#8220;</span>Why should I switch from&nbsp;Pidgin?&#8221;</a></h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    <p>This is a question people keep asking us. With some variations (&#8220;Why
+should I switch from Adium?&#8221;), or sometimes without the question mark
+(&#8220;There&#8217;s nothing more than&nbsp;Pidgin&#8221;).</p>
+<div class="section" id="we-are-not-competing">
+<h2>We are not&nbsp;competing&#8230;</h2>
+<p>I think people ask us this question because they perceive us as
+competing with Pidgin/Adium/[insert the name of your favorite open
+source <span class="caps">IM</span> client]. But there&#8217;s no good answer to that question, because
+we are not competing, here is&nbsp;why:</p>
+<ul class="simple">
+<li>we share values. We believe that instant messaging technologies
+should be freely accessible and open: people should not be locked in
+closed&nbsp;systems.</li>
+<li>we share a technology stand point: we think that to empower people to
+increasingly use the open <span class="caps">IM</span> technologies that we like, we need to
+offer people a tool that makes it easy to access both promising open
+technologies and legacy&nbsp;networks.</li>
+<li>we share code. Instantbird, like Adium, relies on libpurple, which is
+at the heart of Pidgin, to connect to legacy networks. We take this
+code, but we also give back: several changes made to libpurple to
+improve its reliability in Instantbird are now part of Pidgin. We are
+working together, and Instantbird developers are definitely part of
+the Pidgin developer&nbsp;community.</li>
+</ul>
+</div>
+<div class="section" id="but-we-offer-an-alternative">
+<h2>&#8230; but we offer an&nbsp;alternative</h2>
+<p>I can easily understand why people think we compete though, as we do
+provide an alternative. I assume people who ask the previously mentioned
+question actually wanted the answer to another question: How is
+Instantbird different from Pidgin? Now, this is a question we can&nbsp;answer!</p>
+<p>I will actually provide several different answers: the first will
+satisfy technically oriented people, the others should be understandable
+by everybody. Most of my points compares Instantbird to Pidgin, but are
+still applicable when comparing Instantbird to other <span class="caps">IM</span>&nbsp;clients.</p>
+</div>
+<div class="section" id="technical-differences">
+<h2>Technical&nbsp;differences</h2>
+<p>The biggest technical difference between Pidgin and Instantbird is that
+Pidgin uses <span class="caps">GTK</span>+ and Instantbird uses the Mozilla <span class="caps">XUL</span> platform to
+display its user&nbsp;interface.</p>
+<p>The Mozilla platform has advantages compared to <span class="caps">GTK</span>+:</p>
+<ul class="simple">
+<li>The Mozilla platform is well known for its awesome extensibility.
+Add-ons can modify almost anything that is part of the Instantbird
+user interface, and the skills required to build add-ons are similar
+to the skills required to create a website, as the technologies are
+basically the same: <span class="caps">HTML</span>, <span class="caps">CSS</span>, JavaScript, <span class="caps">XML</span>, &#8230; Instantbird
+add-ons are easy to install, some can even be installed without
+restarting the application! (To be fair, Pidgin also supports
+plugins, but writing them in C requires much more programming
+knowledge and to compile them for each platform. Pidgin also has
+Python (via D-Bus) and Perl scripting APIs, but I&#8217;m not sure they are
+actually usable on&nbsp;Windows.)</li>
+<li>While a <span class="caps">GTK</span>+ user interface is native on some Linux desktop operating
+systems (typically those based on Gnome or <span class="caps">XFCE</span>), a <span class="caps">XUL</span> user
+interface also acts native on Windows (we even included some Aero
+Glass effects for Windows 7) and Mac <span class="caps">OS</span> X where <span class="caps">GTK</span> may not fit as&nbsp;well.</li>
+<li>Thanks to the Mozilla accessibility effort, the <span class="caps">XUL</span> platform is very
+accessible and we have received a lot of enthusiastic feedback from
+users of assistive technologies who love&nbsp;Instantbird.</li>
+</ul>
+<p>Developing on top of Mozilla also has some (perceived)&nbsp;downsides:</p>
+<ul class="simple">
+<li>We need to ship the whole Mozilla toolkit, which makes us package
+megabytes of compiled code we didn&#8217;t write. This means for example
+that the Instantbird installer for Windows weights 9.<span class="caps">9MB</span>. Some people
+(especially some Miranda fans) seem to think this is huge, but while
+I like to find ways to reduce the size of the installer we ship, I
+tend to think at this point it is mostly a non-issue. Just for
+comparison, the Pidgin installer weights 9.<span class="caps">5MB</span> without <span class="caps">GTK</span>, and
+32.<span class="caps">4MB</span> with all its dependencies&nbsp;included.</li>
+<li>The Mozilla platform has the reputation of using more resources than
+other browsers/toolkits. The good news is, some bright people are
+currently making a <a class="reference external" href="https://wiki.mozilla.org/Performance/MemShrink">huge
+effort</a> to reduce
+the memory usage, so this will be mitigated in future releases. Plus
+the situation is not as bad as some people pretend it to be: the
+memory usage measurements we see in comments about Instantbird aren&#8217;t
+that scary, some people start to complain when an application uses
+<span class="caps">40MB</span> of memory. Hey come on, we are in 2011, new machines have been
+shipping with gigabytes of memory for years&nbsp;already&#8230;</li>
+<li>I heard from some Linux packagers that the Mozilla build system is
+not easy to work with for them. While there may be some pain points
+here, it doesn&#8217;t really affect the end&nbsp;user.</li>
+</ul>
+</div>
+<div class="section" id="we-make-instantbird-for-you">
+<h2>We make Instantbird for&nbsp;you!</h2>
+<p>Some developers make their programs the best for themselves and share it
+with you, for free. These programs are the result of people&#8217;s hard work
+which they offer you as a gift, and so these people deserve respect for
+that! Unfortunately, it is not unusual that if somehow the product
+doesn&#8217;t work out for you, it&#8217;s your problem, not theirs, and you are
+free: to fix it, to report the issue and hope someone will fix it, or to
+look for a greener pasture. Your comments are valued if they help
+developers make their program better for everybody, for example if it
+helps fixing bugs that lots of people suffer from. Your opinions and
+wishes may not be taken into account, however, unless you intend to
+actually start working on them: patches are welcome, not additional work
+(people are busy&nbsp;already).</p>
+<p>We work to make Instantbird the best for you. We look forward to
+gathering your feedback and acting upon it to make Instantbird even
+better, for you. We assume that when someone takes the trouble to come
+and talk with us to complain about something, there&#8217;s a valid concern.
+Even when it&#8217;s well hidden behind factually inexact assertions that we
+can&#8217;t agree with. If people cannot express themselves clearly, there&#8217;s a
+reason why they are confused, and if a confusion is common, we should
+find its cause and fix&nbsp;it.</p>
+<p>As this difference may be a bit theoretical, I&#8217;m going to give a
+concrete example in the next point: the way we deal with stability&nbsp;issues.</p>
+</div>
+<div class="section" id="stability">
+<h2>Stability</h2>
+<div class="section" id="crash-reports">
+<h3>Crash&nbsp;reports</h3>
+<p>Let&#8217;s see what happens in the unfortunate event of the user being hit by
+a bug resulting in a crash of the&nbsp;application:</p>
+<p>If you are using Pidgin and want to help get the bug fixed, you need to
+<a class="reference external" href="http://developer.pidgin.im/wiki/GetABacktrace">get a backtrace</a> (on
+Unix systems) or to have <a class="reference external" href="http://developer.pidgin.im/wiki/TipsForBugReports#WhattodoifPidgincrashes">installed the debug symbols before the
+crash</a>
+so that a crash report could be dumped to the disk (on Windows). Then
+you need to open a ticket on trac and give all the info you have. As
+this process may be a bit scary for most end-users, I&#8217;m afraid valuable
+feedback could get&nbsp;lost.</p>
+<p>If the same issue happens with Instantbird, first we&nbsp;apologize:</p>
+<p><img alt="Instantbird crash reporter" src="http://blog.instantbird.org/images/crash-breakpad.png" /></p>
+<p>Then all you have to do to send us the technical information about the
+crash is a single click in this crash reporter dialog. We collect all
+these crash reports and analyze them to improve the stability of the
+next version of&nbsp;Instantbird.</p>
+</div>
+<div class="section" id="nightly-testing">
+<h3>Nightly&nbsp;testing</h3>
+<p>In addition to collecting crash reports, another thing we do to maintain
+a high stability level for Instantbird is that we encourage early
+adopters to run with nightly builds of Instantbird which are updated
+almost daily with the very latest version of our source code. Therefore,
+if something we changed degrades the stability, we receive crash reports
+way before the defective change ends up in a release you may&nbsp;use.</p>
+<p>If some change feels a bit risky to us, we push it to our testers at
+least a week before releasing, or we delay it so that it gets
+appropriate testing before being included in the next&nbsp;release.</p>
+<p>Just as a comparison, Pidgin&#8217;s currently in development code is tested
+only by developers and <a class="reference external" href="http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN">others people are discouraged from attempting to
+use
+it</a>.</p>
+<p>Learn more about our <a class="reference external" href="http://blog.instantbird.org/articles/stability.rst">stability efforts</a>.</p>
+</div>
+</div>
+<div class="section" id="changing">
+<h2>Changing</h2>
+<p>We keep seeing comments of people (who have not actually tried
+Instantbird) who think we should go improve Pidgin instead of &#8220;wasting
+time&#8221; on&nbsp;Instantbird.</p>
+<p>In the page of our website where we explain <a class="reference external" href="http://www.instantbird.org/">why we create
+Instantbird</a>, we&nbsp;conclude:</p>
+<blockquote>
+<div class="compound">
+<p>It&#8217;s time to bring back&nbsp;innovation!</p>
+</div>
+</blockquote>
+<p>To do this, we need to be able to change things easily. As Instantbird
+is still a young project, we can change&nbsp;fast.</p>
+<p>Pidgin on the other hand is already a mature project with policies about
+when it&#8217;s acceptable to change APIs or when they are frozen: it&#8217;s
+basically impossible to change an <span class="caps">API</span> in Pidgin until a new major
+version is released (so after the Pidgin 2.0.0 release, the <span class="caps">API</span> changes
+have to wait until Pidgin 3.0.0 comes out to be included: currently
+Pidgin 2.0.0 was released over four years ago!). This is a good thing to
+ensure the plugins stay compatible, but it slows down the changes to the&nbsp;application.</p>
+</div>
+<div class="section" id="different-feature-sets">
+<h2>Different feature&nbsp;sets</h2>
+<p>This is my last point even though most people would expect to see it
+first. Instantbird and Pidgin have different feature&nbsp;sets.</p>
+<p>On one hand, Pidgin has some features that Instantbird doesn&#8217;t have.
+Some that we will have in the future. Some that we don&#8217;t want to have.
+I&#8217;m not going to give a full list here because I don&#8217;t actually have a
+list of all Pidgin features to compare and check what we have and what
+we don&#8217;t have. We are neither trying to copy Pidgin nor to directly
+compete against it, so such a list would be irrelevant&nbsp;anyway.</p>
+<p>On the other hand, Instantbird has some features that Pidgin doesn&#8217;t
+have (message themes, automatic updates, inline search, &#8230;) and even
+some unique features (for two examples, see my blog posts introducing
+<a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst">Time Bubbles</a> and <a class="reference external" href="http://blog.instantbird.org/articles/introducing-magic-copy.rst">Magic copy</a>).</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>So, should you switch to Instantbird? If I were you, I would. But I&#8217;m
+not you. Deciding which <span class="caps">IM</span> client you use is your choice, based on your
+taste, your needs, your feelings. It&#8217;s your decision,&nbsp;really!</p>
+<p>If you like what you currently have and see nothing you like in what
+Instantbird offers, just keep using what you&nbsp;like.</p>
+<p>If you love Instantbird, then, obviously you should use&nbsp;it.</p>
+<p>If you are in the middle and like Instantbird but for some reason can&#8217;t
+use it because something you really need is missing or doesn&#8217;t work,
+please tell us about it, we are eager to receive your feedback! And
+maybe there&#8217;s already an add-on to customize Instantbird to do what you
+wanted that we can point you&nbsp;to.</p>
+<p>In any case, we are not going to try to force you to switch from Pidgin
+or whatever <span class="caps">IM</span> client you may be using right now to Instantbird. We
+respect your freedom, we respect your choices, we love&nbsp;you!</p>
+</div>
+
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="sep">
+      Posted on </span><a href="/2011/07/why-should-i-switch-from-pidgin/" title="12:17 AM" rel="bookmark"><time class="entry-date" datetime="2011-07-09T00:17:20+00:00">July 9, 2011</time></a><span class="by-author"> <span class="sep"> by </span>
+      <span class="author vcard"><a class="url fn n" href="/author/flo/" title="View all posts by flo" rel="author">flo</a></span>
+    </span>
+    <span class="sep"> | </span>
+    <span class="cat-links">
+      <span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span>
+        <a href="/category/community/" title="View all posts in Community">Community</a>
+    </span>
+    <span class="sep"> | </span>
+    <span class="tag-links">
+      <span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span>           <a href="/tag/libpurple/">libpurple</a>,          <a href="/tag/pidgin/">pidgin</a>    </span>
+  </footer><!-- .entry-meta -->
+</article><!-- #post-why-should-i-switch-from-pidgin -->
+<nav id="nav-below">
+  <h3 class="assistive-text">Post navigation</h3>
+  <div class="nav-previous"><a href="/page/5/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+  <div class="nav-next"><a href="/page/3/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+</nav><!-- #nav-above -->
+
+  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

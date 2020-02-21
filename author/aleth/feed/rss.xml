@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - aleth</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+any mathematics contained in your conversations will be beautifully
+rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
+equations displayed properly. And of course, as LaTeX is text-based,
+this works for all protocols, and does not depend on your conversation
+partners also using&amp;nbsp;Instantbird!&lt;/p&gt;
+&lt;p&gt;No configuration is necessary &amp;#8212; to use this, you don&amp;#8217;t even need to
+have TeX&amp;nbsp;installed.&lt;/p&gt;
+&lt;p&gt;You can easily obtain the LaTeX source of any equation using the context
+menu. AMSmath symbols and environments (such as
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;\\begin{align}...\\end{align}&lt;/span&gt;&lt;/tt&gt;) are&amp;nbsp;supported.&lt;/p&gt;
+&lt;p&gt;There are a few customization options &amp;#8212; for example, you can choose to
+have displayed equations numbered automatically, to make them easier to
+refer&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;The add-on works with all Instantbird message styles, so you don&amp;#8217;t have
+to change your favourite&amp;nbsp;theme.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;Get the add-on&amp;nbsp;here!&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item><item><title>Tab completion in Instantbird 1.2</title><link>http://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
+in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels (and other chatrooms). The goal, as always, is to make it
+&amp;#8220;just work&amp;#8221; (so you can think about more important&amp;nbsp;things!).&lt;/p&gt;
+&lt;p&gt;Simply press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; to complete the first couple of letters you have&amp;nbsp;typed:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To undo the completion, just press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt; as&amp;nbsp;usual.&lt;/p&gt;
+&lt;p&gt;If there is no unique nick that fits the bill, Instantbird tries to
+guess which nick you mean from the context. For example, if you have
+recently been pinged by someone, that nick is preferred. Otherwise it
+just completes as much as possible, and shows you a list of
+alternative&amp;nbsp;completions:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can then always press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; again to cycle through these candidate
+nicks until you get the right&amp;nbsp;one:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Shift&lt;/span&gt;+&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; will cycle through the list in the opposite&amp;nbsp;direction.)&lt;/p&gt;
+&lt;p&gt;Notice how Instantbird automatically added a colon after the nick, as
+we were addressing someone at the start of a message. And if you add
+another nick, you get a comma-separated&amp;nbsp;list:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Of course, sometimes that may not be what you intended. So if you
+delete the trailing colon by pressing &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt;, the punctuation
+adjusts&amp;nbsp;accordingly:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t forget you can also reply to any message by double-clicking it!
+This will add the sender&amp;#8217;s nick to the beginning of the&amp;nbsp;message.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item></channel></rss>

@@ -1,6 +1,0 @@
-:date: 2011-11-01 10:33
-:author: Arch Stanton
-:replyto: 0
-
-| Sametime support = awesome!
-| However it seems I can't search to add new contacts. Anytime I try to add a contact through 'Add Buddy' menu, momentarily shows him in the contact list, then contact disappears. Bug?

@@ -1,5 +1,0 @@
-:date: 2011-06-29 16:12
-:author: Norman
-:replyto: 0
-
-@Florian: Motivation? Order! Frankly, there is no buddy in my list with tag "xyz" but in the tag list there ist a tag called "xyz". A good userinterface would be in the preferences; appearance and there something like "manage your tags".

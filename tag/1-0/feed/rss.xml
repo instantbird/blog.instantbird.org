@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.0</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 02 Jul 2011 03:15:23 +0000</lastBuildDate><item><title>Instantbird 1.0 release, 3 days later</title><link>http://blog.instantbird.org/2011/07/instantbird-1-0-release-3-days-later/</link><description>&lt;div class="section" id="servers-load"&gt;
+&lt;h2&gt;Servers&amp;nbsp;load&lt;/h2&gt;
+&lt;p&gt;Instantbird 1.0 has been very quickly downloaded over ten thousand of
+times. In fact, it happened so fast (especially immediately after we
+have been &lt;a class="reference external" href="http://lifehacker.com/5816618/instantbird-is-a-lightweight-cross+platform-instant-messaging-app-with-sharp-looks"&gt;featured on
+lifehacker&lt;/a&gt;)
+that our server couldn&amp;#8217;t handle the&amp;nbsp;load.&lt;/p&gt;
+&lt;p&gt;We have very quickly been able to mirror our &lt;a class="reference external" href="http://www.instantbird.com/"&gt;main
+website&lt;/a&gt; on another server, which
+allowed people to keep discovering and downloading Instantbird 1.0, but
+we had to close the add-ons website for a while as the load it couldn&amp;#8217;t
+handle was also putting down other services that we really needed to
+keep online, especially our &lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;bug
+database&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We have tried to re-open the add-ons website at a quieter time, but the
+server was unresponsive again within half an hour. This morning we tried
+to improve the website&amp;#8217;s performance by adding some caching mechanism
+and reopened again (at a time when most Americans are asleep) for a try.
+Again it fall&amp;nbsp;down.&lt;/p&gt;
+&lt;p&gt;Some people very kindly offered help and proposed to host the website on
+their server, but it&amp;#8217;s difficult to trust someone we barely know to host
+a website that requires our &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;nbsp;certificate.&lt;/p&gt;
+&lt;p&gt;As the add-ons website had been closed for almost 2 days already (sorry
+for the inconvenience!) and extensibility is a key differentiator of
+Instantbird compared to other similar &lt;span class="caps"&gt;IM&lt;/span&gt; clients, we decided that this
+situation couldn&amp;#8217;t last any longer and we solved the problem by throwing
+money at it: we ordered a beefier server (Quad Core &lt;span class="caps"&gt;CPU&lt;/span&gt;, &lt;span class="caps"&gt;16GB&lt;/span&gt; of &lt;span class="caps"&gt;RAM&lt;/span&gt;)
+and migrated the add-ons website to it as quickly as we could. The
+website reopened this afternoon, and our testing confirmed that the new
+server can easily handle the load, even with more visitors than we had
+when the previous server stopped responding. It&amp;#8217;s ready for a lot more
+people coming! Don&amp;#8217;t hesitate to tell your friends to try Instantbird
+&lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="feedback"&gt;
+&lt;h2&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;We have received a massive amount of feedback since the release. Most
+was positive or extremely positive. We received lots of encouragements.
+We even received some love&amp;nbsp;letters!&lt;/p&gt;
+&lt;p&gt;Some of the feedback showed there was some confusion, for example about
+how we are different from Pidgin (which we will be the subject of
+another post to clarify things). We also received constructive
+criticism, good bug reports. The most common request is an easy way to
+retweet or to reply to a tweet. We will work on that soon &lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;. Tab
+completion of nick names is also commonly requested, but even though
+it&amp;#8217;s clear we need to have this by default in the future, we can usually
+satisfy the reporter by pointing to the great (restartless!) &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/276"&gt;Tab
+Complete&lt;/a&gt;&amp;nbsp;add-on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="updates"&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;p&gt;As no alarming issue has been reported in Instantbird 1.0 which is
+already widely used, we have decided to turn on major updates from
+Instantbird 0.2 to Instantbird&amp;nbsp;1.0.&lt;/p&gt;
+&lt;p&gt;Users of Instantbird 0.2 will be offered an update shortly with an
+update prompt looking like&amp;nbsp;this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dialog offering a major update to Instantbird 1.0" src="http://blog.instantbird.org/images/major-update-1.0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Users of our 0.3pre nightly builds will be offered an update to a
+nightly build numbered 1.1a1pre in the next few&amp;nbsp;days.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All in all, it&amp;#8217;s been a great release and the last few days have been
+exciting (even though they were also exhausting). We look forward to
+continue hearing your feedback (and to actually act upon it!). Don&amp;#8217;t
+hesitate to share Instantbird with your friends. Our servers are&amp;nbsp;ready!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 02 Jul 2011 03:15:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-02:/2011/07/instantbird-1-0-release-3-days-later/</guid><category>Community</category><category>1.0</category><category>downloads</category></item><item><title>Instantbird 1.0 released in 11 locales!</title><link>http://blog.instantbird.org/2011/06/instantbird-1-0-released-in-11-locales/</link><description>&lt;p&gt;The Instantbird team is pleased to announce a polished &lt;strong&gt;Instantbird
+1.0&lt;/strong&gt;, released today in 11&amp;nbsp;locales.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="http://www.instantbird.com/press/logos/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instantbird is an extremely easy to use and highly &lt;strong&gt;extensible instant
+messaging&lt;/strong&gt; client that aims to respect its&amp;nbsp;users!&lt;/p&gt;
+&lt;p&gt;Building on the experience available via &lt;strong&gt;open-source&lt;/strong&gt; software,
+Instantbird is able to harness the power of Pidgin (via its libpurple
+protocol library) and of Mozilla&amp;#8217;s Firefox technology, to provide access
+to a wide variety of instant messaging networks, while providing an easy
+(and well known) extension platform. Although Instantbird is &lt;strong&gt;fully
+cross-platform&lt;/strong&gt; (Windows, Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X, Linux), we strive to present a
+&lt;strong&gt;native look-and-feel&lt;/strong&gt; to the user&amp;nbsp;interface.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;Get Instantbird 1.0&amp;nbsp;now!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird 1.0 screenshot on Windows 7" src="http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="supported-networks"&gt;
+&lt;h2&gt;Supported&amp;nbsp;networks&lt;/h2&gt;
+&lt;p&gt;First and foremost, Instantbird is an instant messaging client with a
+wide variety of supported networks,&amp;nbsp;including:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;span class="caps"&gt;AOL&lt;/span&gt; Instant Messenger (&lt;span class="caps"&gt;AIM&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;Facebook&amp;nbsp;Chat&lt;/li&gt;
+&lt;li&gt;Google&amp;nbsp;Talk&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Windows Live Messenger (&lt;span class="caps"&gt;MSN&lt;/span&gt;&amp;nbsp;Messenger)&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;XMPP&lt;/span&gt;&amp;nbsp;(Jabber)&lt;/li&gt;
+&lt;li&gt;Yahoo!&amp;nbsp;Messenger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But also many others like: Gadu-Gadu, Novell Groupwise, &lt;span class="caps"&gt;ICQ&lt;/span&gt;, &lt;span class="caps"&gt;IRC&lt;/span&gt;,
+MySpaceIM, Netsoul, &lt;span class="caps"&gt;QQ&lt;/span&gt;, &lt;span class="caps"&gt;SIMPLE&lt;/span&gt;, Yahoo! &lt;span class="caps"&gt;JAPAN&lt;/span&gt;, and even more optionally
+available on the &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/"&gt;Instantbird Add-Ons
+website&lt;/a&gt;, such as
+&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/269"&gt;Omegle&lt;/a&gt;
+and &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/255"&gt;&lt;span class="caps"&gt;LJ&lt;/span&gt; Talk
+(LiveJournal)&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extensibility"&gt;
+&lt;h2&gt;Extensibility&lt;/h2&gt;
+&lt;p&gt;We feel that a user should be able to make their instant messaging
+client their own: we feel Instantbird can be customized best by giving
+the user a &lt;strong&gt;simple and efficient&lt;/strong&gt; user interface, and not attempting
+to include hundreds of bundled options, but allowing the user to
+&lt;strong&gt;customize&lt;/strong&gt; via the powerful extensibility included in the Mozilla
+platform. All elements of Instantbird are customizable, from the message
+theme itself (we&amp;#8217;ve built on the great message style format used in
+Adium) to the Instantbird theme, user interface and protocols. There are
+already over 250 add-ons available, here are some of our&amp;nbsp;favorites:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/248"&gt;Colorize&lt;/a&gt;
+&amp;#8212; change a buddy&amp;#8217;s color in a private conversation based on their&amp;nbsp;name&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/250"&gt;Highlight&lt;/a&gt;
+&amp;#8212; be notified of certain words in a chat as if they were your&amp;nbsp;nickname&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/276"&gt;Tab
+Complete&lt;/a&gt;
+&amp;#8212; tab completion of nicknames and&amp;nbsp;commands&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/249"&gt;Reply to
+Nick&lt;/a&gt;
+&amp;#8212; allows easy replying: double clicking a message in the chat
+inserts the sender&amp;#8217;s name in the message input&amp;nbsp;box&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/251"&gt;Show
+Nick&lt;/a&gt;
+&amp;#8212; colors the nicknames in messages in multi-user&amp;nbsp;chats&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/244"&gt;Vertical
+Tabs&lt;/a&gt;
+&amp;#8212; too many conversations open? Move the tabs from horizontal to&amp;nbsp;vertical!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="respecting-users"&gt;
+&lt;h2&gt;Respecting&amp;nbsp;users&lt;/h2&gt;
+&lt;p&gt;As part of our belief in &lt;strong&gt;respecting our users&lt;/strong&gt;, we give them an
+&lt;strong&gt;ad-free experience&lt;/strong&gt; and respect their privacy by not collecting any
+information about them (Instantbird contacts our servers only when
+checking for updates, or in the unfortunate and uncommon event of a&amp;nbsp;crash).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="about-us"&gt;
+&lt;h2&gt;About&amp;nbsp;us&lt;/h2&gt;
+&lt;p&gt;The Instantbird team is a group of volunteers who are passionate about
+empowering instant messaging users by providing a stable, fun instant
+messenger. Read more about &lt;a class="reference external" href="http://instantbird.com/about.html"&gt;who we
+are&lt;/a&gt; and &lt;a class="reference external" href="http://instantbird.org/"&gt;our core beliefs and
+values&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While Instantbird has received invaluable support from the Mozilla
+community at large, it hasn&amp;#8217;t been funded in any way by the Mozilla
+Foundation. The company-quality infrastructure deployed to build and
+support Instantbird has been funded by the initial creators who strongly
+believe in the importance of this project. The increasingly fast growth
+of Instantbird&amp;#8217;s user base leads us to believe the project could find
+some user-respecting revenue streams from which the project could become
+economically sustainable and empower the non-profit created for it to
+start hiring key contributors, following a model similar to what Mozilla
+has been doing with&amp;nbsp;Firefox.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;d like to thank all of our &lt;a class="reference external" href="http://www.instantbird.com/thanks.html"&gt;contributors and
+translators&lt;/a&gt; who have helped
+build Instantbird. In addition, we&amp;#8217;d also like to thank our invaluable
+beta and nightly testers who provide timely bug reports and help track
+down&amp;nbsp;regressions!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="thanks-for-reading"&gt;
+&lt;h2&gt;Thanks for&amp;nbsp;reading!&lt;/h2&gt;
+&lt;p&gt;Thanks for taking the time to &lt;a class="reference external" href="http://www.instantbird.com/"&gt;check out
+Instantbird&lt;/a&gt;, if you like it please
+share it with your friends; if you&amp;#8217;re sharing it with your
+non-English-speaking friends, the website is now localized too! &lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt; If
+you have questions feel free to &lt;a class="reference external" href="http://www.instantbird.com/about.html"&gt;contact
+us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you are writing about Instantbird and need a logo or are out of time
+to produce screenshots, we have &lt;a class="reference external" href="http://www.instantbird.com/press-images-1.0.html"&gt;image
+resources&lt;/a&gt; for you.
+If this is more convenient to you, this announcement is also available
+in a &lt;a class="reference external" href="http://www.instantbird.com/press-release-1.0.html"&gt;press
+release&lt;/a&gt;&amp;nbsp;format.&lt;/p&gt;
+&lt;p&gt;Share Instantbird with your friends on
+&lt;a class="reference external" href="http://twitter.com/share?url=http://www.instantbird.com/&amp;amp;text=Try%20Instantbird,%20multi-protocol%20instant%20messaging%20client.%20It%27s%20free%21&amp;amp;related=instantbird"&gt;twitter&lt;/a&gt;
+or
+&lt;a class="reference external" href="https://www.facebook.com/sharer/sharer.php?u=http://www.instantbird.com/"&gt;Facebook&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 28 Jun 2011 15:10:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-28:/2011/06/instantbird-1-0-released-in-11-locales/</guid><category>Downloads</category><category>1.0</category><category>announce</category><category>downloads</category></item></channel></rss>

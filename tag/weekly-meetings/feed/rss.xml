@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - weekly meetings</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 23 Nov 2011 04:57:34 +0000</lastBuildDate><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
+past few weeks, but that doesn&amp;#8217;t mean nothings been going on! In fact,
+we&amp;#8217;ve had a lot of major changes coming down the pipeline: here&amp;#8217;s a
+summary of what&amp;#8217;s new with&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="compound"&gt;
+&lt;p&gt;Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that’s 6pm for
+people in France, and 9am for people in San Francisco) in
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on
+irc.mozilla.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="what-s-been-done"&gt;
+&lt;h2&gt;What&amp;#8217;s Been&amp;nbsp;Done?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Dependency on libpurple has been eliminate: this included a big
+rewrite of the core service and how accounts and statuses were&amp;nbsp;handled.&lt;/li&gt;
+&lt;li&gt;Florian attended MozCamp and gave &lt;a class="reference external" href="https://wiki.mozilla.org/EU_MozCamp_2011/Schedule/Product_and_Technology_Track/Instantbird"&gt;a talk on
+Instantbird&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Participants in chat rooms are now only colored once they&amp;#8217;ve&amp;nbsp;participated.&lt;/li&gt;
+&lt;li&gt;Mozilla has been updated from 7.0.1 to 9.0 beta&amp;nbsp;2.&lt;/li&gt;
+&lt;li&gt;Many small back logged patches have been&amp;nbsp;checked-in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-been-happening"&gt;
+&lt;h2&gt;What&amp;#8217;s Been&amp;nbsp;Happening?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fixing fallout from the upgrade to Mozilla 9.0 beta&amp;nbsp;2.&lt;/li&gt;
+&lt;li&gt;Work on &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1171"&gt;integrating
+&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;XMPP&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Work on &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=507"&gt;integrating
+&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;IRC&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Work on integrating &lt;span class="caps"&gt;SIPE&lt;/span&gt; (Microsoft Office Communicator&amp;nbsp;protocol).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There&amp;#8217;s been lots of big changes landing, and more to come! Although
+many of them are back end changes, they&amp;#8217;ll pave the way for more visible
+features in the future.&amp;nbsp; We&amp;#8217;ll try to do a better job of keeping our
+blog up to date with what&amp;#8217;s going&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;As always, full chat logs and the EtherPad is available for each
+meeting; November 7 (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111107/#m370"&gt;chat
+logs&lt;/a&gt;,
+&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111107"&gt;etherpad&lt;/a&gt;),
+November 14
+(&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111114"&gt;etherpad&lt;/a&gt;),
+and November 21 (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111121/#m252"&gt;chat
+logs&lt;/a&gt;,
+&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111121"&gt;etherpad&lt;/a&gt;).
+Note that no real discussion occurred on November 14th, just a summary
+of the week&amp;#8217;s&amp;nbsp;progress.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 Nov 2011 04:57:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-23:/2011/11/weekly-meetings-november-7-14-and-21-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 31, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meeting-october-31-2011/</link><description>&lt;p&gt;At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
+were discussed as well as a summary of what&amp;#8217;s happened since the 1.1
+release. (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111031/#m220"&gt;Full chatlogs&lt;/a&gt;
+are also available, as well as the &lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031"&gt;Etherpad
+timelime&lt;/a&gt;.)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="compound"&gt;
+&lt;p&gt;Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that&amp;#8217;s 6pm for
+people in France, and 9am for people in San Francisco) in
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="what-s-happened-since-the-1-1-release"&gt;
+&lt;h2&gt;What&amp;#8217;s Happened Since the 1.1&amp;nbsp;Release:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Lots of patches have been reviewed and some new features are in (or soon
+to be in) the &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;nightly builds&lt;/a&gt;.&lt;ul&gt;
+&lt;li&gt;Tab complete is now smart about case&amp;nbsp;sensitivity.&lt;/li&gt;
+&lt;li&gt;You can now change your status from the tray&amp;nbsp;icon.&lt;/li&gt;
+&lt;li&gt;You can now copy the link directly to a&amp;nbsp;tweet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Some major changes have been made to the repository to pave the way for
+large improvements. If you have the code checked out, you should&amp;nbsp;update!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-being-worked-on"&gt;
+&lt;h2&gt;What&amp;#8217;s Being Worked&amp;nbsp;On:&lt;/h2&gt;
+&lt;div class="wp-caption alignleft docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/images/nickcolor13.png"&gt;&lt;img alt="Active participants are highlighted in color." src="http://blog.instantbird.org/images/nickcolor13.png" style="width: 159px; height: 387px;" /&gt;&lt;/a&gt;
+&lt;p&gt;Active participants are highlighted in&amp;nbsp;color.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1112"&gt;Only show colors of participants who have
+participated&lt;/a&gt;,
+allowing you to quickly see who&amp;#8217;s active! This first patch will keep
+participants gray until they&amp;#8217;ve talked once, look for it in a nightly&amp;nbsp;soon!&lt;/li&gt;
+&lt;li&gt;Cleaning up and renaming of the interfaces to make them easier to
+work with. This is paving stone to making libpurple optional (and
+only loading protocols when they&amp;#8217;re&amp;nbsp;needed).&lt;/li&gt;
+&lt;li&gt;Integration work of the JavaScript &lt;span class="caps"&gt;IRC&lt;/span&gt; code into the Instantbird
+source has started (instead of using it as an&amp;nbsp;extension).&lt;/li&gt;
+&lt;li&gt;Florian will be attending &lt;a class="reference external" href="https://wiki.mozilla.org/EU_MozCamp_2011"&gt;MozCamp
+Berlin&lt;/a&gt;, from November
+12th to November 13th, and will be giving a talk on Instantbird, go
+say &amp;#8220;Hi!&amp;#8221; if you&amp;#8217;ll be&amp;nbsp;attending!&lt;/li&gt;
+&lt;li&gt;Lots of user interface (in particular, when using Twitter) &amp;#8220;paper
+cut&amp;#8221; bugs! Those annoying bugs that you can live with, but get in
+your way? Yeah, we don&amp;#8217;t like those&amp;nbsp;either.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ways-you-help-out"&gt;
+&lt;h2&gt;&lt;strong&gt;Ways You Help&amp;nbsp;Out:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;There&amp;#8217;s a few tasks that we could use help with, if you&amp;#8217;re interested in
+any of these, please &lt;a class="reference external" href="http://instantbird.com/about.html"&gt;contact
+us&lt;/a&gt;.&amp;nbsp; (And if there&amp;#8217;s something
+else you&amp;#8217;re interested, let us know about that&amp;nbsp;too!)&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A &lt;span class="caps"&gt;QA&lt;/span&gt;/testing team would help to find regressions and bugs&amp;nbsp;quickly&lt;/li&gt;
+&lt;li&gt;Help is needed in organizing the localization effort and keeping them
+up to date with&amp;nbsp;information.&lt;/li&gt;
+&lt;li&gt;Someone to work on making the add-on experience more enjoyable would
+be&amp;nbsp;appreciated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stop by at our next meeting on November 7, 2011 at 6:00 &lt;span class="caps"&gt;PM&lt;/span&gt; France time
+in &lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on
+irc.mozilla.org&lt;/a&gt;!&amp;nbsp; And as always,
+please file any bugs you see in our &lt;a class="reference external" href="https://bugzilla.instantbird.org"&gt;bug
+tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 04 Nov 2011 15:52:14 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-04:/2011/11/weekly-meeting-october-31-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 17, 2011</title><link>http://blog.instantbird.org/2011/10/weekly-meeting-october-17-2011/</link><description>&lt;!--  --&gt;
+&lt;blockquote&gt;
+Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that&amp;#8217;s 6pm for
+people in France, and 9am for people in San Francisco) in
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on
+irc.mozilla.org&lt;/a&gt;.&lt;/blockquote&gt;
+&lt;p&gt;The second weekly meeting discussed some final details for the 1.1 release,
+which happened on October 18, 2011!&amp;nbsp;Read the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-1-released.rst"&gt;blog post&lt;/a&gt; about the release. In
+addition, some plans for Instantbird 1.2 were&amp;nbsp;discussed.&lt;/p&gt;
+&lt;div class="section" id="development-issues-discussed"&gt;
+&lt;h2&gt;Development Issues&amp;nbsp;Discussed:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Instantbird 1.1:&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;SSL&lt;/span&gt; Issues with&amp;nbsp;GTalk&lt;/li&gt;
+&lt;li&gt;Focus issues on the buddy&amp;nbsp;list&lt;/li&gt;
+&lt;li&gt;Release candidates for all localization&amp;nbsp;prepared&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Instantbird 1.2:&lt;ul&gt;
+&lt;li&gt;Check in the backlog patches that have been&amp;nbsp;reviewed&lt;/li&gt;
+&lt;li&gt;Update to Mozilla 8 or Mozilla&amp;nbsp;9&lt;/li&gt;
+&lt;li&gt;Integrate JavaScript protocols: clokep&amp;#8217;s &lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;IRC&lt;/span&gt; and &lt;span class="caps"&gt;XMPP&lt;/span&gt; from our&amp;nbsp;GSoC&amp;nbsp;student&lt;/li&gt;
+&lt;li&gt;Strive toward making libpurple&amp;nbsp;optional&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="non-development-issues-discussed"&gt;
+&lt;h2&gt;Non-Development Issues&amp;nbsp;Discussed:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Florian Quèze&amp;nbsp;will be attending the &lt;a class="reference external" href="http://gsoc-wiki.osuosl.org/index.php/2011"&gt;Google Summer of Code Mentor
+Summit&lt;/a&gt; this coming&amp;nbsp;weekend&lt;/li&gt;
+&lt;li&gt;Publicity for 1.1&amp;nbsp;release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ways-to-help-out"&gt;
+&lt;h2&gt;&lt;strong&gt;Ways to Help&amp;nbsp;Out:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A &lt;span class="caps"&gt;QA&lt;/span&gt;/testing team would help to find regressions and bugs&amp;nbsp;quickly&lt;/li&gt;
+&lt;li&gt;Help is needed in organizing the localization effort and keeping them
+up to date with&amp;nbsp;information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stop by at our next meeting on October 24, 2011 at 6:00 &lt;span class="caps"&gt;PM&lt;/span&gt; France time.
+Oh, and try out Instantbird 1.1 if you haven&amp;#8217;t (and tell your&amp;nbsp;friends)!&lt;/p&gt;
+&lt;p&gt;(&lt;a class="reference external" href="http://log.bezut.info/instantbird/111017/#m190"&gt;Full chat logs&lt;/a&gt; are
+available, as well as the &lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111017"&gt;Etherpad
+timelime&lt;/a&gt;.)&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 21 Oct 2011 21:36:47 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-21:/2011/10/weekly-meeting-october-17-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 10, 2011</title><link>http://blog.instantbird.org/2011/10/weekly-meeting-october-10-2011/</link><description>&lt;!--  --&gt;
+&lt;blockquote&gt;
+Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that&amp;#8217;s 6pm for
+people in France, and 9am for people in San Francisco.)&lt;/blockquote&gt;
+&lt;p&gt;The first weekly status meeting, which everyone is encouraged to attend,
+was held on #instantbird (irc.mozilla.org) and flo, clokep and aleth
+lead the discussions. (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111010/"&gt;Full chat
+logs&lt;/a&gt; are available, as
+well as the &lt;a class="reference external" href="https://etherpad.mozilla.org/ep/pad/view/instantbird-weekly-meeting-20111010/latest"&gt;Etherpad
+timelime&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;The meeting&amp;#8217;s primary focus was about the pending 1.1 release (if you&amp;#8217;re
+reading this before 1.1 goes gold, nightlies are available at
+&lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;http://ftp.instantbird.com/instantbird/nightly/latest-trunk/&lt;/a&gt; and testing
+is always&amp;nbsp;appreciated!)&lt;/p&gt;
+&lt;div class="section" id="development-issues-discussed"&gt;
+&lt;h2&gt;Development Issues&amp;nbsp;Discussed:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;del&gt;&lt;span class="caps"&gt;SSL&lt;/span&gt; issue.&lt;/del&gt; Fixed&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Translations not yet 1.1 compliant.&lt;/del&gt; Fixed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="non-development-issues-discussed"&gt;
+&lt;h2&gt;Non-Development Issues&amp;nbsp;Discussed:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Establishment of the non-profit foundation to support Instantbird&lt;ul&gt;
+&lt;li&gt;Specifically the creation of a bank account for funds and starting
+ideas to generate&amp;nbsp;capital&lt;/li&gt;
+&lt;li&gt;We are still seeking suggestions for good web-based systems to let
+the non-profit receive donations (ideally with minimal transaction
+charges and must be accepting of most international&amp;nbsp;currencies)&lt;/li&gt;
+&lt;li&gt;Thinking about ways to get more people to use Instantbird&amp;#8217;s
+Amazon-affiliate code when making&amp;nbsp;purchases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New WordPress-powered blog is launched, letting more Instantbird
+developers share in the blog&amp;#8217;s upkeep and helping to expand its&amp;nbsp;audience&lt;/li&gt;
+&lt;li&gt;Florian Quèze&amp;nbsp;will be attending the &lt;a class="reference external" href="http://gsoc-wiki.osuosl.org/index.php/2011"&gt;Google Summer of Code Mentor
+Summit&lt;/a&gt;, so say hi if you
+are&amp;nbsp;attending&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;If you read this full post, here is an extra sneak peak for you: Check
+out the&lt;/em&gt; &lt;a class="reference external" href="https://etherpad.mozilla.org/9wXmFy7EBX"&gt;&lt;em&gt;full list of new features in 1.1&lt;/em&gt;&lt;/a&gt;&lt;em&gt;! More details on them
+are on the way, that&amp;#8217;s why this is just a sneak&amp;nbsp;peek.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ecaron</dc:creator><pubDate>Thu, 13 Oct 2011 13:19:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-13:/2011/10/weekly-meeting-october-10-2011/</guid><category>Development</category><category>weekly meetings</category></item></channel></rss>

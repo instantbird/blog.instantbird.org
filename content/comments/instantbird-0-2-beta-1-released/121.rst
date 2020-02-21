@@ -1,5 +1,0 @@
-:date: 2009-12-12 23:32
-:author: Florian
-:replyto: 0
-
-**@pjdkrunkt**: If you are on current nightly builds, uncheck the "Use clientLogin" option in the advanced options of your AIM account. (this does not apply to the beta announced in this post)

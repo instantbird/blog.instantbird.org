@@ -1,5 +1,0 @@
-:date: 2009-07-17 00:01
-:author: Axel Hecht
-:replyto: 0
-
-Did you consider using gettext msg context strings as identifiers in the properties files? Not sure how much you can change the libpurple code.

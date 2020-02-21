@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - mozilla</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 21 Apr 2014 19:00:05 +0000</lastBuildDate><item><title>Google Summer of Code 2014 has Commenced!</title><link>http://blog.instantbird.org/2014/04/google-summer-of-code-2014-has-commenced/</link><description>&lt;p&gt;Instantbird again has the pleasure of participating in &lt;a class="reference external" href="https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/about_page"&gt;Google Summer of Code&lt;/a&gt;
+under the Mozilla umbrella. In &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;the&lt;/a&gt; &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2013-projects-announced.rst"&gt;past&lt;/a&gt; we&amp;#8217;ve had a variety of exciting
+projects and this year is no different. Three students will be working with us
+this&amp;nbsp;summer:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://sawrubh.tumblr.com/"&gt;Saurabh Anand&lt;/a&gt; (sawrubh), mentored by &lt;a class="reference external" href="http://patrick.cloke.us/"&gt;Patrick Cloke&lt;/a&gt; (clokep), will aim to
+add support for reliable file transfer to Instantbird using &lt;a class="reference external" href="https://support.mozilla.org/en-US/kb/filelink-large-attachments"&gt;FileLink&lt;/a&gt; as a
+fallback to standard file&amp;nbsp;transfer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://mayanktg.github.io/"&gt;Mayank Kumar&lt;/a&gt; (mayanktg), mentored by Benedikt P. (Mic), will be adding voice
+and video support to Instantbird by integrating &lt;a class="reference external" href="http://www.webrtc.org/"&gt;WebRTC&lt;/a&gt; for &lt;span class="caps"&gt;XMPP&lt;/span&gt;. WebRTC makes
+it easy for us to have real-time communication without the use of additional&amp;nbsp;plugins.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://nhnt11.com/blog/"&gt;Nihanth Subramanya&lt;/a&gt; (nhnt11), who last year added the &amp;#8220;&lt;a class="reference external" href="http://blog.instantbird.org/articles/first-milestone-of-the-awesometab-has-landed.rst"&gt;awesometab&lt;/a&gt;&amp;#8220;, will be
+looking to improve loading of conversations and history under the guidance of
+aleth. He will work on adding the ability to search across all logs of a contact
+and loading the previous context of a conversation when scrolling (&amp;#8220;infinite&amp;nbsp;scroll&amp;#8221;).&lt;/p&gt;
+&lt;p&gt;Please feel free to stop by &lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt; to say hello and
+congratulate our students! Thanks again to Mozilla for allowing us to
+participate in Google Summer of Code with&amp;nbsp;them!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 21 Apr 2014 19:00:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-04-21:/2014/04/google-summer-of-code-2014-has-commenced/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Pardon the Interruption! Instantbird nightly builds are back!</title><link>http://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</link><description>&lt;p&gt;As of today, March 3rd, 2014, Instantbird nightly builds (1.6a1pre) are being
+built again. We last had nightly builds on January 9th, 2014 and they have been
+broken since due to a series of a large infrastructure change we’ve been going
+through to merge the Instantbird Bugzilla and code repository with Mozilla’s.
+Unfortunately, getting nightly builds working again took us longer than expected
+as it involved many related issues: updating Instantbird to work with newer
+versions of Mozilla, reconfiguring our buildbot and working on getting libpurple
+to build as an&amp;nbsp;extension.&lt;/p&gt;
+&lt;p&gt;The results of this is that Instantbird is now building out of the
+“comm-central” code repository (the same place the code for Thunderbird is
+stored). What does this mean for&amp;nbsp;you?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Instantbird nightlies are now built using comm-central/mozilla-central: bugs
+fixed in Mozilla will be reflected in the next Instantbird&amp;nbsp;nightly.&lt;/li&gt;
+&lt;li&gt;Instantbird 1.6a1pre is currently based on Mozilla 30, this is a bit of a
+jump from Instantbird 1.5 (Mozilla 25). There might be an influx of bugs as
+any issues caused by this jump are worked out. Please report any issues you&amp;nbsp;see!&lt;/li&gt;
+&lt;li&gt;(Not entirely related) Bugs for Instantbird can now be reported on
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/"&gt;bugzilla.mozilla.org&lt;/a&gt; under the “Instantbird” and “Chat Core” (for bugs
+shared with Thunderbird Chat)&amp;nbsp;products.&lt;/li&gt;
+&lt;li&gt;Current nightly builds are located at on &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-1.6a1pre/"&gt;our ftp site&lt;/a&gt;, but automatic
+updating from older nightlies should still&amp;nbsp;work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, sorry for any interruption. Regular development should be continuing now. Thanks for all the concerned emails telling us our builds had&amp;nbsp;stopped!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 03 Mar 2014 12:21:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-03-03:/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</guid><category>Development</category><category>mozilla</category><category>nightly</category><category>status update</category></item><item><title>Google Summer of Code 2013 Projects Announced</title><link>http://blog.instantbird.org/2013/05/google-summer-of-code-2013-projects-announced/</link><description>&lt;p&gt;For the third year in a row, Instantbird will be participating in Google Summer
+of Code. Last year, Will Nayes worked on an &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Account Import Wizard&lt;/a&gt; and in 2011,
+Varuna Jayasiri worked on our &lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update-april-2011-may-2011.rst"&gt;JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; implementation&lt;/a&gt; (currently used by
+Google Talk and Facebook accounts in Instantbird, as well as Google Talk,
+Facebook and &lt;span class="caps"&gt;XMPP&lt;/span&gt; in&amp;nbsp;Thunderbird).&lt;/p&gt;
+&lt;p&gt;Instantbird will be mentoring three student projects this&amp;nbsp;year:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Additional JavaScript Protocol Plug-ins&amp;nbsp;(Yahoo!)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this project is to reimplement Yahoo! Messenger support in
+Instantbird using JavaScript and &lt;span class="caps"&gt;XPCOM&lt;/span&gt; interfaces. — &lt;a class="reference external" href="http://phaseshiftsoftware.com/blog/category/gsoc-2013-logs/"&gt;Quentin Headen&lt;/a&gt;&amp;nbsp;(qheaden)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FileLinks in Instant&amp;nbsp;Messages&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Thunderbird Filelink feature allows users to upload attachments to an
+online storage service, replacing the email attachment with a link. This
+existing code could be used to implement file transfer. While some protocols
+support file transfer directly, this approach would provide a fallback that
+should always work. Designing and implementing a good &lt;span class="caps"&gt;UI&lt;/span&gt; frontend would also
+be required. — &lt;a class="reference external" href="http://atuljangra.tumblr.com/"&gt;Atul Jangra&lt;/a&gt;&amp;nbsp;(atuljangra)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instantbird&amp;nbsp;Awesometab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I propose to develop a “smart” user interface, in the form of a
+user-openable tab, that allows the user to quickly and efficiently open new
+chats – based on who they chat with most often, and on what accounts they do
+so. The user should be able to go from actively chatting in one conversation
+to doing so in a new one, losing no time in finding the contact to start the
+conversation with, refocusing to the correct &lt;span class="caps"&gt;UI&lt;/span&gt; element, or opening extra
+windows. — &lt;a class="reference external" href="http://awesometab.blogspot.com/"&gt;Nihanth Subramanya&lt;/a&gt;&amp;nbsp;(nhnt11)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For the next few weeks the students are encouraged to bond with their community.
+All three have been active in recent weeks on our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel (#instantbird on
+irc.mozilla.org), feel free to stop by and say hello! The Instantbird team looks
+forward to working with all of them during the summer. You can check out their
+blogs (linked to above) and back here for progress throughout the&amp;nbsp;summer.&lt;/p&gt;
+&lt;p&gt;We’d like to thank Mozilla for letting us apply to Google Summer of Code as part
+of them! You can see the other student projects Mozilla is mentoring on the
+&lt;a class="reference external" href="http://www.google-melange.com/gsoc/org/google/gsoc2013/mozilla"&gt;Google Summer of Code site&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 29 May 2013 14:01:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-05-29:/2013/05/google-summer-of-code-2013-projects-announced/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Google Summer of Code 2013</title><link>http://blog.instantbird.org/2013/02/google-summer-of-code-2013/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://blog.gerv.net/2013/02/summer-of-code-2013/"&gt;Mozilla&lt;/a&gt; is doing &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode13"&gt;Google Summer of Code 2013&lt;/a&gt; and
+Instantbird is interested in participating again. Instantbird
+participated (through Mozilla) the last two years with
+&lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update-april-2011-may-2011.rst"&gt;&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;XMPP&lt;/span&gt;&lt;/a&gt; (by varuna in 2011) and the &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Import Wizard&lt;/a&gt;
+(by wnayes in 2012).&amp;nbsp; Both projects were successful: Instantbird and
+Thunderbird use our JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; code and we&amp;#8217;re hoping to integrate
+the Import Wizard into Instantbird soon, after which the &lt;span class="caps"&gt;UI&lt;/span&gt; could then
+be uplifted into&amp;nbsp;Thunderbird.&lt;/p&gt;
+&lt;p&gt;It is time to start thinking about (and brainstorming) ideas for the
+chat in this year&amp;#8217;s GSoC! We&amp;#8217;ve already started
+&lt;a class="reference external" href="https://etherpad.mozilla.org/ib-gsoc-2013"&gt;brainstorming&lt;/a&gt; and came
+up with some ideas, but would love to get more ideas from people.
+Remember that a good GSoC project needs to be something that can be
+completed by a student in ~8 weeks (but also has to keep a student busy
+the whole time!).&amp;nbsp; It should also be something that we would want to
+integrate into Instantbird by default and have expected behavior already&amp;nbsp;defined.&lt;/p&gt;
+&lt;p&gt;Feel free to come chat with us on &lt;span class="caps"&gt;IRC&lt;/span&gt; (#instantbird on
+&lt;a class="reference external" href="http://irc.mozilla.org"&gt;irc.mozilla.org&lt;/a&gt;) about this or any other&amp;nbsp;topic!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 15 Feb 2013 14:28:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-02-15:/2013/02/google-summer-of-code-2013/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Google Summer of Code 2012 Roundup</title><link>http://blog.instantbird.org/2012/10/google-summer-of-code-2012-roundup/</link><description>&lt;p&gt;Instantbird 1.2 was released about two months ago and we must again
+apologize for keeping this blog fairly quiet.&amp;nbsp; Sorry about that!&amp;nbsp; But
+we&amp;#8217;re here now, so read on for some (not really so) juicy Instantbird&amp;nbsp;news!&lt;/p&gt;
+&lt;p&gt;Instantbird 1.2 release went fairly smoothly, much smoother than the
+last release!&amp;nbsp; We&amp;#8217;ve gotten some great feedback (and had lots of bugs
+filed) and of course have started working on Instantbird 1.3 already!
+Most of the fixes that have so far gone into the 1.3 nightlies so far
+are minor&amp;#8230;but taken altogether, I&amp;#8217;m not sure I could go back to 1.2!
+Feel free to &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;give them a try&lt;/a&gt; and
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;report any issues&lt;/a&gt; to&amp;nbsp;us!&lt;/p&gt;
+&lt;p&gt;Thunderbird 15 was &amp;#8220;recently&amp;#8221; released, which also contained the core
+chat backend of Instantbird.&amp;nbsp; We&amp;#8217;ve had a bunch of bugs filed from that
+release too!&amp;nbsp; Between feedback from the two programs we&amp;#8217;ve made a lot of
+minor improvements that will definitely make Instantbird (more of) a joy
+to&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;Google Summer of Code 2012 has been over for a bit (it ended in August),
+but we never thanked Will for his time with us and the great work he&amp;#8217;s
+done so far.&amp;nbsp; Currently the &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;account
+importer&lt;/a&gt; code he
+wrote this summer is &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1495"&gt;undergoing
+review&lt;/a&gt;, but
+hopefully it will be complete for Instantbird 1.3 to allow extremely
+easy transitioning to Instantbird!&amp;nbsp; Thanks for a great summer Will!&amp;nbsp; We
+hope you&amp;#8217;ve enjoyed working with your mentor, Florian, and the rest of
+the Instantbird team; we&amp;#8217;ve definitely enjoyed working with you, helping
+you and watching you learn.&amp;nbsp; Good luck and hopefully we&amp;#8217;ll continue to
+see you around (and have contributions from you!) in the future.&amp;nbsp; We&amp;#8217;d
+also like to thanks Mozilla for graciously allowing us to be part of
+Google Summer of Code 2012 through&amp;nbsp;them!&lt;/p&gt;
+&lt;p&gt;As always, feel free to stop by #instantbird on irc.mozilla.org (and,
+yes, Instantbird supports &lt;span class="caps"&gt;IRC&lt;/span&gt;: you can&amp;#8217;t use the excuse that you don&amp;#8217;t
+have an &lt;span class="caps"&gt;IRC&lt;/span&gt; client!) to give us some feedback or ask&amp;nbsp;questions.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 03 Oct 2012 01:07:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-10-03:/2012/10/google-summer-of-code-2012-roundup/</guid><category>Community</category><category>1.2</category><category>GSoC</category><category>mozilla</category><category>Thunderbird</category></item><item><title>Google Summer of Code 2012</title><link>http://blog.instantbird.org/2012/04/google-summer-of-code-2012/</link><description>&lt;p&gt;Instantbird is participating in Google Summer of Code (GSoC) again this
+year as part of Mozilla and we will be mentoring one student: Will
+Nayes.&amp;nbsp; The abstract for his project&amp;nbsp;is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p class="rubric" id="instantbird-account-import-wizard"&gt;&lt;strong&gt;Instantbird Account Import&amp;nbsp;Wizard&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When evaluating a new messaging client, the common frustration of
+reconfiguring accounts and settings is difficult to avoid. To combat
+similar issues, the developers at Mozilla have implemented account
+import wizards in their Firefox and Thunderbird software packages. I
+propose creating an Account Import Wizard for the &lt;span class="caps"&gt;IM&lt;/span&gt; client
+Instantbird, which will provide users with a flexible way to import
+profile data from existing messaging client installations.
+[&lt;a class="reference external" href="http://www.google-melange.com/gsoc/project/google/gsoc2012/wnayes/6001"&gt;source&lt;/a&gt;]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Will is in contact with us via our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel #instantbird (on
+irc.mozilla.org) during the community bonding period. We&amp;#8217;d love for you
+to stop by and help welcome wnayes to our community. We&amp;#8217;re extremely
+excited to have Will working with us this&amp;nbsp;summer!&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;d like to thank Mozilla for letting us apply to Google Summer of Code
+with them!&amp;nbsp; You can see all of Mozilla&amp;#8217;s accepted applications on the
+&lt;a class="reference external" href="http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla"&gt;GSoC 2012
+site&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Thu, 26 Apr 2012 13:01:25 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-26:/2012/04/google-summer-of-code-2012/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Status Update: April 17, 2012</title><link>http://blog.instantbird.org/2012/04/status-update-april-17-2012/</link><description>&lt;p&gt;A lot has happened in the past two months since our last post: we&amp;#8217;ve
+been quite busy trying to fix &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;the list of blockers for Instantbird
+1.2&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ve again joined Mozilla as part of their application for &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012"&gt;Google
+Summer of
+Code&lt;/a&gt;.
+You can see some of our ideas on &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode12#Instantbird"&gt;Mozilla&amp;#8217;s
+wiki&lt;/a&gt;.
+(We should find out soon whether Instantbird will be doing any projects
+or not this&amp;nbsp;year!)&lt;/p&gt;
+&lt;div class="section" id="what-s-new"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;New?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The JavaScript &lt;span class="caps"&gt;IRC&lt;/span&gt; implementation has landed! Many minor bugs were also
+fixed. The behavior is mostly the same as the old libpurple
+implementations, but there are differences. If you see issues, please
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/enter_bug.cgi"&gt;file a bug&lt;/a&gt;! This
+will allow for better &lt;span class="caps"&gt;IRC&lt;/span&gt; support in the&amp;nbsp;future.&lt;/li&gt;
+&lt;li&gt;The tab completion algorithm has been made smarter:&lt;ul&gt;
+&lt;li&gt;It now prefers the last person to have pinged you if there are
+multiple possible&amp;nbsp;completions.&lt;/li&gt;
+&lt;li&gt;Addressing multiple participants is now handled&amp;nbsp;gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There is now a reading position marker to show which messages arrived
+since you last viewed a&amp;nbsp;conversation.&lt;/li&gt;
+&lt;li&gt;Updated to Mozilla&amp;nbsp;11.&lt;/li&gt;
+&lt;li&gt;A few crashers have been&amp;nbsp;fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whats-coming-soon-being-worked-on"&gt;
+&lt;h2&gt;What’s Coming Soon / Being Worked&amp;nbsp;On?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Minor &lt;span class="caps"&gt;IRC&lt;/span&gt; fixes: see &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=component%3AIRC&amp;amp;list_id=1122"&gt;known &lt;span class="caps"&gt;IRC&lt;/span&gt;
+bugs&lt;/a&gt;
+(in particular, better error&amp;nbsp;handling).&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1337"&gt;Upgrade to libpurple
+2.10.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;Instantbird 1.2
+blockers&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-this-i-hear-about-thunderbird-integrating-instant-messaging-code-from-instantbird"&gt;
+&lt;h2&gt;What&amp;#8217;s this I hear about Thunderbird integrating instant messaging code from&amp;nbsp;Instantbird?&lt;/h2&gt;
+&lt;p&gt;You
+&lt;a class="reference external" href="http://www.rumblingedge.com/2012/03/13/instant-messaging-in-thunderbird-just-got-landed-should-appear-in-tomorrows-nightlies/"&gt;may&lt;/a&gt;
+&lt;a class="reference external" href="https://wiki.mozilla.org/Features/Thunderbird/Instant_messaging_in_Thunderbird"&gt;have&lt;/a&gt;
+heard that instant messaging was recently added to Thunderbird. This
+work was done by our very own Florian Quèze! Don&amp;#8217;t panic though! This
+doesn&amp;#8217;t mean that Instantbird development is stopping, we strongly
+believe there is a place for both a standalone instant messenger and a
+more integrated approach with email. This is a mutually beneficial
+relationship between Instantbird and Thunderbird where we share code,
+benefit from more testing and get a set of new people &amp;#8212; and ideas &amp;#8212;
+involved in making instant messaging easier and more about how you &amp;#8212;
+the user &amp;#8212; wants&amp;nbsp;it!&lt;/p&gt;
+&lt;p&gt;For those curious, approximately &lt;a class="reference external" href="http://lxr.instantbird.org/instantbird/source/chat"&gt;one-third of the Instantbird
+codebase&lt;/a&gt; is now
+&lt;a class="reference external" href="http://mxr.mozilla.org/comm-central/source/chat/"&gt;in Thunderbird&amp;#8217;s
+Daily&lt;/a&gt; and
+Earlybird builds.&amp;nbsp; Feel free to give it a try and file any bugs in
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird&amp;amp;component=Instant%20Messaging"&gt;Mozilla&amp;#8217;s
+bugtracker&lt;/a&gt;.
+Currently it looks like this feature will likely appear in Thunderbird&amp;nbsp;15.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re getting close to the Instantbird 1.2 release and we think there&amp;#8217;s
+been a lot of great improvements that will make it easier and more
+natural to instant message with your friends, family, co-workers and&amp;nbsp;others!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 17 Apr 2012 13:52:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-17:/2012/04/status-update-april-17-2012/</guid><category>Development</category><category>irc</category><category>mozilla</category><category>status update</category></item></channel></rss>

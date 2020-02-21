@@ -1,9 +1,0 @@
-:date: 2010-04-13 07:48
-:author: ./cewood
-:replyto: 0
-
-Keep up the great work guys!
-
-There is definitely a lot of potential for this project, a Firefox equivalent for IM could be catastrophic, I am very excited to see where this project goes in the future.
-
-Just a quick question, is this project officially part of Mozilla, and if not is that something which might help moving forward?

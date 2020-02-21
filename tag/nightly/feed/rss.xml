@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - nightly</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 25 Jul 2014 13:07:07 +0000</lastBuildDate><item><title>Linux nightly builds back!</title><link>http://blog.instantbird.org/2014/07/linux-nightly-builds-back/</link><description>&lt;p&gt;Back in March, we posted that we had started
+&lt;a class="reference external" href="http://blog.instantbird.org/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
+version of CentOS we had been using was too old, we were unable to continue
+providing Linux nightly builds. That has now changed and (as of today) we have
+&lt;strong&gt;both 32-bit and 64-bit&lt;/strong&gt; Linux nightlies! Since this involved us installing a
+new operating system (CentOS 6.2) and tweaking some of the build configuration
+for Linux, please &lt;a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Instantbird"&gt;let us know&lt;/a&gt; if you see any issues! Additionally, some more
+up-to-date features that have been available in Mozilla Firefox for a while
+should now be available in Instantbird (e.g. dbus and pulse audio support) and
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=955310"&gt;even some minor bugs were fixed&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Sorry that this took so long, but &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;go grab your updated copy now&lt;/a&gt;!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 25 Jul 2014 13:07:07 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-07-25:/2014/07/linux-nightly-builds-back/</guid><category>Development</category><category>nightly</category><category>status update</category></item><item><title>Pardon the Interruption! Instantbird nightly builds are back!</title><link>http://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</link><description>&lt;p&gt;As of today, March 3rd, 2014, Instantbird nightly builds (1.6a1pre) are being
+built again. We last had nightly builds on January 9th, 2014 and they have been
+broken since due to a series of a large infrastructure change we’ve been going
+through to merge the Instantbird Bugzilla and code repository with Mozilla’s.
+Unfortunately, getting nightly builds working again took us longer than expected
+as it involved many related issues: updating Instantbird to work with newer
+versions of Mozilla, reconfiguring our buildbot and working on getting libpurple
+to build as an&amp;nbsp;extension.&lt;/p&gt;
+&lt;p&gt;The results of this is that Instantbird is now building out of the
+“comm-central” code repository (the same place the code for Thunderbird is
+stored). What does this mean for&amp;nbsp;you?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Instantbird nightlies are now built using comm-central/mozilla-central: bugs
+fixed in Mozilla will be reflected in the next Instantbird&amp;nbsp;nightly.&lt;/li&gt;
+&lt;li&gt;Instantbird 1.6a1pre is currently based on Mozilla 30, this is a bit of a
+jump from Instantbird 1.5 (Mozilla 25). There might be an influx of bugs as
+any issues caused by this jump are worked out. Please report any issues you&amp;nbsp;see!&lt;/li&gt;
+&lt;li&gt;(Not entirely related) Bugs for Instantbird can now be reported on
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/"&gt;bugzilla.mozilla.org&lt;/a&gt; under the “Instantbird” and “Chat Core” (for bugs
+shared with Thunderbird Chat)&amp;nbsp;products.&lt;/li&gt;
+&lt;li&gt;Current nightly builds are located at on &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-1.6a1pre/"&gt;our ftp site&lt;/a&gt;, but automatic
+updating from older nightlies should still&amp;nbsp;work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, sorry for any interruption. Regular development should be continuing now. Thanks for all the concerned emails telling us our builds had&amp;nbsp;stopped!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 03 Mar 2014 12:21:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-03-03:/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</guid><category>Development</category><category>mozilla</category><category>nightly</category><category>status update</category></item><item><title>Nightlies fixed and with upgraded libpurple</title><link>http://blog.instantbird.org/2010/09/nightlies-fixed-and-with-upgraded-libpurple/</link><description>&lt;ul class="simple"&gt;
+&lt;li&gt;We have nightly builds again on all 3 OSes.&lt;ul&gt;
+&lt;li&gt;We have had issues on the physical machine that hosts our Windows
+and Linux compilation virtual machines. &lt;em&gt;Even&lt;/em&gt; has been hard at
+work to get them back online as quickly as&amp;nbsp;possible.&lt;/li&gt;
+&lt;li&gt;Additionally, our Windows builds failed with the obscure
+&lt;tt class="docutils literal"&gt;gklayout.lib&amp;nbsp;: fatal error &lt;span class="caps"&gt;LNK1106&lt;/span&gt;: invalid file or disk full: cannot seek to 0x2000D93C&lt;/tt&gt;
+error message. No, the disk wasn&amp;#8217;t full, that would be too easy to
+understand&amp;#8230; After a lot of wasted effort trying to figure out
+what had changed in the configuration of that machine or in the
+code, we finally got the solution on &lt;span class="caps"&gt;IRC&lt;/span&gt; from &lt;em&gt;khuey&lt;/em&gt; and &lt;em&gt;ted&lt;/em&gt;
+(thanks!): reboot with the &lt;tt class="docutils literal"&gt;/&lt;span class="caps"&gt;3GB&lt;/span&gt;&lt;/tt&gt; switch to extend the address&amp;nbsp;space.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The add-ons manager is usable again on nightlies. We got tired of
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=591801"&gt;bug 591801&lt;/a&gt;
+and pushed for Instantbird a partial backout of the patch from &lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562797"&gt;bug
+562797&lt;/a&gt;. (I
+haven&amp;#8217;t attached it in the bug because this is clearly not a fix, but
+if other xulrunner application developers want to use it, it&amp;#8217;s
+&lt;a class="reference external" href="https://hg.instantbird.org/instantbird/file/97e5db711d11/tools/patches/partial-backout-bug-562797.patch"&gt;here&lt;/a&gt;.
+I know Daniel was very happy to have it for
+&lt;a class="reference external" href="http://bluegriffon.org/"&gt;BlueGriffon&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Known issue: Message Styles currently don&amp;#8217;t work without &lt;a class="reference external" href="http://blog.mozilla.com/addons/2010/09/23/changes-to-how-extensions-are-installed-in-firefox-4/"&gt;being
+unpacked in the profile
+folder&lt;/a&gt;.
+This means that even though the add-on manager now works, if you
+install Message Styles with it in your new nightly, they won&amp;#8217;t work.
+Message Styles that were already installed will continue to work even
+if you upgrade your&amp;nbsp;nightly.&lt;/li&gt;
+&lt;li&gt;We have upgraded libpurple from version 2.6.6 to 2.7.3:&lt;ul&gt;
+&lt;li&gt;No big disaster has been reported, so nightly testers probably
+don&amp;#8217;t need to fear the&amp;nbsp;update.&lt;/li&gt;
+&lt;li&gt;We are tracking the crash reports: we have seen some new reports
+related to the &lt;span class="caps"&gt;MSN&lt;/span&gt; protocol; we will investigate&amp;nbsp;soon.&lt;/li&gt;
+&lt;li&gt;The Gadu-Gadu protocol support has improved, but is not as fixed
+as we hoped it would be. We will see if we can find ways to fix&amp;nbsp;it.&lt;/li&gt;
+&lt;li&gt;Our translators may be interested in taking strings from
+translation files generated based on this new version to help them
+in the process of upgrading their locale. These new converted
+files are available
+&lt;a class="reference external" href="http://queze.net/goinfre/l10n/libpurple-2.7.3/"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The patches for minor issues that had been waiting in bugzilla for
+quite a bit of time (because we didn&amp;#8217;t want to land them just before
+releasing 0.2 or in the middle of the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;js-proto&lt;/span&gt;&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;mozilla2&lt;/tt&gt;
+branch merges) have&amp;nbsp;landed.&lt;/li&gt;
+&lt;li&gt;We have welcomed translators for two new locales: Chinese and Hebrew!
+&lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;&lt;/li&gt;
+&lt;li&gt;We have created an &lt;tt class="docutils literal"&gt;experiments&lt;/tt&gt; mercurial repository where
+contributors from our community are enthusiastically experimenting
+with projects that we look forward to integrating in the default
+Instantbird code base once they are ready:&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Mic&lt;/em&gt; is working on adapting Firefox Sync to work with&amp;nbsp;Instantbird.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;clokep&lt;/em&gt; is working on a readable implementation of the &lt;span class="caps"&gt;IRC&lt;/span&gt;
+protocols in JavaScript, leveraging the work that has been done in
+the last few months on the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;js-proto&lt;/span&gt;&lt;/tt&gt; branch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I plan to start rewriting the backend of our buddy list next week.
+The goals of this work are to simplify the code, make it work
+correctly with protocol plugins implemented in JavaScript, and give
+us the necessary APIs to implement the contact and tag features we
+plan add for the 0.3&amp;nbsp;release.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, don&amp;#8217;t hesitate to &lt;a class="reference external" href="https://bugzilla.instantbird.org/enter_bug.cgi"&gt;file
+bugs&lt;/a&gt; if you come
+across them! You are also welcome to join us on &lt;span class="caps"&gt;IRC&lt;/span&gt; (in
+&lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;#instantbird&lt;/a&gt;, where we have
+been more than 20 a few times this&amp;nbsp;week!)&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Fri, 24 Sep 2010 19:35:54 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-09-24:/2010/09/nightlies-fixed-and-with-upgraded-libpurple/</guid><category>Development</category><category>libpurple</category><category>nightly</category></item><item><title>Nightly builds now based on mozilla-central</title><link>http://blog.instantbird.org/2010/09/nightly-builds-now-based-on-mozilla-central/</link><description>&lt;p&gt;In late July, I started working on making Instantbird use the Mozilla
+2.0 platform (which the recently released Firefox 4 betas are based on).
+This work, which started in a branch, has recently reached a point where
+we believe it could benefit from wider testing. The &lt;tt class="docutils literal"&gt;mozilla2&lt;/tt&gt; branch
+was merged Friday, September 10th,&amp;nbsp;2010.&lt;/p&gt;
+&lt;p&gt;This didn&amp;#8217;t happen as smoothly as I would have hoped, but after 10 (!)
+bustage fixes, yesterday we were able to provide the first set of
+Instantbird nightly builds based on Mozilla 2.0. Our slowly growing
+community on &lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;#instantbird&lt;/a&gt; has
+jumped on them, and quickly reported a few significant issues. Thanks to
+their awesome help, those are fixed, and today we have a new set of
+nightly&amp;nbsp;builds.&lt;/p&gt;
+&lt;p&gt;Additional help to test these new builds (&lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/2010/09/2010-09-13-04-instantbird/"&gt;Windows and
+Linux&lt;/a&gt;,
+&lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/2010/09/2010-09-13-09-instantbird/"&gt;Mac&lt;/a&gt;),
+will be greatly&amp;nbsp;appreciated.&lt;/p&gt;
+&lt;p&gt;Known issues of this set of&amp;nbsp;builds:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &amp;#8216;Show Logs&amp;#8217; menuitems don&amp;#8217;t work (already fixed and will work&amp;nbsp;tomorrow).&lt;/li&gt;
+&lt;li&gt;The Add-ons manager is broken. This is &lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=591801"&gt;bug
+591801&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &amp;#8216;Instantbird&amp;#8217; checkbox in the &amp;#8216;Update&amp;#8217; pane of the &amp;#8216;Advanced&amp;#8217;
+panel of the preference Window is disabled (already fixed and will
+work&amp;nbsp;tomorrow).&lt;/li&gt;
+&lt;/ul&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Mon, 13 Sep 2010 16:24:07 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-09-13:/2010/09/nightly-builds-now-based-on-mozilla-central/</guid><category>Development</category><category>mozilla</category><category>nightly</category></item><item><title>Nightly builds available</title><link>http://blog.instantbird.org/2008/10/nightly-builds-available/</link><description>&lt;div class="section" id="nightly-builds"&gt;
+&lt;h2&gt;Nightly&amp;nbsp;builds&lt;/h2&gt;
+&lt;p&gt;We produce nightly builds of Instantbird every day with buildbot. These
+builds can be downloaded from our server at
+&lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;http://ftp.instantbird.com/instantbird/nightly/latest-trunk/&lt;/a&gt;. Please
+note that these builds are available for testing purpose only, and are
+totally untested before we put them online. Use them at your own risks.
+If you want to help us with testing, there is no need to download and
+install a new build from the server everyday, the application will
+automatically propose&amp;nbsp;updates.&lt;/p&gt;
+&lt;p&gt;To ensure that users won&amp;#8217;t confuse nightly unstable builds with
+releases, we use a different set of icons for the nightlies. The nightly
+icon&amp;nbsp;is:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Nightly logo" src="http://www.instantbird.com/images/nightly.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-new"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;new?&lt;/h2&gt;
+&lt;p&gt;It has already been a few months since the last release, so I guess it&amp;#8217;s
+a good time for a quick status&amp;nbsp;update.&lt;/p&gt;
+&lt;p&gt;Just after the 0.1.2 release, we switched from subversion to mercurial
+for the versioning of our source code. Our mercurial repository is
+publicly available at &lt;a class="reference external" href="http://hg.instantbird.org/"&gt;http://hg.instantbird.org/&lt;/a&gt;. At the same time, for
+the Mozilla code we use, we switched from the &lt;span class="caps"&gt;CVS&lt;/span&gt; trunk (1.9.0.x) to
+mozilla-central and we are now using a build system which is very
+similar to the comm-central one. In fact, it&amp;#8217;s a copy of it with very
+small modifications. Thanks to the people who helped us for the
+transition and to the people who worked on the comm-central build&amp;nbsp;system.&lt;/p&gt;
+&lt;p&gt;There are also some new features: There&amp;#8217;s a findbar in the conversation
+window (Ctrl/Cmd + F to open it), commands (/me, /topic, etc&amp;#8230;) work in
+conversations, the list of chat room participants is displayed (for
+example, in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels), typing notifications work, idleness (becoming
+idle based on the inactivity time) works, status changes are displayed
+in conversations, it&amp;#8217;s possible to force a check for update,&amp;nbsp;&amp;#8230;&lt;/p&gt;
+&lt;p&gt;We also spent time on code cleanup (debug logging for example) and
+stability improvements (taking into account the data from the crash
+reporting&amp;nbsp;system).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-next"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;next?&lt;/h2&gt;
+&lt;p&gt;We plan to do another minor release soon, and after that, for the 0.2
+release, the focus will be on&amp;nbsp;extensibility.&lt;/p&gt;
+&lt;p&gt;On a side note, this project has been public for one year, Instantbird
+0.1 was released on October 18th, 2007. Even if we hoped to do more,
+it&amp;#8217;s been a great year for the&amp;nbsp;project!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 18 Oct 2008 16:23:43 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2008-10-18:/2008/10/nightly-builds-available/</guid><category>Downloads</category><category>nightly</category></item></channel></rss>

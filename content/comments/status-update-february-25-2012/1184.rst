@@ -1,6 +1,0 @@
-:date: 2012-02-28 12:42
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 1183
-
-Thanks, I fixed that link! :)

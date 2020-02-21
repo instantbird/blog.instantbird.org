@@ -1,7 +1,0 @@
-:date: 2012-11-16 11:39
-:author: Tim
-:replyto: 0
-
-Looks nice. Unfortunately I won't be switching before there is OTR support. Maybe this [1] otr code written in javascript will help us eventually to bake a plugin for IB eventually.
-
-[1] https://github.com/arlolra/otr

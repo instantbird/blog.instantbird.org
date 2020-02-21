@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - feedback</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 06 Sep 2011 19:29:17 +0000</lastBuildDate><item><title>Feedback received</title><link>http://blog.instantbird.org/2011/09/feedback-received/</link><description>&lt;p&gt;Following the release of Instantbird 1.0, we&amp;#8217;ve received a variety of
+great feedback (if you haven&amp;#8217;t read some of our other posts: we love to
+receive feedback, although we might not always agree) via our &lt;a class="reference external" href="http://groups.google.com/group/instantbird-contact/topics"&gt;contact
+email
+address&lt;/a&gt;,
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel&lt;/a&gt;, our &lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;bug
+tracker&lt;/a&gt;,
+&lt;a class="reference external" href="http://twitter.com/instantbird"&gt;Twitter&lt;/a&gt; and what ever other ways
+there are to communicate with us. We&amp;#8217;d like to take some time to respond
+to some of the popular requests we&amp;#8217;ve got (or at the very least, point
+you to the bug where you can follow any&amp;nbsp;progress).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;File transfer support&lt;/strong&gt;: something we definitely want, but we also
+want to give a good user experience. Unfortunately most protocols do not
+transfer files efficiently or quickly (and many times they break when
+behind firewalls, etc.), thus we wish to offer an alternative to using
+the protocol file transfer before providing support for it: see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=9"&gt;bug
+9&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grouping buddies first by protocol then by group&lt;/strong&gt;: this has been
+requested by multiple individuals, but we don&amp;#8217;t feel it would fit well
+into Instantbird. Instantbird is a multi-protocol instant messaging
+client that aims to integrate all of your accounts together (therefore
+it doesn&amp;#8217;t make sense to separate your accounts on the contact&amp;nbsp;list).&lt;/p&gt;
+&lt;p&gt;For example, is your &amp;#8220;Friend&amp;#8221; not your friend whether it&amp;#8217;s your &lt;span class="caps"&gt;MSN&lt;/span&gt;
+account, your &lt;span class="caps"&gt;AIM&lt;/span&gt; account or your Facebook account? Of course they still
+are! But perhaps you have different groups of friends on &lt;span class="caps"&gt;MSN&lt;/span&gt; than on &lt;span class="caps"&gt;AIM&lt;/span&gt;
+(maybe one is your online gaming buddies and one is your high school
+friends); well our suggestion is to move them to tags that make more
+sense (i.e. make an &amp;#8220;Online Gaming Buddies&amp;#8221; tag for all your &lt;span class="caps"&gt;MSN&lt;/span&gt; friends
+and a &amp;#8220;School Friends&amp;#8221; tag for all your &lt;span class="caps"&gt;AIM&lt;/span&gt; friends, in this&amp;nbsp;example).&lt;/p&gt;
+&lt;p&gt;When asking people why they want this, the response usually is &amp;#8220;that&amp;#8217;s
+what &amp;lt;another &lt;span class="caps"&gt;IM&lt;/span&gt; client&amp;gt; does&amp;#8221;. Well, ok but we wish that you take more
+of a &amp;#8216;contact level view&amp;#8217; of people: &lt;a class="reference external" href="http://blog.instantbird.org/articles/better-contact-list.rst"&gt;Combine your contacts that are the
+same person&lt;/a&gt; and
+group them according to how you know them. (You can even put them in
+multiple tags, if someone is your online gaming buddy &lt;span class="caps"&gt;AND&lt;/span&gt; from&amp;nbsp;school!)&lt;/p&gt;
+&lt;p&gt;If there&amp;#8217;s a usecase that we&amp;#8217;re not covering here, please let us know!
+(And don&amp;#8217;t forget that Instantbird is fully extensible, so you could
+certainly write an extension to display the contacts grouped first by
+protocol if you really need that&amp;nbsp;feature.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blocking buddies at the protocol level&lt;/strong&gt;: unfortunately support for
+this isn&amp;#8217;t great depending on the protocol, but libpurple does support
+it. We have two bugs on file; one is to &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=135"&gt;block individual
+users&lt;/a&gt; and
+another to &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=704"&gt;block all buddies not on your buddy
+list&lt;/a&gt;, which
+might not be supported by all&amp;nbsp;protocols.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blocking spam&lt;/strong&gt;: although this is similar to blocking buddies, it&amp;#8217;s
+different in that you do not wish to block &lt;span class="caps"&gt;ALL&lt;/span&gt; people not on your buddy
+list, but of course you still want to ignore the obvious spam messages!
+See &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=288"&gt;bug 288&lt;/a&gt;
+and &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=887"&gt;bug 887&lt;/a&gt;
+for two ideas on how to implement&amp;nbsp;this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Start with the operating system&lt;/strong&gt;: many people expect an &lt;span class="caps"&gt;IM&lt;/span&gt; client to
+start with their operating system and although most operating systems
+provide a way to manually make a program start on boot, it would be
+convenient for Instantbird to provide an option to do this. This was
+requested in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=376"&gt;bug
+376&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Facebook &amp;#8220;Not Authorized&amp;#8221; error&lt;/strong&gt;: we added the solution to the
+&lt;a class="reference external" href="http://instantbird.com/faq.html#facebookauthorization"&gt;&lt;span class="caps"&gt;FAQ&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Voice/video&lt;/strong&gt;: we&amp;#8217;d love to support voice/video too! But libpurple
+does not yet support voice/video on Windows or Mac, you can see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=568"&gt;bug
+568&lt;/a&gt; for some
+information on how we could support it in JavaScript&amp;nbsp;protocols.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;OTR&lt;/span&gt; (off the record messaging)&lt;/strong&gt;: private messaging is something we
+believe is useful, but it needs to be convenient and transparent to the
+users (after authentication, of course!). Encrypted chat is not a
+trivial task, especially when the protocols don&amp;#8217;t support it, but
+there&amp;#8217;s a library (called Off the Record) which handles this for us, we
+have a bug about integrating it: &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=877"&gt;bug
+877&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;People want 64-bit Linux versions&lt;/strong&gt;: we actually currently &lt;a class="reference external" href="http://ftp.instantbird.org/instantbird/releases/1.0/contrib/"&gt;supply
+unsupported 64-bit
+builds&lt;/a&gt;,
+and there&amp;#8217;s a bug about making them official (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=395"&gt;bug
+395&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instantbird interrupts you&lt;/strong&gt;: if you receive a new &lt;span class="caps"&gt;IM&lt;/span&gt; window
+Instantbird rudely pops to the front, this is mostly noticeable when
+using another application as a fullscreen window (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=926"&gt;bug
+926&lt;/a&gt;). Luckily
+for now, there&amp;#8217;s currently an easy workaround: keep a conversation
+window opened and minimized, so that a new conversation appears in a tab
+of the existing window instead of a new&amp;nbsp;window.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Being able to search/filter the contacts&lt;/strong&gt; would be helpful: we agree!
+In fact we filed a bug about it: &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=631"&gt;bug
+631&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;strong&gt;System tray issues&lt;/strong&gt;:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Persist the tray icon&lt;/strong&gt;: the system tray icon should stay visible
+even when the buddy list is restored, see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=749"&gt;bug
+749&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Single click to restore the tray icon&lt;/strong&gt;: &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/291/"&gt;an
+extension&lt;/a&gt;
+was created to support this and by default the next version of
+Instantbird will use single click on Linux and double click on Windows
+(see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=870"&gt;bug
+870&lt;/a&gt;).&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Expand the system tray context menu to change the status&lt;/strong&gt;: this
+would be helpful and would match what was added to the jumplists for
+Windows 7, see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=750"&gt;bug
+750&lt;/a&gt; about
+any work on this.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;We&amp;#8217;ve heard that &lt;strong&gt;some protocols are having problems&lt;/strong&gt;:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;&lt;span class="caps"&gt;QQ&lt;/span&gt; does not work&lt;/strong&gt;: we&amp;#8217;ve had reports of &lt;span class="caps"&gt;QQ&lt;/span&gt; not connecting (&lt;span class="caps"&gt;QQ&lt;/span&gt; was
+actually dropped from Pidgin and spun off into a separate project
+(&lt;a class="reference external" href="http://code.google.com/p/libqq-pidgin/"&gt;libqq&lt;/a&gt;), which we &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1021"&gt;intend
+to include&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;&lt;span class="caps"&gt;ICQ&lt;/span&gt; does not connect with default settings&lt;/strong&gt;: we have begun to
+investigate this in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=894"&gt;bug
+894&lt;/a&gt;, but it
+seems that &lt;span class="caps"&gt;SSL&lt;/span&gt; is broken for now.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Twitter has a variety of issues&lt;/strong&gt; and needs more work, including:
+retweeting and replying to messages, direct messaging and showing a
+list of who you follow and who follows you.&lt;/div&gt;
+&lt;div class="line"&gt;A few suggestions to &lt;strong&gt;replace the libpurple &lt;span class="caps"&gt;MSN&lt;/span&gt; with msn-pecan&lt;/strong&gt;: we
+actually have still not updated to the newest &lt;span class="caps"&gt;MSN&lt;/span&gt; code from libpurple
+2.9.0 (as it was causing crashes for one of our developers), see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=907"&gt;bug
+907&lt;/a&gt; for the
+details.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;People want &lt;strong&gt;more protocols&lt;/strong&gt;:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;&lt;span class="caps"&gt;IBM&lt;/span&gt; Lotus Sametime&lt;/strong&gt;: we&amp;#8217;ve actually &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=102"&gt;added
+support&lt;/a&gt; for
+this in the nightly builds and it&amp;#8217;ll be included in the next version!&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Bonjour&lt;/strong&gt;: this should be fairly easy to add on Mac, but Windows and
+Linux would require an extra library from Apple to support Bonjour. If
+you&amp;#8217;re interested in adding it, see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=944"&gt;bug
+944&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;&lt;span class="caps"&gt;SIPE&lt;/span&gt; (Microsoft Office Communicator)&lt;/strong&gt;: one of our developers has
+started working on this in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=976"&gt;bug
+976&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Skype&lt;/strong&gt;: supporting Skype is non-trivial and requires Skype to be
+running in the background, use of (the non-free) SkypeKit or reverse
+engineering the protocol, see &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=563"&gt;bug
+563&lt;/a&gt; for some
+ideas.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Lots of positive feedback! Including that Instantbird works great with
+screen readers! We&amp;#8217;ve received &lt;span class="caps"&gt;TONS&lt;/span&gt; of other great feedback as well,
+this is just a summary of the popular feedback we&amp;#8217;ve&amp;nbsp;received.&lt;/p&gt;
+&lt;p&gt;Please remember that one of the team&amp;#8217;s goals is to keep Instantbird as
+light as possible, and for that reason, we are trying to encourage the
+idea of creating add-ons for things that may not seem as a core
+necessity for the larger&amp;nbsp;audience.&lt;/p&gt;
+&lt;p&gt;Development of Instantbird 1.1 is already well underway. We have a
+tentative
+&lt;a class="reference external" href="https://wiki.instantbird.org/Instantbird:Roadmap:1.1"&gt;roadmap&lt;/a&gt; for
+it. We definitely plan to release faster than we used to do before
+Instantbird 1.0. Our current target date for the next release is the end
+of&amp;nbsp;September!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 06 Sep 2011 19:29:17 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-09-06:/2011/09/feedback-received/</guid><category>Support</category><category>feedback</category></item></channel></rss>

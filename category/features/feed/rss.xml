@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Features</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 22 Jul 2013 09:00:59 +0000</lastBuildDate><item><title>First Milestone of the Awesometab has landed!</title><link>http://blog.instantbird.org/2013/07/first-milestone-of-the-awesometab-has-landed/</link><description>&lt;p&gt;&lt;em&gt;Awesometab&lt;/em&gt; is the project name for a tab developed by &lt;a class="reference external" href="http://awesometab.blogspot.de/"&gt;Nihanth Subramanya&lt;/a&gt;
+during the &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013"&gt;Google Summer of Code 2013&lt;/a&gt; (via &lt;a class="reference external" href="http://blog.gerv.net/2013/06/gsoc-2013-project-list/"&gt;Mozilla&lt;/a&gt;) which allows to
+&lt;em&gt;quickly start the conversation you want to start&lt;/em&gt;. The suggestions will be based
+on several parameters like frequency and recency of previous conversations and
+will show the most likely results when you open the new conversation-tab. It
+will also include already ongoing conversations (&lt;em&gt;Switch to conversation&lt;/em&gt;) and
+suggestions for multi user chats such as &lt;span class="caps"&gt;IRC&lt;/span&gt; channels and &lt;span class="caps"&gt;XMPP&lt;/span&gt; chatrooms on the
+servers that you’re connected&amp;nbsp;to.&lt;/p&gt;
+&lt;div class="section" id="whats-this-milestone-that-has-landed-already"&gt;
+&lt;h2&gt;What’s this milestone that has landed&amp;nbsp;already?&lt;/h2&gt;
+&lt;p&gt;After problems with the sheer size of the patch during last years GSoC project,
+we decided to split this year’s projects into smaller parts that can land as
+soon as they are&amp;nbsp;ready.&lt;/p&gt;
+&lt;p&gt;So far a filterable contact list in a tab has landed that can easily be opened
+using the common shortcut of &lt;em&gt;Ctrl+T&lt;/em&gt; for &lt;em&gt;New Tab&lt;/em&gt; (from both the contact list
+or a conversation window) or by clicking the likewise familiar &lt;em&gt;New Tab&lt;/em&gt;-button
+in the tab&amp;nbsp;bar.&lt;/p&gt;
+&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png"&gt;&lt;img alt="New conversation tab" src="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png" style="width: 300px; height: 232px;" /&gt;&lt;/a&gt;
+&lt;p class="wp-caption-text"&gt;New conversation tab, list filtered for contacts starting with letter&amp;nbsp;f&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It features a search bar at top of the tab content which allows to refine the
+results. It currently matches the entered name against each part of the
+contact’s names but will do more later (see next&amp;nbsp;section).&lt;/p&gt;
+&lt;p&gt;Contacts are displayed similar to results in Firefox’ awesomebar while retaining
+the familiar look of the conversation header with the contact icon and status
+indicator at the left and the contact name and status message to the right of
+it. Additionally the tags of the contact are displayed, indicated by the same
+icons as Firefox uses for tags on the&amp;nbsp;Awesomebar.&lt;/p&gt;
+&lt;p&gt;Starting a conversation is as easy as single clicking on the result or selecting
+an item with the keyboard and pressing Enter – a middle click opens the new
+conversation in background instead while keeping the new conversation tab
+visible, just in case that you need to start more than one&amp;nbsp;conversation!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="and-whats-next"&gt;
+&lt;h2&gt;And what’s&amp;nbsp;next?&lt;/h2&gt;
+&lt;p&gt;The next step (already under development!) will be further improving this list
+by integrating already ongoing conversations (&lt;em&gt;Switch to tab/conversation&lt;/em&gt;).
+We’d also like to include a way to filter the list by tags and to highlight the
+text that matches the filter like the Awesomebar&amp;nbsp;does.&lt;/p&gt;
+&lt;p&gt;Later on a ranking algorithm will be introduced and tweaked to show the most
+important results first instead of the alphabetically sorted list that you
+currently get when opening the&amp;nbsp;tab.&lt;/p&gt;
+&lt;p&gt;These changes are most likely going to be integrated as soon as they are ready
+and reviewed, so make sure you have a &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;nightly build&lt;/a&gt; and update&amp;nbsp;frequently!&lt;/p&gt;
+&lt;p&gt;I’m really happy to see how well this project is going, I’m already enjoying how
+easy it became to start a conversation using the filterable contact list. I’m
+looking forward to actually see the conversations I most likely want to start
+right&amp;nbsp;away!&lt;/p&gt;
+&lt;p&gt;Thanks, Nihanth, it’s really great work that you’re doing&amp;nbsp;here!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benedikt P</dc:creator><pubDate>Mon, 22 Jul 2013 09:00:59 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-07-22:/2013/07/first-milestone-of-the-awesometab-has-landed/</guid><category>Features</category><category>community</category><category>GSoC</category></item><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+any mathematics contained in your conversations will be beautifully
+rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
+equations displayed properly. And of course, as LaTeX is text-based,
+this works for all protocols, and does not depend on your conversation
+partners also using&amp;nbsp;Instantbird!&lt;/p&gt;
+&lt;p&gt;No configuration is necessary &amp;#8212; to use this, you don&amp;#8217;t even need to
+have TeX&amp;nbsp;installed.&lt;/p&gt;
+&lt;p&gt;You can easily obtain the LaTeX source of any equation using the context
+menu. AMSmath symbols and environments (such as
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;\\begin{align}...\\end{align}&lt;/span&gt;&lt;/tt&gt;) are&amp;nbsp;supported.&lt;/p&gt;
+&lt;p&gt;There are a few customization options &amp;#8212; for example, you can choose to
+have displayed equations numbered automatically, to make them easier to
+refer&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;The add-on works with all Instantbird message styles, so you don&amp;#8217;t have
+to change your favourite&amp;nbsp;theme.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;Get the add-on&amp;nbsp;here!&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item><item><title>Tab completion in Instantbird 1.2</title><link>http://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
+in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels (and other chatrooms). The goal, as always, is to make it
+&amp;#8220;just work&amp;#8221; (so you can think about more important&amp;nbsp;things!).&lt;/p&gt;
+&lt;p&gt;Simply press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; to complete the first couple of letters you have&amp;nbsp;typed:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To undo the completion, just press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt; as&amp;nbsp;usual.&lt;/p&gt;
+&lt;p&gt;If there is no unique nick that fits the bill, Instantbird tries to
+guess which nick you mean from the context. For example, if you have
+recently been pinged by someone, that nick is preferred. Otherwise it
+just completes as much as possible, and shows you a list of
+alternative&amp;nbsp;completions:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can then always press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; again to cycle through these candidate
+nicks until you get the right&amp;nbsp;one:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Shift&lt;/span&gt;+&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; will cycle through the list in the opposite&amp;nbsp;direction.)&lt;/p&gt;
+&lt;p&gt;Notice how Instantbird automatically added a colon after the nick, as
+we were addressing someone at the start of a message. And if you add
+another nick, you get a comma-separated&amp;nbsp;list:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Of course, sometimes that may not be what you intended. So if you
+delete the trailing colon by pressing &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt;, the punctuation
+adjusts&amp;nbsp;accordingly:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t forget you can also reply to any message by double-clicking it!
+This will add the sender&amp;#8217;s nick to the beginning of the&amp;nbsp;message.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item><item><title>The Interruptions Manager</title><link>http://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
+spot in our &lt;span class="caps"&gt;API&lt;/span&gt; was the ability to control whether events should be
+shown to a user or cancelled under certain conditions.&amp;nbsp; This fits in as
+part of our mission about giving control of instant messaging to the
+user: the user should only be interrupted by events that deserve their
+attention.&amp;nbsp; If you&amp;#8217;re wondering how this is useful; extensions now have
+great control over how Instantbird is allowed to interact with the
+user.&amp;nbsp; For example, extensions could: keep conversations from opening
+(i.e. spam guards), quiet sounds during a full screen video, or even
+stop new conversations from opening if the user has set their status as&amp;nbsp;Unavailable.&lt;/p&gt;
+&lt;p&gt;Extensions are able to simply register themselves with the interruptions
+manager and they will automatically be notified if certain events
+happen, including when Instantbird wants to: get your attention (e.g.
+flash the task bar), open a new conversation, play a sound or show a
+message&amp;nbsp;notification.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;API&lt;/span&gt; is really easy to use and we&amp;#8217;ve created some example add-ons
+that use it!&amp;nbsp; We have created an an add-on to not allow the NickServ
+from &lt;span class="caps"&gt;IRC&lt;/span&gt; accounts to open
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/nickservkiller"&gt;source&lt;/a&gt;),
+an update of
+&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/209"&gt;NickServKiller&lt;/a&gt;.
+Additionally there is an add-on to force auto-joined chats to be held on
+the buddy list
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/hideautojoins"&gt;source&lt;/a&gt;),
+allowing you to give them your attention when you want to.&amp;nbsp; Another
+example of a great add-on is the Do Not Disturb add-on, which does not
+allow Instantbird to disturb the user while their status is set to
+Unavailable, really allowing you to concentrate on something more
+important
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/ca4ba6af0b8a/donotdisturb"&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;There&amp;#8217;s also a skeleton for an anti-spam add-on (an often requested
+feature!) that is just waiting to be finished!&amp;nbsp; Contact us on
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt;
+if you&amp;#8217;re interested in helping out.&amp;nbsp; And don&amp;#8217;t worry, these extensions
+will be available on
+&lt;a class="reference external" href="http://addons.instantbird.org"&gt;addons.instantbird.org&lt;/a&gt;&amp;nbsp;soon!&lt;/p&gt;
+&lt;p&gt;We think this is a great addition for add-on developers working on
+Instantbird and can&amp;#8217;t wait to see what exciting ideas people come up&amp;nbsp;with!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 15 Oct 2011 00:24:52 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-15:/2011/10/the-interruptions-manage/</guid><category>Features</category><category>1.1</category><category>addons</category><category>irc</category><category>preview</category></item><item><title>User icons</title><link>http://blog.instantbird.org/2011/06/user-icons/</link><description>&lt;p&gt;Another very visible change between Instantbird 0.2 and 0.3 is the
+possibility to set a user icon and a display&amp;nbsp;name.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with a place holder icon" src="http://blog.instantbird.org/images/userIconPlaceholder.png" /&gt;&lt;/p&gt;
+&lt;p&gt;You will see a place holder icon at the top of the buddy list, just
+click it (this will open a file picker) to set an icon. The icon will be
+automatically resized and converted to fit the various size and format
+requirements of the &lt;span class="caps"&gt;IM&lt;/span&gt; networks you&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;Similarly, click the &amp;#8220;Display name&amp;#8221; place holder to edit it. This name
+will be visible in your contacts&amp;#8217; buddy lists (unfortunately this
+currently works only for &lt;span class="caps"&gt;MSN&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;Here you go, your friends will now easily recognize&amp;nbsp;you:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with an icon and a display name" src="http://blog.instantbird.org/images/userIcon.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Conversation windows have also been changed to display your contacts&amp;#8217;
+icons and some more information (display name, status message,&amp;nbsp;&amp;#8230;):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with an info bar showing the user icon" src="http://blog.instantbird.org/images/userIconConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;I can already hear some comments about how much space this new
+information bar takes (or wastes) in all conversation windows. Yes,
+this takes a lot of space, we know. People tend to use big or very big
+windows for chatting (sometimes even full screen!) but if you like the
+ability to chat in small windows, don&amp;#8217;t worry, we love you too! Just
+resize the window and this information bar will shrink to ensure you
+still see the actual content of the&amp;nbsp;conversation:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with a smaller info bar" src="http://blog.instantbird.org/images/userIconSmallConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;And for very small conversation windows, the bar will completely
+disappear, leaving only the strictly necessary user&amp;nbsp;interface:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="small conversation without the info bar" src="http://blog.instantbird.org/images/userIconNoConvUI.png" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 26 Jun 2011 00:31:55 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-26:/2011/06/user-icons/</guid><category>Features</category><category>icons</category><category>preview</category><category>user interface</category></item><item><title>Better contact list</title><link>http://blog.instantbird.org/2011/06/better-contact-list/</link><description>&lt;p&gt;The contact list was identified as a weak area of Instantbird 0.2. It
+has been dramatically improved for Instantbird 0.3 which we plan to
+release next&amp;nbsp;week.&lt;/p&gt;
+&lt;div class="section" id="tags"&gt;
+&lt;h2&gt;Tags&lt;/h2&gt;
+&lt;div class="section" id="goodbye-groups"&gt;
+&lt;h3&gt;Goodbye&amp;nbsp;groups&lt;/h3&gt;
+&lt;p&gt;Like most &lt;span class="caps"&gt;IM&lt;/span&gt; clients, Instantbird 0.2 had each contact placed in a
+group, leading users to organize contacts a bit like files are placed in
+folders on the&amp;nbsp;disk.&lt;/p&gt;
+&lt;p&gt;While this seems ok at first, placing contacts inside groups doesn&amp;#8217;t
+work well when thinking of the contact as a person. Don&amp;#8217;t you have a
+friend (group &amp;#8216;friend&amp;#8217;) who is also a coworker (group&amp;nbsp;&amp;#8216;colleagues&amp;#8217;)?&lt;/p&gt;
+&lt;p&gt;For this reason, with Instantbird 0.3 we replaced the notion of
+&amp;#8220;Groups&amp;#8221; with the notion of &amp;#8220;Tags&amp;#8221; throughout the user interface.
+While groups used to be containers for your contacts (it was possible
+to move a contact from one group into another), tags are additional
+data attached to the contact (you can add or remove tags on a contact,
+but no longer &amp;#8216;move&amp;#8217; a contact) and thus a single contact can have
+multiple tags. To change the tags attached to a contact, use the
+&amp;#8220;Tags&amp;#8230;&amp;#8221; context menu item of the contact; it shows a list of the
+existing tags with a check mark next to the tags attached to the
+selected contact. Checking/unchecking a tag in this list will
+attach/detach a tag from the&amp;nbsp;contact.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tags menu" src="http://blog.instantbird.org/images/tags-menu.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hidden-tags"&gt;
+&lt;h3&gt;Hidden&amp;nbsp;tags&lt;/h3&gt;
+&lt;p&gt;It&amp;#8217;s pretty common when using several accounts of different protocols on
+a multi-protocol client for the first time to have contacts scattered
+around in lots of meaningless tags. These contacts are typically those
+that have never been moved before and are still in whatever the default
+group of the various previous clients&amp;nbsp;were.&lt;/p&gt;
+&lt;p&gt;As moving each of these contacts out of these meaningless groups is
+not really an interesting task, and sometimes is even impossible (if
+the server doesn&amp;#8217;t allow us to move it), we have designed a more
+efficient way to forget the annoyance caused by the pointless
+resulting tags: when hovering a tag in the contact list, you will see
+an [x] icon. Clicking it will hide the tag (after showing an
+explanation the first&amp;nbsp;time).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hide tag icon" src="http://blog.instantbird.org/images/hide-tag-button.png" /&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s possible to manage the list of visible tags (to unhide a tag) from
+the &amp;#8220;Visible tags&amp;#8230;&amp;#8221; context menu&amp;nbsp;item.&lt;/p&gt;
+&lt;p&gt;Contacts which haven&amp;#8217;t been associated with a visible tag will be
+displayed in a special &amp;#8220;Other Contacts&amp;#8221; tag, always at the bottom of the
+contact&amp;nbsp;list.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="grouped-contacts"&gt;
+&lt;h2&gt;Grouped&amp;nbsp;contacts&lt;/h2&gt;
+&lt;p&gt;If several networks are usable to &lt;span class="caps"&gt;IM&lt;/span&gt; the same person, you will no longer
+be annoyed by seeing that person listed several times in your contact
+list. Just drag and drop one of these contacts onto another and
+Instantbird will know they are both ways to contact the same&amp;nbsp;person.&lt;/p&gt;
+&lt;p&gt;During future conversations, if your contact suddenly starts talking to
+you from a different network, the conversation will continue in the same
+tab. A system message will be displayed in the conversation to
+unobtrusively notify you of this&amp;nbsp;change.&lt;/p&gt;
+&lt;p&gt;If you want to start talking to a different account of your contact,
+you can do so easily with a click on the protocol icon at the top
+right of the conversation &lt;span class="caps"&gt;UI&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Talk using a different network" src="http://blog.instantbird.org/images/conversation-targets-menu.png" /&gt;&lt;/p&gt;
+&lt;p&gt;When starting a conversation from the contact list, Instantbird will
+automatically select the best way to reach your contact, based on
+availability information and your preference with regard to the
+various ways to contact this person. You can change this preference by
+expanding a contact (with the down arrow icon) and then using drag and
+drop to reorder the&amp;nbsp;accounts.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Expanded contact" src="http://blog.instantbird.org/images/expanded-contact.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-noticable-changes"&gt;
+&lt;h2&gt;Other noticable&amp;nbsp;changes&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The contact list is now sorted: both tags and contacts inside a tag
+appear alphabetically&amp;nbsp;sorted.&lt;/li&gt;
+&lt;li&gt;Changes in the displayed information are smoothly animated, making
+them at the same time easier to understand and less&amp;nbsp;interrupting.&lt;/li&gt;
+&lt;li&gt;Closing the contact list window, which is not needed all the time,
+will no longer close Instantbird. On Windows and Linux it will be
+minimized to the system tray (this behavior can be customized in the
+Preference dialog); on Mac it can be easily reopened from the&amp;nbsp;menubar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jun 2011 18:48:12 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-23:/2011/06/better-contact-list/</guid><category>Features</category><category>contacts</category><category>preview</category><category>user interface</category></item><item><title>Introducing magic copy</title><link>http://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
+feature I mentioned briefly at the end of &lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
+introducing time bubbles reminded me that we forgot to introduce this
+feature when it landed for Instantbird 0.2 as part of our implementation
+of &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We decided to use this theme system because it seemed nice overall and
+was already used by a few other clients as well. However there was
+something we really didn&amp;#8217;t like: using a customized message theme could
+make copied data from the conversation really hard to read, to the point
+that it would be unsuitable for sending a quote via&amp;nbsp;email.&lt;/p&gt;
+&lt;p&gt;As this may not be very clear yet, let me give an&amp;nbsp;example:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying from a conversation without the 'magic copy' feature" src="http://blog.instantbird.org/images/copy-normal.png" /&gt;&lt;/p&gt;
+&lt;p&gt;This is the text we get when copying the selection to the clipboard and
+pasting it. This is without our &amp;#8220;magic copy&amp;#8221; feature of&amp;nbsp;course.&lt;/p&gt;
+&lt;p&gt;I should also note that the Bubbles theme used for this screenshot is
+not the worst in this regards. I&amp;#8217;ve seen in the description of some
+themes (not designed for Instantbird) that they were &amp;#8220;clipboard
+friendly&amp;#8221;, which indicates the theme author took this problem into
+account and probably had to make some trade-offs between the visual
+appearance and the usability of copied&amp;nbsp;conversations.&lt;/p&gt;
+&lt;p&gt;As we were not satisfied with this situation (which either makes copying
+from the conversation poorly usable or restricts theme authors&amp;#8217;
+creativity), we developed a different system that instead of serializing
+the selected &lt;span class="caps"&gt;HTML&lt;/span&gt; attempts to detect which messages are selected, and to
+&amp;#8220;prettyprint&amp;#8221; them based on what Instantbird knows about the message,
+rather than what is visible and&amp;nbsp;selected.&lt;/p&gt;
+&lt;p&gt;This is the&amp;nbsp;result:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Same conversation copied with magic copy" src="http://blog.instantbird.org/images/copy-magic.png" /&gt;&lt;/p&gt;
+&lt;p&gt;If only a part of a single message was selected, the username and
+timestamp won&amp;#8217;t be added to the copied strings, it will behave like a
+normal text&amp;nbsp;copy:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying a part of a single message" src="http://blog.instantbird.org/images/copy-part-of-one-message.png" /&gt;&lt;/p&gt;
+&lt;p&gt;As we detect which messages are selected and even know if each message
+was fully selected or only in part, we can nicely add an ellipsis when
+a message was&amp;nbsp;cut:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ellipsis are added where messages are cut" src="http://blog.instantbird.org/images/copy-ellipsis.png" /&gt;&lt;/p&gt;
+&lt;p&gt;This even works when using multiple-selections (press Ctrl on
+Windows/Linux, and Command on Mac to do&amp;nbsp;this):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying parts of multiple messages" src="http://blog.instantbird.org/images/copy-multi-select.png" /&gt;&lt;/p&gt;
+&lt;p&gt;A few technical details: the template used to serialize copied messages
+is both localizable and customizable from &lt;a class="reference external" href="about:config"&gt;about:config&lt;/a&gt;, it&amp;#8217;s also
+possible to completely turn off this feature in case it ever causes some
+trouble (look for the &lt;tt class="docutils literal"&gt;messenger.conversations.selections.*&lt;/tt&gt; family of
+preferences in &lt;a class="reference external" href="about:config"&gt;about:config&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;This feature has been turned on by default in Instantbird for over a
+year and nobody complained about it. Actually, it&amp;#8217;s one of the features
+that is barely noticed because it just works, but it is something that
+is really missed if using another &lt;span class="caps"&gt;IM&lt;/span&gt; client after using Instantbird for
+a&amp;nbsp;while.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 16 Jun 2011 16:35:21 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-16:/2011/06/introducing-magic-copy/</guid><category>Features</category><category>adium</category><category>user interface</category></item></channel></rss>

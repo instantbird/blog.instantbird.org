@@ -1,5 +1,0 @@
-:date: 2011-08-15 11:58
-:author: (anonymous)
-:replyto: 0
-
-mee too! otr should be included with the base install.

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - chatting</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 08 Jun 2011 23:45:50 +0000</lastBuildDate><item><title>Introducing Time Bubbles</title><link>http://blog.instantbird.org/2011/06/introducing-time-bubbles/</link><description>&lt;p&gt;Instantbird 0.2 was released with Bubbles as its default message&amp;nbsp;theme:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="default message themes of Instantbird 0.2" src="http://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The most common feedback we received from users that quickly switched
+back to Simple (the previous default) or another theme was that the lack
+of timestamp for each message made the theme&amp;nbsp;unusable.&lt;/p&gt;
+&lt;p&gt;Some users have really passionate opinions about whether these
+timestamps should be shown or not. On one hand, people think it&amp;#8217;s a
+useful piece of information that should always be visible, but on the
+other hand, people think it&amp;#8217;s a waste of space on their limited screens.
+The common &amp;#8220;solution&amp;#8221; to this problem is to include a &amp;#8220;show timestamp&amp;#8221;
+preference, allowing each user to decide for themselves which of the two
+behaviors is the least&amp;nbsp;inconvenient.&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t think that making the user responsible for choosing between two
+not-so-good options which one is best is a good way to address this
+issue. So soon after the 0.2 release, I started searching for better&amp;nbsp;solutions.&lt;/p&gt;
+&lt;p&gt;I tried to identify what the information provided by message timestamps
+was used for, so that we could hopefully find something appropriate for
+the actual&amp;nbsp;needs.&lt;/p&gt;
+&lt;p&gt;The starting points of my reflection were&amp;nbsp;that:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;timestamps, when visible, are most of the time&amp;nbsp;ignored.&lt;/li&gt;
+&lt;li&gt;when they are actually read, the information they provide is rarely
+the information really desired, but only an indirect way to answer a
+valid&amp;nbsp;question.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So then, I tried to identify which questions users who wanted to have
+their timestamps visible all the time had to answer. Here are the
+questions I found, and what I&amp;#8217;ve implemented to provide human friendly
+answers to these&amp;nbsp;questions:&lt;/p&gt;
+&lt;div class="section" id="how-much-time-has-passed-between-2-messages"&gt;
+&lt;h2&gt;1. How much time has passed between 2&amp;nbsp;messages?&lt;/h2&gt;
+&lt;p&gt;That&amp;#8217;s actually still an indirect answer to another question: has that
+person talking to me actually read what I said and thought about it
+before replying? Sometimes when receiving an answer that doesn&amp;#8217;t seem to
+take into account what has just been said, it&amp;#8217;s just that the message
+wasn&amp;#8217;t read yet at the time the reply was&amp;nbsp;written.&lt;/p&gt;
+&lt;p&gt;I believe having to read and compare mentally 2 timestamps to get that
+information is overly complicated and we can convey this information&amp;nbsp;visually:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="http://blog.instantbird.org/images/bubbles-with-different-spacing.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The vertical space between Bubbles is used to show how much time
+separates messages. If 2 people talked at the same second, their bubbles
+will almost touch each other. If there&amp;#8217;s been a pause between the
+messages, there will be some space between the&amp;nbsp;bubbles.&lt;/p&gt;
+&lt;p&gt;In order to not waste too much space when 2 messages are separated by a
+long time, I decided that the first few seconds would cause a much
+bigger increase of the space than the next seconds and minutes (for the
+readers who care about the details: it&amp;#8217;s a logarithmic representation of
+the&amp;nbsp;time).&lt;/p&gt;
+&lt;p&gt;This makes it easy to see a difference in time just after a message was
+received (the very few seconds that make the difference between a
+likely-read message and a most-likely-not-read-yet message), but makes
+it hard to evaluate time intervals of several minutes. To address that,
+when messages are separated by over 5 minutes, the exact time is
+displayed between the bubbles in gray&amp;nbsp;text:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of 2 messages with over 5 minutes of interval" src="http://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="is-this-message-old"&gt;
+&lt;h2&gt;2. Is this message&amp;nbsp;old?&lt;/h2&gt;
+&lt;p&gt;This question is especially interesting when returning to the computer
+after being away, and having several conversations with new messages, to
+decide which one to answer to first. If a message has already been
+waiting there for an hour or so, the person has probably moved on
+already, and is most likely not actively waiting for your answer.
+However, if a message was sent only a few seconds or minutes ago, it&amp;#8217;s
+reasonable to expect that the person is still at the other end and still
+remembers what was&amp;nbsp;discussed.&lt;/p&gt;
+&lt;p&gt;To answer this question, my proposition is to make the space between the
+latest message and the text input box vary exactly like the space
+between 2 bubbles. Unlike the time between 2 bubbles which doesn&amp;#8217;t
+change, the time between the last message and now changes continuously,
+so displaying this time requires an animation: messages will &amp;#8220;scroll
+away&amp;#8221; as they get old. If a message is older than 5 minutes, the time
+since it appeared will be written (omitting seconds, so that the text
+displayed doesn&amp;#8217;t change&amp;nbsp;continuously).&lt;/p&gt;
+&lt;p&gt;Just arrived message: &lt;img alt="screenshot of the area at the bottom of the conversation without space" src="http://blog.instantbird.org/images/bubble-just-arrived-message.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Message arrived a while ago: &lt;img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="http://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="when-did-i-say-that"&gt;
+&lt;h2&gt;3. When did I say&amp;nbsp;that?&lt;/h2&gt;
+&lt;p&gt;This question occurs occasionally when looking for something in the
+backlog (typically using &lt;a class="reference external" href="http://blog.instantbird.org/articles/conversation-tools.rst"&gt;the findbar&lt;/a&gt;).
+In this case, the time is actually the desired information, but seconds
+are irrelevant, so only the hour and minutes need to be displayed. For
+this case, I decided to display the time of the first message of a
+bubble when the bubbles is&amp;nbsp;hovered:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="hovered bubble" src="http://blog.instantbird.org/images/bubble-hovered.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-was-the-time-of-a-specific-message"&gt;
+&lt;h2&gt;4. What was the time of a specific&amp;nbsp;message?&lt;/h2&gt;
+&lt;p&gt;This rather rare question was already addressed with a little known
+feature of the existing bubble theme: when hovering a message, a tooltip
+appears showing a timestamp for that specific&amp;nbsp;message.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="when-quoting-messages-to-paste-in-emails-for-example-i-need-the-messages-to-have-some-time-information-associated-with-them-in-plain-text"&gt;
+&lt;h2&gt;5. When quoting messages (to paste in emails for example), I need the messages to have some time information associated with them in plain&amp;nbsp;text!&lt;/h2&gt;
+&lt;p&gt;While this is a valid concern, it&amp;#8217;s out of the scope of the message
+theme design, as Instantbird 0.2 already supported a nice feature that
+we called &amp;#8220;magic copy&amp;#8221;: when a selection inside a conversation is copied
+into the clipboard, Instantbird will detect which messages are selected,
+and &amp;#8220;prettyprint&amp;#8221; them so that whatever message theme is currently in
+used doesn&amp;#8217;t change the appearance of quoted&amp;nbsp;messages.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="the input box with a copy of some selected messages" src="http://blog.instantbird.org/images/bubbles-magic-copy.png" /&gt;&lt;/p&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I have experimented with all of these suggestions for over a year
+already with a modified version of the Bubble theme, called &amp;#8220;Time
+Bubbles&amp;#8221; which was in an add-on. As the results of the experiment were
+satisfying, the &amp;#8220;Time Bubbles&amp;#8221; feature is now part of the Bubbles theme
+which is used by default in Instantbird. You can try it in &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;current
+nightly builds&lt;/a&gt;, and it will be in
+Instantbird 0.3 beta 1 which we plan to release very soon. We look
+forward to your feedback on&amp;nbsp;this!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Wed, 08 Jun 2011 23:45:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-08:/2011/06/introducing-time-bubbles/</guid><category>Features</category><category>chatting</category><category>preview</category><category>user interface</category></item><item><title>Instantbird 0.2 feature preview: conversations customization</title><link>http://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/</link><description>&lt;p&gt;In our &lt;a class="reference external" href="http://wiki.instantbird.org/Instantbird:Roadmap"&gt;roadmap&lt;/a&gt; we
+stated that for 0.2 we were going to improve the conversation window,
+and especially make it customizable. Let&amp;#8217;s show you an overview of what
+we&amp;nbsp;did.&lt;/p&gt;
+&lt;div class="section" id="smileys"&gt;
+&lt;h2&gt;Smileys&lt;/h2&gt;
+&lt;p&gt;People are used to see little images like &lt;img alt=":-)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt; in conversations instead
+of the plain text version &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;:-)&lt;/span&gt;&lt;/tt&gt;. Testers of Instantbird 0.1.* have
+probably noticed that this feature was missing. No&amp;nbsp;more.&lt;/p&gt;
+&lt;p&gt;Instantbird 0.2 supports smileys, and has a theme system for them.
+&lt;a class="reference external" href="http://wiki.instantbird.org/Instantbird:Creating_a_smiley_theme"&gt;Creating a new smiley
+theme&lt;/a&gt;
+is easy: it is just a bunch of images and a file (&lt;span class="caps"&gt;JSON&lt;/span&gt; format)
+describing how to use them, bundled into an &lt;span class="caps"&gt;XPI&lt;/span&gt;&amp;nbsp;file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="message-styles"&gt;
+&lt;h2&gt;Message&amp;nbsp;styles&lt;/h2&gt;
+&lt;p&gt;Selecting a smiley theme is not enough for you to feel comfortable when
+looking at your conversations? Ok, we have more! We have borrowed the
+message style system of Adium to let you fully customize the way your
+conversations&amp;nbsp;look.&lt;/p&gt;
+&lt;p&gt;An image is worth a thousand words so&amp;#8230; I&amp;#8217;m gonna give you a &lt;a class="reference external" href="http://screenshots.instantbird.org/message-styles-preview/"&gt;thousand
+of
+images&lt;/a&gt;.
+Ok, not really a thousand, but we took a few hundreds of screenshots to
+show how Instantbird is doing with the hundreds of Adium message styles
+downloadable from
+&lt;a class="reference external" href="http://adiumxtras.com/index.php?a=search&amp;amp;cat_id=5"&gt;adiumxtra.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The compatibility is not perfect because there are some &lt;a class="reference external" href="http://wiki.instantbird.org/Instantbird:Message_Styles:Differences_with_Adium"&gt;differences in
+the way Instantbird and Adium handle
+themes&lt;/a&gt;,
+and some Adium themes may use some webkit-specific features, but most
+themes look&amp;nbsp;right.&lt;/p&gt;
+&lt;p&gt;This theme system is very flexible, and quite easy to learn. The
+technologies used (&lt;span class="caps"&gt;HTML&lt;/span&gt;, &lt;span class="caps"&gt;CSS&lt;/span&gt;, JavaScript) are well known by
+web-developers and web-designers. If you are not happy with the existing
+themes, go ahead an create your own. And don&amp;#8217;t hesitate to let your
+creativity play with all the cool &lt;a class="reference external" href="https://developer.mozilla.org/En/Firefox_3.5_for_developers"&gt;new developer features of Firefox
+3.5&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extensibility"&gt;
+&lt;h2&gt;Extensibility&lt;/h2&gt;
+&lt;p&gt;The eye candy is cool but&amp;#8230; I&amp;#8217;m a developer, I want to create
+extensions and I want to be able to interact with the conversations!
+Don&amp;#8217;t worry, we love you too. We added several new APIs for extension
+developers. It is now easy, for example, to change the way we filter
+incoming messages, modify the text before it is displayed (adding links
+for instance), and more&amp;nbsp;coming!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Mon, 20 Jul 2009 23:17:29 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2009-07-20:/2009/07/instantbird-0-2-feature-preview-conversations-customization/</guid><category>Development</category><category>0.2</category><category>chatting</category><category>preview</category><category>user interface</category></item></channel></rss>

@@ -1,5 +1,0 @@
-:date: 2009-08-13 10:48
-:author: Tare
-:replyto: 0
-
-I love the new Message Styles, it's genial to customise the chat. But one thing I would like to know about it: Is it possible to change the Message Style dependent on the used protocol? So you can say use this Message Style for ICQ and an other for the IRC? Or what would be really great, that the Message Style it self changes dependent on the used protocol. To explain the 'Why', I like the MiniBubble, its my favorite, but cause there are no nicknames shown, what I like at ICQ, in IRC you cant see which user send the message, so it is nessesary to show up the nickname over the incoming bubbles.

@@ -1,7 +1,0 @@
-:date: 2009-05-01 14:00
-:author: Livio
-:replyto: 0
-
-I'm really counting on you. Pidgin's interface is boring and quite useless. You could give libpurple a new power.
-
-PS: If only libpurple had better support of Gadu-Gadu and more...

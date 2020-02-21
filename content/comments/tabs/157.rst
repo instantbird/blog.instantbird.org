@@ -1,7 +1,0 @@
-:date: 2010-07-13 17:12
-:author: deOmega
-:replyto: 0
-
-Vertical tabs are available on the addons site:
-
-https://addons.instantbird.org/en-US/instantbird/addon/244

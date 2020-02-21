@@ -1,5 +1,0 @@
-:date: 2009-10-21 22:29
-:author: (anonymous)
-:replyto: 0
-
-I agree that OTR encrption should be supported out of the box.

@@ -1,7 +1,0 @@
-:date: 2011-07-09 20:09
-:author: Florian
-:replyto: 0
-
-**@patrickjdempsey**: Thanks for the feedback! I'm not aware of a meta bug for the buddy list, feel free to create one if you feel the need :).
-
-Note: we have never supported moving a buddy from a group into another by a drag and drop in the past.

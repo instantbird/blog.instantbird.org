@@ -1,6 +1,0 @@
-:date: 2012-02-29 10:51
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 1186
-
-You could try our distribution of Instantbird 1.1 from http://www.instantbird.com, alternately...hopefully nightly builds will be compatible with 10.0.2 soon! (There's some patches in the work...)

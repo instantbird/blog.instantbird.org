@@ -1,8 +1,0 @@
-:date: 2010-06-29 15:18
-:author: cabotine
-:replyto: 0
-
-| Hi,
-| it would be nice to have a standalone client for the wave-protocol.
-| Have you thought about it already?
-| Regards

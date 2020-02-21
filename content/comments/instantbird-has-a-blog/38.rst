@@ -1,5 +1,0 @@
-:date: 2008-08-29 15:56
-:author: Florian
-:replyto: 0
-
-**@Eison**: because we have no hardware to test it.

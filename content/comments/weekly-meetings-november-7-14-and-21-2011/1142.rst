@@ -1,6 +1,0 @@
-:date: 2011-12-03 01:11
-:author: clokep
-:website: http://clokep.blogspot.com/
-:replyto: 1141
-
-I've been working on getting SIPE for a while now. I have it compiling with the current nightlies, but I'm unable to make accounts right now. I need to track this down, then test it connecting to a network. Hopefully for Instantbird 1.2 this will be done! :) You should be able to follow any progress at https://bugzilla.instantbird.org/show_bug.cgi?id=976

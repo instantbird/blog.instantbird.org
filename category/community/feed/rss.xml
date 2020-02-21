@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Community</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 21 Apr 2014 19:00:05 +0000</lastBuildDate><item><title>Google Summer of Code 2014 has Commenced!</title><link>http://blog.instantbird.org/2014/04/google-summer-of-code-2014-has-commenced/</link><description>&lt;p&gt;Instantbird again has the pleasure of participating in &lt;a class="reference external" href="https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/about_page"&gt;Google Summer of Code&lt;/a&gt;
+under the Mozilla umbrella. In &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;the&lt;/a&gt; &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2013-projects-announced.rst"&gt;past&lt;/a&gt; we&amp;#8217;ve had a variety of exciting
+projects and this year is no different. Three students will be working with us
+this&amp;nbsp;summer:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://sawrubh.tumblr.com/"&gt;Saurabh Anand&lt;/a&gt; (sawrubh), mentored by &lt;a class="reference external" href="http://patrick.cloke.us/"&gt;Patrick Cloke&lt;/a&gt; (clokep), will aim to
+add support for reliable file transfer to Instantbird using &lt;a class="reference external" href="https://support.mozilla.org/en-US/kb/filelink-large-attachments"&gt;FileLink&lt;/a&gt; as a
+fallback to standard file&amp;nbsp;transfer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://mayanktg.github.io/"&gt;Mayank Kumar&lt;/a&gt; (mayanktg), mentored by Benedikt P. (Mic), will be adding voice
+and video support to Instantbird by integrating &lt;a class="reference external" href="http://www.webrtc.org/"&gt;WebRTC&lt;/a&gt; for &lt;span class="caps"&gt;XMPP&lt;/span&gt;. WebRTC makes
+it easy for us to have real-time communication without the use of additional&amp;nbsp;plugins.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://nhnt11.com/blog/"&gt;Nihanth Subramanya&lt;/a&gt; (nhnt11), who last year added the &amp;#8220;&lt;a class="reference external" href="http://blog.instantbird.org/articles/first-milestone-of-the-awesometab-has-landed.rst"&gt;awesometab&lt;/a&gt;&amp;#8220;, will be
+looking to improve loading of conversations and history under the guidance of
+aleth. He will work on adding the ability to search across all logs of a contact
+and loading the previous context of a conversation when scrolling (&amp;#8220;infinite&amp;nbsp;scroll&amp;#8221;).&lt;/p&gt;
+&lt;p&gt;Please feel free to stop by &lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt; to say hello and
+congratulate our students! Thanks again to Mozilla for allowing us to
+participate in Google Summer of Code with&amp;nbsp;them!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 21 Apr 2014 19:00:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-04-21:/2014/04/google-summer-of-code-2014-has-commenced/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Google Summer of Code 2013 Projects Announced</title><link>http://blog.instantbird.org/2013/05/google-summer-of-code-2013-projects-announced/</link><description>&lt;p&gt;For the third year in a row, Instantbird will be participating in Google Summer
+of Code. Last year, Will Nayes worked on an &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Account Import Wizard&lt;/a&gt; and in 2011,
+Varuna Jayasiri worked on our &lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update-april-2011-may-2011.rst"&gt;JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; implementation&lt;/a&gt; (currently used by
+Google Talk and Facebook accounts in Instantbird, as well as Google Talk,
+Facebook and &lt;span class="caps"&gt;XMPP&lt;/span&gt; in&amp;nbsp;Thunderbird).&lt;/p&gt;
+&lt;p&gt;Instantbird will be mentoring three student projects this&amp;nbsp;year:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Additional JavaScript Protocol Plug-ins&amp;nbsp;(Yahoo!)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this project is to reimplement Yahoo! Messenger support in
+Instantbird using JavaScript and &lt;span class="caps"&gt;XPCOM&lt;/span&gt; interfaces. — &lt;a class="reference external" href="http://phaseshiftsoftware.com/blog/category/gsoc-2013-logs/"&gt;Quentin Headen&lt;/a&gt;&amp;nbsp;(qheaden)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FileLinks in Instant&amp;nbsp;Messages&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Thunderbird Filelink feature allows users to upload attachments to an
+online storage service, replacing the email attachment with a link. This
+existing code could be used to implement file transfer. While some protocols
+support file transfer directly, this approach would provide a fallback that
+should always work. Designing and implementing a good &lt;span class="caps"&gt;UI&lt;/span&gt; frontend would also
+be required. — &lt;a class="reference external" href="http://atuljangra.tumblr.com/"&gt;Atul Jangra&lt;/a&gt;&amp;nbsp;(atuljangra)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instantbird&amp;nbsp;Awesometab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I propose to develop a “smart” user interface, in the form of a
+user-openable tab, that allows the user to quickly and efficiently open new
+chats – based on who they chat with most often, and on what accounts they do
+so. The user should be able to go from actively chatting in one conversation
+to doing so in a new one, losing no time in finding the contact to start the
+conversation with, refocusing to the correct &lt;span class="caps"&gt;UI&lt;/span&gt; element, or opening extra
+windows. — &lt;a class="reference external" href="http://awesometab.blogspot.com/"&gt;Nihanth Subramanya&lt;/a&gt;&amp;nbsp;(nhnt11)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For the next few weeks the students are encouraged to bond with their community.
+All three have been active in recent weeks on our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel (#instantbird on
+irc.mozilla.org), feel free to stop by and say hello! The Instantbird team looks
+forward to working with all of them during the summer. You can check out their
+blogs (linked to above) and back here for progress throughout the&amp;nbsp;summer.&lt;/p&gt;
+&lt;p&gt;We’d like to thank Mozilla for letting us apply to Google Summer of Code as part
+of them! You can see the other student projects Mozilla is mentoring on the
+&lt;a class="reference external" href="http://www.google-melange.com/gsoc/org/google/gsoc2013/mozilla"&gt;Google Summer of Code site&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 29 May 2013 14:01:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-05-29:/2013/05/google-summer-of-code-2013-projects-announced/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Google Summer of Code 2013</title><link>http://blog.instantbird.org/2013/02/google-summer-of-code-2013/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://blog.gerv.net/2013/02/summer-of-code-2013/"&gt;Mozilla&lt;/a&gt; is doing &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode13"&gt;Google Summer of Code 2013&lt;/a&gt; and
+Instantbird is interested in participating again. Instantbird
+participated (through Mozilla) the last two years with
+&lt;a class="reference external" href="http://blog.instantbird.org/articles/status-update-april-2011-may-2011.rst"&gt;&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;XMPP&lt;/span&gt;&lt;/a&gt; (by varuna in 2011) and the &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Import Wizard&lt;/a&gt;
+(by wnayes in 2012).&amp;nbsp; Both projects were successful: Instantbird and
+Thunderbird use our JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; code and we&amp;#8217;re hoping to integrate
+the Import Wizard into Instantbird soon, after which the &lt;span class="caps"&gt;UI&lt;/span&gt; could then
+be uplifted into&amp;nbsp;Thunderbird.&lt;/p&gt;
+&lt;p&gt;It is time to start thinking about (and brainstorming) ideas for the
+chat in this year&amp;#8217;s GSoC! We&amp;#8217;ve already started
+&lt;a class="reference external" href="https://etherpad.mozilla.org/ib-gsoc-2013"&gt;brainstorming&lt;/a&gt; and came
+up with some ideas, but would love to get more ideas from people.
+Remember that a good GSoC project needs to be something that can be
+completed by a student in ~8 weeks (but also has to keep a student busy
+the whole time!).&amp;nbsp; It should also be something that we would want to
+integrate into Instantbird by default and have expected behavior already&amp;nbsp;defined.&lt;/p&gt;
+&lt;p&gt;Feel free to come chat with us on &lt;span class="caps"&gt;IRC&lt;/span&gt; (#instantbird on
+&lt;a class="reference external" href="http://irc.mozilla.org"&gt;irc.mozilla.org&lt;/a&gt;) about this or any other&amp;nbsp;topic!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 15 Feb 2013 14:28:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-02-15:/2013/02/google-summer-of-code-2013/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>Instantbird speaks your language</title><link>http://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
+features (you can see them
+clicking&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;). The
+Instantbird team is interested in offering this &lt;span class="caps"&gt;IM&lt;/span&gt; client to everyone,
+so there&amp;#8217;s a new language in this release: &lt;strong&gt;Brazilian
+Portuguese&lt;/strong&gt;&amp;nbsp;-&amp;nbsp;&lt;strong&gt;Sim, nós falamos Português!&lt;/strong&gt;.&amp;nbsp;Now Brazilians users can
+enjoy Instantbird&amp;nbsp;in&amp;nbsp;their&amp;nbsp;language.&lt;/p&gt;
+&lt;p&gt;Additionally,&amp;nbsp;Instantbird&amp;nbsp;brought&amp;nbsp;back&amp;nbsp;the &lt;strong&gt;Russian language&lt;/strong&gt;&amp;nbsp;in
+this release. This language&amp;nbsp;was in&amp;nbsp;Instantbird&amp;nbsp;since version 0.2, but it
+was not present&amp;nbsp;in&amp;nbsp;version&amp;nbsp;1.2. Thanks&amp;nbsp;go out&amp;nbsp;to
+our&amp;nbsp;Russian&amp;nbsp;localization&amp;nbsp;team for&amp;nbsp;making&amp;nbsp;this&amp;nbsp;possible!&lt;/p&gt;
+&lt;p&gt;Since the&amp;nbsp;0.2&amp;nbsp;release, Instantbird has&amp;nbsp;been&amp;nbsp;available in 5 languages
+-&amp;nbsp;English,&amp;nbsp;Finnish,&amp;nbsp;French,&amp;nbsp;Polish and&amp;nbsp;Russian. The 1.0&amp;nbsp;release
+brought&amp;nbsp;six&amp;nbsp;more languages&amp;nbsp;and now&amp;nbsp;Instantbird&amp;nbsp;is&amp;nbsp;available in &lt;strong&gt;13&lt;/strong&gt;&amp;nbsp;languages!&lt;/p&gt;
+&lt;p&gt;The Instantbird team has a &lt;a class="reference external" href="http://www.instantbird.org/"&gt;goal&lt;/a&gt;:&amp;nbsp;&amp;#8220;to
+redefine the way instant messaging is used, to work the way you
+want.&amp;#8221;&amp;nbsp;To reach this goal, it&amp;#8217;s necessary that Instantbird can be used
+by as many&amp;nbsp;people&amp;nbsp;as possible, in every country. So
+we&amp;nbsp;encourage&amp;nbsp;interested people to translate it to&amp;nbsp;their&amp;nbsp;languages.&amp;nbsp;If
+you&amp;#8217;re interested in helping us achieve this goal by creating
+new&amp;nbsp;translations&amp;nbsp;or&amp;nbsp;improving Instantbird, you can get more
+information&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.org/#getinvolved"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Google Summer of Code 2012 Roundup</title><link>http://blog.instantbird.org/2012/10/google-summer-of-code-2012-roundup/</link><description>&lt;p&gt;Instantbird 1.2 was released about two months ago and we must again
+apologize for keeping this blog fairly quiet.&amp;nbsp; Sorry about that!&amp;nbsp; But
+we&amp;#8217;re here now, so read on for some (not really so) juicy Instantbird&amp;nbsp;news!&lt;/p&gt;
+&lt;p&gt;Instantbird 1.2 release went fairly smoothly, much smoother than the
+last release!&amp;nbsp; We&amp;#8217;ve gotten some great feedback (and had lots of bugs
+filed) and of course have started working on Instantbird 1.3 already!
+Most of the fixes that have so far gone into the 1.3 nightlies so far
+are minor&amp;#8230;but taken altogether, I&amp;#8217;m not sure I could go back to 1.2!
+Feel free to &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;give them a try&lt;/a&gt; and
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;report any issues&lt;/a&gt; to&amp;nbsp;us!&lt;/p&gt;
+&lt;p&gt;Thunderbird 15 was &amp;#8220;recently&amp;#8221; released, which also contained the core
+chat backend of Instantbird.&amp;nbsp; We&amp;#8217;ve had a bunch of bugs filed from that
+release too!&amp;nbsp; Between feedback from the two programs we&amp;#8217;ve made a lot of
+minor improvements that will definitely make Instantbird (more of) a joy
+to&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;Google Summer of Code 2012 has been over for a bit (it ended in August),
+but we never thanked Will for his time with us and the great work he&amp;#8217;s
+done so far.&amp;nbsp; Currently the &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;account
+importer&lt;/a&gt; code he
+wrote this summer is &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1495"&gt;undergoing
+review&lt;/a&gt;, but
+hopefully it will be complete for Instantbird 1.3 to allow extremely
+easy transitioning to Instantbird!&amp;nbsp; Thanks for a great summer Will!&amp;nbsp; We
+hope you&amp;#8217;ve enjoyed working with your mentor, Florian, and the rest of
+the Instantbird team; we&amp;#8217;ve definitely enjoyed working with you, helping
+you and watching you learn.&amp;nbsp; Good luck and hopefully we&amp;#8217;ll continue to
+see you around (and have contributions from you!) in the future.&amp;nbsp; We&amp;#8217;d
+also like to thanks Mozilla for graciously allowing us to be part of
+Google Summer of Code 2012 through&amp;nbsp;them!&lt;/p&gt;
+&lt;p&gt;As always, feel free to stop by #instantbird on irc.mozilla.org (and,
+yes, Instantbird supports &lt;span class="caps"&gt;IRC&lt;/span&gt;: you can&amp;#8217;t use the excuse that you don&amp;#8217;t
+have an &lt;span class="caps"&gt;IRC&lt;/span&gt; client!) to give us some feedback or ask&amp;nbsp;questions.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 03 Oct 2012 01:07:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-10-03:/2012/10/google-summer-of-code-2012-roundup/</guid><category>Community</category><category>1.2</category><category>GSoC</category><category>mozilla</category><category>Thunderbird</category></item><item><title>Google Summer of Code 2012</title><link>http://blog.instantbird.org/2012/04/google-summer-of-code-2012/</link><description>&lt;p&gt;Instantbird is participating in Google Summer of Code (GSoC) again this
+year as part of Mozilla and we will be mentoring one student: Will
+Nayes.&amp;nbsp; The abstract for his project&amp;nbsp;is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p class="rubric" id="instantbird-account-import-wizard"&gt;&lt;strong&gt;Instantbird Account Import&amp;nbsp;Wizard&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When evaluating a new messaging client, the common frustration of
+reconfiguring accounts and settings is difficult to avoid. To combat
+similar issues, the developers at Mozilla have implemented account
+import wizards in their Firefox and Thunderbird software packages. I
+propose creating an Account Import Wizard for the &lt;span class="caps"&gt;IM&lt;/span&gt; client
+Instantbird, which will provide users with a flexible way to import
+profile data from existing messaging client installations.
+[&lt;a class="reference external" href="http://www.google-melange.com/gsoc/project/google/gsoc2012/wnayes/6001"&gt;source&lt;/a&gt;]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Will is in contact with us via our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel #instantbird (on
+irc.mozilla.org) during the community bonding period. We&amp;#8217;d love for you
+to stop by and help welcome wnayes to our community. We&amp;#8217;re extremely
+excited to have Will working with us this&amp;nbsp;summer!&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;d like to thank Mozilla for letting us apply to Google Summer of Code
+with them!&amp;nbsp; You can see all of Mozilla&amp;#8217;s accepted applications on the
+&lt;a class="reference external" href="http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla"&gt;GSoC 2012
+site&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Thu, 26 Apr 2012 13:01:25 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-26:/2012/04/google-summer-of-code-2012/</guid><category>Community</category><category>GSoC</category><category>mozilla</category></item><item><title>“Why should I switch from Pidgin?”</title><link>http://blog.instantbird.org/2011/07/why-should-i-switch-from-pidgin/</link><description>&lt;p&gt;This is a question people keep asking us. With some variations (&amp;#8220;Why
+should I switch from Adium?&amp;#8221;), or sometimes without the question mark
+(&amp;#8220;There&amp;#8217;s nothing more than&amp;nbsp;Pidgin&amp;#8221;).&lt;/p&gt;
+&lt;div class="section" id="we-are-not-competing"&gt;
+&lt;h2&gt;We are not&amp;nbsp;competing&amp;#8230;&lt;/h2&gt;
+&lt;p&gt;I think people ask us this question because they perceive us as
+competing with Pidgin/Adium/[insert the name of your favorite open
+source &lt;span class="caps"&gt;IM&lt;/span&gt; client]. But there&amp;#8217;s no good answer to that question, because
+we are not competing, here is&amp;nbsp;why:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;we share values. We believe that instant messaging technologies
+should be freely accessible and open: people should not be locked in
+closed&amp;nbsp;systems.&lt;/li&gt;
+&lt;li&gt;we share a technology stand point: we think that to empower people to
+increasingly use the open &lt;span class="caps"&gt;IM&lt;/span&gt; technologies that we like, we need to
+offer people a tool that makes it easy to access both promising open
+technologies and legacy&amp;nbsp;networks.&lt;/li&gt;
+&lt;li&gt;we share code. Instantbird, like Adium, relies on libpurple, which is
+at the heart of Pidgin, to connect to legacy networks. We take this
+code, but we also give back: several changes made to libpurple to
+improve its reliability in Instantbird are now part of Pidgin. We are
+working together, and Instantbird developers are definitely part of
+the Pidgin developer&amp;nbsp;community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="but-we-offer-an-alternative"&gt;
+&lt;h2&gt;&amp;#8230; but we offer an&amp;nbsp;alternative&lt;/h2&gt;
+&lt;p&gt;I can easily understand why people think we compete though, as we do
+provide an alternative. I assume people who ask the previously mentioned
+question actually wanted the answer to another question: How is
+Instantbird different from Pidgin? Now, this is a question we can&amp;nbsp;answer!&lt;/p&gt;
+&lt;p&gt;I will actually provide several different answers: the first will
+satisfy technically oriented people, the others should be understandable
+by everybody. Most of my points compares Instantbird to Pidgin, but are
+still applicable when comparing Instantbird to other &lt;span class="caps"&gt;IM&lt;/span&gt;&amp;nbsp;clients.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="technical-differences"&gt;
+&lt;h2&gt;Technical&amp;nbsp;differences&lt;/h2&gt;
+&lt;p&gt;The biggest technical difference between Pidgin and Instantbird is that
+Pidgin uses &lt;span class="caps"&gt;GTK&lt;/span&gt;+ and Instantbird uses the Mozilla &lt;span class="caps"&gt;XUL&lt;/span&gt; platform to
+display its user&amp;nbsp;interface.&lt;/p&gt;
+&lt;p&gt;The Mozilla platform has advantages compared to &lt;span class="caps"&gt;GTK&lt;/span&gt;+:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The Mozilla platform is well known for its awesome extensibility.
+Add-ons can modify almost anything that is part of the Instantbird
+user interface, and the skills required to build add-ons are similar
+to the skills required to create a website, as the technologies are
+basically the same: &lt;span class="caps"&gt;HTML&lt;/span&gt;, &lt;span class="caps"&gt;CSS&lt;/span&gt;, JavaScript, &lt;span class="caps"&gt;XML&lt;/span&gt;, &amp;#8230; Instantbird
+add-ons are easy to install, some can even be installed without
+restarting the application! (To be fair, Pidgin also supports
+plugins, but writing them in C requires much more programming
+knowledge and to compile them for each platform. Pidgin also has
+Python (via D-Bus) and Perl scripting APIs, but I&amp;#8217;m not sure they are
+actually usable on&amp;nbsp;Windows.)&lt;/li&gt;
+&lt;li&gt;While a &lt;span class="caps"&gt;GTK&lt;/span&gt;+ user interface is native on some Linux desktop operating
+systems (typically those based on Gnome or &lt;span class="caps"&gt;XFCE&lt;/span&gt;), a &lt;span class="caps"&gt;XUL&lt;/span&gt; user
+interface also acts native on Windows (we even included some Aero
+Glass effects for Windows 7) and Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X where &lt;span class="caps"&gt;GTK&lt;/span&gt; may not fit as&amp;nbsp;well.&lt;/li&gt;
+&lt;li&gt;Thanks to the Mozilla accessibility effort, the &lt;span class="caps"&gt;XUL&lt;/span&gt; platform is very
+accessible and we have received a lot of enthusiastic feedback from
+users of assistive technologies who love&amp;nbsp;Instantbird.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developing on top of Mozilla also has some (perceived)&amp;nbsp;downsides:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;We need to ship the whole Mozilla toolkit, which makes us package
+megabytes of compiled code we didn&amp;#8217;t write. This means for example
+that the Instantbird installer for Windows weights 9.&lt;span class="caps"&gt;9MB&lt;/span&gt;. Some people
+(especially some Miranda fans) seem to think this is huge, but while
+I like to find ways to reduce the size of the installer we ship, I
+tend to think at this point it is mostly a non-issue. Just for
+comparison, the Pidgin installer weights 9.&lt;span class="caps"&gt;5MB&lt;/span&gt; without &lt;span class="caps"&gt;GTK&lt;/span&gt;, and
+32.&lt;span class="caps"&gt;4MB&lt;/span&gt; with all its dependencies&amp;nbsp;included.&lt;/li&gt;
+&lt;li&gt;The Mozilla platform has the reputation of using more resources than
+other browsers/toolkits. The good news is, some bright people are
+currently making a &lt;a class="reference external" href="https://wiki.mozilla.org/Performance/MemShrink"&gt;huge
+effort&lt;/a&gt; to reduce
+the memory usage, so this will be mitigated in future releases. Plus
+the situation is not as bad as some people pretend it to be: the
+memory usage measurements we see in comments about Instantbird aren&amp;#8217;t
+that scary, some people start to complain when an application uses
+&lt;span class="caps"&gt;40MB&lt;/span&gt; of memory. Hey come on, we are in 2011, new machines have been
+shipping with gigabytes of memory for years&amp;nbsp;already&amp;#8230;&lt;/li&gt;
+&lt;li&gt;I heard from some Linux packagers that the Mozilla build system is
+not easy to work with for them. While there may be some pain points
+here, it doesn&amp;#8217;t really affect the end&amp;nbsp;user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="we-make-instantbird-for-you"&gt;
+&lt;h2&gt;We make Instantbird for&amp;nbsp;you!&lt;/h2&gt;
+&lt;p&gt;Some developers make their programs the best for themselves and share it
+with you, for free. These programs are the result of people&amp;#8217;s hard work
+which they offer you as a gift, and so these people deserve respect for
+that! Unfortunately, it is not unusual that if somehow the product
+doesn&amp;#8217;t work out for you, it&amp;#8217;s your problem, not theirs, and you are
+free: to fix it, to report the issue and hope someone will fix it, or to
+look for a greener pasture. Your comments are valued if they help
+developers make their program better for everybody, for example if it
+helps fixing bugs that lots of people suffer from. Your opinions and
+wishes may not be taken into account, however, unless you intend to
+actually start working on them: patches are welcome, not additional work
+(people are busy&amp;nbsp;already).&lt;/p&gt;
+&lt;p&gt;We work to make Instantbird the best for you. We look forward to
+gathering your feedback and acting upon it to make Instantbird even
+better, for you. We assume that when someone takes the trouble to come
+and talk with us to complain about something, there&amp;#8217;s a valid concern.
+Even when it&amp;#8217;s well hidden behind factually inexact assertions that we
+can&amp;#8217;t agree with. If people cannot express themselves clearly, there&amp;#8217;s a
+reason why they are confused, and if a confusion is common, we should
+find its cause and fix&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;As this difference may be a bit theoretical, I&amp;#8217;m going to give a
+concrete example in the next point: the way we deal with stability&amp;nbsp;issues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stability"&gt;
+&lt;h2&gt;Stability&lt;/h2&gt;
+&lt;div class="section" id="crash-reports"&gt;
+&lt;h3&gt;Crash&amp;nbsp;reports&lt;/h3&gt;
+&lt;p&gt;Let&amp;#8217;s see what happens in the unfortunate event of the user being hit by
+a bug resulting in a crash of the&amp;nbsp;application:&lt;/p&gt;
+&lt;p&gt;If you are using Pidgin and want to help get the bug fixed, you need to
+&lt;a class="reference external" href="http://developer.pidgin.im/wiki/GetABacktrace"&gt;get a backtrace&lt;/a&gt; (on
+Unix systems) or to have &lt;a class="reference external" href="http://developer.pidgin.im/wiki/TipsForBugReports#WhattodoifPidgincrashes"&gt;installed the debug symbols before the
+crash&lt;/a&gt;
+so that a crash report could be dumped to the disk (on Windows). Then
+you need to open a ticket on trac and give all the info you have. As
+this process may be a bit scary for most end-users, I&amp;#8217;m afraid valuable
+feedback could get&amp;nbsp;lost.&lt;/p&gt;
+&lt;p&gt;If the same issue happens with Instantbird, first we&amp;nbsp;apologize:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Instantbird crash reporter" src="http://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Then all you have to do to send us the technical information about the
+crash is a single click in this crash reporter dialog. We collect all
+these crash reports and analyze them to improve the stability of the
+next version of&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="nightly-testing"&gt;
+&lt;h3&gt;Nightly&amp;nbsp;testing&lt;/h3&gt;
+&lt;p&gt;In addition to collecting crash reports, another thing we do to maintain
+a high stability level for Instantbird is that we encourage early
+adopters to run with nightly builds of Instantbird which are updated
+almost daily with the very latest version of our source code. Therefore,
+if something we changed degrades the stability, we receive crash reports
+way before the defective change ends up in a release you may&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;If some change feels a bit risky to us, we push it to our testers at
+least a week before releasing, or we delay it so that it gets
+appropriate testing before being included in the next&amp;nbsp;release.&lt;/p&gt;
+&lt;p&gt;Just as a comparison, Pidgin&amp;#8217;s currently in development code is tested
+only by developers and &lt;a class="reference external" href="http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN"&gt;others people are discouraged from attempting to
+use
+it&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more about our &lt;a class="reference external" href="http://blog.instantbird.org/articles/stability.rst"&gt;stability efforts&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="changing"&gt;
+&lt;h2&gt;Changing&lt;/h2&gt;
+&lt;p&gt;We keep seeing comments of people (who have not actually tried
+Instantbird) who think we should go improve Pidgin instead of &amp;#8220;wasting
+time&amp;#8221; on&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;p&gt;In the page of our website where we explain &lt;a class="reference external" href="http://www.instantbird.org/"&gt;why we create
+Instantbird&lt;/a&gt;, we&amp;nbsp;conclude:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="compound"&gt;
+&lt;p&gt;It&amp;#8217;s time to bring back&amp;nbsp;innovation!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To do this, we need to be able to change things easily. As Instantbird
+is still a young project, we can change&amp;nbsp;fast.&lt;/p&gt;
+&lt;p&gt;Pidgin on the other hand is already a mature project with policies about
+when it&amp;#8217;s acceptable to change APIs or when they are frozen: it&amp;#8217;s
+basically impossible to change an &lt;span class="caps"&gt;API&lt;/span&gt; in Pidgin until a new major
+version is released (so after the Pidgin 2.0.0 release, the &lt;span class="caps"&gt;API&lt;/span&gt; changes
+have to wait until Pidgin 3.0.0 comes out to be included: currently
+Pidgin 2.0.0 was released over four years ago!). This is a good thing to
+ensure the plugins stay compatible, but it slows down the changes to the&amp;nbsp;application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="different-feature-sets"&gt;
+&lt;h2&gt;Different feature&amp;nbsp;sets&lt;/h2&gt;
+&lt;p&gt;This is my last point even though most people would expect to see it
+first. Instantbird and Pidgin have different feature&amp;nbsp;sets.&lt;/p&gt;
+&lt;p&gt;On one hand, Pidgin has some features that Instantbird doesn&amp;#8217;t have.
+Some that we will have in the future. Some that we don&amp;#8217;t want to have.
+I&amp;#8217;m not going to give a full list here because I don&amp;#8217;t actually have a
+list of all Pidgin features to compare and check what we have and what
+we don&amp;#8217;t have. We are neither trying to copy Pidgin nor to directly
+compete against it, so such a list would be irrelevant&amp;nbsp;anyway.&lt;/p&gt;
+&lt;p&gt;On the other hand, Instantbird has some features that Pidgin doesn&amp;#8217;t
+have (message themes, automatic updates, inline search, &amp;#8230;) and even
+some unique features (for two examples, see my blog posts introducing
+&lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;Time Bubbles&lt;/a&gt; and &lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-magic-copy.rst"&gt;Magic copy&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So, should you switch to Instantbird? If I were you, I would. But I&amp;#8217;m
+not you. Deciding which &lt;span class="caps"&gt;IM&lt;/span&gt; client you use is your choice, based on your
+taste, your needs, your feelings. It&amp;#8217;s your decision,&amp;nbsp;really!&lt;/p&gt;
+&lt;p&gt;If you like what you currently have and see nothing you like in what
+Instantbird offers, just keep using what you&amp;nbsp;like.&lt;/p&gt;
+&lt;p&gt;If you love Instantbird, then, obviously you should use&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;If you are in the middle and like Instantbird but for some reason can&amp;#8217;t
+use it because something you really need is missing or doesn&amp;#8217;t work,
+please tell us about it, we are eager to receive your feedback! And
+maybe there&amp;#8217;s already an add-on to customize Instantbird to do what you
+wanted that we can point you&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;In any case, we are not going to try to force you to switch from Pidgin
+or whatever &lt;span class="caps"&gt;IM&lt;/span&gt; client you may be using right now to Instantbird. We
+respect your freedom, we respect your choices, we love&amp;nbsp;you!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 09 Jul 2011 00:17:20 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-09:/2011/07/why-should-i-switch-from-pidgin/</guid><category>Community</category><category>libpurple</category><category>pidgin</category></item></channel></rss>

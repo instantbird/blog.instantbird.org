@@ -1,5 +1,0 @@
-:date: 2012-08-29 19:36
-:author: Jeroen
-:replyto: 0
-
-Is it possible to provide the other protocols as add-ons for Thunderbird?

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="4CaGvWsDzY_8pp2jvld_-SXydlzXNYT54KByJiL8LaE" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<title>Status Update: April 17, 2012 | Blog@instantbird.org</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="/theme/instantbird/style.css" />
+<!--[if lt IE 9]>
+<script src="/theme/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
+
+<script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+</head>
+
+<body class="single single-post single-format-standard singular two-column right-sidebar">
+  <div id="shadow">
+    <div id="page" class="hfeed">
+      <header id="branding" role="banner">
+        <h1><a href="https://www.instantbird.com" id="logo-top" class="logo-blog"><span>Instantbird.com</span></a></h1>
+        <nav id="access" role="navigation">
+          <h3 class="assistive-text">Main menu</h3>
+          <div class="menu-header-container">
+            <ul id="menu-header" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://localhost:8000">Blog</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://addons.instantbird.org/">Add-ons</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/faq.html">F.A.Q.</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wiki.instantbird.org/">Wiki</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.instantbird.com/about.html">About</a></li>
+            </ul>
+          </div>		</nav><!-- #access -->
+      </header><!-- #branding -->
+      <div id="main">
+
+<div id="primary">
+  <div id="content" role="main">
+    <article id="post-status-update-april-17-2012" class="post type-post status-publish format-standard hentry">
+      <header class="entry-header">
+        <h1 class="entry-title">Status Update: April 17,&nbsp;2012</h1>
+
+        <div class="entry-meta">
+          <span class="sep">
+            Posted on </span><a href="/2012/04/status-update-april-17-2012/" title="1:52 PM" rel="bookmark"><time class="entry-date" datetime="2012-04-17T13:52:16+00:00">April 17, 2012</time></a><span class="by-author"> <span class="sep"> by </span>
+            <span class="author vcard"><a class="url fn n" href="/author/clokep/" title="View all posts by clokep" rel="author">clokep</a></span>
+          </span>
+        </div><!-- .entry-meta -->
+      </header><!-- .entry-header -->
+
+      <div class="entry-content">
+        <p>A lot has happened in the past two months since our last post: we&#8217;ve
+been quite busy trying to fix <a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;list_id=1120">the list of blockers for Instantbird
+1.2</a>!</p>
+<p>We&#8217;ve again joined Mozilla as part of their application for <a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012">Google
+Summer of
+Code</a>.
+You can see some of our ideas on <a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode12#Instantbird">Mozilla&#8217;s
+wiki</a>.
+(We should find out soon whether Instantbird will be doing any projects
+or not this&nbsp;year!)</p>
+<div class="section" id="what-s-new">
+<h2>What&#8217;s&nbsp;New?</h2>
+<ul class="simple">
+<li>The JavaScript <span class="caps">IRC</span> implementation has landed! Many minor bugs were also
+fixed. The behavior is mostly the same as the old libpurple
+implementations, but there are differences. If you see issues, please
+<a class="reference external" href="https://bugzilla.instantbird.org/enter_bug.cgi">file a bug</a>! This
+will allow for better <span class="caps">IRC</span> support in the&nbsp;future.</li>
+<li>The tab completion algorithm has been made smarter:<ul>
+<li>It now prefers the last person to have pinged you if there are
+multiple possible&nbsp;completions.</li>
+<li>Addressing multiple participants is now handled&nbsp;gracefully.</li>
+</ul>
+</li>
+<li>There is now a reading position marker to show which messages arrived
+since you last viewed a&nbsp;conversation.</li>
+<li>Updated to Mozilla&nbsp;11.</li>
+<li>A few crashers have been&nbsp;fixed.</li>
+</ul>
+</div>
+<div class="section" id="whats-coming-soon-being-worked-on">
+<h2>What’s Coming Soon / Being Worked&nbsp;On?</h2>
+<ul class="simple">
+<li>Minor <span class="caps">IRC</span> fixes: see <a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=component%3AIRC&amp;list_id=1122">known <span class="caps">IRC</span>
+bugs</a>
+(in particular, better error&nbsp;handling).</li>
+<li><a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1337">Upgrade to libpurple
+2.10.3</a>.</li>
+<li>Other <a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;list_id=1120">Instantbird 1.2
+blockers</a>!</li>
+</ul>
+</div>
+<div class="section" id="what-s-this-i-hear-about-thunderbird-integrating-instant-messaging-code-from-instantbird">
+<h2>What&#8217;s this I hear about Thunderbird integrating instant messaging code from&nbsp;Instantbird?</h2>
+<p>You
+<a class="reference external" href="http://www.rumblingedge.com/2012/03/13/instant-messaging-in-thunderbird-just-got-landed-should-appear-in-tomorrows-nightlies/">may</a>
+<a class="reference external" href="https://wiki.mozilla.org/Features/Thunderbird/Instant_messaging_in_Thunderbird">have</a>
+heard that instant messaging was recently added to Thunderbird. This
+work was done by our very own Florian Quèze! Don&#8217;t panic though! This
+doesn&#8217;t mean that Instantbird development is stopping, we strongly
+believe there is a place for both a standalone instant messenger and a
+more integrated approach with email. This is a mutually beneficial
+relationship between Instantbird and Thunderbird where we share code,
+benefit from more testing and get a set of new people &#8212; and ideas &#8212;
+involved in making instant messaging easier and more about how you &#8212;
+the user &#8212; wants&nbsp;it!</p>
+<p>For those curious, approximately <a class="reference external" href="http://lxr.instantbird.org/instantbird/source/chat">one-third of the Instantbird
+codebase</a> is now
+<a class="reference external" href="http://mxr.mozilla.org/comm-central/source/chat/">in Thunderbird&#8217;s
+Daily</a> and
+Earlybird builds.&nbsp; Feel free to give it a try and file any bugs in
+<a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird&amp;component=Instant%20Messaging">Mozilla&#8217;s
+bugtracker</a>.
+Currently it looks like this feature will likely appear in Thunderbird&nbsp;15.</p>
+<p>We&#8217;re getting close to the Instantbird 1.2 release and we think there&#8217;s
+been a lot of great improvements that will make it easier and more
+natural to instant message with your friends, family, co-workers and&nbsp;others!</p>
+</div>
+
+      </div><!-- .entry-content -->
+
+      <footer class="entry-meta">
+          This entry was posted in <a href="/category/development/" title="View all posts in Development">Development</a> and tagged           <a href="/tag/irc/">irc</a>,          <a href="/tag/mozilla/">mozilla</a>,          <a href="/tag/status-update/">status update</a> by <a href="/author/clokep/">clokep</a>. Bookmark the <a href="/2012/04/status-update-april-17-2012/" title="Permalink to Status Update: April 17, 2012" rel="bookmark">permalink</a>.
+      </footer><!-- .entry-meta -->
+    </article><!-- #post-status-update-april-17-2012 -->
+
+<div id="comments">
+    <h2 id="comments-title">
+      9 thoughts on &ldquo;<span>Status Update: April 17,&nbsp;2012</span>&rdquo;
+    </h2>
+
+    <ol class="commentlist">
+<li class="comment even thread-even depth-1" id="li-comment-1322">
+  <article id="comment-1322" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/e43b8f80a05144f9d935d7d5922efeb9?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            coba instantbird</span> on <a href="#comment-1322"><time datetime="2012-04-19T04:00:00+00:00">April 19, 2012 at 4:00 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Hi, I&#8217;ve just tried instantbird 1.1. I use instantbird for local xmpp messenger(my office use openfire for the server). I&#8217;ve tried several others xmpp messenger so far, I have few comments about&nbsp;instantbird:</p>
+<div class="line-block">
+<div class="line">1. Handshake error, you need to google about the problem and turn off the certificate check, in the other messenger I don&#8217;t have to do this, I just need to accept the certificate. This will certainly drive common user away.</div>
+<div class="line">2. No feature to change buddy&#8217;s online, busy, offline yet. I don&#8217;t like the icon. It&#8217;ll be great if there&#8217;s to change the icon.</div>
+<div class="line">3. No feature to minimize new conversation, this is really important because when I&#8217;m in the middle of doing something, a window popup will distract me.</div>
+<div class="line">4. No feature to change username or password in account manager, I need to delete the account and create new to change the info.</div>
+<div class="line">5. No feature to just show online members, this is really important for a messenger I think.</div>
+</div>
+<p>Overall there&#8217;s still lot of improvement to be made, I won&#8217;t use instantbird yet but I hope in the future it&#8217;ll be better than other messengers to make me consider using it as my primary messenger&nbsp;:D</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1325">
+  <article id="comment-1325" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1325"><time datetime="2012-04-19T12:22:00+00:00">April 19, 2012 at 12:22 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Thanks for trying&nbsp;Instantbird!</p>
+<div class="line-block">
+<div class="line">1a. Yes, we know this is an issue. We&#8217;d like a certificate error dialog to pop up (similar to Firefox&#8217;s), but we haven&#8217;t implemented this yet. We have a bug open to track the issue.</div>
+<div class="line">1b. You should really import your cert instead of disabling all certificate checking, however.</div>
+<div class="line">2a. You&#8217;re able to do this from a variety of places (the tray icon and/or jump list menu in Windows and the top of the buddy list, next to your display name).</div>
+<div class="line">2b. There&#8217;s been some discussion about changing the icon, but no consensus.</div>
+<div class="line">3. There&#8217;s an extension you might like: the Do Not Disturb addon (<a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/305">https://addons.instantbird.org/en-<span class="caps">US</span>/instantbird/addon/305</a>).</div>
+<div class="line">4a. You can easily change the password in the properties of each account.</div>
+<div class="line">4b. Currently you cannot change the username, it has to do with the way libpurple stores and persists account information. We have a bug open on this issue.</div>
+<div class="line">5. By default Instantbird only shows online users. In the context menu of the contact list there&#8217;s an option to show/hide offline contacts.</div>
+</div>
+<p>Thanks for your feedback, I think most of the features you&#8217;ve requested <span class="caps">ARE</span> actually available and some of the other ones aren&#8217;t issues that should be run into often (essentially they revolve around setting up an account&#8230;which we would definitely like to make&nbsp;simpler).</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1327">
+  <article id="comment-1327" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            Anonymous</span> on <a href="#comment-1327"><time datetime="2012-04-21T04:53:00+00:00">April 21, 2012 at 4:53 am</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Happy to see the project is not dead. Seems like nothing has really been coming forth development-wise after such a major push out of the gate last year with version&nbsp;1.</p>
+<p>The do not disturb addon does not address what was asked for. One should not have to change one&#8217;s status to have new conversations go on hold and actually, this is not about conversations going on hold. This is about new conversation windows simple being&nbsp;minimized.</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1" id="li-comment-1331">
+  <article id="comment-1331" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/0f0f4e5c8446a0f6fd5bd888760eee02?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            Benedikt P.</span> on <a href="#comment-1331"><time datetime="2012-04-21T17:18:00+00:00">April 21, 2012 at 5:18 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">&gt; Seems like nothing has really been</div>
+<div class="line">&gt; coming forth development-wise after</div>
+<div class="line">&gt; such a major push out of the gate last</div>
+<div class="line">&gt; year with version 1.</div>
+</div>
+<p>Seems I misinterpreted the about one hundred fixed bugs since 1.1 (in last October) then, including major things like integration of a <span class="caps">XMPP</span> and <span class="caps">IRC</span> rewrite. Man, and I thought we made good progress. Thanks for setting this right&nbsp;:S</p>
+<div class="line-block">
+<div class="line">&gt; The do not disturb addon does not address</div>
+<div class="line">&gt; what was asked for. One should not have</div>
+<div class="line">&gt; to change one’s status to have new</div>
+<div class="line">&gt; conversations go on hold and actually,</div>
+<div class="line">&gt; this is not about conversations going on hold.</div>
+<div class="line">&gt; This is about new conversation windows</div>
+<div class="line">&gt; simple being minimized.</div>
+</div>
+<p>Feel free to file an enhancement request. Giving convincing reasons will improve the probability of it being adressed one&nbsp;day.</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1" id="li-comment-1332">
+  <article id="comment-1332" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            Anonymous</span> on <a href="#comment-1332"><time datetime="2012-04-21T18:48:00+00:00">April 21, 2012 at 6:48 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Then this is a case where it is unfortunate that some of us cannot appreciate the work that is going on in the&nbsp;background.</p>
+<div class="line-block">
+<div class="line">Convincing reasons to improve the probability of it being addressed one day? Already sounds like swimming upstream.</div>
+<div class="line">Easy to conclude that If mention of it s not enough, the case is already closed.</div>
+</div>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1374">
+  <article id="comment-1374" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/ea963ecec16fddccad061824cb046abf?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            none</span> on <a href="#comment-1374"><time datetime="2012-04-26T19:23:00+00:00">April 26, 2012 at 7:23 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><div class="line-block">
+<div class="line">When can we expect file transfer support?</div>
+<div class="line">It&#8217;s not a problem for me but I can&#8217;t start converting people because not everyone runs an an ftp and http server on localhost.</div>
+</div>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1375">
+  <article id="comment-1375" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1375"><time datetime="2012-04-26T19:43:00+00:00">April 26, 2012 at 7:43 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>Unfortunately (you won&#8217;t like this response): when someone adds support for it. We know it&#8217;s a wanted feature, but it&#8217;s difficult to get right. (File transfers notoriously don&#8217;t work for some people over instant messaging and we don&#8217;t want it to work only half the time! We&#8217;d love there to be some kind of fallback mechanism&#8230;) There is a bug open on this though: <a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=9">https://bugzilla.instantbird.org/show_bug.cgi?id=9</a> If someone is interested in helping to add this, we&#8217;d definitely love that and will work with them to get it right.&nbsp;:)</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+<li class="comment even thread-even depth-1" id="li-comment-1534">
+  <article id="comment-1534" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/ba30512a1ab9474c6a1d7f4dffcdb561?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-68 photo' height='68' width='68'/>
+
+          <span class="fn">
+            VGA</span> on <a href="#comment-1534"><time datetime="2012-05-13T13:17:00+00:00">May 13, 2012 at 1:17 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I&#8217;m trying out IBird because Pidgin has started crashing for me for the last two versions during <span class="caps">MSN</span>&nbsp;convos.</p>
+<p>1) What I miss most is an emoticon selection window that shows all emoticons from the currently active emoticon&nbsp;addon.</p>
+<p>2) I&#8217;m using the excellent DarkChat 1.2 addon but the incoming messages show up as black (unless the other user has changed his color). I would like the option to override his text&nbsp;color.</p>
+<p>3) Profile pics of my buddies&nbsp;&#8230;</p>
+<p>4) The icon/logo needs to be a bird,&nbsp;seriously.</p>
+<p>5) How long are the convo logs kept ? Forever ? No option about it under&nbsp;Privacy.</p>
+</div>
+
+      <ul class="children">
+<li class="comment even thread-even depth-1 bypostauthor" id="li-comment-1538">
+  <article id="comment-1538" class="comment">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+
+          <img alt='' src='https://www.gravatar.com/avatar/108523005a16d9331b15ee551e334170?s=68&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G' class='avatar avatar-39 photo' height='39' width='39'/>
+
+          <span class="fn">
+            clokep</span> on <a href="#comment-1538"><time datetime="2012-05-13T23:03:00+00:00">May 13, 2012 at 11:03 pm</time></a> <span class="says">said:
+          </span>
+      </div><!-- .comment-author .vcard -->
+
+
+    </footer>
+
+    <div class="comment-content"><p>I hope you&#8217;re enjoying Instantbird so far! Please let us know if you have any problems (on our bugtracker most likely: <a class="reference external" href="https://bugzilla.instantbird.org">https://bugzilla.instantbird.org</a>).</p>
+<p>1. Sounds like you want the Smile! addon. :) (<a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/318">https://addons.instantbird.org/en-<span class="caps">US</span>/instantbird/addon/318</a>).</p>
+<p>2. You want to disable incoming fonts, (Tools &gt; Options &gt; Formatting &gt; &#8220;Display formatting of incoming messages&#8221; &gt; Choose any option except&nbsp;&#8220;all&#8221;).</p>
+<p>3. Your buddies&#8217; avatars should show up fine, although there&#8217;s been reports of issues on <span class="caps">MSN</span>.</p>
+<p>4.&nbsp;:)</p>
+<p>5. Conversation logging is either disabled or enabled. If it&#8217;s enabled, logs are kept forever. This could be tweaked with an add-on, but I don&#8217;t think anyone has created one to mess with&nbsp;this.</p>
+</div>
+
+  </article><!-- #comment-## -->
+
+      </ul>
+  </article><!-- #comment-## -->
+
+    </ol>
+
+    <p class="nocomments"><?php _e( 'Comments are closed.' , 'twentyeleven' ); ?></p>
+
+
+
+</div><!-- #comments -->  </div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+  <aside id="search-3" class="widget widget_search">
+<script type="text/javascript">
+function submitSearch() {
+  document.getElementById('s').value += ' site:blog.instantbird.org';
+}
+</script>
+<form method="get" id="searchform" onsubmit="submitSearch();" action="https://duckduckgo.com">
+  <label for="s" class="assistive-text">Search</label>
+  <input type="text" class="field" name="q" id="s" placeholder="Search" />
+  <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+</form>  </aside>
+  <aside id="recent-posts-3" class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+        <li><a href="/2016/01/facebook-chat-issues/" title="Facebook Chat&nbsp;Issues">Facebook Chat&nbsp;Issues</a></li>
+        <li><a href="/2014/07/linux-nightly-builds-back/" title="Linux nightly builds&nbsp;back!">Linux nightly builds&nbsp;back!</a></li>
+        <li><a href="/2014/04/google-summer-of-code-2014-has-commenced/" title="Google Summer of Code 2014 has&nbsp;Commenced!">Google Summer of Code 2014 has&nbsp;Commenced!</a></li>
+    </ul>
+  </aside>
+  <aside id="categories-3" class="widget widget_categories">
+    <h3 class="widget-title">Categories</h3>
+    <ul>
+        <li class="cat-item">
+          <a href="/category/community/" title="View all posts filed under Community">Community</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/development/" title="View all posts filed under Development">Development</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/downloads/" title="View all posts filed under Downloads">Downloads</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/features/" title="View all posts filed under Features">Features</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/mozilla/" title="View all posts filed under Mozilla">Mozilla</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/support/" title="View all posts filed under Support">Support</a>
+        </li>
+        <li class="cat-item">
+          <a href="/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+        </li>
+    </ul>
+  </aside>
+  <aside id="archives-3" class="widget widget_archive">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+        <li><a href="/2016/01/" title='January 2016'>January 2016</a></li>
+        <li><a href="/2014/07/" title='July 2014'>July 2014</a></li>
+        <li><a href="/2014/04/" title='April 2014'>April 2014</a></li>
+        <li><a href="/2014/03/" title='March 2014'>March 2014</a></li>
+        <li><a href="/2013/12/" title='December 2013'>December 2013</a></li>
+        <li><a href="/2013/07/" title='July 2013'>July 2013</a></li>
+        <li><a href="/2013/05/" title='May 2013'>May 2013</a></li>
+        <li><a href="/2013/04/" title='April 2013'>April 2013</a></li>
+        <li><a href="/2013/02/" title='February 2013'>February 2013</a></li>
+        <li><a href="/2012/12/" title='December 2012'>December 2012</a></li>
+        <li><a href="/2012/11/" title='November 2012'>November 2012</a></li>
+        <li><a href="/2012/10/" title='October 2012'>October 2012</a></li>
+        <li><a href="/2012/08/" title='August 2012'>August 2012</a></li>
+        <li><a href="/2012/07/" title='July 2012'>July 2012</a></li>
+        <li><a href="/2012/05/" title='May 2012'>May 2012</a></li>
+        <li><a href="/2012/04/" title='April 2012'>April 2012</a></li>
+        <li><a href="/2012/02/" title='February 2012'>February 2012</a></li>
+        <li><a href="/2011/11/" title='November 2011'>November 2011</a></li>
+        <li><a href="/2011/10/" title='October 2011'>October 2011</a></li>
+        <li><a href="/2011/09/" title='September 2011'>September 2011</a></li>
+        <li><a href="/2011/07/" title='July 2011'>July 2011</a></li>
+        <li><a href="/2011/06/" title='June 2011'>June 2011</a></li>
+        <li><a href="/2011/05/" title='May 2011'>May 2011</a></li>
+        <li><a href="/2011/04/" title='April 2011'>April 2011</a></li>
+        <li><a href="/2011/03/" title='March 2011'>March 2011</a></li>
+        <li><a href="/2011/02/" title='February 2011'>February 2011</a></li>
+        <li><a href="/2011/01/" title='January 2011'>January 2011</a></li>
+        <li><a href="/2010/12/" title='December 2010'>December 2010</a></li>
+        <li><a href="/2010/11/" title='November 2010'>November 2010</a></li>
+        <li><a href="/2010/10/" title='October 2010'>October 2010</a></li>
+        <li><a href="/2010/09/" title='September 2010'>September 2010</a></li>
+        <li><a href="/2010/08/" title='August 2010'>August 2010</a></li>
+        <li><a href="/2010/07/" title='July 2010'>July 2010</a></li>
+        <li><a href="/2010/06/" title='June 2010'>June 2010</a></li>
+        <li><a href="/2010/03/" title='March 2010'>March 2010</a></li>
+        <li><a href="/2009/12/" title='December 2009'>December 2009</a></li>
+        <li><a href="/2009/07/" title='July 2009'>July 2009</a></li>
+        <li><a href="/2009/04/" title='April 2009'>April 2009</a></li>
+        <li><a href="/2009/03/" title='March 2009'>March 2009</a></li>
+        <li><a href="/2008/12/" title='December 2008'>December 2008</a></li>
+        <li><a href="/2008/10/" title='October 2008'>October 2008</a></li>
+        <li><a href="/2008/08/" title='August 2008'>August 2008</a></li>
+        <li><a href="/2008/03/" title='March 2008'>March 2008</a></li>
+        <li><a href="/2007/11/" title='November 2007'>November 2007</a></li>
+    </ul>
+  </aside>
+</div><!-- #secondary .widget-area -->
+      </div><!-- #main -->
+    </div>
+  </div><!-- #page -->
+  <footer id="colophon" role="contentinfo">
+    <div id="footer">
+      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p class="small-text">
+        All product names and trademarks are the property of their respective owners.
+        <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>
+      </p>
+    </div>
+  </footer><!-- #colophon -->
+</body>
+</html>

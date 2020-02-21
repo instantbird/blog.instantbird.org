@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Thunderbird</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 03 Oct 2012 01:07:02 +0000</lastBuildDate><item><title>Google Summer of Code 2012 Roundup</title><link>http://blog.instantbird.org/2012/10/google-summer-of-code-2012-roundup/</link><description>&lt;p&gt;Instantbird 1.2 was released about two months ago and we must again
+apologize for keeping this blog fairly quiet.&amp;nbsp; Sorry about that!&amp;nbsp; But
+we&amp;#8217;re here now, so read on for some (not really so) juicy Instantbird&amp;nbsp;news!&lt;/p&gt;
+&lt;p&gt;Instantbird 1.2 release went fairly smoothly, much smoother than the
+last release!&amp;nbsp; We&amp;#8217;ve gotten some great feedback (and had lots of bugs
+filed) and of course have started working on Instantbird 1.3 already!
+Most of the fixes that have so far gone into the 1.3 nightlies so far
+are minor&amp;#8230;but taken altogether, I&amp;#8217;m not sure I could go back to 1.2!
+Feel free to &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;give them a try&lt;/a&gt; and
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/"&gt;report any issues&lt;/a&gt; to&amp;nbsp;us!&lt;/p&gt;
+&lt;p&gt;Thunderbird 15 was &amp;#8220;recently&amp;#8221; released, which also contained the core
+chat backend of Instantbird.&amp;nbsp; We&amp;#8217;ve had a bunch of bugs filed from that
+release too!&amp;nbsp; Between feedback from the two programs we&amp;#8217;ve made a lot of
+minor improvements that will definitely make Instantbird (more of) a joy
+to&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;Google Summer of Code 2012 has been over for a bit (it ended in August),
+but we never thanked Will for his time with us and the great work he&amp;#8217;s
+done so far.&amp;nbsp; Currently the &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;account
+importer&lt;/a&gt; code he
+wrote this summer is &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1495"&gt;undergoing
+review&lt;/a&gt;, but
+hopefully it will be complete for Instantbird 1.3 to allow extremely
+easy transitioning to Instantbird!&amp;nbsp; Thanks for a great summer Will!&amp;nbsp; We
+hope you&amp;#8217;ve enjoyed working with your mentor, Florian, and the rest of
+the Instantbird team; we&amp;#8217;ve definitely enjoyed working with you, helping
+you and watching you learn.&amp;nbsp; Good luck and hopefully we&amp;#8217;ll continue to
+see you around (and have contributions from you!) in the future.&amp;nbsp; We&amp;#8217;d
+also like to thanks Mozilla for graciously allowing us to be part of
+Google Summer of Code 2012 through&amp;nbsp;them!&lt;/p&gt;
+&lt;p&gt;As always, feel free to stop by #instantbird on irc.mozilla.org (and,
+yes, Instantbird supports &lt;span class="caps"&gt;IRC&lt;/span&gt;: you can&amp;#8217;t use the excuse that you don&amp;#8217;t
+have an &lt;span class="caps"&gt;IRC&lt;/span&gt; client!) to give us some feedback or ask&amp;nbsp;questions.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 03 Oct 2012 01:07:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-10-03:/2012/10/google-summer-of-code-2012-roundup/</guid><category>Community</category><category>1.2</category><category>GSoC</category><category>mozilla</category><category>Thunderbird</category></item></channel></rss>

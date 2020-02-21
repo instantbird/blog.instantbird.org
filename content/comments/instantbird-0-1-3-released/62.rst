@@ -1,5 +1,0 @@
-:date: 2009-02-04 09:07
-:author: Chaz6
-:replyto: 0
-
-This release works fine, but the 0.2a1pre nightly has stopped working because the libgio-2.0.so.0 dependancy has returned.

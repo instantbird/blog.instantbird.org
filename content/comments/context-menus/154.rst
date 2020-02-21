@@ -1,5 +1,0 @@
-:date: 2010-07-12 01:54
-:author: patrickjdempsey
-:replyto: 0
-
-One of the things I really love about the "Search" context feature is that you can setup what browser to use under Options/Applications so you can override the system-wide default setting. The "Search with" feature can be setup under Options/Advanced/General, although unforunately it is not possible to drag a search plugin XML file into Add-ons. (This is missing from Firefox, so I'm guessing they would have to fix it first). Also, I use the "offline buddies" context entry every day, very useful!

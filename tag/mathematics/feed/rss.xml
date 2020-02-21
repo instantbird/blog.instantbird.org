@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - mathematics</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+any mathematics contained in your conversations will be beautifully
+rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
+equations displayed properly. And of course, as LaTeX is text-based,
+this works for all protocols, and does not depend on your conversation
+partners also using&amp;nbsp;Instantbird!&lt;/p&gt;
+&lt;p&gt;No configuration is necessary &amp;#8212; to use this, you don&amp;#8217;t even need to
+have TeX&amp;nbsp;installed.&lt;/p&gt;
+&lt;p&gt;You can easily obtain the LaTeX source of any equation using the context
+menu. AMSmath symbols and environments (such as
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;\\begin{align}...\\end{align}&lt;/span&gt;&lt;/tt&gt;) are&amp;nbsp;supported.&lt;/p&gt;
+&lt;p&gt;There are a few customization options &amp;#8212; for example, you can choose to
+have displayed equations numbered automatically, to make them easier to
+refer&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;The add-on works with all Instantbird message styles, so you don&amp;#8217;t have
+to change your favourite&amp;nbsp;theme.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;Get the add-on&amp;nbsp;here!&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item></channel></rss>

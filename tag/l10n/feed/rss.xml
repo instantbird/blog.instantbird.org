@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - l10n</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>http://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
+features (you can see them
+clicking&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;). The
+Instantbird team is interested in offering this &lt;span class="caps"&gt;IM&lt;/span&gt; client to everyone,
+so there&amp;#8217;s a new language in this release: &lt;strong&gt;Brazilian
+Portuguese&lt;/strong&gt;&amp;nbsp;-&amp;nbsp;&lt;strong&gt;Sim, nós falamos Português!&lt;/strong&gt;.&amp;nbsp;Now Brazilians users can
+enjoy Instantbird&amp;nbsp;in&amp;nbsp;their&amp;nbsp;language.&lt;/p&gt;
+&lt;p&gt;Additionally,&amp;nbsp;Instantbird&amp;nbsp;brought&amp;nbsp;back&amp;nbsp;the &lt;strong&gt;Russian language&lt;/strong&gt;&amp;nbsp;in
+this release. This language&amp;nbsp;was in&amp;nbsp;Instantbird&amp;nbsp;since version 0.2, but it
+was not present&amp;nbsp;in&amp;nbsp;version&amp;nbsp;1.2. Thanks&amp;nbsp;go out&amp;nbsp;to
+our&amp;nbsp;Russian&amp;nbsp;localization&amp;nbsp;team for&amp;nbsp;making&amp;nbsp;this&amp;nbsp;possible!&lt;/p&gt;
+&lt;p&gt;Since the&amp;nbsp;0.2&amp;nbsp;release, Instantbird has&amp;nbsp;been&amp;nbsp;available in 5 languages
+-&amp;nbsp;English,&amp;nbsp;Finnish,&amp;nbsp;French,&amp;nbsp;Polish and&amp;nbsp;Russian. The 1.0&amp;nbsp;release
+brought&amp;nbsp;six&amp;nbsp;more languages&amp;nbsp;and now&amp;nbsp;Instantbird&amp;nbsp;is&amp;nbsp;available in &lt;strong&gt;13&lt;/strong&gt;&amp;nbsp;languages!&lt;/p&gt;
+&lt;p&gt;The Instantbird team has a &lt;a class="reference external" href="http://www.instantbird.org/"&gt;goal&lt;/a&gt;:&amp;nbsp;&amp;#8220;to
+redefine the way instant messaging is used, to work the way you
+want.&amp;#8221;&amp;nbsp;To reach this goal, it&amp;#8217;s necessary that Instantbird can be used
+by as many&amp;nbsp;people&amp;nbsp;as possible, in every country. So
+we&amp;nbsp;encourage&amp;nbsp;interested people to translate it to&amp;nbsp;their&amp;nbsp;languages.&amp;nbsp;If
+you&amp;#8217;re interested in helping us achieve this goal by creating
+new&amp;nbsp;translations&amp;nbsp;or&amp;nbsp;improving Instantbird, you can get more
+information&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.org/#getinvolved"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Status Update: July 27, 2012</title><link>http://blog.instantbird.org/2012/07/status-update-july-27-2012/</link><description>&lt;p&gt;Sorry that we have been so awful at updating our blog again, but we have
+been busy working on getting Instantbird 1.2 ready for release!&amp;nbsp; We&amp;#8217;re
+hoping to get this release out the door in the next few weeks (there&amp;#8217;s a
+few final blockers we&amp;#8217;re attempting to&amp;nbsp;fix)!&lt;/p&gt;
+&lt;p&gt;A few weeks ago (in the beginning of July), Instantbird was string
+frozen for 1.2.&amp;nbsp; This means that no new patches will be accepted (for
+1.2) which change any strings, this gives our localization (l10n) teams
+time to translate Instantbird 1.2 into different languages.
+&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;Instantbird 1.1 was
+released&lt;/a&gt; in 13
+languages: Czech, German, English, Spanish, Estonian, French, Italian,
+Dutch, Polish, Russian, Slovak, Swedish and Ukrainian!&amp;nbsp; Hopefully we can
+release Instantbird 1.2 in even more languages!&amp;nbsp; Unfortunately not all
+of these languages have been updated yet, so if you&amp;#8217;re interested in
+translating Instantbird to your language, check out the &lt;a class="reference external" href="https://wiki.instantbird.org/Instantbird:Translation"&gt;translation
+information&lt;/a&gt;
+and &lt;a class="reference external" href="http://instantbird.com/about.html#get_in_touch"&gt;get in contact with
+us&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Additionally, our Google Summer of Code student, &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;Will
+Nayes&lt;/a&gt;, has been
+doing excellent work and already has importers working for Colloquy,
+Google Talk, mIRC, Pidgin, Windows Live Messenger and XChat!&amp;nbsp; He&amp;#8217;s
+currently working on importing logs from each of these clients so you
+can smoothly transition from other clients to Instantbird without any
+data loss.&amp;nbsp; We hope Will is enjoying working on Instantbird as he&amp;#8217;s
+doing a great&amp;nbsp;job!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 27 Jul 2012 13:10:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-07-27:/2012/07/status-update-july-27-2012/</guid><category>Development</category><category>GSoC</category><category>l10n</category><category>status update</category></item></channel></rss>

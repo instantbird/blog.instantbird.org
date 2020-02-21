@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.1</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 18 Oct 2011 15:17:06 +0000</lastBuildDate><item><title>Instantbird 1.1 released!</title><link>http://blog.instantbird.org/2011/10/instantbird-1-1-released/</link><description>&lt;p&gt;Exactly 4 years after the very early 0.1 preview, Instantbird 1.1 has
+just been released today in 13 locales (Swedish and Estonian are&amp;nbsp;new)!&lt;/p&gt;
+&lt;p&gt;In addition to several stability fixes and a dramatic reduction of
+resource consumption in some cases, this new release will make Twitter
+and &lt;span class="caps"&gt;IRC&lt;/span&gt; much more usable in&amp;nbsp;Instantbird:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;On Twitter, it&amp;#8217;s now possible from the context menu to &lt;strong&gt;retweet&lt;/strong&gt;,
+to &lt;strong&gt;reply to a tweet&lt;/strong&gt; (or simply double click on the tweet to start
+a reply). The context menu also lets you follow or unfollow the
+author of the&amp;nbsp;tweet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tab completion&lt;/strong&gt; of usernames (starting with an &amp;#64; character on
+twitter) or nicknames (in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels) will also be very&amp;nbsp;appreciated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these changes have been commonly requested, so no surprise here. But
+there&amp;#8217;s one last feature I would like to talk about before offering you
+a download link: Instantbird 1.1 brings support for putting conversation
+on hold. This means you can now &lt;strong&gt;close conversation tabs without
+leaving the conversation&lt;/strong&gt;, the conversation will sit at the top of the
+Contacts window until you reopen it or someone talks to you. While this
+may seem like a small change, it&amp;#8217;s exceptionally useful for &lt;span class="caps"&gt;IRC&lt;/span&gt; users
+who tend to idle in lots of channels because they want to &amp;#8220;be there just
+in case&amp;#8221; but don&amp;#8217;t interact much with the&amp;nbsp;conversation.&lt;/p&gt;
+&lt;p&gt;Enough talk! Time to go &lt;a class="reference external" href="http://instantbird.com/"&gt;download Instantbird
+1.1&lt;/a&gt; (or read the &lt;a class="reference external" href="http://instantbird.com/release-notes.html"&gt;more detailed release
+notes&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As always, your feedback is welcome! And if you like Instantbird, maybe
+you will want to share the good news with your friends on
+&lt;a class="reference external" href="https://www.facebook.com/sharer/sharer.php?u=http://www.instantbird.com/"&gt;Facebook&lt;/a&gt;
+or
+&lt;a class="reference external" href="http://twitter.com/share?url=http://www.instantbird.com/&amp;amp;text=Instantbird%201.1%20just%20released,%20with%20much%20better%20twitter%20support!%20Try%20it,%20it's%20free!&amp;amp;related=instantbird"&gt;twitter&lt;/a&gt;?&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 18 Oct 2011 15:17:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-18:/2011/10/instantbird-1-1-released/</guid><category>Downloads</category><category>1.1</category><category>announce</category><category>downloads</category></item><item><title>The Interruptions Manager</title><link>http://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
+spot in our &lt;span class="caps"&gt;API&lt;/span&gt; was the ability to control whether events should be
+shown to a user or cancelled under certain conditions.&amp;nbsp; This fits in as
+part of our mission about giving control of instant messaging to the
+user: the user should only be interrupted by events that deserve their
+attention.&amp;nbsp; If you&amp;#8217;re wondering how this is useful; extensions now have
+great control over how Instantbird is allowed to interact with the
+user.&amp;nbsp; For example, extensions could: keep conversations from opening
+(i.e. spam guards), quiet sounds during a full screen video, or even
+stop new conversations from opening if the user has set their status as&amp;nbsp;Unavailable.&lt;/p&gt;
+&lt;p&gt;Extensions are able to simply register themselves with the interruptions
+manager and they will automatically be notified if certain events
+happen, including when Instantbird wants to: get your attention (e.g.
+flash the task bar), open a new conversation, play a sound or show a
+message&amp;nbsp;notification.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;API&lt;/span&gt; is really easy to use and we&amp;#8217;ve created some example add-ons
+that use it!&amp;nbsp; We have created an an add-on to not allow the NickServ
+from &lt;span class="caps"&gt;IRC&lt;/span&gt; accounts to open
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/nickservkiller"&gt;source&lt;/a&gt;),
+an update of
+&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/209"&gt;NickServKiller&lt;/a&gt;.
+Additionally there is an add-on to force auto-joined chats to be held on
+the buddy list
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/015cf6b699bc/hideautojoins"&gt;source&lt;/a&gt;),
+allowing you to give them your attention when you want to.&amp;nbsp; Another
+example of a great add-on is the Do Not Disturb add-on, which does not
+allow Instantbird to disturb the user while their status is set to
+Unavailable, really allowing you to concentrate on something more
+important
+(&lt;a class="reference external" href="http://hg.instantbird.org/addons/file/ca4ba6af0b8a/donotdisturb"&gt;source&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;There&amp;#8217;s also a skeleton for an anti-spam add-on (an often requested
+feature!) that is just waiting to be finished!&amp;nbsp; Contact us on
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on irc.mozilla.org&lt;/a&gt;
+if you&amp;#8217;re interested in helping out.&amp;nbsp; And don&amp;#8217;t worry, these extensions
+will be available on
+&lt;a class="reference external" href="http://addons.instantbird.org"&gt;addons.instantbird.org&lt;/a&gt;&amp;nbsp;soon!&lt;/p&gt;
+&lt;p&gt;We think this is a great addition for add-on developers working on
+Instantbird and can&amp;#8217;t wait to see what exciting ideas people come up&amp;nbsp;with!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 15 Oct 2011 00:24:52 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-15:/2011/10/the-interruptions-manage/</guid><category>Features</category><category>1.1</category><category>addons</category><category>irc</category><category>preview</category></item></channel></rss>

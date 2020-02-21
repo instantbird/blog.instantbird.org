@@ -1,5 +1,0 @@
-:date: 2011-07-01 08:23
-:author: SwooopD
-:replyto: 0
-
-Nice app! But I canÂ´t connect to Facebook Chat "Connection not possible". Are there options for (de)activating SSL/TLS for Facebook Chat?

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - facebook</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 26 Jan 2016 21:37:26 +0000</lastBuildDate><item><title>Facebook Chat Issues</title><link>http://blog.instantbird.org/2016/01/facebook-chat-issues/</link><description>&lt;p&gt;Recently we’ve received many questions from users whose Facebook Chat accounts
+will no longer connect in&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;p&gt;Facebook &lt;a class="reference external" href="https://developers.facebook.com/docs/chat"&gt;officially deprecated its &lt;span class="caps"&gt;XMPP&lt;/span&gt; gateway&lt;/a&gt; on April 30th, 2015, but it
+continued to function until recently. Unfortunately it appears this is no longer
+the&amp;nbsp;case.&lt;/p&gt;
+&lt;p&gt;After investigating the issue, we have been unable to find a workaround to keep
+it working. However, since Facebook deprecated the gateway, it’s surprising it
+even worked for this&amp;nbsp;long!&lt;/p&gt;
+&lt;p&gt;Meanwhile, libpurple has a new protocol plugin that uses Facebook’s proprietary
+chat &lt;span class="caps"&gt;API&lt;/span&gt;, which we are considering offering as part of a future release of&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;p&gt;Stay&amp;nbsp;tuned!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nhnt11</dc:creator><pubDate>Tue, 26 Jan 2016 21:37:26 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2016-01-26:/2016/01/facebook-chat-issues/</guid><category>Support</category><category>facebook</category><category>status update</category></item></channel></rss>

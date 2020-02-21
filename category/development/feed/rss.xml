@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Development</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 25 Jul 2014 13:07:07 +0000</lastBuildDate><item><title>Linux nightly builds back!</title><link>http://blog.instantbird.org/2014/07/linux-nightly-builds-back/</link><description>&lt;p&gt;Back in March, we posted that we had started
+&lt;a class="reference external" href="http://blog.instantbird.org/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
+version of CentOS we had been using was too old, we were unable to continue
+providing Linux nightly builds. That has now changed and (as of today) we have
+&lt;strong&gt;both 32-bit and 64-bit&lt;/strong&gt; Linux nightlies! Since this involved us installing a
+new operating system (CentOS 6.2) and tweaking some of the build configuration
+for Linux, please &lt;a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Instantbird"&gt;let us know&lt;/a&gt; if you see any issues! Additionally, some more
+up-to-date features that have been available in Mozilla Firefox for a while
+should now be available in Instantbird (e.g. dbus and pulse audio support) and
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=955310"&gt;even some minor bugs were fixed&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Sorry that this took so long, but &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;go grab your updated copy now&lt;/a&gt;!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 25 Jul 2014 13:07:07 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-07-25:/2014/07/linux-nightly-builds-back/</guid><category>Development</category><category>nightly</category><category>status update</category></item><item><title>Pardon the Interruption! Instantbird nightly builds are back!</title><link>http://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</link><description>&lt;p&gt;As of today, March 3rd, 2014, Instantbird nightly builds (1.6a1pre) are being
+built again. We last had nightly builds on January 9th, 2014 and they have been
+broken since due to a series of a large infrastructure change we’ve been going
+through to merge the Instantbird Bugzilla and code repository with Mozilla’s.
+Unfortunately, getting nightly builds working again took us longer than expected
+as it involved many related issues: updating Instantbird to work with newer
+versions of Mozilla, reconfiguring our buildbot and working on getting libpurple
+to build as an&amp;nbsp;extension.&lt;/p&gt;
+&lt;p&gt;The results of this is that Instantbird is now building out of the
+“comm-central” code repository (the same place the code for Thunderbird is
+stored). What does this mean for&amp;nbsp;you?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Instantbird nightlies are now built using comm-central/mozilla-central: bugs
+fixed in Mozilla will be reflected in the next Instantbird&amp;nbsp;nightly.&lt;/li&gt;
+&lt;li&gt;Instantbird 1.6a1pre is currently based on Mozilla 30, this is a bit of a
+jump from Instantbird 1.5 (Mozilla 25). There might be an influx of bugs as
+any issues caused by this jump are worked out. Please report any issues you&amp;nbsp;see!&lt;/li&gt;
+&lt;li&gt;(Not entirely related) Bugs for Instantbird can now be reported on
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/"&gt;bugzilla.mozilla.org&lt;/a&gt; under the “Instantbird” and “Chat Core” (for bugs
+shared with Thunderbird Chat)&amp;nbsp;products.&lt;/li&gt;
+&lt;li&gt;Current nightly builds are located at on &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-1.6a1pre/"&gt;our ftp site&lt;/a&gt;, but automatic
+updating from older nightlies should still&amp;nbsp;work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, sorry for any interruption. Regular development should be continuing now. Thanks for all the concerned emails telling us our builds had&amp;nbsp;stopped!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 03 Mar 2014 12:21:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-03-03:/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</guid><category>Development</category><category>mozilla</category><category>nightly</category><category>status update</category></item><item><title>Status Update: July 27, 2012</title><link>http://blog.instantbird.org/2012/07/status-update-july-27-2012/</link><description>&lt;p&gt;Sorry that we have been so awful at updating our blog again, but we have
+been busy working on getting Instantbird 1.2 ready for release!&amp;nbsp; We&amp;#8217;re
+hoping to get this release out the door in the next few weeks (there&amp;#8217;s a
+few final blockers we&amp;#8217;re attempting to&amp;nbsp;fix)!&lt;/p&gt;
+&lt;p&gt;A few weeks ago (in the beginning of July), Instantbird was string
+frozen for 1.2.&amp;nbsp; This means that no new patches will be accepted (for
+1.2) which change any strings, this gives our localization (l10n) teams
+time to translate Instantbird 1.2 into different languages.
+&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;Instantbird 1.1 was
+released&lt;/a&gt; in 13
+languages: Czech, German, English, Spanish, Estonian, French, Italian,
+Dutch, Polish, Russian, Slovak, Swedish and Ukrainian!&amp;nbsp; Hopefully we can
+release Instantbird 1.2 in even more languages!&amp;nbsp; Unfortunately not all
+of these languages have been updated yet, so if you&amp;#8217;re interested in
+translating Instantbird to your language, check out the &lt;a class="reference external" href="https://wiki.instantbird.org/Instantbird:Translation"&gt;translation
+information&lt;/a&gt;
+and &lt;a class="reference external" href="http://instantbird.com/about.html#get_in_touch"&gt;get in contact with
+us&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Additionally, our Google Summer of Code student, &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;Will
+Nayes&lt;/a&gt;, has been
+doing excellent work and already has importers working for Colloquy,
+Google Talk, mIRC, Pidgin, Windows Live Messenger and XChat!&amp;nbsp; He&amp;#8217;s
+currently working on importing logs from each of these clients so you
+can smoothly transition from other clients to Instantbird without any
+data loss.&amp;nbsp; We hope Will is enjoying working on Instantbird as he&amp;#8217;s
+doing a great&amp;nbsp;job!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 27 Jul 2012 13:10:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-07-27:/2012/07/status-update-july-27-2012/</guid><category>Development</category><category>GSoC</category><category>l10n</category><category>status update</category></item><item><title>Status Update: May 23, 2012</title><link>http://blog.instantbird.org/2012/05/status-update-may-23-2012/</link><description>&lt;p&gt;We&amp;#8217;ve made quite a bit of improvements over the past few weeks. Although
+a lot of the changes are behind the scenes or fixing regressions, there
+are some exciting user facing changes, as detailed below! We&amp;#8217;ve also
+been working with our &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Google Summer of Code 2012 student&lt;/a&gt;,
+wnayes, quite a bit to get him up to speed of how things work in
+Instantbird. He&amp;#8217;s made great progress on understanding the code and has
+even fixed a bug (see the &amp;#8220;top protocols&amp;#8221; page,&amp;nbsp;below)!&lt;/p&gt;
+&lt;div class="section" id="landed-changes"&gt;
+&lt;h2&gt;Landed&amp;nbsp;Changes:&lt;/h2&gt;
+&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page.png"&gt;&lt;img alt="&amp;quot;Top Protocol&amp;quot; Page in the Account Wizard" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page-300x243.png" style="width: 300px; height: 243px;" /&gt;&lt;/a&gt;
+&lt;p class="wp-caption-text"&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Top Protocol&amp;#8221; Page in the Account&amp;nbsp;Wizard&amp;#8221;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The account wizard now has a &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1391"&gt;&amp;#8220;top protocols&amp;#8221;
+page&lt;/a&gt; to allow
+users to quickly set up accounts that are most applicable to them. This
+is localizable as different instant messaging networks are popular in
+different&amp;nbsp;regions.&lt;/li&gt;
+&lt;li&gt;Tab Completion improvements:&lt;ul&gt;
+&lt;li&gt;Will &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1393"&gt;no longer complete the same name multiple
+times&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You can now &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1395"&gt;cycle
+backwards&lt;/a&gt;
+through the list of completions by holding shift while pressing&amp;nbsp;tab.&lt;/li&gt;
+&lt;li&gt;All matching names can be cycled through now, although they are
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1385"&gt;prioritized&lt;/a&gt;
+as:&lt;ol class="arabic"&gt;
+&lt;li&gt;Names of people who have pinged you (i.e. said your name in the&amp;nbsp;chat).&lt;/li&gt;
+&lt;li&gt;Names of active&amp;nbsp;participants.&lt;/li&gt;
+&lt;li&gt;Names of inactive&amp;nbsp;participants.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;IRC&lt;/span&gt; changes&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;IRC&lt;/span&gt; contacts (yes, you can add &lt;span class="caps"&gt;IRC&lt;/span&gt; nicks to your contacts list!) now
+have &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1123"&gt;tooltips which show the results of a &lt;span class="caps"&gt;WHOIS&lt;/span&gt;
+command&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Better support for &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1369"&gt;tracking if a nick is
+online/away/offline&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=318"&gt;topic &lt;span class="caps"&gt;UI&lt;/span&gt;&lt;/a&gt; now
+reflects whether you have permission to edit&amp;nbsp;it.&lt;/li&gt;
+&lt;li&gt;Many bugs were fixed and error messages were added as fallout to the
+landing of JavaScript-&lt;span class="caps"&gt;IRC&lt;/span&gt;. Thanks for filing&amp;nbsp;bugs!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="google-summer-of-code-status"&gt;
+&lt;h2&gt;Google Summer of Code&amp;nbsp;Status:&lt;/h2&gt;
+&lt;p&gt;The past few weeks were the &amp;#8220;bonding&amp;#8221; period for Google Summer of Code
+students and their respective communities; actual work has started this
+week. As part of the &amp;#8220;bonding&amp;#8221; period, we asked wnayes to check out &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1391"&gt;bug
+1391: adding the &amp;#8220;top protocols&amp;#8221; page to the account
+wizard&lt;/a&gt; (see
+above for a screenshot!).&amp;nbsp; We thought this would be a great introduction
+to our tools (mostly Bugzilla and Mercurial), our workflow (requesting
+reviews and feedback, discussing why changes were made, etc.), some of
+the languages that we use (&lt;span class="caps"&gt;XUL&lt;/span&gt;, &lt;span class="caps"&gt;XBL&lt;/span&gt;, &lt;span class="caps"&gt;CSS&lt;/span&gt;, and JavaScript) and to some of
+the account manager code that he will be working on this summer! wnayes
+has done a great job and the changes are already in the &lt;a class="reference external" href="http://nightly.instantbird.im/"&gt;nightly
+builds&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;To follow along with what wnayes will be working on this summer, you can
+read his
+&lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/blog/index.php/category/gsoc/"&gt;blog&lt;/a&gt;
+(&lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/blog/index.php/feed/rss2/category/gsoc/"&gt;&lt;span class="caps"&gt;RSS&lt;/span&gt;
+feed&lt;/a&gt;)
+and check out his &lt;a class="reference external" href="http://hg.instantbird.org/users/wnayes/"&gt;user
+repository&lt;/a&gt;. Additionally,
+he&amp;#8217;s posted some &lt;a class="reference external" href="http://www.tc.umn.edu/~nayes006/gsoc2012/index.php"&gt;general
+information&lt;/a&gt; (his
+application, timeline and a series of links) that he&amp;#8217;ll be updating as
+the summer continues. (And of course you can stop by our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel,
+#instantbird on irc.mozilla.org, and say&amp;nbsp;&amp;#8220;Hi!&amp;#8221;)&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 May 2012 15:37:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-05-23:/2012/05/status-update-may-23-2012/</guid><category>Development</category><category>GSoC</category><category>preview</category><category>status update</category></item><item><title>Status Update: April 17, 2012</title><link>http://blog.instantbird.org/2012/04/status-update-april-17-2012/</link><description>&lt;p&gt;A lot has happened in the past two months since our last post: we&amp;#8217;ve
+been quite busy trying to fix &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;the list of blockers for Instantbird
+1.2&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ve again joined Mozilla as part of their application for &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012"&gt;Google
+Summer of
+Code&lt;/a&gt;.
+You can see some of our ideas on &lt;a class="reference external" href="https://wiki.mozilla.org/Community:SummerOfCode12#Instantbird"&gt;Mozilla&amp;#8217;s
+wiki&lt;/a&gt;.
+(We should find out soon whether Instantbird will be doing any projects
+or not this&amp;nbsp;year!)&lt;/p&gt;
+&lt;div class="section" id="what-s-new"&gt;
+&lt;h2&gt;What&amp;#8217;s&amp;nbsp;New?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The JavaScript &lt;span class="caps"&gt;IRC&lt;/span&gt; implementation has landed! Many minor bugs were also
+fixed. The behavior is mostly the same as the old libpurple
+implementations, but there are differences. If you see issues, please
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/enter_bug.cgi"&gt;file a bug&lt;/a&gt;! This
+will allow for better &lt;span class="caps"&gt;IRC&lt;/span&gt; support in the&amp;nbsp;future.&lt;/li&gt;
+&lt;li&gt;The tab completion algorithm has been made smarter:&lt;ul&gt;
+&lt;li&gt;It now prefers the last person to have pinged you if there are
+multiple possible&amp;nbsp;completions.&lt;/li&gt;
+&lt;li&gt;Addressing multiple participants is now handled&amp;nbsp;gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There is now a reading position marker to show which messages arrived
+since you last viewed a&amp;nbsp;conversation.&lt;/li&gt;
+&lt;li&gt;Updated to Mozilla&amp;nbsp;11.&lt;/li&gt;
+&lt;li&gt;A few crashers have been&amp;nbsp;fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whats-coming-soon-being-worked-on"&gt;
+&lt;h2&gt;What’s Coming Soon / Being Worked&amp;nbsp;On?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Minor &lt;span class="caps"&gt;IRC&lt;/span&gt; fixes: see &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=component%3AIRC&amp;amp;list_id=1122"&gt;known &lt;span class="caps"&gt;IRC&lt;/span&gt;
+bugs&lt;/a&gt;
+(in particular, better error&amp;nbsp;handling).&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1337"&gt;Upgrade to libpurple
+2.10.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;Instantbird 1.2
+blockers&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-this-i-hear-about-thunderbird-integrating-instant-messaging-code-from-instantbird"&gt;
+&lt;h2&gt;What&amp;#8217;s this I hear about Thunderbird integrating instant messaging code from&amp;nbsp;Instantbird?&lt;/h2&gt;
+&lt;p&gt;You
+&lt;a class="reference external" href="http://www.rumblingedge.com/2012/03/13/instant-messaging-in-thunderbird-just-got-landed-should-appear-in-tomorrows-nightlies/"&gt;may&lt;/a&gt;
+&lt;a class="reference external" href="https://wiki.mozilla.org/Features/Thunderbird/Instant_messaging_in_Thunderbird"&gt;have&lt;/a&gt;
+heard that instant messaging was recently added to Thunderbird. This
+work was done by our very own Florian Quèze! Don&amp;#8217;t panic though! This
+doesn&amp;#8217;t mean that Instantbird development is stopping, we strongly
+believe there is a place for both a standalone instant messenger and a
+more integrated approach with email. This is a mutually beneficial
+relationship between Instantbird and Thunderbird where we share code,
+benefit from more testing and get a set of new people &amp;#8212; and ideas &amp;#8212;
+involved in making instant messaging easier and more about how you &amp;#8212;
+the user &amp;#8212; wants&amp;nbsp;it!&lt;/p&gt;
+&lt;p&gt;For those curious, approximately &lt;a class="reference external" href="http://lxr.instantbird.org/instantbird/source/chat"&gt;one-third of the Instantbird
+codebase&lt;/a&gt; is now
+&lt;a class="reference external" href="http://mxr.mozilla.org/comm-central/source/chat/"&gt;in Thunderbird&amp;#8217;s
+Daily&lt;/a&gt; and
+Earlybird builds.&amp;nbsp; Feel free to give it a try and file any bugs in
+&lt;a class="reference external" href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird&amp;amp;component=Instant%20Messaging"&gt;Mozilla&amp;#8217;s
+bugtracker&lt;/a&gt;.
+Currently it looks like this feature will likely appear in Thunderbird&amp;nbsp;15.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re getting close to the Instantbird 1.2 release and we think there&amp;#8217;s
+been a lot of great improvements that will make it easier and more
+natural to instant message with your friends, family, co-workers and&amp;nbsp;others!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 17 Apr 2012 13:52:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-17:/2012/04/status-update-april-17-2012/</guid><category>Development</category><category>irc</category><category>mozilla</category><category>status update</category></item><item><title>Status Update: February 25, 2012</title><link>http://blog.instantbird.org/2012/02/status-update-february-25-2012/</link><description>&lt;p&gt;We&amp;#8217;ve been awful at posting updates to our blog about what has been
+going on! It&amp;#8217;s too late now to even blame it on the holidays, but we owe
+you all an update about what’s been happening and here it is!&amp;nbsp; We do,
+generally, still have status meetings on Monday’s at 6:00 &lt;span class="caps"&gt;PM&lt;/span&gt; Paris time
+(that’s noon &lt;span class="caps"&gt;EST&lt;/span&gt;) in #instantbird on irc.mozilla.org. &amp;nbsp;Feel free to stop
+by and tell us what you love or what you hate or anything&amp;nbsp;else!&lt;/p&gt;
+&lt;div class="section" id="whats-new"&gt;
+&lt;h2&gt;What’s&amp;nbsp;New?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Tab completion is now smarter: “active” nicknames are now favored in
+completions and your own nickname is avoided in completions unless
+it’s the only&amp;nbsp;match.&lt;/li&gt;
+&lt;li&gt;The JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; protocol implementation developed by Varuna
+&lt;span class="caps"&gt;JAYASIRI&lt;/span&gt; for Google Summer of Code 2011 is now used for Facebook Chat
+and Google Talk accounts. It can’t yet fully replace the libpurple
+implementation until &lt;span class="caps"&gt;DNS&lt;/span&gt; &lt;span class="caps"&gt;SRV&lt;/span&gt; is&amp;nbsp;supported.&lt;/li&gt;
+&lt;li&gt;You can now scroll to the first unread message after opening a
+conversation that was on hold by pressing Alt+Page Up (you can also
+scroll to the top of the conversation by pressing Alt+Page Up again
+after&amp;nbsp;that)!&lt;/li&gt;
+&lt;li&gt;When opening a conversation on hold, the &lt;span class="caps"&gt;UI&lt;/span&gt; is now updated
+asynchronously if there are a lot of messages to restore. You may
+notice a progress bar has replaced the &lt;span class="caps"&gt;UI&lt;/span&gt; freeze we used to have in
+this&amp;nbsp;situation.&lt;/li&gt;
+&lt;li&gt;Conversations are now logged in a &lt;span class="caps"&gt;JSON&lt;/span&gt; format to allow more
+information than the old plaintext&amp;nbsp;logs.&lt;/li&gt;
+&lt;li&gt;You can now delete Twitter&amp;nbsp;messages.&lt;/li&gt;
+&lt;li&gt;Passwords are now stored in the Mozilla password manager! Previous
+saved passwords will be migrated to the password manager
+automatically, but the old saved password in the preference system is
+not yet deleted.&amp;nbsp; This will be handled in a future&amp;nbsp;update.&lt;/li&gt;
+&lt;li&gt;Buddy authorization requests have been rewritten to remove the
+(awful) modal&amp;nbsp;dialogue!&lt;/li&gt;
+&lt;li&gt;Mozilla was updated to 9.0.1 and libpurple was updated to&amp;nbsp;2.10.1.&lt;/li&gt;
+&lt;li&gt;Various crashers have been&amp;nbsp;fixed.&lt;/li&gt;
+&lt;li&gt;Additionally, a lot of code reorganization has occurred for ongoing
+work of sharing code with&amp;nbsp;Thunderbird.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whats-coming-soon-being-worked-on"&gt;
+&lt;h2&gt;What’s Coming Soon / Being Worked&amp;nbsp;On?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Our JavaScript implementation of &lt;span class="caps"&gt;IRC&lt;/span&gt; should be landing in the nightly
+builds soon, which should have feature parity to the libpurple
+implementation.&amp;nbsp; Please test this out!&amp;nbsp; You can find more information
+in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=507"&gt;bug
+507&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Integrate &lt;span class="caps"&gt;SIPE&lt;/span&gt; (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=976"&gt;bug
+976&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Add a reading position marker to quickly find the last read message
+in a conversation, &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=860"&gt;bug
+860&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Upgrade to Mozilla&amp;nbsp;10.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whats-up-with-instantbird-1-2"&gt;
+&lt;h2&gt;What’s up with Instantbird&amp;nbsp;1.2?&lt;/h2&gt;
+&lt;p&gt;We were hoping to release Instantbird 1.2 near the end of January,
+2012.&amp;nbsp; Unfortunately there are a few blockers / regressions that have
+been found, causing us to be unable to release.&amp;nbsp; Everything slated as
+wanted or blocking Instantbird 1.2 can be seen on our
+&lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2"&gt;Bugzilla&lt;/a&gt;.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The l10n scripts need to be updated and translations need to be&amp;nbsp;updated.&lt;/li&gt;
+&lt;li&gt;Decide whether to drop &lt;span class="caps"&gt;QQ&lt;/span&gt; (we need to support showing captchas to
+keep it): &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1021"&gt;bug
+1021&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Finish the JavaScript &lt;span class="caps"&gt;XMPP&lt;/span&gt; work (not all of these necessarily need to
+be done for Instantbird 1.2):&lt;ul&gt;
+&lt;li&gt;Handle setting a user’s&amp;nbsp;icon.&lt;/li&gt;
+&lt;li&gt;Allow adding/removing tags from a&amp;nbsp;buddy.&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;DNS&lt;/span&gt; &lt;span class="caps"&gt;SRV&lt;/span&gt; (not required for Facebook Chat or Google Talk): &lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=14328"&gt;Mozilla
+bug 14328&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Receiving formatted messages (&lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1231"&gt;bug
+1231&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Sending private messages to &lt;span class="caps"&gt;MUC&lt;/span&gt;&amp;nbsp;participants.&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;MUC&lt;/span&gt; topics need to be&amp;nbsp;supported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Currently a contact will disappear and not reappear when their name
+changes for some reason, &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1178"&gt;bug
+1178&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Conversations should show the history in new windows, &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=958"&gt;bug
+958&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;All message styles (not just Bubbles) should support context
+messages, &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1074"&gt;bug
+1074&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, please accept our sincerest apologies for not providing any
+updates in the past couple of months about the progress we’ve made with
+Instantbird.&amp;nbsp; We’re really excited about Instantbird 1.2 and can
+hopefully get it out to everyone as soon as possible!&amp;nbsp; As always,
+Instantbird is made great by the community and we’d love to have more
+help in working on it!&amp;nbsp; If you have any ideas (or no ideas, but some
+free time!) stop by #instantbird on irc.mozilla.org and we can have some
+discussions or point you to ways to help&amp;nbsp;you!&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 25 Feb 2012 20:17:03 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-02-25:/2012/02/status-update-february-25-2012/</guid><category>Development</category><category>status update</category></item><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
+past few weeks, but that doesn&amp;#8217;t mean nothings been going on! In fact,
+we&amp;#8217;ve had a lot of major changes coming down the pipeline: here&amp;#8217;s a
+summary of what&amp;#8217;s new with&amp;nbsp;Instantbird.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="compound"&gt;
+&lt;p&gt;Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that’s 6pm for
+people in France, and 9am for people in San Francisco) in
+&lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on
+irc.mozilla.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="what-s-been-done"&gt;
+&lt;h2&gt;What&amp;#8217;s Been&amp;nbsp;Done?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Dependency on libpurple has been eliminate: this included a big
+rewrite of the core service and how accounts and statuses were&amp;nbsp;handled.&lt;/li&gt;
+&lt;li&gt;Florian attended MozCamp and gave &lt;a class="reference external" href="https://wiki.mozilla.org/EU_MozCamp_2011/Schedule/Product_and_Technology_Track/Instantbird"&gt;a talk on
+Instantbird&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Participants in chat rooms are now only colored once they&amp;#8217;ve&amp;nbsp;participated.&lt;/li&gt;
+&lt;li&gt;Mozilla has been updated from 7.0.1 to 9.0 beta&amp;nbsp;2.&lt;/li&gt;
+&lt;li&gt;Many small back logged patches have been&amp;nbsp;checked-in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-been-happening"&gt;
+&lt;h2&gt;What&amp;#8217;s Been&amp;nbsp;Happening?&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fixing fallout from the upgrade to Mozilla 9.0 beta&amp;nbsp;2.&lt;/li&gt;
+&lt;li&gt;Work on &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=1171"&gt;integrating
+&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;XMPP&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Work on &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=507"&gt;integrating
+&lt;span class="caps"&gt;JS&lt;/span&gt;-&lt;span class="caps"&gt;IRC&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Work on integrating &lt;span class="caps"&gt;SIPE&lt;/span&gt; (Microsoft Office Communicator&amp;nbsp;protocol).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There&amp;#8217;s been lots of big changes landing, and more to come! Although
+many of them are back end changes, they&amp;#8217;ll pave the way for more visible
+features in the future.&amp;nbsp; We&amp;#8217;ll try to do a better job of keeping our
+blog up to date with what&amp;#8217;s going&amp;nbsp;on.&lt;/p&gt;
+&lt;p&gt;As always, full chat logs and the EtherPad is available for each
+meeting; November 7 (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111107/#m370"&gt;chat
+logs&lt;/a&gt;,
+&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111107"&gt;etherpad&lt;/a&gt;),
+November 14
+(&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111114"&gt;etherpad&lt;/a&gt;),
+and November 21 (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111121/#m252"&gt;chat
+logs&lt;/a&gt;,
+&lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111121"&gt;etherpad&lt;/a&gt;).
+Note that no real discussion occurred on November 14th, just a summary
+of the week&amp;#8217;s&amp;nbsp;progress.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 Nov 2011 04:57:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-23:/2011/11/weekly-meetings-november-7-14-and-21-2011/</guid><category>Development</category><category>weekly meetings</category></item></channel></rss>

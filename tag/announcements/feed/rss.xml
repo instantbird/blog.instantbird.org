@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The blog of Instantbird's development - announcements</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 16 Mar 2011 00:39:44 +0000</lastBuildDate><item><title>Mailing list publicly readable</title><link>http://blog.instantbird.org/2011/03/mailing-list-publicly-readable/</link><description>&lt;p&gt;We used to handle most support requests received from the contact &lt;span class="caps"&gt;AT&lt;/span&gt;
+instantbird &lt;span class="caps"&gt;DOT&lt;/span&gt; org email address on a mailing list which was private.
+This was inefficient as we replied to the same questions over and over
+and people couldn&amp;#8217;t benefit from old replies. New posts to the mailing
+list will now be publicly readable so that anybody in the community can
+help users with support requests (see our
+&lt;a class="reference external" href="https://wiki.instantbird.org/Mailing_lists#Reply_guidelines"&gt;guidelines&lt;/a&gt;
+describing how we have answered emails up to now), answer questions, or
+just read the feedback we&amp;nbsp;receive.&lt;/p&gt;
+&lt;p&gt;Anybody can subscribe to the Google group used:
+&lt;a class="reference external" href="http://groups.google.com/group/instantbird-contact"&gt;http://groups.google.com/group/instantbird-contact&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We have also created another mailing list for all bug changes, so that
+people interested in knowing what&amp;#8217;s changed in our bugzilla can get the
+information without requesting us to add them as globalwatchers on
+bugzilla. See &lt;a class="reference external" href="http://groups.google.com/group/instantbird-bugs"&gt;http://groups.google.com/group/instantbird-bugs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Note: if you don&amp;#8217;t have or don&amp;#8217;t want to use a Google account, you can
+subscribe by email using the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;[Groupname]+subscribe&amp;#64;googlegroups.com&lt;/span&gt;&lt;/tt&gt;
+address.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Wed, 16 Mar 2011 00:39:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-03-16:/2011/03/mailing-list-publicly-readable/</guid><category>Community</category><category>announcements</category></item></channel></rss>

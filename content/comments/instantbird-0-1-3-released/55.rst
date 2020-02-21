@@ -1,5 +1,0 @@
-:date: 2008-12-09 17:11
-:author: Kamen
-:replyto: 0
-
-Cool, guys! Keep on! Amazing work on the kernel!!!

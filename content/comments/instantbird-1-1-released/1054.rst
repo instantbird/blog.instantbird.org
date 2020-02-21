@@ -1,5 +1,0 @@
-:date: 2011-11-07 17:48
-:author:  
-:replyto: 0
-
-What about ULF (http://trac.adium.im/wiki/XMLLogFormat) as internal log format in future versions of Instantbird instead of current plain text logs?
