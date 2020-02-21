@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
 AUTHOR = 'The Instantbird Team'
 SITENAME = "The blog of Instantbird's development"
@@ -34,13 +33,6 @@ DEFAULT_DATE_FORMAT = '%B %-d, %Y'
 
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
 # Improve readability of HTML.
 TYPOGRIFY = True
 
@@ -52,10 +44,6 @@ LINKS = (
     ('Wiki', 'https://wiki.instantbird.org/'),
     ('About', 'http://www.instantbird.com/about.html'),
 )
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 # This is currently a modified copy of notmyidea, one of the default themes.
 THEME = 'theme'
@@ -105,6 +93,21 @@ TAG_FEED_RSS_URL = TAG_URL + 'feed/'
 TAG_FEED_RSS = TAG_FEED_RSS_URL + 'rss.xml'
 CATEGORY_FEED_RSS_URL = CATEGORY_URL + 'feed/'
 CATEGORY_FEED_RSS = CATEGORY_FEED_RSS_URL + 'rss.xml'
+
+AUTHOR_FEED_RSS_URL = AUTHOR_URL + 'feed/'
+AUTHOR_FEED_RSS = AUTHOR_FEED_RSS_URL + 'rss.xml'
+
+# Disable atom feeds.
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TAG_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+
+# Disable translation feeds.
+FEED_ATOM = None
+FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+TRANSLATION_FEED_RSS = None
 
 # Show full content in the feeds.
 RSS_FEED_SUMMARY_ONLY = False

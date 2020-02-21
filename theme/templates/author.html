@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 
-{% block title %}{{ tag|striptags }} | Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
+{% block title %}{{ author|striptags }} | Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
 
 {% block additional_feeds %}
-<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Posts by {{ author }} Feed" href="{{ FEED_DOMAIN }}/{{ AUTHOR_FEED_RSS_URL.format(slug=author.slug) }}" />
 {% endblock %}
 
-{% block body_class %}archive {% if articles_page.has_previous() %}paged {% endif %}tag two-column right-sidebar{% endblock %}
+{% block body_class %}archive {% if articles_page.has_previous() %}paged {% endif %}author two-column right-sidebar{% endblock %}
 
 {% block content %}
 <section id="primary">
   <div id="content" role="main">
   {% if articles_page.object_list %}
     <header class="page-header">
-      <h1 class="page-title">Tag Archives: <span>{{ tag }}</span></h1>
+      <h1 class="page-title">Author Archives: <span class="vcard"><a class="url fn n" href="/{{ author.url }}" title="{{ author }}" rel="me">{{ author }}</a></span></h1>
     </header>
 
     {% set nav_class='nav-above' %}
