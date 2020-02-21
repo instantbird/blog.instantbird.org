@@ -7,7 +7,7 @@ Weekly Meeting: October 17, 2011
 :slug: weekly-meeting-october-17-2011
 :status: published
 
-.. note::
+..
 
     Weekly meetings are held every Monday at 4pm UTC (that's 6pm for
     people in France, and 9am for people in San Francisco) in
