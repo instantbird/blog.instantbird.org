@@ -1,6 +1,5 @@
 * Tag slugification is wrong:
     * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)
-* Fix the rest of the RSS feeds
 
 * Hyphens (and maybe quotes?)
 * Lists / paragraphs in comments

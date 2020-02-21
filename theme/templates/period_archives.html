@@ -2,11 +2,6 @@
 
 {% block title %}{% for p in period|reverse %}{{ p }} | {% endfor %}Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
 
-{% block additional_feeds %}
-{# TODO #}
-{# <link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ tag }} Tag Feed" href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}" /> #}
-{% endblock %}
-
 {% block body_class %}archive {% if articles_page.has_previous() %}paged {% endif %}date two-column right-sidebar{% endblock %}
 
 {% block content %}
