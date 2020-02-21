@@ -1,7 +1,6 @@
 * Tag slugification is wrong:
     * mozilla -> mozilla-2 (this seems like it did something wrong in WP?)
 
-* Hyphens (and maybe quotes?)
 * Lists / paragraphs in comments
 * Smiles in comments.
 * Search?

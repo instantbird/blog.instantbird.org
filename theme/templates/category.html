@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ category }} | Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
+{% block title %}{{ category|striptags }} | Blog@instantbird.org{% if articles_page.has_previous() %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
 
 {% block additional_feeds %}
 <link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; {{ category }} Category Feed" href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}" />

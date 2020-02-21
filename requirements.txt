@@ -1,5 +1,8 @@
 pelican==4.2.0
 
+# Improves readability of HTML.
+typogrify==2.0.7
+
 # For automation.
 invoke==1.4.0
 ghp_import==0.5.5

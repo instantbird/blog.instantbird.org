@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ article.title }} | Blog@instantbird.org{% endblock %}
+{% block title %}{{ article.title|striptags }} | Blog@instantbird.org{% endblock %}
 
 {% block body_class %}single single-post single-format-standard singular two-column right-sidebar{% endblock %}
 

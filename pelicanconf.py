@@ -41,6 +41,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Improve readability of HTML.
+TYPOGRIFY = True
+
 # Top-level links.
 LINKS = (
     ('Blog', SITEURL),
