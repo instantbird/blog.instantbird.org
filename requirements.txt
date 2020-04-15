@@ -11,3 +11,6 @@ ghp_import==0.5.5
 BeautifulSoup4==4.5.3
 lxml==4.5.0
 pandoc==1.0.2
+
+# Required by the pelican_comment_system.
+pillow==7.1.1
