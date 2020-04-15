@@ -45,7 +45,7 @@ TYPOGRIFY = True
 
 # Top-level links.
 LINKS = (
-    ('Blog', SITEURL),
+    ('Blog', "/"),
     ('Add-ons', 'https://addons.instantbird.org/'),
     ('F.A.Q.', 'http://www.instantbird.com/faq.html'),
     ('Wiki', 'https://wiki.instantbird.org/'),
