@@ -24,6 +24,9 @@ EXTRA_PATH_METADATA = {
     # to be served:
     # https://help.github.com/articles/files-that-start-with-an-underscore-are-missing/
     'static/.nojekyll': {'path': '.nojekyll'},
+    # Tell GitHub the domain name:
+    # https://help.github.com/articles/adding-a-cname-file-to-your-repository/
+    'static/CNAME': {'path': 'CNAME'},
     # Include a favicon.
     'static/favicon.ico': {'path': 'favicon.ico'},
 }
