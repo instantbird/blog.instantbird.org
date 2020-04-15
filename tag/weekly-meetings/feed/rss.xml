@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - weekly meetings</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 23 Nov 2011 04:57:34 +0000</lastBuildDate><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
+<rss version="2.0"><channel><title>The blog of Instantbird's development - weekly meetings</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 23 Nov 2011 04:57:34 +0000</lastBuildDate><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>https://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
 past few weeks, but that doesn&amp;#8217;t mean nothings been going on! In fact,
 we&amp;#8217;ve had a lot of major changes coming down the pipeline: here&amp;#8217;s a
 summary of what&amp;#8217;s new with&amp;nbsp;Instantbird.&lt;/p&gt;
@@ -49,7 +49,7 @@ logs&lt;/a&gt;,
 Note that no real discussion occurred on November 14th, just a summary
 of the week&amp;#8217;s&amp;nbsp;progress.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 Nov 2011 04:57:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-23:/2011/11/weekly-meetings-november-7-14-and-21-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 31, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meeting-october-31-2011/</link><description>&lt;p&gt;At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 Nov 2011 04:57:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-23:/2011/11/weekly-meetings-november-7-14-and-21-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 31, 2011</title><link>https://blog.instantbird.org/2011/11/weekly-meeting-october-31-2011/</link><description>&lt;p&gt;At the weekly meeting held on October 31, 2011 plans for Instantbird 1.2
 were discussed as well as a summary of what&amp;#8217;s happened since the 1.1
 release. (&lt;a class="reference external" href="http://log.bezut.info/instantbird/111031/#m220"&gt;Full chatlogs&lt;/a&gt;
 are also available, as well as the &lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111031"&gt;Etherpad
@@ -78,7 +78,7 @@ large improvements. If you have the code checked out, you should&amp;nbsp;update
 &lt;div class="section" id="what-s-being-worked-on"&gt;
 &lt;h2&gt;What&amp;#8217;s Being Worked&amp;nbsp;On:&lt;/h2&gt;
 &lt;div class="wp-caption alignleft docutils container"&gt;
-&lt;a class="reference external image-reference" href="http://blog.instantbird.org/images/nickcolor13.png"&gt;&lt;img alt="Active participants are highlighted in color." src="http://blog.instantbird.org/images/nickcolor13.png" style="width: 159px; height: 387px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.instantbird.org/images/nickcolor13.png"&gt;&lt;img alt="Active participants are highlighted in color." src="https://blog.instantbird.org/images/nickcolor13.png" style="width: 159px; height: 387px;" /&gt;&lt;/a&gt;
 &lt;p&gt;Active participants are highlighted in&amp;nbsp;color.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ul class="simple"&gt;
@@ -119,14 +119,14 @@ irc.mozilla.org&lt;/a&gt;!&amp;nbsp; And as always,
 please file any bugs you see in our &lt;a class="reference external" href="https://bugzilla.instantbird.org"&gt;bug
 tracker&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 04 Nov 2011 15:52:14 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-04:/2011/11/weekly-meeting-october-31-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 17, 2011</title><link>http://blog.instantbird.org/2011/10/weekly-meeting-october-17-2011/</link><description>&lt;!--  --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 04 Nov 2011 15:52:14 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-11-04:/2011/11/weekly-meeting-october-31-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 17, 2011</title><link>https://blog.instantbird.org/2011/10/weekly-meeting-october-17-2011/</link><description>&lt;!--  --&gt;
 &lt;blockquote&gt;
 Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that&amp;#8217;s 6pm for
 people in France, and 9am for people in San Francisco) in
 &lt;a class="reference external" href="irc://irc.mozilla.org/instantbird"&gt;#instantbird on
 irc.mozilla.org&lt;/a&gt;.&lt;/blockquote&gt;
 &lt;p&gt;The second weekly meeting discussed some final details for the 1.1 release,
-which happened on October 18, 2011!&amp;nbsp;Read the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-1-released.rst"&gt;blog post&lt;/a&gt; about the release. In
+which happened on October 18, 2011!&amp;nbsp;Read the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-1-1-released.rst"&gt;blog post&lt;/a&gt; about the release. In
 addition, some plans for Instantbird 1.2 were&amp;nbsp;discussed.&lt;/p&gt;
 &lt;div class="section" id="development-issues-discussed"&gt;
 &lt;h2&gt;Development Issues&amp;nbsp;Discussed:&lt;/h2&gt;
@@ -167,7 +167,7 @@ Oh, and try out Instantbird 1.1 if you haven&amp;#8217;t (and tell your&amp;nbsp
 available, as well as the &lt;a class="reference external" href="https://etherpad.mozilla.org/instantbird-weekly-meeting-20111017"&gt;Etherpad
 timelime&lt;/a&gt;.)&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 21 Oct 2011 21:36:47 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-21:/2011/10/weekly-meeting-october-17-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 10, 2011</title><link>http://blog.instantbird.org/2011/10/weekly-meeting-october-10-2011/</link><description>&lt;!--  --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 21 Oct 2011 21:36:47 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-21:/2011/10/weekly-meeting-october-17-2011/</guid><category>Development</category><category>weekly meetings</category></item><item><title>Weekly Meeting: October 10, 2011</title><link>https://blog.instantbird.org/2011/10/weekly-meeting-october-10-2011/</link><description>&lt;!--  --&gt;
 &lt;blockquote&gt;
 Weekly meetings are held every Monday at 4pm &lt;span class="caps"&gt;UTC&lt;/span&gt; (that&amp;#8217;s 6pm for
 people in France, and 9am for people in San Francisco.)&lt;/blockquote&gt;

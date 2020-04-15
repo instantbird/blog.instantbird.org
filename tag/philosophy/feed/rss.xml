@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - philosophy</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>http://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
+<rss version="2.0"><channel><title>The blog of Instantbird's development - philosophy</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>https://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
 features (you can see them
 clicking&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;). The
 Instantbird team is interested in offering this &lt;span class="caps"&gt;IM&lt;/span&gt; client to everyone,
@@ -21,7 +21,7 @@ we&amp;nbsp;encourage&amp;nbsp;interested people to translate it to&amp;nbsp;the
 you&amp;#8217;re interested in helping us achieve this goal by creating
 new&amp;nbsp;translations&amp;nbsp;or&amp;nbsp;improving Instantbird, you can get more
 information&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.org/#getinvolved"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Our goals: toward Instantbird 0.2 and beyond</title><link>http://blog.instantbird.org/2010/06/our-goals-toward-instantbird-0-2-and-beyond/</link><description>&lt;p&gt;As you may already know, Instantbird 0.2 will be released soon. The
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Our goals: toward Instantbird 0.2 and beyond</title><link>https://blog.instantbird.org/2010/06/our-goals-toward-instantbird-0-2-and-beyond/</link><description>&lt;p&gt;As you may already know, Instantbird 0.2 will be released soon. The
 development of this version has been going on for more than a year
 already! While we have been busy adding new features or polishing
 existing ones, we may have missed a few opportunities to communicate
@@ -54,7 +54,7 @@ things don&amp;#8217;t look satisfying and we have to look for a better solution
 We especially try to avoid exposing the user to new popup dialogs that
 interrupt the user but don&amp;#8217;t seem absolutely&amp;nbsp;necessary.&lt;/p&gt;
 &lt;p&gt;Once something is implemented, we do our best to take advantage of the
-early feedback we get from our &lt;a class="reference external" href="http://blog.instantbird.org/articles/nightly-builds-available.rst"&gt;nightly&lt;/a&gt;&amp;nbsp;testers.&lt;/p&gt;
+early feedback we get from our &lt;a class="reference external" href="https://blog.instantbird.org/articles/nightly-builds-available.rst"&gt;nightly&lt;/a&gt;&amp;nbsp;testers.&lt;/p&gt;
 &lt;p&gt;So why are we doing this? Copying the interface of an existing
 application as quickly as possible would be easier, and would lead to a
 fast result. But it would be worthless. We don&amp;#8217;t need another Pidgin,

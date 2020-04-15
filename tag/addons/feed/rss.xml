@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - addons</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+<rss version="2.0"><channel><title>The blog of Instantbird's development - addons</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>https://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
 any mathematics contained in your conversations will be beautifully
 rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;img alt="" class="alignright size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
 &lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
 &lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
 equations displayed properly. And of course, as LaTeX is text-based,
@@ -19,7 +19,7 @@ refer&amp;nbsp;to.&lt;/p&gt;
 &lt;p&gt;The add-on works with all Instantbird message styles, so you don&amp;#8217;t have
 to change your favourite&amp;nbsp;theme.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;Get the add-on&amp;nbsp;here!&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item><item><title>The Interruptions Manager</title><link>http://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Mon, 15 Apr 2013 01:00:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2013-04-15:/2013/04/latex-support-brings-prettier-math-to-your-messages/</guid><category>Features</category><category>addons</category><category>announce</category><category>downloads</category><category>latex</category><category>mathematics</category></item><item><title>The Interruptions Manager</title><link>https://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
 spot in our &lt;span class="caps"&gt;API&lt;/span&gt; was the ability to control whether events should be
 shown to a user or cancelled under certain conditions.&amp;nbsp; This fits in as
 part of our mission about giving control of instant messaging to the
@@ -57,7 +57,7 @@ will be available on
 &lt;a class="reference external" href="http://addons.instantbird.org"&gt;addons.instantbird.org&lt;/a&gt;&amp;nbsp;soon!&lt;/p&gt;
 &lt;p&gt;We think this is a great addition for add-on developers working on
 Instantbird and can&amp;#8217;t wait to see what exciting ideas people come up&amp;nbsp;with!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 15 Oct 2011 00:24:52 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-15:/2011/10/the-interruptions-manage/</guid><category>Features</category><category>1.1</category><category>addons</category><category>irc</category><category>preview</category></item><item><title>Instantbird 0.2 alpha 1 and addons!</title><link>http://blog.instantbird.org/2009/07/instantbird-0-2-alpha-1-and-addons/</link><description>&lt;p&gt;Today is a very special day for us. We have a double release to&amp;nbsp;announce!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 15 Oct 2011 00:24:52 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-15:/2011/10/the-interruptions-manage/</guid><category>Features</category><category>1.1</category><category>addons</category><category>irc</category><category>preview</category></item><item><title>Instantbird 0.2 alpha 1 and addons!</title><link>https://blog.instantbird.org/2009/07/instantbird-0-2-alpha-1-and-addons/</link><description>&lt;p&gt;Today is a very special day for us. We have a double release to&amp;nbsp;announce!&lt;/p&gt;
 &lt;p&gt;First, the long awaited add-ons website is now ready for you to use. You
 will already find a lot of extensions on it since we took care of
 uploading more than 200 of them. Think about browsing the experimental
@@ -69,10 +69,10 @@ you to try it! There&amp;#8217;s a lot of new interesting stuff in this one. Her
 are some of them, read the &lt;a class="reference external" href="http://www.instantbird.com/download-0.2a1.html"&gt;release
 notes&lt;/a&gt; for&amp;nbsp;more:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;It is &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-localizability.rst"&gt;ready to be localized&lt;/a&gt;
+&lt;li&gt;It is &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-localizability.rst"&gt;ready to be localized&lt;/a&gt;
 (and you can try an &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/207"&gt;experimental French language
 pack&lt;/a&gt;),&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;Improved conversations&lt;/a&gt;:
+&lt;li&gt;&lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;Improved conversations&lt;/a&gt;:
 you can change conversation styles, smiley themes are now&amp;nbsp;handled.&lt;/li&gt;
 &lt;li&gt;We implemented a &amp;#8216;magic&amp;#8217; copy/paste feature that will allow you to
 have pretty quotes out of messages copied from Instantbird. Some bugs
@@ -83,13 +83,13 @@ hesitate to give it a&amp;nbsp;try!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can download the alpha and read the release notes from
 &lt;a class="reference external" href="http://www.instantbird.com/download-0.2a1.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jul 2009 17:01:46 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2009-07-23:/2009/07/instantbird-0-2-alpha-1-and-addons/</guid><category>Downloads</category><category>0.2</category><category>addons</category><category>alpha</category></item><item><title>Instantbird 0.2 feature preview: protocols as extensions</title><link>http://blog.instantbird.org/2009/04/instantbird-0-2-feature-preview-protocols-as-extensions-2/</link><description>&lt;p&gt;One of the features we wanted in Instantbird 0.2 was the ability to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jul 2009 17:01:46 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2009-07-23:/2009/07/instantbird-0-2-alpha-1-and-addons/</guid><category>Downloads</category><category>0.2</category><category>addons</category><category>alpha</category></item><item><title>Instantbird 0.2 feature preview: protocols as extensions</title><link>https://blog.instantbird.org/2009/04/instantbird-0-2-feature-preview-protocols-as-extensions-2/</link><description>&lt;p&gt;One of the features we wanted in Instantbird 0.2 was the ability to
 install libpurple protocol plugins like any other addon. I&amp;#8217;m happy to
 report that this is now possible with current &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;nightly
 builds&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To demonstrate this feature, I compiled the &lt;a class="reference external" href="http://code.google.com/p/pidgin-facebookchat/"&gt;Facebook Chat libpurple
 protocol plugin&lt;/a&gt;. The
-result is an &lt;a class="reference external" href="http://blog.instantbird.org/files/facebook.xpi"&gt;installable xpi file&lt;/a&gt; of about 200kB,
+result is an &lt;a class="reference external" href="https://blog.instantbird.org/files/facebook.xpi"&gt;installable xpi file&lt;/a&gt; of about 200kB,
 that people can try with nightly builds of&amp;nbsp;Instantbird.&lt;/p&gt;
 &lt;p&gt;This file contains a binary module compiled for Windows, Linux and Mac
 &lt;span class="caps"&gt;OS&lt;/span&gt; X (universal), produced by copying the code from
@@ -97,7 +97,7 @@ that people can try with nightly builds of&amp;nbsp;Instantbird.&lt;/p&gt;
 into the Instantbird source tree. This is the quickest way I found to
 build it, we will need to figure out a better (without having to
 download and build the whole Instantbird source code) way later. This is
-&lt;a class="reference external" href="http://blog.instantbird.org/files/add-facebook-chat-prpl.patch"&gt;the exact patch I used&lt;/a&gt; to build&amp;nbsp;it.&lt;/p&gt;
+&lt;a class="reference external" href="https://blog.instantbird.org/files/add-facebook-chat-prpl.patch"&gt;the exact patch I used&lt;/a&gt; to build&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;The xpi file also contains a set of icons and a locale file. I will
 explain in another post how we replaced the usage of &lt;tt class="docutils literal"&gt;gettext&lt;/tt&gt; in
 libpurple by a way to get localized strings from regular .properties&amp;nbsp;files.&lt;/p&gt;

@@ -23,13 +23,13 @@
 <script src="/theme/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="http://blog.instantbird.org/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="http://blog.instantbird.org/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Features Category Feed" href="http://blog.instantbird.org/category/features/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Feed" href="https://blog.instantbird.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Comments Feed" href="https://blog.instantbird.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog@instantbird.org &raquo; Features Category Feed" href="https://blog.instantbird.org/category/features/feed/" />
 
 <script type='text/javascript' src='/theme/js/l10n.js?ver=20101110'></script>
 <script type='text/javascript' src='/theme/js/jquery/jquery.js?ver=1.6.1'></script>
-<link rel='index' title='Blog@instantbird.org' href='http://blog.instantbird.org' />
+<link rel='index' title='Blog@instantbird.org' href='https://blog.instantbird.org' />
 </head>
 
 <body class="archive paged category two-column right-sidebar">
@@ -70,7 +70,7 @@
 
   <div class="entry-content">
     <p>Instantbird 0.2 was released with Bubbles as its default message&nbsp;theme:</p>
-<p><img alt="default message themes of Instantbird 0.2" src="http://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /></p>
+<p><img alt="default message themes of Instantbird 0.2" src="https://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /></p>
 <p>The most common feedback we received from users that quickly switched
 back to Simple (the previous default) or another theme was that the lack
 of timestamp for each message made the theme&nbsp;unusable.</p>
@@ -107,7 +107,7 @@ take into account what has just been said, it&#8217;s just that the message
 wasn&#8217;t read yet at the time the reply was&nbsp;written.</p>
 <p>I believe having to read and compare mentally 2 timestamps to get that
 information is overly complicated and we can convey this information&nbsp;visually:</p>
-<p><img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="http://blog.instantbird.org/images/bubbles-with-different-spacing.png" /></p>
+<p><img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="https://blog.instantbird.org/images/bubbles-with-different-spacing.png" /></p>
 <p>The vertical space between Bubbles is used to show how much time
 separates messages. If 2 people talked at the same second, their bubbles
 will almost touch each other. If there&#8217;s been a pause between the
@@ -123,7 +123,7 @@ likely-read message and a most-likely-not-read-yet message), but makes
 it hard to evaluate time intervals of several minutes. To address that,
 when messages are separated by over 5 minutes, the exact time is
 displayed between the bubbles in gray&nbsp;text:</p>
-<p><img alt="screenshot of 2 messages with over 5 minutes of interval" src="http://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /></p>
+<p><img alt="screenshot of 2 messages with over 5 minutes of interval" src="https://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /></p>
 </div>
 <div class="section" id="is-this-message-old">
 <h2>2. Is this message&nbsp;old?</h2>
@@ -143,18 +143,18 @@ so displaying this time requires an animation: messages will &#8220;scroll
 away&#8221; as they get old. If a message is older than 5 minutes, the time
 since it appeared will be written (omitting seconds, so that the text
 displayed doesn&#8217;t change&nbsp;continuously).</p>
-<p>Just arrived message: <img alt="screenshot of the area at the bottom of the conversation without space" src="http://blog.instantbird.org/images/bubble-just-arrived-message.png" /></p>
-<p>Message arrived a while ago: <img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="http://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /></p>
+<p>Just arrived message: <img alt="screenshot of the area at the bottom of the conversation without space" src="https://blog.instantbird.org/images/bubble-just-arrived-message.png" /></p>
+<p>Message arrived a while ago: <img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="https://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /></p>
 </div>
 <div class="section" id="when-did-i-say-that">
 <h2>3. When did I say&nbsp;that?</h2>
 <p>This question occurs occasionally when looking for something in the
-backlog (typically using <a class="reference external" href="http://blog.instantbird.org/articles/conversation-tools.rst">the findbar</a>).
+backlog (typically using <a class="reference external" href="https://blog.instantbird.org/articles/conversation-tools.rst">the findbar</a>).
 In this case, the time is actually the desired information, but seconds
 are irrelevant, so only the hour and minutes need to be displayed. For
 this case, I decided to display the time of the first message of a
 bubble when the bubbles is&nbsp;hovered:</p>
-<p><img alt="hovered bubble" src="http://blog.instantbird.org/images/bubble-hovered.png" /></p>
+<p><img alt="hovered bubble" src="https://blog.instantbird.org/images/bubble-hovered.png" /></p>
 </div>
 <div class="section" id="what-was-the-time-of-a-specific-message">
 <h2>4. What was the time of a specific&nbsp;message?</h2>
@@ -170,7 +170,7 @@ we called &#8220;magic copy&#8221;: when a selection inside a conversation is co
 into the clipboard, Instantbird will detect which messages are selected,
 and &#8220;prettyprint&#8221; them so that whatever message theme is currently in
 used doesn&#8217;t change the appearance of quoted&nbsp;messages.</p>
-<p><img alt="the input box with a copy of some selected messages" src="http://blog.instantbird.org/images/bubbles-magic-copy.png" /></p>
+<p><img alt="the input box with a copy of some selected messages" src="https://blog.instantbird.org/images/bubbles-magic-copy.png" /></p>
 <div class="section" id="conclusion">
 <h3>Conclusion</h3>
 <p>I have experimented with all of these suggestions for over a year
@@ -214,26 +214,26 @@ likely to expect&nbsp;one.</p>
 conversation (although pressing enter or double clicking is usually
 faster), show the conversation history, rename a contact, move the
 contact to a different group or remove it from the&nbsp;list:</p>
-<p><img alt="Buddy context menu" src="http://blog.instantbird.org/images/buddy_context-menu2.png" /></p>
+<p><img alt="Buddy context menu" src="https://blog.instantbird.org/images/buddy_context-menu2.png" /></p>
 <p>The context menu is usable anywhere in the buddy list to toggle the
 display of offline&nbsp;buddies:</p>
-<p><img alt="Buddy list context menu" src="http://blog.instantbird.org/images/blist_context-menu2.png" /></p>
+<p><img alt="Buddy list context menu" src="https://blog.instantbird.org/images/blist_context-menu2.png" /></p>
 <p>A context menu was added in the account manager too. There, it proposes
 all the possible actions for an account. Since Instantbird 0.2, it&#8217;s
 possible to reorder the accounts in the list (this is also possible with
 drag <span class="amp">&amp;</span> drop using the mouse or with the keyboard using shift + the up or
 down&nbsp;arrow).</p>
-<p><img alt="Account context menu" src="http://blog.instantbird.org/images/account_context-menu2.png" /></p>
+<p><img alt="Account context menu" src="https://blog.instantbird.org/images/account_context-menu2.png" /></p>
 <p>A context menu is available on conversation tabs, with actions related
 to that tab (opening it in a new window, closing it, &#8230;) and to the
 conversation, like showing the history of previous conversations with
 the same&nbsp;contact.</p>
-<p><img alt="Tab context menu" src="http://blog.instantbird.org/images/tab_context-menu2.png" /></p>
+<p><img alt="Tab context menu" src="https://blog.instantbird.org/images/tab_context-menu2.png" /></p>
 <p>Last but not least, there&#8217;s a context menu in conversation content. This
 is the most &#8220;contextual&#8221; context menu we have added. The proposed
 actions will vary depending on whether there is a selection or if the
 context click was done over a&nbsp;link.</p>
-<p><img alt="Content context menu" src="http://blog.instantbird.org/images/text_context-menu2.png" /></p>
+<p><img alt="Content context menu" src="https://blog.instantbird.org/images/text_context-menu2.png" /></p>
 <p>When selecting some text from a conversation, a common action is to copy
 it to the clipboard and then paste it in a browser to use it as the
 query in search engine. We have included search engine items directly in
@@ -267,9 +267,9 @@ clarity have been removed, and alignments have been improved. All of
 this contributes to a better use of the available space on the screen,
 and to a better perceived impression of simplicity in the user&nbsp;interface.</p>
 <p>To illustrate this, let&#8217;s compare the conversation window before and&nbsp;after:</p>
-<p><img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/conv_before-after.png" /></p>
+<p><img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/conv_before-after.png" /></p>
 <p>The buddy list has also been&nbsp;improved:</p>
-<p><img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/blist_before-after.png" /></p>
+<p><img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/blist_before-after.png" /></p>
 <p>The status can now be changed directly from the top of the buddy list
 instead of having to interact with a poor popup dialog. (Note that for
 the users who hate clicking, the status can also be changed quickly
@@ -277,7 +277,7 @@ using commands from conversation windows: <tt class="docutils literal">/away</tt
 <tt class="docutils literal">/offline</tt>.)</p>
 <p>The account manager has also been simplified a lot, and is now usable in
 a much smaller&nbsp;window:</p>
-<p><img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/am_before-after.png" /></p>
+<p><img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/am_before-after.png" /></p>
 
   </div><!-- .entry-content -->
 
@@ -303,7 +303,7 @@ a much smaller&nbsp;window:</p>
   <div class="entry-content">
     <p>As exchanging messages is the most important feature of an instant
 messaging client, we put a great deal of thought into the way the
-messages are displayed. As we have <a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst">already explained</a>,
+messages are displayed. As we have <a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst">already explained</a>,
 we decided to implement the <a class="reference external" href="http://adium.im/">Adium</a> message style
 system. This system offers a great flexibility to message style authors
 to display the conversation content the way they&nbsp;want.</p>
@@ -320,7 +320,7 @@ with one other user, there&#8217;s a background color for your messages, and a
 color for the messages you receive. In multi-user chat rooms, there&#8217;s a
 different color for each participant, so you easily can tell which
 messages are sent by the same&nbsp;participant:</p>
-<p><img alt="chat room with people talking in colorful chat bubbles" src="http://blog.instantbird.org/images/chatroom2.png" /></p>
+<p><img alt="chat room with people talking in colorful chat bubbles" src="https://blog.instantbird.org/images/chatroom2.png" /></p>
 <p>In this theme, the display of messages is clear and well spaced out.
 This theme was designed to be usable for most&nbsp;users.</p>
 <p>A few special features have been added to this theme to improve the
@@ -329,7 +329,7 @@ messages from the same person are grouped automatically, consecutive
 system messages are automatically grouped and collapsed, and the
 timestamps are no longer displayed for each message, but as a tooltip
 when a message is&nbsp;hovered.</p>
-<p><img alt="Conversation using the Bubbles theme, with grouped messages and collapsed system messages" src="http://blog.instantbird.org/images/bubbles2.png" /></p>
+<p><img alt="Conversation using the Bubbles theme, with grouped messages and collapsed system messages" src="https://blog.instantbird.org/images/bubbles2.png" /></p>
 <p>Because we know one theme cannot fit the needs of everybody, we provide
 a few other themes by&nbsp;default.</p>
 </div>
@@ -337,13 +337,13 @@ a few other themes by&nbsp;default.</p>
 <h2>Dark</h2>
 <p>The &#8220;Dark&#8221; theme is designed to please people who like having a dark
 (almost black) background color in their&nbsp;windows.</p>
-<p><img alt="Conversation using the Dark message theme" src="http://blog.instantbird.org/images/dark2.png" /></p>
+<p><img alt="Conversation using the Dark message theme" src="https://blog.instantbird.org/images/dark2.png" /></p>
 </div>
 <div class="section" id="paper-sheets">
 <h2>Paper&nbsp;Sheets</h2>
 <p>The &#8220;Paper Sheets&#8221; theme is a less fancy alternative to the default
 Bubble&nbsp;theme.</p>
-<p><img alt="Conversation using the Paper Sheets message theme" src="http://blog.instantbird.org/images/papersheets2.png" /></p>
+<p><img alt="Conversation using the Paper Sheets message theme" src="https://blog.instantbird.org/images/papersheets2.png" /></p>
 <p>Most of the features of Bubbles are also there, but it takes less space
 on the screen (no bubbles), and the colors are&nbsp;lighter.</p>
 <p>The margins used in this theme automatically adapt based on the total
@@ -356,7 +356,7 @@ use a very small conversation&nbsp;window.</p>
 want to have a very compact message theme, we have included a message
 theme called &#8220;Simple.&#8221; With this theme, all the space is used for the
 conversation&nbsp;messages.</p>
-<p><img alt="Conversation using the Simple theme" src="http://blog.instantbird.org/images/simple2.png" /></p>
+<p><img alt="Conversation using the Simple theme" src="https://blog.instantbird.org/images/simple2.png" /></p>
 <p>Finally, a little reminder about extensibility: even though the themes
 included by default have been designed to fit the needs of most users,
 they may not fit perfectly your personal taste, and that&#8217;s why there are
@@ -392,11 +392,11 @@ is also very&nbsp;easy.</p>
     <p>The preferences dialog is a new feature in Instantbird 0.2 which will
 feel familiar to Firefox users. The overall appearance is the same,
 making you feel at&nbsp;home.</p>
-<p><img alt="General tab of the preference dialog" src="http://blog.instantbird.org/images/pref1.png" /></p>
+<p><img alt="General tab of the preference dialog" src="https://blog.instantbird.org/images/pref1.png" /></p>
 <p>Some of the options are also the&nbsp;same&#8230;</p>
-<p><img alt="Themes tab of the preference dialog" src="http://blog.instantbird.org/images/pref2.png" /></p>
+<p><img alt="Themes tab of the preference dialog" src="https://blog.instantbird.org/images/pref2.png" /></p>
 <p>&#8230; while some are very specific to&nbsp;Instantbird:</p>
-<p><img alt="Advanced tab of the preference dialog" src="http://blog.instantbird.org/images/pref3.png" /></p>
+<p><img alt="Advanced tab of the preference dialog" src="https://blog.instantbird.org/images/pref3.png" /></p>
 
   </div><!-- .entry-content -->
 
@@ -428,7 +428,7 @@ conversations in&nbsp;Instantbird:</p>
 conversation is a common action. Instantbird uses the same findbar as
 Firefox to provide a search facility inside conversations. Just press
 Ctrl + F (Command + F on Mac <span class="caps">OS</span> X) and the findbar will&nbsp;appear:</p>
-<p><img alt="Findbar in conversation window" src="http://blog.instantbird.org/images/findbar.png" /></p>
+<p><img alt="Findbar in conversation window" src="https://blog.instantbird.org/images/findbar.png" /></p>
 <p>However, when looking for something in a conversation, the most recent
 match is probably the most interesting. That&#8217;s why for Instantbird we
 adapted the findbar to search from bottom to top by&nbsp;default.</p>
@@ -440,7 +440,7 @@ content on a small screen? Then the zoom feature is for&nbsp;you.</p>
 <p>The keyboard shortcuts are the same as in Firefox: Ctrl + + to increase
 the size, Ctrl + - to decrease, and Ctrl + 0 to reset to the default
 size (Command instead of Ctrl on Mac <span class="caps">OS</span>&nbsp;X).</p>
-<p><img alt="same conversation zoomed at various scales" src="http://blog.instantbird.org/images/zoom.png" /></p>
+<p><img alt="same conversation zoomed at various scales" src="https://blog.instantbird.org/images/zoom.png" /></p>
 <p>The changes in zoom settings are applied to all conversations at once
 and saved so that you do not need to adapt the zoom more than&nbsp;once.</p>
 </div>
@@ -480,33 +480,33 @@ the same way as in Firefox&nbsp;3.6.</p>
 are only a few tabs, their width allows seeing most of the title of the
 conversations, and a close button is visible on each tab, making it easy
 to close a tab with a single&nbsp;click.</p>
-<p><img alt="Top of conversation window with 2 tabs and some free space" src="http://blog.instantbird.org/images/tabs1-2tabsandfreespace.png" /></p>
+<p><img alt="Top of conversation window with 2 tabs and some free space" src="https://blog.instantbird.org/images/tabs1-2tabsandfreespace.png" /></p>
 <p>If there are more tabs or if the window is smaller, the tabs shrink, and
 the close button remains visible only on the selected tab to save&nbsp;space.</p>
-<p><img alt="Top of conversation window with 4 tabs, only one close button is displayed" src="http://blog.instantbird.org/images/tabs2-4tabs1closebutton.png" /></p>
+<p><img alt="Top of conversation window with 4 tabs, only one close button is displayed" src="https://blog.instantbird.org/images/tabs2-4tabs1closebutton.png" /></p>
 <p>If the space is really too limited to fit all the conversation tabs, the
 tab bar becomes scrollable and a button appears to give the user a way
 to display a list of all tabs at&nbsp;once.</p>
-<p><img alt="Top of conversation window with overflowing tabs, and the all tabs menu opened" src="http://blog.instantbird.org/images/tabs3-overflowandalltabsmenu.png" /></p>
+<p><img alt="Top of conversation window with overflowing tabs, and the all tabs menu opened" src="https://blog.instantbird.org/images/tabs3-overflowandalltabsmenu.png" /></p>
 <p>All this makes very small conversation windows&nbsp;usable.</p>
-<p><img alt="Very small conversation window with 2 tabs" src="http://blog.instantbird.org/images/tabs4-smallwindow.png" /></p>
+<p><img alt="Very small conversation window with 2 tabs" src="https://blog.instantbird.org/images/tabs4-smallwindow.png" /></p>
 </div>
 <div class="section" id="drag-and-drop">
 <h2>Drag and&nbsp;drop</h2>
 <p>Tabs can be easily reordered, just drag a tab and drop it where you wish
 it to&nbsp;be.</p>
-<p><img alt="dragging a tab, tab drop arrow visible in the same window" src="http://blog.instantbird.org/images/tabs5-reorder.png" /></p>
+<p><img alt="dragging a tab, tab drop arrow visible in the same window" src="https://blog.instantbird.org/images/tabs5-reorder.png" /></p>
 <p>Dropping a tab elsewhere detaches the tab to create a new window. The
 new window appears where the tab was&nbsp;dropped.</p>
-<p><img alt="new window with only one tab" src="http://blog.instantbird.org/images/tabs6-detach.png" /></p>
+<p><img alt="new window with only one tab" src="https://blog.instantbird.org/images/tabs6-detach.png" /></p>
 <p>Tabs can also be dragged between&nbsp;windows:</p>
-<p><img alt="dragging a tab, drop arrow visible in another window" src="http://blog.instantbird.org/images/tabs7-movebetweenwindows.png" /></p>
+<p><img alt="dragging a tab, drop arrow visible in another window" src="https://blog.instantbird.org/images/tabs7-movebetweenwindows.png" /></p>
 </div>
 <div class="section" id="os-integration">
 <h2><span class="caps">OS</span>&nbsp;integration</h2>
 <p>On Mac <span class="caps">OS</span> X, the active conversation window is easy to distinguish from
 the others, thanks to different colors of the&nbsp;tabs.</p>
-<p><img alt="An active and an inactive conversation window on Mac OS X" src="http://blog.instantbird.org/images/tabs8-macosxactiveinactive.png" /></p>
+<p><img alt="An active and an inactive conversation window on Mac OS X" src="https://blog.instantbird.org/images/tabs8-macosxactiveinactive.png" /></p>
 </div>
 
   </div><!-- .entry-content -->
@@ -636,7 +636,7 @@ function submitSearch() {
   </div><!-- #page -->
   <footer id="colophon" role="contentinfo">
     <div id="footer">
-      <p>&copy; 2007-2012 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
+      <p>&copy; 2007-2016 - <a href="https://www.instantbird.com/about.html">The Instantbird Team</a>.</p>
       <p class="small-text">
         All product names and trademarks are the property of their respective owners.
         <a href="https://getpelican.com/" title="Pelican Static Site Generator, Powered by Python" rel="generator">Proudly powered by Pelican</a>

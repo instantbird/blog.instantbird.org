@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - quality control</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 04 Jul 2010 20:43:22 +0000</lastBuildDate><item><title>Stability</title><link>http://blog.instantbird.org/2010/07/stability/</link><description>&lt;p&gt;We care a lot about the stability of Instantbird. Again, the Mozilla
+<rss version="2.0"><channel><title>The blog of Instantbird's development - quality control</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 04 Jul 2010 20:43:22 +0000</lastBuildDate><item><title>Stability</title><link>https://blog.instantbird.org/2010/07/stability/</link><description>&lt;p&gt;We care a lot about the stability of Instantbird. Again, the Mozilla
 platform has some great tools to help us&amp;nbsp;here.&lt;/p&gt;
 &lt;div class="section" id="crash-reporting"&gt;
 &lt;h2&gt;Crash&amp;nbsp;Reporting&lt;/h2&gt;
@@ -8,7 +8,7 @@ interruption in your work flow will pop up, and suggest you send some
 anonymous information about this issue to our servers. We can then
 analyze it and fix it for a later version, to make Instantbird more
 stable for&amp;nbsp;you.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Instantbird Crash Reporter dialog" src="http://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Instantbird Crash Reporter dialog" src="https://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This crash reporting system has already helped us a lot to improve the
 overall stability of&amp;nbsp;Instantbird.&lt;/p&gt;
 &lt;/div&gt;
@@ -27,12 +27,12 @@ one, but if it does occur to you: don&amp;#8217;t worry! At the next start up, y
 will see the account manager pop up with a message explaining the
 situation and inviting you to either retry connecting or edit the
 configuration of your&amp;nbsp;accounts:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager with automatic connection disabled and an error message explaining the problem" src="http://blog.instantbird.org/images/autologin-crash-global.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account manager with automatic connection disabled and an error message explaining the problem" src="https://blog.instantbird.org/images/autologin-crash-global.png" /&gt;&lt;/p&gt;
 &lt;p&gt;If the crash occurred after you added an account or changed the
 configuration of an account, this account will be the only one that
 won&amp;#8217;t connect at the next startup, and the message in the account
 manager will look like&amp;nbsp;this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager where an account was disabled because of a crash during the last connection attempt." src="http://blog.instantbird.org/images/autologin-crash-account.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account manager where an account was disabled because of a crash during the last connection attempt." src="https://blog.instantbird.org/images/autologin-crash-account.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="updates"&gt;
 &lt;h2&gt;Updates&lt;/h2&gt;
@@ -43,10 +43,10 @@ quickly release a new minor version including a fix for the&amp;nbsp;issue.&lt;/
 automatically if a newer version is available. If you accept the update,
 it will then be downloaded automatically and applied during the next
 start&amp;nbsp;up.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Dialog prompting the user to accept a security and stability update" src="http://blog.instantbird.org/images/update1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dialog prompting the user to accept a security and stability update" src="https://blog.instantbird.org/images/update1.png" /&gt;&lt;/p&gt;
 &lt;p&gt;If you expect a new version, you can also force Instantbird to check now
 for an updates, using the &amp;#8220;Check for updates&amp;#8221; menu&amp;nbsp;item:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Check for updates menu item" src="http://blog.instantbird.org/images/update6.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Check for updates menu item" src="https://blog.instantbird.org/images/update6.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="nightly-builds"&gt;
 &lt;h2&gt;Nightly&amp;nbsp;builds&lt;/h2&gt;
@@ -56,7 +56,7 @@ version&lt;/a&gt;
 daily through this update system. We call these versions the &amp;#8220;nightly
 builds.&amp;#8221; These builds are produced automatically every day so that new
 issues can be detected early on, before they creep up into release&amp;nbsp;builds.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="About dialog of a Nightly build of Instantbird" src="http://blog.instantbird.org/images/nightly2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="About dialog of a Nightly build of Instantbird" src="https://blog.instantbird.org/images/nightly2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Feel free to use them, but watch out! They may not be stable, and if you
 decide to use them, you are expected to do so to help us test the
 bleeding edge features, not just be a cool kid who&amp;#8217;s got the new toy

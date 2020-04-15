@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.2</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 03 Oct 2012 01:07:02 +0000</lastBuildDate><item><title>Google Summer of Code 2012 Roundup</title><link>http://blog.instantbird.org/2012/10/google-summer-of-code-2012-roundup/</link><description>&lt;p&gt;Instantbird 1.2 was released about two months ago and we must again
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.2</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 03 Oct 2012 01:07:02 +0000</lastBuildDate><item><title>Google Summer of Code 2012 Roundup</title><link>https://blog.instantbird.org/2012/10/google-summer-of-code-2012-roundup/</link><description>&lt;p&gt;Instantbird 1.2 was released about two months ago and we must again
 apologize for keeping this blog fairly quiet.&amp;nbsp; Sorry about that!&amp;nbsp; But
 we&amp;#8217;re here now, so read on for some (not really so) juicy Instantbird&amp;nbsp;news!&lt;/p&gt;
 &lt;p&gt;Instantbird 1.2 release went fairly smoothly, much smoother than the
@@ -31,7 +31,7 @@ Google Summer of Code 2012 through&amp;nbsp;them!&lt;/p&gt;
 &lt;p&gt;As always, feel free to stop by #instantbird on irc.mozilla.org (and,
 yes, Instantbird supports &lt;span class="caps"&gt;IRC&lt;/span&gt;: you can&amp;#8217;t use the excuse that you don&amp;#8217;t
 have an &lt;span class="caps"&gt;IRC&lt;/span&gt; client!) to give us some feedback or ask&amp;nbsp;questions.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 03 Oct 2012 01:07:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-10-03:/2012/10/google-summer-of-code-2012-roundup/</guid><category>Community</category><category>1.2</category><category>GSoC</category><category>mozilla</category><category>Thunderbird</category></item><item><title>Instantbird 1.2 Released!</title><link>http://blog.instantbird.org/2012/08/instantbird-1-2-released/</link><description>&lt;p&gt;We&amp;#8217;re very proud to release Instantbird 1.2, which has a huge number of
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 03 Oct 2012 01:07:02 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-10-03:/2012/10/google-summer-of-code-2012-roundup/</guid><category>Community</category><category>1.2</category><category>GSoC</category><category>mozilla</category><category>Thunderbird</category></item><item><title>Instantbird 1.2 Released!</title><link>https://blog.instantbird.org/2012/08/instantbird-1-2-released/</link><description>&lt;p&gt;We&amp;#8217;re very proud to release Instantbird 1.2, which has a huge number of
 improvements!&amp;nbsp; If you love Instantbird 1.1, you&amp;#8217;ll definitely appreciate
 the improvements made in this release; and if you don&amp;#8217;t use Instantbird
 yet&amp;#8230;well I&amp;#8217;d suggest you &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;give it a
@@ -86,30 +86,30 @@ you see any bugs please &lt;a class="reference external" href="https://bugzilla.
 bug&lt;/a&gt;, &lt;a class="reference external" href="irc://irc.mozilla.org/#instantbird"&gt;catch us on
 &lt;span class="caps"&gt;IRC&lt;/span&gt;&lt;/a&gt; or &lt;a class="reference external" href="mailto:contact&amp;#64;instantbird.org"&gt;email
 us&lt;/a&gt;!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 08 Aug 2012 14:31:41 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-08:/2012/08/instantbird-1-2-released/</guid><category>Downloads</category><category>1.2</category><category>announce</category><category>downloads</category></item><item><title>Tab completion in Instantbird 1.2</title><link>http://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 08 Aug 2012 14:31:41 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-08:/2012/08/instantbird-1-2-released/</guid><category>Downloads</category><category>1.2</category><category>announce</category><category>downloads</category></item><item><title>Tab completion in Instantbird 1.2</title><link>https://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
 in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels (and other chatrooms). The goal, as always, is to make it
 &amp;#8220;just work&amp;#8221; (so you can think about more important&amp;nbsp;things!).&lt;/p&gt;
 &lt;p&gt;Simply press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; to complete the first couple of letters you have&amp;nbsp;typed:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To undo the completion, just press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt; as&amp;nbsp;usual.&lt;/p&gt;
 &lt;p&gt;If there is no unique nick that fits the bill, Instantbird tries to
 guess which nick you mean from the context. For example, if you have
 recently been pinged by someone, that nick is preferred. Otherwise it
 just completes as much as possible, and shows you a list of
 alternative&amp;nbsp;completions:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can then always press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; again to cycle through these candidate
 nicks until you get the right&amp;nbsp;one:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Shift&lt;/span&gt;+&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; will cycle through the list in the opposite&amp;nbsp;direction.)&lt;/p&gt;
 &lt;p&gt;Notice how Instantbird automatically added a colon after the nick, as
 we were addressing someone at the start of a message. And if you add
 another nick, you get a comma-separated&amp;nbsp;list:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Of course, sometimes that may not be what you intended. So if you
 delete the trailing colon by pressing &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt;, the punctuation
 adjusts&amp;nbsp;accordingly:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Don&amp;#8217;t forget you can also reply to any message by double-clicking it!
 This will add the sender&amp;#8217;s nick to the beginning of the&amp;nbsp;message.&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item></channel></rss>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - Development</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 25 Jul 2014 13:07:07 +0000</lastBuildDate><item><title>Linux nightly builds back!</title><link>http://blog.instantbird.org/2014/07/linux-nightly-builds-back/</link><description>&lt;p&gt;Back in March, we posted that we had started
-&lt;a class="reference external" href="http://blog.instantbird.org/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Development</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 25 Jul 2014 13:07:07 +0000</lastBuildDate><item><title>Linux nightly builds back!</title><link>https://blog.instantbird.org/2014/07/linux-nightly-builds-back/</link><description>&lt;p&gt;Back in March, we posted that we had started
+&lt;a class="reference external" href="https://blog.instantbird.org/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
 version of CentOS we had been using was too old, we were unable to continue
 providing Linux nightly builds. That has now changed and (as of today) we have
 &lt;strong&gt;both 32-bit and 64-bit&lt;/strong&gt; Linux nightlies! Since this involved us installing a
@@ -10,7 +10,7 @@ up-to-date features that have been available in Mozilla Firefox for a while
 should now be available in Instantbird (e.g. dbus and pulse audio support) and
 &lt;a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=955310"&gt;even some minor bugs were fixed&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Sorry that this took so long, but &lt;a class="reference external" href="http://ftp.instantbird.com/instantbird/nightly/latest-trunk/"&gt;go grab your updated copy now&lt;/a&gt;!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 25 Jul 2014 13:07:07 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-07-25:/2014/07/linux-nightly-builds-back/</guid><category>Development</category><category>nightly</category><category>status update</category></item><item><title>Pardon the Interruption! Instantbird nightly builds are back!</title><link>http://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</link><description>&lt;p&gt;As of today, March 3rd, 2014, Instantbird nightly builds (1.6a1pre) are being
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 25 Jul 2014 13:07:07 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-07-25:/2014/07/linux-nightly-builds-back/</guid><category>Development</category><category>nightly</category><category>status update</category></item><item><title>Pardon the Interruption! Instantbird nightly builds are back!</title><link>https://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</link><description>&lt;p&gt;As of today, March 3rd, 2014, Instantbird nightly builds (1.6a1pre) are being
 built again. We last had nightly builds on January 9th, 2014 and they have been
 broken since due to a series of a large infrastructure change we’ve been going
 through to merge the Instantbird Bugzilla and code repository with Mozilla’s.
@@ -34,7 +34,7 @@ shared with Thunderbird Chat)&amp;nbsp;products.&lt;/li&gt;
 updating from older nightlies should still&amp;nbsp;work.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Again, sorry for any interruption. Regular development should be continuing now. Thanks for all the concerned emails telling us our builds had&amp;nbsp;stopped!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 03 Mar 2014 12:21:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-03-03:/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</guid><category>Development</category><category>mozilla</category><category>nightly</category><category>status update</category></item><item><title>Status Update: July 27, 2012</title><link>http://blog.instantbird.org/2012/07/status-update-july-27-2012/</link><description>&lt;p&gt;Sorry that we have been so awful at updating our blog again, but we have
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Mon, 03 Mar 2014 12:21:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2014-03-03:/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/</guid><category>Development</category><category>mozilla</category><category>nightly</category><category>status update</category></item><item><title>Status Update: July 27, 2012</title><link>https://blog.instantbird.org/2012/07/status-update-july-27-2012/</link><description>&lt;p&gt;Sorry that we have been so awful at updating our blog again, but we have
 been busy working on getting Instantbird 1.2 ready for release!&amp;nbsp; We&amp;#8217;re
 hoping to get this release out the door in the next few weeks (there&amp;#8217;s a
 few final blockers we&amp;#8217;re attempting to&amp;nbsp;fix)!&lt;/p&gt;
@@ -60,17 +60,17 @@ currently working on importing logs from each of these clients so you
 can smoothly transition from other clients to Instantbird without any
 data loss.&amp;nbsp; We hope Will is enjoying working on Instantbird as he&amp;#8217;s
 doing a great&amp;nbsp;job!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 27 Jul 2012 13:10:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-07-27:/2012/07/status-update-july-27-2012/</guid><category>Development</category><category>GSoC</category><category>l10n</category><category>status update</category></item><item><title>Status Update: May 23, 2012</title><link>http://blog.instantbird.org/2012/05/status-update-may-23-2012/</link><description>&lt;p&gt;We&amp;#8217;ve made quite a bit of improvements over the past few weeks. Although
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 27 Jul 2012 13:10:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-07-27:/2012/07/status-update-july-27-2012/</guid><category>Development</category><category>GSoC</category><category>l10n</category><category>status update</category></item><item><title>Status Update: May 23, 2012</title><link>https://blog.instantbird.org/2012/05/status-update-may-23-2012/</link><description>&lt;p&gt;We&amp;#8217;ve made quite a bit of improvements over the past few weeks. Although
 a lot of the changes are behind the scenes or fixing regressions, there
 are some exciting user facing changes, as detailed below! We&amp;#8217;ve also
-been working with our &lt;a class="reference external" href="http://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Google Summer of Code 2012 student&lt;/a&gt;,
+been working with our &lt;a class="reference external" href="https://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Google Summer of Code 2012 student&lt;/a&gt;,
 wnayes, quite a bit to get him up to speed of how things work in
 Instantbird. He&amp;#8217;s made great progress on understanding the code and has
 even fixed a bug (see the &amp;#8220;top protocols&amp;#8221; page,&amp;nbsp;below)!&lt;/p&gt;
 &lt;div class="section" id="landed-changes"&gt;
 &lt;h2&gt;Landed&amp;nbsp;Changes:&lt;/h2&gt;
 &lt;div class="wp-caption alignright docutils container"&gt;
-&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page.png"&gt;&lt;img alt="&amp;quot;Top Protocol&amp;quot; Page in the Account Wizard" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page-300x243.png" style="width: 300px; height: 243px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page.png"&gt;&lt;img alt="&amp;quot;Top Protocol&amp;quot; Page in the Account Wizard" class="size-medium" src="https://blog.instantbird.org/wp-content/uploads/2012/05/top-protocol-page-300x243.png" style="width: 300px; height: 243px;" /&gt;&lt;/a&gt;
 &lt;p class="wp-caption-text"&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Top Protocol&amp;#8221; Page in the Account&amp;nbsp;Wizard&amp;#8221;&lt;/p&gt;
 &lt;/div&gt;
 &lt;ul class="simple"&gt;
@@ -136,7 +136,7 @@ application, timeline and a series of links) that he&amp;#8217;ll be updating as
 the summer continues. (And of course you can stop by our &lt;span class="caps"&gt;IRC&lt;/span&gt; channel,
 #instantbird on irc.mozilla.org, and say&amp;nbsp;&amp;#8220;Hi!&amp;#8221;)&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 May 2012 15:37:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-05-23:/2012/05/status-update-may-23-2012/</guid><category>Development</category><category>GSoC</category><category>preview</category><category>status update</category></item><item><title>Status Update: April 17, 2012</title><link>http://blog.instantbird.org/2012/04/status-update-april-17-2012/</link><description>&lt;p&gt;A lot has happened in the past two months since our last post: we&amp;#8217;ve
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Wed, 23 May 2012 15:37:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-05-23:/2012/05/status-update-may-23-2012/</guid><category>Development</category><category>GSoC</category><category>preview</category><category>status update</category></item><item><title>Status Update: April 17, 2012</title><link>https://blog.instantbird.org/2012/04/status-update-april-17-2012/</link><description>&lt;p&gt;A lot has happened in the past two months since our last post: we&amp;#8217;ve
 been quite busy trying to fix &lt;a class="reference external" href="https://bugzilla.instantbird.org/buglist.cgi?quicksearch=sw%3A1.2-blocking&amp;amp;list_id=1120"&gt;the list of blockers for Instantbird
 1.2&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We&amp;#8217;ve again joined Mozilla as part of their application for &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012"&gt;Google
@@ -204,7 +204,7 @@ Currently it looks like this feature will likely appear in Thunderbird&amp;nbsp;
 been a lot of great improvements that will make it easier and more
 natural to instant message with your friends, family, co-workers and&amp;nbsp;others!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 17 Apr 2012 13:52:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-17:/2012/04/status-update-april-17-2012/</guid><category>Development</category><category>irc</category><category>mozilla</category><category>status update</category></item><item><title>Status Update: February 25, 2012</title><link>http://blog.instantbird.org/2012/02/status-update-february-25-2012/</link><description>&lt;p&gt;We&amp;#8217;ve been awful at posting updates to our blog about what has been
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Tue, 17 Apr 2012 13:52:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-04-17:/2012/04/status-update-april-17-2012/</guid><category>Development</category><category>irc</category><category>mozilla</category><category>status update</category></item><item><title>Status Update: February 25, 2012</title><link>https://blog.instantbird.org/2012/02/status-update-february-25-2012/</link><description>&lt;p&gt;We&amp;#8217;ve been awful at posting updates to our blog about what has been
 going on! It&amp;#8217;s too late now to even blame it on the holidays, but we owe
 you all an update about what’s been happening and here it is!&amp;nbsp; We do,
 generally, still have status meetings on Monday’s at 6:00 &lt;span class="caps"&gt;PM&lt;/span&gt; Paris time
@@ -301,7 +301,7 @@ help in working on it!&amp;nbsp; If you have any ideas (or no ideas, but some
 free time!) stop by #instantbird on irc.mozilla.org and we can have some
 discussions or point you to ways to help&amp;nbsp;you!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 25 Feb 2012 20:17:03 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-02-25:/2012/02/status-update-february-25-2012/</guid><category>Development</category><category>status update</category></item><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>http://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Sat, 25 Feb 2012 20:17:03 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-02-25:/2012/02/status-update-february-25-2012/</guid><category>Development</category><category>status update</category></item><item><title>Weekly Meetings: November 7, 14 and 21, 2011</title><link>https://blog.instantbird.org/2011/11/weekly-meetings-november-7-14-and-21-2011/</link><description>&lt;p&gt;We&amp;#8217;ve been a bit bad about posting summaries of our weekly meetings the
 past few weeks, but that doesn&amp;#8217;t mean nothings been going on! In fact,
 we&amp;#8217;ve had a lot of major changes coming down the pipeline: here&amp;#8217;s a
 summary of what&amp;#8217;s new with&amp;nbsp;Instantbird.&lt;/p&gt;

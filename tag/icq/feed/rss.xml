@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - icq</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 17 Nov 2010 00:29:54 +0000</lastBuildDate><item><title>ICQ connection error</title><link>http://blog.instantbird.org/2010/11/icq-connection-error/</link><description>&lt;p&gt;Recently users started to get an error (&amp;#8220;Error: Unknown reason&amp;#8221;) while
+<rss version="2.0"><channel><title>The blog of Instantbird's development - icq</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 17 Nov 2010 00:29:54 +0000</lastBuildDate><item><title>ICQ connection error</title><link>https://blog.instantbird.org/2010/11/icq-connection-error/</link><description>&lt;p&gt;Recently users started to get an error (&amp;#8220;Error: Unknown reason&amp;#8221;) while
 attempting to connect to &lt;span class="caps"&gt;ICQ&lt;/span&gt;. This is being tracked in &lt;a class="reference external" href="https://bugzilla.instantbird.org/show_bug.cgi?id=582"&gt;bug
 582&lt;/a&gt;. This will
 occur using Instantbird 0.2 or 0.3a1pre nightly builds, if you are not

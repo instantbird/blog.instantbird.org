@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.3</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>http://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.3</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 04 Dec 2012 01:00:36 +0000</lastBuildDate><item><title>Instantbird speaks your language</title><link>https://blog.instantbird.org/2012/12/instantbird-speaks-your-language/</link><description>&lt;p&gt;Instantbird 1.3&amp;nbsp;became&amp;nbsp;available&amp;nbsp;on&amp;nbsp;November, 15,&amp;nbsp;and&amp;nbsp;it comes with new
 features (you can see them
 clicking&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;). The
 Instantbird team is interested in offering this &lt;span class="caps"&gt;IM&lt;/span&gt; client to everyone,
@@ -21,12 +21,12 @@ we&amp;nbsp;encourage&amp;nbsp;interested people to translate it to&amp;nbsp;the
 you&amp;#8217;re interested in helping us achieve this goal by creating
 new&amp;nbsp;translations&amp;nbsp;or&amp;nbsp;improving Instantbird, you can get more
 information&amp;nbsp;&lt;a class="reference external" href="http://www.instantbird.org/#getinvolved"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Instantbird 1.3 Released!</title><link>http://blog.instantbird.org/2012/11/instantbird-1-3-released/</link><description>&lt;p&gt;We&amp;#8217;ve released Instantbird 1.3 (get your copy
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">rosonline</dc:creator><pubDate>Tue, 04 Dec 2012 01:00:36 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-12-04:/2012/12/instantbird-speaks-your-language/</guid><category>Community</category><category>1.3</category><category>l10n</category><category>philosophy</category><category>translations</category></item><item><title>Instantbird 1.3 Released!</title><link>https://blog.instantbird.org/2012/11/instantbird-1-3-released/</link><description>&lt;p&gt;We&amp;#8217;ve released Instantbird 1.3 (get your copy
 &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;here&lt;/a&gt;)!&amp;nbsp; This update
 includes some nice improvements, which are fully outlined in the
 &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release notes&lt;/a&gt;.&amp;nbsp; A
 few changes of note&amp;nbsp;are:&lt;/p&gt;
-&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick.png"&gt;&lt;img alt="" class="size-medium alignright" src="http://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick-300x281.png" style="width: 300px; height: 281px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick.png"&gt;&lt;img alt="" class="size-medium alignright" src="https://blog.instantbird.org/wp-content/uploads/2012/11/Show-Nick-300x281.png" style="width: 300px; height: 281px;" /&gt;&lt;/a&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;strong&gt;&lt;span class="caps"&gt;IRC&lt;/span&gt;:&lt;/strong&gt; Long messages will now be sent in multiple parts, and more
 authentication methods are supported to connect e.g. to&amp;nbsp;Freenode.&lt;/li&gt;

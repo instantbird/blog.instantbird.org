@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.5</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 20 Dec 2013 21:12:06 +0000</lastBuildDate><item><title>Instantbird 1.5 Released!</title><link>http://blog.instantbird.org/2013/12/instantbird-1-5-released/</link><description>&lt;p&gt;Instantbird 1.5 has been released: go &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;grab your copy now&lt;/a&gt;! There are a ton of
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.5</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Fri, 20 Dec 2013 21:12:06 +0000</lastBuildDate><item><title>Instantbird 1.5 Released!</title><link>https://blog.instantbird.org/2013/12/instantbird-1-5-released/</link><description>&lt;p&gt;Instantbird 1.5 has been released: go &lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;grab your copy now&lt;/a&gt;! There are a ton of
 new features and bugs fixed for this new release, but we’d like to highlight a
 couple of new features&amp;nbsp;below.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/12/awesometab.png"&gt;&lt;img alt="awesometab" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/12/awesometab-300x217.png" style="width: 300px; height: 217px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/12/awesometab.png"&gt;&lt;img alt="awesometab" class="alignright size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/12/awesometab-300x217.png" style="width: 300px; height: 217px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;An exciting new feature you’ll find in Instantbird 1.5 is the New Conversation
 tab. It displays a list of your contacts, ordered based on how frequently and
 recently you’ve talked to them. Starting a conversation has never been easier!
@@ -24,7 +24,7 @@ the top of the list. Sometimes you don’t always know the channel name (that’
 why you’re searching, right?): we’ve got you covered there too! Instantbird will
 search the channel topics in addition to channel names so you can quickly find
 new channels to&amp;nbsp;join!&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png"&gt;&lt;img alt="new-tooltips" class="alignleft size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png" style="width: 300px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png"&gt;&lt;img alt="new-tooltips" class="alignleft size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/12/new-tooltips-300x101.png" style="width: 300px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A very visible user interface improvement that was included for Instantbird 1.5
 is redone tooltips that fit more into the visual style of the rest of the user
 interface. They should be immediately familiar to Instantbird users as they’re

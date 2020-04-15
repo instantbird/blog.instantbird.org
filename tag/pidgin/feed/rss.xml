@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - pidgin</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 09 Jul 2011 00:17:20 +0000</lastBuildDate><item><title>“Why should I switch from Pidgin?”</title><link>http://blog.instantbird.org/2011/07/why-should-i-switch-from-pidgin/</link><description>&lt;p&gt;This is a question people keep asking us. With some variations (&amp;#8220;Why
+<rss version="2.0"><channel><title>The blog of Instantbird's development - pidgin</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 09 Jul 2011 00:17:20 +0000</lastBuildDate><item><title>“Why should I switch from Pidgin?”</title><link>https://blog.instantbird.org/2011/07/why-should-i-switch-from-pidgin/</link><description>&lt;p&gt;This is a question people keep asking us. With some variations (&amp;#8220;Why
 should I switch from Adium?&amp;#8221;), or sometimes without the question mark
 (&amp;#8220;There&amp;#8217;s nothing more than&amp;nbsp;Pidgin&amp;#8221;).&lt;/p&gt;
 &lt;div class="section" id="we-are-not-competing"&gt;
@@ -126,7 +126,7 @@ you need to open a ticket on trac and give all the info you have. As
 this process may be a bit scary for most end-users, I&amp;#8217;m afraid valuable
 feedback could get&amp;nbsp;lost.&lt;/p&gt;
 &lt;p&gt;If the same issue happens with Instantbird, first we&amp;nbsp;apologize:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Instantbird crash reporter" src="http://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Instantbird crash reporter" src="https://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Then all you have to do to send us the technical information about the
 crash is a single click in this crash reporter dialog. We collect all
 these crash reports and analyze them to improve the stability of the
@@ -147,7 +147,7 @@ appropriate testing before being included in the next&amp;nbsp;release.&lt;/p&gt
 only by developers and &lt;a class="reference external" href="http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN"&gt;others people are discouraged from attempting to
 use
 it&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Learn more about our &lt;a class="reference external" href="http://blog.instantbird.org/articles/stability.rst"&gt;stability efforts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more about our &lt;a class="reference external" href="https://blog.instantbird.org/articles/stability.rst"&gt;stability efforts&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="changing"&gt;
@@ -185,7 +185,7 @@ compete against it, so such a list would be irrelevant&amp;nbsp;anyway.&lt;/p&gt
 &lt;p&gt;On the other hand, Instantbird has some features that Pidgin doesn&amp;#8217;t
 have (message themes, automatic updates, inline search, &amp;#8230;) and even
 some unique features (for two examples, see my blog posts introducing
-&lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;Time Bubbles&lt;/a&gt; and &lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-magic-copy.rst"&gt;Magic copy&lt;/a&gt;).&lt;/p&gt;
+&lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;Time Bubbles&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-magic-copy.rst"&gt;Magic copy&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;

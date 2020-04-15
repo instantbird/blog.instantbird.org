@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - community</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 22 Jul 2013 09:00:59 +0000</lastBuildDate><item><title>First Milestone of the Awesometab has landed!</title><link>http://blog.instantbird.org/2013/07/first-milestone-of-the-awesometab-has-landed/</link><description>&lt;p&gt;&lt;em&gt;Awesometab&lt;/em&gt; is the project name for a tab developed by &lt;a class="reference external" href="http://awesometab.blogspot.de/"&gt;Nihanth Subramanya&lt;/a&gt;
+<rss version="2.0"><channel><title>The blog of Instantbird's development - community</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 22 Jul 2013 09:00:59 +0000</lastBuildDate><item><title>First Milestone of the Awesometab has landed!</title><link>https://blog.instantbird.org/2013/07/first-milestone-of-the-awesometab-has-landed/</link><description>&lt;p&gt;&lt;em&gt;Awesometab&lt;/em&gt; is the project name for a tab developed by &lt;a class="reference external" href="http://awesometab.blogspot.de/"&gt;Nihanth Subramanya&lt;/a&gt;
 during the &lt;a class="reference external" href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013"&gt;Google Summer of Code 2013&lt;/a&gt; (via &lt;a class="reference external" href="http://blog.gerv.net/2013/06/gsoc-2013-project-list/"&gt;Mozilla&lt;/a&gt;) which allows to
 &lt;em&gt;quickly start the conversation you want to start&lt;/em&gt;. The suggestions will be based
 on several parameters like frequency and recency of previous conversations and
@@ -17,7 +17,7 @@ using the common shortcut of &lt;em&gt;Ctrl+T&lt;/em&gt; for &lt;em&gt;New Tab&l
 or a conversation window) or by clicking the likewise familiar &lt;em&gt;New Tab&lt;/em&gt;-button
 in the tab&amp;nbsp;bar.&lt;/p&gt;
 &lt;div class="wp-caption alignright docutils container"&gt;
-&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png"&gt;&lt;img alt="New conversation tab" src="http://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png" style="width: 300px; height: 232px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM.png"&gt;&lt;img alt="New conversation tab" src="https://blog.instantbird.org/wp-content/uploads/2013/07/Awesomtab-blog-posting-Screen-Shot-2013-07-20-at-3.14.22-AM-300x232.png" style="width: 300px; height: 232px;" /&gt;&lt;/a&gt;
 &lt;p class="wp-caption-text"&gt;New conversation tab, list filtered for contacts starting with letter&amp;nbsp;f&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;It features a search bar at top of the tab content which allows to refine the

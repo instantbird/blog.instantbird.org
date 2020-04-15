@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.2</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>http://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-released.rst"&gt;recently released
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.2</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>https://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-released.rst"&gt;recently released
 Instantbird 0.2&lt;/a&gt;,
 we have turned on major updates for users of Instantbird 0.1.2 and
 0.1.3. If you are still using one of these old versions, you will
 receive a major update offer to get the newer Instantbird 0.2. It will
 look like&amp;nbsp;this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Major update offer dialog" src="http://blog.instantbird.org/images/major-update-to-0.2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Major update offer dialog" src="https://blog.instantbird.org/images/major-update-to-0.2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Unfortunately, due to a bug of the updater that shipped in the Windows
 version of Instantbird 0.1.3.1, the update won&amp;#8217;t be automatic for these
 users, who should &lt;a class="reference external" href="http://www.instantbird.com/"&gt;download the full
 installer&lt;/a&gt; themselves. We are sorry for
 the&amp;nbsp;inconvenience.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 25 Jul 2010 22:59:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-25:/2010/07/major-update-to-instantbird-0-2/</guid><category>Downloads</category><category>0.1</category><category>0.2</category></item><item><title>Tip for MacBook users</title><link>http://blog.instantbird.org/2010/07/tip-for-macbook-users/</link><description>&lt;p&gt;Instantbird 0.2 uses the multitouch feature of Macbook touchpads in
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 25 Jul 2010 22:59:34 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-25:/2010/07/major-update-to-instantbird-0-2/</guid><category>Downloads</category><category>0.1</category><category>0.2</category></item><item><title>Tip for MacBook users</title><link>https://blog.instantbird.org/2010/07/tip-for-macbook-users/</link><description>&lt;p&gt;Instantbird 0.2 uses the multitouch feature of Macbook touchpads in
 conversation&amp;nbsp;windows:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Pinch in or out 2 fingers to change the zoom&amp;nbsp;level.&lt;/li&gt;
@@ -28,7 +28,7 @@ opened tab and then going back to the conversation tab where an
 active conversation is occurring, or when actively participating in 2
 discussions and repeatedly switching between 2&amp;nbsp;tabs.&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 22 Jul 2010 22:04:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-22:/2010/07/tip-for-macbook-users/</guid><category>Support</category><category>0.2</category><category>mac</category></item><item><title>Instantbird 0.2 released!</title><link>http://blog.instantbird.org/2010/07/instantbird-0-2-released/</link><description>&lt;p&gt;After months of development and a few pre-release versions, we are happy
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 22 Jul 2010 22:04:35 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-22:/2010/07/tip-for-macbook-users/</guid><category>Support</category><category>0.2</category><category>mac</category></item><item><title>Instantbird 0.2 released!</title><link>https://blog.instantbird.org/2010/07/instantbird-0-2-released/</link><description>&lt;p&gt;After months of development and a few pre-release versions, we are happy
 to announce that Instantbird 0.2 is now ready to be put in the hands of
 the general&amp;nbsp;public.&lt;/p&gt;
 &lt;p&gt;Instantbird 0.2 is now available in 5 languages thanks to the great work
@@ -36,16 +36,16 @@ of our&amp;nbsp;translators.&lt;/p&gt;
 &lt;p&gt;If you have tried Instantbird 0.1 back in 2007 when it was first
 released, Instantbird 0.2 may feel like a completely different software
 to you. The most dramatically changed area is the conversation window
-(for example, &lt;a class="reference external" href="http://blog.instantbird.org/articles/tabs.rst"&gt;new tabs&lt;/a&gt; and &lt;a class="reference external" href="http://blog.instantbird.org/articles/message-styles.rst"&gt;message styles&lt;/a&gt;), but
+(for example, &lt;a class="reference external" href="https://blog.instantbird.org/articles/tabs.rst"&gt;new tabs&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/articles/message-styles.rst"&gt;message styles&lt;/a&gt;), but
 there are notable changes in almost every window. For a list of changes,
 see the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release
 notes&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Let&amp;#8217;s stop talking, so that you can &lt;a class="reference external" href="http://www.instantbird.com/"&gt;discover Instantbird 0.2
 now&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="http://blog.instantbird.org/images/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="https://blog.instantbird.org/images/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In the next few days, we will talk about our plans for the future, and
 especially Instantbird 0.3. Stay&amp;nbsp;tuned!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 13 Jul 2010 17:10:53 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-13:/2010/07/instantbird-0-2-released/</guid><category>Downloads</category><category>0.2</category><category>announce</category><category>downloads</category><category>final</category></item><item><title>Context Menus</title><link>http://blog.instantbird.org/2010/07/context-menus/</link><description>&lt;p&gt;Context menus (opened with a &amp;#8220;right click&amp;#8221;) are a common and expected
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 13 Jul 2010 17:10:53 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-13:/2010/07/instantbird-0-2-released/</guid><category>Downloads</category><category>0.2</category><category>announce</category><category>downloads</category><category>final</category></item><item><title>Context Menus</title><link>https://blog.instantbird.org/2010/07/context-menus/</link><description>&lt;p&gt;Context menus (opened with a &amp;#8220;right click&amp;#8221;) are a common and expected
 part of the user interface. It can be very frustrating when they are
 missing, so in Instantbird 0.2 we tried to add one wherever users are
 likely to expect&amp;nbsp;one.&lt;/p&gt;
@@ -53,39 +53,39 @@ likely to expect&amp;nbsp;one.&lt;/p&gt;
 conversation (although pressing enter or double clicking is usually
 faster), show the conversation history, rename a contact, move the
 contact to a different group or remove it from the&amp;nbsp;list:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy context menu" src="http://blog.instantbird.org/images/buddy_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy context menu" src="https://blog.instantbird.org/images/buddy_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The context menu is usable anywhere in the buddy list to toggle the
 display of offline&amp;nbsp;buddies:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy list context menu" src="http://blog.instantbird.org/images/blist_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy list context menu" src="https://blog.instantbird.org/images/blist_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;A context menu was added in the account manager too. There, it proposes
 all the possible actions for an account. Since Instantbird 0.2, it&amp;#8217;s
 possible to reorder the accounts in the list (this is also possible with
 drag &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; drop using the mouse or with the keyboard using shift + the up or
 down&amp;nbsp;arrow).&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account context menu" src="http://blog.instantbird.org/images/account_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account context menu" src="https://blog.instantbird.org/images/account_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;A context menu is available on conversation tabs, with actions related
 to that tab (opening it in a new window, closing it, &amp;#8230;) and to the
 conversation, like showing the history of previous conversations with
 the same&amp;nbsp;contact.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tab context menu" src="http://blog.instantbird.org/images/tab_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tab context menu" src="https://blog.instantbird.org/images/tab_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Last but not least, there&amp;#8217;s a context menu in conversation content. This
 is the most &amp;#8220;contextual&amp;#8221; context menu we have added. The proposed
 actions will vary depending on whether there is a selection or if the
 context click was done over a&amp;nbsp;link.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Content context menu" src="http://blog.instantbird.org/images/text_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Content context menu" src="https://blog.instantbird.org/images/text_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;When selecting some text from a conversation, a common action is to copy
 it to the clipboard and then paste it in a browser to use it as the
 query in search engine. We have included search engine items directly in
 the context menus to reduce the number of clicks needed for this common&amp;nbsp;case.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 11 Jul 2010 14:32:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-11:/2010/07/context-menus/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Cleaner UI</title><link>http://blog.instantbird.org/2010/07/cleaner-ui/</link><description>&lt;p&gt;In Instantbird 0.2 a lot of visual bloat has been removed from all
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 11 Jul 2010 14:32:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-11:/2010/07/context-menus/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Cleaner UI</title><link>https://blog.instantbird.org/2010/07/cleaner-ui/</link><description>&lt;p&gt;In Instantbird 0.2 a lot of visual bloat has been removed from all
 windows. Some margins have been reduced, borders that weren&amp;#8217;t useful for
 clarity have been removed, and alignments have been improved. All of
 this contributes to a better use of the available space on the screen,
 and to a better perceived impression of simplicity in the user&amp;nbsp;interface.&lt;/p&gt;
 &lt;p&gt;To illustrate this, let&amp;#8217;s compare the conversation window before and&amp;nbsp;after:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/conv_before-after.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/conv_before-after.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The buddy list has also been&amp;nbsp;improved:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/blist_before-after.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/blist_before-after.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The status can now be changed directly from the top of the buddy list
 instead of having to interact with a poor popup dialog. (Note that for
 the users who hate clicking, the status can also be changed quickly
@@ -93,10 +93,10 @@ using commands from conversation windows: &lt;tt class="docutils literal"&gt;/aw
 &lt;tt class="docutils literal"&gt;/offline&lt;/tt&gt;.)&lt;/p&gt;
 &lt;p&gt;The account manager has also been simplified a lot, and is now usable in
 a much smaller&amp;nbsp;window:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/am_before-after.png" /&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 08 Jul 2010 14:32:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-08:/2010/07/cleaner-ui/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Message Styles</title><link>http://blog.instantbird.org/2010/07/message-styles/</link><description>&lt;p&gt;As exchanging messages is the most important feature of an instant
+&lt;p&gt;&lt;img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/am_before-after.png" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 08 Jul 2010 14:32:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-08:/2010/07/cleaner-ui/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Message Styles</title><link>https://blog.instantbird.org/2010/07/message-styles/</link><description>&lt;p&gt;As exchanging messages is the most important feature of an instant
 messaging client, we put a great deal of thought into the way the
-messages are displayed. As we have &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;already explained&lt;/a&gt;,
+messages are displayed. As we have &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;already explained&lt;/a&gt;,
 we decided to implement the &lt;a class="reference external" href="http://adium.im/"&gt;Adium&lt;/a&gt; message style
 system. This system offers a great flexibility to message style authors
 to display the conversation content the way they&amp;nbsp;want.&lt;/p&gt;
@@ -113,7 +113,7 @@ with one other user, there&amp;#8217;s a background color for your messages, and
 color for the messages you receive. In multi-user chat rooms, there&amp;#8217;s a
 different color for each participant, so you easily can tell which
 messages are sent by the same&amp;nbsp;participant:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="chat room with people talking in colorful chat bubbles" src="http://blog.instantbird.org/images/chatroom2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="chat room with people talking in colorful chat bubbles" src="https://blog.instantbird.org/images/chatroom2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;In this theme, the display of messages is clear and well spaced out.
 This theme was designed to be usable for most&amp;nbsp;users.&lt;/p&gt;
 &lt;p&gt;A few special features have been added to this theme to improve the
@@ -122,7 +122,7 @@ messages from the same person are grouped automatically, consecutive
 system messages are automatically grouped and collapsed, and the
 timestamps are no longer displayed for each message, but as a tooltip
 when a message is&amp;nbsp;hovered.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation using the Bubbles theme, with grouped messages and collapsed system messages" src="http://blog.instantbird.org/images/bubbles2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation using the Bubbles theme, with grouped messages and collapsed system messages" src="https://blog.instantbird.org/images/bubbles2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Because we know one theme cannot fit the needs of everybody, we provide
 a few other themes by&amp;nbsp;default.&lt;/p&gt;
 &lt;/div&gt;
@@ -130,13 +130,13 @@ a few other themes by&amp;nbsp;default.&lt;/p&gt;
 &lt;h2&gt;Dark&lt;/h2&gt;
 &lt;p&gt;The &amp;#8220;Dark&amp;#8221; theme is designed to please people who like having a dark
 (almost black) background color in their&amp;nbsp;windows.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation using the Dark message theme" src="http://blog.instantbird.org/images/dark2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation using the Dark message theme" src="https://blog.instantbird.org/images/dark2.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="paper-sheets"&gt;
 &lt;h2&gt;Paper&amp;nbsp;Sheets&lt;/h2&gt;
 &lt;p&gt;The &amp;#8220;Paper Sheets&amp;#8221; theme is a less fancy alternative to the default
 Bubble&amp;nbsp;theme.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation using the Paper Sheets message theme" src="http://blog.instantbird.org/images/papersheets2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation using the Paper Sheets message theme" src="https://blog.instantbird.org/images/papersheets2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Most of the features of Bubbles are also there, but it takes less space
 on the screen (no bubbles), and the colors are&amp;nbsp;lighter.&lt;/p&gt;
 &lt;p&gt;The margins used in this theme automatically adapt based on the total
@@ -149,7 +149,7 @@ use a very small conversation&amp;nbsp;window.&lt;/p&gt;
 want to have a very compact message theme, we have included a message
 theme called &amp;#8220;Simple.&amp;#8221; With this theme, all the space is used for the
 conversation&amp;nbsp;messages.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation using the Simple theme" src="http://blog.instantbird.org/images/simple2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation using the Simple theme" src="https://blog.instantbird.org/images/simple2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Finally, a little reminder about extensibility: even though the themes
 included by default have been designed to fit the needs of most users,
 they may not fit perfectly your personal taste, and that&amp;#8217;s why there are
@@ -159,7 +159,7 @@ for you to enjoy trying out. &lt;a class="reference external" href="http://wiki.
 one&lt;/a&gt; yourself
 is also very&amp;nbsp;easy.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 06 Jul 2010 06:14:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-06:/2010/07/message-styles/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Stability</title><link>http://blog.instantbird.org/2010/07/stability/</link><description>&lt;p&gt;We care a lot about the stability of Instantbird. Again, the Mozilla
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 06 Jul 2010 06:14:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-06:/2010/07/message-styles/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Stability</title><link>https://blog.instantbird.org/2010/07/stability/</link><description>&lt;p&gt;We care a lot about the stability of Instantbird. Again, the Mozilla
 platform has some great tools to help us&amp;nbsp;here.&lt;/p&gt;
 &lt;div class="section" id="crash-reporting"&gt;
 &lt;h2&gt;Crash&amp;nbsp;Reporting&lt;/h2&gt;
@@ -168,7 +168,7 @@ interruption in your work flow will pop up, and suggest you send some
 anonymous information about this issue to our servers. We can then
 analyze it and fix it for a later version, to make Instantbird more
 stable for&amp;nbsp;you.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Instantbird Crash Reporter dialog" src="http://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Instantbird Crash Reporter dialog" src="https://blog.instantbird.org/images/crash-breakpad.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This crash reporting system has already helped us a lot to improve the
 overall stability of&amp;nbsp;Instantbird.&lt;/p&gt;
 &lt;/div&gt;
@@ -187,12 +187,12 @@ one, but if it does occur to you: don&amp;#8217;t worry! At the next start up, y
 will see the account manager pop up with a message explaining the
 situation and inviting you to either retry connecting or edit the
 configuration of your&amp;nbsp;accounts:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager with automatic connection disabled and an error message explaining the problem" src="http://blog.instantbird.org/images/autologin-crash-global.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account manager with automatic connection disabled and an error message explaining the problem" src="https://blog.instantbird.org/images/autologin-crash-global.png" /&gt;&lt;/p&gt;
 &lt;p&gt;If the crash occurred after you added an account or changed the
 configuration of an account, this account will be the only one that
 won&amp;#8217;t connect at the next startup, and the message in the account
 manager will look like&amp;nbsp;this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager where an account was disabled because of a crash during the last connection attempt." src="http://blog.instantbird.org/images/autologin-crash-account.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account manager where an account was disabled because of a crash during the last connection attempt." src="https://blog.instantbird.org/images/autologin-crash-account.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="updates"&gt;
 &lt;h2&gt;Updates&lt;/h2&gt;
@@ -203,10 +203,10 @@ quickly release a new minor version including a fix for the&amp;nbsp;issue.&lt;/
 automatically if a newer version is available. If you accept the update,
 it will then be downloaded automatically and applied during the next
 start&amp;nbsp;up.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Dialog prompting the user to accept a security and stability update" src="http://blog.instantbird.org/images/update1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dialog prompting the user to accept a security and stability update" src="https://blog.instantbird.org/images/update1.png" /&gt;&lt;/p&gt;
 &lt;p&gt;If you expect a new version, you can also force Instantbird to check now
 for an updates, using the &amp;#8220;Check for updates&amp;#8221; menu&amp;nbsp;item:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Check for updates menu item" src="http://blog.instantbird.org/images/update6.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Check for updates menu item" src="https://blog.instantbird.org/images/update6.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="nightly-builds"&gt;
 &lt;h2&gt;Nightly&amp;nbsp;builds&lt;/h2&gt;
@@ -216,7 +216,7 @@ version&lt;/a&gt;
 daily through this update system. We call these versions the &amp;#8220;nightly
 builds.&amp;#8221; These builds are produced automatically every day so that new
 issues can be detected early on, before they creep up into release&amp;nbsp;builds.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="About dialog of a Nightly build of Instantbird" src="http://blog.instantbird.org/images/nightly2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="About dialog of a Nightly build of Instantbird" src="https://blog.instantbird.org/images/nightly2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Feel free to use them, but watch out! They may not be stable, and if you
 decide to use them, you are expected to do so to help us test the
 bleeding edge features, not just be a cool kid who&amp;#8217;s got the new toy

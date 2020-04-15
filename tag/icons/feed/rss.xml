@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - icons</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 26 Jun 2011 00:31:55 +0000</lastBuildDate><item><title>User icons</title><link>http://blog.instantbird.org/2011/06/user-icons/</link><description>&lt;p&gt;Another very visible change between Instantbird 0.2 and 0.3 is the
+<rss version="2.0"><channel><title>The blog of Instantbird's development - icons</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 26 Jun 2011 00:31:55 +0000</lastBuildDate><item><title>User icons</title><link>https://blog.instantbird.org/2011/06/user-icons/</link><description>&lt;p&gt;Another very visible change between Instantbird 0.2 and 0.3 is the
 possibility to set a user icon and a display&amp;nbsp;name.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot of the contact list with a place holder icon" src="http://blog.instantbird.org/images/userIconPlaceholder.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with a place holder icon" src="https://blog.instantbird.org/images/userIconPlaceholder.png" /&gt;&lt;/p&gt;
 &lt;p&gt;You will see a place holder icon at the top of the buddy list, just
 click it (this will open a file picker) to set an icon. The icon will be
 automatically resized and converted to fit the various size and format
@@ -10,10 +10,10 @@ requirements of the &lt;span class="caps"&gt;IM&lt;/span&gt; networks you&amp;nb
 will be visible in your contacts&amp;#8217; buddy lists (unfortunately this
 currently works only for &lt;span class="caps"&gt;MSN&lt;/span&gt;).&lt;/p&gt;
 &lt;p&gt;Here you go, your friends will now easily recognize&amp;nbsp;you:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot of the contact list with an icon and a display name" src="http://blog.instantbird.org/images/userIcon.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with an icon and a display name" src="https://blog.instantbird.org/images/userIcon.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Conversation windows have also been changed to display your contacts&amp;#8217;
 icons and some more information (display name, status message,&amp;nbsp;&amp;#8230;):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="conversation with an info bar showing the user icon" src="http://blog.instantbird.org/images/userIconConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with an info bar showing the user icon" src="https://blog.instantbird.org/images/userIconConvUI.png" /&gt;&lt;/p&gt;
 &lt;p&gt;I can already hear some comments about how much space this new
 information bar takes (or wastes) in all conversation windows. Yes,
 this takes a lot of space, we know. People tend to use big or very big
@@ -21,8 +21,8 @@ windows for chatting (sometimes even full screen!) but if you like the
 ability to chat in small windows, don&amp;#8217;t worry, we love you too! Just
 resize the window and this information bar will shrink to ensure you
 still see the actual content of the&amp;nbsp;conversation:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="conversation with a smaller info bar" src="http://blog.instantbird.org/images/userIconSmallConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with a smaller info bar" src="https://blog.instantbird.org/images/userIconSmallConvUI.png" /&gt;&lt;/p&gt;
 &lt;p&gt;And for very small conversation windows, the bar will completely
 disappear, leaving only the strictly necessary user&amp;nbsp;interface:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="small conversation without the info bar" src="http://blog.instantbird.org/images/userIconNoConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="small conversation without the info bar" src="https://blog.instantbird.org/images/userIconNoConvUI.png" /&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 26 Jun 2011 00:31:55 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-26:/2011/06/user-icons/</guid><category>Features</category><category>icons</category><category>preview</category><category>user interface</category></item></channel></rss>

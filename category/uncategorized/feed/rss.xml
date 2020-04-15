@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - Uncategorized</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 12 Aug 2008 02:07:24 +0000</lastBuildDate><item><title>Instantbird 0.1.2 crashing with some MSN accounts</title><link>http://blog.instantbird.org/2008/08/instantbird-0-1-2-crashing-with-some-msn-accounts/</link><description>&lt;p&gt;We have just released Instantbird 0.1.2.1 to fix a crash that a lot of
+<rss version="2.0"><channel><title>The blog of Instantbird's development - Uncategorized</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 12 Aug 2008 02:07:24 +0000</lastBuildDate><item><title>Instantbird 0.1.2 crashing with some MSN accounts</title><link>https://blog.instantbird.org/2008/08/instantbird-0-1-2-crashing-with-some-msn-accounts/</link><description>&lt;p&gt;We have just released Instantbird 0.1.2.1 to fix a crash that a lot of
 people experienced when trying to connect their &lt;span class="caps"&gt;MSN&lt;/span&gt; account on Windows.
 Unfortunately, this issue wasn&amp;#8217;t detected during our testing prior to
 the release and we are really sorry about&amp;nbsp;it.&lt;/p&gt;

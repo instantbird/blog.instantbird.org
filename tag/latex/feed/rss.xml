@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - latex</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>http://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
+<rss version="2.0"><channel><title>The blog of Instantbird's development - latex</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 15 Apr 2013 01:00:50 +0000</lastBuildDate><item><title>LaTeX support brings prettier math to your messages</title><link>https://blog.instantbird.org/2013/04/latex-support-brings-prettier-math-to-your-messages/</link><description>&lt;p&gt;With our &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/340/"&gt;new add-on&lt;/a&gt;,
 any mathematics contained in your conversations will be beautifully
 rendered using &lt;a class="reference external" href="http://www.mathjax.org"&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt="" class="alignright size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
+&lt;img alt="" class="alignright size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/04/math21.png" style="width: 445px; height: 377px;" /&gt;
 &lt;p&gt;It&amp;#8217;s rather nice to be able to discuss math using familiar
 &lt;a class="reference external" href="https://en.wikipedia.org/wiki/LaTeX"&gt;LaTeX&lt;/a&gt; markup, but with the
 equations displayed properly. And of course, as LaTeX is text-based,

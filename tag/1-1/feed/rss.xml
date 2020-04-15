@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.1</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 18 Oct 2011 15:17:06 +0000</lastBuildDate><item><title>Instantbird 1.1 released!</title><link>http://blog.instantbird.org/2011/10/instantbird-1-1-released/</link><description>&lt;p&gt;Exactly 4 years after the very early 0.1 preview, Instantbird 1.1 has
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.1</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 18 Oct 2011 15:17:06 +0000</lastBuildDate><item><title>Instantbird 1.1 released!</title><link>https://blog.instantbird.org/2011/10/instantbird-1-1-released/</link><description>&lt;p&gt;Exactly 4 years after the very early 0.1 preview, Instantbird 1.1 has
 just been released today in 13 locales (Swedish and Estonian are&amp;nbsp;new)!&lt;/p&gt;
 &lt;p&gt;In addition to several stability fixes and a dramatic reduction of
 resource consumption in some cases, this new release will make Twitter
@@ -29,7 +29,7 @@ you will want to share the good news with your friends on
 &lt;a class="reference external" href="https://www.facebook.com/sharer/sharer.php?u=http://www.instantbird.com/"&gt;Facebook&lt;/a&gt;
 or
 &lt;a class="reference external" href="http://twitter.com/share?url=http://www.instantbird.com/&amp;amp;text=Instantbird%201.1%20just%20released,%20with%20much%20better%20twitter%20support!%20Try%20it,%20it's%20free!&amp;amp;related=instantbird"&gt;twitter&lt;/a&gt;?&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 18 Oct 2011 15:17:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-18:/2011/10/instantbird-1-1-released/</guid><category>Downloads</category><category>1.1</category><category>announce</category><category>downloads</category></item><item><title>The Interruptions Manager</title><link>http://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 18 Oct 2011 15:17:06 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-10-18:/2011/10/instantbird-1-1-released/</guid><category>Downloads</category><category>1.1</category><category>announce</category><category>downloads</category></item><item><title>The Interruptions Manager</title><link>https://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
 spot in our &lt;span class="caps"&gt;API&lt;/span&gt; was the ability to control whether events should be
 shown to a user or cancelled under certain conditions.&amp;nbsp; This fits in as
 part of our mission about giving control of instant messaging to the

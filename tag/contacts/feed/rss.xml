@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - contacts</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Thu, 23 Jun 2011 18:48:12 +0000</lastBuildDate><item><title>Better contact list</title><link>http://blog.instantbird.org/2011/06/better-contact-list/</link><description>&lt;p&gt;The contact list was identified as a weak area of Instantbird 0.2. It
+<rss version="2.0"><channel><title>The blog of Instantbird's development - contacts</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Thu, 23 Jun 2011 18:48:12 +0000</lastBuildDate><item><title>Better contact list</title><link>https://blog.instantbird.org/2011/06/better-contact-list/</link><description>&lt;p&gt;The contact list was identified as a weak area of Instantbird 0.2. It
 has been dramatically improved for Instantbird 0.3 which we plan to
 release next&amp;nbsp;week.&lt;/p&gt;
 &lt;div class="section" id="tags"&gt;
@@ -23,7 +23,7 @@ multiple tags. To change the tags attached to a contact, use the
 existing tags with a check mark next to the tags attached to the
 selected contact. Checking/unchecking a tag in this list will
 attach/detach a tag from the&amp;nbsp;contact.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tags menu" src="http://blog.instantbird.org/images/tags-menu.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tags menu" src="https://blog.instantbird.org/images/tags-menu.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hidden-tags"&gt;
 &lt;h3&gt;Hidden&amp;nbsp;tags&lt;/h3&gt;
@@ -39,7 +39,7 @@ efficient way to forget the annoyance caused by the pointless
 resulting tags: when hovering a tag in the contact list, you will see
 an [x] icon. Clicking it will hide the tag (after showing an
 explanation the first&amp;nbsp;time).&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Hide tag icon" src="http://blog.instantbird.org/images/hide-tag-button.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hide tag icon" src="https://blog.instantbird.org/images/hide-tag-button.png" /&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;#8217;s possible to manage the list of visible tags (to unhide a tag) from
 the &amp;#8220;Visible tags&amp;#8230;&amp;#8221; context menu&amp;nbsp;item.&lt;/p&gt;
 &lt;p&gt;Contacts which haven&amp;#8217;t been associated with a visible tag will be
@@ -60,14 +60,14 @@ unobtrusively notify you of this&amp;nbsp;change.&lt;/p&gt;
 &lt;p&gt;If you want to start talking to a different account of your contact,
 you can do so easily with a click on the protocol icon at the top
 right of the conversation &lt;span class="caps"&gt;UI&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Talk using a different network" src="http://blog.instantbird.org/images/conversation-targets-menu.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Talk using a different network" src="https://blog.instantbird.org/images/conversation-targets-menu.png" /&gt;&lt;/p&gt;
 &lt;p&gt;When starting a conversation from the contact list, Instantbird will
 automatically select the best way to reach your contact, based on
 availability information and your preference with regard to the
 various ways to contact this person. You can change this preference by
 expanding a contact (with the down arrow icon) and then using drag and
 drop to reorder the&amp;nbsp;accounts.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Expanded contact" src="http://blog.instantbird.org/images/expanded-contact.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Expanded contact" src="https://blog.instantbird.org/images/expanded-contact.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="other-noticable-changes"&gt;
 &lt;h2&gt;Other noticable&amp;nbsp;changes&lt;/h2&gt;

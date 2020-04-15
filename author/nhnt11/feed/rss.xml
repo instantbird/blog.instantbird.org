@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - nhnt11</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 26 Jan 2016 21:37:26 +0000</lastBuildDate><item><title>Facebook Chat Issues</title><link>http://blog.instantbird.org/2016/01/facebook-chat-issues/</link><description>&lt;p&gt;Recently we’ve received many questions from users whose Facebook Chat accounts
+<rss version="2.0"><channel><title>The blog of Instantbird's development - nhnt11</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Tue, 26 Jan 2016 21:37:26 +0000</lastBuildDate><item><title>Facebook Chat Issues</title><link>https://blog.instantbird.org/2016/01/facebook-chat-issues/</link><description>&lt;p&gt;Recently we’ve received many questions from users whose Facebook Chat accounts
 will no longer connect in&amp;nbsp;Instantbird.&lt;/p&gt;
 &lt;p&gt;Facebook &lt;a class="reference external" href="https://developers.facebook.com/docs/chat"&gt;officially deprecated its &lt;span class="caps"&gt;XMPP&lt;/span&gt; gateway&lt;/a&gt; on April 30th, 2015, but it
 continued to function until recently. Unfortunately it appears this is no longer

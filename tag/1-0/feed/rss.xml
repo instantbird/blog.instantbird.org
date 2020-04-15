@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.0</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 02 Jul 2011 03:15:23 +0000</lastBuildDate><item><title>Instantbird 1.0 release, 3 days later</title><link>http://blog.instantbird.org/2011/07/instantbird-1-0-release-3-days-later/</link><description>&lt;div class="section" id="servers-load"&gt;
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.0</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 02 Jul 2011 03:15:23 +0000</lastBuildDate><item><title>Instantbird 1.0 release, 3 days later</title><link>https://blog.instantbird.org/2011/07/instantbird-1-0-release-3-days-later/</link><description>&lt;div class="section" id="servers-load"&gt;
 &lt;h2&gt;Servers&amp;nbsp;load&lt;/h2&gt;
 &lt;p&gt;Instantbird 1.0 has been very quickly downloaded over ten thousand of
 times. In fact, it happened so fast (especially immediately after we
@@ -31,7 +31,7 @@ website reopened this afternoon, and our testing confirmed that the new
 server can easily handle the load, even with more visitors than we had
 when the previous server stopped responding. It&amp;#8217;s ready for a lot more
 people coming! Don&amp;#8217;t hesitate to tell your friends to try Instantbird
-&lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;.&lt;/p&gt;
+&lt;img alt=":)" src="https://blog.instantbird.org/smileys/sourire.png" /&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="feedback"&gt;
 &lt;h2&gt;Feedback&lt;/h2&gt;
@@ -42,7 +42,7 @@ We even received some love&amp;nbsp;letters!&lt;/p&gt;
 how we are different from Pidgin (which we will be the subject of
 another post to clarify things). We also received constructive
 criticism, good bug reports. The most common request is an easy way to
-retweet or to reply to a tweet. We will work on that soon &lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt;. Tab
+retweet or to reply to a tweet. We will work on that soon &lt;img alt=":)" src="https://blog.instantbird.org/smileys/sourire.png" /&gt;. Tab
 completion of nick names is also commonly requested, but even though
 it&amp;#8217;s clear we need to have this by default in the future, we can usually
 satisfy the reporter by pointing to the great (restartless!) &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/276"&gt;Tab
@@ -55,7 +55,7 @@ already widely used, we have decided to turn on major updates from
 Instantbird 0.2 to Instantbird&amp;nbsp;1.0.&lt;/p&gt;
 &lt;p&gt;Users of Instantbird 0.2 will be offered an update shortly with an
 update prompt looking like&amp;nbsp;this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Dialog offering a major update to Instantbird 1.0" src="http://blog.instantbird.org/images/major-update-1.0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dialog offering a major update to Instantbird 1.0" src="https://blog.instantbird.org/images/major-update-1.0.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Users of our 0.3pre nightly builds will be offered an update to a
 nightly build numbered 1.1a1pre in the next few&amp;nbsp;days.&lt;/p&gt;
 &lt;/div&gt;
@@ -66,7 +66,7 @@ exciting (even though they were also exhausting). We look forward to
 continue hearing your feedback (and to actually act upon it!). Don&amp;#8217;t
 hesitate to share Instantbird with your friends. Our servers are&amp;nbsp;ready!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 02 Jul 2011 03:15:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-02:/2011/07/instantbird-1-0-release-3-days-later/</guid><category>Community</category><category>1.0</category><category>downloads</category></item><item><title>Instantbird 1.0 released in 11 locales!</title><link>http://blog.instantbird.org/2011/06/instantbird-1-0-released-in-11-locales/</link><description>&lt;p&gt;The Instantbird team is pleased to announce a polished &lt;strong&gt;Instantbird
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 02 Jul 2011 03:15:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-02:/2011/07/instantbird-1-0-release-3-days-later/</guid><category>Community</category><category>1.0</category><category>downloads</category></item><item><title>Instantbird 1.0 released in 11 locales!</title><link>https://blog.instantbird.org/2011/06/instantbird-1-0-released-in-11-locales/</link><description>&lt;p&gt;The Instantbird team is pleased to announce a polished &lt;strong&gt;Instantbird
 1.0&lt;/strong&gt;, released today in 11&amp;nbsp;locales.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="http://www.instantbird.com/press/logos/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instantbird is an extremely easy to use and highly &lt;strong&gt;extensible instant
@@ -167,7 +167,7 @@ down&amp;nbsp;regressions!&lt;/p&gt;
 &lt;p&gt;Thanks for taking the time to &lt;a class="reference external" href="http://www.instantbird.com/"&gt;check out
 Instantbird&lt;/a&gt;, if you like it please
 share it with your friends; if you&amp;#8217;re sharing it with your
-non-English-speaking friends, the website is now localized too! &lt;img alt=":)" src="http://blog.instantbird.org/smileys/sourire.png" /&gt; If
+non-English-speaking friends, the website is now localized too! &lt;img alt=":)" src="https://blog.instantbird.org/smileys/sourire.png" /&gt; If
 you have questions feel free to &lt;a class="reference external" href="http://www.instantbird.com/about.html"&gt;contact
 us&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you are writing about Instantbird and need a logo or are out of time

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - user interface</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 01 Aug 2012 10:00:16 +0000</lastBuildDate><item><title>Tab completion in Instantbird 1.2</title><link>http://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
+<rss version="2.0"><channel><title>The blog of Instantbird's development - user interface</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 01 Aug 2012 10:00:16 +0000</lastBuildDate><item><title>Tab completion in Instantbird 1.2</title><link>https://blog.instantbird.org/2012/08/tab-completion-in-instantbird-1-2/</link><description>&lt;p&gt;We&amp;#8217;ve made some major improvements to the tab completion of nicknames
 in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels (and other chatrooms). The goal, as always, is to make it
 &amp;#8220;just work&amp;#8221; (so you can think about more important&amp;nbsp;things!).&lt;/p&gt;
 &lt;p&gt;Simply press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; to complete the first couple of letters you have&amp;nbsp;typed:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To undo the completion, just press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt; as&amp;nbsp;usual.&lt;/p&gt;
 &lt;p&gt;If there is no unique nick that fits the bill, Instantbird tries to
 guess which nick you mean from the context. For example, if you have
 recently been pinged by someone, that nick is preferred. Otherwise it
 just completes as much as possible, and shows you a list of
 alternative&amp;nbsp;completions:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can then always press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; again to cycle through these candidate
 nicks until you get the right&amp;nbsp;one:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Shift&lt;/span&gt;+&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; will cycle through the list in the opposite&amp;nbsp;direction.)&lt;/p&gt;
 &lt;p&gt;Notice how Instantbird automatically added a colon after the nick, as
 we were addressing someone at the start of a message. And if you add
 another nick, you get a comma-separated&amp;nbsp;list:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Of course, sometimes that may not be what you intended. So if you
 delete the trailing colon by pressing &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt;, the punctuation
 adjusts&amp;nbsp;accordingly:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="http://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Don&amp;#8217;t forget you can also reply to any message by double-clicking it!
 This will add the sender&amp;#8217;s nick to the beginning of the&amp;nbsp;message.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item><item><title>User icons</title><link>http://blog.instantbird.org/2011/06/user-icons/</link><description>&lt;p&gt;Another very visible change between Instantbird 0.2 and 0.3 is the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item><item><title>User icons</title><link>https://blog.instantbird.org/2011/06/user-icons/</link><description>&lt;p&gt;Another very visible change between Instantbird 0.2 and 0.3 is the
 possibility to set a user icon and a display&amp;nbsp;name.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot of the contact list with a place holder icon" src="http://blog.instantbird.org/images/userIconPlaceholder.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with a place holder icon" src="https://blog.instantbird.org/images/userIconPlaceholder.png" /&gt;&lt;/p&gt;
 &lt;p&gt;You will see a place holder icon at the top of the buddy list, just
 click it (this will open a file picker) to set an icon. The icon will be
 automatically resized and converted to fit the various size and format
@@ -36,10 +36,10 @@ requirements of the &lt;span class="caps"&gt;IM&lt;/span&gt; networks you&amp;nb
 will be visible in your contacts&amp;#8217; buddy lists (unfortunately this
 currently works only for &lt;span class="caps"&gt;MSN&lt;/span&gt;).&lt;/p&gt;
 &lt;p&gt;Here you go, your friends will now easily recognize&amp;nbsp;you:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot of the contact list with an icon and a display name" src="http://blog.instantbird.org/images/userIcon.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of the contact list with an icon and a display name" src="https://blog.instantbird.org/images/userIcon.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Conversation windows have also been changed to display your contacts&amp;#8217;
 icons and some more information (display name, status message,&amp;nbsp;&amp;#8230;):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="conversation with an info bar showing the user icon" src="http://blog.instantbird.org/images/userIconConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with an info bar showing the user icon" src="https://blog.instantbird.org/images/userIconConvUI.png" /&gt;&lt;/p&gt;
 &lt;p&gt;I can already hear some comments about how much space this new
 information bar takes (or wastes) in all conversation windows. Yes,
 this takes a lot of space, we know. People tend to use big or very big
@@ -47,11 +47,11 @@ windows for chatting (sometimes even full screen!) but if you like the
 ability to chat in small windows, don&amp;#8217;t worry, we love you too! Just
 resize the window and this information bar will shrink to ensure you
 still see the actual content of the&amp;nbsp;conversation:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="conversation with a smaller info bar" src="http://blog.instantbird.org/images/userIconSmallConvUI.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conversation with a smaller info bar" src="https://blog.instantbird.org/images/userIconSmallConvUI.png" /&gt;&lt;/p&gt;
 &lt;p&gt;And for very small conversation windows, the bar will completely
 disappear, leaving only the strictly necessary user&amp;nbsp;interface:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="small conversation without the info bar" src="http://blog.instantbird.org/images/userIconNoConvUI.png" /&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 26 Jun 2011 00:31:55 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-26:/2011/06/user-icons/</guid><category>Features</category><category>icons</category><category>preview</category><category>user interface</category></item><item><title>Better contact list</title><link>http://blog.instantbird.org/2011/06/better-contact-list/</link><description>&lt;p&gt;The contact list was identified as a weak area of Instantbird 0.2. It
+&lt;p&gt;&lt;img alt="small conversation without the info bar" src="https://blog.instantbird.org/images/userIconNoConvUI.png" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 26 Jun 2011 00:31:55 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-26:/2011/06/user-icons/</guid><category>Features</category><category>icons</category><category>preview</category><category>user interface</category></item><item><title>Better contact list</title><link>https://blog.instantbird.org/2011/06/better-contact-list/</link><description>&lt;p&gt;The contact list was identified as a weak area of Instantbird 0.2. It
 has been dramatically improved for Instantbird 0.3 which we plan to
 release next&amp;nbsp;week.&lt;/p&gt;
 &lt;div class="section" id="tags"&gt;
@@ -75,7 +75,7 @@ multiple tags. To change the tags attached to a contact, use the
 existing tags with a check mark next to the tags attached to the
 selected contact. Checking/unchecking a tag in this list will
 attach/detach a tag from the&amp;nbsp;contact.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tags menu" src="http://blog.instantbird.org/images/tags-menu.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tags menu" src="https://blog.instantbird.org/images/tags-menu.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hidden-tags"&gt;
 &lt;h3&gt;Hidden&amp;nbsp;tags&lt;/h3&gt;
@@ -91,7 +91,7 @@ efficient way to forget the annoyance caused by the pointless
 resulting tags: when hovering a tag in the contact list, you will see
 an [x] icon. Clicking it will hide the tag (after showing an
 explanation the first&amp;nbsp;time).&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Hide tag icon" src="http://blog.instantbird.org/images/hide-tag-button.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hide tag icon" src="https://blog.instantbird.org/images/hide-tag-button.png" /&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;#8217;s possible to manage the list of visible tags (to unhide a tag) from
 the &amp;#8220;Visible tags&amp;#8230;&amp;#8221; context menu&amp;nbsp;item.&lt;/p&gt;
 &lt;p&gt;Contacts which haven&amp;#8217;t been associated with a visible tag will be
@@ -112,14 +112,14 @@ unobtrusively notify you of this&amp;nbsp;change.&lt;/p&gt;
 &lt;p&gt;If you want to start talking to a different account of your contact,
 you can do so easily with a click on the protocol icon at the top
 right of the conversation &lt;span class="caps"&gt;UI&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Talk using a different network" src="http://blog.instantbird.org/images/conversation-targets-menu.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Talk using a different network" src="https://blog.instantbird.org/images/conversation-targets-menu.png" /&gt;&lt;/p&gt;
 &lt;p&gt;When starting a conversation from the contact list, Instantbird will
 automatically select the best way to reach your contact, based on
 availability information and your preference with regard to the
 various ways to contact this person. You can change this preference by
 expanding a contact (with the down arrow icon) and then using drag and
 drop to reorder the&amp;nbsp;accounts.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Expanded contact" src="http://blog.instantbird.org/images/expanded-contact.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Expanded contact" src="https://blog.instantbird.org/images/expanded-contact.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="other-noticable-changes"&gt;
 &lt;h2&gt;Other noticable&amp;nbsp;changes&lt;/h2&gt;
@@ -134,18 +134,18 @@ minimized to the system tray (this behavior can be customized in the
 Preference dialog); on Mac it can be easily reopened from the&amp;nbsp;menubar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jun 2011 18:48:12 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-23:/2011/06/better-contact-list/</guid><category>Features</category><category>contacts</category><category>preview</category><category>user interface</category></item><item><title>Introducing magic copy</title><link>http://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
-feature I mentioned briefly at the end of &lt;a class="reference external" href="http://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jun 2011 18:48:12 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-23:/2011/06/better-contact-list/</guid><category>Features</category><category>contacts</category><category>preview</category><category>user interface</category></item><item><title>Introducing magic copy</title><link>https://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
+feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
 introducing time bubbles reminded me that we forgot to introduce this
 feature when it landed for Instantbird 0.2 as part of our implementation
-of &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
+of &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We decided to use this theme system because it seemed nice overall and
 was already used by a few other clients as well. However there was
 something we really didn&amp;#8217;t like: using a customized message theme could
 make copied data from the conversation really hard to read, to the point
 that it would be unsuitable for sending a quote via&amp;nbsp;email.&lt;/p&gt;
 &lt;p&gt;As this may not be very clear yet, let me give an&amp;nbsp;example:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Copying from a conversation without the 'magic copy' feature" src="http://blog.instantbird.org/images/copy-normal.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying from a conversation without the 'magic copy' feature" src="https://blog.instantbird.org/images/copy-normal.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This is the text we get when copying the selection to the clipboard and
 pasting it. This is without our &amp;#8220;magic copy&amp;#8221; feature of&amp;nbsp;course.&lt;/p&gt;
 &lt;p&gt;I should also note that the Bubbles theme used for this screenshot is
@@ -161,18 +161,18 @@ the selected &lt;span class="caps"&gt;HTML&lt;/span&gt; attempts to detect which
 &amp;#8220;prettyprint&amp;#8221; them based on what Instantbird knows about the message,
 rather than what is visible and&amp;nbsp;selected.&lt;/p&gt;
 &lt;p&gt;This is the&amp;nbsp;result:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Same conversation copied with magic copy" src="http://blog.instantbird.org/images/copy-magic.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Same conversation copied with magic copy" src="https://blog.instantbird.org/images/copy-magic.png" /&gt;&lt;/p&gt;
 &lt;p&gt;If only a part of a single message was selected, the username and
 timestamp won&amp;#8217;t be added to the copied strings, it will behave like a
 normal text&amp;nbsp;copy:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Copying a part of a single message" src="http://blog.instantbird.org/images/copy-part-of-one-message.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying a part of a single message" src="https://blog.instantbird.org/images/copy-part-of-one-message.png" /&gt;&lt;/p&gt;
 &lt;p&gt;As we detect which messages are selected and even know if each message
 was fully selected or only in part, we can nicely add an ellipsis when
 a message was&amp;nbsp;cut:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Ellipsis are added where messages are cut" src="http://blog.instantbird.org/images/copy-ellipsis.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ellipsis are added where messages are cut" src="https://blog.instantbird.org/images/copy-ellipsis.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This even works when using multiple-selections (press Ctrl on
 Windows/Linux, and Command on Mac to do&amp;nbsp;this):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Copying parts of multiple messages" src="http://blog.instantbird.org/images/copy-multi-select.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Copying parts of multiple messages" src="https://blog.instantbird.org/images/copy-multi-select.png" /&gt;&lt;/p&gt;
 &lt;p&gt;A few technical details: the template used to serialize copied messages
 is both localizable and customizable from &lt;a class="reference external" href="about:config"&gt;about:config&lt;/a&gt;, it&amp;#8217;s also
 possible to completely turn off this feature in case it ever causes some
@@ -183,8 +183,8 @@ year and nobody complained about it. Actually, it&amp;#8217;s one of the feature
 that is barely noticed because it just works, but it is something that
 is really missed if using another &lt;span class="caps"&gt;IM&lt;/span&gt; client after using Instantbird for
 a&amp;nbsp;while.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 16 Jun 2011 16:35:21 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-16:/2011/06/introducing-magic-copy/</guid><category>Features</category><category>adium</category><category>user interface</category></item><item><title>Introducing Time Bubbles</title><link>http://blog.instantbird.org/2011/06/introducing-time-bubbles/</link><description>&lt;p&gt;Instantbird 0.2 was released with Bubbles as its default message&amp;nbsp;theme:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="default message themes of Instantbird 0.2" src="http://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 16 Jun 2011 16:35:21 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-16:/2011/06/introducing-magic-copy/</guid><category>Features</category><category>adium</category><category>user interface</category></item><item><title>Introducing Time Bubbles</title><link>https://blog.instantbird.org/2011/06/introducing-time-bubbles/</link><description>&lt;p&gt;Instantbird 0.2 was released with Bubbles as its default message&amp;nbsp;theme:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="default message themes of Instantbird 0.2" src="https://blog.instantbird.org/images/instantbird-0.2-default-themes.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The most common feedback we received from users that quickly switched
 back to Simple (the previous default) or another theme was that the lack
 of timestamp for each message made the theme&amp;nbsp;unusable.&lt;/p&gt;
@@ -221,7 +221,7 @@ take into account what has just been said, it&amp;#8217;s just that the message
 wasn&amp;#8217;t read yet at the time the reply was&amp;nbsp;written.&lt;/p&gt;
 &lt;p&gt;I believe having to read and compare mentally 2 timestamps to get that
 information is overly complicated and we can convey this information&amp;nbsp;visually:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="http://blog.instantbird.org/images/bubbles-with-different-spacing.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them" src="https://blog.instantbird.org/images/bubbles-with-different-spacing.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The vertical space between Bubbles is used to show how much time
 separates messages. If 2 people talked at the same second, their bubbles
 will almost touch each other. If there&amp;#8217;s been a pause between the
@@ -237,7 +237,7 @@ likely-read message and a most-likely-not-read-yet message), but makes
 it hard to evaluate time intervals of several minutes. To address that,
 when messages are separated by over 5 minutes, the exact time is
 displayed between the bubbles in gray&amp;nbsp;text:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot of 2 messages with over 5 minutes of interval" src="http://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot of 2 messages with over 5 minutes of interval" src="https://blog.instantbird.org/images/bubbles-with-over-5-minutes-between-them.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="is-this-message-old"&gt;
 &lt;h2&gt;2. Is this message&amp;nbsp;old?&lt;/h2&gt;
@@ -257,18 +257,18 @@ so displaying this time requires an animation: messages will &amp;#8220;scroll
 away&amp;#8221; as they get old. If a message is older than 5 minutes, the time
 since it appeared will be written (omitting seconds, so that the text
 displayed doesn&amp;#8217;t change&amp;nbsp;continuously).&lt;/p&gt;
-&lt;p&gt;Just arrived message: &lt;img alt="screenshot of the area at the bottom of the conversation without space" src="http://blog.instantbird.org/images/bubble-just-arrived-message.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Message arrived a while ago: &lt;img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="http://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Just arrived message: &lt;img alt="screenshot of the area at the bottom of the conversation without space" src="https://blog.instantbird.org/images/bubble-just-arrived-message.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Message arrived a while ago: &lt;img alt="screenshot of the area at the bottom of the conversation with a lot of space and the time displayed" src="https://blog.instantbird.org/images/bubble-message-arrived-minutes-ago.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="when-did-i-say-that"&gt;
 &lt;h2&gt;3. When did I say&amp;nbsp;that?&lt;/h2&gt;
 &lt;p&gt;This question occurs occasionally when looking for something in the
-backlog (typically using &lt;a class="reference external" href="http://blog.instantbird.org/articles/conversation-tools.rst"&gt;the findbar&lt;/a&gt;).
+backlog (typically using &lt;a class="reference external" href="https://blog.instantbird.org/articles/conversation-tools.rst"&gt;the findbar&lt;/a&gt;).
 In this case, the time is actually the desired information, but seconds
 are irrelevant, so only the hour and minutes need to be displayed. For
 this case, I decided to display the time of the first message of a
 bubble when the bubbles is&amp;nbsp;hovered:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="hovered bubble" src="http://blog.instantbird.org/images/bubble-hovered.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="hovered bubble" src="https://blog.instantbird.org/images/bubble-hovered.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="what-was-the-time-of-a-specific-message"&gt;
 &lt;h2&gt;4. What was the time of a specific&amp;nbsp;message?&lt;/h2&gt;
@@ -284,7 +284,7 @@ we called &amp;#8220;magic copy&amp;#8221;: when a selection inside a conversati
 into the clipboard, Instantbird will detect which messages are selected,
 and &amp;#8220;prettyprint&amp;#8221; them so that whatever message theme is currently in
 used doesn&amp;#8217;t change the appearance of quoted&amp;nbsp;messages.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="the input box with a copy of some selected messages" src="http://blog.instantbird.org/images/bubbles-magic-copy.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="the input box with a copy of some selected messages" src="https://blog.instantbird.org/images/bubbles-magic-copy.png" /&gt;&lt;/p&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;I have experimented with all of these suggestions for over a year
@@ -297,7 +297,7 @@ Instantbird 0.3 beta 1 which we plan to release very soon. We look
 forward to your feedback on&amp;nbsp;this!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Wed, 08 Jun 2011 23:45:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-08:/2011/06/introducing-time-bubbles/</guid><category>Features</category><category>chatting</category><category>preview</category><category>user interface</category></item><item><title>Context Menus</title><link>http://blog.instantbird.org/2010/07/context-menus/</link><description>&lt;p&gt;Context menus (opened with a &amp;#8220;right click&amp;#8221;) are a common and expected
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Wed, 08 Jun 2011 23:45:50 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-08:/2011/06/introducing-time-bubbles/</guid><category>Features</category><category>chatting</category><category>preview</category><category>user interface</category></item><item><title>Context Menus</title><link>https://blog.instantbird.org/2010/07/context-menus/</link><description>&lt;p&gt;Context menus (opened with a &amp;#8220;right click&amp;#8221;) are a common and expected
 part of the user interface. It can be very frustrating when they are
 missing, so in Instantbird 0.2 we tried to add one wherever users are
 likely to expect&amp;nbsp;one.&lt;/p&gt;
@@ -305,39 +305,39 @@ likely to expect&amp;nbsp;one.&lt;/p&gt;
 conversation (although pressing enter or double clicking is usually
 faster), show the conversation history, rename a contact, move the
 contact to a different group or remove it from the&amp;nbsp;list:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy context menu" src="http://blog.instantbird.org/images/buddy_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy context menu" src="https://blog.instantbird.org/images/buddy_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The context menu is usable anywhere in the buddy list to toggle the
 display of offline&amp;nbsp;buddies:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy list context menu" src="http://blog.instantbird.org/images/blist_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy list context menu" src="https://blog.instantbird.org/images/blist_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;A context menu was added in the account manager too. There, it proposes
 all the possible actions for an account. Since Instantbird 0.2, it&amp;#8217;s
 possible to reorder the accounts in the list (this is also possible with
 drag &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; drop using the mouse or with the keyboard using shift + the up or
 down&amp;nbsp;arrow).&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account context menu" src="http://blog.instantbird.org/images/account_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account context menu" src="https://blog.instantbird.org/images/account_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;A context menu is available on conversation tabs, with actions related
 to that tab (opening it in a new window, closing it, &amp;#8230;) and to the
 conversation, like showing the history of previous conversations with
 the same&amp;nbsp;contact.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tab context menu" src="http://blog.instantbird.org/images/tab_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tab context menu" src="https://blog.instantbird.org/images/tab_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Last but not least, there&amp;#8217;s a context menu in conversation content. This
 is the most &amp;#8220;contextual&amp;#8221; context menu we have added. The proposed
 actions will vary depending on whether there is a selection or if the
 context click was done over a&amp;nbsp;link.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Content context menu" src="http://blog.instantbird.org/images/text_context-menu2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Content context menu" src="https://blog.instantbird.org/images/text_context-menu2.png" /&gt;&lt;/p&gt;
 &lt;p&gt;When selecting some text from a conversation, a common action is to copy
 it to the clipboard and then paste it in a browser to use it as the
 query in search engine. We have included search engine items directly in
 the context menus to reduce the number of clicks needed for this common&amp;nbsp;case.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 11 Jul 2010 14:32:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-11:/2010/07/context-menus/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Cleaner UI</title><link>http://blog.instantbird.org/2010/07/cleaner-ui/</link><description>&lt;p&gt;In Instantbird 0.2 a lot of visual bloat has been removed from all
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sun, 11 Jul 2010 14:32:05 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-11:/2010/07/context-menus/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Cleaner UI</title><link>https://blog.instantbird.org/2010/07/cleaner-ui/</link><description>&lt;p&gt;In Instantbird 0.2 a lot of visual bloat has been removed from all
 windows. Some margins have been reduced, borders that weren&amp;#8217;t useful for
 clarity have been removed, and alignments have been improved. All of
 this contributes to a better use of the available space on the screen,
 and to a better perceived impression of simplicity in the user&amp;nbsp;interface.&lt;/p&gt;
 &lt;p&gt;To illustrate this, let&amp;#8217;s compare the conversation window before and&amp;nbsp;after:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/conv_before-after.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conversation windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/conv_before-after.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The buddy list has also been&amp;nbsp;improved:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/blist_before-after.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Buddy list windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/blist_before-after.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The status can now be changed directly from the top of the buddy list
 instead of having to interact with a poor popup dialog. (Note that for
 the users who hate clicking, the status can also be changed quickly
@@ -345,5 +345,5 @@ using commands from conversation windows: &lt;tt class="docutils literal"&gt;/aw
 &lt;tt class="docutils literal"&gt;/offline&lt;/tt&gt;.)&lt;/p&gt;
 &lt;p&gt;The account manager has also been simplified a lot, and is now usable in
 a much smaller&amp;nbsp;window:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="http://blog.instantbird.org/images/am_before-after.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/am_before-after.png" /&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 08 Jul 2010 14:32:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-08:/2010/07/cleaner-ui/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item></channel></rss>

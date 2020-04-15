@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.4</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 20 May 2013 18:19:44 +0000</lastBuildDate><item><title>Instantbird 1.4 Released!</title><link>http://blog.instantbird.org/2013/05/instantbird-1-4-released/</link><description>&lt;div class="wp-caption alignright docutils container"&gt;
-&lt;a class="reference external image-reference" href="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded.png"&gt;&lt;img alt="Instantbird 1.4 Logger Tree" class="size-medium" src="http://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded-151x300.png" style="width: 151px; height: 300px;" /&gt;&lt;/a&gt;
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 1.4</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Mon, 20 May 2013 18:19:44 +0000</lastBuildDate><item><title>Instantbird 1.4 Released!</title><link>https://blog.instantbird.org/2013/05/instantbird-1-4-released/</link><description>&lt;div class="wp-caption alignright docutils container"&gt;
+&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded.png"&gt;&lt;img alt="Instantbird 1.4 Logger Tree" class="size-medium" src="https://blog.instantbird.org/wp-content/uploads/2013/05/logtree-faded-151x300.png" style="width: 151px; height: 300px;" /&gt;&lt;/a&gt;
 &lt;p class="wp-caption-text"&gt;Log Viewer showing dates in a&amp;nbsp;tree&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/download-all.html"&gt;Get your copy&lt;/a&gt; of
@@ -19,7 +19,7 @@ overridden for &lt;span class="caps"&gt;IRC&lt;/span&gt;&amp;nbsp;accounts.&lt;/
 &lt;li&gt;Logs are now organized by the date they were created, and smartly folded
 to easily find recent&amp;nbsp;chats.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As we stated during the &lt;a class="reference external" href="http://blog.instantbird.org/articles/instantbird-1-3-released.rst"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
+&lt;p&gt;As we stated during the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-1-3-released.rst"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
 Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X 10.6 (Snow Leopard). Instantbird 1.4 is based off Mozilla 20 and
 libpurple 2.10.7, the newest versions&amp;nbsp;available.&lt;/p&gt;
 &lt;p&gt;You might be asking &amp;#8220;What&amp;#8217;s next?&amp;#8221; for Instantbird; we will be

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - announcements</title><link>http://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 16 Mar 2011 00:39:44 +0000</lastBuildDate><item><title>Mailing list publicly readable</title><link>http://blog.instantbird.org/2011/03/mailing-list-publicly-readable/</link><description>&lt;p&gt;We used to handle most support requests received from the contact &lt;span class="caps"&gt;AT&lt;/span&gt;
+<rss version="2.0"><channel><title>The blog of Instantbird's development - announcements</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Wed, 16 Mar 2011 00:39:44 +0000</lastBuildDate><item><title>Mailing list publicly readable</title><link>https://blog.instantbird.org/2011/03/mailing-list-publicly-readable/</link><description>&lt;p&gt;We used to handle most support requests received from the contact &lt;span class="caps"&gt;AT&lt;/span&gt;
 instantbird &lt;span class="caps"&gt;DOT&lt;/span&gt; org email address on a mailing list which was private.
 This was inefficient as we replied to the same questions over and over
 and people couldn&amp;#8217;t benefit from old replies. New posts to the mailing
