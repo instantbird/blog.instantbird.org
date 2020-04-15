@@ -9,7 +9,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # Use the full site URL for feeds.
-SITEURL = 'http://blog.instantbird.org'
+SITEURL = 'https://blog.instantbird.org'
 FEED_DOMAIN = SITEURL
 
 # Ensure the output is clean.
