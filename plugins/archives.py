@@ -1,5 +1,5 @@
 """
-Generates and adds archive objects to the context for iterating through the yearly, monthlyn or daily archives on any page.
+Generates and adds archive objects to the context for iterating through the yearly, monthly, or daily archives on any page.
 """
 
 from itertools import groupby
