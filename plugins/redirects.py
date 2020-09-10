@@ -32,7 +32,7 @@ REDIRECT_STRING = """
         <a href="/{url}">link to {title}</a>
     </body>
 </html>
-"""
+""".strip()
 
 
 class RedirectGenerator(Generator):
@@ -113,7 +113,7 @@ class RedirectTagGenerator(Generator):
             # Generate an HTML redirect.
             redirect_string = REDIRECT_STRING.format(
                 url="/" + tag.url,
-                title=tag.name)
+                title=tag.name.title())
 
             # Write it to each redirect path.
             for redirect_path in self._get_redirect_save_as(tag):
