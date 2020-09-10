@@ -142,6 +142,11 @@ REDIRECT_SAVE_AS = [
     'c{index}-{slug}.html',
     'n{index}-{slug}.html',
 ]
+# The WordPress blog renamed mozilla and community tags with a "-2" on the end.
+# Generate redirects for all categories since they won't hurt.
+REDIRECT_TAG_SAVE_AS = [
+    'tag/{slug}-2/index.html',
+]
 
 # Configure the tag cloud.
 TAG_CLOUD_MAX_ITEMS = 100
