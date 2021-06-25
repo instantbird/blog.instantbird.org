@@ -74,26 +74,26 @@ to change your favourite&amp;nbsp;theme.&lt;/p&gt;
 in &lt;span class="caps"&gt;IRC&lt;/span&gt; channels (and other chatrooms). The goal, as always, is to make it
 &amp;#8220;just work&amp;#8221; (so you can think about more important&amp;nbsp;things!).&lt;/p&gt;
 &lt;p&gt;Simply press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; to complete the first couple of letters you have&amp;nbsp;typed:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png"&gt;&lt;img alt="image0" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tabc4.png" style="width: 406px; height: 95px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To undo the completion, just press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt; as&amp;nbsp;usual.&lt;/p&gt;
 &lt;p&gt;If there is no unique nick that fits the bill, Instantbird tries to
 guess which nick you mean from the context. For example, if you have
 recently been pinged by someone, that nick is preferred. Otherwise it
 just completes as much as possible, and shows you a list of
 alternative&amp;nbsp;completions:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png"&gt;&lt;img alt="image1" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc4-2.png" style="width: 597px; height: 150px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can then always press &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; again to cycle through these candidate
 nicks until you get the right&amp;nbsp;one:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png"&gt;&lt;img alt="image2" class="alignnone size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc6-6.png" style="width: 605px; height: 127px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Shift&lt;/span&gt;+&lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;&lt;span class="caps"&gt;TAB&lt;/span&gt;&lt;/span&gt; will cycle through the list in the opposite&amp;nbsp;direction.)&lt;/p&gt;
 &lt;p&gt;Notice how Instantbird automatically added a colon after the nick, as
 we were addressing someone at the start of a message. And if you add
 another nick, you get a comma-separated&amp;nbsp;list:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png"&gt;&lt;img alt="image3" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc8-6.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Of course, sometimes that may not be what you intended. So if you
 delete the trailing colon by pressing &lt;span style="background: Gainsboro;border: 1px outset Ghostwhite;padding: 2px;font-size: smaller"&gt;Backspace&lt;/span&gt;, the punctuation
 adjusts&amp;nbsp;accordingly:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png"&gt;&lt;img alt="image4" class="aligncenter size-full" src="https://blog.instantbird.org/wp-content/uploads/2013/07/tc9-4.png" style="width: 211px; height: 101px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Don&amp;#8217;t forget you can also reply to any message by double-clicking it!
 This will add the sender&amp;#8217;s nick to the beginning of the&amp;nbsp;message.&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">aleth</dc:creator><pubDate>Wed, 01 Aug 2012 10:00:16 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-08-01:/2012/08/tab-completion-in-instantbird-1-2/</guid><category>Features</category><category>1.2</category><category>preview</category><category>tab complete</category><category>user interface</category></item><item><title>The Interruptions Manager</title><link>https://blog.instantbird.org/2011/10/the-interruptions-manage/</link><description>&lt;p&gt;For Instantbird 1.1, which will be released soon, we realized a weak
@@ -244,10 +244,10 @@ Preference dialog); on Mac it can be easily reopened from the&amp;nbsp;menubar.&
 &lt;/ul&gt;
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jun 2011 18:48:12 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-23:/2011/06/better-contact-list/</guid><category>Features</category><category>contacts</category><category>preview</category><category>user interface</category></item><item><title>Introducing magic copy</title><link>https://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
-feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
+feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/2011/06/introducing-time-bubbles/"&gt;my previous post&lt;/a&gt;
 introducing time bubbles reminded me that we forgot to introduce this
 feature when it landed for Instantbird 0.2 as part of our implementation
-of &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
+of &lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We decided to use this theme system because it seemed nice overall and
 was already used by a few other clients as well. However there was
 something we really didn&amp;#8217;t like: using a customized message theme could

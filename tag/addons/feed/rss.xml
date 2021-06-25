@@ -69,10 +69,10 @@ you to try it! There&amp;#8217;s a lot of new interesting stuff in this one. Her
 are some of them, read the &lt;a class="reference external" href="http://www.instantbird.com/download-0.2a1.html"&gt;release
 notes&lt;/a&gt; for&amp;nbsp;more:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;It is &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-localizability.rst"&gt;ready to be localized&lt;/a&gt;
+&lt;li&gt;It is &lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-localizability/"&gt;ready to be localized&lt;/a&gt;
 (and you can try an &lt;a class="reference external" href="https://addons.instantbird.org/en-US/instantbird/addon/207"&gt;experimental French language
 pack&lt;/a&gt;),&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;Improved conversations&lt;/a&gt;:
+&lt;li&gt;&lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/"&gt;Improved conversations&lt;/a&gt;:
 you can change conversation styles, smiley themes are now&amp;nbsp;handled.&lt;/li&gt;
 &lt;li&gt;We implemented a &amp;#8216;magic&amp;#8217; copy/paste feature that will allow you to
 have pretty quotes out of messages copied from Instantbird. Some bugs

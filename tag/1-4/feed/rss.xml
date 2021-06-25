@@ -19,7 +19,7 @@ overridden for &lt;span class="caps"&gt;IRC&lt;/span&gt;&amp;nbsp;accounts.&lt;/
 &lt;li&gt;Logs are now organized by the date they were created, and smartly folded
 to easily find recent&amp;nbsp;chats.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As we stated during the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-1-3-released.rst"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
+&lt;p&gt;As we stated during the &lt;a class="reference external" href="https://blog.instantbird.org/2012/11/instantbird-1-3-released/"&gt;Instantbird 1.3 release&lt;/a&gt;, this version now requires
 Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X 10.6 (Snow Leopard). Instantbird 1.4 is based off Mozilla 20 and
 libpurple 2.10.7, the newest versions&amp;nbsp;available.&lt;/p&gt;
 &lt;p&gt;You might be asking &amp;#8220;What&amp;#8217;s next?&amp;#8221; for Instantbird; we will be

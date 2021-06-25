@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.2</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>https://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-released.rst"&gt;recently released
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.2</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>https://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="https://blog.instantbird.org/2010/07/instantbird-0-2-released/"&gt;recently released
 Instantbird 0.2&lt;/a&gt;,
 we have turned on major updates for users of Instantbird 0.1.2 and
 0.1.3. If you are still using one of these old versions, you will
@@ -36,13 +36,13 @@ of our&amp;nbsp;translators.&lt;/p&gt;
 &lt;p&gt;If you have tried Instantbird 0.1 back in 2007 when it was first
 released, Instantbird 0.2 may feel like a completely different software
 to you. The most dramatically changed area is the conversation window
-(for example, &lt;a class="reference external" href="https://blog.instantbird.org/articles/tabs.rst"&gt;new tabs&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/articles/message-styles.rst"&gt;message styles&lt;/a&gt;), but
+(for example, &lt;a class="reference external" href="https://blog.instantbird.org/2010/06/tabs/"&gt;new tabs&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/2010/07/message-styles/"&gt;message styles&lt;/a&gt;), but
 there are notable changes in almost every window. For a list of changes,
 see the &lt;a class="reference external" href="http://www.instantbird.com/release-notes.html"&gt;release
 notes&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Let&amp;#8217;s stop talking, so that you can &lt;a class="reference external" href="http://www.instantbird.com/"&gt;discover Instantbird 0.2
 now&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="https://blog.instantbird.org/images/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="https://blog.instantbird.org/images/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In the next few days, we will talk about our plans for the future, and
 especially Instantbird 0.3. Stay&amp;nbsp;tuned!&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Tue, 13 Jul 2010 17:10:53 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-13:/2010/07/instantbird-0-2-released/</guid><category>Downloads</category><category>0.2</category><category>announce</category><category>downloads</category><category>final</category></item><item><title>Context Menus</title><link>https://blog.instantbird.org/2010/07/context-menus/</link><description>&lt;p&gt;Context menus (opened with a &amp;#8220;right click&amp;#8221;) are a common and expected
@@ -96,7 +96,7 @@ a much smaller&amp;nbsp;window:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Account manager windows in Instantbird 0.2 and 0.1.3" src="https://blog.instantbird.org/images/am_before-after.png" /&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 08 Jul 2010 14:32:27 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-07-08:/2010/07/cleaner-ui/</guid><category>Features</category><category>0.2</category><category>preview</category><category>user interface</category></item><item><title>Message Styles</title><link>https://blog.instantbird.org/2010/07/message-styles/</link><description>&lt;p&gt;As exchanging messages is the most important feature of an instant
 messaging client, we put a great deal of thought into the way the
-messages are displayed. As we have &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;already explained&lt;/a&gt;,
+messages are displayed. As we have &lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/"&gt;already explained&lt;/a&gt;,
 we decided to implement the &lt;a class="reference external" href="http://adium.im/"&gt;Adium&lt;/a&gt; message style
 system. This system offers a great flexibility to message style authors
 to display the conversation content the way they&amp;nbsp;want.&lt;/p&gt;

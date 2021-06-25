@@ -79,7 +79,7 @@ displayed doesn&amp;#8217;t change&amp;nbsp;continuously).&lt;/p&gt;
 &lt;div class="section" id="when-did-i-say-that"&gt;
 &lt;h2&gt;3. When did I say&amp;nbsp;that?&lt;/h2&gt;
 &lt;p&gt;This question occurs occasionally when looking for something in the
-backlog (typically using &lt;a class="reference external" href="https://blog.instantbird.org/articles/conversation-tools.rst"&gt;the findbar&lt;/a&gt;).
+backlog (typically using &lt;a class="reference external" href="https://blog.instantbird.org/2010/07/conversation-tools/"&gt;the findbar&lt;/a&gt;).
 In this case, the time is actually the desired information, but seconds
 are irrelevant, so only the hour and minutes need to be displayed. For
 this case, I decided to display the time of the first message of a

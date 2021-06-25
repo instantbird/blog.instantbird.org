@@ -11,7 +11,7 @@ even worked for this&amp;nbsp;long!&lt;/p&gt;
 chat &lt;span class="caps"&gt;API&lt;/span&gt;, which we are considering offering as part of a future release of&amp;nbsp;Instantbird.&lt;/p&gt;
 &lt;p&gt;Stay&amp;nbsp;tuned!&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nhnt11</dc:creator><pubDate>Tue, 26 Jan 2016 21:37:26 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2016-01-26:/2016/01/facebook-chat-issues/</guid><category>Support</category><category>facebook</category><category>status update</category></item><item><title>Linux nightly builds back!</title><link>https://blog.instantbird.org/2014/07/linux-nightly-builds-back/</link><description>&lt;p&gt;Back in March, we posted that we had started
-&lt;a class="reference external" href="https://blog.instantbird.org/articles/pardon-the-interruption-instantbird-nightly-builds-are-back.rst"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
+&lt;a class="reference external" href="https://blog.instantbird.org/2014/03/pardon-the-interruption-instantbird-nightly-builds-are-back/"&gt;building nightly builds from mozilla-central/comm-central&lt;/a&gt;, but because the
 version of CentOS we had been using was too old, we were unable to continue
 providing Linux nightly builds. That has now changed and (as of today) we have
 &lt;strong&gt;both 32-bit and 64-bit&lt;/strong&gt; Linux nightlies! Since this involved us installing a
@@ -74,7 +74,7 @@ doing a great&amp;nbsp;job!&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">clokep</dc:creator><pubDate>Fri, 27 Jul 2012 13:10:44 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2012-07-27:/2012/07/status-update-july-27-2012/</guid><category>Development</category><category>GSoC</category><category>l10n</category><category>status update</category></item><item><title>Status Update: May 23, 2012</title><link>https://blog.instantbird.org/2012/05/status-update-may-23-2012/</link><description>&lt;p&gt;We&amp;#8217;ve made quite a bit of improvements over the past few weeks. Although
 a lot of the changes are behind the scenes or fixing regressions, there
 are some exciting user facing changes, as detailed below! We&amp;#8217;ve also
-been working with our &lt;a class="reference external" href="https://blog.instantbird.org/articles/google-summer-of-code-2012.rst"&gt;Google Summer of Code 2012 student&lt;/a&gt;,
+been working with our &lt;a class="reference external" href="https://blog.instantbird.org/2012/04/google-summer-of-code-2012/"&gt;Google Summer of Code 2012 student&lt;/a&gt;,
 wnayes, quite a bit to get him up to speed of how things work in
 Instantbird. He&amp;#8217;s made great progress on understanding the code and has
 even fixed a bug (see the &amp;#8220;top protocols&amp;#8221; page,&amp;nbsp;below)!&lt;/p&gt;

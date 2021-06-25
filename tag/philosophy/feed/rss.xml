@@ -54,7 +54,7 @@ things don&amp;#8217;t look satisfying and we have to look for a better solution
 We especially try to avoid exposing the user to new popup dialogs that
 interrupt the user but don&amp;#8217;t seem absolutely&amp;nbsp;necessary.&lt;/p&gt;
 &lt;p&gt;Once something is implemented, we do our best to take advantage of the
-early feedback we get from our &lt;a class="reference external" href="https://blog.instantbird.org/articles/nightly-builds-available.rst"&gt;nightly&lt;/a&gt;&amp;nbsp;testers.&lt;/p&gt;
+early feedback we get from our &lt;a class="reference external" href="https://blog.instantbird.org/2008/10/nightly-builds-available/"&gt;nightly&lt;/a&gt;&amp;nbsp;testers.&lt;/p&gt;
 &lt;p&gt;So why are we doing this? Copying the interface of an existing
 application as quickly as possible would be easier, and would lead to a
 fast result. But it would be worthless. We don&amp;#8217;t need another Pidgin,

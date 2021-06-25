@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - mic</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 11 Dec 2010 02:10:32 +0000</lastBuildDate><item><title>IRC in Javascript - a contributor’s work</title><link>https://blog.instantbird.org/2010/12/irc-in-javascript-a-contributors-work/</link><description>&lt;p&gt;A short time after Instantbird 0.2 was released the &lt;a class="reference external" href="https://blog.instantbird.org/articles/status-update.rst"&gt;js-proto branch&lt;/a&gt; was
+<rss version="2.0"><channel><title>The blog of Instantbird's development - mic</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sat, 11 Dec 2010 02:10:32 +0000</lastBuildDate><item><title>IRC in Javascript - a contributor’s work</title><link>https://blog.instantbird.org/2010/12/irc-in-javascript-a-contributors-work/</link><description>&lt;p&gt;A short time after Instantbird 0.2 was released the &lt;a class="reference external" href="https://blog.instantbird.org/2010/08/status-update/"&gt;js-proto branch&lt;/a&gt; was
 merged into the main development tree. This was the branch where the
 backend of Instantbird was prepared to support protocol plugins written
 entirely in Javascript. Not long after that, Patrick Cloke, an active
@@ -12,7 +12,7 @@ protocol. So if you&amp;#8217;re interested in the technical aspects of
 Instantbird and how to extend Instantbird with a protocol plugin written
 in &lt;span class="caps"&gt;JS&lt;/span&gt; then you definitely should go and read it at &lt;a class="reference external" href="http://patrick.cloke.us/posts/2010/12/08/why-rewrite-irc-into-javascript/"&gt;his
 blog&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mic</dc:creator><pubDate>Sat, 11 Dec 2010 02:10:32 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-12-11:/2010/12/irc-in-javascript-a-contributors-work/</guid><category>Development</category><category>irc</category><category>javascript</category></item><item><title>Status update</title><link>https://blog.instantbird.org/2010/11/status-update-3/</link><description>&lt;p&gt;It&amp;#8217;s been three weeks now since the &lt;a class="reference external" href="https://blog.instantbird.org/articles/status-update-2.rst"&gt;last status update&lt;/a&gt; and
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mic</dc:creator><pubDate>Sat, 11 Dec 2010 02:10:32 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2010-12-11:/2010/12/irc-in-javascript-a-contributors-work/</guid><category>Development</category><category>irc</category><category>javascript</category></item><item><title>Status update</title><link>https://blog.instantbird.org/2010/11/status-update-3/</link><description>&lt;p&gt;It&amp;#8217;s been three weeks now since the &lt;a class="reference external" href="https://blog.instantbird.org/2010/10/status-update-2/"&gt;last status update&lt;/a&gt; and
 here&amp;#8217;s a short summary of things that have been done in the&amp;nbsp;meantime.&lt;/p&gt;
 &lt;p&gt;Some contributors are getting more closely involved with the project
 lately. Subsequently some tasks, such as posting status updates, will
@@ -42,7 +42,7 @@ happy: we are displaying plain text formatting now, such as *bold*,
 543&lt;/a&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;We made conversation tabs look more native on Mac, taking advantage
-of a &lt;a class="reference external" href="https://blog.instantbird.org/articles/tabs.rst"&gt;suggestion&lt;/a&gt; from Markus&amp;nbsp;Stange:&lt;/p&gt;
+of a &lt;a class="reference external" href="https://blog.instantbird.org/2010/06/tabs/"&gt;suggestion&lt;/a&gt; from Markus&amp;nbsp;Stange:&lt;/p&gt;
 &lt;p&gt;The old flat&amp;nbsp;look:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Cropped screenshot of the old look of the unified toolbar on Mac" src="https://blog.instantbird.org/images/tabs8-macosxactiveinactive.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Now with a nice gradient in the title&amp;nbsp;bar:&lt;/p&gt;

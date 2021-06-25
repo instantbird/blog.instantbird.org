@@ -177,7 +177,7 @@ appropriate testing before being included in the next&amp;nbsp;release.&lt;/p&gt
 only by developers and &lt;a class="reference external" href="http://developer.pidgin.im/wiki/Installing%20Pidgin#WhydoyoualwayssaynottouseMTN"&gt;others people are discouraged from attempting to
 use
 it&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Learn more about our &lt;a class="reference external" href="https://blog.instantbird.org/articles/stability.rst"&gt;stability efforts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more about our &lt;a class="reference external" href="https://blog.instantbird.org/2010/07/stability/"&gt;stability efforts&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="changing"&gt;
@@ -215,7 +215,7 @@ compete against it, so such a list would be irrelevant&amp;nbsp;anyway.&lt;/p&gt
 &lt;p&gt;On the other hand, Instantbird has some features that Pidgin doesn&amp;#8217;t
 have (message themes, automatic updates, inline search, &amp;#8230;) and even
 some unique features (for two examples, see my blog posts introducing
-&lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;Time Bubbles&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-magic-copy.rst"&gt;Magic copy&lt;/a&gt;).&lt;/p&gt;
+&lt;a class="reference external" href="https://blog.instantbird.org/2011/06/introducing-time-bubbles/"&gt;Time Bubbles&lt;/a&gt; and &lt;a class="reference external" href="https://blog.instantbird.org/2011/06/introducing-magic-copy/"&gt;Magic copy&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
@@ -478,10 +478,10 @@ Preference dialog); on Mac it can be easily reopened from the&amp;nbsp;menubar.&
 &lt;/ul&gt;
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Thu, 23 Jun 2011 18:48:12 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-06-23:/2011/06/better-contact-list/</guid><category>Features</category><category>contacts</category><category>preview</category><category>user interface</category></item><item><title>Introducing magic copy</title><link>https://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
-feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
+feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/2011/06/introducing-time-bubbles/"&gt;my previous post&lt;/a&gt;
 introducing time bubbles reminded me that we forgot to introduce this
 feature when it landed for Instantbird 0.2 as part of our implementation
-of &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
+of &lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We decided to use this theme system because it seemed nice overall and
 was already used by a few other clients as well. However there was
 something we really didn&amp;#8217;t like: using a customized message theme could

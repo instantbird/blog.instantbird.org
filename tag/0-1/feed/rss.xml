@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.1</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>https://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-released.rst"&gt;recently released
+<rss version="2.0"><channel><title>The blog of Instantbird's development - 0.1</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Sun, 25 Jul 2010 22:59:34 +0000</lastBuildDate><item><title>Major update to Instantbird 0.2</title><link>https://blog.instantbird.org/2010/07/major-update-to-instantbird-0-2/</link><description>&lt;p&gt;As no critical issues have been reported in the &lt;a class="reference external" href="https://blog.instantbird.org/2010/07/instantbird-0-2-released/"&gt;recently released
 Instantbird 0.2&lt;/a&gt;,
 we have turned on major updates for users of Instantbird 0.1.2 and
 0.1.3. If you are still using one of these old versions, you will

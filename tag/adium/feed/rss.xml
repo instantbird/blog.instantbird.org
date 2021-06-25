@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>The blog of Instantbird's development - adium</title><link>https://blog.instantbird.org/</link><description></description><lastBuildDate>Thu, 16 Jun 2011 16:35:21 +0000</lastBuildDate><item><title>Introducing magic copy</title><link>https://blog.instantbird.org/2011/06/introducing-magic-copy/</link><description>&lt;p&gt;The surprise and enthusiasm of a few people about the &amp;#8220;magic copy&amp;#8221;
-feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/articles/introducing-time-bubbles.rst"&gt;my previous post&lt;/a&gt;
+feature I mentioned briefly at the end of &lt;a class="reference external" href="https://blog.instantbird.org/2011/06/introducing-time-bubbles/"&gt;my previous post&lt;/a&gt;
 introducing time bubbles reminded me that we forgot to introduce this
 feature when it landed for Instantbird 0.2 as part of our implementation
-of &lt;a class="reference external" href="https://blog.instantbird.org/articles/instantbird-0-2-feature-preview-conversations-customization.rst"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
+of &lt;a class="reference external" href="https://blog.instantbird.org/2009/07/instantbird-0-2-feature-preview-conversations-customization/"&gt;the Adium message theme system&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We decided to use this theme system because it seemed nice overall and
 was already used by a few other clients as well. However there was
 something we really didn&amp;#8217;t like: using a customized message theme could

@@ -68,7 +68,7 @@ hesitate to share Instantbird with your friends. Our servers are&amp;nbsp;ready!
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">flo</dc:creator><pubDate>Sat, 02 Jul 2011 03:15:23 +0000</pubDate><guid isPermaLink="false">tag:blog.instantbird.org,2011-07-02:/2011/07/instantbird-1-0-release-3-days-later/</guid><category>Community</category><category>1.0</category><category>downloads</category></item><item><title>Instantbird 1.0 released in 11 locales!</title><link>https://blog.instantbird.org/2011/06/instantbird-1-0-released-in-11-locales/</link><description>&lt;p&gt;The Instantbird team is pleased to announce a polished &lt;strong&gt;Instantbird
 1.0&lt;/strong&gt;, released today in 11&amp;nbsp;locales.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="http://www.instantbird.com/press/logos/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird logo" src="http://www.instantbird.com/press/logos/instantbird-text-512x128.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instantbird is an extremely easy to use and highly &lt;strong&gt;extensible instant
 messaging&lt;/strong&gt; client that aims to respect its&amp;nbsp;users!&lt;/p&gt;
 &lt;p&gt;Building on the experience available via &lt;strong&gt;open-source&lt;/strong&gt; software,
@@ -79,7 +79,7 @@ to a wide variety of instant messaging networks, while providing an easy
 cross-platform&lt;/strong&gt; (Windows, Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X, Linux), we strive to present a
 &lt;strong&gt;native look-and-feel&lt;/strong&gt; to the user&amp;nbsp;interface.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;Get Instantbird 1.0&amp;nbsp;now!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird 1.0 screenshot on Windows 7" src="http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="http://www.instantbird.com/"&gt;&lt;img alt="Instantbird 1.0 screenshot on Windows 7" src="http://www.instantbird.com/press/screenshots/1.0-winaero-screenshot-homepage-big.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="supported-networks"&gt;
 &lt;h2&gt;Supported&amp;nbsp;networks&lt;/h2&gt;
 &lt;p&gt;First and foremost, Instantbird is an instant messaging client with a
