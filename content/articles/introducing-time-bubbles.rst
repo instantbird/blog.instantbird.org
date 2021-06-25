@@ -150,7 +150,7 @@ nightly builds <http://nightly.instantbird.im/>`__, and it will be in
 Instantbird 0.3 beta 1 which we plan to release very soon. We look
 forward to your feedback on this!
 
-.. _the findbar: {static}/articles/conversation-tools.rst
+.. _the findbar: {filename}/articles/conversation-tools.rst
 
 .. |default message themes of Instantbird 0.2| image:: {static}/images/instantbird-0.2-default-themes.png
 .. |screenshot with 2 bubbles touching each other, and 2 bubbles with some space between them| image:: {static}/images/bubbles-with-different-spacing.png

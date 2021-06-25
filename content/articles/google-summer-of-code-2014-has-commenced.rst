@@ -32,13 +32,13 @@ congratulate our students! Thanks again to Mozilla for allowing us to
 participate in Google Summer of Code with them!
 
 .. _Google Summer of Code: https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/about_page
-.. _the: {static}/articles/google-summer-of-code-2012.rst
-.. _past: {static}/articles/google-summer-of-code-2013-projects-announced.rst
+.. _the: {filename}/articles/google-summer-of-code-2012.rst
+.. _past: {filename}/articles/google-summer-of-code-2013-projects-announced.rst
 .. _Saurabh Anand: http://sawrubh.tumblr.com/
 .. _Patrick Cloke: http://patrick.cloke.us/
 .. _FileLink: https://support.mozilla.org/en-US/kb/filelink-large-attachments
 .. _Mayank Kumar: http://mayanktg.github.io/
 .. _WebRTC: http://www.webrtc.org/
 .. _Nihanth Subramanya: http://nhnt11.com/blog/
-.. _awesometab: {static}/articles/first-milestone-of-the-awesometab-has-landed.rst
+.. _awesometab: {filename}/articles/first-milestone-of-the-awesometab-has-landed.rst
 .. _#instantbird on irc.mozilla.org: irc://irc.mozilla.org/#instantbird

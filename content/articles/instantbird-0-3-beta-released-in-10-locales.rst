@@ -35,4 +35,4 @@ We look forward to receiving your feedback to help us make the final
 Instantbird 0.3 release (planned for this month!) a piece of software
 you will want to share with all your friends!
 
-.. _improved default message theme: {static}/articles/introducing-time-bubbles.rst
+.. _improved default message theme: {filename}/articles/introducing-time-bubbles.rst

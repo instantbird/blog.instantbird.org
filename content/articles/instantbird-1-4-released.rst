@@ -50,4 +50,4 @@ Google Summer of Code and finish integrating the Account Import Wizard
 from Google Summer of Code 2012! As always, if you see any issues,
 please `file bugs <https://bugzilla.instantbird.org>`__!
 
-.. _Instantbird 1.3 release: {static}/articles/instantbird-1-3-released.rst
+.. _Instantbird 1.3 release: {filename}/articles/instantbird-1-3-released.rst

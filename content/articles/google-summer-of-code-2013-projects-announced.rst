@@ -52,8 +52,8 @@ We’d like to thank Mozilla for letting us apply to Google Summer of Code as pa
 of them! You can see the other student projects Mozilla is mentoring on the
 `Google Summer of Code site`_.
 
-.. _Account Import Wizard: {static}/articles/google-summer-of-code-2012.rst
-.. _JavaScript XMPP Implementation: {static}/articles/status-update-april-2011-may-2011.rst
+.. _Account Import Wizard: {filename}/articles/google-summer-of-code-2012.rst
+.. _JavaScript XMPP Implementation: {filename}/articles/status-update-april-2011-may-2011.rst
 .. _Quentin Headen: http://phaseshiftsoftware.com/blog/category/gsoc-2013-logs/
 .. _Atul Jangra: http://atuljangra.tumblr.com/
 .. _Nihanth Subramanya: http://awesometab.blogspot.com/

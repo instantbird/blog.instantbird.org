@@ -118,4 +118,4 @@ provide an experimental French translation of this build (most people in
 our team are French, so French was the logical choice for testing all of
 this ourselves).
 
-.. _libpurple protocol plugins packaged as extensions: {static}/articles/instantbird-0-2-feature-preview-protocols-as-extensions-2.rst
+.. _libpurple protocol plugins packaged as extensions: {filename}/articles/instantbird-0-2-feature-preview-protocols-as-extensions-2.rst

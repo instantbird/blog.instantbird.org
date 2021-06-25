@@ -175,4 +175,4 @@ it. We definitely plan to release faster than we used to do before
 Instantbird 1.0. Our current target date for the next release is the end
 of September!
 
-.. _Combine your contacts that are the same person: {static}/articles/better-contact-list.rst
+.. _Combine your contacts that are the same person: {filename}/articles/better-contact-list.rst

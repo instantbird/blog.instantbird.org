@@ -73,12 +73,11 @@ that is barely noticed because it just works, but it is something that
 is really missed if using another IM client after using Instantbird for
 a while.
 
-.. _my previous post: {static}/articles/introducing-time-bubbles.rst
-.. _the Adium message theme system: {static}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+.. _my previous post: {filename}/articles/introducing-time-bubbles.rst
+.. _the Adium message theme system: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
 
 .. |Copying from a conversation without the 'magic copy' feature| image:: {static}/images/copy-normal.png
 .. |Same conversation copied with magic copy| image:: {static}/images/copy-magic.png
 .. |Copying a part of a single message| image:: {static}/images/copy-part-of-one-message.png
 .. |Ellipsis are added where messages are cut| image:: {static}/images/copy-ellipsis.png
 .. |Copying parts of multiple messages| image:: {static}/images/copy-multi-select.png
-

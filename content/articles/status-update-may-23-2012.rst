@@ -93,4 +93,4 @@ application, timeline and a series of links) that he'll be updating as
 the summer continues. (And of course you can stop by our IRC channel,
 #instantbird on irc.mozilla.org, and say "Hi!")
 
-.. _Google Summer of Code 2012 student: {static}/articles/google-summer-of-code-2012.rst
+.. _Google Summer of Code 2012 student: {filename}/articles/google-summer-of-code-2012.rst

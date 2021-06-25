@@ -30,8 +30,8 @@ now <http://www.instantbird.com/>`__!
 In the next few days, we will talk about our plans for the future, and
 especially Instantbird 0.3. Stay tuned!
 
-.. _new tabs: {static}/articles/tabs.rst
-.. _message styles: {static}/articles/message-styles.rst
+.. _new tabs: {filename}/articles/tabs.rst
+.. _message styles: {filename}/articles/message-styles.rst
 
 .. |Instantbird logo| image:: {static}/images/instantbird-text-512x128.png
    :target: http://www.instantbird.com/

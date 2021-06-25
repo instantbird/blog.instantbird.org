@@ -91,7 +91,7 @@ for you to enjoy trying out. `Creating a new
 one <http://wiki.instantbird.org/Instantbird:Message_Styles>`__ yourself
 is also very easy.
 
-.. _already explained: {static}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
+.. _already explained: {filename}/articles/instantbird-0-2-feature-preview-conversations-customization.rst
 
 .. |chat room with people talking in colorful chat bubbles| image:: {static}/images/chatroom2.png
 .. |Conversation using the Bubbles theme, with grouped messages and collapsed system messages| image:: {static}/images/bubbles2.png

@@ -22,4 +22,4 @@ Instantbird and how to extend Instantbird with a protocol plugin written
 in JS then you definitely should go and read it at `his
 blog <http://patrick.cloke.us/posts/2010/12/08/why-rewrite-irc-into-javascript/>`__.
 
-.. _js-proto branch: {static}/articles/status-update.rst
+.. _js-proto branch: {filename}/articles/status-update.rst
