@@ -13,4 +13,4 @@ lxml==4.6.5
 pandoc==1.0.2
 
 # Required by the pelican_comment_system.
-pillow==8.3.2
+pillow==9.0.0
